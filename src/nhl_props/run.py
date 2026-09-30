@@ -15,7 +15,7 @@ def _dates_back(n: int, anchor: str) -> list[str]:
     return [(d0 - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(n)]
 
 
-def ingest_finished(dates: list[str]) -> None:
+def ingest_finished(dates: list[str], *, force: bool = False) -> None:
     for d in dates:
         games = schedule.load_day(d) or schedule.save_day(d)
         for g in games:
@@ -23,10 +23,10 @@ def ingest_finished(dates: list[str]) -> None:
                 continue
             box = results.BOX_DIR / f"{g['game_id']}.csv"
             shifts = results.SHIFT_DIR / f"{g['game_id']}.csv"
-            if box.exists() and shifts.exists():
+            if box.exists() and shifts.exists() and not force:
                 continue
             try:
-                st = results.ingest_game(g["game_id"], force=box.exists() and not shifts.exists())
+                st = results.ingest_game(g["game_id"], force=force or (box.exists() and not shifts.exists()))
                 log.info("ingest %s %s@%s: %s", g["game_id"], g["away"], g["home"], st)
             except Exception as e:
                 log.error("ingest %s failed: %s", g["game_id"], e)
@@ -81,6 +81,7 @@ def main() -> None:
     ap.add_argument("job", choices=["morning", "evening", "overnight", "backfill"])
     ap.add_argument("--date", default=None, help="ET game date, default today")
     ap.add_argument("--days", type=int, default=7, help="backfill: how many days back")
+    ap.add_argument("--force", action="store_true", help="backfill: re-pull games that already have files")
     a = ap.parse_args()
     date = a.date or today_et()
     log.info("job=%s date=%s now_et=%s", a.job, date, now_utc().astimezone(ET).strftime("%H:%M"))
@@ -92,7 +93,7 @@ def main() -> None:
     elif a.job == "overnight":
         overnight(date)
     elif a.job == "backfill":
-        ingest_finished(_dates_back(a.days, date))
+        ingest_finished(_dates_back(a.days, date), force=a.force)
 
 
 if __name__ == "__main__":

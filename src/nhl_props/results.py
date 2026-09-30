@@ -18,9 +18,10 @@ SHIFT_DIR = DATA / "shifts"
 LINES_DIR = DATA / "lines_actual"
 GAMEINFO_DIR = DATA / "games"
 
-SKATER_FIELDS = ["game_id", "date", "team", "opp", "home", "player_id", "player", "sweater", "pos",
+SKATER_FIELDS = ["game_id", "date", "team", "opp", "home", "player_id", "player", "full_name", "sweater", "pos",
                  "goals", "assists", "points", "plus_minus", "pim", "hits", "pp_goals", "sog",
-                 "faceoff_pct", "toi", "pp_toi", "sh_toi", "blocked", "shifts", "giveaways", "takeaways",
+                 "faceoff_pct", "toi", "toi_s", "ev_toi_s", "pp_toi_s", "sh_toi_s", "blocked", "shifts",
+                 "giveaways", "takeaways",
                  "starter", "decision", "shots_against", "saves", "save_pct", "goals_against"]
 
 
@@ -42,7 +43,7 @@ def boxscore_rows(box: dict) -> list[dict]:
     pbgs = box.get("playerByGameStats") or {}
     for side, abbrev in teams.items():
         opp = teams["homeTeam"] if side == "awayTeam" else teams["awayTeam"]
-        for group in ("forwards", "defensemen", "goalies"):
+        for group in ("forwards", "defense", "defensemen", "goalies"):
             for p in (pbgs.get(side) or {}).get(group, []):
                 sa = p.get("saveShotsAgainst")  # "27/29" style for goalies
                 saves = shots = None
@@ -65,6 +66,18 @@ def boxscore_rows(box: dict) -> list[dict]:
                     "goals_against": p.get("goalsAgainst"),
                 })
     return rows
+
+
+def fetch_toi(game_id: int) -> dict[int, dict]:
+    """EV/PP/SH time on ice in seconds per skater, from the NHL stats REST API (not in the boxscore)."""
+    payload = get_json(f"{NHL_STATS}/skater/timeonice?cayenneExp=gameId={game_id}&limit=-1")
+    out = {}
+    for r in payload.get("data", []):
+        out[r["playerId"]] = {
+            "full_name": r.get("skaterFullName"), "toi_s": r.get("timeOnIce"), "ev_toi_s": r.get("evTimeOnIce"),
+            "pp_toi_s": r.get("ppTimeOnIce"), "sh_toi_s": r.get("shTimeOnIce"),
+        }
+    return out
 
 
 def fetch_shifts(game_id: int) -> list[dict]:
@@ -132,6 +145,14 @@ def ingest_game(game_id: int, *, force: bool = False) -> str:
     rows = boxscore_rows(box)
     if not rows:
         return "no_player_stats"
+    try:
+        toi = fetch_toi(game_id)
+        for r in rows:
+            r.update(toi.get(r["player_id"], {}))
+            if not r.get("toi_s"):
+                r["toi_s"] = _toi_secs(r.get("toi"))
+    except Exception as e:
+        log.warning("timeonice for %s failed (%s) — continuing without PP/SH TOI", game_id, e)
     write_csv(box_path, rows, SKATER_FIELDS)
     write_json(GAMEINFO_DIR / f"{game_id}.json", {
         "game_id": box["id"], "date": box.get("gameDate"), "state": state, "start_utc": box.get("startTimeUTC"),
