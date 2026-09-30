@@ -1,28 +1,28 @@
 """Projected line combinations from Daily Faceoff.
 
+DFO is a Next.js site: every team page embeds a `__NEXT_DATA__` JSON blob with the full
+`combinations` object (players with group/position identifiers, injuries, PP/PK units, last-5/10
+stats). We read that instead of scraping the rendered HTML.
+
 Snapshots live at data/lineups/YYYY-MM-DD/<TEAM>/<UTCSTAMP>.json and are only written when the
 parsed lineup differs from the previous snapshot for that team on that day, so the folder is a
 change log: one file per meaningful update.
 """
 from __future__ import annotations
 
+import json
 import re
-from pathlib import Path
 
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup
 
 from .common import DATA, DFO, TEAM_SLUGS, content_hash, get, log, now_utc, read_json, stamp, write_json
 
 LINEUP_DIR = DATA / "lineups"
 DEBUG_DIR = DATA / "debug"
+MAX_DEBUG_FILES = 6
 
-SECTIONS = {"forward": "F", "forwards": "F", "defense": "D", "defence": "D", "goalies": "G",
-            "goalie": "G", "power play": "PP", "powerplay": "PP", "penalty kill": "PK", "injuries": "INJ"}
-POS = {"LW", "C", "RW", "LD", "RD", "G", "D", "F"}
-LINE_RE = re.compile(r"^(1st|2nd|3rd|4th|5th)\s+(line|pairing|pair|powerplay unit|power play unit|penalty kill unit|pp unit|pk unit|unit)\s*$", re.I)
-PLAYER_HREF = re.compile(r"/players/(?:news/)?([a-z0-9\-']+)/(\d+)", re.I)
-UPDATED_RE = re.compile(r"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z)")
-STATUS_WORDS = {"OUT", "IR", "LTIR", "DAY-TO-DAY", "DAY TO DAY", "QUESTIONABLE", "DOUBTFUL", "PROBABLE", "GTD", "SUSPENDED"}
+# categoryIdentifier -> our section code
+CATEGORY = {"ev": None, "pp": "PP", "pk": "PK", "oi": "INJ"}  # ev is split by group below
 
 
 def fetch_html(abbrev: str) -> str:
@@ -33,89 +33,97 @@ def fetch_html(abbrev: str) -> str:
     return r.text
 
 
-def _short_text(t: Tag) -> str:
-    return " ".join(t.get_text(" ", strip=True).split())
+def next_data(html: str) -> dict | None:
+    soup = BeautifulSoup(html, "lxml")
+    tag = soup.find("script", id="__NEXT_DATA__")
+    if not tag or not tag.string:
+        return None
+    try:
+        return json.loads(tag.string)
+    except json.JSONDecodeError:
+        return None
+
+
+def _stat(block: dict | None) -> dict:
+    if not block:
+        return {}
+    return {
+        "gp": block.get("gamesPlayed"), "g": block.get("goals"), "a": block.get("assists"),
+        "p": block.get("points"), "sog": block.get("shots"), "ppp": block.get("powerplayPoints"),
+        "toi_s": (block.get("toiMinutes") or 0) * 60 + (block.get("toiSeconds") or 0),
+    }
 
 
 def parse(html: str) -> dict:
-    """Walk the page in document order, tracking the current H4 section and line label."""
-    soup = BeautifulSoup(html, "lxml")
-    m = UPDATED_RE.search(html)
-    updated = m.group(1) if m else None
+    nd = next_data(html)
+    comb = (((nd or {}).get("props") or {}).get("pageProps") or {}).get("combinations")
+    if not comb:
+        return {"updated_dfo": None, "source": None, "lines": [], "injuries": [], "players": []}
 
-    section = None
-    line_label = None
-    slot_pos = None
-    slot_idx = 0
-    seen: set[tuple] = set()
-    rows: list[dict] = []
+    lines: list[dict] = []
     injuries: list[dict] = []
-    last_injury: dict | None = None
+    players: dict[int, dict] = {}
+    for p in comb.get("players", []):
+        cat = p.get("categoryIdentifier")
+        grp = (p.get("groupIdentifier") or "").lower()
+        posid = (p.get("positionIdentifier") or "").lower()
+        pid = p.get("playerId")
+        name = p.get("name")
+        m = re.match(r"([a-z]+?)(\d+)$", grp)
+        unit_no = int(m.group(2)) if m else None
 
-    for el in soup.find_all(True):
-        name = el.name.lower()
-        if name in ("h2", "h3", "h4"):
-            txt = _short_text(el).lower()
-            if name == "h2" and section is not None and "line combinations" not in txt:
-                break  # left the lineup block (e.g. "Using ... for Betting and DFS")
-            key = SECTIONS.get(txt)
-            if key:
-                section, line_label, slot_idx = key, None, 0
+        if cat == "oi":  # out / injured
+            injuries.append({"player": name, "dfo_id": pid, "status": (p.get("injuryStatus") or "").upper() or None,
+                             "gtd": bool(p.get("gameTimeDecision")),
+                             "news": ((p.get("latestNews") or {}).get("details") or "").strip() or None})
             continue
-        if section is None:
-            continue
-        if name == "a" and el.get("href"):
-            pm = PLAYER_HREF.search(el["href"])
-            if not pm:
-                continue
-            pname = _short_text(el)
-            if not pname:
-                continue
-            dfo_id = int(pm.group(2))
-            if section == "INJ":
-                last_injury = {"player": pname, "dfo_id": dfo_id, "status": None}
-                injuries.append(last_injury)
-                continue
-            key = (section, line_label, dfo_id)
-            if key in seen:
-                continue
-            seen.add(key)
-            slot_idx += 1
-            rows.append({
-                "section": section,          # F / D / G / PP / PK
-                "unit": line_label,          # "1st Line", "2nd Pairing", "1st Powerplay Unit" ...
-                "unit_no": _unit_no(line_label, section, slot_idx),
-                "slot": slot_idx,
-                "pos": slot_pos if section in ("F", "D", "G") else None,
-                "player": pname,
-                "dfo_id": dfo_id,
-            })
-            slot_pos = None
-            continue
-        # leaf-ish text nodes for labels: only look at elements with no element children
-        if not el.find(True):
-            txt = _short_text(el)
-            if LINE_RE.match(txt):
-                line_label, slot_idx = txt, 0
-                continue
-            if txt.upper() in POS:
-                slot_pos = txt.upper()
-                continue
-            if section == "INJ" and last_injury and txt.upper() in STATUS_WORDS and not last_injury.get("status"):
-                last_injury["status"] = txt.upper()
-                continue
 
-    return {"updated_dfo": updated, "lines": rows, "injuries": injuries}
+        if cat == "ev":
+            if grp.startswith("f"):
+                section, pos = "F", posid.upper()
+            elif grp.startswith("d"):
+                section, pos = "D", posid.upper()
+            elif grp == "g":
+                section, pos = "G", "G"
+                unit_no = int(posid[-1]) if posid[-1:].isdigit() else None  # g1 = starter, g2 = backup
+            else:
+                section, pos = "EV?", posid.upper()
+        else:
+            section, pos = CATEGORY.get(cat, cat.upper() if cat else "?"), None
+
+        slot = int(posid[-1]) if posid[-1:].isdigit() else None
+        lines.append({
+            "section": section, "unit": p.get("groupName"), "unit_no": unit_no,
+            "slot": slot, "pos": pos, "player": name, "dfo_id": pid,
+            "gtd": bool(p.get("gameTimeDecision")), "injury_status": p.get("injuryStatus"),
+        })
+        if pid not in players:
+            players[pid] = {
+                "dfo_id": pid, "player": name, "pos": posid.upper() if cat == "ev" else None,
+                "jersey": p.get("jerseyNumber"), "rating": p.get("rating"), "pos_rank": p.get("positionRank"),
+                "season": _stat(p.get("season")), "last5": _stat(p.get("last5")), "last10": _stat(p.get("last10")),
+            }
+
+    # unit quality ratings DFO assigns to each line/pair/unit
+    unit_ratings = {l.get("groupIdentifier"): {"rating": l.get("rating"), "rank": l.get("rank")}
+                    for l in comb.get("lines", []) if l.get("groupIdentifier")}
+
+    return {
+        "updated_dfo": comb.get("updatedAt"),
+        "source": comb.get("source"),
+        "source_name": comb.get("sourceName"),
+        "lines": lines,
+        "injuries": injuries,
+        "players": list(players.values()),
+        "unit_ratings": unit_ratings,
+    }
 
 
-def _unit_no(label: str | None, section: str, slot: int) -> int | None:
-    if label:
-        m = re.match(r"(\d)", label)
-        if m:
-            return int(m.group(1))
-    if section == "G":
-        return slot  # 1 = listed starter, 2 = backup
-    return None
+def _save_debug(name: str, html: str) -> None:
+    DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+    if len(list(DEBUG_DIR.glob("*.html"))) >= MAX_DEBUG_FILES:
+        return
+    (DEBUG_DIR / f"{name}_{stamp()}.html").write_text(html)
 
 
 def snapshot_team(abbrev: str, date: str) -> tuple[str, bool]:
@@ -124,29 +132,24 @@ def snapshot_team(abbrev: str, date: str) -> tuple[str, bool]:
     parsed = parse(html)
     n_f = sum(1 for r in parsed["lines"] if r["section"] == "F")
     if n_f < 9:
-        DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-        (DEBUG_DIR / f"dfo_{abbrev}_{stamp()}.html").write_text(html)
+        _save_debug(f"dfo_{abbrev}", html)
         log.warning("DFO %s: parsed only %d forwards — saved HTML for debugging", abbrev, n_f)
         return "parse_failed", False
 
     team_dir = LINEUP_DIR / date / abbrev
     prev_files = sorted(team_dir.glob("*.json")) if team_dir.exists() else []
+    # hash only the deployment itself (not rolling stats), so a stats refresh doesn't count as a change
     h = content_hash({"lines": parsed["lines"], "injuries": parsed["injuries"]})
     if prev_files:
         prev = read_json(prev_files[-1])
         if prev and prev.get("hash") == h:
             return "unchanged", False
 
-    out = {
-        "team": abbrev,
-        "date": date,
-        "captured_utc": now_utc().isoformat(),
-        "hash": h,
-        **parsed,
-    }
+    out = {"team": abbrev, "date": date, "captured_utc": now_utc().isoformat(), "hash": h, **parsed}
     write_json(team_dir / f"{stamp()}.json", out)
-    log.info("DFO %s: new lineup snapshot (%d skaters, %d injuries)", abbrev,
-             sum(1 for r in parsed["lines"] if r["section"] in ("F", "D")), len(parsed["injuries"]))
+    log.info("DFO %s: new lineup snapshot (%d skaters, %d injuries, dfo updated %s)", abbrev,
+             sum(1 for r in parsed["lines"] if r["section"] in ("F", "D")), len(parsed["injuries"]),
+             parsed.get("updated_dfo"))
     return "written", True
 
 

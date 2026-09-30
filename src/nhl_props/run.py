@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from . import goalies, lineups, results, schedule
 from .common import ET, log, now_utc, today_et
@@ -60,6 +60,22 @@ def overnight(date: str) -> None:
     ingest_finished(_dates_back(4, date))
 
 
+def prune_debug(max_age_days: int = 2) -> None:
+    """Debug HTML captures are only useful for a day or two; keep the repo small."""
+    from .lineups import DEBUG_DIR
+    if not DEBUG_DIR.exists():
+        return
+    cutoff = now_utc().timestamp() - max_age_days * 86400
+    for f in DEBUG_DIR.glob("*.html"):
+        # Actions checkouts reset mtimes, so read the UTC stamp from the file name instead
+        try:
+            ts = datetime.strptime(f.stem.rsplit("_", 1)[-1], "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc).timestamp()
+        except ValueError:
+            continue
+        if ts < cutoff:
+            f.unlink()
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("job", choices=["morning", "evening", "overnight", "backfill"])
@@ -68,6 +84,7 @@ def main() -> None:
     a = ap.parse_args()
     date = a.date or today_et()
     log.info("job=%s date=%s now_et=%s", a.job, date, now_utc().astimezone(ET).strftime("%H:%M"))
+    prune_debug()
     if a.job == "morning":
         morning(date)
     elif a.job == "evening":

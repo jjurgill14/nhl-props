@@ -1,26 +1,18 @@
-"""Starting goalies from Daily Faceoff (/starting-goalies/YYYY-MM-DD).
-
-Every run appends one row per goalie to data/goalies/YYYY-MM-DD.csv, so you can see when a
-start went from Unconfirmed -> Confirmed.
+"""Starting goalies from Daily Faceoff (/starting-goalies/YYYY-MM-DD), read from the page's
+`__NEXT_DATA__` JSON. Every run appends one row per goalie to data/goalies/YYYY-MM-DD.csv, so you
+can see when a start went from Unconfirmed -> Likely -> Confirmed, and what the line was.
 """
 from __future__ import annotations
-
-import re
 
 from bs4 import BeautifulSoup
 
 from .common import DATA, DFO, TEAM_NAMES, get, log, now_utc, stamp, write_csv
+from .lineups import next_data, _save_debug
 
 GOALIE_DIR = DATA / "goalies"
-DEBUG_DIR = DATA / "debug"
 
-MATCHUP_RE = re.compile(r"^(.+?)\s+at\s+(.+?)$")
-ISO_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$")
-PLAYER_HREF = re.compile(r"/players/(?:news/)?([a-z0-9\-']+)/(\d+)", re.I)
-STATUSES = {"confirmed": "Confirmed", "unconfirmed": "Unconfirmed", "likely": "Likely",
-            "expected": "Expected", "projected": "Projected"}
-
-FIELDS = ["date", "captured_utc", "away", "home", "start_utc", "team", "goalie", "dfo_id", "status", "news"]
+FIELDS = ["date", "captured_utc", "away", "home", "start_utc", "team", "side", "goalie", "dfo_id",
+          "status", "news_utc", "news", "source", "moneyline", "spread", "season_sv_pct", "season_gaa"]
 
 
 def fetch_html(date: str) -> str:
@@ -31,47 +23,25 @@ def fetch_html(date: str) -> str:
 
 
 def parse(html: str, date: str) -> list[dict]:
-    soup = BeautifulSoup(html, "lxml")
-    rows: list[dict] = []
-    away = home = start = None
-    side = 0  # 0 = away goalie next, 1 = home goalie next
-    cur: dict | None = None
+    nd = next_data(html)
+    games = (((nd or {}).get("props") or {}).get("pageProps") or {}).get("data") or []
     cap = now_utc().isoformat()
-
-    for el in soup.find_all(True):
-        name = el.name.lower()
-        if name == "a" and el.get("href") and PLAYER_HREF.search(el["href"]):
-            txt = " ".join(el.get_text(" ", strip=True).split())
-            if not txt or not away:
-                continue
-            # skip nav links (team line combos etc.) — those don't hit /players/
-            dfo_id = int(PLAYER_HREF.search(el["href"]).group(2))
-            if cur and cur["dfo_id"] == dfo_id:
-                continue
-            team = away if side == 0 else home
-            cur = {"date": date, "captured_utc": cap, "away": away, "home": home, "start_utc": start,
-                   "team": team, "goalie": txt, "dfo_id": dfo_id, "status": None, "news": ""}
-            rows.append(cur)
-            side = 1 - side
-            continue
-        if el.find(True):
-            continue  # only leaf text from here on
-        txt = " ".join(el.get_text(" ", strip=True).split())
-        if not txt:
-            continue
-        m = MATCHUP_RE.match(txt)
-        if m and m.group(1) in TEAM_NAMES and m.group(2) in TEAM_NAMES:
-            away, home, start, side, cur = TEAM_NAMES[m.group(1)], TEAM_NAMES[m.group(2)], None, 0, None
-            continue
-        if ISO_RE.match(txt):
-            start = txt
-            continue
-        low = txt.lower()
-        if cur and cur["status"] is None and low in STATUSES:
-            cur["status"] = STATUSES[low]
-            continue
-        if cur and cur["status"] and not cur["news"] and len(txt) > 40 and name in ("p", "div", "span"):
-            cur["news"] = txt[:500]
+    rows: list[dict] = []
+    for g in games:
+        away = TEAM_NAMES.get(g.get("awayTeamName"), g.get("awayTeamName"))
+        home = TEAM_NAMES.get(g.get("homeTeamName"), g.get("homeTeamName"))
+        for side in ("away", "home"):
+            k = lambda s: g.get(f"{side}{s}")  # noqa: E731
+            rows.append({
+                "date": g.get("date") or date, "captured_utc": cap, "away": away, "home": home,
+                "start_utc": g.get("dateGmt"), "team": away if side == "away" else home, "side": side,
+                "goalie": k("GoalieName"), "dfo_id": k("GoalieId"),
+                "status": k("NewsStrengthName"),           # Confirmed / Likely / Unconfirmed ...
+                "news_utc": k("NewsCreatedAt"), "news": (k("NewsDetails") or "").strip(),
+                "source": k("NewsSourceName"),
+                "moneyline": k("TeamMoneylinePointSpread"), "spread": g.get("pointSpread"),
+                "season_sv_pct": k("GoalieSavePercentage"), "season_gaa": k("GoalieGoalsAgainstAvg"),
+            })
     return rows
 
 
@@ -79,8 +49,7 @@ def snapshot(date: str) -> list[dict]:
     html = fetch_html(date)
     rows = parse(html, date)
     if not rows:
-        DEBUG_DIR.mkdir(parents=True, exist_ok=True)
-        (DEBUG_DIR / f"dfo_goalies_{date}_{stamp()}.html").write_text(html)
+        _save_debug(f"dfo_goalies_{date}", html)
         log.warning("DFO goalies %s: parsed 0 rows — saved HTML for debugging", date)
         return rows
     write_csv(GOALIE_DIR / f"{date}.csv", rows, FIELDS, append=True)
