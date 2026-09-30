@@ -1,0 +1,44 @@
+name: overnight
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "ET game date (YYYY-MM-DD), blank = today"
+        required: false
+        default: ""
+concurrency:
+  group: nhl-data
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: overnight
+        env:
+          PYTHONPATH: src
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python -m nhl_props.run overnight --date "${{ github.event.inputs.date }}"
+          else
+            python -m nhl_props.run overnight
+          fi
+      - name: Commit data
+        run: |
+          git config user.name "nhl-props-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "overnight: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
+          git push
