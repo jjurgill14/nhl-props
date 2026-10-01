@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timedelta, timezone
 
-from . import goalies, lineups, results, schedule
+from . import goalies, lineups, report, results, schedule
 from .common import ET, log, now_utc, today_et
 
 WINDOW_HOURS = 3.0
@@ -86,14 +86,22 @@ def main() -> None:
     date = a.date or today_et()
     log.info("job=%s date=%s now_et=%s", a.job, date, now_utc().astimezone(ET).strftime("%H:%M"))
     prune_debug()
-    if a.job == "morning":
-        morning(date)
-    elif a.job == "evening":
-        evening(date)
-    elif a.job == "overnight":
-        overnight(date)
-    elif a.job == "backfill":
-        ingest_finished(_dates_back(a.days, date), force=a.force)
+    try:
+        if a.job == "morning":
+            morning(date)
+        elif a.job == "evening":
+            evening(date)
+        elif a.job == "overnight":
+            overnight(date)
+        elif a.job == "backfill":
+            ingest_finished(_dates_back(a.days, date), force=a.force)
+    finally:
+        # always leave a fresh one-pager, even if a source failed mid-run
+        report.log_run(a.job, date=date)
+        try:
+            report.build(today_et())
+        except Exception as e:  # the page must never break data collection
+            log.error("report failed: %s", e)
 
 
 if __name__ == "__main__":

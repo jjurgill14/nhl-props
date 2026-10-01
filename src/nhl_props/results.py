@@ -153,6 +153,14 @@ def ingest_game(game_id: int, *, force: bool = False) -> str:
                 r["toi_s"] = _toi_secs(r.get("toi"))
     except Exception as e:
         log.warning("timeonice for %s failed (%s) — continuing without PP/SH TOI", game_id, e)
+    try:  # goalies aren't in the timeonice report; take their full names from the shift chart
+        shifts_pre = fetch_shifts(game_id)
+        names = {s["player_id"]: s["player"] for s in shifts_pre}
+        for r in rows:
+            if not r.get("full_name"):
+                r["full_name"] = names.get(r["player_id"])
+    except Exception:
+        shifts_pre = None
     write_csv(box_path, rows, SKATER_FIELDS)
     write_json(GAMEINFO_DIR / f"{game_id}.json", {
         "game_id": box["id"], "date": box.get("gameDate"), "state": state, "start_utc": box.get("startTimeUTC"),
@@ -162,7 +170,7 @@ def ingest_game(game_id: int, *, force: bool = False) -> str:
         "last_period_type": (box.get("gameOutcome") or {}).get("lastPeriodType"),
     })
     try:
-        shifts = fetch_shifts(game_id)
+        shifts = shifts_pre if shifts_pre is not None else fetch_shifts(game_id)
         write_csv(SHIFT_DIR / f"{game_id}.csv", shifts)
         write_csv(LINES_DIR / f"{game_id}.csv", derive_lines(shifts, rows))
     except Exception as e:  # shifts sometimes lag the boxscore by a while
