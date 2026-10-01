@@ -1,7 +1,8 @@
 """Daily one-pager, written to docs/index.html (served by GitHub Pages) after every job.
 
-Sections: tonight's slate (goalies, lines, PP1, injuries, lineup changes), hot list from DFO rolling
-stats, last night's results + projection check, data health.
+Sections: tonight's slate (odds, goalies, lines with jersey numbers and PP1/PP2 tags, PP stacks, injuries,
+lineup changes), hot list (L5/L10 from THIS season's boxscores only), last night's results + projection
+check, data health.
 """
 from __future__ import annotations
 
@@ -39,6 +40,65 @@ def et(ts: str | None, fmt: str = "%-I:%M %p") -> str:
         return parse_utc(ts).astimezone(ET).strftime(fmt)
     except Exception:
         return ts
+
+
+def american(v) -> str:
+    """+120 / -142 with the sign always shown."""
+    try:
+        n = int(float(v))
+    except (TypeError, ValueError):
+        return "—"
+    return f"+{n}" if n > 0 else str(n)
+
+
+def jersey_of(snap: dict | None) -> dict[str, int]:
+    return {p["player"]: p.get("jersey") for p in (snap or {}).get("players", []) if p.get("jersey")}
+
+
+def pp_units(snap: dict | None) -> dict[str, int]:
+    """player -> 1 or 2 (their best PP unit)."""
+    out: dict[str, int] = {}
+    for r in (snap or {}).get("lines", []):
+        if r["section"] == "PP" and r.get("unit_no") in (1, 2):
+            out[r["player"]] = min(out.get(r["player"], 9), r["unit_no"])
+    return out
+
+
+def pp_tag(no: int | None) -> str:
+    return f' <span class="pp pp{no}">PP{no}</span>' if no in (1, 2) else ""
+
+
+def name_tag(player: str, jersey: dict[str, int], pp: dict[str, int] | None = None, gtd: bool = False) -> str:
+    j = jersey.get(player)
+    cls = ' class="gtd"' if gtd else ""
+    return (f'<span{cls}>{esc(player)}</span>' + (f' <span class="num-j">({j})</span>' if j else "")
+            + (pp_tag(pp.get(player)) if pp else ""))
+
+
+def season_logs() -> dict[tuple[str, str], list[dict]]:
+    """(team, normalized full name) -> this season's game rows from our boxscores, oldest first."""
+    logs: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for f in sorted(results.BOX_DIR.glob("*.csv")) if results.BOX_DIR.exists() else []:
+        for r in read_csv(f):
+            if r.get("pos") == "G":
+                continue
+            key = (r["team"], norm(r.get("full_name") or r["player"]))
+            logs[key].append(r)
+    for rows in logs.values():
+        rows.sort(key=lambda r: (r.get("date") or "", r.get("game_id") or ""))
+    return logs
+
+
+def rolling(rows: list[dict], n: int) -> dict:
+    last = rows[-n:]
+    gp = len(last)
+    if not gp:
+        return {}
+    tot = lambda k: sum(int(r.get(k) or 0) for r in last)  # noqa: E731
+    return {"gp": gp, "p": tot("points"), "g": tot("goals"), "a": tot("assists"), "sog": tot("sog"),
+            "ppg": tot("points") / gp, "gpg": tot("goals") / gp, "spg": tot("sog") / gp,
+            "toi": sum(int(r.get("toi_s") or 0) for r in last) / gp / 60,
+            "pp_toi": sum(int(r.get("pp_toi_s") or 0) for r in last) / gp / 60}
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -114,6 +174,23 @@ def goalie_board(date: str) -> dict[tuple[str, str], dict]:
     return {"latest": latest, "history": history}
 
 
+def pp_stacks(snap: dict) -> list[str]:
+    """EV linemates who also share a PP unit — the correlated-parlay signal."""
+    out = []
+    pp_members: dict[int, set[str]] = {1: {r["player"] for r in unit(snap, "PP", 1)},
+                                       2: {r["player"] for r in unit(snap, "PP", 2)}}
+    for sec, label in (("F", "L"), ("D", "D")):
+        for no in (1, 2, 3, 4):
+            members = [r["player"] for r in unit(snap, sec, no)]
+            if len(members) < 2:
+                continue
+            for ppno, pset in pp_members.items():
+                shared = [m for m in members if m in pset]
+                if len(shared) >= 2:
+                    out.append(f'<span class="pp pp{ppno}">PP{ppno}</span> {label}{no}: ' + ", ".join(esc(x) for x in shared))
+    return out
+
+
 def render_game(g: dict, date: str, gb: dict) -> str:
     start = et(g["start_utc"])
     cols = []
@@ -125,20 +202,25 @@ def render_game(g: dict, date: str, gb: dict) -> str:
         gl = gb["latest"].get(team, {})
         status = gl.get("status") or "—"
         badge = {"Confirmed": "ok", "Likely": "warn", "Expected": "warn"}.get(status, "bad" if status not in ("—",) else "")
-        parts = [f'<div class="team"><h3>{esc(team)} <span class="ml">{esc(gl.get("moneyline") or "")}</span></h3>']
+        jersey, pp = jersey_of(cur), pp_units(cur)
+        parts = [f'<div class="team"><h3>{esc(team)} <span class="ml">{esc(american(gl.get("moneyline")))}</span></h3>']
         parts.append(
             f'<div class="goalie"><span class="badge {badge}">{esc(status)}</span> <b>{esc(gl.get("goalie") or "no goalie listed")}</b>'
             + (f' <span class="muted">— {esc(gl["news"][:140])}</span>' if gl.get("news") else "") + "</div>")
         if cur:
-            def line(sec, no, label):
+            def line(sec, no, label, tags=True):
                 ps = unit(cur, sec, no)
                 if not ps:
                     return ""
-                names = " – ".join(
-                    f'<span class="{"gtd" if p.get("gtd") else ""}">{esc(p["player"])}</span>' for p in ps)
+                names = " – ".join(name_tag(p["player"], jersey, pp if tags else None, p.get("gtd")) for p in ps)
                 return f'<div class="line"><span class="lbl">{label}</span>{names}</div>'
-            parts += [line("F", 1, "L1"), line("F", 2, "L2"), line("F", 3, "L3"), line("D", 1, "D1"),
-                      line("PP", 1, "PP1"), line("PP", 2, "PP2")]
+            parts += [line("F", 1, "L1"), line("F", 2, "L2"), line("F", 3, "L3"), line("F", 4, "L4"),
+                      line("D", 1, "D1"), line("D", 2, "D2"),
+                      line("PP", 1, '<span class="pp pp1">PP1</span>', tags=False),
+                      line("PP", 2, '<span class="pp pp2">PP2</span>', tags=False)]
+            stacks = pp_stacks(cur)
+            if stacks:
+                parts.append('<div class="line stack"><span class="lbl">STACK</span>' + " · ".join(stacks) + "</div>")
             inj = cur.get("injuries", [])
             if inj:
                 parts.append('<div class="line"><span class="lbl">OUT</span>' + ", ".join(
@@ -154,14 +236,17 @@ def render_game(g: dict, date: str, gb: dict) -> str:
             parts.append('<div class="muted small">no lineup snapshot yet</div>')
         parts.append("</div>")
         cols.append("".join(parts))
-    spread = gb["latest"].get(g["home"], {}).get("spread")
-    return (f'<section class="game"><div class="gamehead"><span class="time">{esc(start)}</span> '
-            f'<b>{esc(g["away"])} @ {esc(g["home"])}</b>'
-            + (f' <span class="muted">puck line {esc(spread)}</span>' if spread else "")
-            + f'</div><div class="cols">{"".join(cols)}</div></section>')
+    away_ml = american(gb["latest"].get(g["away"], {}).get("moneyline"))
+    home_ml = american(gb["latest"].get(g["home"], {}).get("moneyline"))
+    total = g.get("total")  # filled once the odds feed exists
+    head = (f'<b>{esc(g["away"])}</b> <span class="ml">({away_ml})</span> @ <b>{esc(g["home"])}</b> <span class="ml">({home_ml})</span>'
+            f' <span class="muted">· O/U {esc(total) if total else "—"}</span>')
+    return (f'<section class="game"><div class="gamehead"><span class="time">{esc(start)}</span> {head}</div>'
+            f'<div class="cols">{"".join(cols)}</div></section>')
 
 
 def hot_list(games: list[dict], date: str) -> str:
+    logs = season_logs()
     rows = []
     for g in games:
         for team in (g["away"], g["home"]):
@@ -169,36 +254,42 @@ def hot_list(games: list[dict], date: str) -> str:
             if not snaps:
                 continue
             cur = snaps[-1]
-            on_pp1 = {r["player"] for r in unit(cur, "PP", 1)}
-            line_of = {r["player"]: r.get("unit_no") for r in cur.get("lines", []) if r["section"] == "F"}
+            pp, jersey = pp_units(cur), jersey_of(cur)
+            line_of = {r["player"]: r.get("unit_no") for r in cur.get("lines", []) if r["section"] in ("F", "D")}
             for p in cur.get("players", []):
-                l10 = p.get("last10") or {}
-                if not l10.get("gp"):
+                if p.get("pos") in ("G", None):
                     continue
-                rows.append({
-                    "team": team, "player": p["player"], "pos": p.get("pos"), "line": line_of.get(p["player"]),
-                    "pp1": p["player"] in on_pp1, "gp": l10["gp"],
-                    "ppg": (l10.get("p") or 0) / l10["gp"], "spg": (l10.get("sog") or 0) / l10["gp"],
-                    "gpg": (l10.get("g") or 0) / l10["gp"], "ppp": l10.get("ppp") or 0,
-                    "toi": (l10.get("toi_s") or 0) / l10["gp"] / 60,
-                })
+                rowsp = logs.get((team, norm(p["player"])), [])
+                if not rowsp:
+                    continue
+                rows.append({"team": team, "player": p["player"], "pos": p.get("pos"), "line": line_of.get(p["player"]),
+                             "pp": pp.get(p["player"]), "jersey": jersey.get(p["player"]),
+                             "l5": rolling(rowsp, 5), "l10": rolling(rowsp, 10)})
     if not rows:
-        return '<p class="muted">No rolling stats yet (DFO last-10 shows up once the season has games).</p>'
+        return '<p class="muted">No games played yet this season for tonight\'s teams.</p>'
 
-    def table(title, key, fmt, n=12):
-        top = sorted(rows, key=lambda r: r[key], reverse=True)[:n]
+    def jtag(j):
+        return f' <span class="num-j">({j})</span>' if j else ""
+
+    def table(window, title, key, fmt, n=12):
+        pool = [r for r in rows if r[window]]
+        top = sorted(pool, key=lambda r: (r[window][key], r[window]["gp"]), reverse=True)[:n]
         trs = "".join(
-            f'<tr><td>{esc(r["player"])}{" <span class=pp>PP1</span>" if r["pp1"] else ""}</td>'
-            f'<td class="muted">{esc(r["team"])} {esc(r["pos"] or "")}{(" L" + str(r["line"])) if r["line"] else ""}</td>'
-            f'<td class="num">{fmt(r[key])}</td><td class="num muted">{r["toi"]:.1f}</td></tr>' for r in top)
+            f'<tr><td>{esc(r["player"])}{jtag(r["jersey"])}{pp_tag(r["pp"])}</td>'
+            f'<td class="muted">{esc(r["team"])} {esc(r["pos"] or "")}{((" D" if (r["pos"] or "") in ("LD", "RD", "D") else " L") + str(r["line"])) if r["line"] else ""}</td>'
+            f'<td class="num">{fmt(r[window][key])}</td><td class="num muted">{r[window]["gp"]}</td>'
+            f'<td class="num muted">{r[window]["toi"]:.1f}</td></tr>' for r in top)
         return (f'<div class="tbl"><h4>{title}</h4><table><thead><tr><th>Player</th><th></th>'
-                f'<th class="num">{title.split(" ")[0]}</th><th class="num">TOI</th></tr></thead><tbody>{trs}</tbody></table></div>')
+                f'<th class="num">{title.split(" ")[0]}</th><th class="num">GP</th><th class="num">TOI</th></tr></thead><tbody>{trs}</tbody></table></div>')
 
-    return ('<div class="cols3">'
-            + table("Points / game (last 10)", "ppg", lambda v: f"{v:.2f}")
-            + table("Shots / game (last 10)", "spg", lambda v: f"{v:.1f}")
-            + table("Goals / game (last 10)", "gpg", lambda v: f"{v:.2f}")
-            + "</div>")
+    blocks = []
+    for window, label in (("l5", "Last 5"), ("l10", "Last 10")):
+        blocks.append(f'<h3 class="sub">{label} <span class="muted small">(this season only; GP = games in window)</span></h3><div class="cols3">'
+                      + table(window, "Points / game", "ppg", lambda v: f"{v:.2f}")
+                      + table(window, "Shots / game", "spg", lambda v: f"{v:.1f}")
+                      + table(window, "Goals / game", "gpg", lambda v: f"{v:.2f}")
+                      + "</div>")
+    return "".join(blocks)
 
 
 def last_night(yday: str) -> str:
@@ -284,7 +375,9 @@ h3{font-size:15px;margin:0 0 6px}h4{font-size:13px;margin:0 0 6px;color:var(--mu
 .badge{display:inline-block;font-size:11px;font-weight:600;padding:1px 6px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
 .badge.ok{color:var(--ok);border-color:var(--ok)}.badge.warn{color:var(--warn);border-color:var(--warn)}.badge.bad{color:var(--bad);border-color:var(--bad)}
 .goalie{margin:0 0 8px}table{border-collapse:collapse;width:100%;font-size:13.5px}th,td{padding:3px 6px;border-bottom:1px solid var(--line);text-align:left}
-th{color:var(--muted);font-weight:600;font-size:12px}.num{text-align:right;font-variant-numeric:tabular-nums}.pp{font-size:10px;color:var(--acc);font-weight:700;margin-left:4px}
+th{color:var(--muted);font-weight:600;font-size:12px}.num{text-align:right;font-variant-numeric:tabular-nums}.pp{font-size:10px;font-weight:700;margin-left:4px;padding:0 4px;border-radius:4px;border:1px solid}
+.pp1{color:var(--ok);border-color:var(--ok)}.pp2{color:var(--warn);border-color:var(--warn)}
+.num-j{color:var(--muted);font-size:12px}.stack{margin-top:4px}.sub{margin:14px 0 6px;font-size:14px}
 .tbl{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.result{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 details summary{cursor:pointer;color:var(--acc)}ul{margin:4px 0 0 18px;padding:0}footer{margin:30px 0 10px;color:var(--muted);font-size:12px}
 """
