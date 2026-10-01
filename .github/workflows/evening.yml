@@ -1,23 +1,26 @@
 name: evening
 on:
   schedule:
-    - cron: "0,30 20-23 * * *"
-    - cron: "0,30 0-3 * * *"
+    # one job per window; each loops internally until the window ends, so a late start still covers the rest.
+    # 20:00Z = 4pm EDT / 3pm EST. Backups at 22:00Z and 00:00Z queue behind a running loop and exit if nothing is left.
+    - cron: "0 20 * * *"
+    - cron: "0 22 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
-      date:
-        description: "ET game date (YYYY-MM-DD), blank = today"
+      once:
+        description: "Run a single pull instead of looping (true/false)"
         required: false
-        default: ""
+        default: "false"
 concurrency:
-  group: nhl-data
+  group: nhl-evening
   cancel-in-progress: false
 permissions:
   contents: write
 jobs:
-  run:
+  loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,21 +28,27 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: evening
+      - name: Pull every 15 min until 11:45pm ET
         env:
           PYTHONPATH: src
         run: |
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            python -m nhl_props.run evening --date "${{ github.event.inputs.date }}"
-          else
-            python -m nhl_props.run evening
-          fi
-      - name: Commit data
-        run: |
           git config user.name "nhl-props-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A data
-          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "evening: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
-          git push
+          END=$(TZ=America/New_York date -d "today 23:45" +%s)
+          NOW=$(date +%s)
+          if [ "$NOW" -gt "$END" ] && [ "${{ github.event.inputs.once }}" != "true" ]; then
+            echo "past window end"; exit 0
+          fi
+          while true; do
+            python -m nhl_props.run evening || echo "evening pull failed (continuing)"
+            git add -A data docs
+            if ! git diff --cached --quiet; then
+              git commit -m "evening: $(date -u +%Y-%m-%dT%H:%MZ)"
+              git pull --rebase || true
+              git push || (git pull --rebase && git push)
+            fi
+            if [ "${{ github.event.inputs.once }}" = "true" ]; then exit 0; fi
+            NOW=$(date +%s)
+            if [ "$NOW" -gt "$END" ]; then echo "window closed"; exit 0; fi
+            sleep 900
+          done
