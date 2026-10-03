@@ -225,9 +225,9 @@ def best_bets(games: list[dict], date: str, logs, rates_season, rates_l5, pairs)
             opp_r = rates_season.get(opp) or {}
             opp_weak = 0.0
             if opp_r:
-                # 1.0 = weakest defense in the league, 0 = stiffest
-                opp_weak = ((n_teams - opp_r["ga_rk"]) / max(n_teams - 1, 1) + (n_teams - opp_r["sa_rk"]) / max(n_teams - 1, 1)) / 2
-                opp_weak = 1 - opp_weak  # ga_rk 1 = most goals allowed -> weak -> want high score
+                # ga_rk / sa_rk: 1 = MOST allowed = weakest defense. Map rank 1 -> 1.0, rank N -> 0.0.
+                opp_weak = ((n_teams - opp_r["ga_rk"]) / max(n_teams - 1, 1)
+                            + (n_teams - opp_r["sa_rk"]) / max(n_teams - 1, 1)) / 2
             for p in cur.get("players", []):
                 name = p["player"]
                 if (p.get("pos") or "") in ("G", ""):
