@@ -422,6 +422,61 @@ def best_bets_section(games: list[dict], date: str, logs, pairs) -> str:
             '+ up to 1.0 for opponent weakness (GA and SOG allowed rank) + 0.2 for L1. This season only; discount small samples.</p>')
 
 
+def pp1_stacks_section(games: list[dict], date: str, logs, pairs) -> str:
+    """The nightly headline: players who share an EV line AND are both on PP1, per game.
+    Shows each player's L5 (this season) and how often each pair has both scored when actually together."""
+    from itertools import combinations
+    season = analysis.team_rates(analysis.all_boxscores())
+    blocks = []
+    for g in games:
+        teams_html = []
+        for side, opp_side in (("away", "home"), ("home", "away")):
+            team, opp = g[side], g[opp_side]
+            snaps = team_snapshots(team, date)
+            cur = snaps[-1] if snaps else None
+            if not cur:
+                continue
+            jersey, extra = jersey_of(cur), extras_for(team, cur, date, logs)
+            pp1 = {r["player"] for r in unit(cur, "PP", 1)}
+            opp_r = season.get(opp) or {}
+            opp_txt = (f'vs {esc(opp)} — allows {opp_r["ga"]:.1f} G/gm ({opp_r["ga_rk"]}{_ord(opp_r["ga_rk"])} most), '
+                       f'{opp_r["sa"]:.0f} SOG/gm ({opp_r["sa_rk"]}{_ord(opp_r["sa_rk"])} most)') if opp_r else f"vs {esc(opp)}"
+            groups = []
+            for sec, label in (("F", "L"), ("D", "D")):
+                for no in (1, 2, 3, 4):
+                    members = [r["player"] for r in unit(cur, sec, no)]
+                    shared = [m for m in members if m in pp1]
+                    if len(shared) < 2:
+                        continue
+                    names = []
+                    for m in shared:
+                        l5 = analysis.rolling(logs.get((team, norm(m)), []), 5)
+                        st = (f' <span class="muted small">{l5["ppg"]:.2f} P/G, {l5["pt_games"]}/{l5["gp"]} pt games</span>'
+                              if l5 else ' <span class="muted small">no games</span>')
+                        names.append(name_tag(m, jersey, None, False, extra) + st)
+                    corr = []
+                    for a, b in combinations(shared, 2):
+                        ps = pairs.get((team,) + tuple(sorted((norm(a), norm(b)))))
+                        short = lambda x: esc(x.split()[-1])  # noqa: E731
+                        if ps and ps["n"]:
+                            corr.append(f'{short(a)}+{short(b)}: both {ps["both"]}/{ps["n"]}, either {ps["either"]}/{ps["n"]}')
+                        else:
+                            corr.append(f"{short(a)}+{short(b)}: no games together yet")
+                    groups.append(f'<div class="line"><span class="lbl">{label}{no}</span>' + "<br>".join(names)
+                                  + f'<div class="muted small">{" · ".join(corr)}</div></div>')
+            if groups:
+                teams_html.append(f'<div class="team"><h3>{esc(team)} <span class="muted small">{opp_txt}</span></h3>' + "".join(groups) + "</div>")
+            else:
+                teams_html.append(f'<div class="team"><h3>{esc(team)}</h3><div class="muted small">no line with 2+ PP1 guys</div></div>')
+        if teams_html:
+            blocks.append(f'<section class="game"><div class="gamehead"><span class="time">{esc(et(g["start_utc"]))}</span> '
+                          f'<b>{esc(g["away"])}</b> @ <b>{esc(g["home"])}</b></div><div class="cols">{"".join(teams_html)}</div></section>')
+    if not blocks:
+        return '<p class="muted">No lineup snapshots yet for tonight.</p>'
+    return ("".join(blocks) + '<p class="muted small">Same EV line and both on PP1 (Daily Faceoff projection, latest snapshot). '
+            '"both x/n" = games this season they were actually linemates (shift overlap) in which both got a point.</p>')
+
+
 def _ord(n: int) -> str:
     return "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
 
@@ -505,6 +560,7 @@ def build(date: str | None = None) -> Path:
 <title>NHL Props — {esc(pretty)}</title><style>{CSS}</style></head><body><main>
 <h1>NHL Props · {esc(pretty)}</h1>
 <div class="muted small">Updated {now_et.strftime("%-I:%M %p ET")} · {len(games)} game{"s" if len(games) != 1 else ""} · <span class="pp pp1">PP1</span> <span class="pp pp2">PP2</span> · <span class="mv up">&#9650;</span>/<span class="mv dn">&#9660;</span> moved up/down vs. last game · <span class="bias bG">(G)</span> goal-biased, <span class="bias bA">(A)</span> assist-biased (L10) · dotted name = game-time decision</div>
+<h2>Same line + PP1 — tonight's stacks</h2>{pp1_stacks_section(games, date, logs, pairs)}
 <h2>Best bets on the slate</h2>{best_bets_section(games, date, logs, pairs)}
 <h2>Tonight</h2>{slate}
 <h2>Hot list — players on tonight's slate</h2>{hot_list(games, date)}
