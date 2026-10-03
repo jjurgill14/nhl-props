@@ -2,10 +2,11 @@ name: evening
 on:
   schedule:
     # one job per window; each loops internally until the window ends, so a late start still covers the rest.
-    # 20:00Z = 4pm EDT / 3pm EST. Backups at 22:00Z and 00:00Z queue behind a running loop and exit if nothing is left.
+    # GitHub launches scheduled jobs ~4h late on this repo, so these are 4h earlier than the window we want.
+    # 16:00Z = noon EDT; the loop idles until a game is within 3h. Backups at 18:00Z / 20:00Z queue behind a running loop.
+    - cron: "0 16 * * *"
+    - cron: "0 18 * * *"
     - cron: "0 20 * * *"
-    - cron: "0 22 * * *"
-    - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       once:
