@@ -226,6 +226,44 @@ def pp_stacks(snap: dict, team: str = "", pairs: dict | None = None) -> list[str
     return out
 
 
+def lineup_grid(cur: dict, jersey: dict, pp: dict, extra: dict) -> str:
+    """Lines as a 6-track grid: LW / C / RW each span 2 tracks; D pairs are offset by one track so
+    LD sits between LW and C and RD between C and RW. PP units are plain rows underneath."""
+    def cell(p, span: str, cls: str = "") -> str:
+        return (f'<div class="gc {cls}" style="grid-column:{span}">'
+                + name_tag(p["player"], jersey, pp, p.get("gtd"), extra) + "</div>")
+
+    def by_pos(sec: str, no: int) -> dict[str, dict]:
+        return {p.get("pos"): p for p in unit(cur, sec, no)}
+
+    rows = ['<div class="lgrid">',
+            '<div class="gh" style="grid-column:1">&nbsp;</div>'
+            '<div class="gh" style="grid-column:2/4">LW</div><div class="gh" style="grid-column:4/6">C</div><div class="gh" style="grid-column:6/8">RW</div>']
+    for no in (1, 2, 3, 4):
+        ps = by_pos("F", no)
+        if not ps:
+            continue
+        rows.append(f'<div class="gl">L{no}</div>')
+        for pos, span in (("LW", "2/4"), ("C", "4/6"), ("RW", "6/8")):
+            rows.append(cell(ps[pos], span) if ps.get(pos) else f'<div class="gc" style="grid-column:{span}"></div>')
+    for no in (1, 2, 3):
+        ps = by_pos("D", no)
+        if not ps:
+            continue
+        if no == 1:
+            rows.append('<div class="gsp"></div>')
+        rows.append(f'<div class="gl">D{no}</div>')
+        for pos, span in (("LD", "3/5"), ("RD", "5/7")):
+            rows.append(cell(ps[pos], span, "d") if ps.get(pos) else f'<div class="gc" style="grid-column:{span}"></div>')
+    rows.append("</div>")
+    for no in (1, 2):
+        ps = unit(cur, "PP", no)
+        if ps:
+            names = " – ".join(name_tag(p["player"], jersey, None, p.get("gtd"), None) for p in ps)
+            rows.append(f'<div class="line"><span class="lbl"><span class="pp pp{no}">PP{no}</span></span>{names}</div>')
+    return "".join(rows)
+
+
 def render_game(g: dict, date: str, gb: dict, logs=None, pairs=None) -> str:
     logs = logs or {}
     pairs = pairs or {}
@@ -246,19 +284,7 @@ def render_game(g: dict, date: str, gb: dict, logs=None, pairs=None) -> str:
             f'<div class="goalie"><span class="badge {badge}">{esc(status)}</span> <b>{esc(gl.get("goalie") or "no goalie listed")}</b>'
             + (f' <span class="muted">— {esc(gl["news"][:140])}</span>' if gl.get("news") else "") + "</div>")
         if cur:
-            def line(sec, no, label, tags=True):
-                ps = unit(cur, sec, no)
-                if not ps:
-                    return ""
-                names = " – ".join(name_tag(p["player"], jersey, pp if tags else None, p.get("gtd"), extra if tags else None) for p in ps)
-                return f'<div class="line"><span class="lbl">{label}</span>{names}</div>'
-            parts += [line("F", 1, "L1"), line("F", 2, "L2"), line("F", 3, "L3"), line("F", 4, "L4"),
-                      line("D", 1, "D1"), line("D", 2, "D2"),
-                      line("PP", 1, '<span class="pp pp1">PP1</span>', tags=False),
-                      line("PP", 2, '<span class="pp pp2">PP2</span>', tags=False)]
-            stacks = pp_stacks(cur, team, pairs)
-            if stacks:
-                parts.append('<div class="line stack"><span class="lbl">STACK</span>' + " · ".join(stacks) + "</div>")
+            parts.append(lineup_grid(cur, jersey, pp, extra))
             inj = cur.get("injuries", [])
             if inj:
                 parts.append('<div class="line"><span class="lbl">OUT</span>' + ", ".join(
@@ -427,53 +453,53 @@ def pp1_stacks_section(games: list[dict], date: str, logs, pairs) -> str:
     Shows each player's L5 (this season) and how often each pair has both scored when actually together."""
     from itertools import combinations
     season = analysis.team_rates(analysis.all_boxscores())
-    blocks = []
+    buckets: dict[int, list[str]] = {1: [], 2: []}  # forward line -> rows
+    any_snap = False
     for g in games:
-        teams_html = []
         for side, opp_side in (("away", "home"), ("home", "away")):
             team, opp = g[side], g[opp_side]
             snaps = team_snapshots(team, date)
             cur = snaps[-1] if snaps else None
             if not cur:
                 continue
+            any_snap = True
             jersey, extra = jersey_of(cur), extras_for(team, cur, date, logs)
             pp1 = {r["player"] for r in unit(cur, "PP", 1)}
             opp_r = season.get(opp) or {}
-            opp_txt = (f'vs {esc(opp)} — allows {opp_r["ga"]:.1f} G/gm ({opp_r["ga_rk"]}{_ord(opp_r["ga_rk"])} most), '
-                       f'{opp_r["sa"]:.0f} SOG/gm ({opp_r["sa_rk"]}{_ord(opp_r["sa_rk"])} most)') if opp_r else f"vs {esc(opp)}"
-            groups = []
-            for sec, label in (("F", "L"), ("D", "D")):
-                for no in (1, 2, 3, 4):
-                    members = [r["player"] for r in unit(cur, sec, no)]
-                    shared = [m for m in members if m in pp1]
-                    if len(shared) < 2:
-                        continue
-                    names = []
-                    for m in shared:
-                        l5 = analysis.rolling(logs.get((team, norm(m)), []), 5)
-                        st = (f' <span class="muted small">{l5["ppg"]:.2f} P/G, {l5["pt_games"]}/{l5["gp"]} pt games</span>'
-                              if l5 else ' <span class="muted small">no games</span>')
-                        names.append(name_tag(m, jersey, None, False, extra) + st)
-                    corr = []
-                    for a, b in combinations(shared, 2):
-                        ps = pairs.get((team,) + tuple(sorted((norm(a), norm(b)))))
-                        short = lambda x: esc(x.split()[-1])  # noqa: E731
-                        if ps and ps["n"]:
-                            corr.append(f'{short(a)}+{short(b)}: both {ps["both"]}/{ps["n"]}, either {ps["either"]}/{ps["n"]}')
-                        else:
-                            corr.append(f"{short(a)}+{short(b)}: no games together yet")
-                    groups.append(f'<div class="line"><span class="lbl">{label}{no}</span>' + "<br>".join(names)
-                                  + f'<div class="muted small">{" · ".join(corr)}</div></div>')
-            if groups:
-                teams_html.append(f'<div class="team"><h3>{esc(team)} <span class="muted small">{opp_txt}</span></h3>' + "".join(groups) + "</div>")
-            else:
-                teams_html.append(f'<div class="team"><h3>{esc(team)}</h3><div class="muted small">no line with 2+ PP1 guys</div></div>')
-        if teams_html:
-            blocks.append(f'<section class="game"><div class="gamehead"><span class="time">{esc(et(g["start_utc"]))}</span> '
-                          f'<b>{esc(g["away"])}</b> @ <b>{esc(g["home"])}</b></div><div class="cols">{"".join(teams_html)}</div></section>')
-    if not blocks:
+            opp_txt = (f'{esc(opp)} allows {opp_r["ga"]:.1f} G ({opp_r["ga_rk"]}{_ord(opp_r["ga_rk"])} most) / '
+                       f'{opp_r["sa"]:.0f} SOG ({opp_r["sa_rk"]}{_ord(opp_r["sa_rk"])} most)') if opp_r else f"{esc(opp)} — no games yet"
+            for no in (1, 2):
+                members = [r["player"] for r in unit(cur, "F", no)]
+                shared = [m for m in members if m in pp1]
+                if len(shared) < 2:
+                    continue
+                names = []
+                for m in shared:
+                    l5 = analysis.rolling(logs.get((team, norm(m)), []), 5)
+                    st = (f' <span class="muted small">{l5["ppg"]:.2f} P/G · {l5["pt_games"]}/{l5["gp"]} pt gms</span>'
+                          if l5 else ' <span class="muted small">no games</span>')
+                    names.append(name_tag(m, jersey, None, False, extra) + st)
+                corr = []
+                for a, b in combinations(shared, 2):
+                    ps = pairs.get((team,) + tuple(sorted((norm(a), norm(b)))))
+                    short = lambda x: esc(x.split()[-1])  # noqa: E731
+                    if ps and ps["n"]:
+                        corr.append(f'{short(a)}+{short(b)}: both {ps["both"]}/{ps["n"]}, either {ps["either"]}/{ps["n"]}')
+                    else:
+                        corr.append(f"{short(a)}+{short(b)}: no games together yet")
+                buckets[no].append(
+                    f'<tr><td><b>{esc(team)}</b> <span class="muted small">{esc(et(g["start_utc"]))}</span></td>'
+                    f'<td>{"<br>".join(names)}</td><td class="small">{" · ".join(corr)}</td>'
+                    f'<td class="small muted">{opp_txt}</td></tr>')
+    if not any_snap:
         return '<p class="muted">No lineup snapshots yet for tonight.</p>'
-    return ("".join(blocks) + '<p class="muted small">Same EV line and both on PP1 (Daily Faceoff projection, latest snapshot). '
+    out = []
+    for no in (1, 2):
+        body = "".join(buckets[no]) or '<tr><td colspan="4" class="muted">none tonight</td></tr>'
+        out.append(f'<h3 class="sub">L{no} + <span class="pp pp1">PP1</span> <span class="muted small">({len(buckets[no])} stacks)</span></h3>'
+                   '<div class="tbl"><table><thead><tr><th>Team</th><th>Stack (L5, this season)</th><th>Together this season</th><th>Opponent</th></tr></thead>'
+                   f'<tbody>{body}</tbody></table></div>')
+    return ("".join(out) + '<p class="muted small">Forwards on the same EV line who are all on PP1 (Daily Faceoff, latest snapshot). '
             '"both x/n" = games this season they were actually linemates (shift overlap) in which both got a point.</p>')
 
 
@@ -541,6 +567,10 @@ th{color:var(--muted);font-weight:600;font-size:12px}.num{text-align:right;font-
 .bias{font-size:11px;font-weight:700}.bias.bG{color:var(--ok)}.bias.bA{color:var(--acc)}
 .cols4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}tr.hl td{background:rgba(147,197,253,.08)}.stack{margin-top:4px}.sub{margin:14px 0 6px;font-size:14px}
 .tbl{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.result{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.lgrid{display:grid;grid-template-columns:34px repeat(6,1fr);column-gap:6px;row-gap:3px;align-items:center;margin:4px 0 8px}
+.gh{color:var(--muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--line);padding-bottom:2px}
+.gl{grid-column:1;color:var(--muted);font-size:12px;font-weight:600}.gc{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.gc.d{color:var(--muted)}
+.gsp{grid-column:1/8;height:4px;border-top:1px dashed var(--line)}
 details summary{cursor:pointer;color:var(--acc)}ul{margin:4px 0 0 18px;padding:0}footer{margin:30px 0 10px;color:var(--muted);font-size:12px}
 """
 
