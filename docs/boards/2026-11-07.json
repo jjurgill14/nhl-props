@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T21:33:44.287656+00:00",
+ "generated_utc": "2026-11-07T21:48:48.302476+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -7032,7 +7032,7 @@
     "goalie_source": "Mollie Walker",
     "sv": "0.0",
     "gaa": "0.0",
-    "lineup_as_of": "2026-11-07T12:09:03.836951+00:00",
+    "lineup_as_of": "2026-11-07T21:48:46.916070+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 23,
@@ -7097,7 +7097,7 @@
       "player": "Gabriel Perreault",
       "team": "NYR",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": null,
       "players": [
        null
@@ -7112,7 +7112,7 @@
       "player": "Pavel Dorofeyev",
       "team": "NYR",
       "pp": 1,
-      "line": 1,
+      "line": 3,
       "bias": null,
       "players": [
        8481604
@@ -7198,22 +7198,6 @@
       ]
      },
      {
-      "selection": "Dorofeyev + Zibanejad \u00b7 both 1+ point",
-      "prob": 0.324,
-      "fair": "+209",
-      "need": "+228",
-      "rationale": "Both scored 2 of 6 games together \u00b7 independent 31% \u00b7 independent",
-      "team": "NYR",
-      "line": 1,
-      "read": "independent",
-      "both": 2,
-      "n": 6,
-      "players": [
-       8481604,
-       8476459
-      ]
-     },
-     {
       "selection": "Catton + Samoskevich \u00b7 both 1+ point",
       "prob": 0.309,
       "fair": "+223",
@@ -7227,6 +7211,22 @@
       "players": [
        8484800,
        8482713
+      ]
+     },
+     {
+      "selection": "Dorofeyev + Cuylle \u00b7 both 1+ point",
+      "prob": 0.302,
+      "fair": "+231",
+      "need": "+251",
+      "rationale": "Both scored 1 of 2 games together \u00b7 independent 24% \u00b7 new pair",
+      "team": "NYR",
+      "line": 3,
+      "read": "new pair",
+      "both": 1,
+      "n": 2,
+      "players": [
+       8481604,
+       8482157
       ]
      },
      {
@@ -7284,7 +7284,7 @@
       "player": "Gabriel Perreault",
       "team": "NYR",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        null
       ]
@@ -7319,22 +7319,6 @@
      }
     ],
     "pp1": [
-     {
-      "selection": "Dorofeyev + Zibanejad \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.324,
-      "fair": "+209",
-      "need": "+228",
-      "rationale": "Both scored 2 of 6 games together \u00b7 independent 31% \u00b7 independent",
-      "team": "NYR",
-      "line": 1,
-      "read": "independent",
-      "both": 2,
-      "n": 6,
-      "players": [
-       8481604,
-       8476459
-      ]
-     },
      {
       "selection": "Eberle + McMann \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.286,
@@ -7398,46 +7382,46 @@
    "lineup": {
     "away": {
      "team": "NYR",
-     "as_of": "2026-11-07T12:09:03.836951+00:00",
+     "as_of": "2026-11-07T21:48:46.916070+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-05)",
-     "updated_dfo": "2026-11-06T14:48:06.007Z",
+     "source": "Vince Mercogliano",
+     "updated_dfo": "2026-11-07T21:37:17.681Z",
      "forwards": [
       [
        {
-        "name": "Pavel Dorofeyev",
-        "jersey": 16,
+        "name": "Gabriel Perreault",
+        "jersey": 94,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481604,
-        "dfo_id": 30622,
+        "player_id": null,
+        "dfo_id": 35165,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 5,
+         "a": 3,
          "g": 5,
          "gp": 17,
-         "p": 10,
-         "ppp": 5,
-         "sog": 48,
-         "toi_s": 17393
+         "p": 8,
+         "ppp": 3,
+         "sog": 35,
+         "toi_s": 16937
         },
         "last5": {
-         "a": 1,
-         "g": 3,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 4,
-         "ppp": 2,
+         "p": 1,
+         "ppp": 0,
          "sog": 11,
-         "toi_s": 4870
+         "toi_s": 4988
         },
-        "l5_point_games": 4,
-        "gp": 17,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7597,39 +7581,39 @@
         }
        },
        {
-        "name": "Gabriel Perreault",
-        "jersey": 94,
+        "name": "Oliver Bjorkstrand",
+        "jersey": 28,
         "pos": "RW",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 35165,
+        "player_id": 8477416,
+        "dfo_id": 2603,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "G",
         "season": {
          "a": 3,
-         "g": 5,
+         "g": 6,
          "gp": 17,
-         "p": 8,
-         "ppp": 3,
-         "sog": 35,
-         "toi_s": 16937
+         "p": 9,
+         "ppp": 1,
+         "sog": 27,
+         "toi_s": 11687
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 3,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 4988
+         "sog": 8,
+         "toi_s": 4031
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 3,
+        "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7713,39 +7697,39 @@
         }
        },
        {
-        "name": "Oliver Bjorkstrand",
-        "jersey": 28,
+        "name": "Pavel Dorofeyev",
+        "jersey": 16,
         "pos": "RW",
         "slot": null,
-        "player_id": 8477416,
-        "dfo_id": 2603,
+        "player_id": 8481604,
+        "dfo_id": 30622,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 6,
+         "a": 5,
+         "g": 5,
          "gp": 17,
-         "p": 9,
-         "ppp": 1,
-         "sog": 27,
-         "toi_s": 11687
+         "p": 10,
+         "ppp": 5,
+         "sog": 48,
+         "toi_s": 17393
         },
         "last5": {
-         "a": 2,
-         "g": 1,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 4031
+         "p": 4,
+         "ppp": 2,
+         "sog": 11,
+         "toi_s": 4870
         },
-        "l5_point_games": 3,
+        "l5_point_games": 4,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -8265,7 +8249,7 @@
         "l5_point_games": 0,
         "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -8303,7 +8287,7 @@
         "l5_point_games": 4,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -8533,7 +8517,7 @@
         "l5_point_games": 3,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -8916,11 +8900,11 @@
        "rating": 73.4497210895543
       },
       "d2": {
-       "rank": 17,
+       "rank": 18,
        "rating": 73.64999425719571
       },
       "d3": {
-       "rank": 28,
+       "rank": 27,
        "rating": 0
       },
       "d4": {
@@ -8933,14 +8917,14 @@
       },
       "f2": {
        "rank": 4,
-       "rating": 78.49069970196581
+       "rating": 78.14003511067946
       },
       "f3": {
-       "rank": 7,
-       "rating": 75.48101102282271
+       "rank": 18,
+       "rating": 73.17265152625231
       },
       "f4": {
-       "rank": 31,
+       "rank": 32,
        "rating": 0
       },
       "g": {

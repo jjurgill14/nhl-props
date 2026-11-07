@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T21:33:43.879878+00:00",
+ "generated_utc": "2026-11-07T21:48:47.922871+00:00",
  "games": [
   {
    "game_id": 2026020265,
@@ -2785,7 +2785,7 @@
      "ppga_rk": 32,
      "l5_gf": 2.8,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-07T12:09:03.836951+00:00",
+     "lineup_as_of": "2026-11-07T21:48:46.916070+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2811,19 +2811,19 @@
      ],
      "lines": {
       "1": [
-       "Pavel Dorofeyev",
+       "Gabriel Perreault",
        "Mika Zibanejad",
        "Alexis Lafreni\u00e8re"
       ],
       "2": [
        "Tye Kartye",
        "J.T. Miller",
-       "Gabriel Perreault"
+       "Oliver Bjorkstrand"
       ],
       "3": [
        "Eeli Tolvanen",
        "Will Cuylle",
-       "Oliver Bjorkstrand"
+       "Pavel Dorofeyev"
       ],
       "4": [
        "Jaroslav Chmelar",
@@ -2895,8 +2895,8 @@
        },
        "partners": [
         {
-         "name": "Pavel Dorofeyev",
-         "jersey": 16,
+         "name": "Gabriel Perreault",
+         "jersey": 94,
          "pp": 1,
          "n": 0,
          "both": 0,
@@ -2918,9 +2918,9 @@
        "team": "NYR",
        "opp": "SEA",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -2956,23 +2956,23 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Tye Kartye",
-         "jersey": 24,
-         "pp": 2,
+         "name": "Mika Zibanejad",
+         "jersey": 93,
+         "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "J.T. Miller",
-         "jersey": 10,
-         "pp": 2,
+         "name": "Alexis Lafreni\u00e8re",
+         "jersey": 13,
+         "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
@@ -2985,9 +2985,9 @@
        "team": "NYR",
        "opp": "SEA",
        "home": false,
-       "line": 1,
+       "line": 3,
        "pp": 1,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -3023,26 +3023,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Mika Zibanejad",
-         "jersey": 93,
-         "pp": 1,
-         "n": 6,
-         "both": 2,
-         "either": 5
-        },
-        {
-         "name": "Alexis Lafreni\u00e8re",
-         "jersey": 13,
-         "pp": 1,
+         "name": "Eeli Tolvanen",
+         "jersey": 17,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Will Cuylle",
+         "jersey": 50,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -3100,12 +3100,12 @@
        },
        "partners": [
         {
-         "name": "Pavel Dorofeyev",
-         "jersey": 16,
+         "name": "Gabriel Perreault",
+         "jersey": 94,
          "pp": 1,
-         "n": 6,
-         "both": 2,
-         "either": 5
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Alexis Lafreni\u00e8re",
@@ -3179,12 +3179,12 @@
          "either": 11
         },
         {
-         "name": "Gabriel Perreault",
-         "jersey": 94,
-         "pp": 1,
-         "n": 0,
+         "name": "Oliver Bjorkstrand",
+         "jersey": 28,
+         "pp": 2,
+         "n": 4,
          "both": 0,
-         "either": 0
+         "either": 2
         }
        ]
       },
@@ -3250,12 +3250,79 @@
          "either": 11
         },
         {
-         "name": "Gabriel Perreault",
-         "jersey": 94,
-         "pp": 1,
-         "n": 0,
+         "name": "Oliver Bjorkstrand",
+         "jersey": 28,
+         "pp": 2,
+         "n": 1,
          "both": 0,
-         "either": 0
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Oliver Bjorkstrand",
+       "jersey": 28,
+       "team": "NYR",
+       "opp": "SEA",
+       "home": false,
+       "line": 2,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": "G",
+       "gp": 17,
+       "pt_games": 7,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 4,
+       "two_games": 2,
+       "home_split": [
+        5,
+        10
+       ],
+       "away_split": [
+        2,
+        7
+       ],
+       "pp_toi": 1.0,
+       "toi": 13.4,
+       "p": 0.431,
+       "fair": "+132",
+       "min": "+146",
+       "p2": 0.117,
+       "fair2": "+754",
+       "min2": "+806",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Tye Kartye",
+         "jersey": 24,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "J.T. Miller",
+         "jersey": 10,
+         "pp": 2,
+         "n": 4,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -3317,76 +3384,9 @@
          "either": 7
         },
         {
-         "name": "Oliver Bjorkstrand",
-         "jersey": 28,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Oliver Bjorkstrand",
-       "jersey": 28,
-       "team": "NYR",
-       "opp": "SEA",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 17,
-       "pt_games": 7,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 4,
-       "two_games": 2,
-       "home_split": [
-        5,
-        10
-       ],
-       "away_split": [
-        2,
-        7
-       ],
-       "pp_toi": 1.0,
-       "toi": 13.4,
-       "p": 0.399,
-       "fair": "+151",
-       "min": "+166",
-       "p2": 0.103,
-       "fair2": "+872",
-       "min2": "+931",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Eeli Tolvanen",
-         "jersey": 17,
-         "pp": null,
-         "n": 1,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Will Cuylle",
-         "jersey": 50,
-         "pp": 2,
+         "name": "Pavel Dorofeyev",
+         "jersey": 16,
+         "pp": 1,
          "n": 2,
          "both": 1,
          "either": 2
@@ -3451,12 +3451,12 @@
          "either": 7
         },
         {
-         "name": "Oliver Bjorkstrand",
-         "jersey": 28,
-         "pp": 2,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "name": "Pavel Dorofeyev",
+         "jersey": 16,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       }
