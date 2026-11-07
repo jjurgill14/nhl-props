@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T23:34:18.085498+00:00",
+ "generated_utc": "2026-11-07T23:49:22.862606+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -7050,8 +7050,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Daccord will start vs. New York on Saturday.",
     "goalie_source": "Sound of Hockey",
-    "sv": "0.889",
-    "gaa": "3.52",
+    "sv": "0.881",
+    "gaa": "3.83",
     "lineup_as_of": "2026-11-07T12:09:04.060522+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
@@ -14022,12 +14022,12 @@
     "record": "10-6-1",
     "b2b": false,
     "goalie": "Karel Vejmelka",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Vejmelka will start in Ottawa on Saturday.",
+    "goalie_source": "Catherine Bogart",
     "sv": "0.867",
     "gaa": "3.3",
-    "lineup_as_of": "2026-11-07T12:09:04.387577+00:00",
+    "lineup_as_of": "2026-11-07T23:49:21.788930+00:00",
     "lineup_stale": false,
     "ga_rk": 9,
     "gf_rk": 8,
@@ -14047,7 +14047,7 @@
     "goalie_source": "Graeme Nichols",
     "sv": "0.88",
     "gaa": "3.32",
-    "lineup_as_of": "2026-11-07T21:03:35.357538+00:00",
+    "lineup_as_of": "2026-11-07T23:49:21.458042+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
     "gf_rk": 20,
@@ -14058,7 +14058,7 @@
      "away": "+205",
      "home": "-250",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-07T21:03:35.357538+00:00"
+     "as_of": "2026-11-07T23:49:21.458042+00:00"
     },
     "total": {
      "line": null,
@@ -14361,10 +14361,10 @@
    "lineup": {
     "away": {
      "team": "UTA",
-     "as_of": "2026-11-07T12:09:04.387577+00:00",
+     "as_of": "2026-11-07T23:49:21.788930+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-05)",
-     "updated_dfo": "2026-11-06T14:34:31.946Z",
+     "source": "Utah Mammoth",
+     "updated_dfo": "2026-11-07T23:41:14.289Z",
      "forwards": [
       [
        {
@@ -14912,39 +14912,39 @@
       ],
       [
        {
-        "name": "Nate Schmidt",
-        "jersey": 88,
+        "name": "Dmitri Simashev",
+        "jersey": 26,
         "pos": "LD",
         "slot": null,
-        "player_id": 8477220,
-        "dfo_id": 2093,
+        "player_id": 8484386,
+        "dfo_id": 38458,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 3,
-         "g": 1,
+         "a": 2,
+         "g": 3,
          "gp": 17,
-         "p": 4,
+         "p": 5,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 19461
+         "sog": 18,
+         "toi_s": 15319
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 4915
+         "toi_s": 4486
         },
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -14990,41 +14990,41 @@
       ],
       [
        {
-        "name": "Dmitri Simashev",
-        "jersey": 26,
+        "name": "Artem Duda",
+        "jersey": 84,
         "pos": "LD",
         "slot": null,
-        "player_id": 8484386,
-        "dfo_id": 38458,
+        "player_id": 8483436,
+        "dfo_id": 36382,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 17,
-         "p": 5,
-         "ppp": 0,
-         "sog": 18,
-         "toi_s": 15319
-        },
-        "last5": {
          "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 4486
+         "toi_s": 1799
         },
-        "l5_point_games": 1,
-        "gp": 17,
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 5706
+        },
+        "l5_point_games": 0,
+        "gp": 2,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -15774,39 +15774,39 @@
         }
        },
        {
-        "name": "Nate Schmidt",
-        "jersey": 88,
+        "name": "Dmitri Simashev",
+        "jersey": 26,
         "pos": null,
         "slot": 3,
-        "player_id": 8477220,
-        "dfo_id": 2093,
+        "player_id": 8484386,
+        "dfo_id": 38458,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 3,
-         "g": 1,
+         "a": 2,
+         "g": 3,
          "gp": 17,
-         "p": 4,
+         "p": 5,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 19461
+         "sog": 18,
+         "toi_s": 15319
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 4915
+         "toi_s": 4486
         },
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -15861,6 +15861,11 @@
        "player": "Kailer Yamamoto",
        "status": "DTD",
        "news": "Yamamoto (upper-body) is day-to-day and will not play on Sunday."
+      },
+      {
+       "player": "Nate Schmidt",
+       "status": "DTD",
+       "news": "Schmidt (upper-body) is out vs. Ottawa and considered day-to-day."
       }
      ],
      "unit_ratings": {
@@ -15869,11 +15874,11 @@
        "rating": 74.13594709010916
       },
       "d2": {
-       "rank": 14,
-       "rating": 74.02266213670276
+       "rank": 27,
+       "rating": 72.57051807650141
       },
       "d3": {
-       "rank": 28,
+       "rank": 27,
        "rating": 0
       },
       "d4": {
@@ -15885,7 +15890,7 @@
        "rating": 74.33363726235737
       },
       "f2": {
-       "rank": 32,
+       "rank": 29,
        "rating": 71.1775198305316
       },
       "f3": {
@@ -15893,7 +15898,7 @@
        "rating": 72.40788007344791
       },
       "f4": {
-       "rank": 16,
+       "rank": 17,
        "rating": 71.91977873674156
       },
       "g": {
@@ -15916,10 +15921,10 @@
     },
     "home": {
      "team": "OTT",
-     "as_of": "2026-11-07T21:03:35.357538+00:00",
+     "as_of": "2026-11-07T23:49:21.458042+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-04)",
-     "updated_dfo": "2026-11-07T11:57:03.858Z",
+     "source": "Andrew Wilimek",
+     "updated_dfo": "2026-11-07T23:43:56.957Z",
      "forwards": [
       [
        {
@@ -16668,13 +16673,13 @@
       ],
       [
        {
-        "name": "Linus Ullmark",
-        "jersey": 35,
+        "name": "Jonas Johansson",
+        "jersey": 31,
         "pos": "G",
         "slot": 2,
-        "player_id": 8476999,
-        "dfo_id": 2534,
-        "gtd": true,
+        "player_id": 8477992,
+        "dfo_id": 4561,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -16682,7 +16687,7 @@
         "season": {
          "a": null,
          "g": null,
-         "gp": 8,
+         "gp": 4,
          "p": null,
          "ppp": null,
          "sog": null,
@@ -16704,9 +16709,9 @@
          "pp": 0,
          "new": false
         },
-        "record": "7-1-0",
-        "sv_pct": "0.945",
-        "starts": 8
+        "record": "1-2-0",
+        "sv_pct": "0.846",
+        "starts": 4
        }
       ]
      ],
@@ -17459,7 +17464,7 @@
        "rating": 72.41265364723061
       },
       "f3": {
-       "rank": 15,
+       "rank": 14,
        "rating": 73.50307182109991
       },
       "f4": {
@@ -17467,8 +17472,8 @@
        "rating": 70.64930372625001
       },
       "g": {
-       "rank": 23,
-       "rating": 66.3175930588282
+       "rank": 20,
+       "rating": 67.57792043013951
       },
       "pk1": {
        "rank": 2,
