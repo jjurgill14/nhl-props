@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T20:48:32.517977+00:00",
+ "generated_utc": "2026-11-07T21:03:36.336262+00:00",
  "games": [
   {
    "game_id": 2026020265,
@@ -4188,7 +4188,7 @@
      "ppga_rk": 10,
      "l5_gf": 4.2,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-07T12:09:03.546334+00:00",
+     "lineup_as_of": "2026-11-07T21:03:35.043443+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4205,6 +4205,11 @@
        "player": "Mike Matheson",
        "status": "OUT",
        "news": "Matheson will miss two weeks with a lower-body injury."
+      },
+      {
+       "player": "Josh Anderson",
+       "status": "OUT",
+       "news": "Anderson (personal) is out vs. Toronto on Saturday."
       }
      ],
      "lines": {
@@ -4216,7 +4221,7 @@
       "2": [
        "Chris Kreider",
        "Jake Evans",
-       "Josh Anderson"
+       "Owen Beck"
       ],
       "3": [
        "Zack Bolduc",
@@ -4517,8 +4522,8 @@
        ]
       },
       {
-       "name": "Josh Anderson",
-       "jersey": 17,
+       "name": "Owen Beck",
+       "jersey": null,
        "team": "MTL",
        "opp": "TOR",
        "home": false,
@@ -4527,32 +4532,32 @@
        "pos": "RW",
        "gtd": false,
        "role": "top6",
-       "bias": "G",
-       "gp": 16,
-       "pt_games": 6,
+       "bias": "A",
+       "gp": 5,
+       "pt_games": 3,
        "l5": [
-        2,
+        3,
         5
        ],
-       "ast_games": 3,
-       "goal_games": 5,
-       "two_games": 3,
+       "ast_games": 2,
+       "goal_games": 1,
+       "two_games": 0,
        "home_split": [
-        4,
-        9
+        2,
+        3
        ],
        "away_split": [
-        2,
-        7
+        1,
+        2
        ],
        "pp_toi": 0.0,
-       "toi": 15.6,
-       "p": 0.373,
-       "fair": "+168",
-       "min": "+184",
-       "p2": 0.156,
-       "fair2": "+543",
-       "min2": "+581",
+       "toi": 8.7,
+       "p": 0.451,
+       "fair": "+122",
+       "min": "+135",
+       "p2": 0.051,
+       "fair2": "+1880",
+       "min2": "+1999",
        "adj": [
         [
          "opp",
@@ -4562,24 +4567,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
          "name": "Chris Kreider",
          "jersey": 22,
          "pp": 2,
-         "n": 13,
-         "both": 2,
-         "either": 6
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Jake Evans",
          "jersey": 71,
          "pp": null,
-         "n": 7,
+         "n": 3,
          "both": 1,
-         "either": 5
+         "either": 1
         }
        ]
       },
@@ -4641,12 +4646,12 @@
          "either": 3
         },
         {
-         "name": "Josh Anderson",
-         "jersey": 17,
+         "name": "Owen Beck",
+         "jersey": null,
          "pp": null,
-         "n": 13,
-         "both": 2,
-         "either": 6
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -4775,12 +4780,12 @@
          "either": 3
         },
         {
-         "name": "Josh Anderson",
-         "jersey": 17,
+         "name": "Owen Beck",
+         "jersey": null,
          "pp": null,
-         "n": 7,
+         "n": 3,
          "both": 1,
-         "either": 5
+         "either": 1
         }
        ]
       },
@@ -4876,7 +4881,7 @@
      "ppga_rk": 28,
      "l5_gf": 3.8,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-07T12:09:04.331431+00:00",
+     "lineup_as_of": "2026-11-07T21:03:35.508106+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4898,11 +4903,6 @@
        "player": "Marshall Rifai",
        "status": "OUT",
        "news": "Rifai is week-to-week with a lower-body injury."
-      },
-      {
-       "player": "John Tavares",
-       "status": "DTD",
-       "news": "Tavares (lower-body) has a good chance to return vs. Montreal on Saturday."
       }
      ],
      "lines": {
@@ -5089,7 +5089,7 @@
        "line": 2,
        "pp": 1,
        "pos": "LW",
-       "gtd": true,
+       "gtd": false,
        "role": "pp1",
        "bias": "A",
        "gp": 7,
@@ -6264,7 +6264,7 @@
      "ppga_rk": 6,
      "l5_gf": 3.2,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-07T12:09:03.908720+00:00",
+     "lineup_as_of": "2026-11-07T21:03:35.357538+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7655,13 +7655,13 @@
      "ppga_rk": 26,
      "l5_gf": 2.6,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-07T12:09:03.771395+00:00",
+     "lineup_as_of": "2026-11-07T21:03:35.207527+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Mathew Barzal",
        "status": "IR",
-       "news": "Barzal (lower-body) returned to practice in a non-contact jersey on Wednesday."
+       "news": "Barzal (lower-body) was a full participant in New York's practice on Saturday."
       },
       {
        "player": "Alexander Romanov",
@@ -7671,7 +7671,7 @@
       {
        "player": "Matias Maccelli",
        "status": "IR",
-       "news": "Maccelli (lower body) practiced in a non-contact jersey and is 2-4 weeks away."
+       "news": "Maccelli (lower-body) practiced in full on Saturday but will not return vs. New Jersey."
       },
       {
        "player": "Calum Ritchie",

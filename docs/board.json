@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T20:48:32.906919+00:00",
+ "generated_utc": "2026-11-07T21:03:36.729824+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -10535,7 +10535,7 @@
     "goalie_source": "Montreal Canadiens",
     "sv": "0.923",
     "gaa": "2.38",
-    "lineup_as_of": "2026-11-07T12:09:03.546334+00:00",
+    "lineup_as_of": "2026-11-07T21:03:35.043443+00:00",
     "lineup_stale": false,
     "ga_rk": 16,
     "gf_rk": 12,
@@ -10555,7 +10555,7 @@
     "goalie_source": "Terry Koshan",
     "sv": "0.889",
     "gaa": "3.26",
-    "lineup_as_of": "2026-11-07T12:09:04.331431+00:00",
+    "lineup_as_of": "2026-11-07T21:03:35.508106+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
     "gf_rk": 7,
@@ -10566,7 +10566,7 @@
      "away": "+205",
      "home": "-250",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-07T12:09:04.331431+00:00"
+     "as_of": "2026-11-07T21:03:35.508106+00:00"
     },
     "total": {
      "line": null,
@@ -10885,10 +10885,10 @@
    "lineup": {
     "away": {
      "team": "MTL",
-     "as_of": "2026-11-07T12:09:03.546334+00:00",
+     "as_of": "2026-11-07T21:03:35.043443+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-05)",
-     "updated_dfo": "2026-11-06T14:35:18.941Z",
+     "source": "DFO Projections",
+     "updated_dfo": "2026-11-07T17:20:50.953Z",
      "forwards": [
       [
        {
@@ -11084,41 +11084,41 @@
         }
        },
        {
-        "name": "Josh Anderson",
-        "jersey": 17,
+        "name": "Owen Beck",
+        "jersey": 62,
         "pos": "RW",
         "slot": null,
-        "player_id": 8476981,
-        "dfo_id": 21932,
+        "player_id": 8483424,
+        "dfo_id": 33212,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "G",
+        "bias": "A",
         "season": {
-         "a": 3,
-         "g": 7,
-         "gp": 16,
-         "p": 10,
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
          "ppp": 0,
-         "sog": 33,
-         "toi_s": 13880
+         "sog": 6,
+         "toi_s": 2608
         },
         "last5": {
-         "a": 1,
-         "g": 3,
+         "a": 2,
+         "g": 1,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4673
+         "sog": 6,
+         "toi_s": 2608
         },
-        "l5_point_games": 2,
-        "gp": 16,
+        "l5_point_games": 3,
+        "gp": 5,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -12260,41 +12260,41 @@
         }
        },
        {
-        "name": "Josh Anderson",
-        "jersey": 17,
+        "name": "Owen Beck",
+        "jersey": 62,
         "pos": null,
         "slot": 2,
-        "player_id": 8476981,
-        "dfo_id": 21932,
+        "player_id": 8483424,
+        "dfo_id": 33212,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "G",
+        "bias": "A",
         "season": {
-         "a": 3,
-         "g": 7,
-         "gp": 16,
-         "p": 10,
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
          "ppp": 0,
-         "sog": 33,
-         "toi_s": 13880
+         "sog": 6,
+         "toi_s": 2608
         },
         "last5": {
-         "a": 1,
-         "g": 3,
+         "a": 2,
+         "g": 1,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4673
+         "sog": 6,
+         "toi_s": 2608
         },
-        "l5_point_games": 2,
-        "gp": 16,
+        "l5_point_games": 3,
+        "gp": 5,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -12390,6 +12390,11 @@
        "player": "Mike Matheson",
        "status": "OUT",
        "news": "Matheson will miss two weeks with a lower-body injury."
+      },
+      {
+       "player": "Josh Anderson",
+       "status": "OUT",
+       "news": "Anderson (personal) is out vs. Toronto on Saturday."
       }
      ],
      "unit_ratings": {
@@ -12398,11 +12403,11 @@
        "rating": 71.5857849960372
       },
       "d2": {
-       "rank": 20,
+       "rank": 21,
        "rating": 73.39911168240361
       },
       "d3": {
-       "rank": 28,
+       "rank": 27,
        "rating": 0
       },
       "d4": {
@@ -12414,15 +12419,15 @@
        "rating": 0
       },
       "f2": {
-       "rank": 8,
-       "rating": 74.98993139516236
+       "rank": 5,
+       "rating": 76.62165388898141
       },
       "f3": {
-       "rank": 12,
+       "rank": 11,
        "rating": 74.075950818218
       },
       "f4": {
-       "rank": 21,
+       "rank": 23,
        "rating": 71.08722555900941
       },
       "g": {
@@ -12449,10 +12454,10 @@
     },
     "home": {
      "team": "TOR",
-     "as_of": "2026-11-07T12:09:04.331431+00:00",
+     "as_of": "2026-11-07T21:03:35.508106+00:00",
      "stale": false,
      "source": "David Alter",
-     "updated_dfo": "2026-11-06T17:41:22.657Z",
+     "updated_dfo": "2026-11-07T16:24:41.190Z",
      "forwards": [
       [
        {
@@ -12578,7 +12583,7 @@
         "slot": null,
         "player_id": 8475166,
         "dfo_id": 1016,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -13252,7 +13257,7 @@
         "slot": 1,
         "player_id": 8475166,
         "dfo_id": 1016,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -13959,11 +13964,6 @@
        "player": "Marshall Rifai",
        "status": "OUT",
        "news": "Rifai is week-to-week with a lower-body injury."
-      },
-      {
-       "player": "John Tavares",
-       "status": "DTD",
-       "news": "Tavares (lower-body) has a good chance to return vs. Montreal on Saturday."
       }
      ],
      "unit_ratings": {
@@ -13972,7 +13972,7 @@
        "rating": 71.6838952495147
       },
       "d2": {
-       "rank": 23,
+       "rank": 24,
        "rating": 73.17280896054694
       },
       "d3": {
@@ -13988,15 +13988,15 @@
        "rating": 76.87026378419155
       },
       "f2": {
-       "rank": 9,
+       "rank": 8,
        "rating": 74.9617259209629
       },
       "f3": {
-       "rank": 34,
+       "rank": 35,
        "rating": 69.5727390720297
       },
       "f4": {
-       "rank": 31,
+       "rank": 32,
        "rating": 0
       },
       "g": {
@@ -14063,7 +14063,7 @@
     "goalie_source": "Graeme Nichols",
     "sv": "0.88",
     "gaa": "3.32",
-    "lineup_as_of": "2026-11-07T12:09:03.908720+00:00",
+    "lineup_as_of": "2026-11-07T21:03:35.357538+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
     "gf_rk": 20,
@@ -14074,7 +14074,7 @@
      "away": "+205",
      "home": "-250",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-07T12:09:03.908720+00:00"
+     "as_of": "2026-11-07T21:03:35.357538+00:00"
     },
     "total": {
      "line": null,
@@ -15932,7 +15932,7 @@
     },
     "home": {
      "team": "OTT",
-     "as_of": "2026-11-07T12:09:03.908720+00:00",
+     "as_of": "2026-11-07T21:03:35.357538+00:00",
      "stale": false,
      "source": "Last Game (2026-11-04)",
      "updated_dfo": "2026-11-07T11:57:03.858Z",
@@ -16641,53 +16641,10 @@
      "goalies": [
       [
        {
-        "name": "Linus Ullmark",
-        "jersey": 35,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8476999,
-        "dfo_id": 2534,
-        "gtd": true,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 8,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "7-1-0",
-        "sv_pct": "0.945",
-        "starts": 8
-       }
-      ],
-      [
-       {
         "name": "Samuel Ersson",
         "jersey": 30,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8481035,
         "dfo_id": 29149,
         "gtd": false,
@@ -16723,6 +16680,49 @@
         "record": "2-3-1",
         "sv_pct": "0.880",
         "starts": 5
+       }
+      ],
+      [
+       {
+        "name": "Linus Ullmark",
+        "jersey": 35,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8476999,
+        "dfo_id": 2534,
+        "gtd": true,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 8,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "7-1-0",
+        "sv_pct": "0.945",
+        "starts": 8
        }
       ]
      ],
@@ -17455,11 +17455,11 @@
        "rating": 0
       },
       "d2": {
-       "rank": 10,
+       "rank": 11,
        "rating": 74.52104742135961
       },
       "d3": {
-       "rank": 28,
+       "rank": 27,
        "rating": 0
       },
       "d4": {
@@ -17471,7 +17471,7 @@
        "rating": 71.896059014553
       },
       "f2": {
-       "rank": 26,
+       "rank": 25,
        "rating": 72.41265364723061
       },
       "f3": {
@@ -17479,7 +17479,7 @@
        "rating": 73.50307182109991
       },
       "f4": {
-       "rank": 25,
+       "rank": 27,
        "rating": 70.64930372625001
       },
       "g": {
@@ -17546,7 +17546,7 @@
     "goalie_source": "Stefen Rosner",
     "sv": "0.911",
     "gaa": "2.41",
-    "lineup_as_of": "2026-11-07T12:09:03.771395+00:00",
+    "lineup_as_of": "2026-11-07T21:03:35.207527+00:00",
     "lineup_stale": false,
     "ga_rk": 27,
     "gf_rk": 24,
@@ -17557,7 +17557,7 @@
      "away": "+164",
      "home": "-198",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-07T12:09:03.771395+00:00"
+     "as_of": "2026-11-07T21:03:35.207527+00:00"
     },
     "total": {
      "line": null,
@@ -19414,10 +19414,10 @@
     },
     "home": {
      "team": "NYI",
-     "as_of": "2026-11-07T12:09:03.771395+00:00",
+     "as_of": "2026-11-07T21:03:35.207527+00:00",
      "stale": false,
      "source": "Stefen Rosner",
-     "updated_dfo": "2026-11-06T17:40:24.549Z",
+     "updated_dfo": "2026-11-07T16:24:11.035Z",
      "forwards": [
       [
        {
@@ -20908,7 +20908,7 @@
       {
        "player": "Mathew Barzal",
        "status": "IR",
-       "news": "Barzal (lower-body) returned to practice in a non-contact jersey on Wednesday."
+       "news": "Barzal (lower-body) was a full participant in New York's practice on Saturday."
       },
       {
        "player": "Alexander Romanov",
@@ -20918,7 +20918,7 @@
       {
        "player": "Matias Maccelli",
        "status": "IR",
-       "news": "Maccelli (lower body) practiced in a non-contact jersey and is 2-4 weeks away."
+       "news": "Maccelli (lower-body) practiced in full on Saturday but will not return vs. New Jersey."
       },
       {
        "player": "Calum Ritchie",
@@ -20937,7 +20937,7 @@
        "rating": 0
       },
       "d2": {
-       "rank": 13,
+       "rank": 14,
        "rating": 74.04184643933615
       },
       "d3": {
@@ -20953,7 +20953,7 @@
        "rating": 74.56465790521624
       },
       "f2": {
-       "rank": 17,
+       "rank": 16,
        "rating": 74.38709589548851
       },
       "f3": {
@@ -20961,7 +20961,7 @@
        "rating": 73.39084679822476
       },
       "f4": {
-       "rank": 20,
+       "rank": 22,
        "rating": 71.20953870218761
       },
       "g": {
