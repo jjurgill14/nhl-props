@@ -13,7 +13,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import model, results, schedule
+from . import analysis, lineup_view, model, results, schedule
 from .common import read_json
 
 DOCS = results.DATA.parent / "docs"
@@ -135,6 +135,10 @@ def build(date: str | None = None) -> Path:
     date = date or datetime.now().strftime("%Y-%m-%d")
     slate = model.build_slate(date)
     rec = records(date)
+    boxes = analysis.all_boxscores()
+    logs = analysis.player_logs(boxes)
+    ids = lineup_view.player_ids()
+    grec = lineup_view.goalie_records()
     out_games = []
     for i, g in enumerate(slate["games"], 1):
         def team(side):
@@ -162,6 +166,7 @@ def build(date: str | None = None) -> Path:
                 "total": {"line": None, "provider": None, "as_of": None},
             },
             "lenses": lenses_for(g),
+            "lineup": lineup_view.game_lineups(g["away"], g["home"], date, logs, ids, grec),
         })
     board = {"mode": "live", "date": date, "generated_utc": datetime.now(timezone.utc).isoformat(),
              "lenses": LENSES, "default_slots": ["point", "pair", "two"], "games": out_games,

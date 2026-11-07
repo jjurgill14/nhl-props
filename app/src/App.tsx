@@ -3,6 +3,7 @@ import './board.css'
 import { Shell, type Route } from './components/Shell'
 import { Board } from './pages/Board'
 import { Placeholder } from './pages/Placeholder'
+import { Lineups } from './pages/Lineups'
 import { loadBoard } from './data/load'
 import type { LoadState } from './data/types'
 
@@ -12,6 +13,7 @@ export default function App() {
   const [route, setRoute] = useState<Route>('slate')
   const [snapshot, setSnapshot] = useState<string | null>(null)
   const [state, setState] = useState<LoadState>({ kind: 'loading' })
+  const [gameId, setGameId] = useState<string | null>(null)
 
   const load = useCallback((date: string | null) => {
     setState({ kind: 'loading' })
@@ -39,7 +41,7 @@ export default function App() {
 
   return (
     <Shell route={route} onRoute={setRoute} mode={mode} statusLabel={statusLabel}>
-      {route !== 'slate' ? (
+      {route !== 'slate' && route !== 'lineups' ? (
         <Placeholder route={route} />
       ) : state.kind === 'loading' ? (
         <div className="state-box" style={{ marginTop: 40 }}>
@@ -49,8 +51,18 @@ export default function App() {
         <div className="state-box err" style={{ marginTop: 40 }}>
           Couldn't load the board ({state.message}). The pipeline writes it each morning; if it's early, check back after 6 AM ET.
         </div>
+      ) : route === 'lineups' ? (
+        <Lineups board={state.board} gameId={gameId} onPick={setGameId} />
       ) : (
-        <Board key={state.board.date + state.board.mode} board={state.board} snapshotControls={snapshotControls} />
+        <Board
+          key={state.board.date + state.board.mode}
+          board={state.board}
+          snapshotControls={snapshotControls}
+          onLineups={(id) => {
+            setGameId(id)
+            setRoute('lineups')
+          }}
+        />
       )}
     </Shell>
   )

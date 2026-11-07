@@ -29,9 +29,10 @@ interface Props {
   game: Game | null
   lensLabels: Record<LensKey, string>
   onClose: () => void
+  onLineups?: (id: string) => void
 }
 
-export function Drawer({ game, lensLabels, onClose }: Props) {
+export function Drawer({ game, lensLabels, onClose, onLineups }: Props) {
   const closeRef = useRef<HTMLButtonElement>(null)
   useEffect(() => {
     if (!game) return
@@ -62,6 +63,11 @@ export function Drawer({ game, lensLabels, onClose }: Props) {
           <br />
           <span style={{ color: '#6e94a6' }}>at</span> {home.city} {home.name}
         </h2>
+        {onLineups && (
+          <button type="button" className="future" style={{ width: '100%', cursor: 'pointer', color: '#c2dce5' }} onClick={() => { onLineups(game.id); onClose() }}>
+            Lines & lineups for this game <span>OPEN ↗</span>
+          </button>
+        )}
         <TeamBlock t={away} side="AWAY" />
         <TeamBlock t={home} side="HOME" />
         <div className="drawer-stats">

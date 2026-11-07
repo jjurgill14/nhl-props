@@ -16,9 +16,10 @@ export function matchesTeam(g: Game, term: string): boolean {
 interface Props {
   board: BoardData
   snapshotControls?: React.ReactNode
+  onLineups?: (id: string) => void
 }
 
-export function Board({ board, snapshotControls }: Props) {
+export function Board({ board, snapshotControls, onLineups }: Props) {
   const [time, setTime] = useState<string>('all')
   const [view, setView] = useState<'cards' | 'list'>('cards')
   const [term, setTerm] = useState('')
@@ -206,7 +207,7 @@ export function Board({ board, snapshotControls }: Props) {
         <span className="version">ICEBOARD / {board.mode === 'live' ? 'LIVE' : 'SNAPSHOT'} · {board.date}</span>
       </footer>
 
-      <Drawer game={openGame} lensLabels={board.lenses} onClose={() => setOpen(null)} />
+      <Drawer game={openGame} lensLabels={board.lenses} onClose={() => setOpen(null)} onLineups={onLineups} />
     </>
   )
 }

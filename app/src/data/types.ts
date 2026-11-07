@@ -56,6 +56,7 @@ export interface Game {
   home: TeamSide
   markets: Markets
   lenses: Record<LensKey, Play[]>
+  lineup?: GameLineup
 }
 
 export interface Board {
@@ -74,3 +75,46 @@ export type LoadState =
   | { kind: 'loading' }
   | { kind: 'error'; message: string }
   | { kind: 'ready'; board: Board }
+
+// ---- Lines & Lineups ----
+export interface LineupPlayer {
+  name: string
+  jersey: number | null
+  pos: string | null
+  slot: number | null
+  player_id: number | null
+  dfo_id: number | null
+  gtd: boolean
+  injury: string | null
+  pp: number | null
+  pk: number | null
+  bias: string | null
+  season: { gp: number; g: number; a: number; p: number; ppp: number; sog: number; toi_s: number } | null
+  last5: { gp: number; g: number; a: number; p: number; ppp: number; sog: number; toi_s: number } | null
+  l5_point_games: number
+  gp: number
+  move: { ev: number; pp: number; new: boolean }
+  record?: string | null
+  sv_pct?: string | null
+  starts?: number
+}
+
+export interface TeamLineup {
+  team: string
+  as_of: string | null
+  stale: boolean
+  source: string
+  updated_dfo: string | null
+  forwards: LineupPlayer[][]
+  defense: LineupPlayer[][]
+  goalies: LineupPlayer[][]
+  pp: LineupPlayer[][]
+  pk: LineupPlayer[][]
+  injuries: { player: string; status: string | null; news: string | null }[]
+  unit_ratings: Record<string, { rank: number; rating: number }> | null
+}
+
+export interface GameLineup {
+  away: TeamLineup | null
+  home: TeamLineup | null
+}
