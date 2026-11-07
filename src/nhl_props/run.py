@@ -40,6 +40,12 @@ def morning(date: str) -> None:
         lineups.snapshot_teams(teams, date)
         goalies.snapshot(date)
     ingest_finished(_dates_back(3, date)[1:])  # yesterday and the day before, in case overnight missed
+    try:
+        from . import assets
+        assets.logos()
+        assets.headshots()
+    except Exception as e:  # assets are nice-to-have, never block data
+        log.error("assets failed: %s", e)
 
 
 def evening(date: str) -> None:
@@ -102,6 +108,11 @@ def main() -> None:
             report.build(today_et())
         except Exception as e:  # the page must never break data collection
             log.error("report failed: %s", e)
+        try:
+            from . import debrief
+            debrief.build(today_et())
+        except Exception as e:
+            log.error("debrief failed: %s", e)
 
 
 if __name__ == "__main__":
