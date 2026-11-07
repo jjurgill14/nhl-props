@@ -290,3 +290,30 @@ button:disabled{cursor:default;opacity:.55}
 .lu-out{font-size:11px;color:#e3b1b1;line-height:1.5}
 @media(max-width:1230px){.lu-grid{grid-template-columns:1fr}.lu-center{display:none}.lu-topline{grid-template-columns:1fr 1fr}.lu-when{text-align:left}}
 @media(max-width:710px){.lu-line,.lu-cols{grid-template-columns:44px 1fr 1fr 1fr}.lu-bottom{grid-template-columns:1fr}.lu-matchup b{font-size:16px}.lu-matchup img{width:44px;height:44px}.lu-tabs{flex-wrap:wrap}.lu-tabs button{flex:1 1 45%}}
+
+/* ===== PLAYER PROPS (from JJ's approved mockup, 2026-11-07) ===== */
+.pr-hero{align-items:center}.pr-cards{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.pr-card{position:relative;display:flex;align-items:center;gap:16px;min-width:420px;padding:14px 22px;border:1px solid #31606a;border-radius:12px;background:linear-gradient(110deg,#13323b,#11232e 70%);overflow:hidden}
+.pr-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:150px;background:linear-gradient(100deg,var(--team-accent) 0,var(--team-accent) 55%,transparent 100%);opacity:.22}
+.pr-card:after{content:"";position:absolute;right:-60px;top:-80px;width:200px;height:200px;border-radius:50%;border:1px solid var(--team-accent);opacity:.35;box-shadow:0 0 0 28px #ffffff06}
+.pr-card img{width:76px;height:76px;object-fit:contain;position:relative;z-index:1;filter:drop-shadow(0 2px 6px #0008)}
+.pr-card b{display:block;font-size:26px;letter-spacing:-.5px;position:relative;z-index:1}.pr-card small{display:block;font-size:11px;letter-spacing:1.6px;color:#9fb6c5;font-weight:800;margin-top:4px;position:relative;z-index:1}.pr-card .sep{color:#3f5a6b;margin:0 8px}
+.pr-remove{position:absolute;right:10px;top:8px;z-index:2;background:#1d3040;color:#b5d6e4;border:1px solid #3b5566;border-radius:7px;width:26px;height:26px;font-size:16px}
+.pr-tiles{grid-template-columns:repeat(4,1fr)}.pr-tiles .stat-value{font-size:30px}.pr-tiles .stat-suffix{font-size:18px;color:#9fb6c5}
+.pr-controls{display:flex;align-items:center;gap:14px;margin:0 0 18px;flex-wrap:wrap}.pr-lbl{font-size:11px;letter-spacing:2px;font-weight:850;color:#9fb6c5}.pr-sep{width:1px;height:28px;background:#294153;margin:0 10px}
+.pr-controls .demo-switch button{padding:9px 20px;font-size:13px}.pr-controls .demo-switch button.selected{background:#1b4a4d;color:#9ff0ec;border:1px solid #2e8f8a}
+.pr-chart{background:linear-gradient(157deg,#152431,#111d2a 43%,#101b27);border:1px solid #304454;border-radius:14px;padding:16px 20px 10px;margin-bottom:22px}
+.pr-chart header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.pr-chart h2{margin:0;font-size:22px;letter-spacing:-.5px}
+.pr-tag{color:#9ff0ec;border-color:#2e8f8a;background:#143a3c;font-size:11px;padding:7px 12px}
+.pr-svg{width:100%;height:auto;display:block}
+.pr-log-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.pr-log-head h3{margin:0;font-size:13px;letter-spacing:1.4px;color:#8adbd8}
+.pr-legend{font-size:12px;color:#c9d7e0}.pr-legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin:0 5px 0 12px}
+.pr-log-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.pr-game{border:1px solid #304454;border-radius:10px;background:#101c28;padding:10px 8px;text-align:center}.pr-date{font-size:13px;color:#c9d7e0;line-height:1.35;margin-bottom:8px}
+.pr-pill{display:block;margin:4px auto 0;padding:6px 8px;border-radius:7px;font-weight:850;font-size:13px;letter-spacing:.5px;max-width:110px}
+.pr-pill.hit{background:#153a2a;color:#4ade80;border:1px solid #2e7a53}.pr-pill.miss{background:#3a1818;color:#f87171;border:1px solid #7a2e2e}.pr-pill small{font-size:9px;opacity:.8}
+.pr-foot{color:#738b9e;font-size:12px;font-style:italic;margin:14px 0 0}
+.lu-player.clickable,.pr-link{cursor:pointer}.lu-player.clickable:hover .lu-name{color:#9ff0ec;text-decoration:underline}
+.play-row.clickable{cursor:pointer}.play-row.clickable:hover .bet{color:#9ff0ec}
+@media(max-width:1230px){.pr-tiles{grid-template-columns:repeat(2,1fr)}.pr-card{min-width:0;width:100%}}
+@media(max-width:710px){.pr-tiles{grid-template-columns:1fr 1fr}.pr-controls .demo-switch{width:auto}.pr-chart h2{font-size:16px}}

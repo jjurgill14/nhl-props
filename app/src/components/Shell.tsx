@@ -36,6 +36,15 @@ const NAV: { key: Route; label: string; icon: ReactNode }[] = [
     ),
   },
   {
+    key: 'props',
+    label: 'Player props',
+    icon: (
+      <svg viewBox="0 0 24 24">
+        <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" />
+      </svg>
+    ),
+  },
+  {
     key: 'analysis',
     label: 'Betting analysis',
     icon: (

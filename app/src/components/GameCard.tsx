@@ -1,4 +1,15 @@
-import type { Game, LensKey, Play, TeamSide } from '../data/types'
+import type { Game, LensKey, Play, StatKey, TeamSide } from '../data/types'
+
+export type PropsOpener = (t: { players: number[]; stat?: StatKey; line?: number }) => void
+
+/** What a play means in props-view terms: which players, which stat, which line. */
+export function propsFor(play: Play, lens: LensKey): { players: number[]; stat?: StatKey; line?: number } | null {
+  const ids = (play.players ?? []).filter((x): x is number => typeof x === 'number')
+  if (!ids.length) return null
+  if (lens === 'two') return { players: ids, stat: 'p', line: 1.5 }
+  if (lens === 'btts2') return null
+  return { players: ids, stat: 'p', line: 0.5 }
+}
 import { LOGO } from '../data/load'
 import { etTime } from '../data/time'
 
@@ -36,7 +47,7 @@ export function playFor(game: Game, lens: LensKey): Play | null {
   return game.lenses[lens]?.[0] ?? null
 }
 
-export function PlayRow({ play, rank, lensLabel }: { play: Play | null; rank: number; lensLabel: string }) {
+export function PlayRow({ play, rank, lensLabel, onClick }: { play: Play | null; rank: number; lensLabel: string; onClick?: () => void }) {
   if (!play) {
     return (
       <div className="play-row empty-play">
@@ -50,7 +61,24 @@ export function PlayRow({ play, rank, lensLabel }: { play: Play | null; rank: nu
     )
   }
   return (
-    <div className="play-row">
+    <div
+      className={`play-row${onClick ? ' clickable' : ''}`}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      title={onClick ? 'Open player props' : undefined}
+      onClick={(e) => {
+        if (!onClick) return
+        e.stopPropagation()
+        onClick()
+      }}
+      onKeyDown={(e) => {
+        if (onClick && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault()
+          e.stopPropagation()
+          onClick()
+        }
+      }}
+    >
       <span className="rank">{rank}</span>
       <span className="bet" title={play.selection}>
         {play.selection}
@@ -71,9 +99,10 @@ interface Props {
   slots: LensKey[]
   lensLabels: Record<LensKey, string>
   onOpen: (id: string) => void
+  onProps?: PropsOpener
 }
 
-export function GameCard({ game, slots, lensLabels, onOpen }: Props) {
+export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
   const { away, home, markets } = game
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
   return (
@@ -84,7 +113,7 @@ export function GameCard({ game, slots, lensLabels, onOpen }: Props) {
       aria-label={label}
       style={{ ['--team-accent' as string]: home.color }}
       onClick={(e) => {
-        if (!(e.target as HTMLElement).closest('button')) onOpen(game.id)
+        if (!(e.target as HTMLElement).closest('button, .play-row.clickable')) onOpen(game.id)
       }}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
@@ -141,9 +170,11 @@ export function GameCard({ game, slots, lensLabels, onOpen }: Props) {
           <span className="tag">OUR FAIR PRICE</span>
         </div>
         <div className="play-stack">
-          {slots.map((lens, i) => (
-            <PlayRow key={lens + i} play={playFor(game, lens)} rank={i + 1} lensLabel={lensLabels[lens]} />
-          ))}
+          {slots.map((lens, i) => {
+            const play = playFor(game, lens)
+            const t = play && onProps ? propsFor(play, lens) : null
+            return <PlayRow key={lens + i} play={play} rank={i + 1} lensLabel={lensLabels[lens]} onClick={t ? () => onProps!(t) : undefined} />
+          })}
         </div>
       </div>
       <div className="card-foot">

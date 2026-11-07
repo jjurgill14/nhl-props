@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import type { Game, LensKey, TeamSide } from '../data/types'
 import { LOGO } from '../data/load'
 import { etStamp, etTime } from '../data/time'
+import { propsFor, type PropsOpener } from './GameCard'
 
 function TeamBlock({ t, side }: { t: TeamSide; side: 'AWAY' | 'HOME' }) {
   return (
@@ -30,9 +31,10 @@ interface Props {
   lensLabels: Record<LensKey, string>
   onClose: () => void
   onLineups?: (id: string) => void
+  onProps?: PropsOpener
 }
 
-export function Drawer({ game, lensLabels, onClose, onLineups }: Props) {
+export function Drawer({ game, lensLabels, onClose, onLineups, onProps }: Props) {
   const closeRef = useRef<HTMLButtonElement>(null)
   useEffect(() => {
     if (!game) return
@@ -92,8 +94,10 @@ export function Drawer({ game, lensLabels, onClose, onLineups }: Props) {
             <section key={lens}>
               <h3>{lensLabels[lens].toUpperCase()}</h3>
               {plays.length === 0 && <div className="future">No verified play yet</div>}
-              {plays.slice(0, 4).map((p, i) => (
-                <div className="drawer-play" key={i}>
+              {plays.slice(0, 4).map((p, i) => {
+                const t = onProps ? propsFor(p, lens) : null
+                return (
+                <div className={`drawer-play${t ? ' pr-link' : ''}`} key={i} title={t ? 'Open player props' : undefined} onClick={t ? () => { onProps!(t); onClose() } : undefined}>
                   <div className="head">
                     <b>
                       0{i + 1} · {p.selection}
@@ -106,7 +110,8 @@ export function Drawer({ game, lensLabels, onClose, onLineups }: Props) {
                     {p.rationale}
                   </p>
                 </div>
-              ))}
+                )
+              })}
             </section>
           )
         })}

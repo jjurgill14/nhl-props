@@ -18,6 +18,7 @@ export interface Play {
   both?: number
   n?: number
   verdict?: 'Yes' | 'No' | 'Maybe'
+  players?: (number | null)[]
 }
 
 export interface TeamSide {
@@ -118,3 +119,29 @@ export interface GameLineup {
   away: TeamLineup | null
   home: TeamLineup | null
 }
+
+// ---- Player Props ----
+export interface GameLogRow {
+  date: string
+  game_id: number
+  opp: string
+  home: boolean
+  g: number
+  a: number
+  p: number
+  sog: number
+  pp_g: number
+  toi_s: number
+  pp_toi_s: number
+}
+
+export interface PlayerLog {
+  id: number
+  name: string
+  team: string
+  pos: string | null
+  jersey: number | null
+  log: GameLogRow[]
+}
+
+export type StatKey = 'g' | 'a' | 'p' | 'sog'

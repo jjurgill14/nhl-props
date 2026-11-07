@@ -17,9 +17,10 @@ interface Props {
   board: BoardData
   snapshotControls?: React.ReactNode
   onLineups?: (id: string) => void
+  onProps?: (t: { players: number[]; stat?: 'g' | 'a' | 'p' | 'sog'; line?: number }) => void
 }
 
-export function Board({ board, snapshotControls, onLineups }: Props) {
+export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
   const [time, setTime] = useState<string>('all')
   const [view, setView] = useState<'cards' | 'list'>('cards')
   const [term, setTerm] = useState('')
@@ -175,7 +176,7 @@ export function Board({ board, snapshotControls, onLineups }: Props) {
           ) : view === 'cards' ? (
             <div className="game-grid">
               {shown.map((g) => (
-                <GameCard key={g.id} game={g} slots={slots} lensLabels={board.lenses} onOpen={setOpen} />
+                <GameCard key={g.id} game={g} slots={slots} lensLabels={board.lenses} onOpen={setOpen} onProps={onProps} />
               ))}
             </div>
           ) : (
@@ -207,7 +208,7 @@ export function Board({ board, snapshotControls, onLineups }: Props) {
         <span className="version">ICEBOARD / {board.mode === 'live' ? 'LIVE' : 'SNAPSHOT'} · {board.date}</span>
       </footer>
 
-      <Drawer game={openGame} lensLabels={board.lenses} onClose={() => setOpen(null)} onLineups={onLineups} />
+      <Drawer game={openGame} lensLabels={board.lenses} onClose={() => setOpen(null)} onLineups={onLineups} onProps={onProps} />
     </>
   )
 }

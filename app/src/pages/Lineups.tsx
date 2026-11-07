@@ -20,10 +20,18 @@ function Tag({ p }: { p: LineupPlayer }) {
   )
 }
 
-function PlayerCell({ p, team, size = 104 }: { p: LineupPlayer; team: TeamSide; size?: number }) {
+function PlayerCell({ p, team, size = 104, onPlayer }: { p: LineupPlayer; team: TeamSide; size?: number; onPlayer?: (id: number) => void }) {
   const s = p.season
+  const click = onPlayer && p.player_id ? () => onPlayer(p.player_id!) : undefined
   return (
-    <div className="lu-player" title={s ? `${s.gp} GP · ${s.g}G ${s.a}A ${s.p}P · ${s.sog} SOG` : undefined}>
+    <div
+      className={`lu-player${click ? ' clickable' : ''}`}
+      role={click ? 'button' : undefined}
+      tabIndex={click ? 0 : undefined}
+      onClick={click}
+      onKeyDown={(e) => click && (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), click())}
+      title={click ? 'Open player props' : s ? `${s.gp} GP · ${s.g}G ${s.a}A ${s.p}P · ${s.sog} SOG` : undefined}
+    >
       <Sweater name={p.name} number={p.jersey} color={team.color} color2={team.color2} size={size} dim={p.gtd} />
       <div className="lu-name">
         {p.name} <span className="lu-pos">({p.pos ?? '–'})</span>
@@ -53,7 +61,7 @@ function Goalie({ p, team, label }: { p: LineupPlayer; team: TeamSide; label: st
   )
 }
 
-function TeamPanel({ lu, team, side, goalieStatus }: { lu: TeamLineup | null; team: TeamSide; side: 'AWAY' | 'HOME'; goalieStatus: string | null }) {
+function TeamPanel({ lu, team, side, goalieStatus, onPlayer }: { lu: TeamLineup | null; team: TeamSide; side: 'AWAY' | 'HOME'; goalieStatus: string | null; onPlayer?: (id: number) => void }) {
   if (!lu) {
     return (
       <section className="lu-panel">
@@ -88,7 +96,7 @@ function TeamPanel({ lu, team, side, goalieStatus }: { lu: TeamLineup | null; te
         <div className="lu-line" key={i}>
           <div className="lu-label">Line {i + 1}</div>
           {line.map((p) => (
-            <PlayerCell key={p.name} p={p} team={team} />
+            <PlayerCell key={p.name} p={p} team={team} onPlayer={onPlayer} />
           ))}
         </div>
       ))}
@@ -100,7 +108,7 @@ function TeamPanel({ lu, team, side, goalieStatus }: { lu: TeamLineup | null; te
             <div className="lu-pair" key={i}>
               <div className="lu-label">D{i + 1}</div>
               {pair.map((p) => (
-                <PlayerCell key={p.name} p={p} team={team} size={84} />
+                <PlayerCell key={p.name} p={p} team={team} size={84} onPlayer={onPlayer} />
               ))}
             </div>
           ))}
@@ -132,9 +140,10 @@ interface Props {
   board: Board
   gameId: string | null
   onPick: (id: string) => void
+  onPlayer?: (id: number) => void
 }
 
-export function Lineups({ board, gameId, onPick }: Props) {
+export function Lineups({ board, gameId, onPick, onPlayer }: Props) {
   const games = board.games
   const game: Game | undefined = games.find((g) => g.id === gameId) ?? games[0]
   const [tab, setTab] = useState<'lines' | 'changes' | 'analysis' | 'notes'>('lines')
@@ -210,8 +219,8 @@ export function Lineups({ board, gameId, onPick }: Props) {
       {tab === 'lines' ? (
         <div className="lu-grid">
           <div className="lu-center">Projected Lineups</div>
-          <TeamPanel lu={lineup?.away ?? null} team={away} side="AWAY" goalieStatus={away.goalie_status} />
-          <TeamPanel lu={lineup?.home ?? null} team={home} side="HOME" goalieStatus={home.goalie_status} />
+          <TeamPanel lu={lineup?.away ?? null} team={away} side="AWAY" goalieStatus={away.goalie_status} onPlayer={onPlayer} />
+          <TeamPanel lu={lineup?.home ?? null} team={home} side="HOME" goalieStatus={home.goalie_status} onPlayer={onPlayer} />
         </div>
       ) : (
         <div className="state-box" style={{ marginTop: 18 }}>

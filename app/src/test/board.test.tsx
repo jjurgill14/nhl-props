@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { Board } from '../pages/Board'
@@ -106,5 +106,17 @@ describe('The Board', () => {
     render(<Board board={{ ...fixture, mode: 'demo', snapshot_label: 'Snapshot of 2026-11-06 · real data, not tonight' }} />)
     expect(screen.getByText(/real data, not tonight/)).toBeInTheDocument()
     expect(screen.getByText(/ICEBOARD \/ SNAPSHOT/)).toBeInTheDocument()
+  })
+})
+
+describe('entry points into player props', () => {
+  it('a play on a card opens props for its players without opening the drawer', async () => {
+    const user = userEvent.setup()
+    const onProps = vi.fn()
+    const withIds = { ...fixture, games: fixture.games.map((g) => ({ ...g, lenses: { ...g.lenses, point: g.lenses.point.map((p) => ({ ...p, players: [8484153] })) } })) }
+    render(<Board board={withIds} onProps={onProps} />)
+    await user.click(screen.getAllByTitle('Open player props')[0])
+    expect(onProps).toHaveBeenCalledWith({ players: [8484153], stat: 'p', line: 0.5 })
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })
 })

@@ -1,4 +1,4 @@
-import type { Board } from './types'
+import type { Board, PlayerLog } from './types'
 
 // The pipeline writes docs/board.json (today) and docs/boards/<date>.json (history).
 // The app is served from docs/app/, so data is one level up.
@@ -6,7 +6,7 @@ import type { Board } from './types'
 export const DATA_BASE = import.meta.env.DEV ? import.meta.env.BASE_URL : '../'
 
 declare global {
-  interface Window { __BOARD__?: Board; __LOGOS__?: Record<string, string> }
+  interface Window { __BOARD__?: Board; __LOGOS__?: Record<string, string>; __PLAYERS__?: Record<string, PlayerLog> }
 }
 
 export async function loadBoard(date?: string): Promise<Board> {
@@ -26,3 +26,12 @@ export async function loadBoard(date?: string): Promise<Board> {
 
 export const LOGO = (abbr: string) => window.__LOGOS__?.[abbr] ?? `${DATA_BASE}assets/logos/${abbr}_dark.svg`
 export const MUG = (id: number | string) => `${DATA_BASE}assets/mugs/${id}.png`
+
+export async function loadPlayer(id: number): Promise<PlayerLog> {
+  const embedded = window.__PLAYERS__?.[String(id)]
+  if (embedded) return embedded
+  if (window.__BOARD__) throw new Error('player logs for this player are not embedded in the standalone preview')
+  const res = await fetch(`${DATA_BASE}players/${id}.json`, { cache: 'no-store' })
+  if (!res.ok) throw new Error(`player ${id}: HTTP ${res.status}`)
+  return (await res.json()) as PlayerLog
+}

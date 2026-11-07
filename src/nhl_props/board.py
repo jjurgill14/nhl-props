@@ -73,7 +73,9 @@ def _last(n: str) -> str:
     return n.split()[-1]
 
 
-def lenses_for(g: dict) -> dict[str, list[dict]]:
+def lenses_for(g: dict, ids: dict | None = None) -> dict[str, list[dict]]:
+    ids = ids or {}
+    pid = lambda p: (ids.get((p["team"], analysis.norm(p["name"]))) or {}).get("id")
     a, h = g["teams"]["away"], g["teams"]["home"]
     players = sorted(a["players"] + h["players"], key=lambda p: -p["p"])
     index = {p["name"]: p for p in players}
@@ -84,7 +86,7 @@ def lenses_for(g: dict) -> dict[str, list[dict]]:
     for p in players[:6]:
         why = model.why(p, team_of(p), opp_of(p))
         point.append(_play(f"{p['name']} · 1+ point", p["p"], " · ".join(w.rstrip(".") for w in why[:2]),
-                           player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], bias=p["bias"]))
+                           player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], bias=p["bias"], players=[pid(p)]))
 
     pairs, pp1, seen = [], [], set()
     for p in players:
@@ -100,7 +102,7 @@ def lenses_for(g: dict) -> dict[str, list[dict]]:
             read = "new pair" if q["n"] < 6 else ("correlated" if obs > ind * 1.15 else ("negative" if obs < ind * 0.8 else "independent"))
             item = _play(f"{_last(p['name'])} + {_last(q['name'])} · both 1+ point", blend,
                          f"Both scored {q['both']} of {q['n']} games together · independent {round(ind*100)}% · {read}",
-                         team=p["team"], line=p["line"], read=read, both=q["both"], n=q["n"])
+                         team=p["team"], line=p["line"], read=read, both=q["both"], n=q["n"], players=[pid(p), pid(o)])
             pairs.append(item)
             if p["pp"] == 1 and o["pp"] == 1:
                 pp1.append({**item, "selection": item["selection"].replace("both 1+ point", "PP1 mates · both 1+ point")})
@@ -114,7 +116,7 @@ def lenses_for(g: dict) -> dict[str, list[dict]]:
         two.append(_play(f"{p['name']} · 2+ points", p["p2"],
                          f"2+ in {p['two_games']} of {p['gp']} · {p['pp_toi']} PP min/game · {'PP1' if p['pp']==1 else 'L'+str(p['line'])}"
                          + (" · B2B haircut applied" if team_of(p)["b2b"] else ""),
-                         player=p["name"], team=p["team"], pp=p["pp"], line=p["line"]))
+                         player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], players=[pid(p)]))
 
     # Both teams 2+ goals: Poisson on each team's expected goals vs this opponent (season GF, opp GA, B2B)
     import math
@@ -165,7 +167,7 @@ def build(date: str | None = None) -> Path:
                               "as_of": g["teams"]["home"]["lineup_as_of"]},
                 "total": {"line": None, "provider": None, "as_of": None},
             },
-            "lenses": lenses_for(g),
+            "lenses": lenses_for(g, ids),
             "lineup": lineup_view.game_lineups(g["away"], g["home"], date, logs, ids, grec),
         })
     board = {"mode": "live", "date": date, "generated_utc": datetime.now(timezone.utc).isoformat(),
@@ -173,6 +175,8 @@ def build(date: str | None = None) -> Path:
              "sources": {"schedule": "NHL API", "lineups": "Daily Faceoff", "goalies": "Daily Faceoff",
                          "moneyline": "Daily Faceoff", "stats": "NHL API boxscores", "model": "nhl_props.model v1"}}
     DOCS.mkdir(exist_ok=True)
+    from . import players as _players
+    _players.build()
     out = DOCS / "board.json"
     out.write_text(json.dumps(board, indent=1), encoding="utf-8")
     (DOCS / "boards").mkdir(exist_ok=True)
