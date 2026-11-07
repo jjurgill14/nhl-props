@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T22:49:04.318665+00:00",
+ "generated_utc": "2026-11-07T23:04:08.637192+00:00",
  "games": [
   {
    "game_id": 2026020265,
@@ -13971,7 +13971,7 @@
      "ppga_rk": 27,
      "l5_gf": 2.8,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-07T12:09:03.975668+00:00",
+     "lineup_as_of": "2026-11-07T23:04:07.687064+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -13992,14 +13992,14 @@
      ],
      "lines": {
       "1": [
-       "Tommy Novak",
+       "Evgeni Malkin",
        "Sidney Crosby",
        "Rickard Rakell"
       ],
       "2": [
-       "Egor Chinakhov",
+       "Tommy Novak",
        "Ben Kindel",
-       "Evgeni Malkin"
+       "Egor Chinakhov"
       ],
       "3": [
        "Ville Koivunen",
@@ -14027,73 +14027,6 @@
       "Evgeni Malkin"
      ],
      "players": [
-      {
-       "name": "Tommy Novak",
-       "jersey": 18,
-       "team": "PIT",
-       "opp": "LAK",
-       "home": false,
-       "line": 1,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 16,
-       "pt_games": 7,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 4,
-       "two_games": 4,
-       "home_split": [
-        2,
-        8
-       ],
-       "away_split": [
-        5,
-        8
-       ],
-       "pp_toi": 2.8,
-       "toi": 18.2,
-       "p": 0.498,
-       "fair": "+101",
-       "min": "+113",
-       "p2": 0.247,
-       "fair2": "+306",
-       "min2": "+330",
-       "adj": [
-        [
-         "opp",
-         1.0567741935483872
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Sidney Crosby",
-         "jersey": 87,
-         "pp": 1,
-         "n": 6,
-         "both": 1,
-         "either": 3
-        },
-        {
-         "name": "Rickard Rakell",
-         "jersey": 67,
-         "pp": 1,
-         "n": 6,
-         "both": 2,
-         "either": 4
-        }
-       ]
-      },
       {
        "name": "Sidney Crosby",
        "jersey": 87,
@@ -14144,12 +14077,12 @@
        },
        "partners": [
         {
-         "name": "Tommy Novak",
-         "jersey": 18,
-         "pp": 1,
-         "n": 6,
-         "both": 1,
-         "either": 3
+         "name": "Evgeni Malkin",
+         "jersey": 71,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Rickard Rakell",
@@ -14211,12 +14144,12 @@
        },
        "partners": [
         {
-         "name": "Tommy Novak",
-         "jersey": 18,
-         "pp": 1,
-         "n": 6,
-         "both": 2,
-         "either": 4
+         "name": "Evgeni Malkin",
+         "jersey": 71,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Sidney Crosby",
@@ -14229,14 +14162,81 @@
        ]
       },
       {
+       "name": "Tommy Novak",
+       "jersey": 18,
+       "team": "PIT",
+       "opp": "LAK",
+       "home": false,
+       "line": 2,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 16,
+       "pt_games": 7,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 6,
+       "goal_games": 4,
+       "two_games": 4,
+       "home_split": [
+        2,
+        8
+       ],
+       "away_split": [
+        5,
+        8
+       ],
+       "pp_toi": 2.8,
+       "toi": 18.2,
+       "p": 0.498,
+       "fair": "+101",
+       "min": "+113",
+       "p2": 0.247,
+       "fair2": "+306",
+       "min2": "+330",
+       "adj": [
+        [
+         "opp",
+         1.0567741935483872
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ben Kindel",
+         "jersey": 81,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Egor Chinakhov",
+         "jersey": 59,
+         "pp": 2,
+         "n": 7,
+         "both": 2,
+         "either": 3
+        }
+       ]
+      },
+      {
        "name": "Evgeni Malkin",
        "jersey": 71,
        "team": "PIT",
        "opp": "LAK",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 2,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -14272,26 +14272,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Egor Chinakhov",
-         "jersey": 59,
-         "pp": 2,
-         "n": 10,
-         "both": 3,
-         "either": 4
+         "name": "Sidney Crosby",
+         "jersey": 87,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Ben Kindel",
-         "jersey": 81,
+         "name": "Rickard Rakell",
+         "jersey": 67,
          "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -14345,18 +14345,18 @@
        },
        "partners": [
         {
+         "name": "Tommy Novak",
+         "jersey": 18,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Egor Chinakhov",
          "jersey": 59,
          "pp": 2,
          "n": 4,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Evgeni Malkin",
-         "jersey": 71,
-         "pp": 2,
-         "n": 3,
          "both": 1,
          "either": 1
         }
@@ -14504,7 +14504,7 @@
        "home": false,
        "line": 2,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -14546,20 +14546,20 @@
        },
        "partners": [
         {
+         "name": "Tommy Novak",
+         "jersey": 18,
+         "pp": 1,
+         "n": 7,
+         "both": 2,
+         "either": 3
+        },
+        {
          "name": "Ben Kindel",
          "jersey": 81,
          "pp": 1,
          "n": 4,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Evgeni Malkin",
-         "jersey": 71,
-         "pp": 2,
-         "n": 10,
-         "both": 3,
-         "either": 4
         }
        ]
       },
@@ -14655,14 +14655,9 @@
      "ppga_rk": 2,
      "l5_gf": 4.4,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-07T12:09:03.381551+00:00",
+     "lineup_as_of": "2026-11-07T23:04:07.265954+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Alex Turcotte",
-       "status": "IR",
-       "news": "The Kings have placed Alex Turcotte (undisclosed) on IR."
-      },
       {
        "player": "Kevin Fiala",
        "status": "IR",
@@ -14686,14 +14681,14 @@
        "Corey Perry"
       ],
       "3": [
-       "Andre Lee",
-       "Scott Laughton",
-       "Martin Chromiak"
-      ],
-      "4": [
        "Erik Haula",
        "Kenny Connors",
        "Joel Armia"
+      ],
+      "4": [
+       "Andre Lee",
+       "Scott Laughton",
+       "Alex Turcotte"
       ]
      },
      "pp1": [
@@ -14706,7 +14701,7 @@
      "pp2": [
       "Corey Perry",
       "Erik Haula",
-      "Martin Chromiak",
+      "Alex Turcotte",
       "Drew Doughty",
       "Brandt Clarke"
      ],
@@ -14984,6 +14979,140 @@
        ]
       },
       {
+       "name": "Erik Haula",
+       "jersey": 56,
+       "team": "LAK",
+       "opp": "PIT",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 14,
+       "pt_games": 6,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        3,
+        6
+       ],
+       "away_split": [
+        3,
+        8
+       ],
+       "pp_toi": 2.3,
+       "toi": 14.3,
+       "p": 0.411,
+       "fair": "+144",
+       "min": "+158",
+       "p2": 0.068,
+       "fair2": "+1376",
+       "min2": "+1465",
+       "adj": [
+        [
+         "opp",
+         1.129032258064516
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Kenny Connors",
+         "jersey": 34,
+         "pp": null,
+         "n": 1,
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Joel Armia",
+         "jersey": 40,
+         "pp": null,
+         "n": 5,
+         "both": 1,
+         "either": 3
+        }
+       ]
+      },
+      {
+       "name": "Joel Armia",
+       "jersey": 40,
+       "team": "LAK",
+       "opp": "PIT",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 14,
+       "pt_games": 6,
+       "l5": [
+        4,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 3,
+       "two_games": 0,
+       "home_split": [
+        3,
+        6
+       ],
+       "away_split": [
+        3,
+        8
+       ],
+       "pp_toi": 0.0,
+       "toi": 13.6,
+       "p": 0.411,
+       "fair": "+144",
+       "min": "+158",
+       "p2": 0.016,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.129032258064516
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Erik Haula",
+         "jersey": 56,
+         "pp": 2,
+         "n": 5,
+         "both": 1,
+         "either": 3
+        },
+        {
+         "name": "Kenny Connors",
+         "jersey": 34,
+         "pp": null,
+         "n": 1,
+         "both": 1,
+         "either": 1
+        }
+       ]
+      },
+      {
        "name": "Trevor Moore",
        "jersey": 12,
        "team": "LAK",
@@ -15051,8 +15180,8 @@
        ]
       },
       {
-       "name": "Scott Laughton",
-       "jersey": 21,
+       "name": "Kenny Connors",
+       "jersey": 34,
        "team": "LAK",
        "opp": "PIT",
        "home": true,
@@ -15062,98 +15191,31 @@
        "gtd": false,
        "role": "other",
        "bias": null,
-       "gp": 14,
-       "pt_games": 5,
+       "gp": 1,
+       "pt_games": 1,
        "l5": [
-        2,
-        5
+        1,
+        1
        ],
-       "ast_games": 3,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        2,
-        6
-       ],
-       "away_split": [
-        3,
-        8
-       ],
-       "pp_toi": 0.1,
-       "toi": 14.3,
-       "p": 0.359,
-       "fair": "+178",
-       "min": "+195",
-       "p2": 0.016,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.129032258064516
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Andre Lee",
-         "jersey": null,
-         "pp": null,
-         "n": 4,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Martin Chromiak",
-         "jersey": 42,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Andre Lee",
-       "jersey": null,
-       "team": "LAK",
-       "opp": "PIT",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 12,
-       "pt_games": 3,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 1,
+       "ast_games": 1,
+       "goal_games": 0,
        "two_games": 0,
        "home_split": [
         1,
-        5
+        1
        ],
        "away_split": [
-        2,
-        7
+        0,
+        0
        ],
-       "pp_toi": 0.4,
-       "toi": 9.8,
-       "p": 0.282,
-       "fair": "+254",
-       "min": "+276",
-       "p2": 0.018,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "pp_toi": 0.0,
+       "toi": 11.3,
+       "p": 0.376,
+       "fair": "+166",
+       "min": "+182",
+       "p2": 0.04,
+       "fair2": "+2391",
+       "min2": "+2541",
        "adj": [
         [
          "opp",
@@ -15161,26 +15223,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Scott Laughton",
-         "jersey": 21,
-         "pp": null,
-         "n": 4,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Martin Chromiak",
-         "jersey": 42,
+         "name": "Erik Haula",
+         "jersey": 56,
          "pp": 2,
          "n": 1,
-         "both": 0,
-         "either": 0
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Joel Armia",
+         "jersey": 40,
+         "pp": null,
+         "n": 1,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -15248,73 +15310,6 @@
          "n": 3,
          "both": 0,
          "either": 3
-        }
-       ]
-      },
-      {
-       "name": "Martin Chromiak",
-       "jersey": 42,
-       "team": "LAK",
-       "opp": "PIT",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 2,
-       "pt_games": 0,
-       "l5": [
-        0,
-        2
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        2
-       ],
-       "away_split": [
-        0,
-        0
-       ],
-       "pp_toi": 3.1,
-       "toi": 13.3,
-       "p": 0.226,
-       "fair": "+343",
-       "min": "+369",
-       "p2": 0.036,
-       "fair2": "+2668",
-       "min2": "+2834",
-       "adj": [
-        [
-         "opp",
-         1.129032258064516
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Andre Lee",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Scott Laughton",
-         "jersey": 21,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
         }
        ]
       }

@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T22:49:04.711601+00:00",
+ "generated_utc": "2026-11-07T23:04:09.000647+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -34994,7 +34994,7 @@
     "goalie_source": "Pens Inside Scoop",
     "sv": "0.868",
     "gaa": "3.83",
-    "lineup_as_of": "2026-11-07T12:09:03.975668+00:00",
+    "lineup_as_of": "2026-11-07T23:04:07.687064+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
     "gf_rk": 16,
@@ -35014,7 +35014,7 @@
     "goalie_source": "Zach Dooley",
     "sv": "0.884",
     "gaa": "3.45",
-    "lineup_as_of": "2026-11-07T12:09:03.381551+00:00",
+    "lineup_as_of": "2026-11-07T23:04:07.265954+00:00",
     "lineup_stale": false,
     "ga_rk": 11,
     "gf_rk": 17,
@@ -35025,7 +35025,7 @@
      "away": "-245",
      "home": "+200",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-07T12:09:03.381551+00:00"
+     "as_of": "2026-11-07T23:04:07.265954+00:00"
     },
     "total": {
      "line": null,
@@ -35081,21 +35081,6 @@
       ]
      },
      {
-      "selection": "Tommy Novak \u00b7 1+ point",
-      "prob": 0.498,
-      "fair": "+101",
-      "need": "+113",
-      "rationale": "Point in 7 of 16 this season, 2 of last 5 \u00b7 PP1, 2.8 PP min/game over L5",
-      "player": "Tommy Novak",
-      "team": "PIT",
-      "pp": 1,
-      "line": 1,
-      "bias": "A",
-      "players": [
-       8478438
-      ]
-     },
-     {
       "selection": "Sidney Crosby \u00b7 1+ point",
       "prob": 0.498,
       "fair": "+101",
@@ -35123,6 +35108,21 @@
       "bias": "G",
       "players": [
        8476483
+      ]
+     },
+     {
+      "selection": "Tommy Novak \u00b7 1+ point",
+      "prob": 0.498,
+      "fair": "+101",
+      "need": "+113",
+      "rationale": "Point in 7 of 16 this season, 2 of last 5 \u00b7 PP1, 2.8 PP min/game over L5",
+      "player": "Tommy Novak",
+      "team": "PIT",
+      "pp": 1,
+      "line": 2,
+      "bias": "A",
+      "players": [
+       8478438
       ]
      }
     ],
@@ -35192,19 +35192,19 @@
       ]
      },
      {
-      "selection": "Novak + Rakell \u00b7 both 1+ point",
-      "prob": 0.291,
-      "fair": "+244",
-      "need": "+265",
-      "rationale": "Both scored 2 of 6 games together \u00b7 independent 25% \u00b7 correlated",
-      "team": "PIT",
-      "line": 1,
-      "read": "correlated",
-      "both": 2,
-      "n": 6,
+      "selection": "Haula + Connors \u00b7 both 1+ point",
+      "prob": 0.275,
+      "fair": "+263",
+      "need": "+285",
+      "rationale": "Both scored 1 of 1 games together \u00b7 independent 15% \u00b7 new pair",
+      "team": "LAK",
+      "line": 3,
+      "read": "new pair",
+      "both": 1,
+      "n": 1,
       "players": [
-       8478438,
-       8476483
+       8475287,
+       8483675
       ]
      }
     ],
@@ -35260,7 +35260,7 @@
       "player": "Tommy Novak",
       "team": "PIT",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8478438
       ]
@@ -35330,18 +35330,18 @@
       ]
      },
      {
-      "selection": "Novak + Rakell \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.291,
-      "fair": "+244",
-      "need": "+265",
-      "rationale": "Both scored 2 of 6 games together \u00b7 independent 25% \u00b7 correlated",
+      "selection": "Crosby + Rakell \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.249,
+      "fair": "+301",
+      "need": "+325",
+      "rationale": "Both scored 4 of 16 games together \u00b7 independent 25% \u00b7 independent",
       "team": "PIT",
       "line": 1,
-      "read": "correlated",
-      "both": 2,
-      "n": 6,
+      "read": "independent",
+      "both": 4,
+      "n": 16,
       "players": [
-       8478438,
+       8471675,
        8476483
       ]
      }
@@ -35360,46 +35360,46 @@
    "lineup": {
     "away": {
      "team": "PIT",
-     "as_of": "2026-11-07T12:09:03.975668+00:00",
+     "as_of": "2026-11-07T23:04:07.687064+00:00",
      "stale": false,
      "source": "Last Game (2026-11-05)",
      "updated_dfo": "2026-11-06T14:49:59.523Z",
      "forwards": [
       [
        {
-        "name": "Tommy Novak",
-        "jersey": 18,
+        "name": "Evgeni Malkin",
+        "jersey": 71,
         "pos": "LW",
         "slot": null,
-        "player_id": 8478438,
-        "dfo_id": 26595,
+        "player_id": 8471215,
+        "dfo_id": 1236,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 7,
-         "g": 5,
-         "gp": 16,
-         "p": 12,
-         "ppp": 5,
-         "sog": 27,
-         "toi_s": 15390
+         "a": 5,
+         "g": 6,
+         "gp": 14,
+         "p": 11,
+         "ppp": 2,
+         "sog": 28,
+         "toi_s": 14295
         },
         "last5": {
-         "a": 2,
-         "g": 2,
+         "a": 3,
+         "g": 1,
          "gp": 5,
          "p": 4,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 5451
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4796
         },
         "l5_point_games": 2,
-        "gp": 16,
+        "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -35483,39 +35483,39 @@
       ],
       [
        {
-        "name": "Egor Chinakhov",
-        "jersey": 59,
+        "name": "Tommy Novak",
+        "jersey": 18,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482475,
-        "dfo_id": 30655,
+        "player_id": 8478438,
+        "dfo_id": 26595,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 12,
-         "p": 4,
-         "ppp": 1,
-         "sog": 20,
-         "toi_s": 11066
+         "a": 7,
+         "g": 5,
+         "gp": 16,
+         "p": 12,
+         "ppp": 5,
+         "sog": 27,
+         "toi_s": 15390
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 2,
+         "g": 2,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4390
+         "p": 4,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 5451
         },
         "l5_point_games": 2,
-        "gp": 12,
+        "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -35559,37 +35559,37 @@
         }
        },
        {
-        "name": "Evgeni Malkin",
-        "jersey": 71,
+        "name": "Egor Chinakhov",
+        "jersey": 59,
         "pos": "RW",
         "slot": null,
-        "player_id": 8471215,
-        "dfo_id": 1236,
+        "player_id": 8482475,
+        "dfo_id": 30655,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 6,
-         "gp": 14,
-         "p": 11,
-         "ppp": 2,
-         "sog": 28,
-         "toi_s": 14295
+         "a": 2,
+         "g": 2,
+         "gp": 12,
+         "p": 4,
+         "ppp": 1,
+         "sog": 20,
+         "toi_s": 11066
         },
         "last5": {
-         "a": 3,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 4,
+         "p": 2,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4796
+         "sog": 7,
+         "toi_s": 4390
         },
         "l5_point_games": 2,
-        "gp": 14,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -35871,39 +35871,39 @@
         }
        },
        {
-        "name": "Erik Karlsson",
-        "jersey": 65,
+        "name": "Kaedan Korczak",
+        "jersey": 6,
         "pos": "RD",
         "slot": null,
-        "player_id": 8474578,
-        "dfo_id": 1087,
+        "player_id": 8481527,
+        "dfo_id": 28524,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": 2,
+        "pp": null,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 13,
-         "g": 3,
+         "a": 10,
+         "g": 0,
          "gp": 16,
-         "p": 16,
-         "ppp": 6,
-         "sog": 27,
-         "toi_s": 22358
+         "p": 10,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 17584
         },
         "last5": {
-         "a": 3,
-         "g": 2,
+         "a": 5,
+         "g": 0,
          "gp": 5,
          "p": 5,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 7031
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5512
         },
         "l5_point_games": 3,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -35949,39 +35949,39 @@
         }
        },
        {
-        "name": "Kaedan Korczak",
-        "jersey": 6,
+        "name": "Erik Karlsson",
+        "jersey": 65,
         "pos": "RD",
         "slot": null,
-        "player_id": 8481527,
-        "dfo_id": 28524,
+        "player_id": 8474578,
+        "dfo_id": 1087,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
+        "pp": 1,
+        "pk": 2,
         "bias": "A",
         "season": {
-         "a": 10,
-         "g": 0,
+         "a": 13,
+         "g": 3,
          "gp": 16,
-         "p": 10,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 17584
+         "p": 16,
+         "ppp": 6,
+         "sog": 27,
+         "toi_s": 22358
         },
         "last5": {
-         "a": 5,
-         "g": 0,
+         "a": 3,
+         "g": 2,
          "gp": 5,
          "p": 5,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5512
+         "ppp": 1,
+         "sog": 9,
+         "toi_s": 7031
         },
         "l5_point_games": 3,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36227,7 +36227,7 @@
         "l5_point_games": 2,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36303,7 +36303,7 @@
         "l5_point_games": 3,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36533,7 +36533,7 @@
         "l5_point_games": 2,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -36689,7 +36689,7 @@
         "l5_point_games": 3,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -36843,7 +36843,7 @@
         "l5_point_games": 3,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36869,12 +36869,12 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 6,
-       "rating": 76.17789123294855
+       "rank": 9,
+       "rating": 75.8112217024272
       },
       "d2": {
-       "rank": 36,
-       "rating": 0
+       "rank": 6,
+       "rating": 76.5445607634699
       },
       "d3": {
        "rank": 2,
@@ -36886,18 +36886,18 @@
       },
       "f1": {
        "rank": 7,
-       "rating": 78.43759719366896
+       "rating": 78.87505064574059
       },
       "f2": {
-       "rank": 3,
-       "rating": 79.74995754988382
+       "rank": 34,
+       "rating": 0
       },
       "f3": {
-       "rank": 35,
+       "rank": 36,
        "rating": 0
       },
       "f4": {
-       "rank": 15,
+       "rank": 16,
        "rating": 71.9696216005676
       },
       "g": {
@@ -36924,10 +36924,10 @@
     },
     "home": {
      "team": "LAK",
-     "as_of": "2026-11-07T12:09:03.381551+00:00",
+     "as_of": "2026-11-07T23:04:07.265954+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-04)",
-     "updated_dfo": "2026-11-05T15:09:57.843Z",
+     "source": "Zach Dooley",
+     "updated_dfo": "2026-11-07T19:29:12.612Z",
      "forwards": [
       [
        {
@@ -37163,122 +37163,6 @@
       ],
       [
        {
-        "name": "Andre Lee",
-        "jersey": 47,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8481732,
-        "dfo_id": 30215,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 12,
-         "p": 3,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 7708
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 2937
-        },
-        "l5_point_games": 2,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Scott Laughton",
-        "jersey": 21,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476872,
-        "dfo_id": 2018,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 2,
-         "gp": 14,
-         "p": 5,
-         "ppp": 0,
-         "sog": 18,
-         "toi_s": 12153
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 4281
-        },
-        "l5_point_games": 2,
-        "gp": 14,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Martin Chromiak",
-        "jersey": 42,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8482160,
-        "dfo_id": 31734,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 1594
-        },
-        "last5": {
-         "a": 0,
-         "g": 2,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 9,
-         "toi_s": 3765
-        },
-        "l5_point_games": 0,
-        "gp": 2,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Erik Haula",
         "jersey": 56,
         "pos": "LW",
@@ -37311,7 +37195,7 @@
         "l5_point_games": 2,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -37349,7 +37233,7 @@
         "l5_point_games": 1,
         "gp": 1,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -37387,9 +37271,125 @@
         "l5_point_games": 4,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Andre Lee",
+        "jersey": 47,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8481732,
+        "dfo_id": 30215,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 2,
+         "g": 1,
+         "gp": 12,
+         "p": 3,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 7708
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2937
+        },
+        "l5_point_games": 2,
+        "gp": 12,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Scott Laughton",
+        "jersey": 21,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8476872,
+        "dfo_id": 2018,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 2,
+         "gp": 14,
+         "p": 5,
+         "ppp": 0,
+         "sog": 18,
+         "toi_s": 12153
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 4281
+        },
+        "l5_point_games": 2,
+        "gp": 14,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Alex Turcotte",
+        "jersey": 15,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8481532,
+        "dfo_id": 30420,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 1,
+         "g": 0,
+         "gp": 3,
+         "p": 1,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 2539
+        },
+        "last5": {
+         "a": 2,
+         "g": 2,
+         "gp": 5,
+         "p": 4,
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 4418
+        },
+        "l5_point_games": 1,
+        "gp": 3,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -37983,47 +37983,47 @@
         "l5_point_games": 2,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Martin Chromiak",
-        "jersey": 42,
+        "name": "Alex Turcotte",
+        "jersey": 15,
         "pos": null,
         "slot": 3,
-        "player_id": 8482160,
-        "dfo_id": 31734,
+        "player_id": 8481532,
+        "dfo_id": 30420,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 1,
          "g": 0,
-         "gp": 2,
-         "p": 0,
+         "gp": 3,
+         "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 1594
+         "sog": 1,
+         "toi_s": 2539
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 2,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 9,
-         "toi_s": 3765
+         "p": 4,
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 4418
         },
-        "l5_point_games": 0,
-        "gp": 2,
+        "l5_point_games": 1,
+        "gp": 3,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -38139,7 +38139,7 @@
         "l5_point_games": 2,
         "gp": 12,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -38293,7 +38293,7 @@
         "l5_point_games": 2,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -38416,11 +38416,6 @@
      ],
      "injuries": [
       {
-       "player": "Alex Turcotte",
-       "status": "IR",
-       "news": "The Kings have placed Alex Turcotte (undisclosed) on IR."
-      },
-      {
        "player": "Kevin Fiala",
        "status": "IR",
        "news": "Fiala (lower-body) was a regular participant in Friday\u2019s practice."
@@ -38437,7 +38432,7 @@
        "rating": 72.8849968549741
       },
       "d2": {
-       "rank": 16,
+       "rank": 17,
        "rating": 73.75706256080865
       },
       "d3": {
@@ -38453,16 +38448,16 @@
        "rating": 76.3627668181256
       },
       "f2": {
-       "rank": 35,
+       "rank": 32,
        "rating": 70.11529651567486
       },
       "f3": {
-       "rank": 21,
-       "rating": 72.5428831235671
+       "rank": 20,
+       "rating": 72.90883259242077
       },
       "f4": {
-       "rank": 10,
-       "rating": 72.90883259242077
+       "rank": 11,
+       "rating": 72.5428831235671
       },
       "g": {
        "rank": 13,
