@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T21:48:47.922871+00:00",
+ "generated_utc": "2026-11-07T22:03:52.166322+00:00",
  "games": [
   {
    "game_id": 2026020265,
@@ -8360,7 +8360,7 @@
      "ppga_rk": 17,
      "l5_gf": 2.2,
      "l5_ga": 4.6,
-     "lineup_as_of": "2026-11-07T12:09:02.854569+00:00",
+     "lineup_as_of": "2026-11-07T22:03:50.809744+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -8382,17 +8382,17 @@
       ],
       "2": [
        "Oliver Moore",
-       "Frank Nazar",
-       "Ryan Donato"
+       "Anton Frondell",
+       "Frank Nazar"
       ],
       "3": [
-       "Andrew Mangiapane",
-       "Anton Frondell",
-       "Teuvo Teravainen"
+       "Teuvo Teravainen",
+       "Ryan Greene",
+       "Ryan Donato"
       ],
       "4": [
        "Cole Smith",
-       "Ryan Greene",
+       "Jordan Greenway",
        "Dillon Boucher"
       ]
      },
@@ -8553,7 +8553,7 @@
        "home": false,
        "line": 2,
        "pp": 1,
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -8603,12 +8603,12 @@
          "either": 3
         },
         {
-         "name": "Ryan Donato",
-         "jersey": 8,
-         "pp": 2,
-         "n": 7,
-         "both": 1,
-         "either": 2
+         "name": "Anton Frondell",
+         "jersey": 16,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -8618,7 +8618,7 @@
        "team": "CHI",
        "opp": "CAR",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "pos": "C",
        "gtd": false,
@@ -8656,26 +8656,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Andrew Mangiapane",
-         "jersey": 88,
-         "pp": null,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "name": "Oliver Moore",
+         "jersey": 11,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Teuvo Teravainen",
-         "jersey": 86,
-         "pp": 2,
-         "n": 8,
-         "both": 3,
-         "either": 3
+         "name": "Frank Nazar",
+         "jersey": null,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -8752,11 +8752,11 @@
        "team": "CHI",
        "opp": "CAR",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 17,
        "pt_games": 5,
@@ -8777,78 +8777,11 @@
        ],
        "pp_toi": 0.9,
        "toi": 13.3,
-       "p": 0.266,
-       "fair": "+276",
-       "min": "+299",
-       "p2": 0.022,
-       "fair2": "+4439",
-       "min2": "+4711",
-       "adj": [
-        [
-         "opp",
-         0.8606451612903225
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Oliver Moore",
-         "jersey": 11,
-         "pp": 2,
-         "n": 10,
-         "both": 2,
-         "either": 3
-        },
-        {
-         "name": "Frank Nazar",
-         "jersey": null,
-         "pp": 1,
-         "n": 7,
-         "both": 1,
-         "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Andrew Mangiapane",
-       "jersey": 88,
-       "team": "CHI",
-       "opp": "CAR",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 5,
-       "pt_games": 2,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        2
-       ],
-       "away_split": [
-        1,
-        3
-       ],
-       "pp_toi": 0.0,
-       "toi": 10.0,
-       "p": 0.265,
-       "fair": "+278",
-       "min": "+300",
-       "p2": 0.021,
-       "fair2": "+4620",
+       "p": 0.241,
+       "fair": "+315",
+       "min": "+340",
+       "p2": 0.011,
+       "fair2": "+4900",
        "min2": "+4900",
        "adj": [
         [
@@ -8857,24 +8790,24 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
          "name": "Teuvo Teravainen",
          "jersey": 86,
          "pp": 2,
          "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Ryan Greene",
+         "jersey": 20,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -8888,7 +8821,7 @@
        "home": false,
        "line": 3,
        "pp": 2,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -8930,20 +8863,87 @@
        },
        "partners": [
         {
-         "name": "Andrew Mangiapane",
-         "jersey": 88,
+         "name": "Ryan Greene",
+         "jersey": 20,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
-         "pp": 1,
-         "n": 8,
-         "both": 3,
-         "either": 3
+         "name": "Ryan Donato",
+         "jersey": 8,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Ryan Greene",
+       "jersey": 20,
+       "team": "CHI",
+       "opp": "CAR",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 17,
+       "pt_games": 4,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 2,
+       "two_games": 0,
+       "home_split": [
+        2,
+        9
+       ],
+       "away_split": [
+        2,
+        8
+       ],
+       "pp_toi": 0.6,
+       "toi": 14.3,
+       "p": 0.207,
+       "fair": "+384",
+       "min": "+413",
+       "p2": 0.011,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8606451612903225
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Teuvo Teravainen",
+         "jersey": 86,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Ryan Donato",
+         "jersey": 8,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -8997,19 +8997,19 @@
        },
        "partners": [
         {
+         "name": "Anton Frondell",
+         "jersey": 16,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Frank Nazar",
          "jersey": null,
          "pp": 1,
          "n": 9,
          "both": 1,
-         "either": 3
-        },
-        {
-         "name": "Ryan Donato",
-         "jersey": 8,
-         "pp": 2,
-         "n": 10,
-         "both": 2,
          "either": 3
         }
        ]
@@ -9039,13 +9039,13 @@
      "ppga_rk": 25,
      "l5_gf": 3.6,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-07T12:09:02.755518+00:00",
+     "lineup_as_of": "2026-11-07T22:03:50.738832+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Jordan Staal",
        "status": "IR",
-       "news": "Staal has a calf tear and is expected to miss the next 1-2 months."
+       "news": "Staal (calf tear) returned to Carolina's practice as an extra on Saturday."
       }
      ],
      "lines": {
@@ -9082,7 +9082,7 @@
       "Mark Jankowski",
       "Seth Jarvis",
       "Logan Stankoven",
-      "Juuso Valimaki"
+      "Alexander Nikishin"
      ],
      "players": [
       {
@@ -9724,7 +9724,7 @@
      "ppga_rk": 16,
      "l5_gf": 1.6,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-07T12:09:04.127917+00:00",
+     "lineup_as_of": "2026-11-07T22:03:51.383719+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -9762,14 +9762,14 @@
      },
      "pp1": [
       "Mason Marchment",
-      "Ivar Stenberg",
+      "Michael Misa",
       "Tyler Toffoli",
       "Macklin Celebrini",
       "Will Smith"
      ],
      "pp2": [
       "Kiefer Sherwood",
-      "Michael Misa",
+      "Ivar Stenberg",
       "Collin Graf",
       "Dmitry Orlov",
       "Eric Pohlkamp"
@@ -9831,7 +9831,7 @@
         {
          "name": "Michael Misa",
          "jersey": 77,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
          "both": 0,
          "either": 1
@@ -9906,7 +9906,7 @@
         {
          "name": "Ivar Stenberg",
          "jersey": 41,
-         "pp": 1,
+         "pp": 2,
          "n": 3,
          "both": 0,
          "either": 1
@@ -9916,6 +9916,77 @@
          "jersey": 10,
          "pp": null,
          "n": 3,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Michael Misa",
+       "jersey": 77,
+       "team": "SJS",
+       "opp": "DAL",
+       "home": false,
+       "line": 1,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 18,
+       "pt_games": 8,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        3,
+        8
+       ],
+       "away_split": [
+        5,
+        10
+       ],
+       "pp_toi": 2.3,
+       "toi": 16.4,
+       "p": 0.347,
+       "fair": "+189",
+       "min": "+206",
+       "p2": 0.066,
+       "fair2": "+1408",
+       "min2": "+1498",
+       "adj": [
+        [
+         "opp",
+         0.8503225806451613
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Macklin Celebrini",
+         "jersey": 71,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Will Smith",
+         "jersey": 2,
+         "pp": 1,
+         "n": 2,
          "both": 0,
          "either": 1
         }
@@ -9977,7 +10048,7 @@
         {
          "name": "Michael Misa",
          "jersey": 77,
-         "pp": 2,
+         "pp": 1,
          "n": 2,
          "both": 0,
          "either": 1
@@ -9989,148 +10060,6 @@
          "n": 14,
          "both": 6,
          "either": 10
-        }
-       ]
-      },
-      {
-       "name": "Ivar Stenberg",
-       "jersey": 41,
-       "team": "SJS",
-       "opp": "DAL",
-       "home": false,
-       "line": 3,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 18,
-       "pt_games": 8,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 4,
-       "two_games": 2,
-       "home_split": [
-        2,
-        8
-       ],
-       "away_split": [
-        6,
-        10
-       ],
-       "pp_toi": 4.3,
-       "toi": 15.2,
-       "p": 0.347,
-       "fair": "+189",
-       "min": "+206",
-       "p2": 0.092,
-       "fair2": "+989",
-       "min2": "+1054",
-       "adj": [
-        [
-         "opp",
-         0.8503225806451613
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Tyler Toffoli",
-         "jersey": 73,
-         "pp": 1,
-         "n": 3,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Michael Misa",
-       "jersey": 77,
-       "team": "SJS",
-       "opp": "DAL",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 18,
-       "pt_games": 8,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        3,
-        8
-       ],
-       "away_split": [
-        5,
-        10
-       ],
-       "pp_toi": 2.3,
-       "toi": 16.4,
-       "p": 0.302,
-       "fair": "+232",
-       "min": "+252",
-       "p2": 0.042,
-       "fair2": "+2290",
-       "min2": "+2434",
-       "adj": [
-        [
-         "opp",
-         0.8503225806451613
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Macklin Celebrini",
-         "jersey": 71,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Will Smith",
-         "jersey": 2,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
         }
        ]
       },
@@ -10202,6 +10131,77 @@
          "n": 2,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Ivar Stenberg",
+       "jersey": 41,
+       "team": "SJS",
+       "opp": "DAL",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 18,
+       "pt_games": 8,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 6,
+       "goal_games": 4,
+       "two_games": 2,
+       "home_split": [
+        2,
+        8
+       ],
+       "away_split": [
+        6,
+        10
+       ],
+       "pp_toi": 4.3,
+       "toi": 15.2,
+       "p": 0.281,
+       "fair": "+256",
+       "min": "+277",
+       "p2": 0.059,
+       "fair2": "+1590",
+       "min2": "+1691",
+       "adj": [
+        [
+         "opp",
+         0.8503225806451613
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tyler Toffoli",
+         "jersey": 73,
+         "pp": 1,
+         "n": 3,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -10403,7 +10403,7 @@
         {
          "name": "Ivar Stenberg",
          "jersey": 41,
-         "pp": 1,
+         "pp": 2,
          "n": 1,
          "both": 0,
          "either": 0
@@ -10443,7 +10443,7 @@
      "ppga_rk": 31,
      "l5_gf": 2.6,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-07T12:09:03.036007+00:00",
+     "lineup_as_of": "2026-11-07T22:03:50.874360+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -10464,7 +10464,7 @@
       {
        "player": "Miro Heiskanen",
        "status": "DTD",
-       "news": "Heiskanen (upper body) is doubtful for Saturday vs. San Jose."
+       "news": "Heiskanen (upper-body) will remain out vs. San Jose on Saturday."
       }
      ],
      "lines": {
@@ -10479,14 +10479,14 @@
        "Arttu Hyry"
       ],
       "3": [
-       "Joel Kiviranta",
+       "Sam Steel",
        "Justin Hryckowian",
        "Tyler Seguin"
       ],
       "4": [
-       "David Perron",
+       "Joel Kiviranta",
        "Radek Faksa",
-       "Colin Blackwell"
+       "David Perron"
       ]
      },
      "pp1": [
@@ -10907,73 +10907,6 @@
        ]
       },
       {
-       "name": "Joel Kiviranta",
-       "jersey": 94,
-       "team": "DAL",
-       "opp": "SJS",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 12,
-       "pt_games": 3,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        2,
-        8
-       ],
-       "away_split": [
-        1,
-        4
-       ],
-       "pp_toi": 0.0,
-       "toi": 12.5,
-       "p": 0.28,
-       "fair": "+258",
-       "min": "+279",
-       "p2": 0.018,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.1187096774193548
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Justin Hryckowian",
-         "jersey": 49,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Tyler Seguin",
-         "jersey": 91,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Tyler Seguin",
        "jersey": 91,
        "team": "DAL",
@@ -11023,18 +10956,85 @@
        },
        "partners": [
         {
-         "name": "Joel Kiviranta",
-         "jersey": 94,
+         "name": "Sam Steel",
+         "jersey": 18,
          "pp": null,
-         "n": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
          "name": "Justin Hryckowian",
          "jersey": 49,
          "pp": 2,
          "n": 5,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Sam Steel",
+       "jersey": 18,
+       "team": "DAL",
+       "opp": "SJS",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 13,
+       "pt_games": 3,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        1,
+        7
+       ],
+       "away_split": [
+        2,
+        6
+       ],
+       "pp_toi": 0.0,
+       "toi": 16.3,
+       "p": 0.266,
+       "fair": "+275",
+       "min": "+298",
+       "p2": 0.017,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.1187096774193548
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Justin Hryckowian",
+         "jersey": 49,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tyler Seguin",
+         "jersey": 91,
+         "pp": 2,
+         "n": 2,
          "both": 0,
          "either": 1
         }
@@ -11090,10 +11090,10 @@
        },
        "partners": [
         {
-         "name": "Joel Kiviranta",
-         "jersey": 94,
+         "name": "Sam Steel",
+         "jersey": 18,
          "pp": null,
-         "n": 2,
+         "n": 1,
          "both": 0,
          "either": 0
         },
