@@ -1,0 +1,960 @@
+{
+ "mode": "live",
+ "date": "2026-11-06",
+ "generated_utc": "2026-11-07T04:46:12.207815+00:00",
+ "lenses": {
+  "point": "Point",
+  "pair": "Linemate pair \u00b7 both score",
+  "two": "2+ points",
+  "pp1": "PP1 mates \u00b7 both score",
+  "btts2": "Both teams 2+ goals"
+ },
+ "default_slots": [
+  "point",
+  "pair",
+  "two"
+ ],
+ "games": [
+  {
+   "id": "01",
+   "game_id": 2026020262,
+   "start_utc": "2026-11-07T00:00:00Z",
+   "status": "FINAL",
+   "venue": "KeyBank Center",
+   "away": {
+    "abbr": "CBJ",
+    "city": "Columbus",
+    "name": "Blue Jackets",
+    "color": "#002654",
+    "color2": "#CE1126",
+    "record": "7-7-0",
+    "b2b": true,
+    "goalie": "Jet Greaves",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Greaves will start in Buffalo on Friday.",
+    "goalie_source": "Mark Scheig",
+    "sv": "0.877",
+    "gaa": "3.5",
+    "lineup_as_of": "2026-11-06T23:44:32.388924+00:00",
+    "lineup_stale": false,
+    "ga_rk": 20,
+    "gf_rk": 28,
+    "ppga_rk": 12
+   },
+   "home": {
+    "abbr": "BUF",
+    "city": "Buffalo",
+    "name": "Sabres",
+    "color": "#003087",
+    "color2": "#FFB81C",
+    "record": "7-5-3",
+    "b2b": false,
+    "goalie": "Ukko-Pekka Luukkonen",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Luukkonen will start vs. Columbus on Friday.",
+    "goalie_source": "Mike Harrington",
+    "sv": "0.878",
+    "gaa": "3.27",
+    "lineup_as_of": "2026-11-06T23:44:32.292410+00:00",
+    "lineup_stale": false,
+    "ga_rk": 13,
+    "gf_rk": 23,
+    "ppga_rk": 3
+   },
+   "markets": {
+    "moneyline": {
+     "away": "-170",
+     "home": "+142",
+     "provider": "Daily Faceoff",
+     "as_of": "2026-11-06T23:44:32.292410+00:00"
+    },
+    "total": {
+     "line": null,
+     "provider": null,
+     "as_of": null
+    }
+   },
+   "lenses": {
+    "point": [
+     {
+      "selection": "Kent Johnson \u00b7 1+ point",
+      "prob": 0.621,
+      "fair": "-164",
+      "need": "-141",
+      "rationale": "Point in 11 of 14 this season, 5 of last 5 \u00b7 PP1, 2.7 PP min/game over L5",
+      "player": "Kent Johnson",
+      "team": "CBJ",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Tage Thompson \u00b7 1+ point",
+      "prob": 0.6,
+      "fair": "-150",
+      "need": "-130",
+      "rationale": "Point in 10 of 15 this season, 4 of last 5 \u00b7 PP1, 2.9 PP min/game over L5",
+      "player": "Tage Thompson",
+      "team": "BUF",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Jack Quinn \u00b7 1+ point",
+      "prob": 0.558,
+      "fair": "-126",
+      "need": "-111",
+      "rationale": "Point in 9 of 15 this season, 3 of last 5 \u00b7 PP1, 3.2 PP min/game over L5",
+      "player": "Jack Quinn",
+      "team": "BUF",
+      "pp": 1,
+      "line": 2,
+      "bias": null
+     },
+     {
+      "selection": "Zach Benson \u00b7 1+ point",
+      "prob": 0.54,
+      "fair": "-117",
+      "need": "-104",
+      "rationale": "Point in 10 of 15 this season, 5 of last 5 \u00b7 PP1, 2.9 PP min/game over L5",
+      "player": "Zach Benson",
+      "team": "BUF",
+      "pp": 1,
+      "line": 1,
+      "bias": "A"
+     },
+     {
+      "selection": "Charlie Coyle \u00b7 1+ point",
+      "prob": 0.499,
+      "fair": "+100",
+      "need": "+112",
+      "rationale": "Point in 8 of 14 this season, 2 of last 5 \u00b7 PP1, 2.8 PP min/game over L5",
+      "player": "Charlie Coyle",
+      "team": "CBJ",
+      "pp": 1,
+      "line": 3,
+      "bias": "A"
+     },
+     {
+      "selection": "Noah Ostlund \u00b7 1+ point",
+      "prob": 0.474,
+      "fair": "+111",
+      "need": "+124",
+      "rationale": "Point in 7 of 15 this season, 2 of last 5 \u00b7 PP1, 3.0 PP min/game over L5",
+      "player": "Noah Ostlund",
+      "team": "BUF",
+      "pp": 1,
+      "line": 2,
+      "bias": null
+     }
+    ],
+    "pair": [
+     {
+      "selection": "Thompson + Benson \u00b7 both 1+ point",
+      "prob": 0.594,
+      "fair": "-147",
+      "need": "-128",
+      "rationale": "Both scored 4 of 4 games together \u00b7 independent 32% \u00b7 new pair",
+      "team": "BUF",
+      "line": 1,
+      "read": "new pair",
+      "both": 4,
+      "n": 4
+     },
+     {
+      "selection": "Thompson + Krebs \u00b7 both 1+ point",
+      "prob": 0.406,
+      "fair": "+146",
+      "need": "+161",
+      "rationale": "Both scored 4 of 7 games together \u00b7 independent 21% \u00b7 correlated",
+      "team": "BUF",
+      "line": 1,
+      "read": "correlated",
+      "both": 4,
+      "n": 7
+     },
+     {
+      "selection": "Quinn + Ostlund \u00b7 both 1+ point",
+      "prob": 0.379,
+      "fair": "+164",
+      "need": "+179",
+      "rationale": "Both scored 6 of 14 games together \u00b7 independent 26% \u00b7 correlated",
+      "team": "BUF",
+      "line": 2,
+      "read": "correlated",
+      "both": 6,
+      "n": 14
+     },
+     {
+      "selection": "Coyle + Sillinger \u00b7 both 1+ point",
+      "prob": 0.367,
+      "fair": "+172",
+      "need": "+189",
+      "rationale": "Both scored 5 of 10 games together \u00b7 independent 15% \u00b7 correlated",
+      "team": "CBJ",
+      "line": 3,
+      "read": "correlated",
+      "both": 5,
+      "n": 10
+     },
+     {
+      "selection": "Benson + Krebs \u00b7 both 1+ point",
+      "prob": 0.35,
+      "fair": "+185",
+      "need": "+203",
+      "rationale": "Both scored 2 of 3 games together \u00b7 independent 19% \u00b7 new pair",
+      "team": "BUF",
+      "line": 1,
+      "read": "new pair",
+      "both": 2,
+      "n": 3
+     }
+    ],
+    "two": [
+     {
+      "selection": "Tage Thompson \u00b7 2+ points",
+      "prob": 0.277,
+      "fair": "+261",
+      "need": "+283",
+      "rationale": "2+ in 5 of 15 \u00b7 2.9 PP min/game \u00b7 PP1",
+      "player": "Tage Thompson",
+      "team": "BUF",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Jack Quinn \u00b7 2+ points",
+      "prob": 0.193,
+      "fair": "+418",
+      "need": "+449",
+      "rationale": "2+ in 3 of 15 \u00b7 3.2 PP min/game \u00b7 PP1",
+      "player": "Jack Quinn",
+      "team": "BUF",
+      "pp": 1,
+      "line": 2
+     },
+     {
+      "selection": "Zach Benson \u00b7 2+ points",
+      "prob": 0.173,
+      "fair": "+478",
+      "need": "+513",
+      "rationale": "2+ in 3 of 15 \u00b7 2.9 PP min/game \u00b7 PP1",
+      "player": "Zach Benson",
+      "team": "BUF",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Noah Ostlund \u00b7 2+ points",
+      "prob": 0.151,
+      "fair": "+562",
+      "need": "+602",
+      "rationale": "2+ in 2 of 15 \u00b7 3.0 PP min/game \u00b7 PP1",
+      "player": "Noah Ostlund",
+      "team": "BUF",
+      "pp": 1,
+      "line": 2
+     },
+     {
+      "selection": "Kent Johnson \u00b7 2+ points",
+      "prob": 0.132,
+      "fair": "+658",
+      "need": "+703",
+      "rationale": "2+ in 2 of 14 \u00b7 2.7 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
+      "player": "Kent Johnson",
+      "team": "CBJ",
+      "pp": 1,
+      "line": 1
+     }
+    ],
+    "pp1": [
+     {
+      "selection": "Thompson + Benson \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.594,
+      "fair": "-147",
+      "need": "-128",
+      "rationale": "Both scored 4 of 4 games together \u00b7 independent 32% \u00b7 new pair",
+      "team": "BUF",
+      "line": 1,
+      "read": "new pair",
+      "both": 4,
+      "n": 4
+     },
+     {
+      "selection": "Quinn + Ostlund \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.379,
+      "fair": "+164",
+      "need": "+179",
+      "rationale": "Both scored 6 of 14 games together \u00b7 independent 26% \u00b7 correlated",
+      "team": "BUF",
+      "line": 2,
+      "read": "correlated",
+      "both": 6,
+      "n": 14
+     },
+     {
+      "selection": "Johnson + Knies \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.266,
+      "fair": "+276",
+      "need": "+299",
+      "rationale": "Both scored 3 of 10 games together \u00b7 independent 21% \u00b7 correlated",
+      "team": "CBJ",
+      "line": 1,
+      "read": "correlated",
+      "both": 3,
+      "n": 10
+     }
+    ],
+    "btts2": [
+     {
+      "selection": "Both teams 2+ goals \u00b7 Maybe",
+      "prob": 0.573,
+      "fair": "-134",
+      "need": "-118",
+      "rationale": "CBJ xG 2.54 \u00b7 BUF xG 2.97 \u00b7 P(CBJ 2+) 72% \u00b7 P(BUF 2+) 80%",
+      "verdict": "Maybe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "02",
+   "game_id": 2026020263,
+   "start_utc": "2026-11-07T01:00:00Z",
+   "status": "LIVE",
+   "venue": "Grand Casino Arena",
+   "away": {
+    "abbr": "SJS",
+    "city": "San Jose",
+    "name": "Sharks",
+    "color": "#006D75",
+    "color2": "#000000",
+    "record": "7-9-1",
+    "b2b": false,
+    "goalie": "Yaroslav Askarov",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Askarov will start in Minnesota on Friday.",
+    "goalie_source": "Sheng Peng",
+    "sv": "0.888",
+    "gaa": "3.26",
+    "lineup_as_of": "2026-11-06T22:14:15.367794+00:00",
+    "lineup_stale": false,
+    "ga_rk": 6,
+    "gf_rk": 29,
+    "ppga_rk": 20
+   },
+   "home": {
+    "abbr": "MIN",
+    "city": "Minnesota",
+    "name": "Wild",
+    "color": "#154734",
+    "color2": "#A6192E",
+    "record": "11-3-3",
+    "b2b": false,
+    "goalie": "Jesper Wallstedt",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Wallstedt will start vs. San Jose on Friday.",
+    "goalie_source": "Joe O'Donnell",
+    "sv": "0.921",
+    "gaa": "2.0",
+    "lineup_as_of": "2026-11-06T19:11:18.438308+00:00",
+    "lineup_stale": false,
+    "ga_rk": 32,
+    "gf_rk": 13,
+    "ppga_rk": 23
+   },
+   "markets": {
+    "moneyline": {
+     "away": "-102",
+     "home": "-118",
+     "provider": "Daily Faceoff",
+     "as_of": "2026-11-06T19:11:18.438308+00:00"
+    },
+    "total": {
+     "line": null,
+     "provider": null,
+     "as_of": null
+    }
+   },
+   "lenses": {
+    "point": [
+     {
+      "selection": "Kirill Kaprizov \u00b7 1+ point",
+      "prob": 0.85,
+      "fair": "-567",
+      "need": "-405",
+      "rationale": "Point in 15 of 17 this season, 5 of last 5 \u00b7 PP1, 5.4 PP min/game over L5",
+      "player": "Kirill Kaprizov",
+      "team": "MIN",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Joel Eriksson Ek \u00b7 1+ point",
+      "prob": 0.796,
+      "fair": "-390",
+      "need": "-302",
+      "rationale": "Point in 12 of 17 this season, 5 of last 5 \u00b7 PP1, 4.8 PP min/game over L5",
+      "player": "Joel Eriksson Ek",
+      "team": "MIN",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Maxim Shabanov \u00b7 1+ point",
+      "prob": 0.677,
+      "fair": "-210",
+      "need": "-177",
+      "rationale": "Point in 9 of 16 this season, 3 of last 5 \u00b7 PP1, 4.8 PP min/game over L5",
+      "player": "Maxim Shabanov",
+      "team": "MIN",
+      "pp": 1,
+      "line": 3,
+      "bias": null
+     },
+     {
+      "selection": "Matt Boldy \u00b7 1+ point",
+      "prob": 0.635,
+      "fair": "-174",
+      "need": "-149",
+      "rationale": "Point in 10 of 17 this season, 5 of last 5 \u00b7 PP1, 5.3 PP min/game over L5",
+      "player": "Matt Boldy",
+      "team": "MIN",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Macklin Celebrini \u00b7 1+ point",
+      "prob": 0.486,
+      "fair": "+106",
+      "need": "+118",
+      "rationale": "Point in 9 of 15 this season, 2 of last 5 \u00b7 PP1, 4.9 PP min/game over L5",
+      "player": "Macklin Celebrini",
+      "team": "SJS",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Michael McCarron \u00b7 1+ point",
+      "prob": 0.475,
+      "fair": "+111",
+      "need": "+123",
+      "rationale": "Point in 8 of 17 this season, 3 of last 5 \u00b7 SJS allows 3.53 goals/game (#6 of 32)",
+      "player": "Michael McCarron",
+      "team": "MIN",
+      "pp": null,
+      "line": 2,
+      "bias": "G"
+     }
+    ],
+    "pair": [
+     {
+      "selection": "Kaprizov + Ek \u00b7 both 1+ point",
+      "prob": 0.753,
+      "fair": "-305",
+      "need": "-245",
+      "rationale": "Both scored 11 of 14 games together \u00b7 independent 68% \u00b7 correlated",
+      "team": "MIN",
+      "line": 1,
+      "read": "correlated",
+      "both": 11,
+      "n": 14
+     },
+     {
+      "selection": "Kaprizov + Boldy \u00b7 both 1+ point",
+      "prob": 0.602,
+      "fair": "-151",
+      "need": "-131",
+      "rationale": "Both scored 10 of 16 games together \u00b7 independent 54% \u00b7 correlated",
+      "team": "MIN",
+      "line": 1,
+      "read": "correlated",
+      "both": 10,
+      "n": 16
+     },
+     {
+      "selection": "Ek + Boldy \u00b7 both 1+ point",
+      "prob": 0.567,
+      "fair": "-131",
+      "need": "-115",
+      "rationale": "Both scored 10 of 17 games together \u00b7 independent 51% \u00b7 correlated",
+      "team": "MIN",
+      "line": 1,
+      "read": "correlated",
+      "both": 10,
+      "n": 17
+     },
+     {
+      "selection": "McCarron + Brink \u00b7 both 1+ point",
+      "prob": 0.363,
+      "fair": "+176",
+      "need": "+192",
+      "rationale": "Both scored 3 of 6 games together \u00b7 independent 23% \u00b7 correlated",
+      "team": "MIN",
+      "line": 2,
+      "read": "correlated",
+      "both": 3,
+      "n": 6
+     },
+     {
+      "selection": "Celebrini + Smith \u00b7 both 1+ point",
+      "prob": 0.321,
+      "fair": "+211",
+      "need": "+230",
+      "rationale": "Both scored 5 of 13 games together \u00b7 independent 18% \u00b7 correlated",
+      "team": "SJS",
+      "line": 1,
+      "read": "correlated",
+      "both": 5,
+      "n": 13
+     }
+    ],
+    "two": [
+     {
+      "selection": "Kirill Kaprizov \u00b7 2+ points",
+      "prob": 0.426,
+      "fair": "+135",
+      "need": "+149",
+      "rationale": "2+ in 8 of 17 \u00b7 5.4 PP min/game \u00b7 PP1",
+      "player": "Kirill Kaprizov",
+      "team": "MIN",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Matt Boldy \u00b7 2+ points",
+      "prob": 0.248,
+      "fair": "+303",
+      "need": "+327",
+      "rationale": "2+ in 4 of 17 \u00b7 5.3 PP min/game \u00b7 PP1",
+      "player": "Matt Boldy",
+      "team": "MIN",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Macklin Celebrini \u00b7 2+ points",
+      "prob": 0.241,
+      "fair": "+315",
+      "need": "+340",
+      "rationale": "2+ in 5 of 15 \u00b7 4.9 PP min/game \u00b7 PP1",
+      "player": "Macklin Celebrini",
+      "team": "SJS",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Joel Eriksson Ek \u00b7 2+ points",
+      "prob": 0.224,
+      "fair": "+346",
+      "need": "+373",
+      "rationale": "2+ in 3 of 17 \u00b7 4.8 PP min/game \u00b7 PP1",
+      "player": "Joel Eriksson Ek",
+      "team": "MIN",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Tyler Toffoli \u00b7 2+ points",
+      "prob": 0.133,
+      "fair": "+652",
+      "need": "+697",
+      "rationale": "2+ in 2 of 17 \u00b7 3.2 PP min/game \u00b7 PP1",
+      "player": "Tyler Toffoli",
+      "team": "SJS",
+      "pp": 1,
+      "line": 3
+     }
+    ],
+    "pp1": [
+     {
+      "selection": "Kaprizov + Ek \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.753,
+      "fair": "-305",
+      "need": "-245",
+      "rationale": "Both scored 11 of 14 games together \u00b7 independent 68% \u00b7 correlated",
+      "team": "MIN",
+      "line": 1,
+      "read": "correlated",
+      "both": 11,
+      "n": 14
+     },
+     {
+      "selection": "Kaprizov + Boldy \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.602,
+      "fair": "-151",
+      "need": "-131",
+      "rationale": "Both scored 10 of 16 games together \u00b7 independent 54% \u00b7 correlated",
+      "team": "MIN",
+      "line": 1,
+      "read": "correlated",
+      "both": 10,
+      "n": 16
+     },
+     {
+      "selection": "Ek + Boldy \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.567,
+      "fair": "-131",
+      "need": "-115",
+      "rationale": "Both scored 10 of 17 games together \u00b7 independent 51% \u00b7 correlated",
+      "team": "MIN",
+      "line": 1,
+      "read": "correlated",
+      "both": 10,
+      "n": 17
+     },
+     {
+      "selection": "Celebrini + Smith \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.321,
+      "fair": "+211",
+      "need": "+230",
+      "rationale": "Both scored 5 of 13 games together \u00b7 independent 18% \u00b7 correlated",
+      "team": "SJS",
+      "line": 1,
+      "read": "correlated",
+      "both": 5,
+      "n": 13
+     }
+    ],
+    "btts2": [
+     {
+      "selection": "Both teams 2+ goals \u00b7 Maybe",
+      "prob": 0.588,
+      "fair": "-142",
+      "need": "-124",
+      "rationale": "SJS xG 2.38 \u00b7 MIN xG 3.41 \u00b7 P(SJS 2+) 69% \u00b7 P(MIN 2+) 85%",
+      "verdict": "Maybe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "03",
+   "game_id": 2026020264,
+   "start_utc": "2026-11-07T01:00:00Z",
+   "status": "LIVE",
+   "venue": "Scotiabank Saddledome",
+   "away": {
+    "abbr": "ANA",
+    "city": "Anaheim",
+    "name": "Ducks",
+    "color": "#F47A38",
+    "color2": "#B9975B",
+    "record": "8-7-1",
+    "b2b": true,
+    "goalie": "Lukas Dostal",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Dostal will start in Calgary on Friday.",
+    "goalie_source": "Ryan Pike",
+    "sv": "0.865",
+    "gaa": "3.75",
+    "lineup_as_of": "2026-11-06T16:33:32.138132+00:00",
+    "lineup_stale": false,
+    "ga_rk": 3,
+    "gf_rk": 6,
+    "ppga_rk": 4
+   },
+   "home": {
+    "abbr": "CGY",
+    "city": "Calgary",
+    "name": "Flames",
+    "color": "#D2001C",
+    "color2": "#FAAF19",
+    "record": "7-8-1",
+    "b2b": false,
+    "goalie": "Dustin Wolf",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Wolf will start vs. Anaheim on Friday.",
+    "goalie_source": "Pat Steinberg",
+    "sv": "0.869",
+    "gaa": "3.67",
+    "lineup_as_of": "2026-11-07T00:59:45.940256+00:00",
+    "lineup_stale": false,
+    "ga_rk": 9,
+    "gf_rk": 30,
+    "ppga_rk": 25
+   },
+   "markets": {
+    "moneyline": {
+     "away": "-198",
+     "home": "+164",
+     "provider": "Daily Faceoff",
+     "as_of": "2026-11-07T00:59:45.940256+00:00"
+    },
+    "total": {
+     "line": null,
+     "provider": null,
+     "as_of": null
+    }
+   },
+   "lenses": {
+    "point": [
+     {
+      "selection": "Joel Farabee \u00b7 1+ point",
+      "prob": 0.727,
+      "fair": "-266",
+      "need": "-218",
+      "rationale": "Point in 11 of 16 this season, 2 of last 5 \u00b7 PP1, 1.6 PP min/game over L5",
+      "player": "Joel Farabee",
+      "team": "CGY",
+      "pp": 1,
+      "line": 1,
+      "bias": null
+     },
+     {
+      "selection": "Matt Coronato \u00b7 1+ point",
+      "prob": 0.643,
+      "fair": "-180",
+      "need": "-154",
+      "rationale": "Point in 8 of 16 this season, 1 of last 5 \u00b7 PP1, 1.7 PP min/game over L5",
+      "player": "Matt Coronato",
+      "team": "CGY",
+      "pp": 1,
+      "line": 1,
+      "bias": "A"
+     },
+     {
+      "selection": "Leo Carlsson \u00b7 1+ point",
+      "prob": 0.63,
+      "fair": "-170",
+      "need": "-147",
+      "rationale": "Point in 12 of 16 this season, 5 of last 5 \u00b7 PP1, 4.6 PP min/game over L5",
+      "player": "Leo Carlsson",
+      "team": "ANA",
+      "pp": 1,
+      "line": 1,
+      "bias": "A"
+     },
+     {
+      "selection": "Beckett Sennecke \u00b7 1+ point",
+      "prob": 0.591,
+      "fair": "-144",
+      "need": "-126",
+      "rationale": "Point in 11 of 16 this season, 4 of last 5 \u00b7 PP1, 4.4 PP min/game over L5",
+      "player": "Beckett Sennecke",
+      "team": "ANA",
+      "pp": 1,
+      "line": 2,
+      "bias": null
+     },
+     {
+      "selection": "Morgan Frost \u00b7 1+ point",
+      "prob": 0.585,
+      "fair": "-141",
+      "need": "-123",
+      "rationale": "Point in 8 of 16 this season, 2 of last 5 \u00b7 PP1, 1.7 PP min/game over L5",
+      "player": "Morgan Frost",
+      "team": "CGY",
+      "pp": 1,
+      "line": 3,
+      "bias": "A"
+     },
+     {
+      "selection": "Mikael Granlund \u00b7 1+ point",
+      "prob": 0.577,
+      "fair": "-136",
+      "need": "-119",
+      "rationale": "Point in 10 of 15 this season, 4 of last 5 \u00b7 PP1, 4.6 PP min/game over L5",
+      "player": "Mikael Granlund",
+      "team": "ANA",
+      "pp": 1,
+      "line": 2,
+      "bias": "A"
+     }
+    ],
+    "pair": [
+     {
+      "selection": "Farabee + Coronato \u00b7 both 1+ point",
+      "prob": 0.52,
+      "fair": "-108",
+      "need": "+104",
+      "rationale": "Both scored 5 of 9 games together \u00b7 independent 47% \u00b7 correlated",
+      "team": "CGY",
+      "line": 1,
+      "read": "correlated",
+      "both": 5,
+      "n": 9
+     },
+     {
+      "selection": "Granlund + Gauthier \u00b7 both 1+ point",
+      "prob": 0.488,
+      "fair": "+105",
+      "need": "+117",
+      "rationale": "Both scored 4 of 6 games together \u00b7 independent 31% \u00b7 correlated",
+      "team": "ANA",
+      "line": 2,
+      "read": "correlated",
+      "both": 4,
+      "n": 6
+     },
+     {
+      "selection": "Sennecke + Granlund \u00b7 both 1+ point",
+      "prob": 0.473,
+      "fair": "+111",
+      "need": "+124",
+      "rationale": "Both scored 6 of 11 games together \u00b7 independent 34% \u00b7 correlated",
+      "team": "ANA",
+      "line": 2,
+      "read": "correlated",
+      "both": 6,
+      "n": 11
+     },
+     {
+      "selection": "Sennecke + Gauthier \u00b7 both 1+ point",
+      "prob": 0.446,
+      "fair": "+124",
+      "need": "+138",
+      "rationale": "Both scored 3 of 5 games together \u00b7 independent 32% \u00b7 new pair",
+      "team": "ANA",
+      "line": 2,
+      "read": "new pair",
+      "both": 3,
+      "n": 5
+     },
+     {
+      "selection": "Carlsson + Caulfield \u00b7 both 1+ point",
+      "prob": 0.399,
+      "fair": "+151",
+      "need": "+166",
+      "rationale": "Both scored 3 of 5 games together \u00b7 independent 23% \u00b7 new pair",
+      "team": "ANA",
+      "line": 1,
+      "read": "new pair",
+      "both": 3,
+      "n": 5
+     }
+    ],
+    "two": [
+     {
+      "selection": "Leo Carlsson \u00b7 2+ points",
+      "prob": 0.371,
+      "fair": "+170",
+      "need": "+186",
+      "rationale": "2+ in 9 of 16 \u00b7 4.6 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
+      "player": "Leo Carlsson",
+      "team": "ANA",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Matt Coronato \u00b7 2+ points",
+      "prob": 0.292,
+      "fair": "+242",
+      "need": "+263",
+      "rationale": "2+ in 4 of 16 \u00b7 1.7 PP min/game \u00b7 PP1",
+      "player": "Matt Coronato",
+      "team": "CGY",
+      "pp": 1,
+      "line": 1
+     },
+     {
+      "selection": "Cutter Gauthier \u00b7 2+ points",
+      "prob": 0.241,
+      "fair": "+315",
+      "need": "+340",
+      "rationale": "2+ in 5 of 15 \u00b7 4.6 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
+      "player": "Cutter Gauthier",
+      "team": "ANA",
+      "pp": 1,
+      "line": 2
+     },
+     {
+      "selection": "Beckett Sennecke \u00b7 2+ points",
+      "prob": 0.231,
+      "fair": "+333",
+      "need": "+359",
+      "rationale": "2+ in 5 of 16 \u00b7 4.4 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
+      "player": "Beckett Sennecke",
+      "team": "ANA",
+      "pp": 1,
+      "line": 2
+     },
+     {
+      "selection": "Joel Farabee \u00b7 2+ points",
+      "prob": 0.218,
+      "fair": "+359",
+      "need": "+386",
+      "rationale": "2+ in 3 of 16 \u00b7 1.6 PP min/game \u00b7 PP1",
+      "player": "Joel Farabee",
+      "team": "CGY",
+      "pp": 1,
+      "line": 1
+     }
+    ],
+    "pp1": [
+     {
+      "selection": "Farabee + Coronato \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.52,
+      "fair": "-108",
+      "need": "+104",
+      "rationale": "Both scored 5 of 9 games together \u00b7 independent 47% \u00b7 correlated",
+      "team": "CGY",
+      "line": 1,
+      "read": "correlated",
+      "both": 5,
+      "n": 9
+     },
+     {
+      "selection": "Granlund + Gauthier \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.488,
+      "fair": "+105",
+      "need": "+117",
+      "rationale": "Both scored 4 of 6 games together \u00b7 independent 31% \u00b7 correlated",
+      "team": "ANA",
+      "line": 2,
+      "read": "correlated",
+      "both": 4,
+      "n": 6
+     },
+     {
+      "selection": "Sennecke + Granlund \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.473,
+      "fair": "+111",
+      "need": "+124",
+      "rationale": "Both scored 6 of 11 games together \u00b7 independent 34% \u00b7 correlated",
+      "team": "ANA",
+      "line": 2,
+      "read": "correlated",
+      "both": 6,
+      "n": 11
+     },
+     {
+      "selection": "Sennecke + Gauthier \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.446,
+      "fair": "+124",
+      "need": "+138",
+      "rationale": "Both scored 3 of 5 games together \u00b7 independent 32% \u00b7 new pair",
+      "team": "ANA",
+      "line": 2,
+      "read": "new pair",
+      "both": 3,
+      "n": 5
+     }
+    ],
+    "btts2": [
+     {
+      "selection": "Both teams 2+ goals \u00b7 Yes",
+      "prob": 0.663,
+      "fair": "-197",
+      "need": "-167",
+      "rationale": "ANA xG 3.06 \u00b7 CGY xG 3.12 \u00b7 P(ANA 2+) 81% \u00b7 P(CGY 2+) 82%",
+      "verdict": "Yes"
+     }
+    ]
+   }
+  }
+ ],
+ "sources": {
+  "schedule": "NHL API",
+  "lineups": "Daily Faceoff",
+  "goalies": "Daily Faceoff",
+  "moneyline": "Daily Faceoff",
+  "stats": "NHL API boxscores",
+  "model": "nhl_props.model v1"
+ }
+}

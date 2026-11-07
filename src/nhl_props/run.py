@@ -113,6 +113,11 @@ def main() -> None:
             debrief.build(today_et())
         except Exception as e:
             log.error("debrief failed: %s", e)
+        try:
+            from . import board
+            board.build(today_et())
+        except Exception as e:
+            log.error("board failed: %s", e)
 
 
 if __name__ == "__main__":

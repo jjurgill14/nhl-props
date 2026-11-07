@@ -108,7 +108,7 @@ def pairs_table(players: list[dict], index: dict[str, dict]) -> str:
 <td>{esc(p['name'].split()[-1])} + {esc(q['name'].split()[-1])} <span class="muted">{esc(p['team'])} L{p['line']}</span> {pp_tag(p['pp']) if p['pp']==q.get('pp') else ''}</td>
 <td>{meter(q['both'], q['n'], p['p'], o['p'])}</td>
 <td class="num">{pct(blend)}</td><td class="num">{esc(model.american(blend))}</td>
-<td class="num">{esc(model.american(min(0.9, blend*model.EDGE)))}</td>
+<td class="num">{esc(model.american(blend/model.EDGE))}</td>
 <td><span class="read {read.split()[0]}">{read}</span></td></tr>"""))
     rows.sort(key=lambda r: -r[0])
     if not rows:
@@ -243,7 +243,7 @@ def build(date: str | None = None, only_games: list[int] | None = None) -> Path:
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Slate De-Brief — {esc(date)}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"><style>{CSS}</style></head><body><div class="wrap">
 <h1>Slate De-Brief <small>{esc(nice)}</small></h1>
-<div class="sub">Point props, this season only. % = our probability · fair = break-even price · need = fair + 6% edge. Generated {esc(gen)} ET.</div>
+<div class="sub">Point props, this season only. % = our probability · fair = break-even price · need = the worst price worth taking (+6% expected return). Generated {esc(gen)} ET.</div>
 {body}
 <div class="foot">Method: hit rate shrunk to role prior (8 pseudo-games); opponent ±8% by GA rank; lopsided home/road split; back-to-back second leg ×0.86 (2+ ×0.78). Pair "ind" = independence product. <a href="detail.html">Full detail page →</a></div>
 </div></body></html>"""

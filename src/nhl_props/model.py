@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 from . import analysis, report, schedule
 
 PRIOR_N = 8           # pseudo-games of role prior
-EDGE = 1.06           # min price = odds at P × EDGE
+EDGE = 1.06           # need = price with +6% expected return: odds at P ÷ EDGE (better than fair)
 OPP_NUDGE = 0.16      # ±8% by opponent GA rank (rank 1 = leakiest)
 B2B_POINT = 0.86      # second leg of a back-to-back, measured n=57 (team goals −14%)
 B2B_TWO = 0.78        # same, for 2+ points
@@ -126,13 +126,13 @@ def build_slate(date: str) -> dict:
                         all_rate = k / gp
                         if abs(side_rate - all_rate) >= 0.20:
                             f = 1 + 0.5 * (side_rate - all_rate) / max(all_rate, 0.2)
-                            f = min(max(f, 0.8), 1.2)
+                            f = min(max(f, 0.9), 1.1)
                             p *= f; p2 *= f
                             adj.append(("venue", f))
                     if b2b:
                         p *= B2B_POINT; p2 *= B2B_TWO
                         adj.append(("b2b", B2B_POINT))
-                    p = min(0.92, p); p2 = min(0.70, p2)
+                    p = min(0.85, p); p2 = min(0.60, p2)
                     avg_pp = sum(analysis._i(x.get("pp_toi_s")) for x in rows[-5:]) / max(1, len(rows[-5:])) / 60
                     avg_toi = sum(analysis._i(x.get("toi_s")) for x in rows[-5:]) / max(1, len(rows[-5:])) / 60
                     partners = []
@@ -152,8 +152,8 @@ def build_slate(date: str) -> dict:
                         "gp": gp, "pt_games": k, "l5": [k5, n5], "ast_games": ka, "goal_games": kg,
                         "two_games": k2, "home_split": [hk, hn], "away_split": [ak, an],
                         "pp_toi": round(avg_pp, 1), "toi": round(avg_toi, 1),
-                        "p": round(p, 3), "fair": american(p), "min": american(min(0.95, p * EDGE)),
-                        "p2": round(p2, 3), "fair2": american(p2), "min2": american(min(0.9, p2 * EDGE)),
+                        "p": round(p, 3), "fair": american(p), "min": american(p / EDGE),
+                        "p2": round(p2, 3), "fair2": american(p2), "min2": american(p2 / EDGE),
                         "adj": adj, "move": {"ev": m.get("ev", 0), "pp": m.get("pp", 0), "new": m.get("new", False)},
                         "partners": partners,
                     })

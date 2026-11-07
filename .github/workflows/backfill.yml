@@ -33,6 +33,13 @@ jobs:
           FORCE=""
           if [ "${{ github.event.inputs.force }}" = "true" ]; then FORCE="--force"; fi
           python -m nhl_props.run backfill --days "${{ github.event.inputs.days }}" $FORCE
+      - name: Build app
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: cd app && npm ci --no-audit --no-fund && npm run build
       - name: Commit data
         run: |
           git config user.name "nhl-props-bot"
