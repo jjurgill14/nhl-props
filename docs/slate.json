@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T23:37:00.966440+00:00",
+ "generated_utc": "2026-11-08T23:52:05.057221+00:00",
  "games": [
   {
    "game_id": 2026020277,
@@ -4863,7 +4863,7 @@
      "ppga_rk": 28,
      "l5_gf": 2.8,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-08T22:06:34.264697+00:00",
+     "lineup_as_of": "2026-11-08T23:52:04.192960+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4904,14 +4904,14 @@
        "Jack Roslovic"
       ],
       "2": [
+       "Gavin McKenna",
        "John Tavares",
-       "Nick Paul",
        "William Nylander"
       ],
       "3": [
        "Dakota Joshua",
        "Colton Sissons",
-       "Gavin McKenna"
+       "Nick Paul"
       ],
       "4": [
        "Brandon Duhaime",
@@ -5130,20 +5130,20 @@
        },
        "partners": [
         {
+         "name": "Gavin McKenna",
+         "jersey": 92,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        },
+        {
          "name": "John Tavares",
          "jersey": 91,
          "pp": 1,
          "n": 6,
          "both": 4,
          "either": 5
-        },
-        {
-         "name": "Nick Paul",
-         "jersey": 20,
-         "pp": 2,
-         "n": 8,
-         "both": 1,
-         "either": 6
         }
        ]
       },
@@ -5155,7 +5155,7 @@
        "home": true,
        "line": 2,
        "pp": 1,
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
@@ -5201,12 +5201,12 @@
        },
        "partners": [
         {
-         "name": "Nick Paul",
-         "jersey": 20,
+         "name": "Gavin McKenna",
+         "jersey": 92,
          "pp": 2,
-         "n": 2,
+         "n": 3,
          "both": 0,
-         "either": 1
+         "either": 2
         },
         {
          "name": "William Nylander",
@@ -5295,11 +5295,11 @@
        "team": "TOR",
        "opp": "NJD",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 18,
        "pt_games": 9,
@@ -5320,12 +5320,12 @@
        ],
        "pp_toi": 2.9,
        "toi": 15.0,
-       "p": 0.347,
-       "fair": "+188",
-       "min": "+206",
-       "p2": 0.066,
-       "fair2": "+1407",
-       "min2": "+1497",
+       "p": 0.37,
+       "fair": "+171",
+       "min": "+187",
+       "p2": 0.076,
+       "fair2": "+1224",
+       "min2": "+1304",
        "adj": [
         [
          "opp",
@@ -5337,78 +5337,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Dakota Joshua",
-         "jersey": 81,
-         "pp": null,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Colton Sissons",
-         "jersey": 10,
-         "pp": null,
-         "n": 10,
-         "both": 2,
-         "either": 8
-        }
-       ]
-      },
-      {
-       "name": "Nick Paul",
-       "jersey": 20,
-       "team": "TOR",
-       "opp": "NJD",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 17,
-       "pt_games": 5,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 2,
-       "two_games": 1,
-       "home_split": [
-        2,
-        9
-       ],
-       "away_split": [
-        3,
-        8
-       ],
-       "pp_toi": 0.6,
-       "toi": 16.4,
-       "p": 0.253,
-       "fair": "+295",
-       "min": "+319",
-       "p2": 0.049,
-       "fair2": "+1950",
-       "min2": "+2073",
-       "adj": [
-        [
-         "opp",
-         0.9535483870967741
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -5417,17 +5346,17 @@
          "name": "John Tavares",
          "jersey": 91,
          "pp": 1,
-         "n": 2,
+         "n": 3,
          "both": 0,
-         "either": 1
+         "either": 2
         },
         {
          "name": "William Nylander",
          "jersey": 88,
          "pp": 1,
-         "n": 8,
+         "n": 3,
          "both": 1,
-         "either": 6
+         "either": 2
         }
        ]
       },
@@ -5493,12 +5422,83 @@
          "either": 1
         },
         {
-         "name": "Gavin McKenna",
-         "jersey": 92,
+         "name": "Nick Paul",
+         "jersey": 20,
          "pp": 2,
-         "n": 10,
-         "both": 2,
-         "either": 8
+         "n": 5,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Nick Paul",
+       "jersey": 20,
+       "team": "TOR",
+       "opp": "NJD",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 17,
+       "pt_games": 5,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 2,
+       "two_games": 1,
+       "home_split": [
+        2,
+        9
+       ],
+       "away_split": [
+        3,
+        8
+       ],
+       "pp_toi": 0.6,
+       "toi": 16.4,
+       "p": 0.23,
+       "fair": "+336",
+       "min": "+362",
+       "p2": 0.039,
+       "fair2": "+2446",
+       "min2": "+2599",
+       "adj": [
+        [
+         "opp",
+         0.9535483870967741
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Dakota Joshua",
+         "jersey": 81,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Colton Sissons",
+         "jersey": 10,
+         "pp": null,
+         "n": 5,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -5564,12 +5564,12 @@
          "either": 1
         },
         {
-         "name": "Gavin McKenna",
-         "jersey": 92,
+         "name": "Nick Paul",
+         "jersey": 20,
          "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       }
@@ -5597,7 +5597,7 @@
      "goalie_source": "Jackie Spiegel",
      "sv": "0.883",
      "gaa": "3.21",
-     "ml": "220",
+     "ml": "210",
      "gp": 18,
      "gf": 2.1666666666666665,
      "gf_rk": 32,
@@ -6288,7 +6288,7 @@
      "goalie_source": "Pat Steinberg",
      "sv": "0.912",
      "gaa": "2.68",
-     "ml": "-270",
+     "ml": "-258",
      "gp": 17,
      "gf": 2.4705882352941178,
      "gf_rk": 30,

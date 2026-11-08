@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T23:37:01.427665+00:00",
+ "generated_utc": "2026-11-08T23:52:05.507191+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -10517,7 +10517,7 @@
     "goalie_source": "Terry Koshan",
     "sv": "0.91",
     "gaa": "2.66",
-    "lineup_as_of": "2026-11-08T22:06:34.264697+00:00",
+    "lineup_as_of": "2026-11-08T23:52:04.192960+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
     "gf_rk": 8,
@@ -10528,7 +10528,7 @@
      "away": "+150",
      "home": "-180",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-08T22:06:34.264697+00:00"
+     "as_of": "2026-11-08T23:52:04.192960+00:00"
     },
     "total": {
      "line": null,
@@ -12368,10 +12368,10 @@
     },
     "home": {
      "team": "TOR",
-     "as_of": "2026-11-08T22:06:34.264697+00:00",
+     "as_of": "2026-11-08T23:52:04.192960+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-08T22:04:35.607Z",
+     "source": "David Alter",
+     "updated_dfo": "2026-11-08T23:39:09.880Z",
      "forwards": [
       [
        {
@@ -12491,9 +12491,47 @@
       ],
       [
        {
+        "name": "Gavin McKenna",
+        "jersey": 92,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8486067,
+        "dfo_id": 37717,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 6,
+         "g": 6,
+         "gp": 18,
+         "p": 12,
+         "ppp": 5,
+         "sog": 35,
+         "toi_s": 15081
+        },
+        "last5": {
+         "a": 1,
+         "g": 3,
+         "gp": 5,
+         "p": 4,
+         "ppp": 2,
+         "sog": 13,
+         "toi_s": 4509
+        },
+        "l5_point_games": 2,
+        "gp": 18,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "John Tavares",
         "jersey": 91,
-        "pos": "LW",
+        "pos": "C",
         "slot": null,
         "player_id": 8475166,
         "dfo_id": 1016,
@@ -12522,44 +12560,6 @@
         },
         "l5_point_games": 3,
         "gp": 8,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Nick Paul",
-        "jersey": 20,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8477426,
-        "dfo_id": 2357,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 18,
-         "p": 6,
-         "ppp": 0,
-         "sog": 17,
-         "toi_s": 17571
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4908
-        },
-        "l5_point_games": 1,
-        "gp": 17,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -12683,39 +12683,39 @@
         }
        },
        {
-        "name": "Gavin McKenna",
-        "jersey": 92,
+        "name": "Nick Paul",
+        "jersey": 20,
         "pos": "RW",
         "slot": null,
-        "player_id": 8486067,
-        "dfo_id": 37717,
+        "player_id": 8477426,
+        "dfo_id": 2357,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 6,
-         "g": 6,
+         "a": 4,
+         "g": 2,
          "gp": 18,
-         "p": 12,
-         "ppp": 5,
-         "sog": 35,
-         "toi_s": 15081
+         "p": 6,
+         "ppp": 0,
+         "sog": 17,
+         "toi_s": 17571
         },
         "last5": {
          "a": 1,
-         "g": 3,
+         "g": 0,
          "gp": 5,
-         "p": 4,
-         "ppp": 2,
-         "sog": 13,
-         "toi_s": 4509
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4908
         },
-        "l5_point_games": 2,
-        "gp": 18,
+        "l5_point_games": 1,
+        "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -12919,84 +12919,6 @@
       ],
       [
        {
-        "name": "Cole McWard",
-        "jersey": null,
-        "pos": "LD",
-        "slot": null,
-        "player_id": null,
-        "dfo_id": 30512,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 0,
-         "p": 0,
-         "ppp": 0,
-         "sog": 0,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 1,
-         "toi_s": 3408
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       },
-       {
-        "name": "Dakota Mermis",
-        "jersey": 36,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8477541,
-        "dfo_id": 2914,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 3,
-         "p": 0,
-         "ppp": 0,
-         "sog": 1,
-         "toi_s": 2267
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 4169
-        },
-        "l5_point_games": 0,
-        "gp": 3,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       }
-      ],
-      [
-       {
         "name": "Oliver Ekman-Larsson",
         "jersey": 95,
         "pos": "LD",
@@ -13029,7 +12951,7 @@
         "l5_point_games": 0,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -13067,9 +12989,87 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Dakota Mermis",
+        "jersey": 36,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8477541,
+        "dfo_id": 2914,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 3,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 2267
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 4169
+        },
+        "l5_point_games": 0,
+        "gp": 3,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Cole McWard",
+        "jersey": null,
+        "pos": "RD",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 30512,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 3408
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -13427,7 +13427,7 @@
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -13465,7 +13465,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -13503,7 +13503,7 @@
         "l5_point_games": 0,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -13541,7 +13541,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -13813,7 +13813,7 @@
         "l5_point_games": 0,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -13851,7 +13851,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -13896,12 +13896,12 @@
        "rating": 71.6838952495147
       },
       "d2": {
-       "rank": 19,
-       "rating": 73.44595855483261
+       "rank": 16,
+       "rating": 73.85928415478676
       },
       "d3": {
-       "rank": 9,
-       "rating": 73.85928415478676
+       "rank": 10,
+       "rating": 73.44595855483261
       },
       "d4": {
        "rank": 7,
@@ -13912,15 +13912,15 @@
        "rating": 76.87026378419155
       },
       "f2": {
-       "rank": 9,
-       "rating": 74.9617259209629
+       "rank": 5,
+       "rating": 76.84174593675621
       },
       "f3": {
-       "rank": 35,
-       "rating": 69.5727390720297
+       "rank": 33,
+       "rating": 70.387212480703
       },
       "f4": {
-       "rank": 31,
+       "rank": 30,
        "rating": 0
       },
       "g": {
@@ -13995,8 +13995,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+220",
-     "home": "-270",
+     "away": "+210",
+     "home": "-258",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T21:06:15.890920+00:00"
     },
