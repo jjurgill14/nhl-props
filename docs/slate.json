@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T20:06:01.086189+00:00",
+ "generated_utc": "2026-11-08T20:21:05.173500+00:00",
  "games": [
   {
    "game_id": 2026020277,
@@ -1432,7 +1432,7 @@
      "goalie_source": "Heather Engel",
      "sv": "0.894",
      "gaa": "2.73",
-     "ml": "230",
+     "ml": "210",
      "gp": 18,
      "gf": 3.2777777777777777,
      "gf_rk": 14,
@@ -1444,7 +1444,7 @@
      "ppga_rk": 19,
      "l5_gf": 2.6,
      "l5_ga": 2.2,
-     "lineup_as_of": "2026-11-08T20:06:00.175794+00:00",
+     "lineup_as_of": "2026-11-08T20:21:04.292190+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -1455,17 +1455,17 @@
      ],
      "lines": {
       "1": [
-       "Brett Howden",
+       "Trevor Connelly",
        "Jack Eichel",
        "Mark Stone"
       ],
       "2": [
-       "Ivan Barbashev",
+       "Brett Howden",
        "William Karlsson",
        "Mitch Marner"
       ],
       "3": [
-       "Trevor Connelly",
+       "Ivan Barbashev",
        "Tomas Hertl",
        "Victor Olofsson"
       ],
@@ -1540,12 +1540,12 @@
        },
        "partners": [
         {
-         "name": "Ivan Barbashev",
-         "jersey": 49,
+         "name": "Brett Howden",
+         "jersey": 21,
          "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 11,
+         "both": 5,
+         "either": 9
         },
         {
          "name": "William Karlsson",
@@ -1607,12 +1607,12 @@
        },
        "partners": [
         {
-         "name": "Trevor Connelly",
-         "jersey": 24,
-         "pp": 2,
-         "n": 4,
-         "both": 3,
-         "either": 4
+         "name": "Ivan Barbashev",
+         "jersey": 49,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Tomas Hertl",
@@ -1674,12 +1674,12 @@
        },
        "partners": [
         {
-         "name": "Brett Howden",
-         "jersey": 21,
-         "pp": null,
-         "n": 2,
+         "name": "Trevor Connelly",
+         "jersey": 24,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
          "name": "Jack Eichel",
@@ -1741,12 +1741,12 @@
        },
        "partners": [
         {
-         "name": "Brett Howden",
-         "jersey": 21,
-         "pp": null,
-         "n": 2,
+         "name": "Trevor Connelly",
+         "jersey": 24,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Mark Stone",
@@ -1812,12 +1812,12 @@
        },
        "partners": [
         {
-         "name": "Trevor Connelly",
-         "jersey": 24,
-         "pp": 2,
-         "n": 16,
-         "both": 6,
-         "either": 11
+         "name": "Ivan Barbashev",
+         "jersey": 49,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Victor Olofsson",
@@ -1835,11 +1835,11 @@
        "team": "VGK",
        "opp": "BUF",
        "home": false,
-       "line": 3,
+       "line": 1,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 18,
        "pt_games": 10,
@@ -1860,12 +1860,12 @@
        ],
        "pp_toi": 1.9,
        "toi": 14.3,
-       "p": 0.473,
-       "fair": "+111",
-       "min": "+124",
-       "p2": 0.092,
-       "fair2": "+992",
-       "min2": "+1058",
+       "p": 0.502,
+       "fair": "-101",
+       "min": "+111",
+       "p2": 0.104,
+       "fair2": "+860",
+       "min2": "+918",
        "adj": [
         [
          "opp",
@@ -1873,26 +1873,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Tomas Hertl",
-         "jersey": 48,
+         "name": "Jack Eichel",
+         "jersey": 9,
          "pp": 1,
-         "n": 16,
-         "both": 6,
-         "either": 11
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Victor Olofsson",
-         "jersey": 95,
+         "name": "Mark Stone",
+         "jersey": 61,
          "pp": 1,
-         "n": 4,
-         "both": 3,
-         "either": 4
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -1902,7 +1902,7 @@
        "team": "VGK",
        "opp": "BUF",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": null,
        "pos": "LW",
        "gtd": false,
@@ -1940,26 +1940,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jack Eichel",
-         "jersey": 9,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 2
+         "name": "William Karlsson",
+         "jersey": 71,
+         "pp": 2,
+         "n": 14,
+         "both": 5,
+         "either": 7
         },
         {
-         "name": "Mark Stone",
-         "jersey": 61,
+         "name": "Mitch Marner",
+         "jersey": 16,
          "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 11,
+         "both": 5,
+         "either": 9
         }
        ]
       },
@@ -1969,11 +1969,11 @@
        "team": "VGK",
        "opp": "BUF",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 18,
        "pt_games": 8,
@@ -1994,12 +1994,12 @@
        ],
        "pp_toi": 0.9,
        "toi": 14.9,
-       "p": 0.381,
-       "fair": "+163",
-       "min": "+178",
-       "p2": 0.094,
-       "fair2": "+967",
-       "min2": "+1031",
+       "p": 0.355,
+       "fair": "+182",
+       "min": "+199",
+       "p2": 0.082,
+       "fair2": "+1114",
+       "min2": "+1187",
        "adj": [
         [
          "opp",
@@ -2011,26 +2011,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": -1,
         "new": false
        },
        "partners": [
         {
-         "name": "William Karlsson",
-         "jersey": 71,
-         "pp": 2,
-         "n": 2,
+         "name": "Tomas Hertl",
+         "jersey": 48,
+         "pp": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Mitch Marner",
-         "jersey": 16,
+         "name": "Victor Olofsson",
+         "jersey": 95,
          "pp": 1,
-         "n": 2,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -2084,12 +2084,12 @@
        },
        "partners": [
         {
-         "name": "Ivan Barbashev",
-         "jersey": 49,
+         "name": "Brett Howden",
+         "jersey": 21,
          "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 0
+         "n": 14,
+         "both": 5,
+         "either": 7
         },
         {
          "name": "Mitch Marner",
@@ -2114,7 +2114,7 @@
      "goalie_source": "Heather Engel",
      "sv": "0.891",
      "gaa": "2.92",
-     "ml": "-285",
+     "ml": "-258",
      "gp": 16,
      "gf": 3.0625,
      "gf_rk": 18,
@@ -7782,12 +7782,12 @@
      "opp": "PIT",
      "home": true,
      "b2b": false,
-     "goalie": "Ville Husso",
+     "goalie": "Laurent Brossoit",
      "goalie_status": "",
      "goalie_news": "",
      "goalie_source": "",
-     "sv": "0.869",
-     "gaa": "3.54",
+     "sv": "0.849",
+     "gaa": "3.67",
      "ml": "195",
      "gp": 17,
      "gf": 3.764705882352941,

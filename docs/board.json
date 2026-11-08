@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T20:06:01.546326+00:00",
+ "generated_utc": "2026-11-08T20:21:05.595563+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -3528,7 +3528,7 @@
     "goalie_source": "Heather Engel",
     "sv": "0.894",
     "gaa": "2.73",
-    "lineup_as_of": "2026-11-08T20:06:00.175794+00:00",
+    "lineup_as_of": "2026-11-08T20:21:04.292190+00:00",
     "lineup_stale": false,
     "ga_rk": 28,
     "gf_rk": 14,
@@ -3556,8 +3556,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+230",
-     "home": "-285",
+     "away": "+210",
+     "home": "-258",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T20:05:59.998230+00:00"
     },
@@ -3678,22 +3678,6 @@
       ]
      },
      {
-      "selection": "Olofsson + Connelly \u00b7 both 1+ point",
-      "prob": 0.509,
-      "fair": "-103",
-      "need": "+108",
-      "rationale": "Both scored 3 of 4 games together \u00b7 independent 35% \u00b7 new pair",
-      "team": "VGK",
-      "line": 3,
-      "read": "new pair",
-      "both": 3,
-      "n": 4,
-      "players": [
-       8478109,
-       8484803
-      ]
-     },
-     {
       "selection": "Olofsson + Hertl \u00b7 both 1+ point",
       "prob": 0.487,
       "fair": "+105",
@@ -3738,6 +3722,22 @@
       "n": 8,
       "players": [
        8479420,
+       8481522
+      ]
+     },
+     {
+      "selection": "Benson + Krebs \u00b7 both 1+ point",
+      "prob": 0.407,
+      "fair": "+146",
+      "need": "+161",
+      "rationale": "Both scored 3 of 4 games together \u00b7 independent 18% \u00b7 new pair",
+      "team": "BUF",
+      "line": 1,
+      "read": "new pair",
+      "both": 3,
+      "n": 4,
+      "players": [
+       8484145,
        8481522
       ]
      }
@@ -3894,46 +3894,46 @@
    "lineup": {
     "away": {
      "team": "VGK",
-     "as_of": "2026-11-08T20:06:00.175794+00:00",
+     "as_of": "2026-11-08T20:21:04.292190+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-05)",
-     "updated_dfo": "2026-11-06T14:36:08.970Z",
+     "source": "Mike Harrington",
+     "updated_dfo": "2026-11-08T20:20:15.628Z",
      "forwards": [
       [
        {
-        "name": "Brett Howden",
-        "jersey": 21,
+        "name": "Trevor Connelly",
+        "jersey": 24,
         "pos": "LW",
         "slot": null,
-        "player_id": 8479353,
-        "dfo_id": 2660,
+        "player_id": 8484803,
+        "dfo_id": 36773,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 5,
+         "a": 5,
+         "g": 7,
          "gp": 18,
-         "p": 8,
-         "ppp": 0,
-         "sog": 25,
-         "toi_s": 16768
+         "p": 12,
+         "ppp": 3,
+         "sog": 33,
+         "toi_s": 15356
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 0,
+         "p": 4,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4609
+         "sog": 11,
+         "toi_s": 4305
         },
-        "l5_point_games": 0,
+        "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -4017,40 +4017,40 @@
       ],
       [
        {
-        "name": "Ivan Barbashev",
-        "jersey": 49,
+        "name": "Brett Howden",
+        "jersey": 21,
         "pos": "LW",
         "slot": null,
-        "player_id": 8477964,
-        "dfo_id": 2737,
+        "player_id": 8479353,
+        "dfo_id": 2660,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 9,
-         "g": 2,
+         "a": 3,
+         "g": 5,
          "gp": 18,
-         "p": 11,
-         "ppp": 3,
-         "sog": 24,
-         "toi_s": 17033
+         "p": 8,
+         "ppp": 0,
+         "sog": 25,
+         "toi_s": 16768
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 4480
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4609
         },
-        "l5_point_games": 2,
+        "l5_point_games": 0,
         "gp": 18,
         "move": {
-         "ev": 0,
-         "pp": -1,
+         "ev": -1,
+         "pp": 0,
          "new": false
         }
        },
@@ -4133,40 +4133,40 @@
       ],
       [
        {
-        "name": "Trevor Connelly",
-        "jersey": 24,
+        "name": "Ivan Barbashev",
+        "jersey": 49,
         "pos": "LW",
         "slot": null,
-        "player_id": 8484803,
-        "dfo_id": 36773,
+        "player_id": 8477964,
+        "dfo_id": 2737,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 5,
-         "g": 7,
+         "a": 9,
+         "g": 2,
          "gp": 18,
-         "p": 12,
+         "p": 11,
          "ppp": 3,
-         "sog": 33,
-         "toi_s": 15356
+         "sog": 24,
+         "toi_s": 17033
         },
         "last5": {
          "a": 1,
-         "g": 3,
+         "g": 1,
          "gp": 5,
-         "p": 4,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 4305
+         "p": 2,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4480
         },
-        "l5_point_games": 4,
+        "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": -1,
          "new": false
         }
        },
@@ -4991,7 +4991,7 @@
         "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -5409,16 +5409,16 @@
        "rating": 0
       },
       "f1": {
-       "rank": 17,
-       "rating": 76.19630651119344
+       "rank": 6,
+       "rating": 79.7059068900141
       },
       "f2": {
-       "rank": 10,
-       "rating": 74.8324977598374
+       "rank": 17,
+       "rating": 74.13446577318018
       },
       "f3": {
-       "rank": 6,
-       "rating": 75.48198645803042
+       "rank": 10,
+       "rating": 74.07839154319487
       },
       "f4": {
        "rank": 17,
@@ -17514,12 +17514,12 @@
     "color2": "#B9975B",
     "record": "9-7-1",
     "b2b": false,
-    "goalie": "Ville Husso",
+    "goalie": "Laurent Brossoit",
     "goalie_status": "",
     "goalie_news": "",
     "goalie_source": "",
-    "sv": "0.869",
-    "gaa": "3.54",
+    "sv": "0.849",
+    "gaa": "3.67",
     "lineup_as_of": "2026-11-08T12:29:56.241244+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
