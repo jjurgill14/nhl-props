@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T21:51:31.047775+00:00",
+ "generated_utc": "2026-11-08T22:06:35.198964+00:00",
  "games": [
   {
    "game_id": 2026020277,
@@ -4243,13 +4243,18 @@
      "ppga_rk": 16,
      "l5_gf": 4.0,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-08T21:06:15.983563+00:00",
+     "lineup_as_of": "2026-11-08T22:06:34.000810+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Seamus Casey",
        "status": "IR",
        "news": "Casey underwent knee surgery and is expected to be out for 8-to-10 weeks."
+      },
+      {
+       "player": "Anthony Mantha",
+       "status": "OUT",
+       "news": "Mantha (throat) will not play on Sunday and will \"miss some time.\""
       }
      ],
      "lines": {
@@ -4264,7 +4269,6 @@
        "Jesper Bratt"
       ],
       "3": [
-       "Anthony Mantha",
        "Evan Rodrigues",
        "Jesper Boqvist"
       ],
@@ -4284,7 +4288,7 @@
      "pp2": [
       "Timo Meier",
       "Luke Evangelista",
-      "Anthony Mantha",
+      "Cody Glass",
       "Arseny Gritsyuk",
       "Dougie Hamilton"
      ],
@@ -4698,91 +4702,12 @@
        },
        "partners": [
         {
-         "name": "Anthony Mantha",
-         "jersey": 39,
-         "pp": 2,
-         "n": 7,
-         "both": 3,
-         "either": 5
-        },
-        {
          "name": "Evan Rodrigues",
          "jersey": 17,
          "pp": null,
          "n": 7,
          "both": 2,
          "either": 4
-        }
-       ]
-      },
-      {
-       "name": "Anthony Mantha",
-       "jersey": 39,
-       "team": "NJD",
-       "opp": "TOR",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 17,
-       "pt_games": 7,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 4,
-       "two_games": 2,
-       "home_split": [
-        3,
-        10
-       ],
-       "away_split": [
-        4,
-        7
-       ],
-       "pp_toi": 2.1,
-       "toi": 13.7,
-       "p": 0.321,
-       "fair": "+212",
-       "min": "+230",
-       "p2": 0.075,
-       "fair2": "+1233",
-       "min2": "+1313",
-       "adj": [
-        [
-         "opp",
-         1.0361290322580645
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Evan Rodrigues",
-         "jersey": 17,
-         "pp": null,
-         "n": 12,
-         "both": 4,
-         "either": 8
-        },
-        {
-         "name": "Jesper Boqvist",
-         "jersey": 70,
-         "pp": null,
-         "n": 7,
-         "both": 3,
-         "either": 5
         }
        ]
       },
@@ -4839,14 +4764,6 @@
         "new": false
        },
        "partners": [
-        {
-         "name": "Anthony Mantha",
-         "jersey": 39,
-         "pp": 2,
-         "n": 12,
-         "both": 4,
-         "either": 8
-        },
         {
          "name": "Jesper Boqvist",
          "jersey": 70,
@@ -4953,7 +4870,7 @@
      "ppga_rk": 28,
      "l5_gf": 2.8,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-08T21:06:16.203118+00:00",
+     "lineup_as_of": "2026-11-08T22:06:34.264697+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4979,7 +4896,12 @@
       {
        "player": "Morgan Rielly",
        "status": "DTD",
-       "news": "Rielly (lower body) exited Saturday's game and did not return."
+       "news": "Rielly (lower body) will not play on Sunday."
+      },
+      {
+       "player": "Chris Tanev",
+       "status": "DTD",
+       "news": "Tanev (planned maintenance) will not play on Sunday."
       }
      ],
      "lines": {
@@ -5016,7 +4938,7 @@
       "Nick Paul",
       "Gavin McKenna",
       "Oliver Ekman-Larsson",
-      "Morgan Rielly"
+      "Troy Stecher"
      ],
      "players": [
       {
@@ -7085,7 +7007,7 @@
      "ppga_rk": 27,
      "l5_gf": 3.2,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-08T12:29:56.646527+00:00",
+     "lineup_as_of": "2026-11-08T22:06:34.142902+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7135,7 +7057,7 @@
      ],
      "pp2": [
       "Ville Koivunen",
-      "Hendrix Lapierre",
+      "Justin Brazeau",
       "Egor Chinakhov",
       "Kris Letang",
       "Evgeni Malkin"
@@ -7552,7 +7474,7 @@
         {
          "name": "Hendrix Lapierre",
          "jersey": 22,
-         "pp": 2,
+         "pp": null,
          "n": 8,
          "both": 3,
          "either": 5
@@ -7560,7 +7482,7 @@
         {
          "name": "Justin Brazeau",
          "jersey": 15,
-         "pp": null,
+         "pp": 2,
          "n": 2,
          "both": 0,
          "either": 2
@@ -7645,7 +7567,7 @@
        "opp": "ANA",
        "home": false,
        "line": 3,
-       "pp": 2,
+       "pp": null,
        "pos": "C",
        "gtd": false,
        "role": "other",
@@ -7687,7 +7609,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
@@ -7702,7 +7624,7 @@
         {
          "name": "Justin Brazeau",
          "jersey": 15,
-         "pp": null,
+         "pp": 2,
          "n": 3,
          "both": 1,
          "either": 1
@@ -7716,7 +7638,7 @@
        "opp": "ANA",
        "home": false,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "pos": "RW",
        "gtd": false,
        "role": "other",
@@ -7758,7 +7680,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -7773,7 +7695,7 @@
         {
          "name": "Hendrix Lapierre",
          "jersey": 22,
-         "pp": 2,
+         "pp": null,
          "n": 3,
          "both": 1,
          "either": 1
@@ -7805,7 +7727,7 @@
      "ppga_rk": 4,
      "l5_gf": 5.4,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-08T12:29:56.241244+00:00",
+     "lineup_as_of": "2026-11-08T22:06:33.840422+00:00",
      "lineup_stale": false,
      "out": [
       {
