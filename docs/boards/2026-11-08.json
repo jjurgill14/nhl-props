@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T22:21:39.908474+00:00",
+ "generated_utc": "2026-11-08T22:36:44.007899+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -3526,8 +3526,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Hill will start in Buffalo on Sunday.",
     "goalie_source": "Heather Engel",
-    "sv": "0.9",
-    "gaa": "2.63",
+    "sv": "0.903",
+    "gaa": "2.52",
     "lineup_as_of": "2026-11-08T20:21:04.292190+00:00",
     "lineup_stale": false,
     "ga_rk": 28,
@@ -3546,8 +3546,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Ellis will start vs. Vegas on Sunday.",
     "goalie_source": "Heather Engel",
-    "sv": "0.894",
-    "gaa": "2.77",
+    "sv": "0.89",
+    "gaa": "2.93",
     "lineup_as_of": "2026-11-08T20:05:59.998230+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
@@ -7016,7 +7016,7 @@
    "id": "03",
    "game_id": 2026020280,
    "start_utc": "2026-11-08T23:00:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Canada Life Centre",
    "away": {
     "abbr": "TBL",
@@ -7027,12 +7027,12 @@
     "record": "11-3-2",
     "b2b": true,
     "goalie": "Andrei Vasilevskiy",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Vasilevskiy will start in Winnipeg on Sunday.",
+    "goalie_source": "Gabby Shirley",
     "sv": "0.886",
     "gaa": "2.75",
-    "lineup_as_of": "2026-11-08T20:51:11.968050+00:00",
+    "lineup_as_of": "2026-11-08T22:36:42.631121+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 5,
@@ -7398,10 +7398,10 @@
    "lineup": {
     "away": {
      "team": "TBL",
-     "as_of": "2026-11-08T20:51:11.968050+00:00",
+     "as_of": "2026-11-08T22:36:42.631121+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-07)",
-     "updated_dfo": "2026-11-08T15:43:30.962Z",
+     "source": "Gabby Shirley",
+     "updated_dfo": "2026-11-08T22:26:16.618Z",
      "forwards": [
       [
        {
@@ -7597,41 +7597,41 @@
         }
        },
        {
-        "name": "Gage Goncalves",
-        "jersey": 93,
+        "name": "Yanni Gourde",
+        "jersey": 37,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482201,
-        "dfo_id": 32521,
+        "player_id": null,
+        "dfo_id": 2566,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 3,
+         "a": 0,
          "g": 0,
-         "gp": 15,
-         "p": 3,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 13897
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
+         "p": 1,
+         "ppp": 0,
          "sog": 3,
-         "toi_s": 4206
+         "toi_s": 4391
         },
-        "l5_point_games": 2,
-        "gp": 15,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -7822,44 +7822,6 @@
         },
         "l5_point_games": 2,
         "gp": 16,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Scott Sabourin",
-        "jersey": 49,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8477149,
-        "dfo_id": 2171,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 4,
-         "p": 1,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 2136
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 2809
-        },
-        "l5_point_games": 1,
-        "gp": 4,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -8463,41 +8425,41 @@
         }
        },
        {
-        "name": "Gage Goncalves",
-        "jersey": 93,
+        "name": "Yanni Gourde",
+        "jersey": 37,
         "pos": null,
         "slot": 3,
-        "player_id": 8482201,
-        "dfo_id": 32521,
+        "player_id": null,
+        "dfo_id": 2566,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 3,
+         "a": 0,
          "g": 0,
-         "gp": 15,
-         "p": 3,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 13897
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
+         "p": 1,
+         "ppp": 0,
          "sog": 3,
-         "toi_s": 4206
+         "toi_s": 4391
         },
-        "l5_point_games": 2,
-        "gp": 15,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -8888,13 +8850,7 @@
        }
       ]
      ],
-     "injuries": [
-      {
-       "player": "Yanni Gourde",
-       "status": "OUT",
-       "news": "Gourde (hip) has been activated from IR and is expected to make his season debut on Sunday."
-      }
-     ],
+     "injuries": [],
      "unit_ratings": {
       "d1": {
        "rank": 21,
@@ -8909,7 +8865,7 @@
        "rating": 79.5198978490266
       },
       "d4": {
-       "rank": 6,
+       "rank": 7,
        "rating": 0
       },
       "f1": {
@@ -8917,16 +8873,16 @@
        "rating": 79.90820935464193
       },
       "f2": {
-       "rank": 11,
-       "rating": 74.51115086277801
+       "rank": 19,
+       "rating": 73.68780211126216
       },
       "f3": {
-       "rank": 27,
+       "rank": 26,
        "rating": 71.95569483651936
       },
       "f4": {
-       "rank": 18,
-       "rating": 71.63615523893601
+       "rank": 30,
+       "rating": 0
       },
       "g": {
        "rank": 2,
