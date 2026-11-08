@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-07",
- "generated_utc": "2026-11-08T00:34:35.418098+00:00",
+ "generated_utc": "2026-11-08T00:49:39.319868+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -7016,7 +7016,7 @@
    "id": "03",
    "game_id": 2026020267,
    "start_utc": "2026-11-07T22:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "Climate Pledge Arena",
    "away": {
     "abbr": "NYR",
@@ -20992,9 +20992,9 @@
     "record": "4-12-1",
     "b2b": false,
     "goalie": "Spencer Knight",
-    "goalie_status": "Likely",
-    "goalie_news": "Knight is in the starter's crease at Chicago's morning skate.",
-    "goalie_source": "Ben Pope",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Knight will start in Carolina on Saturday.",
+    "goalie_source": "Mark Lazerus",
     "sv": "0.891",
     "gaa": "3.34",
     "lineup_as_of": "2026-11-07T22:03:50.809744+00:00",
@@ -21012,9 +21012,9 @@
     "record": "13-3-2",
     "b2b": false,
     "goalie": "Pyotr Kochetkov",
-    "goalie_status": "Likely",
-    "goalie_news": "Kochetkov is expected to start vs. Chicago on Saturday.",
-    "goalie_source": "Walt Ruff",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Kochetkov will start vs. Chicago on Saturday.",
+    "goalie_source": "Ryan Henkel",
     "sv": "0.922",
     "gaa": "1.64",
     "lineup_as_of": "2026-11-07T22:03:50.738832+00:00",
@@ -27994,7 +27994,7 @@
     "goalie_source": "Gabby Shirley",
     "sv": "0.885",
     "gaa": "2.97",
-    "lineup_as_of": "2026-11-07T12:09:04.270516+00:00",
+    "lineup_as_of": "2026-11-08T00:49:38.244433+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 5,
@@ -28360,10 +28360,10 @@
    "lineup": {
     "away": {
      "team": "TBL",
-     "as_of": "2026-11-07T12:09:04.270516+00:00",
+     "as_of": "2026-11-08T00:49:38.244433+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-05)",
-     "updated_dfo": "2026-11-06T14:41:30.806Z",
+     "source": "Gabby Shirley",
+     "updated_dfo": "2026-11-08T00:40:47.512Z",
      "forwards": [
       [
        {
@@ -28789,69 +28789,27 @@
          "pp": 0,
          "new": false
         }
-       }
-      ]
-     ],
-     "defense": [
-      [
-       {
-        "name": "Victor Hedman",
-        "jersey": 77,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8475167,
-        "dfo_id": 1369,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": "G",
-        "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 14,
-         "p": 6,
-         "ppp": 1,
-         "sog": 19,
-         "toi_s": 12059
-        },
-        "last5": {
-         "a": 0,
-         "g": 2,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 6,
-         "toi_s": 4264
-        },
-        "l5_point_games": 2,
-        "gp": 14,
-        "move": {
-         "ev": 1,
-         "pp": 1,
-         "new": false
-        }
        },
        {
-        "name": "Maxwell Crozier",
-        "jersey": 24,
-        "pos": "RD",
+        "name": "Scott Sabourin",
+        "jersey": 49,
+        "pos": "RW",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 28863,
+        "player_id": 8477149,
+        "dfo_id": 2171,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
+         "a": 1,
          "g": 0,
-         "gp": 9,
-         "p": 3,
+         "gp": 3,
+         "p": 1,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 9361
+         "sog": 1,
+         "toi_s": 1651
         },
         "last5": {
          "a": 1,
@@ -28859,13 +28817,93 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 5086
+         "sog": 1,
+         "toi_s": 2901
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 1,
+        "gp": 3,
         "move": {
          "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       }
+      ]
+     ],
+     "defense": [
+      [
+       {
+        "name": "Ryan McDonagh",
+        "jersey": 27,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8474151,
+        "dfo_id": 1048,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "G",
+        "season": {
+         "a": 2,
+         "g": 2,
+         "gp": 15,
+         "p": 4,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 14768
+        },
+        "last5": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5266
+        },
+        "l5_point_games": 3,
+        "gp": 15,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Erik Cernak",
+        "jersey": 81,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8478416,
+        "dfo_id": 2749,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 0,
+         "gp": 14,
+         "p": 5,
+         "ppp": 0,
+         "sog": 18,
+         "toi_s": 15781
+        },
+        "last5": {
+         "a": 4,
+         "g": 0,
+         "gp": 5,
+         "p": 4,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5500
+        },
+        "l5_point_games": 3,
+        "gp": 14,
+        "move": {
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -28951,75 +28989,75 @@
       ],
       [
        {
-        "name": "Ryan McDonagh",
-        "jersey": 27,
+        "name": "Victor Hedman",
+        "jersey": 77,
         "pos": "LD",
         "slot": null,
-        "player_id": 8474151,
-        "dfo_id": 1048,
+        "player_id": 8475167,
+        "dfo_id": 1369,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
+        "pp": 2,
+        "pk": 2,
         "bias": "G",
         "season": {
          "a": 2,
-         "g": 2,
-         "gp": 15,
-         "p": 4,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 14768
+         "g": 4,
+         "gp": 14,
+         "p": 6,
+         "ppp": 1,
+         "sog": 19,
+         "toi_s": 12059
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 2,
          "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5266
+         "p": 2,
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 4264
         },
-        "l5_point_games": 3,
-        "gp": 15,
+        "l5_point_games": 2,
+        "gp": 14,
         "move": {
-         "ev": -1,
-         "pp": 0,
+         "ev": 0,
+         "pp": 1,
          "new": false
         }
        },
        {
-        "name": "Erik Cernak",
-        "jersey": 81,
+        "name": "J.J. Moser",
+        "jersey": 90,
         "pos": "RD",
         "slot": null,
-        "player_id": 8478416,
-        "dfo_id": 2749,
+        "player_id": 8482655,
+        "dfo_id": 34680,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": "A",
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 5,
+         "a": 1,
          "g": 0,
-         "gp": 14,
-         "p": 5,
+         "gp": 15,
+         "p": 1,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 15781
+         "sog": 17,
+         "toi_s": 15876
         },
         "last5": {
-         "a": 4,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 4,
+         "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5500
+         "sog": 7,
+         "toi_s": 5267
         },
-        "l5_point_games": 3,
-        "gp": 14,
+        "l5_point_games": 1,
+        "gp": 15,
         "move": {
          "ev": -1,
          "pp": 0,
@@ -29495,7 +29533,7 @@
         "l5_point_games": 2,
         "gp": 14,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 1,
          "new": false
         }
@@ -29613,45 +29651,45 @@
         "l5_point_games": 3,
         "gp": 15,
         "move": {
-         "ev": -1,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Maxwell Crozier",
-        "jersey": 24,
+        "name": "Erik Cernak",
+        "jersey": 81,
         "pos": null,
         "slot": 4,
-        "player_id": null,
-        "dfo_id": 28863,
+        "player_id": 8478416,
+        "dfo_id": 2749,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 3,
+         "a": 5,
          "g": 0,
-         "gp": 9,
-         "p": 3,
+         "gp": 14,
+         "p": 5,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 9361
+         "sog": 18,
+         "toi_s": 15781
         },
         "last5": {
-         "a": 1,
+         "a": 4,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 4,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 5086
+         "sog": 5,
+         "toi_s": 5500
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 3,
+        "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -29767,7 +29805,7 @@
         "l5_point_games": 2,
         "gp": 14,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 1,
          "new": false
         }
@@ -29821,16 +29859,16 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 1,
-       "rating": 79.5198978490266
+       "rank": 21,
+       "rating": 73.65837410877525
       },
       "d2": {
        "rank": 2,
        "rating": 77.1718582585227
       },
       "d3": {
-       "rank": 9,
-       "rating": 73.65837410877525
+       "rank": 1,
+       "rating": 79.5198978490266
       },
       "d4": {
        "rank": 6,
@@ -29841,16 +29879,16 @@
        "rating": 79.90820935464193
       },
       "f2": {
-       "rank": 12,
+       "rank": 11,
        "rating": 74.51115086277801
       },
       "f3": {
-       "rank": 27,
+       "rank": 28,
        "rating": 71.95569483651936
       },
       "f4": {
-       "rank": 31,
-       "rating": 0
+       "rank": 20,
+       "rating": 71.63615523893601
       },
       "g": {
        "rank": 2,
