@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated_utc": "2026-11-07T23:49:22.493614+00:00",
+ "generated_utc": "2026-11-08T00:04:26.877374+00:00",
  "games": [
   {
    "game_id": 2026020265,
@@ -11825,7 +11825,7 @@
      "ppga_rk": 23,
      "l5_gf": 3.8,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-07T12:09:03.457831+00:00",
+     "lineup_as_of": "2026-11-08T00:04:25.453455+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -11839,24 +11839,14 @@
        "news": "Gustavsson (hip) will travel with Minnesota on their upcoming road trip."
       },
       {
-       "player": "Nick Foligno",
-       "status": "OUT",
-       "news": "Nick Foligno (upper-body) will remain out on Friday but has a chance to return on Saturday vs. Tampa Bay."
-      },
-      {
-       "player": "Marcus Foligno",
-       "status": "OUT",
-       "news": "Marcus Foligno (lower-body) will remain out on Friday but has a chance to return vs. Tampa Bay on Saturday."
-      },
-      {
        "player": "Jared Spurgeon",
        "status": "OUT",
        "news": "Spurgeon (undisclosed) is considered week-to-week."
       },
       {
-       "player": "Joel Eriksson Ek",
-       "status": "DTD",
-       "news": "Eriksson Ek (undisclosed) will play Sunday in Washington."
+       "player": "Michael McCarron",
+       "status": "OUT",
+       "news": "McCarron (undisclosed) is out vs. Tampa Bay on Saturday."
       }
      ],
      "lines": {
@@ -11867,7 +11857,7 @@
       ],
       "2": [
        "Blake Coleman",
-       "Michael McCarron",
+       "Ryan Hartman",
        "Bobby Brink"
       ],
       "3": [
@@ -11876,9 +11866,9 @@
        "Yakov Trenin"
       ],
       "4": [
+       "Marcus Foligno",
        "Nico Sturm",
-       "Ryan Hartman",
-       "Tyler Pitlick"
+       "Nick Foligno"
       ]
      },
      "pp1": [
@@ -11976,7 +11966,7 @@
        "line": 1,
        "pp": 1,
        "pos": "C",
-       "gtd": true,
+       "gtd": false,
        "role": "pp1",
        "bias": null,
        "gp": 18,
@@ -12189,77 +12179,6 @@
        ]
       },
       {
-       "name": "Michael McCarron",
-       "jersey": 47,
-       "team": "MIN",
-       "opp": "TBL",
-       "home": true,
-       "line": 2,
-       "pp": null,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 18,
-       "pt_games": 8,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 0,
-       "home_split": [
-        2,
-        6
-       ],
-       "away_split": [
-        6,
-        12
-       ],
-       "pp_toi": 0.0,
-       "toi": 13.3,
-       "p": 0.323,
-       "fair": "+209",
-       "min": "+228",
-       "p2": 0.018,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.912258064516129
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Blake Coleman",
-         "jersey": 20,
-         "pp": 2,
-         "n": 7,
-         "both": 2,
-         "either": 4
-        },
-        {
-         "name": "Bobby Brink",
-         "jersey": 10,
-         "pp": 2,
-         "n": 7,
-         "both": 3,
-         "either": 3
-        }
-       ]
-      },
-      {
        "name": "Bobby Brink",
        "jersey": 10,
        "team": "MIN",
@@ -12321,12 +12240,12 @@
          "either": 5
         },
         {
-         "name": "Michael McCarron",
-         "jersey": 47,
-         "pp": null,
-         "n": 7,
-         "both": 3,
-         "either": 3
+         "name": "Ryan Hartman",
+         "jersey": 38,
+         "pp": 2,
+         "n": 9,
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -12459,12 +12378,12 @@
        },
        "partners": [
         {
-         "name": "Michael McCarron",
-         "jersey": 47,
-         "pp": null,
-         "n": 7,
-         "both": 2,
-         "either": 4
+         "name": "Ryan Hartman",
+         "jersey": 38,
+         "pp": 2,
+         "n": 6,
+         "both": 0,
+         "either": 1
         },
         {
          "name": "Bobby Brink",
@@ -12473,6 +12392,77 @@
          "n": 11,
          "both": 2,
          "either": 5
+        }
+       ]
+      },
+      {
+       "name": "Ryan Hartman",
+       "jersey": 38,
+       "team": "MIN",
+       "opp": "TBL",
+       "home": true,
+       "line": 2,
+       "pp": 2,
+       "pos": "C",
+       "gtd": false,
+       "role": "top6",
+       "bias": "A",
+       "gp": 18,
+       "pt_games": 4,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        2,
+        6
+       ],
+       "away_split": [
+        2,
+        12
+       ],
+       "pp_toi": 1.8,
+       "toi": 12.6,
+       "p": 0.203,
+       "fair": "+393",
+       "min": "+423",
+       "p2": 0.018,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.912258064516129
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Blake Coleman",
+         "jersey": 20,
+         "pp": 2,
+         "n": 6,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Bobby Brink",
+         "jersey": 10,
+         "pp": 2,
+         "n": 9,
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -16033,7 +16023,7 @@
      "ppga_rk": 11,
      "l5_gf": 3.8,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-07T12:09:03.179545+00:00",
+     "lineup_as_of": "2026-11-08T00:04:25.311182+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -16059,12 +16049,12 @@
       {
        "player": "Zach Hyman",
        "status": "IR",
-       "news": "Hyman (upper-body) has been placed on IR."
+       "news": "Hyman (concussion) is expected to return vs. Vancouver on Saturday."
       },
       {
        "player": "Devon Levi",
        "status": "IR",
-       "news": "Levi (undisclosed) is considered week-to-week."
+       "news": "Levi will start vs. Vancouver on Saturday."
       },
       {
        "player": "Isaac Howard",
@@ -16079,32 +16069,32 @@
        "Leon Draisaitl"
       ],
       "2": [
-       "Colton Dach",
+       "Kasperi Kapanen",
        "Ryan Nugent-Hopkins",
-       "Kasperi Kapanen"
+       "Zach Hyman"
       ],
       "3": [
-       "Alex Formenton",
+       "Max Jones",
        "Jason Dickinson",
        "Mathieu Joseph"
       ],
       "4": [
-       "Max Jones",
+       "Alex Formenton",
        "Owen Michaels",
-       "Filip Hallander"
+       "Trent Frederic"
       ]
      },
      "pp1": [
-      "Kasperi Kapanen",
+      "Zach Hyman",
       "Ryan Nugent-Hopkins",
       "Leon Draisaitl",
       "Connor McDavid",
       "Evan Bouchard"
      ],
      "pp2": [
-      "Owen Michaels",
-      "Colton Dach",
-      "Filip Hallander",
+      "Vasily Podkolzin",
+      "Trent Frederic",
+      "Kasperi Kapanen",
       "Ryan Shea",
       "Mattias Ekholm"
      ],
@@ -16161,7 +16151,7 @@
         {
          "name": "Vasily Podkolzin",
          "jersey": 92,
-         "pp": null,
+         "pp": 2,
          "n": 15,
          "both": 9,
          "either": 15
@@ -16228,7 +16218,7 @@
         {
          "name": "Vasily Podkolzin",
          "jersey": 92,
-         "pp": null,
+         "pp": 2,
          "n": 16,
          "both": 9,
          "either": 15
@@ -16293,20 +16283,20 @@
        },
        "partners": [
         {
-         "name": "Colton Dach",
-         "jersey": 34,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 4
-        },
-        {
          "name": "Kasperi Kapanen",
          "jersey": 42,
-         "pp": 1,
+         "pp": 2,
          "n": 8,
          "both": 5,
          "either": 6
+        },
+        {
+         "name": "Zach Hyman",
+         "jersey": 18,
+         "pp": 1,
+         "n": 3,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -16317,7 +16307,7 @@
        "opp": "VAN",
        "home": true,
        "line": 1,
-       "pp": null,
+       "pp": 2,
        "pos": "LW",
        "gtd": false,
        "role": "top6",
@@ -16355,7 +16345,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": -1,
+        "pp": 0,
         "new": false
        },
        "partners": [
@@ -16384,10 +16374,10 @@
        "opp": "VAN",
        "home": true,
        "line": 2,
-       "pp": 1,
-       "pos": "RW",
+       "pp": 2,
+       "pos": "LW",
        "gtd": false,
-       "role": "pp1",
+       "role": "top6",
        "bias": null,
        "gp": 17,
        "pt_games": 8,
@@ -16408,12 +16398,79 @@
        ],
        "pp_toi": 4.3,
        "toi": 19.8,
-       "p": 0.572,
-       "fair": "-133",
-       "min": "-117",
-       "p2": 0.167,
-       "fair2": "+499",
-       "min2": "+535",
+       "p": 0.497,
+       "fair": "+101",
+       "min": "+113",
+       "p2": 0.122,
+       "fair2": "+716",
+       "min2": "+765",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ryan Nugent-Hopkins",
+         "jersey": 93,
+         "pp": 1,
+         "n": 8,
+         "both": 5,
+         "either": 6
+        },
+        {
+         "name": "Zach Hyman",
+         "jersey": 18,
+         "pp": 1,
+         "n": 4,
+         "both": 1,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Zach Hyman",
+       "jersey": 18,
+       "team": "EDM",
+       "opp": "VAN",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "pos": "RW",
+       "gtd": true,
+       "role": "pp1",
+       "bias": null,
+       "gp": 6,
+       "pt_games": 1,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        0,
+        5
+       ],
+       "away_split": [
+        1,
+        1
+       ],
+       "pp_toi": 3.1,
+       "toi": 17.4,
+       "p": 0.441,
+       "fair": "+127",
+       "min": "+140",
+       "p2": 0.133,
+       "fair2": "+654",
+       "min2": "+700",
        "adj": [
         [
          "opp",
@@ -16423,24 +16480,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Colton Dach",
-         "jersey": 34,
+         "name": "Kasperi Kapanen",
+         "jersey": 42,
          "pp": 2,
-         "n": 9,
+         "n": 4,
          "both": 1,
-         "either": 7
+         "either": 1
         },
         {
          "name": "Ryan Nugent-Hopkins",
          "jersey": 93,
          "pp": 1,
-         "n": 8,
-         "both": 5,
-         "either": 6
+         "n": 3,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -16494,12 +16551,12 @@
        },
        "partners": [
         {
-         "name": "Alex Formenton",
-         "jersey": 26,
+         "name": "Max Jones",
+         "jersey": 46,
          "pp": null,
-         "n": 16,
-         "both": 3,
-         "either": 8
+         "n": 1,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Jason Dickinson",
@@ -16561,12 +16618,12 @@
        },
        "partners": [
         {
-         "name": "Alex Formenton",
-         "jersey": 26,
+         "name": "Max Jones",
+         "jersey": 46,
          "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 2
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Mathieu Joseph",
@@ -16579,8 +16636,8 @@
        ]
       },
       {
-       "name": "Alex Formenton",
-       "jersey": 26,
+       "name": "Max Jones",
+       "jersey": 46,
        "team": "EDM",
        "opp": "VAN",
        "home": true,
@@ -16590,31 +16647,31 @@
        "gtd": false,
        "role": "other",
        "bias": null,
-       "gp": 17,
-       "pt_games": 5,
+       "gp": 8,
+       "pt_games": 0,
        "l5": [
-        1,
+        0,
         5
        ],
-       "ast_games": 3,
-       "goal_games": 2,
+       "ast_games": 0,
+       "goal_games": 0,
        "two_games": 0,
        "home_split": [
-        4,
-        9
+        0,
+        5
        ],
        "away_split": [
-        1,
-        8
+        0,
+        3
        ],
        "pp_toi": 0.0,
-       "toi": 11.9,
-       "p": 0.325,
-       "fair": "+208",
-       "min": "+226",
-       "p2": 0.015,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "toi": 8.5,
+       "p": 0.145,
+       "fair": "+590",
+       "min": "+631",
+       "p2": 0.023,
+       "fair2": "+4210",
+       "min2": "+4469",
        "adj": [
         [
          "opp",
@@ -16622,7 +16679,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -16631,84 +16688,17 @@
          "name": "Jason Dickinson",
          "jersey": 16,
          "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 2
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Mathieu Joseph",
          "jersey": 21,
          "pp": null,
-         "n": 16,
-         "both": 3,
-         "either": 8
-        }
-       ]
-      },
-      {
-       "name": "Colton Dach",
-       "jersey": 34,
-       "team": "EDM",
-       "opp": "VAN",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 13,
-       "pt_games": 2,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 2,
-       "two_games": 2,
-       "home_split": [
-        1,
-        8
-       ],
-       "away_split": [
-        1,
-        5
-       ],
-       "pp_toi": 1.3,
-       "toi": 15.7,
-       "p": 0.261,
-       "fair": "+284",
-       "min": "+307",
-       "p2": 0.146,
-       "fair2": "+586",
-       "min2": "+627",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ryan Nugent-Hopkins",
-         "jersey": 93,
-         "pp": 1,
-         "n": 4,
+         "n": 1,
          "both": 0,
-         "either": 4
-        },
-        {
-         "name": "Kasperi Kapanen",
-         "jersey": 42,
-         "pp": 1,
-         "n": 9,
-         "both": 1,
-         "either": 7
+         "either": 0
         }
        ]
       }
