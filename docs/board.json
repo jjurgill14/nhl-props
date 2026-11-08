@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T20:51:13.348991+00:00",
+ "generated_utc": "2026-11-08T21:06:17.525553+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19,7 +19,7 @@
    "id": "01",
    "game_id": 2026020277,
    "start_utc": "2026-11-08T18:00:00Z",
-   "status": "LIVE",
+   "status": "FINAL",
    "venue": "TD Garden",
    "away": {
     "abbr": "FLA",
@@ -10541,7 +10541,7 @@
     "goalie_source": "",
     "sv": "0.891",
     "gaa": "2.44",
-    "lineup_as_of": "2026-11-08T12:29:56.554470+00:00",
+    "lineup_as_of": "2026-11-08T21:06:15.983563+00:00",
     "lineup_stale": false,
     "ga_rk": 21,
     "gf_rk": 7,
@@ -10561,7 +10561,7 @@
     "goalie_source": "THN",
     "sv": "0.91",
     "gaa": "2.66",
-    "lineup_as_of": "2026-11-08T12:29:56.748345+00:00",
+    "lineup_as_of": "2026-11-08T21:06:16.203118+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
     "gf_rk": 8,
@@ -10572,7 +10572,7 @@
      "away": "+160",
      "home": "-192",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-08T12:29:56.748345+00:00"
+     "as_of": "2026-11-08T21:06:16.203118+00:00"
     },
     "total": {
      "line": null,
@@ -10891,10 +10891,10 @@
    "lineup": {
     "away": {
      "team": "NJD",
-     "as_of": "2026-11-08T12:29:56.554470+00:00",
+     "as_of": "2026-11-08T21:06:15.983563+00:00",
      "stale": false,
-     "source": "Amanda Stein",
-     "updated_dfo": "2026-11-07T23:44:37.842Z",
+     "source": "Last Game (2026-11-07)",
+     "updated_dfo": "2026-11-08T15:13:27.671Z",
      "forwards": [
       [
        {
@@ -11600,53 +11600,10 @@
      "goalies": [
       [
        {
-        "name": "Jake Allen",
-        "jersey": 34,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8474596,
-        "dfo_id": 1305,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 9,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "6-3-0",
-        "sv_pct": "0.881",
-        "starts": 9
-       }
-      ],
-      [
-       {
         "name": "Connor Hellebuyck",
         "jersey": 37,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8476945,
         "dfo_id": 2465,
         "gtd": false,
@@ -11682,6 +11639,49 @@
         "record": "4-0-0",
         "sv_pct": "0.891",
         "starts": 4
+       }
+      ],
+      [
+       {
+        "name": "Jake Allen",
+        "jersey": 34,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8474596,
+        "dfo_id": 1305,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 9,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "6-3-0",
+        "sv_pct": "0.881",
+        "starts": 9
        }
       ]
      ],
@@ -12398,7 +12398,7 @@
        "rating": 74.91952033128067
       },
       "d3": {
-       "rank": 27,
+       "rank": 28,
        "rating": 0
       },
       "d4": {
@@ -12414,7 +12414,7 @@
        "rating": 71.72354926876355
       },
       "f3": {
-       "rank": 20,
+       "rank": 17,
        "rating": 73.00970994450223
       },
       "f4": {
@@ -12422,7 +12422,7 @@
        "rating": 72.44203466225567
       },
       "g": {
-       "rank": 18,
+       "rank": 19,
        "rating": 68.17484580440706
       },
       "pk1": {
@@ -12445,10 +12445,10 @@
     },
     "home": {
      "team": "TOR",
-     "as_of": "2026-11-08T12:29:56.748345+00:00",
+     "as_of": "2026-11-08T21:06:16.203118+00:00",
      "stale": false,
-     "source": "David Alter",
-     "updated_dfo": "2026-11-07T23:46:36.306Z",
+     "source": "Last Game (2026-11-07)",
+     "updated_dfo": "2026-11-08T16:11:53.670Z",
      "forwards": [
       [
        {
@@ -13002,7 +13002,7 @@
         "slot": null,
         "player_id": 8476853,
         "dfo_id": 1935,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": 2,
         "pk": null,
@@ -13154,53 +13154,10 @@
      "goalies": [
       [
        {
-        "name": "Sergei Bobrovsky",
-        "jersey": 72,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8475683,
-        "dfo_id": 1117,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 12,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "3-6-2",
-        "sv_pct": "0.887",
-        "starts": 11
-       }
-      ],
-      [
-       {
         "name": "Anthony Stolarz",
         "jersey": 41,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8476932,
         "dfo_id": 2432,
         "gtd": false,
@@ -13236,6 +13193,49 @@
         "record": "5-1-0",
         "sv_pct": "0.910",
         "starts": 6
+       }
+      ],
+      [
+       {
+        "name": "Sergei Bobrovsky",
+        "jersey": 72,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8475683,
+        "dfo_id": 1117,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 12,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "3-6-2",
+        "sv_pct": "0.887",
+        "starts": 11
        }
       ]
      ],
@@ -13592,7 +13592,7 @@
         "slot": 5,
         "player_id": 8476853,
         "dfo_id": 1935,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": 2,
         "pk": null,
@@ -13955,6 +13955,11 @@
        "player": "Marshall Rifai",
        "status": "OUT",
        "news": "Rifai is week-to-week with a lower-body injury."
+      },
+      {
+       "player": "Morgan Rielly",
+       "status": "DTD",
+       "news": "Rielly (lower body) exited Saturday's game and did not return."
       }
      ],
      "unit_ratings": {
@@ -13963,7 +13968,7 @@
        "rating": 71.6838952495147
       },
       "d2": {
-       "rank": 23,
+       "rank": 22,
        "rating": 73.17280896054694
       },
       "d3": {
@@ -13979,19 +13984,19 @@
        "rating": 76.87026378419155
       },
       "f2": {
-       "rank": 8,
+       "rank": 9,
        "rating": 74.9617259209629
       },
       "f3": {
-       "rank": 36,
+       "rank": 35,
        "rating": 69.5727390720297
       },
       "f4": {
-       "rank": 32,
+       "rank": 31,
        "rating": 0
       },
       "g": {
-       "rank": 16,
+       "rank": 17,
        "rating": 68.33161799957561
       },
       "pk1": {
@@ -14054,7 +14059,7 @@
     "goalie_source": "Pat Steinberg",
     "sv": "0.912",
     "gaa": "2.68",
-    "lineup_as_of": "2026-11-08T12:29:56.441207+00:00",
+    "lineup_as_of": "2026-11-08T21:06:15.890920+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 30,
@@ -14065,7 +14070,7 @@
      "away": "+220",
      "home": "-270",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-08T12:29:56.441207+00:00"
+     "as_of": "2026-11-08T21:06:15.890920+00:00"
     },
     "total": {
      "line": null,
@@ -15927,10 +15932,10 @@
     },
     "home": {
      "team": "CGY",
-     "as_of": "2026-11-08T12:29:56.441207+00:00",
+     "as_of": "2026-11-08T21:06:15.890920+00:00",
      "stale": false,
-     "source": "Ryan Pike",
-     "updated_dfo": "2026-11-07T00:41:52.535Z",
+     "source": "Pat Steinberg",
+     "updated_dfo": "2026-11-08T17:08:32.497Z",
      "forwards": [
       [
        {
@@ -16620,53 +16625,10 @@
      "goalies": [
       [
        {
-        "name": "Dustin Wolf",
-        "jersey": 32,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8481692,
-        "dfo_id": 29507,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 10,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "3-5-1",
-        "sv_pct": "0.869",
-        "starts": 9
-       }
-      ],
-      [
-       {
         "name": "Devin Cooley",
         "jersey": 1,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8482445,
         "dfo_id": 32944,
         "gtd": false,
@@ -16702,6 +16664,49 @@
         "record": "4-3-0",
         "sv_pct": "0.912",
         "starts": 7
+       }
+      ],
+      [
+       {
+        "name": "Dustin Wolf",
+        "jersey": 32,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8481692,
+        "dfo_id": 29507,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 10,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "3-5-1",
+        "sv_pct": "0.869",
+        "starts": 9
        }
       ]
      ],
@@ -17408,6 +17413,11 @@
        "news": "Huberdeau (hip) is not expected to be ready for the start of Calgary\u2019s training camp."
       },
       {
+       "player": "Kevin Bahl",
+       "status": "IR",
+       "news": "Bahl (Achilles) has been placed on IR and will have season-ending surgery."
+      },
+      {
        "player": "Samuel Honzek",
        "status": "OUT",
        "news": "Honzek (lower-body) is considered week-to-week."
@@ -17416,11 +17426,6 @@
        "player": "Brennan Othmann",
        "status": "DTD",
        "news": "Othmann (upper-body) is out on Friday and considered day-to-day."
-      },
-      {
-       "player": "Kevin Bahl",
-       "status": "DTD",
-       "news": "Bahl (lower-body) is out vs. Anaheim on Friday."
       }
      ],
      "unit_ratings": {
@@ -17433,7 +17438,7 @@
        "rating": 73.27176076069297
       },
       "d3": {
-       "rank": 27,
+       "rank": 28,
        "rating": 0
       },
       "d4": {
@@ -17445,19 +17450,19 @@
        "rating": 73.97140184442043
       },
       "f2": {
-       "rank": 14,
+       "rank": 15,
        "rating": 74.48852172320261
       },
       "f3": {
-       "rank": 27,
+       "rank": 25,
        "rating": 72.1745098520423
       },
       "f4": {
-       "rank": 32,
+       "rank": 31,
        "rating": 0
       },
       "g": {
-       "rank": 28,
+       "rank": 29,
        "rating": 0
       },
       "pk1": {
