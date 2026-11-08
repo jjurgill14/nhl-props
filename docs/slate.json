@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T23:06:52.291585+00:00",
+ "generated_utc": "2026-11-08T23:21:56.708159+00:00",
  "games": [
   {
    "game_id": 2026020277,
@@ -2803,7 +2803,7 @@
    "start_et": "6:00 PM",
    "away": "TBL",
    "home": "WPG",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Canada Life Centre",
    "teams": {
     "away": {
@@ -4224,7 +4224,7 @@
      "goalie_source": "Lance Hornby",
      "sv": "0.891",
      "gaa": "2.44",
-     "ml": "160",
+     "ml": "150",
      "gp": 17,
      "gf": 3.588235294117647,
      "gf_rk": 7,
@@ -4851,7 +4851,7 @@
      "goalie_source": "Terry Koshan",
      "sv": "0.91",
      "gaa": "2.66",
-     "ml": "-192",
+     "ml": "-180",
      "gp": 18,
      "gf": 3.5555555555555554,
      "gf_rk": 8,
@@ -6983,9 +6983,9 @@
      "home": false,
      "b2b": true,
      "goalie": "Arturs Silovs",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Silovs will start in Anaheim on Sunday.",
+     "goalie_source": "Josh Yohe",
      "sv": "0.876",
      "gaa": "3.25",
      "ml": "-238",
@@ -7000,7 +7000,7 @@
      "ppga_rk": 27,
      "l5_gf": 3.2,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-08T22:06:34.142902+00:00",
+     "lineup_as_of": "2026-11-08T23:21:55.714767+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7017,6 +7017,11 @@
        "player": "Bryan Rust",
        "status": "IR",
        "news": "Rust (lower-body) is out and will be evaluated in six weeks."
+      },
+      {
+       "player": "Ville Koivunen",
+       "status": "DTD",
+       "news": "Koivunen (lower body) is day-to-day and will not play on Sunday."
       }
      ],
      "lines": {
@@ -7031,7 +7036,7 @@
        "Egor Chinakhov"
       ],
       "3": [
-       "Ville Koivunen",
+       "Rutger McGroarty",
        "Hendrix Lapierre",
        "Justin Brazeau"
       ],
@@ -7049,7 +7054,7 @@
       "Sidney Crosby"
      ],
      "pp2": [
-      "Ville Koivunen",
+      "Rutger McGroarty",
       "Justin Brazeau",
       "Egor Chinakhov",
       "Kris Letang",
@@ -7412,77 +7417,6 @@
        ]
       },
       {
-       "name": "Ville Koivunen",
-       "jersey": 41,
-       "team": "PIT",
-       "opp": "ANA",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 15,
-       "pt_games": 7,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        3,
-        6
-       ],
-       "away_split": [
-        4,
-        9
-       ],
-       "pp_toi": 2.8,
-       "toi": 14.1,
-       "p": 0.383,
-       "fair": "+161",
-       "min": "+176",
-       "p2": 0.012,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Hendrix Lapierre",
-         "jersey": 22,
-         "pp": null,
-         "n": 8,
-         "both": 3,
-         "either": 5
-        },
-        {
-         "name": "Justin Brazeau",
-         "jersey": 15,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 2
-        }
-       ]
-      },
-      {
        "name": "Egor Chinakhov",
        "jersey": 59,
        "team": "PIT",
@@ -7607,12 +7541,12 @@
        },
        "partners": [
         {
-         "name": "Ville Koivunen",
-         "jersey": 41,
+         "name": "Rutger McGroarty",
+         "jersey": 2,
          "pp": 2,
-         "n": 8,
-         "both": 3,
-         "either": 5
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Justin Brazeau",
@@ -7678,12 +7612,12 @@
        },
        "partners": [
         {
-         "name": "Ville Koivunen",
-         "jersey": 41,
+         "name": "Rutger McGroarty",
+         "jersey": 2,
          "pp": 2,
-         "n": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Hendrix Lapierre",
@@ -7692,6 +7626,77 @@
          "n": 3,
          "both": 1,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Rutger McGroarty",
+       "jersey": 2,
+       "team": "PIT",
+       "opp": "ANA",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 2,
+       "pt_games": 0,
+       "l5": [
+        0,
+        2
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        2
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "pp_toi": 1.0,
+       "toi": 13.7,
+       "p": 0.196,
+       "fair": "+410",
+       "min": "+441",
+       "p2": 0.028,
+       "fair2": "+3416",
+       "min2": "+3627",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Hendrix Lapierre",
+         "jersey": 22,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Justin Brazeau",
+         "jersey": 15,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       }

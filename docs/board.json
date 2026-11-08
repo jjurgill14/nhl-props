@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T23:06:52.752592+00:00",
+ "generated_utc": "2026-11-08T23:21:57.180775+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -7016,7 +7016,7 @@
    "id": "03",
    "game_id": 2026020280,
    "start_utc": "2026-11-08T23:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Canada Life Centre",
    "away": {
     "abbr": "TBL",
@@ -10525,8 +10525,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+160",
-     "home": "-192",
+     "away": "+150",
+     "home": "-180",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T22:06:34.264697+00:00"
     },
@@ -17428,12 +17428,12 @@
     "record": "6-9-2",
     "b2b": true,
     "goalie": "Arturs Silovs",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Silovs will start in Anaheim on Sunday.",
+    "goalie_source": "Josh Yohe",
     "sv": "0.876",
     "gaa": "3.25",
-    "lineup_as_of": "2026-11-08T22:06:34.142902+00:00",
+    "lineup_as_of": "2026-11-08T23:21:55.714767+00:00",
     "lineup_stale": false,
     "ga_rk": 9,
     "gf_rk": 16,
@@ -17799,10 +17799,10 @@
    "lineup": {
     "away": {
      "team": "PIT",
-     "as_of": "2026-11-08T22:06:34.142902+00:00",
+     "as_of": "2026-11-08T23:21:55.714767+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-07)",
-     "updated_dfo": "2026-11-08T15:48:57.721Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-08T23:13:44.478Z",
      "forwards": [
       [
        {
@@ -18038,41 +18038,41 @@
       ],
       [
        {
-        "name": "Ville Koivunen",
-        "jersey": 41,
+        "name": "Rutger McGroarty",
+        "jersey": 2,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482758,
-        "dfo_id": 34677,
+        "player_id": 8483487,
+        "dfo_id": 33262,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 15,
-         "p": 7,
-         "ppp": 1,
-         "sog": 12,
-         "toi_s": 12508
+         "a": 0,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 1640
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 1,
-         "sog": 1,
-         "toi_s": 4236
+         "ppp": 0,
+         "sog": 9,
+         "toi_s": 4019
         },
-        "l5_point_games": 1,
-        "gp": 15,
+        "l5_point_games": 0,
+        "gp": 2,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -18788,41 +18788,41 @@
       ],
       [
        {
-        "name": "Ville Koivunen",
-        "jersey": 41,
+        "name": "Rutger McGroarty",
+        "jersey": 2,
         "pos": null,
         "slot": 1,
-        "player_id": 8482758,
-        "dfo_id": 34677,
+        "player_id": 8483487,
+        "dfo_id": 33262,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 15,
-         "p": 7,
-         "ppp": 1,
-         "sog": 12,
-         "toi_s": 12508
+         "a": 0,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 1640
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 1,
-         "sog": 1,
-         "toi_s": 4236
+         "ppp": 0,
+         "sog": 9,
+         "toi_s": 4019
         },
-        "l5_point_games": 1,
-        "gp": 15,
+        "l5_point_games": 0,
+        "gp": 2,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -19304,6 +19304,11 @@
        "player": "Bryan Rust",
        "status": "IR",
        "news": "Rust (lower-body) is out and will be evaluated in six weeks."
+      },
+      {
+       "player": "Ville Koivunen",
+       "status": "DTD",
+       "news": "Koivunen (lower body) is day-to-day and will not play on Sunday."
       }
      ],
      "unit_ratings": {
@@ -19320,7 +19325,7 @@
        "rating": 76.72423575329341
       },
       "d4": {
-       "rank": 6,
+       "rank": 7,
        "rating": 0
       },
       "f1": {
