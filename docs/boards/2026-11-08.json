@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T12:29:58.187558+00:00",
+ "generated_utc": "2026-11-08T20:06:01.546326+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19,7 +19,7 @@
    "id": "01",
    "game_id": 2026020277,
    "start_utc": "2026-11-08T18:00:00Z",
-   "status": "FUT",
+   "status": "LIVE",
    "venue": "TD Garden",
    "away": {
     "abbr": "FLA",
@@ -29,12 +29,12 @@
     "color2": "#041E42",
     "record": "9-6-2",
     "b2b": true,
-    "goalie": "Akira Schmid",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.886",
-    "gaa": "2.99",
+    "goalie": "Jacob Markstrom",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Markstrom will start in Boston on Sunday.",
+    "goalie_source": "Rob Darragh",
+    "sv": "0.876",
+    "gaa": "2.84",
     "lineup_as_of": "2026-11-08T12:29:56.505246+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
@@ -50,11 +50,11 @@
     "record": "12-4-1",
     "b2b": false,
     "goalie": "Jeremy Swayman",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.913",
-    "gaa": "2.3",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Swayman will start vs. Florida on Sunday.",
+    "goalie_source": "Scott Mclaughlin",
+    "sv": "0.914",
+    "gaa": "2.32",
     "lineup_as_of": "2026-11-08T12:29:56.314086+00:00",
     "lineup_stale": false,
     "ga_rk": 29,
@@ -63,8 +63,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-218",
-     "home": "+180",
+     "away": "-198",
+     "home": "+164",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T12:29:56.314086+00:00"
     },
@@ -3512,7 +3512,7 @@
    "id": "02",
    "game_id": 2026020278,
    "start_utc": "2026-11-08T20:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "KeyBank Center",
    "away": {
     "abbr": "VGK",
@@ -3522,13 +3522,13 @@
     "color2": "#333F42",
     "record": "11-5-2",
     "b2b": false,
-    "goalie": "Carter Hart",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.9",
-    "gaa": "2.48",
-    "lineup_as_of": "2026-11-08T12:29:56.811518+00:00",
+    "goalie": "Adin Hill",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Hill will start in Buffalo on Sunday.",
+    "goalie_source": "Heather Engel",
+    "sv": "0.894",
+    "gaa": "2.73",
+    "lineup_as_of": "2026-11-08T20:06:00.175794+00:00",
     "lineup_stale": false,
     "ga_rk": 28,
     "gf_rk": 14,
@@ -3543,12 +3543,12 @@
     "record": "8-5-3",
     "b2b": false,
     "goalie": "Colten Ellis",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Ellis will start vs. Vegas on Sunday.",
+    "goalie_source": "Heather Engel",
     "sv": "0.891",
     "gaa": "2.92",
-    "lineup_as_of": "2026-11-08T12:29:56.378036+00:00",
+    "lineup_as_of": "2026-11-08T20:05:59.998230+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
     "gf_rk": 18,
@@ -3556,10 +3556,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+220",
-     "home": "-270",
+     "away": "+230",
+     "home": "-285",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-08T12:29:56.378036+00:00"
+     "as_of": "2026-11-08T20:05:59.998230+00:00"
     },
     "total": {
      "line": null,
@@ -3894,7 +3894,7 @@
    "lineup": {
     "away": {
      "team": "VGK",
-     "as_of": "2026-11-08T12:29:56.811518+00:00",
+     "as_of": "2026-11-08T20:06:00.175794+00:00",
      "stale": false,
      "source": "Last Game (2026-11-05)",
      "updated_dfo": "2026-11-06T14:36:08.970Z",
@@ -4603,53 +4603,10 @@
      "goalies": [
       [
        {
-        "name": "Carter Hart",
-        "jersey": 79,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8479394,
-        "dfo_id": 3874,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 10,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "4-3-2",
-        "sv_pct": "0.898",
-        "starts": 9
-       }
-      ],
-      [
-       {
         "name": "Adin Hill",
         "jersey": 33,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8478499,
         "dfo_id": 2906,
         "gtd": false,
@@ -4685,6 +4642,49 @@
         "record": "6-2-0",
         "sv_pct": "0.894",
         "starts": 8
+       }
+      ],
+      [
+       {
+        "name": "Carter Hart",
+        "jersey": 79,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8479394,
+        "dfo_id": 3874,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 10,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "4-3-2",
+        "sv_pct": "0.898",
+        "starts": 9
        }
       ]
      ],
@@ -5397,7 +5397,7 @@
        "rating": 75.67780830809967
       },
       "d2": {
-       "rank": 24,
+       "rank": 23,
        "rating": 72.67749663832126
       },
       "d3": {
@@ -5413,7 +5413,7 @@
        "rating": 76.19630651119344
       },
       "f2": {
-       "rank": 9,
+       "rank": 10,
        "rating": 74.8324977598374
       },
       "f3": {
@@ -5421,11 +5421,11 @@
        "rating": 75.48198645803042
       },
       "f4": {
-       "rank": 18,
+       "rank": 17,
        "rating": 71.77406311806222
       },
       "g": {
-       "rank": 14,
+       "rank": 15,
        "rating": 68.54846694730762
       },
       "pk1": {
@@ -5448,7 +5448,7 @@
     },
     "home": {
      "team": "BUF",
-     "as_of": "2026-11-08T12:29:56.378036+00:00",
+     "as_of": "2026-11-08T20:05:59.998230+00:00",
      "stale": false,
      "source": "Rachel Lenzi",
      "updated_dfo": "2026-11-06T23:38:46.668Z",
@@ -6157,53 +6157,10 @@
      "goalies": [
       [
        {
-        "name": "Colten Ellis",
-        "jersey": 92,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8481551,
-        "dfo_id": 28686,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 6,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "3-2-0",
-        "sv_pct": "0.891",
-        "starts": 6
-       }
-      ],
-      [
-       {
         "name": "Ukko-Pekka Luukkonen",
         "jersey": 1,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8480045,
         "dfo_id": 4783,
         "gtd": false,
@@ -6239,6 +6196,49 @@
         "record": "5-3-3",
         "sv_pct": "0.878",
         "starts": 10
+       }
+      ],
+      [
+       {
+        "name": "Colten Ellis",
+        "jersey": 92,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8481551,
+        "dfo_id": 28686,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 6,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "3-2-0",
+        "sv_pct": "0.891",
+        "starts": 6
        }
       ]
      ],
@@ -6961,11 +6961,11 @@
        "rating": 73.8636294336494
       },
       "d2": {
-       "rank": 38,
+       "rank": 37,
        "rating": 0
       },
       "d3": {
-       "rank": 13,
+       "rank": 14,
        "rating": 73.04800009122891
       },
       "d4": {
@@ -6989,7 +6989,7 @@
        "rating": 72.94508353370126
       },
       "g": {
-       "rank": 28,
+       "rank": 29,
        "rating": 0
       },
       "pk1": {
@@ -7047,12 +7047,12 @@
     "record": "6-8-3",
     "b2b": false,
     "goalie": "Stuart Skinner",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Likely",
+    "goalie_news": "Skinner is in the starter's crease at the Jets morning skate.",
+    "goalie_source": "Mitchell Clinton",
     "sv": "0.885",
     "gaa": "3.28",
-    "lineup_as_of": "2026-11-08T12:29:56.874319+00:00",
+    "lineup_as_of": "2026-11-08T20:06:00.231602+00:00",
     "lineup_stale": false,
     "ga_rk": 7,
     "gf_rk": 26,
@@ -7060,10 +7060,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+170",
-     "home": "-205",
+     "away": "+164",
+     "home": "-198",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-08T12:29:56.874319+00:00"
+     "as_of": "2026-11-08T20:06:00.231602+00:00"
     },
     "total": {
      "line": null,
@@ -8952,7 +8952,7 @@
     },
     "home": {
      "team": "WPG",
-     "as_of": "2026-11-08T12:29:56.874319+00:00",
+     "as_of": "2026-11-08T20:06:00.231602+00:00",
      "stale": false,
      "source": "Last Game (2026-11-05)",
      "updated_dfo": "2026-11-06T14:54:57.477Z",
@@ -10456,7 +10456,7 @@
       {
        "player": "Josh Morrissey",
        "status": "IR",
-       "news": "Morrissey (upper-body) is a full participant in Winnipeg's practice on Saturday."
+       "news": "Morrissey (upper body) will remain out of the lineup on Sunday."
       },
       {
        "player": "Elias Salomonsson",
@@ -10470,11 +10470,11 @@
        "rating": 75.33395443164972
       },
       "d2": {
-       "rank": 34,
+       "rank": 33,
        "rating": 71.5020217674832
       },
       "d3": {
-       "rank": 16,
+       "rank": 17,
        "rating": 72.499212258783
       },
       "d4": {
@@ -10490,15 +10490,15 @@
        "rating": 0
       },
       "f3": {
-       "rank": 32,
+       "rank": 31,
        "rating": 71.18457224957761
       },
       "f4": {
-       "rank": 32,
+       "rank": 31,
        "rating": 0
       },
       "g": {
-       "rank": 28,
+       "rank": 29,
        "rating": 0
       },
       "pk1": {
@@ -10535,12 +10535,12 @@
     "color2": "#000000",
     "record": "12-5-0",
     "b2b": true,
-    "goalie": "Jake Allen",
+    "goalie": "Connor Hellebuyck",
     "goalie_status": "",
     "goalie_news": "",
     "goalie_source": "",
-    "sv": "0.881",
-    "gaa": "3.2",
+    "sv": "0.891",
+    "gaa": "2.44",
     "lineup_as_of": "2026-11-08T12:29:56.554470+00:00",
     "lineup_stale": false,
     "ga_rk": 21,
@@ -10555,12 +10555,12 @@
     "color2": "#FFFFFF",
     "record": "8-8-2",
     "b2b": true,
-    "goalie": "Sergei Bobrovsky",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.886",
-    "gaa": "3.34",
+    "goalie": "Anthony Stolarz",
+    "goalie_status": "Likely",
+    "goalie_news": "Stolarz is expected to start vs. New Jersey on Sunday.",
+    "goalie_source": "THN",
+    "sv": "0.91",
+    "gaa": "2.66",
     "lineup_as_of": "2026-11-08T12:29:56.748345+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
@@ -10569,8 +10569,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+170",
-     "home": "-205",
+     "away": "+160",
+     "home": "-192",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T12:29:56.748345+00:00"
     },
@@ -14029,9 +14029,9 @@
     "record": "4-10-4",
     "b2b": false,
     "goalie": "Dan Vladar",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Likely",
+    "goalie_news": "Vladar is expected to start Sunday in Calgary.",
+    "goalie_source": "Ryan Pike",
     "sv": "0.883",
     "gaa": "3.21",
     "lineup_as_of": "2026-11-08T12:29:56.600515+00:00",
@@ -14048,12 +14048,12 @@
     "color2": "#FAAF19",
     "record": "7-9-1",
     "b2b": false,
-    "goalie": "Dustin Wolf",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.869",
-    "gaa": "3.74",
+    "goalie": "Devin Cooley",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Cooley will start vs. Philadelphia on Sunday.",
+    "goalie_source": "Pat Steinberg",
+    "sv": "0.912",
+    "gaa": "2.68",
     "lineup_as_of": "2026-11-08T12:29:56.441207+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
@@ -14062,8 +14062,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+225",
-     "home": "-278",
+     "away": "+220",
+     "home": "-270",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T12:29:56.441207+00:00"
     },
@@ -17494,12 +17494,12 @@
     "color2": "#FCB514",
     "record": "6-9-2",
     "b2b": true,
-    "goalie": "Sergei Murashov",
+    "goalie": "Arturs Silovs",
     "goalie_status": "",
     "goalie_news": "",
     "goalie_source": "",
-    "sv": "0.878",
-    "gaa": "3.52",
+    "sv": "0.876",
+    "gaa": "3.25",
     "lineup_as_of": "2026-11-08T12:29:56.646527+00:00",
     "lineup_stale": false,
     "ga_rk": 9,
@@ -17514,12 +17514,12 @@
     "color2": "#B9975B",
     "record": "9-7-1",
     "b2b": false,
-    "goalie": "Lukas Dostal",
+    "goalie": "Ville Husso",
     "goalie_status": "",
     "goalie_news": "",
     "goalie_source": "",
-    "sv": "0.865",
-    "gaa": "3.75",
+    "sv": "0.869",
+    "gaa": "3.54",
     "lineup_as_of": "2026-11-08T12:29:56.241244+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
