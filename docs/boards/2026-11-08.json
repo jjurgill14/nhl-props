@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-08",
- "generated_utc": "2026-11-08T22:36:44.007899+00:00",
+ "generated_utc": "2026-11-08T22:51:48.635149+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -7032,7 +7032,7 @@
     "goalie_source": "Gabby Shirley",
     "sv": "0.886",
     "gaa": "2.75",
-    "lineup_as_of": "2026-11-08T22:36:42.631121+00:00",
+    "lineup_as_of": "2026-11-08T22:51:46.988940+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 5,
@@ -7047,9 +7047,9 @@
     "record": "6-8-3",
     "b2b": false,
     "goalie": "Stuart Skinner",
-    "goalie_status": "Likely",
-    "goalie_news": "Skinner is in the starter's crease at the Jets morning skate.",
-    "goalie_source": "Mitchell Clinton",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Skinner will start vs. Tampa Bay on Sunday.",
+    "goalie_source": "Winnipeg Sports Talk",
     "sv": "0.885",
     "gaa": "3.28",
     "lineup_as_of": "2026-11-08T20:06:00.231602+00:00",
@@ -7060,8 +7060,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+164",
-     "home": "-198",
+     "away": "+154",
+     "home": "-185",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-08T20:06:00.231602+00:00"
     },
@@ -7398,10 +7398,10 @@
    "lineup": {
     "away": {
      "team": "TBL",
-     "as_of": "2026-11-08T22:36:42.631121+00:00",
+     "as_of": "2026-11-08T22:51:46.988940+00:00",
      "stale": false,
      "source": "Gabby Shirley",
-     "updated_dfo": "2026-11-08T22:26:16.618Z",
+     "updated_dfo": "2026-11-08T22:41:48.253Z",
      "forwards": [
       [
        {
@@ -8027,25 +8027,25 @@
         }
        },
        {
-        "name": "J.J. Moser",
-        "jersey": 90,
+        "name": "Maxwell Crozier",
+        "jersey": 24,
         "pos": "RD",
         "slot": null,
-        "player_id": 8482655,
-        "dfo_id": 34680,
+        "player_id": null,
+        "dfo_id": 28863,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 3,
          "g": 0,
-         "gp": 16,
-         "p": 1,
+         "gp": 9,
+         "p": 3,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 17044
+         "sog": 16,
+         "toi_s": 9361
         },
         "last5": {
          "a": 1,
@@ -8053,15 +8053,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5234
+         "sog": 9,
+         "toi_s": 5086
         },
-        "l5_point_games": 1,
-        "gp": 16,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -8843,7 +8843,7 @@
         "l5_point_games": 1,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
