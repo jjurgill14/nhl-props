@@ -9,8 +9,6 @@ const STATS: { key: StatKey; label: string; lines: number[] }[] = [
   { key: 'sog', label: 'Shots on Goal', lines: [1.5, 2.5, 3.5, 4.5] },
 ]
 
-const PALETTE = ['#4ade80', '#60a5fa', '#f0bd81']
-
 function shortDate(ymd: string): string {
   const [, m, d] = ymd.split('-').map(Number)
   return `${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][m - 1]} ${d}`
@@ -199,6 +197,12 @@ export function PropsPage({ board, target, onChange }: Props) {
           </h3>
           <span className="pr-legend">
             <i style={{ background: '#4ade80' }} /> Over {line} (Hit) <i style={{ background: '#f87171' }} /> Under {line} (Miss)
+            {pair && (
+              <>
+                {' '}· <i style={{ background: '#9fb6c5' }} /> {players[0].name.split(' ').slice(-1)[0]} solid{' '}
+                <i style={{ background: 'repeating-linear-gradient(45deg,#9fb6c5 0 3px,#30465a 3px 6px)' }} /> {players[1].name.split(' ').slice(-1)[0]} striped
+              </>
+            )}
           </span>
         </div>
         <div className="pr-log-row">
@@ -238,6 +242,16 @@ function Chart({ games, series, stat, line, yMax }: { games: GameLogRow[]; serie
   const ticks = Array.from({ length: Math.ceil(yMax) + 1 }, (_, i) => i)
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="pr-svg" role="img" aria-label={`${stat} per game`}>
+      <defs>
+        <pattern id="stripe-hit" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+          <rect width="8" height="8" fill="#14532d" />
+          <rect width="4" height="8" fill="#4ade80" />
+        </pattern>
+        <pattern id="stripe-miss" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+          <rect width="8" height="8" fill="#5b1f1f" />
+          <rect width="4" height="8" fill="#f87171" />
+        </pattern>
+      </defs>
       {ticks.map((t) => (
         <g key={t}>
           <line x1={L} x2={W - R} y1={y(t)} y2={y(t)} stroke="#1f3140" strokeWidth="1" />
@@ -254,10 +268,11 @@ function Chart({ games, series, stat, line, yMax }: { games: GameLogRow[]; serie
               const x = cx - (bw * k) / 2 + bw * si + 2
               const h = Math.max(4, ih * (v / yMax))
               const isHit = v > line
-              const fill = k === 1 ? (isHit ? '#4ade80' : '#f87171') : isHit ? PALETTE[si] : '#5b3a3a'
+              const base = isHit ? '#4ade80' : '#f87171'
+              const fill = si === 0 ? base : `url(#stripe-${isHit ? 'hit' : 'miss'})`
               return (
                 <g key={si}>
-                  <rect x={x} y={v === 0 ? T + ih - 4 : y(v)} width={bw - 4} height={v === 0 ? 4 : h} rx="2" fill={fill} opacity={v === 0 ? 0.7 : 1} />
+                  <rect x={x} y={v === 0 ? T + ih - 4 : y(v)} width={bw - 4} height={v === 0 ? 4 : h} rx="2" fill={fill} stroke={si === 0 ? 'none' : base} strokeWidth={si === 0 ? 0 : 1.5} opacity={v === 0 ? 0.7 : 1} />
                   <text x={x + (bw - 4) / 2} y={(v === 0 ? T + ih - 4 : y(v)) - 7} fill="#e6edf3" fontSize="14" fontWeight="700" textAnchor="middle">{v}</text>
                 </g>
               )
@@ -267,9 +282,9 @@ function Chart({ games, series, stat, line, yMax }: { games: GameLogRow[]; serie
           </g>
         )
       })}
-      <line x1={L} x2={W - R} y1={y(line)} y2={y(line)} stroke="#f0bd81" strokeWidth="2" strokeDasharray="8 6" />
-      <rect x={W - R + 6} y={y(line) - 12} width={R - 10} height="24" rx="6" fill="#3a2a14" stroke="#f0bd81" />
-      <text x={W - R + 6 + (R - 10) / 2} y={y(line) + 4} fill="#f0bd81" fontSize="11" fontWeight="800" textAnchor="middle">Prop line: {line}</text>
+      <line x1={L} x2={W - R} y1={y(line)} y2={y(line)} stroke="#f4f7fa" strokeWidth="2.5" strokeLinecap="round" strokeDasharray="0.1 6" />
+      <rect x={W - R + 6} y={y(line) - 12} width={R - 10} height="24" rx="6" fill="#1c2a38" stroke="#f4f7fa" />
+      <text x={W - R + 6 + (R - 10) / 2} y={y(line) + 4} fill="#f4f7fa" fontSize="11" fontWeight="800" textAnchor="middle">Prop line: {line}</text>
     </svg>
   )
 }
