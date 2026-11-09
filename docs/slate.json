@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_utc": "2026-11-09T12:40:24.732582+00:00",
+ "generated_utc": "2026-11-09T14:45:33.178796+00:00",
  "games": [
   {
    "game_id": 2026020283,
@@ -16,13 +16,13 @@
      "opp": "EDM",
      "home": false,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Dylan Garand",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.906",
+     "gaa": "2.51",
+     "ml": "-198",
      "gp": 18,
      "gf": 3.0,
      "gf_rk": 18,
@@ -34,8 +34,8 @@
      "ppga_rk": 32,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-07T21:48:46.916070+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-09T14:45:31.992714+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Igor Shesterkin",
@@ -56,6 +56,11 @@
        "player": "Sean Durzi",
        "status": "IR",
        "news": "Durzi (undisclosed) will remain out on Thursday and is not expected to travel to start the Rangers' upcoming road trip."
+      },
+      {
+       "player": "Alberts Smits",
+       "status": "DTD",
+       "news": "Smits (upper-body) is a late scratch vs. Seattle."
       }
      ],
      "lines": {
@@ -712,13 +717,13 @@
      "opp": "NYR",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Devon Levi",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.888",
+     "gaa": "2.97",
+     "ml": "164",
      "gp": 18,
      "gf": 4.111111111111111,
      "gf_rk": 1,
@@ -730,8 +735,8 @@
      "ppga_rk": 14,
      "l5_gf": 3.8,
      "l5_ga": 2.2,
-     "lineup_as_of": "2026-11-08T00:04:25.311182+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-09T14:45:31.837139+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Alec Regula",
@@ -754,16 +759,6 @@
        "news": "Savoie (undisclosed) has been placed on LTIR."
       },
       {
-       "player": "Zach Hyman",
-       "status": "IR",
-       "news": "Hyman (concussion) is expected to return vs. Vancouver on Saturday."
-      },
-      {
-       "player": "Devon Levi",
-       "status": "IR",
-       "news": "Levi will start vs. Vancouver on Saturday."
-      },
-      {
        "player": "Isaac Howard",
        "status": "DTD",
        "news": "Howard (lower-body) is considered week-to-week."
@@ -781,12 +776,12 @@
        "Zach Hyman"
       ],
       "3": [
-       "Max Jones",
+       "Alex Formenton",
        "Jason Dickinson",
        "Mathieu Joseph"
       ],
       "4": [
-       "Alex Formenton",
+       "Max Jones",
        "Owen Michaels",
        "Trent Frederic"
       ]
@@ -1083,7 +1078,7 @@
        "line": 2,
        "pp": 1,
        "pos": "RW",
-       "gtd": true,
+       "gtd": false,
        "role": "pp1",
        "bias": null,
        "gp": 7,
@@ -1258,12 +1253,12 @@
        },
        "partners": [
         {
-         "name": "Max Jones",
-         "jersey": 46,
+         "name": "Alex Formenton",
+         "jersey": 26,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 17,
+         "both": 3,
+         "either": 9
         },
         {
          "name": "Jason Dickinson",
@@ -1325,12 +1320,12 @@
        },
        "partners": [
         {
-         "name": "Max Jones",
-         "jersey": 46,
+         "name": "Alex Formenton",
+         "jersey": 26,
          "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 6,
+         "both": 1,
+         "either": 3
         },
         {
          "name": "Mathieu Joseph",
@@ -1343,8 +1338,8 @@
        ]
       },
       {
-       "name": "Max Jones",
-       "jersey": 46,
+       "name": "Alex Formenton",
+       "jersey": 26,
        "team": "EDM",
        "opp": "NYR",
        "home": true,
@@ -1354,29 +1349,29 @@
        "gtd": false,
        "role": "other",
        "bias": null,
-       "gp": 9,
-       "pt_games": 0,
+       "gp": 18,
+       "pt_games": 5,
        "l5": [
         0,
         5
        ],
-       "ast_games": 0,
-       "goal_games": 0,
+       "ast_games": 3,
+       "goal_games": 2,
        "two_games": 0,
        "home_split": [
-        0,
-        6
+        4,
+        10
        ],
        "away_split": [
-        0,
-        3
+        1,
+        8
        ],
        "pp_toi": 0.0,
-       "toi": 8.4,
-       "p": 0.107,
-       "fair": "+832",
-       "min": "+888",
-       "p2": 0.017,
+       "toi": 11.9,
+       "p": 0.246,
+       "fair": "+307",
+       "min": "+332",
+       "p2": 0.011,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -1386,7 +1381,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -1395,17 +1390,17 @@
          "name": "Jason Dickinson",
          "jersey": 16,
          "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 6,
+         "both": 1,
+         "either": 3
         },
         {
          "name": "Mathieu Joseph",
          "jersey": 21,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 17,
+         "both": 3,
+         "either": 9
         }
        ]
       }
@@ -1427,13 +1422,13 @@
      "opp": "VAN",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Joseph Woll",
+     "goalie_status": "Likely",
+     "goalie_news": "Woll is expected to start Monday in Vancouver.",
+     "goalie_source": "Bill Meltzer",
+     "sv": "0.899",
+     "gaa": "3.12",
+     "ml": "180",
      "gp": 19,
      "gf": 2.210526315789474,
      "gf_rk": 31,
@@ -1445,8 +1440,8 @@
      "ppga_rk": 22,
      "l5_gf": 3.0,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-08T12:29:56.600515+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-09T14:45:32.088838+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Nikita Grebenkin",
@@ -2154,13 +2149,13 @@
      "opp": "PHI",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Kevin Lankinen",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.804",
+     "gaa": "6.03",
+     "ml": "-218",
      "gp": 19,
      "gf": 2.8947368421052633,
      "gf_rk": 23,
@@ -2172,8 +2167,8 @@
      "ppga_rk": 1,
      "l5_gf": 2.4,
      "l5_ga": 4.4,
-     "lineup_as_of": "2026-11-07T12:09:04.744710+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-09T14:45:32.228288+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Thatcher Demko",
@@ -2188,24 +2183,24 @@
      ],
      "lines": {
       "1": [
-       "Jake DeBrusk",
+       "Arshdeep Bains",
        "Elias Pettersson",
        "Brock Boeser"
       ],
       "2": [
-       "Liam Ohgren",
-       "Marco Rossi",
+       "Jake DeBrusk",
+       "Paul Cotter",
        "Jonathan Lekkerimaki"
       ],
       "3": [
-       "Drew O'Connor",
-       "Jacob Quillan",
-       "Linus Karlsson"
+       "Liam Ohgren",
+       "Marco Rossi",
+       "Brendan Gallagher"
       ],
       "4": [
-       "Paul Cotter",
+       "Drew O'Connor",
        "Max Sasson",
-       "Brendan Gallagher"
+       "Linus Karlsson"
       ]
      },
      "pp1": [
@@ -2273,12 +2268,12 @@
        },
        "partners": [
         {
-         "name": "Jake DeBrusk",
-         "jersey": 74,
-         "pp": 1,
-         "n": 5,
-         "both": 1,
-         "either": 4
+         "name": "Arshdeep Bains",
+         "jersey": null,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 1
         },
         {
          "name": "Elias Pettersson",
@@ -2340,20 +2335,20 @@
        },
        "partners": [
         {
-         "name": "Liam Ohgren",
-         "jersey": 92,
-         "pp": 2,
-         "n": 4,
-         "both": 1,
-         "either": 3
+         "name": "Jake DeBrusk",
+         "jersey": 74,
+         "pp": 1,
+         "n": 9,
+         "both": 3,
+         "either": 6
         },
         {
-         "name": "Marco Rossi",
-         "jersey": 23,
+         "name": "Paul Cotter",
+         "jersey": 47,
          "pp": 2,
-         "n": 4,
-         "both": 2,
-         "either": 4
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2407,12 +2402,12 @@
        },
        "partners": [
         {
-         "name": "Jake DeBrusk",
-         "jersey": 74,
-         "pp": 1,
-         "n": 4,
+         "name": "Arshdeep Bains",
+         "jersey": null,
+         "pp": null,
+         "n": 1,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Brock Boeser",
@@ -2430,7 +2425,7 @@
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -2468,26 +2463,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Elias Pettersson",
-         "jersey": 40,
-         "pp": 1,
-         "n": 4,
+         "name": "Paul Cotter",
+         "jersey": 47,
+         "pp": 2,
+         "n": 1,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
-         "name": "Brock Boeser",
-         "jersey": 6,
+         "name": "Jonathan Lekkerimaki",
+         "jersey": 88,
          "pp": 1,
-         "n": 5,
-         "both": 1,
-         "either": 4
+         "n": 9,
+         "both": 3,
+         "either": 6
         }
        ]
       },
@@ -2497,11 +2492,11 @@
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "G",
        "gp": 18,
        "pt_games": 8,
@@ -2522,12 +2517,12 @@
        ],
        "pp_toi": 1.6,
        "toi": 13.4,
-       "p": 0.431,
-       "fair": "+132",
-       "min": "+146",
-       "p2": 0.066,
-       "fair2": "+1415",
-       "min2": "+1506",
+       "p": 0.402,
+       "fair": "+148",
+       "min": "+163",
+       "p2": 0.053,
+       "fair2": "+1782",
+       "min2": "+1895",
        "adj": [
         [
          "opp",
@@ -2535,7 +2530,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -2549,79 +2544,83 @@
          "either": 6
         },
         {
-         "name": "Jonathan Lekkerimaki",
-         "jersey": 88,
-         "pp": 1,
-         "n": 4,
-         "both": 1,
-         "either": 3
+         "name": "Brendan Gallagher",
+         "jersey": 11,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
       {
-       "name": "Linus Karlsson",
-       "jersey": 94,
+       "name": "Paul Cotter",
+       "jersey": 47,
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 19,
-       "pt_games": 9,
+       "role": "top6",
+       "bias": null,
+       "gp": 18,
+       "pt_games": 6,
        "l5": [
         1,
         5
        ],
-       "ast_games": 5,
-       "goal_games": 4,
-       "two_games": 1,
+       "ast_games": 4,
+       "goal_games": 3,
+       "two_games": 2,
        "home_split": [
         4,
-        8
+        7
        ],
        "away_split": [
-        5,
+        2,
         11
        ],
-       "pp_toi": 1.6,
-       "toi": 14.1,
-       "p": 0.426,
-       "fair": "+135",
-       "min": "+149",
-       "p2": 0.051,
-       "fair2": "+1855",
-       "min2": "+1972",
+       "pp_toi": 1.7,
+       "toi": 12.4,
+       "p": 0.386,
+       "fair": "+159",
+       "min": "+175",
+       "p2": 0.117,
+       "fair2": "+756",
+       "min2": "+807",
        "adj": [
         [
          "opp",
          1.0464516129032257
+        ],
+        [
+         "venue",
+         1.1
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Drew O'Connor",
-         "jersey": 18,
-         "pp": null,
-         "n": 7,
-         "both": 2,
-         "either": 4
+         "name": "Jake DeBrusk",
+         "jersey": 74,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Jacob Quillan",
-         "jersey": 62,
-         "pp": null,
-         "n": 2,
+         "name": "Jonathan Lekkerimaki",
+         "jersey": 88,
+         "pp": 1,
+         "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -2631,11 +2630,11 @@
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 17,
        "pt_games": 5,
@@ -2656,12 +2655,12 @@
        ],
        "pp_toi": 1.7,
        "toi": 14.4,
-       "p": 0.323,
-       "fair": "+209",
-       "min": "+228",
-       "p2": 0.069,
-       "fair2": "+1357",
-       "min2": "+1444",
+       "p": 0.293,
+       "fair": "+241",
+       "min": "+262",
+       "p2": 0.055,
+       "fair2": "+1710",
+       "min2": "+1818",
        "adj": [
         [
          "opp",
@@ -2669,7 +2668,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -2683,52 +2682,52 @@
          "either": 6
         },
         {
-         "name": "Jonathan Lekkerimaki",
-         "jersey": 88,
-         "pp": 1,
-         "n": 4,
-         "both": 2,
-         "either": 4
+         "name": "Brendan Gallagher",
+         "jersey": 11,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       },
       {
-       "name": "Jacob Quillan",
-       "jersey": 62,
+       "name": "Arshdeep Bains",
+       "jersey": null,
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 3,
+       "line": 1,
        "pp": null,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
-       "gp": 3,
-       "pt_games": 1,
+       "gp": 14,
+       "pt_games": 2,
        "l5": [
-        1,
-        3
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
         0,
-        2
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 1,
+       "two_games": 1,
+       "home_split": [
+        1,
+        6
        ],
        "away_split": [
         1,
-        1
+        8
        ],
        "pp_toi": 0.0,
-       "toi": 11.7,
-       "p": 0.285,
-       "fair": "+250",
-       "min": "+271",
-       "p2": 0.03,
-       "fair2": "+3185",
-       "min2": "+3382",
+       "toi": 10.5,
+       "p": 0.225,
+       "fair": "+345",
+       "min": "+372",
+       "p2": 0.078,
+       "fair2": "+1182",
+       "min2": "+1259",
        "adj": [
         [
          "opp",
@@ -2738,62 +2737,62 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Drew O'Connor",
-         "jersey": 18,
-         "pp": null,
+         "name": "Elias Pettersson",
+         "jersey": 40,
+         "pp": 1,
          "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Linus Karlsson",
-         "jersey": 94,
-         "pp": 2,
-         "n": 2,
+         "name": "Brock Boeser",
+         "jersey": 6,
+         "pp": 1,
+         "n": 1,
          "both": 0,
          "either": 1
         }
        ]
       },
       {
-       "name": "Drew O'Connor",
-       "jersey": 18,
+       "name": "Brendan Gallagher",
+       "jersey": 11,
        "team": "VAN",
        "opp": "PHI",
        "home": true,
        "line": 3,
        "pp": null,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
-       "gp": 19,
-       "pt_games": 5,
+       "gp": 16,
+       "pt_games": 3,
        "l5": [
-        2,
+        1,
         5
        ],
        "ast_games": 3,
-       "goal_games": 2,
+       "goal_games": 0,
        "two_games": 0,
        "home_split": [
         2,
         8
        ],
        "away_split": [
-        3,
-        11
+        1,
+        8
        ],
        "pp_toi": 0.0,
-       "toi": 15.4,
-       "p": 0.271,
-       "fair": "+269",
-       "min": "+291",
-       "p2": 0.012,
+       "toi": 11.1,
+       "p": 0.218,
+       "fair": "+359",
+       "min": "+386",
+       "p2": 0.014,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -2803,26 +2802,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jacob Quillan",
-         "jersey": 62,
-         "pp": null,
+         "name": "Liam Ohgren",
+         "jersey": 92,
+         "pp": 2,
          "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Linus Karlsson",
-         "jersey": 94,
+         "name": "Marco Rossi",
+         "jersey": 23,
          "pp": 2,
-         "n": 7,
-         "both": 2,
-         "either": 4
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       }
@@ -2844,13 +2843,13 @@
      "opp": "SJS",
      "home": false,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Ilya Sorokin",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.909",
+     "gaa": "2.64",
+     "ml": "180",
      "gp": 16,
      "gf": 2.875,
      "gf_rk": 24,
@@ -2862,13 +2861,13 @@
      "ppga_rk": 26,
      "l5_gf": 2.8,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-07T21:03:35.207527+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-09T14:45:31.905517+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Mathew Barzal",
        "status": "IR",
-       "news": "Barzal (lower-body) was a full participant in New York's practice on Saturday."
+       "news": "Barzal (lower body) will travel on the upcoming road trip."
       },
       {
        "player": "Alexander Romanov",
@@ -2878,7 +2877,7 @@
       {
        "player": "Matias Maccelli",
        "status": "IR",
-       "news": "Maccelli (lower-body) practiced in full on Saturday but will not return vs. New Jersey."
+       "news": "Maccelli (lower body) will travel on the upcoming road trip."
       },
       {
        "player": "Calum Ritchie",
@@ -2888,22 +2887,22 @@
       {
        "player": "Ryan Pulock",
        "status": "DTD",
-       "news": "Pulock (upper body) practiced in a non-contact jersey and is 2-4 weeks away."
+       "news": "Pulock (upper body) will travel on the upcoming road trip."
       }
      ],
      "lines": {
       "1": [
-       "Emil Heineman",
+       "Simon Holmstrom",
        "Bo Horvat",
        "Kyle Palmieri"
       ],
       "2": [
-       "Ondrej Palat",
+       "Emil Heineman",
        "Brayden Schenn",
        "Victor Eklund"
       ],
       "3": [
-       "Simon Holmstrom",
+       "Ondrej Palat",
        "Jean-Gabriel Pageau",
        "Anthony Duclair"
       ],
@@ -2978,12 +2977,12 @@
        },
        "partners": [
         {
-         "name": "Emil Heineman",
-         "jersey": 51,
-         "pp": 2,
-         "n": 5,
-         "both": 1,
-         "either": 5
+         "name": "Simon Holmstrom",
+         "jersey": 92,
+         "pp": 1,
+         "n": 10,
+         "both": 5,
+         "either": 7
         },
         {
          "name": "Kyle Palmieri",
@@ -3045,12 +3044,12 @@
        },
        "partners": [
         {
-         "name": "Ondrej Palat",
-         "jersey": 18,
+         "name": "Emil Heineman",
+         "jersey": 51,
          "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 7,
+         "both": 4,
+         "either": 7
         },
         {
          "name": "Victor Eklund",
@@ -3068,7 +3067,7 @@
        "team": "NYI",
        "opp": "SJS",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
@@ -3106,26 +3105,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Bo Horvat",
-         "jersey": 14,
+         "name": "Brayden Schenn",
+         "jersey": 10,
          "pp": 1,
-         "n": 5,
-         "both": 1,
-         "either": 5
+         "n": 7,
+         "both": 4,
+         "either": 7
         },
         {
-         "name": "Kyle Palmieri",
-         "jersey": 21,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 1
+         "name": "Victor Eklund",
+         "jersey": 73,
+         "pp": 1,
+         "n": 7,
+         "both": 5,
+         "either": 6
         }
        ]
       },
@@ -3135,7 +3134,7 @@
        "team": "NYI",
        "opp": "SJS",
        "home": false,
-       "line": 3,
+       "line": 1,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -3173,26 +3172,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jean-Gabriel Pageau",
-         "jersey": 44,
-         "pp": null,
-         "n": 4,
-         "both": 1,
-         "either": 2
+         "name": "Bo Horvat",
+         "jersey": 14,
+         "pp": 1,
+         "n": 10,
+         "both": 5,
+         "either": 7
         },
         {
-         "name": "Anthony Duclair",
-         "jersey": 11,
+         "name": "Kyle Palmieri",
+         "jersey": 21,
          "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 2
+         "n": 10,
+         "both": 2,
+         "either": 6
         }
        ]
       },
@@ -3246,12 +3245,12 @@
        },
        "partners": [
         {
-         "name": "Simon Holmstrom",
-         "jersey": 92,
-         "pp": 1,
-         "n": 4,
-         "both": 1,
-         "either": 2
+         "name": "Ondrej Palat",
+         "jersey": 18,
+         "pp": 2,
+         "n": 11,
+         "both": 3,
+         "either": 5
         },
         {
          "name": "Anthony Duclair",
@@ -3317,12 +3316,12 @@
        },
        "partners": [
         {
-         "name": "Ondrej Palat",
-         "jersey": 18,
+         "name": "Emil Heineman",
+         "jersey": 51,
          "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 7,
+         "both": 5,
+         "either": 6
         },
         {
          "name": "Brayden Schenn",
@@ -3384,12 +3383,12 @@
        },
        "partners": [
         {
-         "name": "Simon Holmstrom",
-         "jersey": 92,
-         "pp": 1,
-         "n": 3,
-         "both": 0,
-         "either": 2
+         "name": "Ondrej Palat",
+         "jersey": 18,
+         "pp": 2,
+         "n": 11,
+         "both": 2,
+         "either": 5
         },
         {
          "name": "Jean-Gabriel Pageau",
@@ -3451,12 +3450,12 @@
        },
        "partners": [
         {
-         "name": "Emil Heineman",
-         "jersey": 51,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 1
+         "name": "Simon Holmstrom",
+         "jersey": 92,
+         "pp": 1,
+         "n": 10,
+         "both": 2,
+         "either": 6
         },
         {
          "name": "Bo Horvat",
@@ -3474,11 +3473,11 @@
        "team": "NYI",
        "opp": "SJS",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 16,
        "pt_games": 4,
@@ -3499,12 +3498,12 @@
        ],
        "pp_toi": 1.6,
        "toi": 15.2,
-       "p": 0.316,
-       "fair": "+216",
-       "min": "+235",
-       "p2": 0.03,
-       "fair2": "+3221",
-       "min2": "+3421",
+       "p": 0.282,
+       "fair": "+254",
+       "min": "+276",
+       "p2": 0.015,
+       "fair2": "+4900",
+       "min2": "+4900",
        "adj": [
         [
          "opp",
@@ -3512,26 +3511,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Brayden Schenn",
-         "jersey": 10,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Jean-Gabriel Pageau",
+         "jersey": 44,
+         "pp": null,
+         "n": 11,
+         "both": 3,
+         "either": 5
         },
         {
-         "name": "Victor Eklund",
-         "jersey": 73,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Anthony Duclair",
+         "jersey": 11,
+         "pp": 2,
+         "n": 11,
+         "both": 2,
+         "either": 5
         }
        ]
       }
@@ -3542,13 +3541,13 @@
      "opp": "NYI",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Yaroslav Askarov",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.885",
+     "gaa": "3.35",
+     "ml": "-218",
      "gp": 19,
      "gf": 2.473684210526316,
      "gf_rk": 30,
@@ -3560,8 +3559,8 @@
      "ppga_rk": 10,
      "l5_gf": 1.6,
      "l5_ga": 4.4,
-     "lineup_as_of": "2026-11-07T23:19:12.465290+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-09T14:45:32.166403+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Alexander Wennberg",
