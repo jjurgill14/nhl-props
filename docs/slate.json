@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_utc": "2026-11-09T14:45:33.178796+00:00",
+ "generated_utc": "2026-11-09T23:56:22.958851+00:00",
  "games": [
   {
    "game_id": 2026020283,
@@ -17,12 +17,12 @@
      "home": false,
      "b2b": false,
      "goalie": "Dylan Garand",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Garand will start in Edmonton on Monday.",
+     "goalie_source": "Mollie Walker",
      "sv": "0.906",
      "gaa": "2.51",
-     "ml": "-198",
+     "ml": "-185",
      "gp": 18,
      "gf": 3.0,
      "gf_rk": 18,
@@ -34,7 +34,7 @@
      "ppga_rk": 32,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-09T14:45:31.992714+00:00",
+     "lineup_as_of": "2026-11-09T23:56:21.818367+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -55,12 +55,12 @@
       {
        "player": "Sean Durzi",
        "status": "IR",
-       "news": "Durzi (undisclosed) will remain out on Thursday and is not expected to travel to start the Rangers' upcoming road trip."
+       "news": "Durzi (undisclosed) skated in a non-contact jersey at Monday's practice."
       },
       {
        "player": "Alberts Smits",
-       "status": "DTD",
-       "news": "Smits (upper-body) is a late scratch vs. Seattle."
+       "status": "OUT",
+       "news": "Smits is week-to-week with an upper-body injury."
       }
      ],
      "lines": {
@@ -82,7 +82,7 @@
       "4": [
        "Jaroslav Chmelar",
        "Noah Laba",
-       "Matt Rempe"
+       "Luke Glendening"
       ]
      },
      "pp1": [
@@ -718,12 +718,12 @@
      "home": true,
      "b2b": false,
      "goalie": "Devon Levi",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Levi will start vs. New York on Monday.",
+     "goalie_source": "Vince Mercogliano",
      "sv": "0.888",
      "gaa": "2.97",
-     "ml": "164",
+     "ml": "154",
      "gp": 18,
      "gf": 4.111111111111111,
      "gf_rk": 1,
@@ -735,7 +735,7 @@
      "ppga_rk": 14,
      "l5_gf": 3.8,
      "l5_ga": 2.2,
-     "lineup_as_of": "2026-11-09T14:45:31.837139+00:00",
+     "lineup_as_of": "2026-11-09T23:56:21.756541+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -760,7 +760,7 @@
       },
       {
        "player": "Isaac Howard",
-       "status": "DTD",
+       "status": "IR",
        "news": "Howard (lower-body) is considered week-to-week."
       }
      ],
@@ -1440,7 +1440,7 @@
      "ppga_rk": 22,
      "l5_gf": 3.0,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-09T14:45:32.088838+00:00",
+     "lineup_as_of": "2026-11-09T23:56:21.888121+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2149,12 +2149,12 @@
      "opp": "PHI",
      "home": true,
      "b2b": false,
-     "goalie": "Kevin Lankinen",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
-     "sv": "0.804",
-     "gaa": "6.03",
+     "goalie": "Leevi Merilainen",
+     "goalie_status": "Likely",
+     "goalie_news": "Merilainen is expected to start on Monday vs. Philadelphia.",
+     "goalie_source": "Jeff Paterson",
+     "sv": "0.889",
+     "gaa": "3.59",
      "ml": "-218",
      "gp": 19,
      "gf": 2.8947368421052633,
@@ -2167,7 +2167,7 @@
      "ppga_rk": 1,
      "l5_gf": 2.4,
      "l5_ga": 4.4,
-     "lineup_as_of": "2026-11-09T14:45:32.228288+00:00",
+     "lineup_as_of": "2026-11-09T23:56:21.947983+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2183,14 +2183,14 @@
      ],
      "lines": {
       "1": [
-       "Arshdeep Bains",
+       "Jonathan Lekkerimaki",
        "Elias Pettersson",
        "Brock Boeser"
       ],
       "2": [
        "Jake DeBrusk",
        "Paul Cotter",
-       "Jonathan Lekkerimaki"
+       "Arshdeep Bains"
       ],
       "3": [
        "Liam Ohgren",
@@ -2268,12 +2268,12 @@
        },
        "partners": [
         {
-         "name": "Arshdeep Bains",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
+         "name": "Jonathan Lekkerimaki",
+         "jersey": 88,
+         "pp": 1,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
          "name": "Elias Pettersson",
@@ -2291,9 +2291,9 @@
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -2329,24 +2329,24 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jake DeBrusk",
-         "jersey": 74,
+         "name": "Elias Pettersson",
+         "jersey": 40,
          "pp": 1,
-         "n": 9,
-         "both": 3,
-         "either": 6
+         "n": 2,
+         "both": 1,
+         "either": 2
         },
         {
-         "name": "Paul Cotter",
-         "jersey": 47,
-         "pp": 2,
-         "n": 1,
+         "name": "Brock Boeser",
+         "jersey": 6,
+         "pp": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -2402,12 +2402,12 @@
        },
        "partners": [
         {
-         "name": "Arshdeep Bains",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Jonathan Lekkerimaki",
+         "jersey": 88,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Brock Boeser",
@@ -2477,12 +2477,12 @@
          "either": 0
         },
         {
-         "name": "Jonathan Lekkerimaki",
-         "jersey": 88,
-         "pp": 1,
-         "n": 9,
-         "both": 3,
-         "either": 6
+         "name": "Arshdeep Bains",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2615,12 +2615,12 @@
          "either": 0
         },
         {
-         "name": "Jonathan Lekkerimaki",
-         "jersey": 88,
-         "pp": 1,
-         "n": 1,
+         "name": "Arshdeep Bains",
+         "jersey": null,
+         "pp": null,
+         "n": 3,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -2697,9 +2697,9 @@
        "team": "VAN",
        "opp": "PHI",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": null,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -2741,18 +2741,18 @@
        },
        "partners": [
         {
-         "name": "Elias Pettersson",
-         "jersey": 40,
+         "name": "Jake DeBrusk",
+         "jersey": 74,
          "pp": 1,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Brock Boeser",
-         "jersey": 6,
-         "pp": 1,
-         "n": 1,
+         "name": "Paul Cotter",
+         "jersey": 47,
+         "pp": 2,
+         "n": 3,
          "both": 0,
          "either": 1
         }
@@ -2844,12 +2844,12 @@
      "home": false,
      "b2b": false,
      "goalie": "Ilya Sorokin",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Likely",
+     "goalie_news": "Sorokin was the first goalie off the ice at New York's morning skate.",
+     "goalie_source": "Andrew Gross",
      "sv": "0.909",
      "gaa": "2.64",
-     "ml": "180",
+     "ml": "170",
      "gp": 16,
      "gf": 2.875,
      "gf_rk": 24,
@@ -3542,12 +3542,12 @@
      "home": true,
      "b2b": false,
      "goalie": "Yaroslav Askarov",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Askarov will start vs. the Islanders on Monday.",
+     "goalie_source": "Sheng Peng",
      "sv": "0.885",
      "gaa": "3.35",
-     "ml": "-218",
+     "ml": "-205",
      "gp": 19,
      "gf": 2.473684210526316,
      "gf_rk": 30,
