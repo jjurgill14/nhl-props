@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-09",
- "generated_utc": "2026-11-10T00:26:31.565285+00:00",
+ "generated_utc": "2026-11-10T00:41:35.337895+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19,7 +19,7 @@
    "id": "01",
    "game_id": 2026020283,
    "start_utc": "2026-11-10T01:00:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Rogers Place",
    "away": {
     "abbr": "NYR",
@@ -35,7 +35,7 @@
     "goalie_source": "Mollie Walker",
     "sv": "0.906",
     "gaa": "2.51",
-    "lineup_as_of": "2026-11-09T23:56:21.818367+00:00",
+    "lineup_as_of": "2026-11-10T00:41:33.654592+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 18,
@@ -145,7 +145,7 @@
       "player": "Pavel Dorofeyev",
       "team": "NYR",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "bias": "G",
       "players": [
        8481604
@@ -369,10 +369,10 @@
    "lineup": {
     "away": {
      "team": "NYR",
-     "as_of": "2026-11-09T23:56:21.818367+00:00",
+     "as_of": "2026-11-10T00:41:33.654592+00:00",
      "stale": false,
      "source": "Vince Mercogliano",
-     "updated_dfo": "2026-11-09T18:36:47.442Z",
+     "updated_dfo": "2026-11-10T00:36:29.093Z",
      "forwards": [
       [
        {
@@ -568,122 +568,6 @@
         }
        },
        {
-        "name": "Oliver Bjorkstrand",
-        "jersey": 28,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8477416,
-        "dfo_id": 2603,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 6,
-         "gp": 18,
-         "p": 10,
-         "ppp": 2,
-         "sog": 27,
-         "toi_s": 12446
-        },
-        "last5": {
-         "a": 2,
-         "g": 1,
-         "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 4170
-        },
-        "l5_point_games": 3,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Eeli Tolvanen",
-        "jersey": 17,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8480009,
-        "dfo_id": 2787,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 18,
-         "p": 6,
-         "ppp": 0,
-         "sog": 20,
-         "toi_s": 13499
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 3473
-        },
-        "l5_point_games": 1,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Will Cuylle",
-        "jersey": 50,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8482157,
-        "dfo_id": 29725,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": "A",
-        "season": {
-         "a": 5,
-         "g": 4,
-         "gp": 18,
-         "p": 9,
-         "ppp": 2,
-         "sog": 37,
-         "toi_s": 17577
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 5045
-        },
-        "l5_point_games": 1,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Pavel Dorofeyev",
         "jersey": 16,
         "pos": "RW",
@@ -716,7 +600,7 @@
         "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -724,37 +608,37 @@
       ],
       [
        {
-        "name": "Jaroslav Chmelar",
-        "jersey": 49,
+        "name": "Will Cuylle",
+        "jersey": 50,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482877,
-        "dfo_id": 34742,
+        "player_id": 8482157,
+        "dfo_id": 29725,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 10,
-         "p": 1,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4994
+         "a": 5,
+         "g": 4,
+         "gp": 18,
+         "p": 9,
+         "ppp": 2,
+         "sog": 37,
+         "toi_s": 17577
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 1,
+         "g": 0,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 2614
+         "sog": 8,
+         "toi_s": 5045
         },
         "l5_point_games": 1,
-        "gp": 10,
+        "gp": 18,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -794,7 +678,85 @@
         "l5_point_games": 1,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Oliver Bjorkstrand",
+        "jersey": 28,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8477416,
+        "dfo_id": 2603,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 4,
+         "g": 6,
+         "gp": 18,
+         "p": 10,
+         "ppp": 2,
+         "sog": 27,
+         "toi_s": 12446
+        },
+        "last5": {
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4170
+        },
+        "l5_point_games": 3,
+        "gp": 18,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Eeli Tolvanen",
+        "jersey": 17,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8480009,
+        "dfo_id": 2787,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 4,
+         "gp": 18,
+         "p": 6,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 13499
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3473
+        },
+        "l5_point_games": 1,
+        "gp": 18,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -802,7 +764,7 @@
        {
         "name": "Luke Glendening",
         "jersey": 43,
-        "pos": "RW",
+        "pos": "C",
         "slot": null,
         "player_id": 8476822,
         "dfo_id": 2174,
@@ -835,6 +797,44 @@
          "ev": 0,
          "pp": 0,
          "new": true
+        }
+       },
+       {
+        "name": "Jaroslav Chmelar",
+        "jersey": 49,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8482877,
+        "dfo_id": 34742,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 1,
+         "gp": 10,
+         "p": 1,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 4994
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2614
+        },
+        "l5_point_games": 1,
+        "gp": 10,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
         }
        }
       ]
@@ -1274,7 +1274,7 @@
         "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1504,7 +1504,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -1738,7 +1738,7 @@
         "l5_point_games": 1,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1908,16 +1908,16 @@
        "rating": 84.11571424121901
       },
       "f2": {
-       "rank": 4,
-       "rating": 78.14003511067946
+       "rank": 3,
+       "rating": 78.49069970196581
       },
       "f3": {
-       "rank": 15,
-       "rating": 73.17265152625231
+       "rank": 2,
+       "rating": 77.78937051939312
       },
       "f4": {
-       "rank": 30,
-       "rating": 68.0220802704551
+       "rank": 29,
+       "rating": 70.59736589835371
       },
       "g": {
        "rank": 28,

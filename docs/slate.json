@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_utc": "2026-11-10T00:26:31.043402+00:00",
+ "generated_utc": "2026-11-10T00:41:34.819237+00:00",
  "games": [
   {
    "game_id": 2026020283,
@@ -8,7 +8,7 @@
    "start_et": "8:00 PM",
    "away": "NYR",
    "home": "EDM",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Rogers Place",
    "teams": {
     "away": {
@@ -34,7 +34,7 @@
      "ppga_rk": 32,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-09T23:56:21.818367+00:00",
+     "lineup_as_of": "2026-11-10T00:41:33.654592+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -72,17 +72,17 @@
       "2": [
        "Tye Kartye",
        "J.T. Miller",
-       "Oliver Bjorkstrand"
-      ],
-      "3": [
-       "Eeli Tolvanen",
-       "Will Cuylle",
        "Pavel Dorofeyev"
       ],
-      "4": [
-       "Jaroslav Chmelar",
+      "3": [
+       "Will Cuylle",
        "Noah Laba",
-       "Luke Glendening"
+       "Oliver Bjorkstrand"
+      ],
+      "4": [
+       "Eeli Tolvanen",
+       "Luke Glendening",
+       "Jaroslav Chmelar"
       ]
      },
      "pp1": [
@@ -172,7 +172,7 @@
        "team": "NYR",
        "opp": "EDM",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -210,26 +210,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Eeli Tolvanen",
-         "jersey": 17,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
+         "name": "Tye Kartye",
+         "jersey": 24,
+         "pp": 2,
+         "n": 6,
+         "both": 2,
+         "either": 4
         },
         {
-         "name": "Will Cuylle",
-         "jersey": 50,
+         "name": "J.T. Miller",
+         "jersey": 10,
          "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 3
+         "n": 10,
+         "both": 3,
+         "either": 7
         }
        ]
       },
@@ -429,12 +429,12 @@
          "either": 12
         },
         {
-         "name": "Oliver Bjorkstrand",
-         "jersey": 28,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 2
+         "name": "Pavel Dorofeyev",
+         "jersey": 16,
+         "pp": 1,
+         "n": 6,
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -500,12 +500,12 @@
          "either": 12
         },
         {
-         "name": "Oliver Bjorkstrand",
-         "jersey": 28,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
-         "either": 3
+         "name": "Pavel Dorofeyev",
+         "jersey": 16,
+         "pp": 1,
+         "n": 10,
+         "both": 3,
+         "either": 7
         }
        ]
       },
@@ -515,11 +515,11 @@
        "team": "NYR",
        "opp": "EDM",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 18,
        "pt_games": 8,
@@ -540,12 +540,12 @@
        ],
        "pp_toi": 1.3,
        "toi": 13.9,
-       "p": 0.38,
-       "fair": "+163",
-       "min": "+179",
-       "p2": 0.094,
-       "fair2": "+967",
-       "min2": "+1032",
+       "p": 0.355,
+       "fair": "+182",
+       "min": "+199",
+       "p2": 0.082,
+       "fair2": "+1115",
+       "min2": "+1188",
        "adj": [
         [
          "opp",
@@ -553,26 +553,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Tye Kartye",
-         "jersey": 24,
+         "name": "Will Cuylle",
+         "jersey": 50,
          "pp": 2,
          "n": 2,
          "both": 1,
          "either": 2
         },
         {
-         "name": "J.T. Miller",
-         "jersey": 10,
-         "pp": 2,
-         "n": 5,
+         "name": "Noah Laba",
+         "jersey": 42,
+         "pp": null,
+         "n": 0,
          "both": 0,
-         "either": 3
+         "either": 0
         }
        ]
       },
@@ -584,7 +584,7 @@
        "home": false,
        "line": 3,
        "pp": 2,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": "A",
@@ -626,57 +626,57 @@
        },
        "partners": [
         {
-         "name": "Eeli Tolvanen",
-         "jersey": 17,
+         "name": "Noah Laba",
+         "jersey": 42,
          "pp": null,
          "n": 15,
-         "both": 4,
+         "both": 2,
          "either": 7
         },
         {
-         "name": "Pavel Dorofeyev",
-         "jersey": 16,
-         "pp": 1,
-         "n": 3,
+         "name": "Oliver Bjorkstrand",
+         "jersey": 28,
+         "pp": 2,
+         "n": 2,
          "both": 1,
-         "either": 3
+         "either": 2
         }
        ]
       },
       {
-       "name": "Eeli Tolvanen",
-       "jersey": 17,
+       "name": "Noah Laba",
+       "jersey": 42,
        "team": "NYR",
        "opp": "EDM",
        "home": false,
        "line": 3,
        "pp": null,
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "other",
-       "bias": null,
+       "bias": "A",
        "gp": 18,
-       "pt_games": 5,
+       "pt_games": 4,
        "l5": [
         1,
         5
        ],
-       "ast_games": 2,
-       "goal_games": 4,
+       "ast_games": 4,
+       "goal_games": 0,
        "two_games": 1,
        "home_split": [
-        4,
+        2,
         10
        ],
        "away_split": [
-        1,
+        2,
         8
        ],
-       "pp_toi": 0.2,
-       "toi": 11.6,
-       "p": 0.248,
-       "fair": "+303",
-       "min": "+327",
+       "pp_toi": 0.0,
+       "toi": 12.8,
+       "p": 0.213,
+       "fair": "+370",
+       "min": "+398",
        "p2": 0.047,
        "fair2": "+2035",
        "min2": "+2163",
@@ -687,7 +687,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -697,16 +697,16 @@
          "jersey": 50,
          "pp": 2,
          "n": 15,
-         "both": 4,
+         "both": 2,
          "either": 7
         },
         {
-         "name": "Pavel Dorofeyev",
-         "jersey": 16,
-         "pp": 1,
-         "n": 1,
+         "name": "Oliver Bjorkstrand",
+         "jersey": 28,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       }
