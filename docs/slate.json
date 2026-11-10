@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_utc": "2026-11-09T23:56:22.958851+00:00",
+ "generated_utc": "2026-11-10T00:11:27.051818+00:00",
  "games": [
   {
    "game_id": 2026020283,
@@ -2861,7 +2861,7 @@
      "ppga_rk": 26,
      "l5_gf": 2.8,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-09T14:45:31.905517+00:00",
+     "lineup_as_of": "2026-11-10T00:11:25.738285+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3559,14 +3559,9 @@
      "ppga_rk": 10,
      "l5_gf": 1.6,
      "l5_ga": 4.4,
-     "lineup_as_of": "2026-11-09T14:45:32.166403+00:00",
+     "lineup_as_of": "2026-11-10T00:11:25.964872+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Alexander Wennberg",
-       "status": "IR",
-       "news": "Wennberg (upper-body) is considered week-to-week."
-      },
       {
        "player": "Igor Chernyshov",
        "status": "IR",
@@ -3581,7 +3576,7 @@
       ],
       "2": [
        "Mason Marchment",
-       "Collin Graf",
+       "Alexander Wennberg",
        "Kiefer Sherwood"
       ],
       "3": [
@@ -3591,21 +3586,21 @@
       ],
       "4": [
        "Barclay Goodrow",
-       "Filip Bystedt",
-       "Adam Gaudette"
+       "Zack Ostapchuk",
+       "Collin Graf"
       ]
      },
      "pp1": [
+      "Ivar Stenberg",
+      "Alexander Wennberg",
+      "Will Smith",
+      "Macklin Celebrini",
+      "Jacob Trouba"
+     ],
+     "pp2": [
       "Mason Marchment",
       "Michael Misa",
       "Tyler Toffoli",
-      "Macklin Celebrini",
-      "Will Smith"
-     ],
-     "pp2": [
-      "Kiefer Sherwood",
-      "Ivar Stenberg",
-      "Collin Graf",
       "Dmitry Orlov",
       "Eric Pohlkamp"
      ],
@@ -3662,7 +3657,7 @@
         {
          "name": "Michael Misa",
          "jersey": 77,
-         "pp": 1,
+         "pp": 2,
          "n": 2,
          "both": 1,
          "either": 2
@@ -3674,73 +3669,6 @@
          "n": 15,
          "both": 7,
          "either": 11
-        }
-       ]
-      },
-      {
-       "name": "Michael Misa",
-       "jersey": 77,
-       "team": "SJS",
-       "opp": "NYI",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 19,
-       "pt_games": 9,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 4,
-       "two_games": 1,
-       "home_split": [
-        3,
-        8
-       ],
-       "away_split": [
-        6,
-        11
-       ],
-       "pp_toi": 2.8,
-       "toi": 16.7,
-       "p": 0.476,
-       "fair": "+110",
-       "min": "+123",
-       "p2": 0.093,
-       "fair2": "+977",
-       "min2": "+1042",
-       "adj": [
-        [
-         "opp",
-         0.9638709677419355
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Macklin Celebrini",
-         "jersey": 71,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Will Smith",
-         "jersey": 2,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 2
         }
        ]
       },
@@ -3796,7 +3724,7 @@
         {
          "name": "Michael Misa",
          "jersey": 77,
-         "pp": 1,
+         "pp": 2,
          "n": 3,
          "both": 1,
          "either": 2
@@ -3812,13 +3740,84 @@
        ]
       },
       {
+       "name": "Ivar Stenberg",
+       "jersey": 41,
+       "team": "SJS",
+       "opp": "NYI",
+       "home": true,
+       "line": 3,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "G",
+       "gp": 19,
+       "pt_games": 9,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 6,
+       "goal_games": 5,
+       "two_games": 2,
+       "home_split": [
+        2,
+        8
+       ],
+       "away_split": [
+        7,
+        11
+       ],
+       "pp_toi": 3.9,
+       "toi": 15.4,
+       "p": 0.428,
+       "fair": "+134",
+       "min": "+148",
+       "p2": 0.116,
+       "fair2": "+765",
+       "min2": "+816",
+       "adj": [
+        [
+         "opp",
+         0.9638709677419355
+        ],
+        [
+         "venue",
+         0.9
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Tyler Toffoli",
+         "jersey": 73,
+         "pp": 2,
+         "n": 4,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Kiefer Sherwood",
        "jersey": 44,
        "team": "SJS",
        "opp": "NYI",
        "home": true,
        "line": 2,
-       "pp": 2,
+       "pp": null,
        "pos": "RW",
        "gtd": false,
        "role": "top6",
@@ -3860,25 +3859,163 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
         {
          "name": "Mason Marchment",
          "jersey": 27,
-         "pp": 1,
+         "pp": 2,
          "n": 4,
          "both": 0,
          "either": 2
         },
         {
-         "name": "Collin Graf",
-         "jersey": 51,
-         "pp": 2,
-         "n": 3,
+         "name": "Alexander Wennberg",
+         "jersey": 21,
+         "pp": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Michael Misa",
+       "jersey": 77,
+       "team": "SJS",
+       "opp": "NYI",
+       "home": true,
+       "line": 1,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 19,
+       "pt_games": 9,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 4,
+       "two_games": 1,
+       "home_split": [
+        3,
+        8
+       ],
+       "away_split": [
+        6,
+        11
+       ],
+       "pp_toi": 2.8,
+       "toi": 16.7,
+       "p": 0.418,
+       "fair": "+139",
+       "min": "+153",
+       "p2": 0.059,
+       "fair2": "+1608",
+       "min2": "+1711",
+       "adj": [
+        [
+         "opp",
+         0.9638709677419355
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Macklin Celebrini",
+         "jersey": 71,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Will Smith",
+         "jersey": 2,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Alexander Wennberg",
+       "jersey": 21,
+       "team": "SJS",
+       "opp": "NYI",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 9,
+       "pt_games": 3,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        4
+       ],
+       "away_split": [
+        3,
+        5
+       ],
+       "pp_toi": 4.4,
+       "toi": 20.4,
+       "p": 0.374,
+       "fair": "+168",
+       "min": "+184",
+       "p2": 0.082,
+       "fair2": "+1125",
+       "min2": "+1198",
+       "adj": [
+        [
+         "opp",
+         0.9638709677419355
+        ],
+        [
+         "venue",
+         0.9
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Mason Marchment",
+         "jersey": 27,
+         "pp": 2,
+         "n": 4,
+         "both": 1,
+         "either": 3
+        },
+        {
+         "name": "Kiefer Sherwood",
+         "jersey": 44,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -3889,10 +4026,10 @@
        "opp": "NYI",
        "home": true,
        "line": 2,
-       "pp": 1,
+       "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "pp1",
+       "role": "top6",
        "bias": "A",
        "gp": 19,
        "pt_games": 6,
@@ -3913,12 +4050,12 @@
        ],
        "pp_toi": 5.2,
        "toi": 18.0,
-       "p": 0.368,
-       "fair": "+171",
-       "min": "+188",
-       "p2": 0.093,
-       "fair2": "+977",
-       "min2": "+1042",
+       "p": 0.311,
+       "fair": "+221",
+       "min": "+241",
+       "p2": 0.059,
+       "fair2": "+1608",
+       "min2": "+1711",
        "adj": [
         [
          "opp",
@@ -3927,22 +4064,22 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
         {
-         "name": "Collin Graf",
-         "jersey": 51,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
+         "name": "Alexander Wennberg",
+         "jersey": 21,
+         "pp": 1,
+         "n": 4,
+         "both": 1,
+         "either": 3
         },
         {
          "name": "Kiefer Sherwood",
          "jersey": 44,
-         "pp": 2,
+         "pp": null,
          "n": 4,
          "both": 0,
          "either": 2
@@ -3956,10 +4093,10 @@
        "opp": "NYI",
        "home": true,
        "line": 3,
-       "pp": 1,
+       "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "pp1",
+       "role": "other",
        "bias": "G",
        "gp": 19,
        "pt_games": 7,
@@ -3980,80 +4117,9 @@
        ],
        "pp_toi": 4.8,
        "toi": 15.2,
-       "p": 0.364,
-       "fair": "+175",
-       "min": "+191",
-       "p2": 0.116,
-       "fair2": "+765",
-       "min2": "+816",
-       "adj": [
-        [
-         "opp",
-         0.9638709677419355
-        ],
-        [
-         "venue",
-         0.9
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ivar Stenberg",
-         "jersey": 41,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 2
-        },
-        {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Ivar Stenberg",
-       "jersey": 41,
-       "team": "SJS",
-       "opp": "NYI",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 19,
-       "pt_games": 9,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 5,
-       "two_games": 2,
-       "home_split": [
-        2,
-        8
-       ],
-       "away_split": [
-        7,
-        11
-       ],
-       "pp_toi": 3.9,
-       "toi": 15.4,
-       "p": 0.353,
-       "fair": "+183",
-       "min": "+200",
+       "p": 0.289,
+       "fair": "+246",
+       "min": "+267",
        "p2": 0.075,
        "fair2": "+1242",
        "min2": "+1322",
@@ -4069,92 +4135,25 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
         {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Tyler Toffoli",
-         "jersey": 73,
+         "name": "Ivar Stenberg",
+         "jersey": 41,
          "pp": 1,
          "n": 4,
          "both": 0,
          "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Collin Graf",
-       "jersey": 51,
-       "team": "SJS",
-       "opp": "NYI",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 19,
-       "pt_games": 2,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 2,
-       "two_games": 1,
-       "home_split": [
-        0,
-        8
-       ],
-       "away_split": [
-        2,
-        11
-       ],
-       "pp_toi": 0.9,
-       "toi": 15.3,
-       "p": 0.168,
-       "fair": "+493",
-       "min": "+529",
-       "p2": 0.059,
-       "fair2": "+1608",
-       "min2": "+1711",
-       "adj": [
-        [
-         "opp",
-         0.9638709677419355
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Mason Marchment",
-         "jersey": 27,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 0
         },
         {
-         "name": "Kiefer Sherwood",
-         "jersey": 44,
-         "pp": 2,
-         "n": 3,
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 4,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -4210,7 +4209,7 @@
         {
          "name": "Ivar Stenberg",
          "jersey": 41,
-         "pp": 2,
+         "pp": 1,
          "n": 2,
          "both": 0,
          "either": 1
@@ -4218,7 +4217,7 @@
         {
          "name": "Tyler Toffoli",
          "jersey": 73,
-         "pp": 1,
+         "pp": 2,
          "n": 4,
          "both": 0,
          "either": 1
