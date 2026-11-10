@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-09",
- "generated_utc": "2026-11-10T02:27:02.351231+00:00",
+ "generated_utc": "2026-11-10T02:42:06.186842+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -33,8 +33,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Garand will start in Edmonton on Monday.",
     "goalie_source": "Mollie Walker",
-    "sv": "0.906",
-    "gaa": "2.51",
+    "sv": "0.903",
+    "gaa": "2.6",
     "lineup_as_of": "2026-11-10T00:41:33.654592+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
@@ -53,8 +53,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Levi will start vs. New York on Monday.",
     "goalie_source": "Vince Mercogliano",
-    "sv": "0.889",
-    "gaa": "2.96",
+    "sv": "0.894",
+    "gaa": "2.82",
     "lineup_as_of": "2026-11-09T23:56:21.756541+00:00",
     "lineup_stale": false,
     "ga_rk": 24,
@@ -3521,7 +3521,7 @@
    "id": "02",
    "game_id": 2026020284,
    "start_utc": "2026-11-10T02:30:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Rogers Arena",
    "away": {
     "abbr": "PHI",
@@ -7009,7 +7009,7 @@
    "id": "03",
    "game_id": 2026020285,
    "start_utc": "2026-11-10T03:00:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "SAP Center at San Jose",
    "away": {
     "abbr": "NYI",
@@ -7020,12 +7020,12 @@
     "record": "7-6-3",
     "b2b": false,
     "goalie": "Ilya Sorokin",
-    "goalie_status": "Likely",
-    "goalie_news": "Sorokin was the first goalie off the ice at New York's morning skate.",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Sorokin will start in San Jose on Monday.",
     "goalie_source": "Andrew Gross",
     "sv": "0.909",
     "gaa": "2.64",
-    "lineup_as_of": "2026-11-10T00:11:25.738285+00:00",
+    "lineup_as_of": "2026-11-10T02:42:04.438983+00:00",
     "lineup_stale": false,
     "ga_rk": 20,
     "gf_rk": 24,
@@ -7375,10 +7375,10 @@
    "lineup": {
     "away": {
      "team": "NYI",
-     "as_of": "2026-11-10T00:11:25.738285+00:00",
+     "as_of": "2026-11-10T02:42:04.438983+00:00",
      "stale": false,
-     "source": "Stefen Rosner",
-     "updated_dfo": "2026-11-09T20:00:36.352Z",
+     "source": "Ethan Sears",
+     "updated_dfo": "2026-11-10T02:37:43.699Z",
      "forwards": [
       [
        {
@@ -7848,39 +7848,39 @@
      "defense": [
       [
        {
-        "name": "Adam Pelech",
-        "jersey": 3,
+        "name": "Logan Stanley",
+        "jersey": 8,
         "pos": "LD",
         "slot": null,
-        "player_id": 8476917,
-        "dfo_id": 2449,
+        "player_id": 8479378,
+        "dfo_id": 2652,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 2,
-         "g": 1,
+         "a": 5,
+         "g": 0,
          "gp": 16,
-         "p": 3,
+         "p": 5,
          "ppp": 0,
-         "sog": 19,
-         "toi_s": 19558
+         "sog": 7,
+         "toi_s": 20423
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 6107
+         "sog": 0,
+         "toi_s": 6769
         },
-        "l5_point_games": 1,
+        "l5_point_games": 0,
         "gp": 16,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -7926,39 +7926,39 @@
       ],
       [
        {
-        "name": "Logan Stanley",
-        "jersey": 8,
+        "name": "Adam Pelech",
+        "jersey": 3,
         "pos": "LD",
         "slot": null,
-        "player_id": 8479378,
-        "dfo_id": 2652,
+        "player_id": 8476917,
+        "dfo_id": 2449,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 16,
-         "p": 5,
+         "p": 3,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 20423
+         "sog": 19,
+         "toi_s": 19558
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 6769
+         "sog": 7,
+         "toi_s": 6107
         },
-        "l5_point_games": 0,
+        "l5_point_games": 1,
         "gp": 16,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8666,7 +8666,7 @@
         "l5_point_games": 1,
         "gp": 16,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8820,7 +8820,7 @@
         "l5_point_games": 0,
         "gp": 16,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8894,12 +8894,12 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 27,
-       "rating": 72.89063066486271
+       "rank": 35,
+       "rating": 0
       },
       "d2": {
-       "rank": 10,
-       "rating": 75.19306221380961
+       "rank": 14,
+       "rating": 74.04184643933615
       },
       "d3": {
        "rank": 9,
