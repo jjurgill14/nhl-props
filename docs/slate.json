@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated_utc": "2026-11-10T02:11:57.506796+00:00",
+ "generated_utc": "2026-11-10T02:27:01.822204+00:00",
  "games": [
   {
    "game_id": 2026020283,
@@ -1428,7 +1428,7 @@
      "goalie_source": "Jeff Paterson",
      "sv": "0.899",
      "gaa": "3.12",
-     "ml": "180",
+     "ml": "170",
      "gp": 19,
      "gf": 2.210526315789474,
      "gf_rk": 31,
@@ -1440,7 +1440,7 @@
      "ppga_rk": 22,
      "l5_gf": 3.0,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-09T23:56:21.888121+00:00",
+     "lineup_as_of": "2026-11-10T02:27:00.443244+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -1456,19 +1456,19 @@
      ],
      "lines": {
       "1": [
-       "Tyson Foerster",
+       "Michael Bunting",
        "Christian Dvorak",
-       "Travis Konecny"
+       "Owen Tippett"
       ],
       "2": [
+       "Tyson Foerster",
+       "Trevor Zegras",
+       "Travis Konecny"
+      ],
+      "3": [
        "Porter Martone",
        "Noah Cates",
        "Matvei Michkov"
-      ],
-      "3": [
-       "Trevor Zegras",
-       "Cole Knuble",
-       "Owen Tippett"
       ],
       "4": [
        "Denver Barkey",
@@ -1492,12 +1492,83 @@
      ],
      "players": [
       {
+       "name": "Trevor Zegras",
+       "jersey": 46,
+       "team": "PHI",
+       "opp": "VAN",
+       "home": false,
+       "line": 2,
+       "pp": 1,
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 19,
+       "pt_games": 10,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 7,
+       "goal_games": 4,
+       "two_games": 3,
+       "home_split": [
+        7,
+        10
+       ],
+       "away_split": [
+        3,
+        9
+       ],
+       "pp_toi": 3.1,
+       "toi": 18.6,
+       "p": 0.529,
+       "fair": "-112",
+       "min": "+100",
+       "p2": 0.154,
+       "fair2": "+549",
+       "min2": "+588",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Tyson Foerster",
+         "jersey": 71,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Travis Konecny",
+         "jersey": 11,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Matvei Michkov",
        "jersey": 39,
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -1539,7 +1610,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -1563,83 +1634,12 @@
        ]
       },
       {
-       "name": "Trevor Zegras",
-       "jersey": 46,
-       "team": "PHI",
-       "opp": "VAN",
-       "home": false,
-       "line": 3,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 19,
-       "pt_games": 10,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 7,
-       "goal_games": 4,
-       "two_games": 3,
-       "home_split": [
-        7,
-        10
-       ],
-       "away_split": [
-        3,
-        9
-       ],
-       "pp_toi": 3.1,
-       "toi": 18.6,
-       "p": 0.529,
-       "fair": "-112",
-       "min": "+100",
-       "p2": 0.154,
-       "fair2": "+549",
-       "min2": "+588",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Cole Knuble",
-         "jersey": 54,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 2
-        },
-        {
-         "name": "Owen Tippett",
-         "jersey": 74,
-         "pp": 2,
-         "n": 7,
-         "both": 2,
-         "either": 4
-        }
-       ]
-      },
-      {
        "name": "Travis Konecny",
        "jersey": 11,
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
@@ -1681,7 +1681,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -1695,12 +1695,12 @@
          "either": 0
         },
         {
-         "name": "Christian Dvorak",
-         "jersey": 22,
-         "pp": 2,
-         "n": 8,
-         "both": 2,
-         "either": 4
+         "name": "Trevor Zegras",
+         "jersey": 46,
+         "pp": 1,
+         "n": 3,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -1710,7 +1710,7 @@
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -1756,7 +1756,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -1837,20 +1837,20 @@
        },
        "partners": [
         {
-         "name": "Tyson Foerster",
-         "jersey": 71,
-         "pp": 2,
-         "n": 7,
+         "name": "Michael Bunting",
+         "jersey": 58,
+         "pp": null,
+         "n": 0,
          "both": 0,
-         "either": 4
+         "either": 0
         },
         {
-         "name": "Travis Konecny",
-         "jersey": 11,
+         "name": "Owen Tippett",
+         "jersey": 74,
          "pp": 2,
-         "n": 8,
-         "both": 2,
-         "either": 4
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -1860,7 +1860,7 @@
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
@@ -1902,18 +1902,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Christian Dvorak",
-         "jersey": 22,
-         "pp": 2,
-         "n": 7,
+         "name": "Trevor Zegras",
+         "jersey": 46,
+         "pp": 1,
+         "n": 2,
          "both": 0,
-         "either": 4
+         "either": 1
         },
         {
          "name": "Travis Konecny",
@@ -1931,11 +1931,11 @@
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 3,
+       "line": 1,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 13,
        "pt_games": 3,
@@ -1956,12 +1956,12 @@
        ],
        "pp_toi": 1.2,
        "toi": 14.2,
-       "p": 0.238,
-       "fair": "+321",
-       "min": "+346",
-       "p2": 0.014,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p": 0.272,
+       "fair": "+268",
+       "min": "+290",
+       "p2": 0.028,
+       "fair2": "+3526",
+       "min2": "+3744",
        "adj": [
         [
          "opp",
@@ -1973,66 +1973,66 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Trevor Zegras",
-         "jersey": 46,
-         "pp": 1,
-         "n": 7,
-         "both": 2,
-         "either": 4
+         "name": "Michael Bunting",
+         "jersey": 58,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Cole Knuble",
-         "jersey": 54,
-         "pp": null,
-         "n": 3,
+         "name": "Christian Dvorak",
+         "jersey": 22,
+         "pp": 2,
+         "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
       {
-       "name": "Cole Knuble",
-       "jersey": 54,
+       "name": "Michael Bunting",
+       "jersey": 58,
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 3,
+       "line": 1,
        "pp": null,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 9,
-       "pt_games": 2,
+       "role": "top6",
+       "bias": null,
+       "gp": 8,
+       "pt_games": 1,
        "l5": [
         1,
         5
        ],
-       "ast_games": 0,
-       "goal_games": 2,
-       "two_games": 1,
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
        "home_split": [
         1,
         5
        ],
        "away_split": [
-        1,
-        4
+        0,
+        3
        ],
-       "pp_toi": 0.2,
-       "toi": 12.3,
-       "p": 0.235,
-       "fair": "+326",
-       "min": "+352",
-       "p2": 0.07,
-       "fair2": "+1323",
-       "min2": "+1409",
+       "pp_toi": 1.4,
+       "toi": 11.3,
+       "p": 0.232,
+       "fair": "+331",
+       "min": "+357",
+       "p2": 0.036,
+       "fair2": "+2663",
+       "min2": "+2829",
        "adj": [
         [
          "opp",
@@ -2046,24 +2046,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Trevor Zegras",
-         "jersey": 46,
-         "pp": 1,
-         "n": 3,
+         "name": "Christian Dvorak",
+         "jersey": 22,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Owen Tippett",
          "jersey": 74,
          "pp": 2,
-         "n": 3,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -2073,11 +2073,11 @@
        "team": "PHI",
        "opp": "VAN",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 19,
        "pt_games": 4,
@@ -2098,12 +2098,12 @@
        ],
        "pp_toi": 0.1,
        "toi": 13.2,
-       "p": 0.223,
-       "fair": "+348",
-       "min": "+374",
-       "p2": 0.049,
-       "fair2": "+1922",
-       "min2": "+2043",
+       "p": 0.2,
+       "fair": "+401",
+       "min": "+431",
+       "p2": 0.04,
+       "fair2": "+2412",
+       "min2": "+2563",
        "adj": [
         [
          "opp",
@@ -2119,7 +2119,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -2155,7 +2155,7 @@
      "goalie_source": "Jeff Paterson",
      "sv": "0.889",
      "gaa": "3.59",
-     "ml": "-218",
+     "ml": "-205",
      "gp": 19,
      "gf": 2.8947368421052633,
      "gf_rk": 23,

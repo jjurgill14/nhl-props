@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-09",
- "generated_utc": "2026-11-10T02:11:58.042093+00:00",
+ "generated_utc": "2026-11-10T02:27:02.351231+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -3537,7 +3537,7 @@
     "goalie_source": "Jeff Paterson",
     "sv": "0.899",
     "gaa": "3.12",
-    "lineup_as_of": "2026-11-09T23:56:21.888121+00:00",
+    "lineup_as_of": "2026-11-10T02:27:00.443244+00:00",
     "lineup_stale": false,
     "ga_rk": 12,
     "gf_rk": 31,
@@ -3565,8 +3565,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+180",
-     "home": "-218",
+     "away": "+170",
+     "home": "-205",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-09T23:56:21.947983+00:00"
     },
@@ -3609,21 +3609,6 @@
       ]
      },
      {
-      "selection": "Matvei Michkov \u00b7 1+ point",
-      "prob": 0.529,
-      "fair": "-112",
-      "need": "+100",
-      "rationale": "Point in 10 of 19 this season, 3 of last 5 \u00b7 PP1, 3.3 PP min/game over L5",
-      "player": "Matvei Michkov",
-      "team": "PHI",
-      "pp": 1,
-      "line": 2,
-      "bias": "G",
-      "players": [
-       8484387
-      ]
-     },
-     {
       "selection": "Trevor Zegras \u00b7 1+ point",
       "prob": 0.529,
       "fair": "-112",
@@ -3632,10 +3617,25 @@
       "player": "Trevor Zegras",
       "team": "PHI",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "bias": "A",
       "players": [
        8481533
+      ]
+     },
+     {
+      "selection": "Matvei Michkov \u00b7 1+ point",
+      "prob": 0.529,
+      "fair": "-112",
+      "need": "+100",
+      "rationale": "Point in 10 of 19 this season, 3 of last 5 \u00b7 PP1, 3.3 PP min/game over L5",
+      "player": "Matvei Michkov",
+      "team": "PHI",
+      "pp": 1,
+      "line": 3,
+      "bias": "G",
+      "players": [
+       8484387
       ]
      },
      {
@@ -3693,7 +3693,7 @@
       "need": "+254",
       "rationale": "Both scored 4 of 11 games together \u00b7 independent 18% \u00b7 correlated",
       "team": "PHI",
-      "line": 2,
+      "line": 3,
       "read": "correlated",
       "both": 4,
       "n": 11,
@@ -3735,19 +3735,19 @@
       ]
      },
      {
-      "selection": "Zegras + Tippett \u00b7 both 1+ point",
-      "prob": 0.212,
-      "fair": "+372",
-      "need": "+400",
-      "rationale": "Both scored 2 of 7 games together \u00b7 independent 13% \u00b7 correlated",
+      "selection": "Michkov + Cates \u00b7 both 1+ point",
+      "prob": 0.191,
+      "fair": "+423",
+      "need": "+454",
+      "rationale": "Both scored 3 of 13 games together \u00b7 independent 11% \u00b7 correlated",
       "team": "PHI",
       "line": 3,
       "read": "correlated",
-      "both": 2,
-      "n": 7,
+      "both": 3,
+      "n": 13,
       "players": [
-       8481533,
-       8480015
+       8484387,
+       8480220
       ]
      }
     ],
@@ -3767,20 +3767,6 @@
       ]
      },
      {
-      "selection": "Matvei Michkov \u00b7 2+ points",
-      "prob": 0.154,
-      "fair": "+549",
-      "need": "+588",
-      "rationale": "2+ in 3 of 19 \u00b7 3.3 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
-      "player": "Matvei Michkov",
-      "team": "PHI",
-      "pp": 1,
-      "line": 2,
-      "players": [
-       8484387
-      ]
-     },
-     {
       "selection": "Trevor Zegras \u00b7 2+ points",
       "prob": 0.154,
       "fair": "+549",
@@ -3789,9 +3775,23 @@
       "player": "Trevor Zegras",
       "team": "PHI",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "players": [
        8481533
+      ]
+     },
+     {
+      "selection": "Matvei Michkov \u00b7 2+ points",
+      "prob": 0.154,
+      "fair": "+549",
+      "need": "+588",
+      "rationale": "2+ in 3 of 19 \u00b7 3.3 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
+      "player": "Matvei Michkov",
+      "team": "PHI",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8484387
       ]
      },
      {
@@ -3847,7 +3847,7 @@
       "need": "+254",
       "rationale": "Both scored 4 of 11 games together \u00b7 independent 18% \u00b7 correlated",
       "team": "PHI",
-      "line": 2,
+      "line": 3,
       "read": "correlated",
       "both": 4,
       "n": 11,
@@ -3887,48 +3887,48 @@
    "lineup": {
     "away": {
      "team": "PHI",
-     "as_of": "2026-11-09T23:56:21.888121+00:00",
+     "as_of": "2026-11-10T02:27:00.443244+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-08)",
-     "updated_dfo": "2026-11-09T15:04:21.494Z",
+     "source": "Jackie Spiegel",
+     "updated_dfo": "2026-11-10T02:14:46.975Z",
      "forwards": [
       [
        {
-        "name": "Tyson Foerster",
-        "jersey": 71,
+        "name": "Michael Bunting",
+        "jersey": 58,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482159,
-        "dfo_id": 29750,
+        "player_id": 8478047,
+        "dfo_id": 3778,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 2,
+        "pp": null,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 18,
-         "p": 5,
-         "ppp": 0,
-         "sog": 39,
-         "toi_s": 18621
+         "a": 1,
+         "g": 0,
+         "gp": 8,
+         "p": 1,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 5482
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 4928
+         "p": 1,
+         "ppp": 1,
+         "sog": 7,
+         "toi_s": 3385
         },
-        "l5_point_games": 2,
-        "gp": 18,
+        "l5_point_games": 1,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -3970,6 +3970,122 @@
         }
        },
        {
+        "name": "Owen Tippett",
+        "jersey": 74,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8480015,
+        "dfo_id": 2786,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 1,
+         "g": 2,
+         "gp": 13,
+         "p": 3,
+         "ppp": 1,
+         "sog": 34,
+         "toi_s": 12192
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 1,
+         "sog": 14,
+         "toi_s": 4250
+        },
+        "l5_point_games": 1,
+        "gp": 13,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Tyson Foerster",
+        "jersey": 71,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8482159,
+        "dfo_id": 29750,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 3,
+         "gp": 18,
+         "p": 5,
+         "ppp": 0,
+         "sog": 39,
+         "toi_s": 18621
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4928
+        },
+        "l5_point_games": 2,
+        "gp": 18,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Trevor Zegras",
+        "jersey": 46,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8481533,
+        "dfo_id": 30202,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 10,
+         "g": 4,
+         "gp": 19,
+         "p": 14,
+         "ppp": 7,
+         "sog": 40,
+         "toi_s": 21275
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 2,
+         "sog": 10,
+         "toi_s": 5567
+        },
+        "l5_point_games": 2,
+        "gp": 19,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Travis Konecny",
         "jersey": 11,
         "pos": "RW",
@@ -4002,7 +4118,7 @@
         "l5_point_games": 2,
         "gp": 9,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4042,7 +4158,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4080,7 +4196,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4118,123 +4234,7 @@
         "l5_point_games": 3,
         "gp": 19,
         "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Trevor Zegras",
-        "jersey": 46,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8481533,
-        "dfo_id": 30202,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 10,
-         "g": 4,
-         "gp": 19,
-         "p": 14,
-         "ppp": 7,
-         "sog": 40,
-         "toi_s": 21275
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 10,
-         "toi_s": 5567
-        },
-        "l5_point_games": 2,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Cole Knuble",
-        "jersey": 54,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8483787,
-        "dfo_id": 33787,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 0,
-         "g": 3,
-         "gp": 9,
-         "p": 3,
-         "ppp": 0,
-         "sog": 16,
-         "toi_s": 6533
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 3696
-        },
-        "l5_point_games": 1,
-        "gp": 9,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Owen Tippett",
-        "jersey": 74,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8480015,
-        "dfo_id": 2786,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 1,
-         "g": 2,
-         "gp": 13,
-         "p": 3,
-         "ppp": 1,
-         "sog": 34,
-         "toi_s": 12192
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 14,
-         "toi_s": 4250
-        },
-        "l5_point_games": 1,
-        "gp": 13,
-        "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4716,7 +4716,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4792,7 +4792,7 @@
         "l5_point_games": 3,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4830,7 +4830,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -4908,7 +4908,7 @@
         "l5_point_games": 2,
         "gp": 9,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -4984,7 +4984,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -5022,7 +5022,7 @@
         "l5_point_games": 1,
         "gp": 13,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -5256,7 +5256,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -5294,7 +5294,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -5407,16 +5407,16 @@
        "rating": 0
       },
       "f1": {
-       "rank": 31,
-       "rating": 74.28552079061942
+       "rank": 36,
+       "rating": 72.61110004847527
       },
       "f2": {
-       "rank": 36,
-       "rating": 0
+       "rank": 7,
+       "rating": 76.5313531505034
       },
       "f3": {
-       "rank": 22,
-       "rating": 72.30729741075531
+       "rank": 36,
+       "rating": 0
       },
       "f4": {
        "rank": 1,
