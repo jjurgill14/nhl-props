@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-11T23:26:22.022954+00:00",
+ "generated_utc": "2026-11-11T23:41:26.431884+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19,7 +19,7 @@
    "id": "01",
    "game_id": 2026020293,
    "start_utc": "2026-11-12T00:00:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "KeyBank Center",
    "away": {
     "abbr": "TBL",
@@ -30,12 +30,12 @@
     "record": "11-4-2",
     "b2b": false,
     "goalie": "Andrei Vasilevskiy",
-    "goalie_status": "Likely",
-    "goalie_news": "Vasilevskiy is expected to start in Buffalo on Wednesday.",
-    "goalie_source": "Eduardo Encina",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Vasilevskiy led the Lightning onto the ice for warmups.",
+    "goalie_source": "Mike Harrington",
     "sv": "0.883",
     "gaa": "2.84",
-    "lineup_as_of": "2026-11-11T22:56:11.353536+00:00",
+    "lineup_as_of": "2026-11-11T23:41:24.804485+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
     "gf_rk": 6,
@@ -50,9 +50,9 @@
     "record": "8-6-3",
     "b2b": false,
     "goalie": "Ukko-Pekka Luukkonen",
-    "goalie_status": "Likely",
-    "goalie_news": "Luukkonen is in the starter's crease at Buffalo's morning skate on Wednesday.",
-    "goalie_source": "Rachel Lenzi",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Luukkonen will start Wednesday vs. the Lightning.",
+    "goalie_source": "Mike Harrington",
     "sv": "0.878",
     "gaa": "3.27",
     "lineup_as_of": "2026-11-11T13:16:57.920265+00:00",
@@ -401,10 +401,10 @@
    "lineup": {
     "away": {
      "team": "TBL",
-     "as_of": "2026-11-11T22:56:11.353536+00:00",
+     "as_of": "2026-11-11T23:41:24.804485+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-10T20:08:03.280Z",
+     "source": "Gabby Shirley",
+     "updated_dfo": "2026-11-11T23:37:18.704Z",
      "forwards": [
       [
        {
@@ -562,47 +562,9 @@
         }
        },
        {
-        "name": "Yanni Gourde",
-        "jersey": 37,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476826,
-        "dfo_id": 2566,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 1,
-         "p": 0,
-         "ppp": 0,
-         "sog": 1,
-         "toi_s": 941
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4364
-        },
-        "l5_point_games": 0,
-        "gp": 1,
-        "move": {
-         "ev": 0,
-         "pp": -1,
-         "new": false
-        }
-       },
-       {
         "name": "Sam O'Reilly",
         "jersey": 23,
-        "pos": "RW",
+        "pos": "C",
         "slot": null,
         "player_id": null,
         "dfo_id": 36872,
@@ -635,6 +597,44 @@
          "ev": 0,
          "pp": 0,
          "new": true
+        }
+       },
+       {
+        "name": "Yanni Gourde",
+        "jersey": 37,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8476826,
+        "dfo_id": 2566,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 1,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 941
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4364
+        },
+        "l5_point_games": 0,
+        "gp": 1,
+        "move": {
+         "ev": 0,
+         "pp": -1,
+         "new": false
         }
        }
       ],
@@ -952,47 +952,9 @@
       ],
       [
        {
-        "name": "John Carlson",
-        "jersey": 74,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8474590,
-        "dfo_id": 1507,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 5,
-         "g": 5,
-         "gp": 17,
-         "p": 10,
-         "ppp": 3,
-         "sog": 40,
-         "toi_s": 19692
-        },
-        "last5": {
-         "a": 3,
-         "g": 1,
-         "gp": 5,
-         "p": 4,
-         "ppp": 2,
-         "sog": 9,
-         "toi_s": 5866
-        },
-        "l5_point_games": 2,
-        "gp": 17,
-        "move": {
-         "ev": 0,
-         "pp": -1,
-         "new": false
-        }
-       },
-       {
         "name": "Charle-Edouard D'Astous",
         "jersey": 51,
-        "pos": "RD",
+        "pos": "LD",
         "slot": null,
         "player_id": 8480426,
         "dfo_id": 26500,
@@ -1024,6 +986,44 @@
         "move": {
          "ev": 0,
          "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "John Carlson",
+        "jersey": 74,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8474590,
+        "dfo_id": 1507,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 5,
+         "g": 5,
+         "gp": 17,
+         "p": 10,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 19692
+        },
+        "last5": {
+         "a": 3,
+         "g": 1,
+         "gp": 5,
+         "p": 4,
+         "ppp": 2,
+         "sog": 9,
+         "toi_s": 5866
+        },
+        "l5_point_games": 2,
+        "gp": 17,
+        "move": {
+         "ev": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -10518,7 +10518,7 @@
     "goalie_source": "Chase Beardsley",
     "sv": "0.873",
     "gaa": "3.38",
-    "lineup_as_of": "2026-11-11T13:16:58.624760+00:00",
+    "lineup_as_of": "2026-11-11T23:41:24.876762+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 8,
@@ -10538,7 +10538,7 @@
     "goalie_source": "Hannah Kirkell",
     "sv": "0.9",
     "gaa": "2.48",
-    "lineup_as_of": "2026-11-11T13:16:58.698135+00:00",
+    "lineup_as_of": "2026-11-11T23:41:24.941929+00:00",
     "lineup_stale": false,
     "ga_rk": 28,
     "gf_rk": 13,
@@ -10549,7 +10549,7 @@
      "away": "-238",
      "home": "+195",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-11T13:16:58.698135+00:00"
+     "as_of": "2026-11-11T23:41:24.941929+00:00"
     },
     "total": {
      "line": null,
@@ -10868,7 +10868,7 @@
    "lineup": {
     "away": {
      "team": "UTA",
-     "as_of": "2026-11-11T13:16:58.624760+00:00",
+     "as_of": "2026-11-11T23:41:24.876762+00:00",
      "stale": false,
      "source": "Brogan Houston",
      "updated_dfo": "2026-11-09T20:02:41.754Z",
@@ -12377,7 +12377,7 @@
       {
        "player": "Dylan Guenther",
        "status": "DTD",
-       "news": "Guenther (maintenance) missed practice on Monday and is questionable for Wednesday vs. Vegas."
+       "news": "Guenther (maintenance) will be a game-time decision in Vegas on Wednesday."
       }
      ],
      "unit_ratings": {
@@ -12386,7 +12386,7 @@
        "rating": 74.13594709010916
       },
       "d2": {
-       "rank": 27,
+       "rank": 28,
        "rating": 72.57051807650141
       },
       "d3": {
@@ -12394,7 +12394,7 @@
        "rating": 0
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -12410,7 +12410,7 @@
        "rating": 71.1775198305316
       },
       "f4": {
-       "rank": 16,
+       "rank": 17,
        "rating": 71.91977873674156
       },
       "g": {
@@ -12433,10 +12433,10 @@
     },
     "home": {
      "team": "VGK",
-     "as_of": "2026-11-11T13:16:58.698135+00:00",
+     "as_of": "2026-11-11T23:41:24.941929+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-08)",
-     "updated_dfo": "2026-11-09T16:33:40.199Z",
+     "source": "Danny Webster",
+     "updated_dfo": "2026-11-11T18:36:10.226Z",
      "forwards": [
       [
        {
@@ -13062,41 +13062,41 @@
       ],
       [
        {
-        "name": "Noah Hanifin",
-        "jersey": 15,
+        "name": "Parker Wotherspoon",
+        "jersey": 29,
         "pos": "LD",
         "slot": null,
-        "player_id": 8478396,
-        "dfo_id": 2473,
-        "gtd": false,
+        "player_id": 8478450,
+        "dfo_id": 3836,
+        "gtd": true,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 19,
-         "p": 6,
+         "a": 0,
+         "g": 0,
+         "gp": 6,
+         "p": 0,
          "ppp": 0,
-         "sog": 27,
-         "toi_s": 23247
+         "sog": 5,
+         "toi_s": 6574
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 6229
+         "sog": 4,
+         "toi_s": 5366
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "l5_point_games": 0,
+        "gp": 6,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -13884,41 +13884,41 @@
         }
        },
        {
-        "name": "Noah Hanifin",
-        "jersey": 15,
+        "name": "Parker Wotherspoon",
+        "jersey": 29,
         "pos": null,
         "slot": 4,
-        "player_id": 8478396,
-        "dfo_id": 2473,
-        "gtd": false,
+        "player_id": 8478450,
+        "dfo_id": 3836,
+        "gtd": true,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 19,
-         "p": 6,
+         "a": 0,
+         "g": 0,
+         "gp": 6,
+         "p": 0,
          "ppp": 0,
-         "sog": 27,
-         "toi_s": 23247
+         "sog": 5,
+         "toi_s": 6574
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 6229
+         "sog": 4,
+         "toi_s": 5366
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "l5_point_games": 0,
+        "gp": 6,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -13928,6 +13928,11 @@
        "player": "Parker Wotherspoon",
        "status": "IR",
        "news": "Wotherspoon (lower-body) was a full participant in practice on Tuesday."
+      },
+      {
+       "player": "Noah Hanifin",
+       "status": "OUT",
+       "news": "Hanifin (undisclosed) is considered week-to-week."
       }
      ],
      "unit_ratings": {
@@ -13936,15 +13941,15 @@
        "rating": 75.67780830809967
       },
       "d2": {
-       "rank": 24,
+       "rank": 25,
        "rating": 72.67749663832126
       },
       "d3": {
-       "rank": 9,
-       "rating": 73.28666518325761
+       "rank": 27,
+       "rating": 0
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -13960,7 +13965,7 @@
        "rating": 74.07839154319487
       },
       "f4": {
-       "rank": 19,
+       "rank": 20,
        "rating": 71.77406311806222
       },
       "g": {
