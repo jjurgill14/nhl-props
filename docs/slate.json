@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_utc": "2026-11-11T22:41:08.041576+00:00",
+ "generated_utc": "2026-11-11T22:56:12.321455+00:00",
  "games": [
   {
    "game_id": 2026020293,
@@ -34,7 +34,7 @@
      "ppga_rk": 13,
      "l5_gf": 3.8,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-11T22:26:00.761565+00:00",
+     "lineup_as_of": "2026-11-11T22:56:11.353536+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -45,13 +45,13 @@
      ],
      "lines": {
       "1": [
-       "Jake Guentzel",
-       "Yanni Gourde",
+       "Brandon Hagel",
+       "Anthony Cirelli",
        "Nikita Kucherov"
       ],
       "2": [
-       "Brandon Hagel",
-       "Anthony Cirelli",
+       "Jake Guentzel",
+       "Yanni Gourde",
        "Sam O'Reilly"
       ],
       "3": [
@@ -66,17 +66,17 @@
       ]
      },
      "pp1": [
-      "Brandon Hagel",
+      "Sam O'Reilly",
       "Jake Guentzel",
       "Nikita Kucherov",
-      "John Carlson",
+      "Brandon Hagel",
       "Charle-Edouard D'Astous"
      ],
      "pp2": [
       "Conor Geekie",
       "Anthony Cirelli",
       "Pontus Holmberg",
-      "Sam O'Reilly",
+      "John Carlson",
       "Victor Hedman"
      ],
      "players": [
@@ -130,20 +130,20 @@
        },
        "partners": [
         {
-         "name": "Jake Guentzel",
-         "jersey": 59,
+         "name": "Brandon Hagel",
+         "jersey": 38,
          "pp": 1,
-         "n": 6,
-         "both": 3,
-         "either": 5
+         "n": 5,
+         "both": 2,
+         "either": 4
         },
         {
-         "name": "Yanni Gourde",
-         "jersey": 37,
-         "pp": null,
-         "n": 0,
+         "name": "Anthony Cirelli",
+         "jersey": 71,
+         "pp": 2,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -153,7 +153,7 @@
        "team": "TBL",
        "opp": "BUF",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -191,7 +191,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -205,12 +205,12 @@
          "either": 0
         },
         {
-         "name": "Nikita Kucherov",
-         "jersey": 86,
+         "name": "Sam O'Reilly",
+         "jersey": 23,
          "pp": 1,
-         "n": 6,
-         "both": 3,
-         "either": 5
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -220,7 +220,7 @@
        "team": "TBL",
        "opp": "BUF",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -262,7 +262,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 1,
         "new": false
        },
@@ -276,9 +276,76 @@
          "either": 12
         },
         {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
-         "pp": 2,
+         "name": "Nikita Kucherov",
+         "jersey": 86,
+         "pp": 1,
+         "n": 5,
+         "both": 2,
+         "either": 4
+        }
+       ]
+      },
+      {
+       "name": "Sam O'Reilly",
+       "jersey": 23,
+       "team": "TBL",
+       "opp": "BUF",
+       "home": false,
+       "line": 2,
+       "pp": 1,
+       "pos": "RW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.56,
+       "fair": "-127",
+       "min": "-112",
+       "p2": 0.207,
+       "fair2": "+383",
+       "min2": "+412",
+       "adj": [
+        [
+         "opp",
+         1.0361290322580645
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Jake Guentzel",
+         "jersey": 59,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Yanni Gourde",
+         "jersey": 37,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
@@ -291,7 +358,7 @@
        "team": "TBL",
        "opp": "BUF",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "pos": "C",
        "gtd": false,
@@ -329,7 +396,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -343,12 +410,12 @@
          "either": 12
         },
         {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
-         "pp": 2,
-         "n": 0,
+         "name": "Nikita Kucherov",
+         "jersey": 86,
+         "pp": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -420,79 +487,12 @@
        ]
       },
       {
-       "name": "Sam O'Reilly",
-       "jersey": 23,
-       "team": "TBL",
-       "opp": "BUF",
-       "home": false,
-       "line": 2,
-       "pp": 2,
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 0,
-       "pt_games": 0,
-       "l5": [
-        0,
-        0
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        0
-       ],
-       "away_split": [
-        0,
-        0
-       ],
-       "pp_toi": 0.0,
-       "toi": 0.0,
-       "p": 0.352,
-       "fair": "+184",
-       "min": "+201",
-       "p2": 0.083,
-       "fair2": "+1106",
-       "min2": "+1179",
-       "adj": [
-        [
-         "opp",
-         1.0361290322580645
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Brandon Hagel",
-         "jersey": 38,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Anthony Cirelli",
-         "jersey": 71,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Yanni Gourde",
        "jersey": 37,
        "team": "TBL",
        "opp": "BUF",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": null,
        "pos": "C",
        "gtd": false,
@@ -530,7 +530,7 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": -1,
         "new": false
        },
@@ -544,8 +544,8 @@
          "either": 0
         },
         {
-         "name": "Nikita Kucherov",
-         "jersey": 86,
+         "name": "Sam O'Reilly",
+         "jersey": 23,
          "pp": 1,
          "n": 0,
          "both": 0,

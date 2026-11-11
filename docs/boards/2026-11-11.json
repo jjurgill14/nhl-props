@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-11T22:41:08.564535+00:00",
+ "generated_utc": "2026-11-11T22:56:12.844191+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -35,7 +35,7 @@
     "goalie_source": "Eduardo Encina",
     "sv": "0.883",
     "gaa": "2.84",
-    "lineup_as_of": "2026-11-11T22:26:00.761565+00:00",
+    "lineup_as_of": "2026-11-11T22:56:11.353536+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
     "gf_rk": 6,
@@ -100,7 +100,7 @@
       "player": "Jake Guentzel",
       "team": "TBL",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": "G",
       "players": [
        8477404
@@ -130,10 +130,25 @@
       "player": "Brandon Hagel",
       "team": "TBL",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": null,
       "players": [
        8479542
+      ]
+     },
+     {
+      "selection": "Sam O'Reilly \u00b7 1+ point",
+      "prob": 0.56,
+      "fair": "-127",
+      "need": "-112",
+      "rationale": "Point in 0 of 0 this season, 0 of last 0 \u00b7 PP1, 0.0 PP min/game over L5",
+      "player": "Sam O'Reilly",
+      "team": "TBL",
+      "pp": 1,
+      "line": 2,
+      "bias": null,
+      "players": [
+       null
       ]
      },
      {
@@ -150,40 +165,9 @@
       "players": [
        8482097
       ]
-     },
-     {
-      "selection": "Zach Benson \u00b7 1+ point",
-      "prob": 0.537,
-      "fair": "-116",
-      "need": "-103",
-      "rationale": "Point in 11 of 17 this season, 4 of last 5 \u00b7 PP1, 3.6 PP min/game over L5",
-      "player": "Zach Benson",
-      "team": "BUF",
-      "pp": 1,
-      "line": 1,
-      "bias": "A",
-      "players": [
-       8484145
-      ]
      }
     ],
     "pair": [
-     {
-      "selection": "Kucherov + Guentzel \u00b7 both 1+ point",
-      "prob": 0.465,
-      "fair": "+115",
-      "need": "+128",
-      "rationale": "Both scored 3 of 6 games together \u00b7 independent 43% \u00b7 correlated",
-      "team": "TBL",
-      "line": 1,
-      "read": "correlated",
-      "both": 3,
-      "n": 6,
-      "players": [
-       8476453,
-       8477404
-      ]
-     },
      {
       "selection": "Quinn + Benson \u00b7 both 1+ point",
       "prob": 0.425,
@@ -217,6 +201,22 @@
       ]
      },
      {
+      "selection": "Kucherov + Hagel \u00b7 both 1+ point",
+      "prob": 0.392,
+      "fair": "+155",
+      "need": "+170",
+      "rationale": "Both scored 2 of 5 games together \u00b7 independent 39% \u00b7 new pair",
+      "team": "TBL",
+      "line": 1,
+      "read": "new pair",
+      "both": 2,
+      "n": 5,
+      "players": [
+       8476453,
+       8479542
+      ]
+     },
+     {
       "selection": "Quinn + Ostlund \u00b7 both 1+ point",
       "prob": 0.391,
       "fair": "+156",
@@ -239,7 +239,7 @@
       "need": "+186",
       "rationale": "Both scored 7 of 17 games together \u00b7 independent 25% \u00b7 correlated",
       "team": "TBL",
-      "line": 2,
+      "line": 1,
       "read": "correlated",
       "both": 7,
       "n": 17,
@@ -273,7 +273,7 @@
       "player": "Jake Guentzel",
       "team": "TBL",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8477404
       ]
@@ -315,29 +315,13 @@
       "player": "Brandon Hagel",
       "team": "TBL",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8479542
       ]
      }
     ],
     "pp1": [
-     {
-      "selection": "Kucherov + Guentzel \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.465,
-      "fair": "+115",
-      "need": "+128",
-      "rationale": "Both scored 3 of 6 games together \u00b7 independent 43% \u00b7 correlated",
-      "team": "TBL",
-      "line": 1,
-      "read": "correlated",
-      "both": 3,
-      "n": 6,
-      "players": [
-       8476453,
-       8477404
-      ]
-     },
      {
       "selection": "Quinn + Benson \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.425,
@@ -352,6 +336,22 @@
       "players": [
        8482097,
        8484145
+      ]
+     },
+     {
+      "selection": "Kucherov + Hagel \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.392,
+      "fair": "+155",
+      "need": "+170",
+      "rationale": "Both scored 2 of 5 games together \u00b7 independent 39% \u00b7 new pair",
+      "team": "TBL",
+      "line": 1,
+      "read": "new pair",
+      "both": 2,
+      "n": 5,
+      "players": [
+       8476453,
+       8479542
       ]
      },
      {
@@ -401,85 +401,85 @@
    "lineup": {
     "away": {
      "team": "TBL",
-     "as_of": "2026-11-11T22:26:00.761565+00:00",
+     "as_of": "2026-11-11T22:56:11.353536+00:00",
      "stale": false,
      "source": "Projected",
      "updated_dfo": "2026-11-10T20:08:03.280Z",
      "forwards": [
       [
        {
-        "name": "Jake Guentzel",
-        "jersey": 59,
+        "name": "Brandon Hagel",
+        "jersey": 38,
         "pos": "LW",
         "slot": null,
-        "player_id": 8477404,
-        "dfo_id": 2707,
+        "player_id": 8479542,
+        "dfo_id": 27046,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": "G",
+        "pk": 1,
+        "bias": null,
         "season": {
-         "a": 8,
-         "g": 10,
+         "a": 9,
+         "g": 9,
          "gp": 17,
          "p": 18,
-         "ppp": 6,
-         "sog": 48,
-         "toi_s": 21349
+         "ppp": 4,
+         "sog": 65,
+         "toi_s": 21254
         },
         "last5": {
-         "a": 2,
-         "g": 3,
+         "a": 1,
+         "g": 1,
          "gp": 5,
-         "p": 5,
-         "ppp": 2,
-         "sog": 12,
-         "toi_s": 6683
+         "p": 2,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 5712
         },
-        "l5_point_games": 3,
+        "l5_point_games": 2,
         "gp": 17,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
        {
-        "name": "Yanni Gourde",
-        "jersey": 37,
+        "name": "Anthony Cirelli",
+        "jersey": 71,
         "pos": "C",
         "slot": null,
-        "player_id": 8476826,
-        "dfo_id": 2566,
+        "player_id": 8478519,
+        "dfo_id": 3842,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": null,
+        "pp": 2,
+        "pk": 1,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 1,
-         "p": 0,
-         "ppp": 0,
-         "sog": 1,
-         "toi_s": 941
+         "a": 6,
+         "g": 5,
+         "gp": 17,
+         "p": 11,
+         "ppp": 2,
+         "sog": 28,
+         "toi_s": 17500
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4364
+         "p": 3,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 4954
         },
-        "l5_point_games": 0,
-        "gp": 1,
+        "l5_point_games": 3,
+        "gp": 17,
         "move": {
          "ev": 1,
-         "pp": -1,
+         "pp": 0,
          "new": false
         }
        },
@@ -524,78 +524,78 @@
       ],
       [
        {
-        "name": "Brandon Hagel",
-        "jersey": 38,
+        "name": "Jake Guentzel",
+        "jersey": 59,
         "pos": "LW",
         "slot": null,
-        "player_id": 8479542,
-        "dfo_id": 27046,
+        "player_id": 8477404,
+        "dfo_id": 2707,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 1,
-        "bias": null,
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 9,
-         "g": 9,
+         "a": 8,
+         "g": 10,
          "gp": 17,
          "p": 18,
-         "ppp": 4,
-         "sog": 65,
-         "toi_s": 21254
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 5712
-        },
-        "l5_point_games": 2,
-        "gp": 17,
-        "move": {
-         "ev": 0,
-         "pp": 1,
-         "new": false
-        }
-       },
-       {
-        "name": "Anthony Cirelli",
-        "jersey": 71,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8478519,
-        "dfo_id": 3842,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 6,
-         "g": 5,
-         "gp": 17,
-         "p": 11,
-         "ppp": 2,
-         "sog": 28,
-         "toi_s": 17500
+         "ppp": 6,
+         "sog": 48,
+         "toi_s": 21349
         },
         "last5": {
          "a": 2,
-         "g": 1,
+         "g": 3,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 4954
+         "p": 5,
+         "ppp": 2,
+         "sog": 12,
+         "toi_s": 6683
         },
         "l5_point_games": 3,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Yanni Gourde",
+        "jersey": 37,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8476826,
+        "dfo_id": 2566,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 1,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 941
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4364
+        },
+        "l5_point_games": 0,
+        "gp": 1,
+        "move": {
+         "ev": 0,
+         "pp": -1,
          "new": false
         }
        },
@@ -608,7 +608,7 @@
         "dfo_id": 36872,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
         "bias": null,
         "season": {
@@ -960,7 +960,7 @@
         "dfo_id": 1507,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -985,7 +985,7 @@
         "gp": 17,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        },
@@ -1198,41 +1198,41 @@
      "pp": [
       [
        {
-        "name": "Brandon Hagel",
-        "jersey": 38,
+        "name": "Sam O'Reilly",
+        "jersey": 23,
         "pos": null,
         "slot": 1,
-        "player_id": 8479542,
-        "dfo_id": 27046,
+        "player_id": null,
+        "dfo_id": 36872,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 1,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 9,
-         "g": 9,
-         "gp": 17,
-         "p": 18,
-         "ppp": 4,
-         "sog": 65,
-         "toi_s": 21254
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 1,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 5712
+         "p": 3,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 5327
         },
-        "l5_point_games": 2,
-        "gp": 17,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
-         "pp": 1,
-         "new": false
+         "pp": 0,
+         "new": true
         }
        },
        {
@@ -1268,7 +1268,7 @@
         "l5_point_games": 3,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -1312,40 +1312,40 @@
         }
        },
        {
-        "name": "John Carlson",
-        "jersey": 74,
+        "name": "Brandon Hagel",
+        "jersey": 38,
         "pos": null,
         "slot": 4,
-        "player_id": 8474590,
-        "dfo_id": 1507,
+        "player_id": 8479542,
+        "dfo_id": 27046,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
+        "pk": 1,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 5,
+         "a": 9,
+         "g": 9,
          "gp": 17,
-         "p": 10,
-         "ppp": 3,
-         "sog": 40,
-         "toi_s": 19692
+         "p": 18,
+         "ppp": 4,
+         "sog": 65,
+         "toi_s": 21254
         },
         "last5": {
-         "a": 3,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 4,
-         "ppp": 2,
-         "sog": 9,
-         "toi_s": 5866
+         "p": 2,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 5712
         },
         "l5_point_games": 2,
         "gp": 17,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
@@ -1460,7 +1460,7 @@
         "l5_point_games": 3,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1504,41 +1504,41 @@
         }
        },
        {
-        "name": "Sam O'Reilly",
-        "jersey": 23,
+        "name": "John Carlson",
+        "jersey": 74,
         "pos": null,
         "slot": 4,
-        "player_id": null,
-        "dfo_id": 36872,
+        "player_id": 8474590,
+        "dfo_id": 1507,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 0,
-         "p": 0,
-         "ppp": 0,
-         "sog": 0,
-         "toi_s": 0
+         "a": 5,
+         "g": 5,
+         "gp": 17,
+         "p": 10,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 19692
         },
         "last5": {
-         "a": 2,
+         "a": 3,
          "g": 1,
          "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 5327
+         "p": 4,
+         "ppp": 2,
+         "sog": 9,
+         "toi_s": 5866
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 2,
+        "gp": 17,
         "move": {
          "ev": 0,
-         "pp": 0,
-         "new": true
+         "pp": -1,
+         "new": false
         }
        },
        {
@@ -1616,7 +1616,7 @@
         "l5_point_games": 3,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1654,7 +1654,7 @@
         "l5_point_games": 2,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -1917,11 +1917,11 @@
       },
       "f1": {
        "rank": 8,
-       "rating": 78.18918167648224
+       "rating": 78.6009352010826
       },
       "f2": {
-       "rank": 12,
-       "rating": 74.51115086277801
+       "rank": 8,
+       "rating": 75.93841274502977
       },
       "f3": {
        "rank": 24,
