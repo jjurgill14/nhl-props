@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-12T17:42:32.061728+00:00",
+ "generated_utc": "2026-11-12T18:14:35.243864+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1159,6 +1159,26 @@
      "status": "in process"
     },
     "book_moneyline": null
+   },
+   "market": {
+    "status": "in process",
+    "line": null,
+    "over": null,
+    "under": null,
+    "vig_total": null,
+    "p_over": null,
+    "fair_over": null,
+    "fair_under": null,
+    "implied_total": null,
+    "ml_away": null,
+    "ml_home": null,
+    "vig_ml": null,
+    "p_home": null,
+    "xg_away": null,
+    "xg_home": null,
+    "tone": "",
+    "xg_tone_away": "",
+    "xg_tone_home": ""
    },
    "smash": {
     "flag": null,
@@ -4717,10 +4737,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": 109,
+    "under": -129,
+    "vig_total": 0.0418,
+    "p_over": 0.4593,
+    "fair_over": "+118",
+    "fair_under": "-118",
+    "implied_total": 6.26,
+    "ml_away": 106,
+    "ml_home": -126,
+    "vig_ml": 0.043,
+    "p_home": 0.5346,
+    "xg_away": 3.03,
+    "xg_home": 3.23,
+    "tone": "mid",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "good"
+   },
    "smash": {
     "flag": false,
     "label": "",
-    "why": "O/U 6.5 \u00b7 over +109 / under -129 \u00b7 under juiced"
+    "why": "Implied total 6.26 (line 6.5, over +109 / under -129, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -8258,10 +8298,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -101,
+    "under": -119,
+    "vig_total": 0.0459,
+    "p_over": 0.4805,
+    "fair_over": "+108",
+    "fair_under": "-108",
+    "implied_total": 6.39,
+    "ml_away": -169,
+    "ml_home": 144,
+    "vig_ml": 0.0381,
+    "p_home": 0.3948,
+    "xg_away": 3.49,
+    "xg_home": 2.9,
+    "tone": "good",
+    "xg_tone_away": "good",
+    "xg_tone_home": "bad"
+   },
    "smash": {
-    "flag": false,
-    "label": "",
-    "why": "O/U 6.5 \u00b7 over -101 / under -119 \u00b7 under juiced"
+    "flag": true,
+    "label": "SMASH",
+    "why": "Implied total 6.39 (line 6.5, over -101 / under -119, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -11813,10 +11873,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": 100,
+    "under": -120,
+    "vig_total": 0.0455,
+    "p_over": 0.4783,
+    "fair_over": "+109",
+    "fair_under": "-109",
+    "implied_total": 6.37,
+    "ml_away": -108,
+    "ml_home": -112,
+    "vig_ml": 0.0475,
+    "p_home": 0.5043,
+    "xg_away": 3.17,
+    "xg_home": 3.2,
+    "tone": "good",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": false,
-    "label": "",
-    "why": "O/U 6.5 \u00b7 over +100 / under -120 \u00b7 under juiced"
+    "flag": true,
+    "label": "SMASH",
+    "why": "Implied total 6.37 (line 6.5, over +100 / under -120, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -15348,10 +15428,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": 113,
+    "under": -133,
+    "vig_total": 0.0403,
+    "p_over": 0.4513,
+    "fair_over": "+122",
+    "fair_under": "-122",
+    "implied_total": 6.22,
+    "ml_away": 134,
+    "ml_home": -159,
+    "vig_ml": 0.0413,
+    "p_home": 0.5896,
+    "xg_away": 2.86,
+    "xg_home": 3.36,
+    "tone": "mid",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "good"
+   },
    "smash": {
     "flag": false,
     "label": "",
-    "why": "O/U 6.5 \u00b7 over +113 / under -133 \u00b7 under juiced"
+    "why": "Implied total 6.22 (line 6.5, over +113 / under -133, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -18856,10 +18956,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -106,
+    "under": -114,
+    "vig_total": 0.0473,
+    "p_over": 0.4913,
+    "fair_over": "+104",
+    "fair_under": "-104",
+    "implied_total": 6.45,
+    "ml_away": -116,
+    "ml_home": -104,
+    "vig_ml": 0.0468,
+    "p_home": 0.487,
+    "xg_away": 3.26,
+    "xg_home": 3.19,
+    "tone": "good",
+    "xg_tone_away": "good",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": false,
-    "label": "",
-    "why": "O/U 6.5 \u00b7 over -106 / under -114 \u00b7 under juiced"
+    "flag": true,
+    "label": "SMASH",
+    "why": "Implied total 6.45 (line 6.5, over -106 / under -114, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -22419,10 +22539,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -136,
+    "under": 116,
+    "vig_total": 0.0392,
+    "p_over": 0.5545,
+    "fair_over": "-124",
+    "fair_under": "+124",
+    "implied_total": 5.82,
+    "ml_away": 146,
+    "ml_home": -172,
+    "vig_ml": 0.0389,
+    "p_home": 0.6087,
+    "xg_away": 2.62,
+    "xg_home": 3.2,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "good"
+   },
    "smash": {
     "flag": false,
     "label": "",
-    "why": "O/U 5.5 \u00b7 over -136 / under +116 \u00b7 over juiced"
+    "why": "Implied total 5.82 (line 5.5, over -136 / under +116, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -25991,10 +26131,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -104,
+    "under": -116,
+    "vig_total": 0.0468,
+    "p_over": 0.487,
+    "fair_over": "+105",
+    "fair_under": "-105",
+    "implied_total": 6.42,
+    "ml_away": -155,
+    "ml_home": 130,
+    "vig_ml": 0.0426,
+    "p_home": 0.417,
+    "xg_away": 3.44,
+    "xg_home": 2.98,
+    "tone": "good",
+    "xg_tone_away": "good",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": false,
-    "label": "",
-    "why": "O/U 6.5 \u00b7 over -104 / under -116 \u00b7 under juiced"
+    "flag": true,
+    "label": "SMASH",
+    "why": "Implied total 6.42 (line 6.5, over -104 / under -116, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -29569,10 +29729,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -121,
+    "under": 101,
+    "vig_total": 0.045,
+    "p_over": 0.5239,
+    "fair_over": "-110",
+    "fair_under": "+110",
+    "implied_total": 5.64,
+    "ml_away": 148,
+    "ml_home": -176,
+    "vig_ml": 0.0409,
+    "p_home": 0.6126,
+    "xg_away": 2.52,
+    "xg_home": 3.12,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
     "flag": false,
     "label": "",
-    "why": "O/U 5.5 \u00b7 over -121 / under +101 \u00b7 over juiced"
+    "why": "Implied total 5.64 (line 5.5, over -121 / under +101, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -33157,10 +33337,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -136,
+    "under": 116,
+    "vig_total": 0.0392,
+    "p_over": 0.5545,
+    "fair_over": "-124",
+    "fair_under": "+124",
+    "implied_total": 5.82,
+    "ml_away": -107,
+    "ml_home": -113,
+    "vig_ml": 0.0474,
+    "p_home": 0.5065,
+    "xg_away": 2.89,
+    "xg_home": 2.93,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
     "flag": false,
     "label": "",
-    "why": "O/U 5.5 \u00b7 over -136 / under +116 \u00b7 over juiced"
+    "why": "Implied total 5.82 (line 5.5, over -136 / under +116, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [
@@ -36720,10 +36920,30 @@
      "provider": "JJ's book (screenshot)"
     }
    },
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -132,
+    "under": 112,
+    "vig_total": 0.0407,
+    "p_over": 0.5467,
+    "fair_over": "-121",
+    "fair_under": "+121",
+    "implied_total": 5.77,
+    "ml_away": 106,
+    "ml_home": -126,
+    "vig_ml": 0.043,
+    "p_home": 0.5346,
+    "xg_away": 2.79,
+    "xg_home": 2.98,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
     "flag": false,
     "label": "",
-    "why": "O/U 5.5 \u00b7 over -132 / under +112 \u00b7 over juiced"
+    "why": "Implied total 5.77 (line 5.5, over -132 / under +112, vig removed) \u00b7 threshold 6.35"
    },
    "lenses": {
     "point": [

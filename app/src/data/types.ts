@@ -61,6 +61,28 @@ export interface Game {
   lenses: Record<LensKey, Play[]>
   lineup?: GameLineup
   smash?: { flag: boolean | null; label: string; why: string }
+  market?: MarketBlock | null
+}
+
+export interface MarketBlock {
+  status: string | null
+  line: number | null
+  over: number | null
+  under: number | null
+  vig_total: number | null
+  p_over: number | null
+  fair_over: string | null
+  fair_under: string | null
+  implied_total: number | null
+  ml_away: number | null
+  ml_home: number | null
+  vig_ml: number | null
+  p_home: number | null
+  xg_away: number | null
+  xg_home: number | null
+  tone: '' | 'good' | 'mid' | 'bad'
+  xg_tone_away: '' | 'good' | 'mid' | 'bad'
+  xg_tone_home: '' | 'good' | 'mid' | 'bad'
 }
 
 export interface Board {

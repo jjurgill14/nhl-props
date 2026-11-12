@@ -20,6 +20,11 @@ export function TeamRatesPage({ board }: { board: Board }) {
   const [sort, setSort] = useState<Key>('gf')
   const tr = board.team_rates ?? {}
   const tonight = new Set(board.games.flatMap((g) => [g.away.abbr, g.home.abbr]))
+  const xg: Record<string, { v: number; tone: string; opp: string }> = {}
+  for (const g of board.games) {
+    if (g.market?.xg_away != null) xg[g.away.abbr] = { v: g.market.xg_away, tone: g.market.xg_tone_away, opp: `@ ${g.home.abbr}` }
+    if (g.market?.xg_home != null) xg[g.home.abbr] = { v: g.market.xg_home, tone: g.market.xg_tone_home, opp: `vs ${g.away.abbr}` }
+  }
   const rows = useMemo(
     () => Object.entries(tr).sort((a, b) => (a[1][`${sort}_rk`] ?? 99) - (b[1][`${sort}_rk`] ?? 99)),
     [tr, sort],
@@ -46,6 +51,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
           <tr>
             <th>TEAM</th>
             <th>GP</th>
+            <th title="Market-implied expected goals tonight (vig removed; implied total split by the moneyline)">xG TONIGHT</th>
             {COLS.map((c) => (
               <th key={c.key} className={sort === c.key ? 'on' : ''} onClick={() => setSort(c.key)} title={c.note}>
                 {c.label} <small>rk</small>
@@ -61,6 +67,10 @@ export function TeamRatesPage({ board }: { board: Board }) {
                 {tonight.has(abbr) && <small>TONIGHT</small>}
               </td>
               <td>{r.gp ?? '—'}</td>
+              <td className={`xgcol ${xg[abbr]?.tone ?? ''}`}>
+                {xg[abbr] ? xg[abbr].v.toFixed(2) : tonight.has(abbr) ? 'pending' : ''}
+                {xg[abbr] && <small>{xg[abbr].opp}</small>}
+              </td>
               {COLS.map((c) => {
                 const rk = r[`${c.key}_rk`]
                 const tone = c.key === 'ppg' ? chipTone('gf', rk) : c.key === 'ppga' ? chipTone('ga', rk) : chipTone(c.key, rk)

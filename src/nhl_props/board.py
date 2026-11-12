@@ -13,7 +13,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import analysis, lineup_view, model, results, schedule
+from . import analysis, lineup_view, market, model, results, schedule
 from .common import read_json
 
 DOCS = results.DATA.parent / "docs"
@@ -37,14 +37,6 @@ TEAM_META = {
     "WPG": ("Winnipeg", "Jets", "#041E42", "#004C97"), "WSH": ("Washington", "Capitals", "#041E42", "#C8102E"),
 }
 
-def implied(american) -> float | None:
-    try:
-        a = int(american)
-    except (TypeError, ValueError):
-        return None
-    return 100 / (a + 100) if a > 0 else -a / (-a + 100)
-
-
 def manual_odds(date: str) -> dict[tuple[str, str], dict]:
     """Book lines JJ typed in for the day (data/odds_manual/<date>.json) until the odds feed exists."""
     d = read_json(results.DATA / "odds_manual" / f"{date}.json")
@@ -54,24 +46,6 @@ def manual_odds(date: str) -> dict[tuple[str, str], dict]:
     for g in d.get("games", []):
         out[(g["away"], g["home"])] = {**g, "source": d.get("source"), "as_of": d.get("as_of")}
     return out
-
-
-SMASH_TOTAL = 6.5
-
-
-def smash(total: dict) -> dict:
-    """Smash game, v1 rule (JJ, 2026-11-12): total of 6.5+ with the OVER juiced (over priced shorter than the under).
-    Returns {flag: bool|None, label, why}. flag None = not enough info yet."""
-    if total.get("status") == "in process" or total.get("line") is None:
-        return {"flag": None, "label": "IN PROCESS", "why": "No line entered yet."}
-    o, u = implied(total.get("over")), implied(total.get("under"))
-    line = total["line"]
-    if o is None or u is None:
-        return {"flag": None, "label": "NO PRICE", "why": "Total known, prices missing."}
-    juiced = o > u
-    ok = line >= SMASH_TOTAL and juiced
-    why = f"O/U {line} · over {total['over']:+d} / under {total['under']:+d} · " + ("over juiced" if juiced else "under juiced")
-    return {"flag": ok, "label": "SMASH" if ok else "", "why": why}
 
 
 LENSES = {
@@ -215,6 +189,7 @@ def build(date: str | None = None) -> Path:
         a, h = team("away"), team("home")
         ml_a, ml_h = g["teams"]["away"]["ml"], g["teams"]["home"]["ml"]
         book = odds.get((g["away"], g["home"]), {})
+        mkt = market.analyze(book) if book else None
         def amer(v):
             try:
                 v = int(float(v)); return f"+{v}" if v > 0 else str(v)
@@ -230,7 +205,8 @@ def build(date: str | None = None) -> Path:
                           "provider": book.get("source"), "as_of": book.get("as_of"), "status": book.get("status")},
                 "book_moneyline": {"away": book.get("ml_away"), "home": book.get("ml_home"), "provider": book.get("source")} if book.get("ml_away") is not None else None,
             },
-            "smash": smash({"line": book.get("total"), "over": book.get("over"), "under": book.get("under"), "status": book.get("status")}) if book else {"flag": None, "label": "NO LINE", "why": "No book line for this game."},
+            "market": mkt,
+            "smash": market.smash(mkt) if mkt else {"flag": None, "label": "NO LINE", "why": "No book line for this game."},
             "lenses": lenses_for(g, ids),
             "lineup": lineup_view.game_lineups(g["away"], g["home"], date, logs, ids, grec),
         })

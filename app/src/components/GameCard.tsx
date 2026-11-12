@@ -22,7 +22,7 @@ export function Crest({ team, small = false }: { team: TeamSide; small?: boolean
   )
 }
 
-function BigTeam({ team, opp, position }: { team: TeamSide; opp: TeamSide; position: 'AWAY' | 'HOME' }) {
+function BigTeam({ team, opp, position, xg, xgTone }: { team: TeamSide; opp: TeamSide; position: 'AWAY' | 'HOME'; xg: number | null; xgTone: string }) {
   const st = team.goalie_status
   const cls = st === 'Confirmed' ? 'ok' : st === 'Likely' || st === 'Expected' ? 'likely' : ''
   return (
@@ -31,7 +31,14 @@ function BigTeam({ team, opp, position }: { team: TeamSide; opp: TeamSide; posit
       <div className="team-name" title={`${team.city} ${team.name}`}>
         {team.city}
       </div>
-      <div className="team-record">{team.record}</div>
+      <div className="team-record">
+        {team.record}
+        {xg != null && (
+          <span className={`xg ${xgTone}`} title="Market-implied expected goals tonight (vig removed; total split by the moneyline)">
+            xG {xg.toFixed(2)}
+          </span>
+        )}
+      </div>
       <div className="location">
         {position}
         {team.b2b && <span className="status-badge b2b">B2B</span>}
@@ -48,29 +55,25 @@ function amer(v: number | null | undefined): string {
   return v == null ? '—' : v > 0 ? `+${v}` : String(v)
 }
 
-/** implied probability of an American price */
-function implied(v: number | null | undefined): number | null {
-  if (v == null) return null
-  return v > 0 ? 100 / (v + 100) : -v / (-v + 100)
-}
-
 
 export function TotalsBar({ game }: { game: Game }) {
   const { markets, away, home } = game
   const t = markets.total
   const line = t.line
-  const pOver = implied(t.over)
-  const pUnder = implied(t.under)
-  const lineTone = line == null ? '' : line >= 6.5 ? 'good' : line <= 5.5 ? 'bad' : 'mid'
-  // ✓ only when the book makes the over at least as likely as the under (same test as the SMASH rule)
-  const juiceTone = pOver == null || pUnder == null ? '' : pOver >= pUnder ? 'good' : 'bad'
+  const m = game.market
+  // one number drives everything: the market-implied total (vig removed) — green ≥ 6.35, amber ≥ 6.2, red below
+  const lineTone = m?.tone ?? ''
+  const juiceTone = lineTone
   const bml = markets.book_moneyline
   return (
     <div className="totals" title={game.smash?.why}>
       <div className="tot-main">
         <div className="tot-label">GAME O/U</div>
         {line != null ? (
-          <div className={`tot-line ${lineTone}`}>{line}</div>
+          <div className={`tot-line ${lineTone}`} title={`Line ${line} · implied total ${m?.implied_total ?? '–'} after removing vig`}>
+            {line}
+            {m?.implied_total != null && <small>→ {m.implied_total.toFixed(2)}</small>}
+          </div>
         ) : (
           <div className="tot-line none">{t.status === 'in process' ? 'IN PROCESS' : 'NO LINE'}</div>
         )}
@@ -79,8 +82,9 @@ export function TotalsBar({ game }: { game: Game }) {
         {t.over != null ? (
           <>
             <div className={`tot-side ${juiceTone}`}>
-              <span className="mark">{juiceTone === 'good' ? '✓' : '✗'}</span>
+              <span className="mark">{juiceTone === 'good' ? '✓' : juiceTone === 'bad' ? '✗' : '~'}</span>
               <span>OVER <b>{amer(t.over)}</b></span>
+              {m?.fair_over && <small className="fair">fair {m.fair_over}</small>}
             </div>
             <div className="tot-side muted">
               <span className="mark"> </span>
@@ -195,9 +199,9 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
         </span>
       </div>
       <div className="matchup">
-        <BigTeam team={away} opp={home} position="AWAY" />
+        <BigTeam team={away} opp={home} position="AWAY" xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} />
         <span className="vs">AT</span>
-        <BigTeam team={home} opp={away} position="HOME" />
+        <BigTeam team={home} opp={away} position="HOME" xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} />
       </div>
       <TotalsBar game={game} />
       <div className="play-section">

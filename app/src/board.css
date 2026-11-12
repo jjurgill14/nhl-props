@@ -333,7 +333,7 @@ button:disabled{cursor:default;opacity:.55}
 .tr-table td{padding:8px 10px;border-bottom:1px solid #1f3140;text-align:right;font-variant-numeric:tabular-nums}
 .tr-table td:first-child{display:flex;align-items:center;gap:8px;font-weight:800}.tr-table td img{width:26px;height:26px;object-fit:contain}
 .tr-table tr.tonight td{background:#13232f}.tr-table small{color:#6f8fa3;font-size:10px;margin-left:4px}
-.tr-table .hot{color:#9de0b6}.tr-table .cold{color:#f87171}.tr-table .mid{color:#f0bd81}
+.tr-table .hot{color:#9de0b6}.tr-table .cold{color:#f87171}.tr-table .mid{color:#f0bd81}.tr-table .good{color:#9de0b6}.tr-table .bad{color:#f87171}
 .tr-note{color:#738b9e;font-size:12px;margin:10px 0 0;line-height:1.6}
 
 /* ===== SMASH GAMES ===== */
@@ -359,3 +359,11 @@ button:disabled{cursor:default;opacity:.55}
 .tot-ml{display:flex;flex-direction:column;gap:3px;text-align:right;font-size:10px;color:#7f98a8;font-weight:700}.tot-ml b{color:#b6c8d4;font-size:11px;margin-left:4px}
 .card{min-height:0}
 .card-head{padding:11px 16px 0}.matchup{padding-top:2px}.crest{margin-bottom:2px}.team-name{margin-top:0}
+
+/* ===== xG + implied total ===== */
+.xg{display:inline-block;margin-left:7px;padding:1px 6px;border-radius:5px;font-size:10px;font-weight:850;letter-spacing:.3px;border:1px solid #243849;background:#0d1a26;color:#c9d7e0;vertical-align:middle}
+.xg.good{color:#4ade80;border-color:#2e6a4a;background:#122a1f}.xg.mid{color:#f0bd81;border-color:#6b5230;background:#2e2414}.xg.bad{color:#f87171;border-color:#6b2e2e;background:#2a1414}
+.tot-line small{display:block;font-size:10px;font-weight:800;letter-spacing:.2px;opacity:.85;margin-top:2px}
+.tot-side .fair{font-size:9px;color:#7f98a8;font-weight:700;margin-left:6px}
+.tot-side.mid{color:#f0bd81}
+.tr-table .xgcol{font-weight:850}
