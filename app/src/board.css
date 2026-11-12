@@ -377,3 +377,10 @@ button:disabled{cursor:default;opacity:.55}
 .gstate.live{color:#f0bd81;border-color:#6b5230;background:#2e2414}
 .gstate.final{color:#f87171;border-color:#6b2e2e;background:#2a1414}
 .status-badge.smash{margin-left:0}
+
+/* ===== CARD TOP STRIPE = implied-total tone (was the home team's color) ===== */
+.card:before{background:#2a3d4c;opacity:1}
+.card.tone-good:before{background:linear-gradient(90deg,#4ade80,#4ade8033)}
+.card.tone-mid:before{background:linear-gradient(90deg,#f0bd81,#f0bd8133)}
+.card.tone-bad:before{background:linear-gradient(90deg,#f87171,#f8717133)}
+.card.tone-none:before{background:#2a3d4c}

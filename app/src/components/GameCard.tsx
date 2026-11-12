@@ -176,11 +176,10 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
   return (
     <article
-      className={`card${game.smash?.flag ? ' smash-card' : ''}`}
+      className={`card tone-${game.market?.tone || 'none'}${game.smash?.flag ? ' smash-card' : ''}`}
       role="button"
       tabIndex={0}
       aria-label={label}
-      style={{ ['--team-accent' as string]: home.color }}
       onClick={(e) => {
         if (!(e.target as HTMLElement).closest('button, .play-row.clickable')) onOpen(game.id)
       }}
