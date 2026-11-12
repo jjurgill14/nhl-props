@@ -105,10 +105,14 @@ export function TotalsBar({ game }: { game: Game }) {
 
 /** Card label from the NHL schedule state, corrected by the clock: the pipeline's last pull can be hours old,
  *  so a game whose puck drop has passed is IN PROCESS until the pipeline reports it final. */
+const FINAL_AFTER_MS = 3.25 * 60 * 60 * 1000 // a game is over 3h15m after puck drop, OT and all
+
 export function gameState(status: string | null, startUtc?: string, now: number = Date.now()): { label: string; cls: string } {
   if (status === 'OFF' || status === 'FINAL') return { label: 'FINAL', cls: 'final' }
+  const start = startUtc ? Date.parse(startUtc) : NaN
+  if (!Number.isNaN(start) && now >= start + FINAL_AFTER_MS) return { label: 'FINAL', cls: 'final' } // pipeline confirms overnight
   if (status === 'LIVE' || status === 'CRIT') return { label: 'IN PROCESS', cls: 'live' }
-  if (startUtc && now >= Date.parse(startUtc)) return { label: 'IN PROCESS', cls: 'live' }
+  if (!Number.isNaN(start) && now >= start) return { label: 'IN PROCESS', cls: 'live' }
   return { label: 'UPCOMING', cls: 'upcoming' }
 }
 
@@ -176,7 +180,7 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
   return (
     <article
-      className={`card tone-${game.market?.tone || 'none'}${game.smash?.flag ? ` smash-card smash-${game.smash.kind}` : ''}`}
+      className={`card state-${gameState(game.status, game.start_utc).cls}${game.smash?.flag ? ` smash-card smash-${game.smash.kind}` : ''}`}
       role="button"
       tabIndex={0}
       aria-label={label}

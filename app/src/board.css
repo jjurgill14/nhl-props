@@ -390,3 +390,13 @@ button:disabled{cursor:default;opacity:.55}
 .card.smash-side{border-color:#69cbd1;box-shadow:0 0 0 1px #69cbd155, 0 10px 30px #69cbd118}
 .card.smash-side:before{background:linear-gradient(90deg,#69cbd1,#69cbd133)}
 .stat.smash-stat .stat-suffix{font-size:11px}
+
+/* ===== OUTLINES: plain by default; FINAL red; SMASH green/teal. Nothing else. ===== */
+.card{border-color:#304454!important;box-shadow:none!important}
+.card:before{display:none!important}
+.card:hover{border-color:#3f5a6b!important;transform:none}
+.card.state-final{border-color:#7a2e2e!important;box-shadow:0 0 0 1px #7a2e2e55!important}
+.card.state-final .gstate.final{box-shadow:0 0 0 3px #f8717122}
+.card.smash-card.smash-all{border-color:#4ade80!important;box-shadow:0 0 0 1px #4ade8055, 0 10px 30px #4ade8018!important}
+.card.smash-card.smash-side{border-color:#69cbd1!important;box-shadow:0 0 0 1px #69cbd155, 0 10px 30px #69cbd118!important}
+.card.state-final.smash-card{border-color:#7a2e2e!important;box-shadow:0 0 0 1px #7a2e2e55!important}

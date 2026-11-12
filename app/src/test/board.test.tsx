@@ -129,5 +129,6 @@ describe('game state badge', () => {
     expect(gameState('FUT', '2026-11-12T17:00:00Z', t0 + 60_000).label).toBe('IN PROCESS')
     expect(gameState('OFF', '2026-11-12T17:00:00Z', t0 + 60_000).label).toBe('FINAL')
     expect(gameState('LIVE', '2026-11-12T17:00:00Z', t0 - 60_000).label).toBe('IN PROCESS')
+    expect(gameState('LIVE', '2026-11-12T17:00:00Z', t0 + 3.5 * 3600_000).label).toBe('FINAL')
   })
 })
