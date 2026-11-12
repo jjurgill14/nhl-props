@@ -64,6 +64,25 @@ def records(before_date: str) -> dict[str, dict]:
     return {t: {**r, "text": f"{r['w']}-{r['l']}-{r['otl']}"} for t, r in rec.items()}
 
 
+RATE_KEYS = ["gf", "ga", "sf", "sa", "pp", "pk"]
+
+
+def _rates_block(r: dict, r5: dict) -> dict:
+    """The six metrics JJ wants on every team, season + L5, with ranks (1 = most / best)."""
+    def pct(v):
+        return None if v is None else round(100 * v, 1)
+    return {
+        "gp": r.get("gp"), "pp_gp": r.get("pp_gp"),
+        "gf": round(r.get("gf", 0), 2), "gf_rk": r.get("gf_rk"), "gf_l5": round(r5.get("gf", 0), 2),
+        "ga": round(r.get("ga", 0), 2), "ga_rk": r.get("ga_rk"), "ga_l5": round(r5.get("ga", 0), 2),
+        "sf": round(r.get("sf", 0), 1), "sf_rk": r.get("sf_rk"), "sf_l5": round(r5.get("sf", 0), 1),
+        "sa": round(r.get("sa", 0), 1), "sa_rk": r.get("sa_rk"), "sa_l5": round(r5.get("sa", 0), 1),
+        "pp": pct(r.get("pp_pct")), "pp_rk": r.get("pp_rk"), "pp_l5": pct(r5.get("pp_pct")), "pp_opps": r.get("pp_opps"),
+        "pk": pct(r.get("pk_pct")), "pk_rk": r.get("pk_rk"), "pk_l5": pct(r5.get("pk_pct")), "pk_faced": r.get("pk_faced"),
+        "ppg": round(r.get("ppg", 0), 2), "ppg_rk": r.get("ppg_rk"), "ppga": round(r.get("ppga", 0), 2), "ppga_rk": r.get("ppga_rk"),
+    }
+
+
 def _play(selection: str, p: float, rationale: str, **extra) -> dict:
     return {"selection": selection, "prob": round(p, 3), "fair": model.american(p),
             "need": model.american(p / model.EDGE), "rationale": rationale, **extra}
@@ -138,6 +157,8 @@ def build(date: str | None = None) -> Path:
     slate = model.build_slate(date)
     rec = records(date)
     boxes = analysis.all_boxscores()
+    season = analysis.team_rates(boxes)
+    l5 = analysis.team_rates(boxes, 5)
     logs = analysis.player_logs(boxes)
     ids = lineup_view.player_ids()
     grec = lineup_view.goalie_records()
@@ -151,7 +172,8 @@ def build(date: str | None = None) -> Path:
                     "goalie": t["goalie"], "goalie_status": t["goalie_status"], "goalie_news": t["goalie_news"],
                     "goalie_source": t["goalie_source"], "sv": t["sv"], "gaa": t["gaa"],
                     "lineup_as_of": t["lineup_as_of"], "lineup_stale": t["lineup_stale"],
-                    "ga_rk": t["ga_rk"], "gf_rk": t["gf_rk"], "ppga_rk": t["ppga_rk"]}
+                    "ga_rk": t["ga_rk"], "gf_rk": t["gf_rk"], "ppga_rk": t["ppga_rk"],
+                    "rates": _rates_block(season.get(t["team"], {}), l5.get(t["team"], {}))}
         a, h = team("away"), team("home")
         ml_a, ml_h = g["teams"]["away"]["ml"], g["teams"]["home"]["ml"]
         def amer(v):
@@ -170,7 +192,10 @@ def build(date: str | None = None) -> Path:
             "lenses": lenses_for(g, ids),
             "lineup": lineup_view.game_lineups(g["away"], g["home"], date, logs, ids, grec),
         })
-    board = {"mode": "live", "date": date, "generated_utc": datetime.now(timezone.utc).isoformat(),
+    team_rates = {t: {**_rates_block(season[t], l5.get(t, {})), **dict(zip(("city", "name", "color", "color2"), TEAM_META.get(t, (t, "", "#888", "#444"))))}
+                  for t in season}
+    (DOCS / "team_rates.json").write_text(json.dumps({"date": date, "teams": team_rates}, indent=1), encoding="utf-8")
+    board = {"mode": "live", "date": date, "team_rates": team_rates, "generated_utc": datetime.now(timezone.utc).isoformat(),
              "lenses": LENSES, "default_slots": ["point", "pair", "two"], "games": out_games,
              "sources": {"schedule": "NHL API", "lineups": "Daily Faceoff", "goalies": "Daily Faceoff",
                          "moneyline": "Daily Faceoff", "stats": "NHL API boxscores", "model": "nhl_props.model v1"}}

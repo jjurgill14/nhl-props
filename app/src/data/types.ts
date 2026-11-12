@@ -40,6 +40,7 @@ export interface TeamSide {
   ga_rk: number | null
   gf_rk: number | null
   ppga_rk: number | null
+  rates?: TeamRates
 }
 
 export interface Markets {
@@ -68,6 +69,7 @@ export interface Board {
   default_slots: LensKey[]
   games: Game[]
   sources: Record<string, string>
+  team_rates?: Record<string, TeamRates & { city: string; name: string; color: string; color2: string }>
   /** Set by the app when a board is loaded as a labeled historical snapshot. */
   snapshot_label?: string
 }
@@ -145,3 +147,16 @@ export interface PlayerLog {
 }
 
 export type StatKey = 'g' | 'a' | 'p' | 'sog'
+
+// ---- Team rates (six metrics, season + L5, ranks: 1 = most / best) ----
+export interface TeamRates {
+  gp: number | null
+  pp_gp: number | null
+  gf: number; gf_rk: number | null; gf_l5: number
+  ga: number; ga_rk: number | null; ga_l5: number
+  sf: number; sf_rk: number | null; sf_l5: number
+  sa: number; sa_rk: number | null; sa_l5: number
+  pp: number | null; pp_rk: number | null; pp_l5: number | null; pp_opps: number | null
+  pk: number | null; pk_rk: number | null; pk_l5: number | null; pk_faced: number | null
+  ppg: number; ppg_rk: number | null; ppga: number; ppga_rk: number | null
+}

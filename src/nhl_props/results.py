@@ -36,6 +36,63 @@ def fetch_boxscore(game_id: int) -> dict:
     return get_json(f"{NHL_WEB}/gamecenter/{game_id}/boxscore")
 
 
+def fetch_team_stats(game_id: int) -> dict:
+    """Team-level game stats (SOG, power play 'made/opps', PIM, ...) from the gamecenter right-rail,
+    with the landing page as fallback. Returns {} if neither has them yet."""
+    out: dict = {}
+    for url in (f"{NHL_WEB}/gamecenter/{game_id}/right-rail", f"{NHL_WEB}/gamecenter/{game_id}/landing"):
+        try:
+            d = get_json(url)
+        except Exception:
+            continue
+        stats = d.get("teamGameStats") or (d.get("summary") or {}).get("teamGameStats") or []
+        for row in stats:
+            cat = row.get("category")
+            if cat in ("sog", "powerPlay", "pim", "hits", "blockedShots", "faceoffWinningPctg"):
+                out[cat] = (row.get("awayValue"), row.get("homeValue"))
+        if "powerPlay" in out:
+            break
+    return out
+
+
+def _pp_split(v) -> tuple[int | None, int | None]:
+    """'1/4' -> (1, 4)"""
+    try:
+        a, b = str(v).split("/")
+        return int(a), int(b)
+    except (ValueError, AttributeError):
+        return None, None
+
+
+def team_stats_fields(ts: dict) -> dict:
+    a_pp, h_pp = ts.get("powerPlay", (None, None))
+    a_g, a_o = _pp_split(a_pp)
+    h_g, h_o = _pp_split(h_pp)
+    a_sog, h_sog = ts.get("sog", (None, None))
+    return {"away_sog": a_sog, "home_sog": h_sog,
+            "away_pp_goals": a_g, "away_pp_opps": a_o, "home_pp_goals": h_g, "home_pp_opps": h_o}
+
+
+def fill_team_stats(limit: int | None = None) -> int:
+    """Backfill PP opportunities / team SOG into data/games/*.json that lack them. Idempotent."""
+    from .common import read_json
+    n = 0
+    for f in sorted(GAMEINFO_DIR.glob("*.json")):
+        g = read_json(f)
+        if not g or g.get("away_pp_opps") is not None:
+            continue
+        ts = fetch_team_stats(int(g["game_id"]))
+        if "powerPlay" not in ts:
+            continue
+        g.update(team_stats_fields(ts))
+        write_json(f, g)
+        n += 1
+        if limit and n >= limit:
+            break
+    log.info("team stats filled for %d games", n)
+    return n
+
+
 def boxscore_rows(box: dict) -> list[dict]:
     rows = []
     date = box.get("gameDate")
@@ -168,6 +225,7 @@ def ingest_game(game_id: int, *, force: bool = False) -> str:
         "away_score": box["awayTeam"].get("score"), "home_score": box["homeTeam"].get("score"),
         "periods": (box.get("periodDescriptor") or {}).get("number"),
         "last_period_type": (box.get("gameOutcome") or {}).get("lastPeriodType"),
+        **team_stats_fields(fetch_team_stats(game_id)),
     })
     try:
         shifts = shifts_pre if shifts_pre is not None else fetch_shifts(game_id)

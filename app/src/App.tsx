@@ -5,6 +5,7 @@ import { Board } from './pages/Board'
 import { Placeholder } from './pages/Placeholder'
 import { Lineups } from './pages/Lineups'
 import { PropsPage, type PropsTarget } from './pages/Props'
+import { TeamRatesPage } from './pages/TeamRates'
 import { loadBoard } from './data/load'
 import type { LoadState } from './data/types'
 
@@ -48,7 +49,7 @@ export default function App() {
 
   return (
     <Shell route={route} onRoute={setRoute} mode={mode} statusLabel={statusLabel}>
-      {route !== 'slate' && route !== 'lineups' && route !== 'props' ? (
+      {route !== 'slate' && route !== 'lineups' && route !== 'props' && route !== 'rates' ? (
         <Placeholder route={route} />
       ) : state.kind === 'loading' ? (
         <div className="state-box" style={{ marginTop: 40 }}>
@@ -58,6 +59,8 @@ export default function App() {
         <div className="state-box err" style={{ marginTop: 40 }}>
           Couldn't load the board ({state.message}). The pipeline writes it each morning; if it's early, check back after 6 AM ET.
         </div>
+      ) : route === 'rates' ? (
+        <TeamRatesPage board={state.board} />
       ) : route === 'props' ? (
         <PropsPage board={state.board} target={propsTarget} onChange={setPropsTarget} />
       ) : route === 'lineups' ? (

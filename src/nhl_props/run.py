@@ -62,6 +62,7 @@ def evening(date: str) -> None:
 
 
 def overnight(date: str) -> None:
+    results.fill_team_stats()  # PP opportunities for any game that lacks them (idempotent)
     # runs ~4am ET: finalize yesterday's games (and catch stragglers from earlier)
     ingest_finished(_dates_back(4, date))
 

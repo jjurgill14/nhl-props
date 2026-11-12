@@ -6,6 +6,7 @@ const TITLES: Record<Route, [string, string]> = {
   lineups: ['Lines & lineups', 'LW / C / RW grid, D pairs, PP units, goalies. Design approved; build is next.'],
   changes: ['Line changes', 'Promotions, demotions and new faces vs. the previous game day. Design pending.'],
   props: ['Player props', 'Design pending.'],
+  rates: ['Team rates', ''],
   analysis: ['Betting analysis', 'Prediction log, grading, calibration. Design pending.'],
 }
 

@@ -3,6 +3,7 @@ import type { Board, Game, LineupPlayer, TeamLineup, TeamSide } from '../data/ty
 import { LOGO } from '../data/load'
 import { etStamp, etTime } from '../data/time'
 import { Sweater } from '../components/Sweater'
+import { RankStrip } from '../components/RankStrip'
 
 function Tag({ p }: { p: LineupPlayer }) {
   return (
@@ -83,6 +84,7 @@ function TeamPanel({ lu, team, side, goalieStatus, onPlayer }: { lu: TeamLineup 
             {lu.stale ? <b className="warn">last known lineup</b> : 'lineup'} as of {etStamp(lu.as_of)} ET
             {team.b2b && <i className="lu-tag b2b">B2B</i>}
           </div>
+          <RankStrip r={team.rates} />
         </div>
       </header>
 

@@ -12,6 +12,7 @@ export function propsFor(play: Play, lens: LensKey): { players: number[]; stat?:
 }
 import { LOGO } from '../data/load'
 import { etTime } from '../data/time'
+import { RankStrip } from './RankStrip'
 
 export function Crest({ team, small = false }: { team: TeamSide; small?: boolean }) {
   return (
@@ -39,6 +40,7 @@ function BigTeam({ team, position }: { team: TeamSide; position: 'AWAY' | 'HOME'
       <div className="goalie-line" title={team.goalie_news ?? undefined}>
         🥅 <b>{team.goalie ?? 'TBD'}</b> <span className={cls}>{st ?? 'unconfirmed'}</span>
       </div>
+      <RankStrip r={team.rates} compact />
     </div>
   )
 }

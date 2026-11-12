@@ -86,33 +86,71 @@ def bias(rows: list[dict], n: int = 10) -> str | None:
 
 # ----------------------------------------------------------------------------- team rates
 def team_rates(boxes: dict[int, list[dict]], last_n: int | None = None) -> dict[str, dict]:
-    """Per team: GF, SF, GA, SA per game (season or last N games)."""
+    """Per team, season or last N: GF, GA, SF, SA per game, PP% and PK%, each with a league rank.
+
+    Rank convention (JJ's): 1 = MOST for every raw rate — so gf_rk 1 = best offense, ga_rk 1 = allows the
+    most (weakest defense), sa_rk 1 = allows the most shots. pp_rk 1 = best PP, pk_rk 1 = best PK.
+    PP opportunities come from data/games/<id>.json (right-rail); games missing them count toward
+    goals/shots but not toward PP%/PK%, and pp_gp says how many games the special-teams rates rest on.
+    """
+    import glob as _glob
+    from .common import read_json
+    from . import results as _results
+    ginfo: dict[int, dict] = {}
+    for f in _glob.glob(str(_results.GAMEINFO_DIR / "*.json")):
+        g = read_json(Path(f))
+        if g:
+            ginfo[int(g["game_id"])] = g
     per_game: dict[str, list[dict]] = defaultdict(list)
     for gid in sorted(boxes):
         rows = boxes[gid]
         teams = sorted({r["team"] for r in rows})
         if len(teams) != 2:
             continue
-        agg = {t: {"g": 0, "s": 0} for t in teams}
+        agg = {t: {"g": 0, "s": 0, "ppg": 0} for t in teams}
         for r in rows:
             if r.get("pos") == "G":
                 continue
             agg[r["team"]]["g"] += _i(r.get("goals"))
             agg[r["team"]]["s"] += _i(r.get("sog"))
+            agg[r["team"]]["ppg"] += _i(r.get("pp_goals"))
+        info = ginfo.get(gid, {})
+        opps = {}
+        if info.get("away_pp_opps") is not None:
+            opps[info["away"]] = (info.get("away_pp_goals"), info["away_pp_opps"])
+            opps[info["home"]] = (info.get("home_pp_goals"), info["home_pp_opps"])
         date = rows[0].get("date")
         for t in teams:
             o = teams[1] if t == teams[0] else teams[0]
-            per_game[t].append({"date": date, "gf": agg[t]["g"], "sf": agg[t]["s"], "ga": agg[o]["g"], "sa": agg[o]["s"]})
+            rec = {"date": date, "gf": agg[t]["g"], "sf": agg[t]["s"], "ga": agg[o]["g"], "sa": agg[o]["s"],
+                   "ppg": agg[t]["ppg"], "ppga": agg[o]["ppg"]}
+            if t in opps and o in opps:
+                rec["pp_opps"] = opps[t][1]
+                rec["pk_faced"] = opps[o][1]
+            per_game[t].append(rec)
     out = {}
     for t, gs in per_game.items():
         gs = gs[-last_n:] if last_n else gs
         n = len(gs)
+        st = [g for g in gs if "pp_opps" in g]
+        pp_o = sum(g["pp_opps"] for g in st)
+        pk_f = sum(g["pk_faced"] for g in st)
         out[t] = {"gp": n, "gf": sum(g["gf"] for g in gs) / n, "sf": sum(g["sf"] for g in gs) / n,
-                  "ga": sum(g["ga"] for g in gs) / n, "sa": sum(g["sa"] for g in gs) / n}
-    # ranks: 1 = most (gf/sf) and 1 = most allowed (ga/sa) -- i.e. rank 1 on ga = weakest defense
-    for key in ("gf", "sf", "ga", "sa"):
+                  "ga": sum(g["ga"] for g in gs) / n, "sa": sum(g["sa"] for g in gs) / n,
+                  "ppg": sum(g["ppg"] for g in gs) / n, "ppga": sum(g["ppga"] for g in gs) / n,
+                  "pp_gp": len(st),
+                  "pp_pct": (sum(g["ppg"] for g in st) / pp_o) if pp_o else None,
+                  "pk_pct": (1 - sum(g["ppga"] for g in st) / pk_f) if pk_f else None,
+                  "pp_opps": pp_o / len(st) if st else None, "pk_faced": pk_f / len(st) if st else None}
+    for key in ("gf", "sf", "ga", "sa", "ppg", "ppga"):
         for i, t in enumerate(sorted(out, key=lambda x: out[x][key], reverse=True), 1):
             out[t][key + "_rk"] = i
+    for key in ("pp_pct", "pk_pct"):
+        have = [t for t in out if out[t][key] is not None]
+        for i, t in enumerate(sorted(have, key=lambda x: out[x][key], reverse=True), 1):
+            out[t][key.replace("_pct", "") + "_rk"] = i
+        for t in out:
+            out[t].setdefault(key.replace("_pct", "") + "_rk", None)
     return out
 
 
