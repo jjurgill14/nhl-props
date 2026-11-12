@@ -17,7 +17,6 @@ import { RankStrip } from './RankStrip'
 export function Crest({ team, small = false }: { team: TeamSide; small?: boolean }) {
   return (
     <div className={small ? 'small-logo' : 'crest'} style={{ ['--logo-color' as string]: team.color }}>
-      <b className="abbr">{team.abbr}</b>
       <img alt={`${team.city} ${team.name} logo`} loading="lazy" src={LOGO(team.abbr)} />
     </div>
   )
