@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_utc": "2026-11-12T23:30:59.549747+00:00",
+ "generated_utc": "2026-11-12T23:46:05.388923+00:00",
  "games": [
   {
    "game_id": 2026020309,
@@ -1407,7 +1407,7 @@
      "ppga_rk": 8,
      "l5_gf": 3.8,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-12T22:00:20.197499+00:00",
+     "lineup_as_of": "2026-11-12T23:46:03.372424+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -1419,11 +1419,6 @@
        "player": "Sam Montembeault",
        "status": "IR",
        "news": "Montembeault (lower-body) is expected to be out for the next 10 to 14 days."
-      },
-      {
-       "player": "Mike Matheson",
-       "status": "OUT",
-       "news": "Matheson (lower-body) will return in Boston on Thursday."
       }
      ],
      "lines": {
@@ -3458,7 +3453,7 @@
      "ppga_rk": 28,
      "l5_gf": 2.2,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-12T22:00:20.467612+00:00",
+     "lineup_as_of": "2026-11-12T23:46:03.731538+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3487,9 +3482,9 @@
        "news": "Rielly (lower-body) is still considered day-to-day."
       },
       {
-       "player": "Zack MacEwen",
+       "player": "Chris Tanev",
        "status": "DTD",
-       "news": "MacEwen (wrist) will be a game-time decision vs. Minnesota on Thursday."
+       "news": "Tanev is out vs. Minnesota due to planned maintenance."
       }
      ],
      "lines": {
@@ -3510,7 +3505,8 @@
       ],
       "4": [
        "Brandon Duhaime",
-       "Teddy Blueger"
+       "Teddy Blueger",
+       "Zack MacEwen"
       ]
      },
      "pp1": [
@@ -5546,7 +5542,7 @@
      "ppga_rk": 16,
      "l5_gf": 3.4,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-12T14:20:27.288198+00:00",
+     "lineup_as_of": "2026-11-12T23:46:03.995752+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -5562,24 +5558,24 @@
      ],
      "lines": {
       "1": [
-       "Alex Tuch",
-       "Dylan Strome",
-       "Jordan Kyrou"
-      ],
-      "2": [
        "Aliaksei Protas",
        "Pierre-Luc Dubois",
-       "Tom Wilson"
+       "Alex Tuch"
+      ],
+      "2": [
+       "Jordan Kyrou",
+       "Dylan Strome",
+       "Ryan Leonard"
       ],
       "3": [
-       "Alex Ovechkin",
+       "Boone Jenner",
        "Justin Sourdif",
-       "Anthony Beauvillier"
+       "Tom Wilson"
       ],
       "4": [
-       "Boone Jenner",
+       "Alex Ovechkin",
        "Ilya Protas",
-       "Ryan Leonard"
+       "Anthony Beauvillier"
       ]
      },
      "pp1": [
@@ -5603,7 +5599,7 @@
        "team": "WSH",
        "opp": "NJD",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "C",
        "gtd": false,
@@ -5641,19 +5637,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Alex Tuch",
-         "jersey": 89,
-         "pp": 2,
-         "n": 11,
-         "both": 3,
-         "either": 9
-        },
         {
          "name": "Jordan Kyrou",
          "jersey": 25,
@@ -5661,6 +5649,14 @@
          "n": 11,
          "both": 4,
          "either": 9
+        },
+        {
+         "name": "Ryan Leonard",
+         "jersey": 9,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -5670,7 +5666,7 @@
        "team": "WSH",
        "opp": "NJD",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "pos": "C",
        "gtd": false,
@@ -5712,7 +5708,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -5726,12 +5722,12 @@
          "either": 4
         },
         {
-         "name": "Tom Wilson",
-         "jersey": 43,
-         "pp": 1,
-         "n": 9,
+         "name": "Alex Tuch",
+         "jersey": 89,
+         "pp": 2,
+         "n": 5,
          "both": 2,
-         "either": 5
+         "either": 3
         }
        ]
       },
@@ -5741,9 +5737,9 @@
        "team": "WSH",
        "opp": "NJD",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
@@ -5783,19 +5779,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Alex Tuch",
-         "jersey": 89,
-         "pp": 2,
-         "n": 9,
-         "both": 5,
-         "either": 8
-        },
         {
          "name": "Dylan Strome",
          "jersey": 17,
@@ -5803,6 +5791,81 @@
          "n": 11,
          "both": 4,
          "either": 9
+        },
+        {
+         "name": "Ryan Leonard",
+         "jersey": 9,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Ryan Leonard",
+       "jersey": 9,
+       "team": "WSH",
+       "opp": "NJD",
+       "home": false,
+       "line": 2,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": "G",
+       "gp": 16,
+       "pt_games": 9,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 5,
+       "two_games": 2,
+       "home_split": [
+        7,
+        11
+       ],
+       "away_split": [
+        2,
+        5
+       ],
+       "pp_toi": 1.9,
+       "toi": 13.7,
+       "p": 0.451,
+       "fair": "+122",
+       "min": "+135",
+       "p2": 0.101,
+       "fair2": "+885",
+       "min2": "+945",
+       "adj": [
+        [
+         "opp",
+         0.9225806451612903
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Jordan Kyrou",
+         "jersey": 25,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Dylan Strome",
+         "jersey": 17,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -5814,7 +5877,7 @@
        "home": false,
        "line": 1,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "G",
@@ -5856,20 +5919,20 @@
        },
        "partners": [
         {
-         "name": "Dylan Strome",
-         "jersey": 17,
-         "pp": 1,
-         "n": 11,
-         "both": 3,
-         "either": 9
+         "name": "Aliaksei Protas",
+         "jersey": 21,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Jordan Kyrou",
-         "jersey": 25,
-         "pp": 1,
-         "n": 9,
-         "both": 5,
-         "either": 8
+         "name": "Pierre-Luc Dubois",
+         "jersey": 80,
+         "pp": 2,
+         "n": 5,
+         "both": 2,
+         "either": 3
         }
        ]
       },
@@ -5879,7 +5942,7 @@
        "team": "WSH",
        "opp": "NJD",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": null,
        "pos": "LW",
        "gtd": false,
@@ -5921,7 +5984,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -5935,52 +5998,52 @@
          "either": 4
         },
         {
-         "name": "Tom Wilson",
-         "jersey": 43,
-         "pp": 1,
-         "n": 8,
+         "name": "Alex Tuch",
+         "jersey": 89,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         }
        ]
       },
       {
-       "name": "Alex Ovechkin",
-       "jersey": 8,
+       "name": "Boone Jenner",
+       "jersey": 22,
        "team": "WSH",
        "opp": "NJD",
        "home": false,
        "line": 3,
-       "pp": 1,
+       "pp": null,
        "pos": "LW",
        "gtd": false,
-       "role": "pp1",
-       "bias": "A",
+       "role": "other",
+       "bias": "G",
        "gp": 16,
-       "pt_games": 5,
+       "pt_games": 7,
        "l5": [
-        1,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        3,
-        11
-       ],
-       "away_split": [
         2,
         5
        ],
-       "pp_toi": 2.8,
-       "toi": 13.8,
-       "p": 0.358,
-       "fair": "+179",
-       "min": "+196",
-       "p2": 0.062,
-       "fair2": "+1526",
-       "min2": "+1623",
+       "ast_games": 1,
+       "goal_games": 6,
+       "two_games": 0,
+       "home_split": [
+        4,
+        11
+       ],
+       "away_split": [
+        3,
+        5
+       ],
+       "pp_toi": 0.0,
+       "toi": 15.4,
+       "p": 0.346,
+       "fair": "+189",
+       "min": "+206",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
        "adj": [
         [
          "opp",
@@ -5988,7 +6051,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -5997,17 +6060,17 @@
          "name": "Justin Sourdif",
          "jersey": 34,
          "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 9,
+         "both": 1,
+         "either": 5
         },
         {
-         "name": "Anthony Beauvillier",
-         "jersey": 72,
-         "pp": null,
-         "n": 9,
+         "name": "Tom Wilson",
+         "jersey": 43,
+         "pp": 1,
+         "n": 3,
          "both": 0,
-         "either": 4
+         "either": 2
         }
        ]
       },
@@ -6017,7 +6080,7 @@
        "team": "WSH",
        "opp": "NJD",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -6055,26 +6118,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Aliaksei Protas",
-         "jersey": 21,
+         "name": "Boone Jenner",
+         "jersey": 22,
          "pp": null,
-         "n": 8,
+         "n": 3,
          "both": 0,
          "either": 2
         },
         {
-         "name": "Pierre-Luc Dubois",
-         "jersey": 80,
-         "pp": 2,
-         "n": 9,
-         "both": 2,
-         "either": 5
+         "name": "Justin Sourdif",
+         "jersey": 34,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -6128,91 +6191,20 @@
        },
        "partners": [
         {
-         "name": "Alex Ovechkin",
-         "jersey": 8,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Anthony Beauvillier",
-         "jersey": 72,
+         "name": "Boone Jenner",
+         "jersey": 22,
          "pp": null,
-         "n": 6,
-         "both": 1,
-         "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Anthony Beauvillier",
-       "jersey": 72,
-       "team": "WSH",
-       "opp": "NJD",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 16,
-       "pt_games": 4,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        4,
-        11
-       ],
-       "away_split": [
-        0,
-        5
-       ],
-       "pp_toi": 0.0,
-       "toi": 11.7,
-       "p": 0.208,
-       "fair": "+382",
-       "min": "+411",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9225806451612903
-        ],
-        [
-         "venue",
-         0.9
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Alex Ovechkin",
-         "jersey": 8,
-         "pp": 1,
          "n": 9,
-         "both": 0,
-         "either": 4
+         "both": 1,
+         "either": 5
         },
         {
-         "name": "Justin Sourdif",
-         "jersey": 34,
-         "pp": null,
-         "n": 6,
-         "both": 1,
-         "either": 2
+         "name": "Tom Wilson",
+         "jersey": 43,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       }
@@ -6929,7 +6921,7 @@
      "goalie_source": "Mark Scheig",
      "sv": "0.88",
      "gaa": "2.94",
-     "ml": "210",
+     "ml": "230",
      "gp": 18,
      "gf": 3.9444444444444446,
      "gf_rk": 4,
@@ -6941,7 +6933,7 @@
      "ppga_rk": 13,
      "l5_gf": 4.6,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-12T22:45:38.472227+00:00",
+     "lineup_as_of": "2026-11-12T23:46:03.669257+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -6952,12 +6944,12 @@
       {
        "player": "Anthony Cirelli",
        "status": "DTD",
-       "news": "Cirelli (undisclosed) will play in Colorado on Friday."
+       "news": "Cirelli (undisclosed) will not play on Thursday and is considered day-to-day."
       },
       {
        "player": "Erik Cernak",
        "status": "DTD",
-       "news": "Cernak (undisclosed) will return vs. Detroit on Tuesday."
+       "news": "Cernak (undisclosed) will not play Thursday in Columbus."
       }
      ],
      "lines": {
@@ -7649,7 +7641,7 @@
      "goalie_source": "Aaron Portzline",
      "sv": "0.879",
      "gaa": "3.35",
-     "ml": "-258",
+     "ml": "-285",
      "gp": 16,
      "gf": 2.4375,
      "gf_rk": 29,
@@ -9733,7 +9725,7 @@
      "ppga_rk": 3,
      "l5_gf": 2.6,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-12T22:00:19.637550+00:00",
+     "lineup_as_of": "2026-11-12T23:46:02.846364+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -9744,7 +9736,7 @@
       {
        "player": "Alex Lyon",
        "status": "IR",
-       "news": "Lyon (upper-body) has been activated from IR."
+       "news": "Lyon will start Thursday in Chicago."
       },
       {
        "player": "Konsta Helenius",
