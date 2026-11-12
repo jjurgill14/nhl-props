@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_utc": "2026-11-11T23:56:30.669190+00:00",
+ "generated_utc": "2026-11-12T00:11:35.643873+00:00",
  "games": [
   {
    "game_id": 2026020293,
@@ -8,7 +8,7 @@
    "start_et": "7:00 PM",
    "away": "TBL",
    "home": "BUF",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "KeyBank Center",
    "teams": {
     "away": {
@@ -1389,7 +1389,7 @@
    "start_et": "7:30 PM",
    "away": "NYR",
    "home": "CGY",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Scotiabank Saddledome",
    "teams": {
     "away": {
@@ -1398,9 +1398,9 @@
      "home": false,
      "b2b": false,
      "goalie": "Joonas Korpisalo",
-     "goalie_status": "Likely",
-     "goalie_news": "Korpisalo is expected to start in Calgary on Wednesday.",
-     "goalie_source": "Vince Mercogliano",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Korpisalo led the Rangers onto the ice for warmups.",
+     "goalie_source": "Ryan Pike",
      "sv": "0.893",
      "gaa": "3.0",
      "ml": "180",
@@ -6314,18 +6314,18 @@
      "ppga_rk": 3,
      "l5_gf": 5.2,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-11T13:16:57.851993+00:00",
+     "lineup_as_of": "2026-11-12T00:11:33.766703+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Troy Terry",
        "status": "IR",
-       "news": "Terry (hip) is likely to return vs. Nashville on Wednesday."
+       "news": "Terry (hip) will make his season debut on Wednesday."
       },
       {
        "player": "Ian Moore",
        "status": "IR",
-       "news": "Moore (lower body) was a full participant at practice on Saturday."
+       "news": "Moore (lower body) could return by the end of the week."
       },
       {
        "player": "Ryan Poehling",
@@ -6350,14 +6350,14 @@
        "Beckett Sennecke"
       ],
       "3": [
-       "Nico Myatovic",
+       "Nikita Nesterenko",
        "Tim Washe",
        "Troy Terry"
       ],
       "4": [
        "Jeff Malott",
        "Roger McQueen",
-       "Nikita Nesterenko"
+       "Sam Colangelo"
       ]
      },
      "pp1": [
@@ -6786,6 +6786,73 @@
        ]
       },
       {
+       "name": "Nikita Nesterenko",
+       "jersey": 13,
+       "team": "ANA",
+       "opp": "NSH",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 16,
+       "pt_games": 5,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 3,
+       "two_games": 0,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        3,
+        9
+       ],
+       "pp_toi": 1.1,
+       "toi": 9.8,
+       "p": 0.26,
+       "fair": "+285",
+       "min": "+308",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8916129032258064
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Tim Washe",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Troy Terry",
+         "jersey": 19,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Tim Washe",
        "jersey": null,
        "team": "ANA",
@@ -6835,10 +6902,10 @@
        },
        "partners": [
         {
-         "name": "Nico Myatovic",
-         "jersey": 48,
-         "pp": null,
-         "n": 4,
+         "name": "Nikita Nesterenko",
+         "jersey": 13,
+         "pp": 2,
+         "n": 0,
          "both": 0,
          "either": 0
         },
@@ -6902,84 +6969,17 @@
        },
        "partners": [
         {
-         "name": "Nico Myatovic",
-         "jersey": 48,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Tim Washe",
-         "jersey": null,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Nico Myatovic",
-       "jersey": 48,
-       "team": "ANA",
-       "opp": "NSH",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 4,
-       "pt_games": 0,
-       "l5": [
-        0,
-        4
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        1
-       ],
-       "away_split": [
-        0,
-        3
-       ],
-       "pp_toi": 0.1,
-       "toi": 9.9,
-       "p": 0.149,
-       "fair": "+573",
-       "min": "+613",
-       "p2": 0.024,
-       "fair2": "+4106",
-       "min2": "+4358",
-       "adj": [
-        [
-         "opp",
-         0.8916129032258064
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Tim Washe",
-         "jersey": null,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Troy Terry",
-         "jersey": 19,
+         "name": "Nikita Nesterenko",
+         "jersey": 13,
          "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tim Washe",
+         "jersey": null,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
@@ -7022,7 +7022,7 @@
      "ppga_rk": 23,
      "l5_gf": 3.0,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-11T13:16:58.400277+00:00",
+     "lineup_as_of": "2026-11-12T00:11:34.375433+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7039,11 +7039,6 @@
        "player": "Bryan Rust",
        "status": "IR",
        "news": "Rust (lower-body) is out and will be evaluated in six weeks."
-      },
-      {
-       "player": "Ville Koivunen",
-       "status": "DTD",
-       "news": "Koivunen (lower body) is day-to-day and will not play on Sunday."
       }
      ],
      "lines": {
@@ -7053,19 +7048,19 @@
        "Rickard Rakell"
       ],
       "2": [
-       "Tommy Novak",
+       "Egor Chinakhov",
        "Ben Kindel",
-       "Egor Chinakhov"
+       "Nicholas Robertson"
       ],
       "3": [
-       "Andrei Kuzmenko",
-       "Hendrix Lapierre",
+       "Ville Koivunen",
+       "Tommy Novak",
        "Justin Brazeau"
       ],
       "4": [
        "Connor Dewar",
        "Blake Lizotte",
-       "Nicholas Robertson"
+       "Rutger McGroarty"
       ]
      },
      "pp1": [
@@ -7076,7 +7071,7 @@
       "Sidney Crosby"
      ],
      "pp2": [
-      "Andrei Kuzmenko",
+      "Ville Koivunen",
       "Justin Brazeau",
       "Egor Chinakhov",
       "Kris Letang",
@@ -7290,9 +7285,9 @@
        "team": "PIT",
        "opp": "SJS",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -7328,26 +7323,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Ben Kindel",
-         "jersey": 81,
-         "pp": 1,
-         "n": 1,
+         "name": "Ville Koivunen",
+         "jersey": 41,
+         "pp": 2,
+         "n": 3,
          "both": 1,
-         "either": 1
+         "either": 3
         },
         {
-         "name": "Egor Chinakhov",
-         "jersey": 59,
+         "name": "Justin Brazeau",
+         "jersey": 15,
          "pp": 2,
-         "n": 9,
-         "both": 3,
-         "either": 4
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -7401,19 +7396,86 @@
        },
        "partners": [
         {
-         "name": "Tommy Novak",
-         "jersey": 18,
-         "pp": 1,
-         "n": 1,
-         "both": 1,
-         "either": 1
-        },
-        {
          "name": "Egor Chinakhov",
          "jersey": 59,
          "pp": 2,
          "n": 5,
          "both": 2,
+         "either": 2
+        },
+        {
+         "name": "Nicholas Robertson",
+         "jersey": 14,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Ville Koivunen",
+       "jersey": 41,
+       "team": "PIT",
+       "opp": "SJS",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 15,
+       "pt_games": 7,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 2,
+       "two_games": 0,
+       "home_split": [
+        3,
+        6
+       ],
+       "away_split": [
+        4,
+        9
+       ],
+       "pp_toi": 2.8,
+       "toi": 14.1,
+       "p": 0.426,
+       "fair": "+135",
+       "min": "+149",
+       "p2": 0.015,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0877419354838709
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Tommy Novak",
+         "jersey": 18,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 3
+        },
+        {
+         "name": "Justin Brazeau",
+         "jersey": 15,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
          "either": 2
         }
        ]
@@ -7426,7 +7488,7 @@
        "home": false,
        "line": 2,
        "pp": 2,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": "G",
@@ -7468,60 +7530,60 @@
        },
        "partners": [
         {
-         "name": "Tommy Novak",
-         "jersey": 18,
-         "pp": 1,
-         "n": 9,
-         "both": 3,
-         "either": 4
-        },
-        {
          "name": "Ben Kindel",
          "jersey": 81,
          "pp": 1,
          "n": 5,
          "both": 2,
          "either": 2
+        },
+        {
+         "name": "Nicholas Robertson",
+         "jersey": 14,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
       {
-       "name": "Hendrix Lapierre",
-       "jersey": 22,
+       "name": "Nicholas Robertson",
+       "jersey": 14,
        "team": "PIT",
        "opp": "SJS",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": null,
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 14,
-       "pt_games": 5,
+       "role": "top6",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
        "l5": [
-        1,
-        5
+        0,
+        0
        ],
-       "ast_games": 5,
-       "goal_games": 2,
-       "two_games": 2,
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
        "home_split": [
-        4,
-        8
+        0,
+        0
        ],
        "away_split": [
-        1,
-        6
+        0,
+        0
        ],
-       "pp_toi": 0.7,
-       "toi": 11.2,
-       "p": 0.346,
-       "fair": "+189",
-       "min": "+206",
-       "p2": 0.115,
-       "fair2": "+772",
-       "min2": "+824",
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.37,
+       "fair": "+170",
+       "min": "+187",
+       "p2": 0.087,
+       "fair2": "+1049",
+       "min2": "+1118",
        "adj": [
         [
          "opp",
@@ -7529,26 +7591,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Andrei Kuzmenko",
-         "jersey": 10,
+         "name": "Egor Chinakhov",
+         "jersey": 59,
          "pp": 2,
-         "n": 5,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Justin Brazeau",
-         "jersey": 15,
-         "pp": 2,
-         "n": 4,
-         "both": 1,
-         "either": 1
+         "name": "Ben Kindel",
+         "jersey": 81,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -7602,85 +7664,18 @@
        },
        "partners": [
         {
-         "name": "Andrei Kuzmenko",
-         "jersey": 10,
+         "name": "Ville Koivunen",
+         "jersey": 41,
          "pp": 2,
-         "n": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 2
         },
         {
-         "name": "Hendrix Lapierre",
-         "jersey": 22,
-         "pp": null,
-         "n": 4,
-         "both": 1,
-         "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Andrei Kuzmenko",
-       "jersey": 10,
-       "team": "PIT",
-       "opp": "SJS",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 12,
-       "pt_games": 1,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        6
-       ],
-       "away_split": [
-        1,
-        6
-       ],
-       "pp_toi": 1.6,
-       "toi": 12.2,
-       "p": 0.163,
-       "fair": "+513",
-       "min": "+550",
-       "p2": 0.017,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0877419354838709
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Hendrix Lapierre",
-         "jersey": 22,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Justin Brazeau",
-         "jersey": 15,
-         "pp": 2,
-         "n": 1,
+         "name": "Tommy Novak",
+         "jersey": 18,
+         "pp": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }

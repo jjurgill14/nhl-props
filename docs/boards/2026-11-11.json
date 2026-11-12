@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-11T23:56:31.193525+00:00",
+ "generated_utc": "2026-11-12T00:11:36.163506+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19,7 +19,7 @@
    "id": "01",
    "game_id": 2026020293,
    "start_utc": "2026-11-12T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "KeyBank Center",
    "away": {
     "abbr": "TBL",
@@ -3523,7 +3523,7 @@
    "id": "02",
    "game_id": 2026020294,
    "start_utc": "2026-11-12T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Scotiabank Saddledome",
    "away": {
     "abbr": "NYR",
@@ -3534,9 +3534,9 @@
     "record": "10-8-1",
     "b2b": false,
     "goalie": "Joonas Korpisalo",
-    "goalie_status": "Likely",
-    "goalie_news": "Korpisalo is expected to start in Calgary on Wednesday.",
-    "goalie_source": "Vince Mercogliano",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Korpisalo led the Rangers onto the ice for warmups.",
+    "goalie_source": "Ryan Pike",
     "sv": "0.893",
     "gaa": "3.0",
     "lineup_as_of": "2026-11-11T22:26:00.675230+00:00",
@@ -14032,7 +14032,7 @@
     "goalie_source": "Eric Stephens",
     "sv": "0.877",
     "gaa": "3.25",
-    "lineup_as_of": "2026-11-11T13:16:57.851993+00:00",
+    "lineup_as_of": "2026-11-12T00:11:33.766703+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 4,
@@ -14043,7 +14043,7 @@
      "away": "-198",
      "home": "+164",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-11T13:16:57.851993+00:00"
+     "as_of": "2026-11-12T00:11:33.766703+00:00"
     },
     "total": {
      "line": null,
@@ -15937,10 +15937,10 @@
     },
     "home": {
      "team": "ANA",
-     "as_of": "2026-11-11T13:16:57.851993+00:00",
+     "as_of": "2026-11-12T00:11:33.766703+00:00",
      "stale": false,
-     "source": "Derek Lee",
-     "updated_dfo": "2026-11-10T19:06:12.328Z",
+     "source": "Zach Cavanagh",
+     "updated_dfo": "2026-11-11T18:12:22.431Z",
      "forwards": [
       [
        {
@@ -16176,39 +16176,39 @@
       ],
       [
        {
-        "name": "Nico Myatovic",
-        "jersey": 48,
+        "name": "Nikita Nesterenko",
+        "jersey": 13,
         "pos": "LW",
         "slot": null,
-        "player_id": 8484201,
-        "dfo_id": 31622,
+        "player_id": 8481754,
+        "dfo_id": 30726,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 4,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 2369
+         "a": 2,
+         "g": 3,
+         "gp": 16,
+         "p": 5,
+         "ppp": 1,
+         "sog": 18,
+         "toi_s": 10563
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 1,
+         "g": 1,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 3234
+         "p": 2,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 2933
         },
-        "l5_point_games": 0,
-        "gp": 4,
+        "l5_point_games": 2,
+        "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -16368,41 +16368,41 @@
         }
        },
        {
-        "name": "Nikita Nesterenko",
-        "jersey": 13,
+        "name": "Sam Colangelo",
+        "jersey": 12,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481754,
-        "dfo_id": 30726,
+        "player_id": 8482118,
+        "dfo_id": 32857,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 16,
+         "a": 4,
+         "g": 1,
+         "gp": 13,
          "p": 5,
-         "ppp": 1,
-         "sog": 18,
-         "toi_s": 10563
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 8232
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 2933
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2511
         },
-        "l5_point_games": 2,
-        "gp": 16,
+        "l5_point_games": 1,
+        "gp": 13,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -17034,7 +17034,7 @@
         "l5_point_games": 2,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -17431,12 +17431,12 @@
       {
        "player": "Troy Terry",
        "status": "IR",
-       "news": "Terry (hip) is likely to return vs. Nashville on Wednesday."
+       "news": "Terry (hip) will make his season debut on Wednesday."
       },
       {
        "player": "Ian Moore",
        "status": "IR",
-       "news": "Moore (lower body) was a full participant at practice on Saturday."
+       "news": "Moore (lower body) could return by the end of the week."
       },
       {
        "player": "Ryan Poehling",
@@ -17451,7 +17451,7 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 35,
+       "rank": 34,
        "rating": 0
       },
       "d2": {
@@ -17463,7 +17463,7 @@
        "rating": 0
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -17479,7 +17479,7 @@
        "rating": 70.9953877684216
       },
       "f4": {
-       "rank": 32,
+       "rank": 33,
        "rating": 0
       },
       "g": {
@@ -17526,7 +17526,7 @@
     "goalie_source": "Pens Inside Scoop",
     "sv": "0.878",
     "gaa": "3.52",
-    "lineup_as_of": "2026-11-11T13:16:58.400277+00:00",
+    "lineup_as_of": "2026-11-12T00:11:34.375433+00:00",
     "lineup_stale": false,
     "ga_rk": 5,
     "gf_rk": 15,
@@ -17692,22 +17692,6 @@
       ]
      },
      {
-      "selection": "Novak + Kindel \u00b7 both 1+ point",
-      "prob": 0.338,
-      "fair": "+196",
-      "need": "+214",
-      "rationale": "Both scored 1 of 1 games together \u00b7 independent 23% \u00b7 new pair",
-      "team": "PIT",
-      "line": 2,
-      "read": "new pair",
-      "both": 1,
-      "n": 1,
-      "players": [
-       8478438,
-       8485414
-      ]
-     },
-     {
       "selection": "Malkin + Rakell \u00b7 both 1+ point",
       "prob": 0.33,
       "fair": "+203",
@@ -17738,6 +17722,22 @@
        8484801,
        8485402
       ]
+     },
+     {
+      "selection": "Crosby + Rakell \u00b7 both 1+ point",
+      "prob": 0.28,
+      "fair": "+257",
+      "need": "+279",
+      "rationale": "Both scored 5 of 18 games together \u00b7 independent 29% \u00b7 independent",
+      "team": "PIT",
+      "line": 1,
+      "read": "independent",
+      "both": 5,
+      "n": 18,
+      "players": [
+       8471675,
+       8476483
+      ]
      }
     ],
     "two": [
@@ -17764,7 +17764,7 @@
       "player": "Tommy Novak",
       "team": "PIT",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "players": [
        8478438
       ]
@@ -17830,22 +17830,6 @@
       ]
      },
      {
-      "selection": "Novak + Kindel \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.338,
-      "fair": "+196",
-      "need": "+214",
-      "rationale": "Both scored 1 of 1 games together \u00b7 independent 23% \u00b7 new pair",
-      "team": "PIT",
-      "line": 2,
-      "read": "new pair",
-      "both": 1,
-      "n": 1,
-      "players": [
-       8478438,
-       8485414
-      ]
-     },
-     {
       "selection": "Crosby + Rakell \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.28,
       "fair": "+257",
@@ -17876,10 +17860,10 @@
    "lineup": {
     "away": {
      "team": "PIT",
-     "as_of": "2026-11-11T13:16:58.400277+00:00",
+     "as_of": "2026-11-12T00:11:34.375433+00:00",
      "stale": false,
-     "source": "Pittsburgh Penguins",
-     "updated_dfo": "2026-11-09T00:36:41.786Z",
+     "source": "@PensInsideScoop",
+     "updated_dfo": "2026-11-11T13:18:56.496Z",
      "forwards": [
       [
        {
@@ -17999,37 +17983,37 @@
       ],
       [
        {
-        "name": "Tommy Novak",
-        "jersey": 18,
+        "name": "Egor Chinakhov",
+        "jersey": 59,
         "pos": "LW",
         "slot": null,
-        "player_id": 8478438,
-        "dfo_id": 26595,
+        "player_id": 8482475,
+        "dfo_id": 30655,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "G",
         "season": {
-         "a": 7,
-         "g": 7,
-         "gp": 18,
-         "p": 14,
-         "ppp": 5,
-         "sog": 32,
-         "toi_s": 17042
+         "a": 2,
+         "g": 3,
+         "gp": 14,
+         "p": 5,
+         "ppp": 2,
+         "sog": 22,
+         "toi_s": 12640
         },
         "last5": {
-         "a": 2,
-         "g": 4,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 6,
+         "p": 1,
          "ppp": 1,
-         "sog": 13,
-         "toi_s": 4909
+         "sog": 8,
+         "toi_s": 4057
         },
-        "l5_point_games": 3,
-        "gp": 18,
+        "l5_point_games": 1,
+        "gp": 14,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -18075,39 +18059,39 @@
         }
        },
        {
-        "name": "Egor Chinakhov",
-        "jersey": 59,
+        "name": "Nicholas Robertson",
+        "jersey": 14,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482475,
-        "dfo_id": 30655,
+        "player_id": null,
+        "dfo_id": 29254,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
+        "pp": null,
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 14,
-         "p": 5,
-         "ppp": 2,
-         "sog": 22,
-         "toi_s": 12640
+         "a": 0,
+         "g": 7,
+         "gp": 18,
+         "p": 7,
+         "ppp": 0,
+         "sog": 34,
+         "toi_s": 14084
         },
         "last5": {
          "a": 0,
          "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 4057
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 4061
         },
-        "l5_point_games": 1,
-        "gp": 14,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -18115,77 +18099,77 @@
       ],
       [
        {
-        "name": "Andrei Kuzmenko",
-        "jersey": 62,
+        "name": "Ville Koivunen",
+        "jersey": 41,
         "pos": "LW",
         "slot": null,
-        "player_id": 8483808,
-        "dfo_id": 25254,
+        "player_id": 8482758,
+        "dfo_id": 34677,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 12,
-         "p": 1,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 9056
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 3675
-        },
-        "l5_point_games": 0,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Hendrix Lapierre",
-        "jersey": 22,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8482148,
-        "dfo_id": 29894,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
         "pk": null,
         "bias": "A",
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 14,
+         "gp": 15,
          "p": 7,
-         "ppp": 2,
-         "sog": 13,
-         "toi_s": 10125
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 12508
         },
         "last5": {
          "a": 1,
          "g": 0,
          "gp": 5,
          "p": 1,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 3360
+         "ppp": 1,
+         "sog": 1,
+         "toi_s": 4236
         },
         "l5_point_games": 1,
-        "gp": 14,
+        "gp": 15,
         "move": {
          "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Tommy Novak",
+        "jersey": 18,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8478438,
+        "dfo_id": 26595,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 7,
+         "g": 7,
+         "gp": 18,
+         "p": 14,
+         "ppp": 5,
+         "sog": 32,
+         "toi_s": 17042
+        },
+        "last5": {
+         "a": 2,
+         "g": 4,
+         "gp": 5,
+         "p": 6,
+         "ppp": 1,
+         "sog": 13,
+         "toi_s": 4909
+        },
+        "l5_point_games": 3,
+        "gp": 18,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -18307,25 +18291,25 @@
         }
        },
        {
-        "name": "Nicholas Robertson",
-        "jersey": 14,
+        "name": "Rutger McGroarty",
+        "jersey": 2,
         "pos": "RW",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 29254,
+        "player_id": 8483487,
+        "dfo_id": 33262,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
          "a": 0,
-         "g": 7,
-         "gp": 18,
-         "p": 7,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 34,
-         "toi_s": 14084
+         "sog": 2,
+         "toi_s": 1640
         },
         "last5": {
          "a": 0,
@@ -18333,15 +18317,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 4061
+         "sog": 9,
+         "toi_s": 4019
         },
         "l5_point_games": 0,
-        "gp": 0,
+        "gp": 2,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -18355,7 +18339,7 @@
         "slot": null,
         "player_id": 8479398,
         "dfo_id": 2773,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -18743,7 +18727,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -18865,41 +18849,41 @@
       ],
       [
        {
-        "name": "Andrei Kuzmenko",
-        "jersey": 62,
+        "name": "Ville Koivunen",
+        "jersey": 41,
         "pos": null,
         "slot": 1,
-        "player_id": 8483808,
-        "dfo_id": 25254,
+        "player_id": 8482758,
+        "dfo_id": 34677,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 12,
-         "p": 1,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 9056
+         "a": 5,
+         "g": 2,
+         "gp": 15,
+         "p": 7,
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 12508
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 3675
+         "p": 1,
+         "ppp": 1,
+         "sog": 1,
+         "toi_s": 4236
         },
-        "l5_point_games": 0,
-        "gp": 12,
+        "l5_point_games": 1,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -19283,7 +19267,7 @@
         "l5_point_games": 0,
         "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -19381,11 +19365,6 @@
        "player": "Bryan Rust",
        "status": "IR",
        "news": "Rust (lower-body) is out and will be evaluated in six weeks."
-      },
-      {
-       "player": "Ville Koivunen",
-       "status": "DTD",
-       "news": "Koivunen (lower body) is day-to-day and will not play on Sunday."
       }
      ],
      "unit_ratings": {
@@ -19402,7 +19381,7 @@
        "rating": 76.72423575329341
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -19418,7 +19397,7 @@
        "rating": 0
       },
       "f4": {
-       "rank": 15,
+       "rank": 16,
        "rating": 71.9696216005676
       },
       "g": {
