@@ -22,7 +22,7 @@ export function Crest({ team, small = false }: { team: TeamSide; small?: boolean
   )
 }
 
-function BigTeam({ team, opp, position, xg, xgTone }: { team: TeamSide; opp: TeamSide; position: 'AWAY' | 'HOME'; xg: number | null; xgTone: string }) {
+function BigTeam({ team, opp, xg, xgTone }: { team: TeamSide; opp: TeamSide; xg: number | null; xgTone: string }) {
   const st = team.goalie_status
   const cls = st === 'Confirmed' ? 'ok' : st === 'Likely' || st === 'Expected' ? 'likely' : ''
   return (
@@ -39,10 +39,7 @@ function BigTeam({ team, opp, position, xg, xgTone }: { team: TeamSide; opp: Tea
           </span>
         )}
       </div>
-      <div className="location">
-        {position}
-        {team.b2b && <span className="status-badge b2b">B2B</span>}
-      </div>
+      {team.b2b && <div className="location"><span className="status-badge b2b">B2B</span></div>}
       <div className="goalie-line" title={team.goalie_news ?? undefined}>
         🥅 <b>{team.goalie ?? 'TBD'}</b> <span className={cls}>{st ?? 'unconfirmed'}</span>
       </div>
@@ -212,9 +209,9 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
         </span>
       </div>
       <div className="matchup">
-        <BigTeam team={away} opp={home} position="AWAY" xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} />
-        <span className="vs">AT</span>
-        <BigTeam team={home} opp={away} position="HOME" xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} />
+        <BigTeam team={away} opp={home} xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} />
+        <span className="vs at">@</span>
+        <BigTeam team={home} opp={away} xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} />
       </div>
       <TotalsBar game={game} />
       <div className="play-section">
