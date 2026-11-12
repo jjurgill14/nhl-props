@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T02:42:24.027855+00:00",
+ "generated_utc": "2026-11-12T02:57:28.267554+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19,7 +19,7 @@
    "id": "01",
    "game_id": 2026020293,
    "start_utc": "2026-11-12T00:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "KeyBank Center",
    "away": {
     "abbr": "TBL",
@@ -10497,7 +10497,7 @@
    "id": "04",
    "game_id": 2026020296,
    "start_utc": "2026-11-12T02:30:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "T-Mobile Arena",
    "away": {
     "abbr": "UTA",
@@ -14022,7 +14022,7 @@
     "goalie_source": "Eric Stephens",
     "sv": "0.877",
     "gaa": "3.25",
-    "lineup_as_of": "2026-11-12T00:11:33.766703+00:00",
+    "lineup_as_of": "2026-11-12T02:57:26.531939+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 4,
@@ -14033,7 +14033,7 @@
      "away": "-198",
      "home": "+164",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-12T00:11:33.766703+00:00"
+     "as_of": "2026-11-12T02:57:26.531939+00:00"
     },
     "total": {
      "line": null,
@@ -15927,10 +15927,10 @@
     },
     "home": {
      "team": "ANA",
-     "as_of": "2026-11-12T00:11:33.766703+00:00",
+     "as_of": "2026-11-12T02:57:26.531939+00:00",
      "stale": false,
-     "source": "Zach Cavanagh",
-     "updated_dfo": "2026-11-11T18:12:22.431Z",
+     "source": "Derek Lee",
+     "updated_dfo": "2026-11-12T02:48:15.138Z",
      "forwards": [
       [
        {
@@ -16248,7 +16248,7 @@
         "slot": null,
         "player_id": null,
         "dfo_id": 4645,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
@@ -17036,7 +17036,7 @@
         "slot": 4,
         "player_id": null,
         "dfo_id": 4645,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
@@ -17419,11 +17419,6 @@
      ],
      "injuries": [
       {
-       "player": "Troy Terry",
-       "status": "IR",
-       "news": "Terry (hip) will make his season debut on Wednesday."
-      },
-      {
        "player": "Ian Moore",
        "status": "IR",
        "news": "Moore (lower body) could return by the end of the week."
@@ -17461,15 +17456,15 @@
        "rating": 74.743977877946
       },
       "f2": {
-       "rank": 25,
+       "rank": 26,
        "rating": 72.51395960454711
       },
       "f3": {
-       "rank": 32,
+       "rank": 30,
        "rating": 70.9953877684216
       },
       "f4": {
-       "rank": 33,
+       "rank": 34,
        "rating": 0
       },
       "g": {
@@ -17516,7 +17511,7 @@
     "goalie_source": "Pens Inside Scoop",
     "sv": "0.878",
     "gaa": "3.52",
-    "lineup_as_of": "2026-11-12T00:11:34.375433+00:00",
+    "lineup_as_of": "2026-11-12T02:57:26.705145+00:00",
     "lineup_stale": false,
     "ga_rk": 5,
     "gf_rk": 15,
@@ -17850,10 +17845,10 @@
    "lineup": {
     "away": {
      "team": "PIT",
-     "as_of": "2026-11-12T00:11:34.375433+00:00",
+     "as_of": "2026-11-12T02:57:26.705145+00:00",
      "stale": false,
-     "source": "@PensInsideScoop",
-     "updated_dfo": "2026-11-11T13:18:56.496Z",
+     "source": "@penguins",
+     "updated_dfo": "2026-11-12T02:43:03.895Z",
      "forwards": [
       [
        {
@@ -17973,39 +17968,39 @@
       ],
       [
        {
-        "name": "Egor Chinakhov",
-        "jersey": 59,
+        "name": "Nicholas Robertson",
+        "jersey": 14,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482475,
-        "dfo_id": 30655,
+        "player_id": null,
+        "dfo_id": 29254,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
+        "pp": null,
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 14,
-         "p": 5,
-         "ppp": 2,
-         "sog": 22,
-         "toi_s": 12640
+         "a": 0,
+         "g": 7,
+         "gp": 18,
+         "p": 7,
+         "ppp": 0,
+         "sog": 34,
+         "toi_s": 14084
         },
         "last5": {
          "a": 0,
          "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 4057
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 4061
         },
-        "l5_point_games": 1,
-        "gp": 14,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -18049,39 +18044,39 @@
         }
        },
        {
-        "name": "Nicholas Robertson",
-        "jersey": 14,
+        "name": "Egor Chinakhov",
+        "jersey": 59,
         "pos": "RW",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 29254,
+        "player_id": 8482475,
+        "dfo_id": 30655,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 0,
-         "g": 7,
-         "gp": 18,
-         "p": 7,
-         "ppp": 0,
-         "sog": 34,
-         "toi_s": 14084
+         "a": 2,
+         "g": 3,
+         "gp": 14,
+         "p": 5,
+         "ppp": 2,
+         "sog": 22,
+         "toi_s": 12640
         },
         "last5": {
          "a": 0,
          "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4061
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4057
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 1,
+        "gp": 14,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -18205,41 +18200,41 @@
       ],
       [
        {
-        "name": "Connor Dewar",
-        "jersey": 19,
+        "name": "Rutger McGroarty",
+        "jersey": 2,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480980,
-        "dfo_id": 25396,
+        "player_id": 8483487,
+        "dfo_id": 33262,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 2,
-         "gp": 18,
-         "p": 5,
+         "a": 0,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 23,
-         "toi_s": 14729
+         "sog": 2,
+         "toi_s": 1640
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 1,
-         "toi_s": 4253
+         "sog": 9,
+         "toi_s": 4019
         },
         "l5_point_games": 0,
-        "gp": 18,
+        "gp": 2,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -18281,116 +18276,36 @@
         }
        },
        {
-        "name": "Rutger McGroarty",
-        "jersey": 2,
+        "name": "Connor Dewar",
+        "jersey": 19,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483487,
-        "dfo_id": 33262,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 1640
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 9,
-         "toi_s": 4019
-        },
-        "l5_point_games": 0,
-        "gp": 2,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       }
-      ]
-     ],
-     "defense": [
-      [
-       {
-        "name": "Samuel Girard",
-        "jersey": 49,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8479398,
-        "dfo_id": 2773,
-        "gtd": true,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 6,
-         "g": 1,
-         "gp": 15,
-         "p": 7,
-         "ppp": 0,
-         "sog": 20,
-         "toi_s": 17137
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 5833
-        },
-        "l5_point_games": 0,
-        "gp": 15,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Kaedan Korczak",
-        "jersey": 6,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8481527,
-        "dfo_id": 28524,
+        "player_id": 8480980,
+        "dfo_id": 25396,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 10,
-         "g": 0,
+         "a": 3,
+         "g": 2,
          "gp": 18,
-         "p": 10,
+         "p": 5,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 19609
+         "sog": 23,
+         "toi_s": 14729
         },
         "last5": {
-         "a": 4,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 4,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5301
+         "sog": 1,
+         "toi_s": 4253
         },
-        "l5_point_games": 2,
+        "l5_point_games": 0,
         "gp": 18,
         "move": {
          "ev": 0,
@@ -18398,7 +18313,9 @@
          "new": false
         }
        }
-      ],
+      ]
+     ],
+     "defense": [
       [
        {
         "name": "Spencer Stastney",
@@ -18433,7 +18350,7 @@
         "l5_point_games": 1,
         "gp": 13,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -18471,7 +18388,85 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Samuel Girard",
+        "jersey": 49,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8479398,
+        "dfo_id": 2773,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 6,
+         "g": 1,
+         "gp": 15,
+         "p": 7,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 17137
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 5833
+        },
+        "l5_point_games": 0,
+        "gp": 15,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Kaedan Korczak",
+        "jersey": 6,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8481527,
+        "dfo_id": 28524,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 10,
+         "g": 0,
+         "gp": 18,
+         "p": 10,
+         "ppp": 0,
+         "sog": 17,
+         "toi_s": 19609
+        },
+        "last5": {
+         "a": 4,
+         "g": 0,
+         "gp": 5,
+         "p": 4,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5301
+        },
+        "l5_point_games": 2,
+        "gp": 18,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -18793,7 +18788,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -19179,7 +19174,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -19295,7 +19290,7 @@
         "l5_point_games": 1,
         "gp": 13,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -19333,7 +19328,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -19360,11 +19355,11 @@
      "unit_ratings": {
       "d1": {
        "rank": 8,
-       "rating": 75.8112217024272
+       "rating": 76.5445607634699
       },
       "d2": {
        "rank": 6,
-       "rating": 76.5445607634699
+       "rating": 75.8112217024272
       },
       "d3": {
        "rank": 3,
@@ -19387,7 +19382,7 @@
        "rating": 0
       },
       "f4": {
-       "rank": 16,
+       "rank": 17,
        "rating": 71.9696216005676
       },
       "g": {

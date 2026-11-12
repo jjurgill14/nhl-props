@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T02:42:23.509599+00:00",
+ "generated_utc": "2026-11-12T02:57:27.748565+00:00",
  "games": [
   {
    "game_id": 2026020293,
@@ -8,7 +8,7 @@
    "start_et": "7:00 PM",
    "away": "TBL",
    "home": "BUF",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "KeyBank Center",
    "teams": {
     "away": {
@@ -4177,7 +4177,7 @@
    "start_et": "9:30 PM",
    "away": "UTA",
    "home": "VGK",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "T-Mobile Arena",
    "teams": {
     "away": {
@@ -6308,14 +6308,9 @@
      "ppga_rk": 3,
      "l5_gf": 5.2,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-12T00:11:33.766703+00:00",
+     "lineup_as_of": "2026-11-12T02:57:26.531939+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Troy Terry",
-       "status": "IR",
-       "news": "Terry (hip) will make his season debut on Wednesday."
-      },
       {
        "player": "Ian Moore",
        "status": "IR",
@@ -6922,7 +6917,7 @@
        "line": 3,
        "pp": 2,
        "pos": "RW",
-       "gtd": true,
+       "gtd": false,
        "role": "other",
        "bias": null,
        "gp": 0,
@@ -7016,7 +7011,7 @@
      "ppga_rk": 23,
      "l5_gf": 3.0,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-12T00:11:34.375433+00:00",
+     "lineup_as_of": "2026-11-12T02:57:26.705145+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7042,9 +7037,9 @@
        "Rickard Rakell"
       ],
       "2": [
-       "Egor Chinakhov",
+       "Nicholas Robertson",
        "Ben Kindel",
-       "Nicholas Robertson"
+       "Egor Chinakhov"
       ],
       "3": [
        "Ville Koivunen",
@@ -7052,9 +7047,9 @@
        "Justin Brazeau"
       ],
       "4": [
-       "Connor Dewar",
+       "Rutger McGroarty",
        "Blake Lizotte",
-       "Rutger McGroarty"
+       "Connor Dewar"
       ]
      },
      "pp1": [
@@ -7390,20 +7385,20 @@
        },
        "partners": [
         {
-         "name": "Egor Chinakhov",
-         "jersey": 59,
-         "pp": 2,
-         "n": 5,
-         "both": 2,
-         "either": 2
-        },
-        {
          "name": "Nicholas Robertson",
          "jersey": 14,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Egor Chinakhov",
+         "jersey": 59,
+         "pp": 2,
+         "n": 5,
+         "both": 2,
+         "either": 2
         }
        ]
       },
@@ -7482,7 +7477,7 @@
        "home": false,
        "line": 2,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "G",
@@ -7524,20 +7519,20 @@
        },
        "partners": [
         {
-         "name": "Ben Kindel",
-         "jersey": 81,
-         "pp": 1,
-         "n": 5,
-         "both": 2,
-         "either": 2
-        },
-        {
          "name": "Nicholas Robertson",
          "jersey": 14,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Ben Kindel",
+         "jersey": 81,
+         "pp": 1,
+         "n": 5,
+         "both": 2,
+         "either": 2
         }
        ]
       },
@@ -7549,7 +7544,7 @@
        "home": false,
        "line": 2,
        "pp": null,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -7591,17 +7586,17 @@
        },
        "partners": [
         {
-         "name": "Egor Chinakhov",
-         "jersey": 59,
-         "pp": 2,
+         "name": "Ben Kindel",
+         "jersey": 81,
+         "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Ben Kindel",
-         "jersey": 81,
-         "pp": 1,
+         "name": "Egor Chinakhov",
+         "jersey": 59,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
