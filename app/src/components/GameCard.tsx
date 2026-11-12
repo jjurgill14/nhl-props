@@ -55,15 +55,16 @@ function implied(v: number | null | undefined): number | null {
   return v > 0 ? 100 / (v + 100) : -v / (-v + 100)
 }
 
-export const OVER_OK = 0.49 // over at -110 or better = coin-flip or over-favored
 
 export function TotalsBar({ game }: { game: Game }) {
   const { markets, away, home } = game
   const t = markets.total
   const line = t.line
   const pOver = implied(t.over)
+  const pUnder = implied(t.under)
   const lineTone = line == null ? '' : line >= 6.5 ? 'good' : line <= 5.5 ? 'bad' : 'mid'
-  const juiceTone = pOver == null ? '' : pOver >= OVER_OK ? 'good' : 'bad'
+  // ✓ only when the book makes the over at least as likely as the under (same test as the SMASH rule)
+  const juiceTone = pOver == null || pUnder == null ? '' : pOver >= pUnder ? 'good' : 'bad'
   const bml = markets.book_moneyline
   return (
     <div className="totals" title={game.smash?.why}>
