@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Board, GameLogRow, PlayerLog, StatKey } from '../data/types'
 import { LOGO, loadPlayer } from '../data/load'
+import { chipTone } from '../components/RankStrip'
 
 const STATS: { key: StatKey; label: string; lines: number[] }[] = [
   { key: 'g', label: 'Goals', lines: [0.5, 1.5] },
@@ -12,6 +13,21 @@ const STATS: { key: StatKey; label: string; lines: number[] }[] = [
 function shortDate(ymd: string): string {
   const [, m, d] = ymd.split('-').map(Number)
   return `${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][m - 1]} ${d}`
+}
+
+/** 'W 4-2 OT' / 'L 1-3' for the player's team */
+function scoreLabel(r: GameLogRow): string {
+  if (r.tf == null || r.ta == null) return ''
+  const res = r.tf > r.ta ? 'W' : 'L'
+  return `${res} ${r.tf}-${r.ta}${r.ot && r.ot !== 'REG' ? ' ' + r.ot : ''}`
+}
+
+/** opponent's current rank in the stat they ALLOW that matters for this bet type */
+function oppRank(board: Board, opp: string, stat: StatKey): { label: string; rk: number | null; tone: string } {
+  const r = board.team_rates?.[opp]
+  if (!r) return { label: '', rk: null, tone: '' }
+  if (stat === 'sog') return { label: 'SA', rk: r.sa_rk, tone: chipTone('sa', r.sa_rk) }
+  return { label: 'GA', rk: r.ga_rk, tone: chipTone('ga', r.ga_rk) }
 }
 
 interface Series {
@@ -187,7 +203,7 @@ export function PropsPage({ board, target, onChange }: Props) {
             {statDef.label.toUpperCase()} — OVER {line}
           </span>
         </header>
-        <Chart games={games} series={series} stat={stat} line={line} yMax={yMax} />
+        <Chart games={games} series={series} stat={stat} line={line} yMax={yMax} board={board} />
       </section>
 
       <section className="pr-log">
@@ -212,6 +228,9 @@ export function PropsPage({ board, target, onChange }: Props) {
                 {shortDate(g.date)}
                 <br />
                 {g.home ? 'vs' : '@'} {g.opp}
+                <br />
+                <span className={g.tf != null && g.ta != null && g.tf > g.ta ? 'win' : 'loss'}>{scoreLabel(g)}</span>
+                {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? <span className={`pr-rk ${o.tone}`}>{o.label} #{o.rk}</span> : null })()}
               </div>
               {series.map((s, si) => {
                 const r = s.rows[i]
@@ -231,8 +250,9 @@ export function PropsPage({ board, target, onChange }: Props) {
   )
 }
 
-function Chart({ games, series, stat, line, yMax }: { games: GameLogRow[]; series: Series[]; stat: StatKey; line: number; yMax: number }) {
-  const W = 1200, H = 300, L = 44, R = 90, T = 28, B = 56
+function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]; series: Series[]; stat: StatKey; line: number; yMax: number; board: Board }) {
+  const W = 1200, H = 340, L = 44, R = 90, T = 28, B = 96
+  const TONE: Record<string, string> = { hot: '#4ade80', mid: '#f0bd81', cold: '#f87171', '': '#8fb0c0' }
   const iw = W - L - R, ih = H - T - B
   const n = Math.max(1, games.length)
   const slot = iw / n
@@ -279,6 +299,10 @@ function Chart({ games, series, stat, line, yMax }: { games: GameLogRow[]; serie
             })}
             <text x={cx} y={T + ih + 20} fill="#c9d7e0" fontSize="13" textAnchor="middle">{shortDate(g.date)}</text>
             <text x={cx} y={T + ih + 38} fill="#c9d7e0" fontSize="13" textAnchor="middle">{g.home ? 'vs' : '@'} {g.opp}</text>
+            <text x={cx} y={T + ih + 56} fill={g.tf != null && g.ta != null && g.tf > g.ta ? '#9de0b6' : '#f87171'} fontSize="12" fontWeight="700" textAnchor="middle">{scoreLabel(g)}</text>
+            {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? (
+              <text x={cx} y={T + ih + 76} fill={TONE[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
+            ) : null })()}
           </g>
         )
       })}

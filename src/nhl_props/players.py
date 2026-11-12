@@ -20,6 +20,12 @@ DOCS = results.DATA.parent / "docs"
 
 
 def build() -> Path:
+    from .common import read_json
+    scores: dict[int, dict] = {}
+    for f in glob.glob(str(results.DATA / "games" / "*.json")):
+        g = read_json(Path(f))
+        if g:
+            scores[int(g["game_id"])] = g
     logs: dict[int, dict] = {}
     for f in sorted(glob.glob(str(results.DATA / "boxscores" / "*.csv"))):
         for r in csv.DictReader(open(f, encoding="utf-8")):
@@ -29,8 +35,12 @@ def build() -> Path:
             p = logs.setdefault(pid, {"id": pid, "name": r.get("full_name") or r["player"], "team": r["team"],
                                       "pos": r.get("pos"), "jersey": analysis._i(r.get("sweater")) or None, "log": []})
             p["team"], p["jersey"] = r["team"], analysis._i(r.get("sweater")) or p["jersey"]  # latest wins
+            gi = scores.get(int(r["game_id"]), {})
+            home = r.get("home") == "1"
+            tf, ta = (gi.get("home_score"), gi.get("away_score")) if home else (gi.get("away_score"), gi.get("home_score"))
             p["log"].append({
-                "date": r["date"], "game_id": int(r["game_id"]), "opp": r["opp"], "home": r.get("home") == "1",
+                "date": r["date"], "game_id": int(r["game_id"]), "opp": r["opp"], "home": home,
+                "tf": tf, "ta": ta, "ot": (gi.get("last_period_type") or "") if gi else "",
                 "g": analysis._i(r.get("goals")), "a": analysis._i(r.get("assists")), "p": analysis._i(r.get("points")),
                 "sog": analysis._i(r.get("sog")), "pp_g": analysis._i(r.get("pp_goals")),
                 "toi_s": analysis._i(r.get("toi_s")), "pp_toi_s": analysis._i(r.get("pp_toi_s")),

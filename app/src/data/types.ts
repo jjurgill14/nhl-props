@@ -152,6 +152,9 @@ export interface GameLogRow {
   game_id: number
   opp: string
   home: boolean
+  tf?: number | null
+  ta?: number | null
+  ot?: string
   g: number
   a: number
   p: number
