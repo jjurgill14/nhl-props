@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { Board } from '../data/types'
 import { LOGO } from '../data/load'
+import { chipTone } from '../components/RankStrip'
 
 type Key = 'gf' | 'ga' | 'sf' | 'sa' | 'pp' | 'pk' | 'ppg' | 'ppga'
 
@@ -62,10 +63,9 @@ export function TeamRatesPage({ board }: { board: Board }) {
               <td>{r.gp ?? '—'}</td>
               {COLS.map((c) => {
                 const rk = r[`${c.key}_rk`]
-                const hot = rk != null && (c.goodIsLow ? rk <= 8 : rk >= 25)
-                const cold = rk != null && (c.goodIsLow ? rk >= 25 : rk <= 8)
+                const tone = c.key === 'ppg' ? chipTone('gf', rk) : c.key === 'ppga' ? chipTone('ga', rk) : chipTone(c.key, rk)
                 return (
-                  <td key={c.key} className={hot ? 'hot' : cold ? 'cold' : ''}>
+                  <td key={c.key} className={tone}>
                     {c.fmt(r[c.key])}
                     <small>{rk == null ? '' : `#${rk}`}</small>
                   </td>
@@ -76,8 +76,9 @@ export function TeamRatesPage({ board }: { board: Board }) {
         </tbody>
       </table>
       <p className="tr-note">
-        Rank 1 = most, for every raw rate — so on GA and shots allowed, #1 is the leakiest team. Colors are team quality: green = top-8
-        at it, red = bottom-8. When you're betting a player, a red GA / SA on the opponent is what you want. {!anyPP && 'PP% / PK% appear once the overnight job backfills power-play opportunities from the NHL game pages (pending).'}
+        Rank 1 = most, for every raw rate — so on GA and shots allowed, #1 is the leakiest team. One color rule: green = good for an
+        offensive bet. Offense columns (GF, SOG, PP, PPG): green = bet this team's shooters. Defense columns (GA, SOG allowed, PK, PPGA):
+        green = this team is leaky, so bet the other side's shooters. {!anyPP && 'PP% / PK% appear once the overnight job backfills power-play opportunities from the NHL game pages (pending).'}
       </p>
     </>
   )
