@@ -408,3 +408,5 @@ button:disabled{cursor:default;opacity:.55}
 .vs.at{color:#edf5fb;font-size:16px;font-weight:800;align-self:start;padding-top:62px}
 .location{margin-top:1px}.location .status-badge{margin-left:0}
 .vs.at{font-size:30px;line-height:30px;padding-top:14px;font-weight:800}
+/* logos 50% larger without changing the layout: scale in place, box stays 40px */
+.crest{overflow:visible}.crest img{transform:scale(1.5);transform-origin:center center}
