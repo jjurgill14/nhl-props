@@ -77,7 +77,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
       </table>
       <p className="tr-note">
         Rank 1 = most, for every raw rate — so on GA and shots allowed, #1 is the leakiest team. One color rule: green = good for an
-        offensive bet. Offense columns (GF, SOG, PP, PPG): green = bet this team's shooters. Defense columns (GA, SOG allowed, PK, PPGA):
+        offensive bet (top 8), amber = middle, red = bad (bottom 8). Offense columns (GF, SOG, PP, PPG): green = bet this team's shooters. Defense columns (GA, SOG allowed, PK, PPGA):
         green = this team is leaky, so bet the other side's shooters. {!anyPP && 'PP% / PK% appear once the overnight job backfills power-play opportunities from the NHL game pages (pending).'}
       </p>
     </>

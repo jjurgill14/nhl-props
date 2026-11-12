@@ -18,12 +18,12 @@ const DEF: { key: K; label: string; title: string }[] = [
 ]
 
 /** tone for an offensive bet: offense chips good when rank is low; "gives up" chips good when the team is leaky. */
-export function chipTone(key: K, rk: number | null): '' | 'hot' | 'cold' {
+export function chipTone(key: K, rk: number | null): '' | 'hot' | 'mid' | 'cold' {
   if (rk == null) return ''
   const leakyIsGood = key === 'ga' || key === 'sa' // rank 1 = allows the most = good for the opponent's shooters
   const good = key === 'pk' ? rk >= 25 : leakyIsGood ? rk <= 8 : rk <= 8
   const bad = key === 'pk' ? rk <= 8 : leakyIsGood ? rk >= 25 : rk >= 25
-  return good ? 'hot' : bad ? 'cold' : ''
+  return good ? 'hot' : bad ? 'cold' : 'mid'
 }
 
 function fmt(key: K, v: number | null | undefined): string {
