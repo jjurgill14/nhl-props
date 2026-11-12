@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T01:42:05.649031+00:00",
+ "generated_utc": "2026-11-12T01:57:10.657457+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -7035,7 +7035,7 @@
     "goalie_source": "Ryan Rishaug",
     "sv": "0.898",
     "gaa": "2.56",
-    "lineup_as_of": "2026-11-11T13:16:58.075448+00:00",
+    "lineup_as_of": "2026-11-12T01:57:08.596532+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 3,
@@ -7043,10 +7043,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-155",
-     "home": "+130",
+     "away": "-148",
+     "home": "+124",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-11T13:16:58.075448+00:00"
+     "as_of": "2026-11-12T01:57:08.596532+00:00"
     },
     "total": {
      "line": null,
@@ -7213,19 +7213,19 @@
       ]
      },
      {
-      "selection": "Michkov + Martone \u00b7 both 1+ point",
-      "prob": 0.277,
-      "fair": "+261",
-      "need": "+283",
-      "rationale": "Both scored 4 of 12 games together \u00b7 independent 16% \u00b7 correlated",
-      "team": "PHI",
+      "selection": "Joseph + Dickinson \u00b7 both 1+ point",
+      "prob": 0.291,
+      "fair": "+244",
+      "need": "+265",
+      "rationale": "Both scored 3 of 7 games together \u00b7 independent 13% \u00b7 correlated",
+      "team": "EDM",
       "line": 3,
       "read": "correlated",
-      "both": 4,
-      "n": 12,
+      "both": 3,
+      "n": 7,
       "players": [
-       8484387,
-       8485406
+       8478472,
+       8477450
       ]
      }
     ],
@@ -8919,10 +8919,10 @@
     },
     "home": {
      "team": "EDM",
-     "as_of": "2026-11-11T13:16:58.075448+00:00",
+     "as_of": "2026-11-12T01:57:08.596532+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-09)",
-     "updated_dfo": "2026-11-10T15:16:57.088Z",
+     "source": "@EdmontonOilers",
+     "updated_dfo": "2026-11-12T01:46:35.879Z",
      "forwards": [
       [
        {
@@ -9234,40 +9234,40 @@
         }
        },
        {
-        "name": "Trent Frederic",
-        "jersey": 10,
+        "name": "Mathieu Joseph",
+        "jersey": 21,
         "pos": "RW",
         "slot": null,
-        "player_id": 8479365,
-        "dfo_id": 2662,
+        "player_id": 8478472,
+        "dfo_id": 3891,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 16,
-         "p": 1,
+         "a": 5,
+         "g": 3,
+         "gp": 19,
+         "p": 8,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 8808
+         "sog": 16,
+         "toi_s": 15218
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 2579
+         "sog": 2,
+         "toi_s": 3610
         },
-        "l5_point_games": 0,
-        "gp": 16,
+        "l5_point_games": 1,
+        "gp": 19,
         "move": {
-         "ev": 1,
-         "pp": -1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        }
@@ -9350,40 +9350,40 @@
         }
        },
        {
-        "name": "Mathieu Joseph",
-        "jersey": 21,
+        "name": "Trent Frederic",
+        "jersey": 10,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478472,
-        "dfo_id": 3891,
+        "player_id": 8479365,
+        "dfo_id": 2662,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 3,
-         "gp": 19,
-         "p": 8,
-         "ppp": 0,
-         "sog": 16,
-         "toi_s": 15218
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
+         "a": 0,
+         "g": 1,
+         "gp": 16,
          "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3610
+         "sog": 15,
+         "toi_s": 8808
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 2579
+        },
+        "l5_point_games": 0,
+        "gp": 16,
         "move": {
-         "ev": -1,
-         "pp": 0,
+         "ev": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -10326,7 +10326,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -10450,7 +10450,7 @@
        "rating": 0
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -10458,16 +10458,16 @@
        "rating": 84.3760359183493
       },
       "f2": {
-       "rank": 14,
+       "rank": 15,
        "rating": 74.49438675803798
       },
       "f3": {
-       "rank": 30,
-       "rating": 71.10530331717337
+       "rank": 32,
+       "rating": 70.10095046670502
       },
       "f4": {
-       "rank": 21,
-       "rating": 71.28214988005341
+       "rank": 15,
+       "rating": 72.28650273052176
       },
       "g": {
        "rank": 18,
@@ -17549,8 +17549,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+164",
-     "home": "-198",
+     "away": "+160",
+     "home": "-192",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-11T13:16:58.472062+00:00"
     },

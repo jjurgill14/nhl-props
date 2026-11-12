@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T01:42:05.124100+00:00",
+ "generated_utc": "2026-11-12T01:57:10.129693+00:00",
  "games": [
   {
    "game_id": 2026020293,
@@ -2800,7 +2800,7 @@
      "goalie_source": "Jackie Spiegel",
      "sv": "0.88",
      "gaa": "3.27",
-     "ml": "-155",
+     "ml": "-148",
      "gp": 20,
      "gf": 2.25,
      "gf_rk": 31,
@@ -3486,7 +3486,7 @@
      "goalie_source": "Ryan Rishaug",
      "sv": "0.898",
      "gaa": "2.56",
-     "ml": "130",
+     "ml": "124",
      "gp": 19,
      "gf": 4.052631578947368,
      "gf_rk": 3,
@@ -3498,7 +3498,7 @@
      "ppga_rk": 16,
      "l5_gf": 3.6,
      "l5_ga": 2.4,
-     "lineup_as_of": "2026-11-11T13:16:58.075448+00:00",
+     "lineup_as_of": "2026-11-12T01:57:08.596532+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3541,12 +3541,12 @@
       "3": [
        "Colton Dach",
        "Jason Dickinson",
-       "Trent Frederic"
+       "Mathieu Joseph"
       ],
       "4": [
        "Alex Formenton",
        "Owen Michaels",
-       "Mathieu Joseph"
+       "Trent Frederic"
       ]
      },
      "pp1": [
@@ -3967,6 +3967,73 @@
        ]
       },
       {
+       "name": "Mathieu Joseph",
+       "jersey": 21,
+       "team": "EDM",
+       "opp": "PHI",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 19,
+       "pt_games": 8,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 3,
+       "two_games": 0,
+       "home_split": [
+        4,
+        11
+       ],
+       "away_split": [
+        4,
+        8
+       ],
+       "pp_toi": 0.0,
+       "toi": 12.0,
+       "p": 0.38,
+       "fair": "+163",
+       "min": "+179",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0258064516129033
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Colton Dach",
+         "jersey": 34,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Jason Dickinson",
+         "jersey": 16,
+         "pp": null,
+         "n": 7,
+         "both": 3,
+         "either": 3
+        }
+       ]
+      },
+      {
        "name": "Jason Dickinson",
        "jersey": 16,
        "team": "EDM",
@@ -4024,12 +4091,12 @@
          "either": 0
         },
         {
-         "name": "Trent Frederic",
-         "jersey": 10,
+         "name": "Mathieu Joseph",
+         "jersey": 21,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 7,
+         "both": 3,
+         "either": 3
         }
        ]
       },
@@ -4091,75 +4158,8 @@
          "either": 0
         },
         {
-         "name": "Trent Frederic",
-         "jersey": 10,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Trent Frederic",
-       "jersey": 10,
-       "team": "EDM",
-       "opp": "PHI",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 16,
-       "pt_games": 1,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        0,
-        9
-       ],
-       "away_split": [
-        1,
-        7
-       ],
-       "pp_toi": 0.9,
-       "toi": 8.6,
-       "p": 0.128,
-       "fair": "+680",
-       "min": "+727",
-       "p2": 0.014,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0258064516129033
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": -1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Colton Dach",
-         "jersey": 34,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Jason Dickinson",
-         "jersey": 16,
+         "name": "Mathieu Joseph",
+         "jersey": 21,
          "pp": null,
          "n": 1,
          "both": 0,
@@ -7005,7 +7005,7 @@
      "goalie_source": "Pens Inside Scoop",
      "sv": "0.878",
      "gaa": "3.52",
-     "ml": "164",
+     "ml": "160",
      "gp": 18,
      "gf": 3.1666666666666665,
      "gf_rk": 15,
@@ -7689,7 +7689,7 @@
      "goalie_source": "Curtis Pashelka",
      "sv": "0.889",
      "gaa": "3.22",
-     "ml": "-198",
+     "ml": "-192",
      "gp": 20,
      "gf": 2.45,
      "gf_rk": 29,
