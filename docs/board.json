@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T01:57:10.657457+00:00",
+ "generated_utc": "2026-11-12T02:12:15.224311+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -6999,7 +6999,7 @@
    "id": "03",
    "game_id": 2026020295,
    "start_utc": "2026-11-12T02:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Rogers Place",
    "away": {
     "abbr": "PHI",
@@ -10497,7 +10497,7 @@
    "id": "04",
    "game_id": 2026020296,
    "start_utc": "2026-11-12T02:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "T-Mobile Arena",
    "away": {
     "abbr": "UTA",
@@ -10508,12 +10508,12 @@
     "record": "10-7-1",
     "b2b": false,
     "goalie": "Sebastian Cossa",
-    "goalie_status": "Likely",
-    "goalie_news": "Cossa is in the starter's crease at Utah's morning skate.",
-    "goalie_source": "Chase Beardsley",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Cossa led the Mammoth onto the ice for warmups.",
+    "goalie_source": "Jesse Granger",
     "sv": "0.873",
     "gaa": "3.38",
-    "lineup_as_of": "2026-11-11T23:41:24.876762+00:00",
+    "lineup_as_of": "2026-11-12T02:12:13.635131+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 8,
@@ -10712,10 +10712,10 @@
      },
      {
       "selection": "Cooley + Trocheck \u00b7 both 1+ point",
-      "prob": 0.351,
-      "fair": "+185",
-      "need": "+202",
-      "rationale": "Both scored 5 of 12 games together \u00b7 independent 22% \u00b7 correlated",
+      "prob": 0.361,
+      "fair": "+177",
+      "need": "+194",
+      "rationale": "Both scored 5 of 12 games together \u00b7 independent 25% \u00b7 correlated",
       "team": "UTA",
       "line": 2,
       "read": "correlated",
@@ -10833,19 +10833,19 @@
       ]
      },
      {
-      "selection": "Schmaltz + Guenther \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.308,
-      "fair": "+225",
-      "need": "+244",
-      "rationale": "Both scored 2 of 5 games together \u00b7 independent 23% \u00b7 new pair",
+      "selection": "Cooley + Trocheck \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.361,
+      "fair": "+177",
+      "need": "+194",
+      "rationale": "Both scored 5 of 12 games together \u00b7 independent 25% \u00b7 correlated",
       "team": "UTA",
-      "line": 3,
-      "read": "new pair",
-      "both": 2,
-      "n": 5,
+      "line": 2,
+      "read": "correlated",
+      "both": 5,
+      "n": 12,
       "players": [
-       8477951,
-       8482699
+       8483431,
+       8476389
       ]
      }
     ],
@@ -10863,10 +10863,10 @@
    "lineup": {
     "away": {
      "team": "UTA",
-     "as_of": "2026-11-11T23:41:24.876762+00:00",
+     "as_of": "2026-11-12T02:12:13.635131+00:00",
      "stale": false,
-     "source": "Brogan Houston",
-     "updated_dfo": "2026-11-09T20:02:41.754Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-12T02:05:51.304Z",
      "forwards": [
       [
        {
@@ -11032,7 +11032,7 @@
         "dfo_id": 2006,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
         "bias": "A",
         "season": {
@@ -11057,7 +11057,7 @@
         "gp": 18,
         "move": {
          "ev": 1,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -11178,41 +11178,41 @@
         }
        },
        {
-        "name": "Dylan Guenther",
-        "jersey": 11,
+        "name": "Kailer Yamamoto",
+        "jersey": 56,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482699,
-        "dfo_id": 34613,
+        "player_id": 8479977,
+        "dfo_id": 2796,
         "gtd": true,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 6,
-         "g": 6,
-         "gp": 18,
-         "p": 12,
-         "ppp": 9,
-         "sog": 46,
-         "toi_s": 18542
+         "a": 4,
+         "g": 3,
+         "gp": 9,
+         "p": 7,
+         "ppp": 2,
+         "sog": 21,
+         "toi_s": 7817
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 7,
-         "toi_s": 5083
+         "p": 3,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 4262
         },
-        "l5_point_games": 2,
-        "gp": 18,
+        "l5_point_games": 3,
+        "gp": 9,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -11660,48 +11660,10 @@
      "pp": [
       [
        {
-        "name": "Nick Schmaltz",
-        "jersey": 8,
-        "pos": null,
-        "slot": 1,
-        "player_id": 8477951,
-        "dfo_id": 2678,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 9,
-         "gp": 18,
-         "p": 20,
-         "ppp": 12,
-         "sog": 47,
-         "toi_s": 19075
-        },
-        "last5": {
-         "a": 4,
-         "g": 2,
-         "gp": 5,
-         "p": 6,
-         "ppp": 6,
-         "sog": 13,
-         "toi_s": 5032
-        },
-        "l5_point_games": 3,
-        "gp": 18,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Logan Cooley",
         "jersey": 92,
         "pos": null,
-        "slot": 2,
+        "slot": 1,
         "player_id": 8483431,
         "dfo_id": 33387,
         "gtd": false,
@@ -11736,74 +11698,74 @@
         }
        },
        {
-        "name": "Clayton Keller",
-        "jersey": 9,
+        "name": "Vincent Trocheck",
+        "jersey": 16,
         "pos": null,
-        "slot": 3,
-        "player_id": 8479343,
-        "dfo_id": 2642,
+        "slot": 2,
+        "player_id": 8476389,
+        "dfo_id": 2006,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 19,
-         "g": 5,
+         "a": 7,
+         "g": 3,
          "gp": 18,
-         "p": 24,
-         "ppp": 15,
-         "sog": 48,
-         "toi_s": 19923
+         "p": 10,
+         "ppp": 1,
+         "sog": 31,
+         "toi_s": 18797
         },
         "last5": {
-         "a": 8,
-         "g": 1,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 9,
-         "ppp": 5,
-         "sog": 19,
-         "toi_s": 5814
+         "p": 3,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 5762
         },
-        "l5_point_games": 5,
+        "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
        {
-        "name": "Dylan Guenther",
-        "jersey": 11,
+        "name": "Nick Schmaltz",
+        "jersey": 8,
         "pos": null,
-        "slot": 4,
-        "player_id": 8482699,
-        "dfo_id": 34613,
-        "gtd": true,
+        "slot": 3,
+        "player_id": 8477951,
+        "dfo_id": 2678,
+        "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": "G",
+        "pk": 1,
+        "bias": "A",
         "season": {
-         "a": 6,
-         "g": 6,
+         "a": 11,
+         "g": 9,
          "gp": 18,
-         "p": 12,
-         "ppp": 9,
-         "sog": 46,
-         "toi_s": 18542
+         "p": 20,
+         "ppp": 12,
+         "sog": 47,
+         "toi_s": 19075
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 4,
+         "g": 2,
          "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 7,
-         "toi_s": 5083
+         "p": 6,
+         "ppp": 6,
+         "sog": 13,
+         "toi_s": 5032
         },
-        "l5_point_games": 2,
+        "l5_point_games": 3,
         "gp": 18,
         "move": {
          "ev": -1,
@@ -11815,7 +11777,7 @@
         "name": "Mikhail Sergachev",
         "jersey": 98,
         "pos": null,
-        "slot": 5,
+        "slot": 4,
         "player_id": 8479410,
         "dfo_id": 2639,
         "gtd": false,
@@ -11842,6 +11804,44 @@
          "toi_s": 7803
         },
         "l5_point_games": 4,
+        "gp": 18,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Clayton Keller",
+        "jersey": 9,
+        "pos": null,
+        "slot": 5,
+        "player_id": 8479343,
+        "dfo_id": 2642,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 19,
+         "g": 5,
+         "gp": 18,
+         "p": 24,
+         "ppp": 15,
+         "sog": 48,
+         "toi_s": 19923
+        },
+        "last5": {
+         "a": 8,
+         "g": 1,
+         "gp": 5,
+         "p": 9,
+         "ppp": 5,
+         "sog": 19,
+         "toi_s": 5814
+        },
+        "l5_point_games": 5,
         "gp": 18,
         "move": {
          "ev": 0,
@@ -11890,39 +11890,39 @@
         }
        },
        {
-        "name": "Vincent Trocheck",
-        "jersey": 16,
+        "name": "Barrett Hayton",
+        "jersey": 27,
         "pos": null,
         "slot": 2,
-        "player_id": 8476389,
-        "dfo_id": 2006,
+        "player_id": 8480849,
+        "dfo_id": 4796,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 7,
-         "g": 3,
+         "a": 8,
+         "g": 2,
          "gp": 18,
          "p": 10,
-         "ppp": 1,
-         "sog": 31,
-         "toi_s": 18797
+         "ppp": 2,
+         "sog": 35,
+         "toi_s": 15520
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 1,
+         "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 5762
+         "sog": 9,
+         "toi_s": 4555
         },
-        "l5_point_games": 3,
+        "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -11966,41 +11966,41 @@
         }
        },
        {
-        "name": "Barrett Hayton",
-        "jersey": 27,
+        "name": "Kailer Yamamoto",
+        "jersey": 56,
         "pos": null,
         "slot": 4,
-        "player_id": 8480849,
-        "dfo_id": 4796,
-        "gtd": false,
+        "player_id": 8479977,
+        "dfo_id": 2796,
+        "gtd": true,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 8,
-         "g": 2,
-         "gp": 18,
-         "p": 10,
+         "a": 4,
+         "g": 3,
+         "gp": 9,
+         "p": 7,
          "ppp": 2,
-         "sog": 35,
-         "toi_s": 15520
+         "sog": 21,
+         "toi_s": 7817
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 9,
-         "toi_s": 4555
+         "p": 3,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 4262
         },
-        "l5_point_games": 2,
-        "gp": 18,
+        "l5_point_games": 3,
+        "gp": 9,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -12371,7 +12371,7 @@
       },
       {
        "player": "Dylan Guenther",
-       "status": "DTD",
+       "status": "IR",
        "news": "Guenther (maintenance) will be a game-time decision in Vegas on Wednesday."
       }
      ],
@@ -12397,15 +12397,15 @@
        "rating": 74.33363726235737
       },
       "f2": {
-       "rank": 26,
+       "rank": 27,
        "rating": 72.40788007344791
       },
       "f3": {
-       "rank": 29,
-       "rating": 71.1775198305316
+       "rank": 20,
+       "rating": 72.3312355802619
       },
       "f4": {
-       "rank": 17,
+       "rank": 18,
        "rating": 71.91977873674156
       },
       "g": {

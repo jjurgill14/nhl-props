@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T01:57:10.129693+00:00",
+ "generated_utc": "2026-11-12T02:12:14.704951+00:00",
  "games": [
   {
    "game_id": 2026020293,
@@ -2786,7 +2786,7 @@
    "start_et": "9:00 PM",
    "away": "PHI",
    "home": "EDM",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Rogers Place",
    "teams": {
     "away": {
@@ -4177,7 +4177,7 @@
    "start_et": "9:30 PM",
    "away": "UTA",
    "home": "VGK",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "T-Mobile Arena",
    "teams": {
     "away": {
@@ -4186,9 +4186,9 @@
      "home": false,
      "b2b": false,
      "goalie": "Sebastian Cossa",
-     "goalie_status": "Likely",
-     "goalie_news": "Cossa is in the starter's crease at Utah's morning skate.",
-     "goalie_source": "Chase Beardsley",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Cossa led the Mammoth onto the ice for warmups.",
+     "goalie_source": "Jesse Granger",
      "sv": "0.873",
      "gaa": "3.38",
      "ml": "-230",
@@ -4203,7 +4203,7 @@
      "ppga_rk": 6,
      "l5_gf": 3.2,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-11T23:41:24.876762+00:00",
+     "lineup_as_of": "2026-11-12T02:12:13.635131+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4223,7 +4223,7 @@
       },
       {
        "player": "Dylan Guenther",
-       "status": "DTD",
+       "status": "IR",
        "news": "Guenther (maintenance) will be a game-time decision in Vegas on Wednesday."
       }
      ],
@@ -4241,7 +4241,7 @@
       "3": [
        "Jack McBain",
        "Nick Schmaltz",
-       "Dylan Guenther"
+       "Kailer Yamamoto"
       ],
       "4": [
        "Michael Carcone",
@@ -4250,17 +4250,17 @@
       ]
      },
      "pp1": [
-      "Nick Schmaltz",
       "Logan Cooley",
-      "Clayton Keller",
-      "Dylan Guenther",
-      "Mikhail Sergachev"
+      "Vincent Trocheck",
+      "Nick Schmaltz",
+      "Mikhail Sergachev",
+      "Clayton Keller"
      ],
      "pp2": [
       "Anders Lee",
-      "Vincent Trocheck",
-      "Michael Carcone",
       "Barrett Hayton",
+      "Michael Carcone",
+      "Kailer Yamamoto",
       "MacKenzie Weegar"
      ],
      "players": [
@@ -4383,7 +4383,7 @@
         {
          "name": "Vincent Trocheck",
          "jersey": 16,
-         "pp": 2,
+         "pp": 1,
          "n": 12,
          "both": 5,
          "either": 9
@@ -4456,52 +4456,52 @@
          "either": 1
         },
         {
-         "name": "Dylan Guenther",
-         "jersey": 11,
-         "pp": 1,
-         "n": 5,
-         "both": 2,
-         "either": 3
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
       {
-       "name": "Dylan Guenther",
-       "jersey": 11,
+       "name": "Vincent Trocheck",
+       "jersey": 16,
        "team": "UTA",
        "opp": "VGK",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
-       "pos": "RW",
-       "gtd": true,
+       "pos": "C",
+       "gtd": false,
        "role": "pp1",
-       "bias": "G",
+       "bias": "A",
        "gp": 18,
-       "pt_games": 8,
+       "pt_games": 9,
        "l5": [
-        2,
+        3,
         5
        ],
-       "ast_games": 5,
-       "goal_games": 5,
-       "two_games": 3,
+       "ast_games": 6,
+       "goal_games": 3,
+       "two_games": 1,
        "home_split": [
         3,
         6
        ],
        "away_split": [
-        5,
+        6,
         12
        ],
-       "pp_toi": 3.6,
-       "toi": 16.9,
-       "p": 0.418,
-       "fair": "+139",
-       "min": "+154",
-       "p2": 0.156,
-       "fair2": "+541",
-       "min2": "+580",
+       "pp_toi": 1.2,
+       "toi": 19.2,
+       "p": 0.451,
+       "fair": "+121",
+       "min": "+135",
+       "p2": 0.088,
+       "fair2": "+1035",
+       "min2": "+1103",
        "adj": [
         [
          "opp",
@@ -4509,26 +4509,93 @@
         ]
        ],
        "move": {
-        "ev": -1,
-        "pp": 0,
+        "ev": 1,
+        "pp": 1,
         "new": false
+       },
+       "partners": [
+        {
+         "name": "Logan Cooley",
+         "jersey": 92,
+         "pp": 1,
+         "n": 12,
+         "both": 5,
+         "either": 9
+        },
+        {
+         "name": "Lawson Crouse",
+         "jersey": 67,
+         "pp": null,
+         "n": 5,
+         "both": 1,
+         "either": 3
+        }
+       ]
+      },
+      {
+       "name": "Kailer Yamamoto",
+       "jersey": 56,
+       "team": "UTA",
+       "opp": "VGK",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": true,
+       "role": "other",
+       "bias": null,
+       "gp": 9,
+       "pt_games": 6,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        3,
+        5
+       ],
+       "away_split": [
+        3,
+        4
+       ],
+       "pp_toi": 0.7,
+       "toi": 14.2,
+       "p": 0.415,
+       "fair": "+141",
+       "min": "+156",
+       "p2": 0.068,
+       "fair2": "+1361",
+       "min2": "+1449",
+       "adj": [
+        [
+         "opp",
+         0.8812903225806452
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
        },
        "partners": [
         {
          "name": "Jack McBain",
          "jersey": 22,
          "pp": null,
-         "n": 3,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Nick Schmaltz",
          "jersey": 8,
          "pp": 1,
-         "n": 5,
-         "both": 2,
-         "either": 3
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -4594,73 +4661,6 @@
          "jersey": 9,
          "pp": 1,
          "n": 3,
-         "both": 1,
-         "either": 3
-        }
-       ]
-      },
-      {
-       "name": "Vincent Trocheck",
-       "jersey": 16,
-       "team": "UTA",
-       "opp": "VGK",
-       "home": false,
-       "line": 2,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 18,
-       "pt_games": 9,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        3,
-        6
-       ],
-       "away_split": [
-        6,
-        12
-       ],
-       "pp_toi": 1.2,
-       "toi": 19.2,
-       "p": 0.397,
-       "fair": "+152",
-       "min": "+167",
-       "p2": 0.056,
-       "fair2": "+1699",
-       "min2": "+1807",
-       "adj": [
-        [
-         "opp",
-         0.8812903225806452
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Logan Cooley",
-         "jersey": 92,
-         "pp": 1,
-         "n": 12,
-         "both": 5,
-         "either": 9
-        },
-        {
-         "name": "Lawson Crouse",
-         "jersey": 67,
-         "pp": null,
-         "n": 5,
          "both": 1,
          "either": 3
         }
@@ -4793,7 +4793,7 @@
         {
          "name": "Vincent Trocheck",
          "jersey": 16,
-         "pp": 2,
+         "pp": 1,
          "n": 5,
          "both": 1,
          "either": 3
@@ -4858,12 +4858,12 @@
          "either": 1
         },
         {
-         "name": "Dylan Guenther",
-         "jersey": 11,
-         "pp": 1,
-         "n": 3,
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         }
        ]
       }
