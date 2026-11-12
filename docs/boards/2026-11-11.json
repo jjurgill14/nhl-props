@@ -1,7 +1,7 @@
 {
  "mode": "live",
  "date": "2026-11-11",
- "generated_utc": "2026-11-12T01:27:01.019271+00:00",
+ "generated_utc": "2026-11-12T01:42:05.649031+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -33,8 +33,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Vasilevskiy led the Lightning onto the ice for warmups.",
     "goalie_source": "Mike Harrington",
-    "sv": "0.884",
-    "gaa": "2.84",
+    "sv": "0.887",
+    "gaa": "2.76",
     "lineup_as_of": "2026-11-11T23:41:24.804485+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
@@ -53,8 +53,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Luukkonen will start Wednesday vs. the Lightning.",
     "goalie_source": "Mike Harrington",
-    "sv": "0.878",
-    "gaa": "3.26",
+    "sv": "0.875",
+    "gaa": "3.33",
     "lineup_as_of": "2026-11-11T13:16:57.920265+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
@@ -3537,8 +3537,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Korpisalo led the Rangers onto the ice for warmups.",
     "goalie_source": "Ryan Pike",
-    "sv": "0.893",
-    "gaa": "3.0",
+    "sv": "0.914",
+    "gaa": "2.54",
     "lineup_as_of": "2026-11-11T22:26:00.675230+00:00",
     "lineup_stale": false,
     "ga_rk": 24,
@@ -3557,8 +3557,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Cooley will start vs. New York on Wednesday.",
     "goalie_source": "Pat Steinberg",
-    "sv": "0.913",
-    "gaa": "2.7",
+    "sv": "0.914",
+    "gaa": "2.64",
     "lineup_as_of": "2026-11-11T22:26:00.554435+00:00",
     "lineup_stale": false,
     "ga_rk": 7,
@@ -6999,7 +6999,7 @@
    "id": "03",
    "game_id": 2026020295,
    "start_utc": "2026-11-12T02:00:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Rogers Place",
    "away": {
     "abbr": "PHI",
@@ -7010,12 +7010,12 @@
     "record": "5-10-5",
     "b2b": false,
     "goalie": "Dan Vladar",
-    "goalie_status": "Likely",
-    "goalie_news": "Vladar is in the starter's crease at Philadelphia's morning skate.",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Vladar starts Wednesday in Edmonton.",
     "goalie_source": "Jackie Spiegel",
     "sv": "0.88",
     "gaa": "3.27",
-    "lineup_as_of": "2026-11-11T23:11:16.025704+00:00",
+    "lineup_as_of": "2026-11-12T01:42:03.651419+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
     "gf_rk": 31,
@@ -7365,10 +7365,10 @@
    "lineup": {
     "away": {
      "team": "PHI",
-     "as_of": "2026-11-11T23:11:16.025704+00:00",
+     "as_of": "2026-11-12T01:42:03.651419+00:00",
      "stale": false,
      "source": "Jackie Spiegel",
-     "updated_dfo": "2026-11-11T17:37:38.641Z",
+     "updated_dfo": "2026-11-12T01:39:14.222Z",
      "forwards": [
       [
        {
@@ -7885,7 +7885,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 2,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 8,
@@ -8038,10 +8038,10 @@
         "slot": null,
         "player_id": 8477499,
         "dfo_id": 2140,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 0,
@@ -8323,7 +8323,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 2,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 8,
@@ -8778,48 +8778,10 @@
         }
        },
        {
-        "name": "Jamie Drysdale",
-        "jersey": 9,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8482142,
-        "dfo_id": 29756,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 2,
-        "bias": "A",
-        "season": {
-         "a": 8,
-         "g": 1,
-         "gp": 20,
-         "p": 9,
-         "ppp": 2,
-         "sog": 26,
-         "toi_s": 27648
-        },
-        "last5": {
-         "a": 6,
-         "g": 0,
-         "gp": 5,
-         "p": 6,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 7102
-        },
-        "l5_point_games": 4,
-        "gp": 20,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Nick Seeler",
         "jersey": 24,
         "pos": null,
-        "slot": 4,
+        "slot": 3,
         "player_id": 8476372,
         "dfo_id": 4630,
         "gtd": false,
@@ -8852,6 +8814,44 @@
          "pp": 0,
          "new": false
         }
+       },
+       {
+        "name": "Rasmus Ristolainen",
+        "jersey": 55,
+        "pos": null,
+        "slot": 4,
+        "player_id": 8477499,
+        "dfo_id": 2140,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 1,
+         "gp": 4,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4164
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 5253
+        },
+        "l5_point_games": 1,
+        "gp": 4,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
        }
       ]
      ],
@@ -8860,11 +8860,6 @@
        "player": "Nikita Grebenkin",
        "status": "IR",
        "news": "Grebenkin (upper-body) has been placed on injured reserve."
-      },
-      {
-       "player": "Rasmus Ristolainen",
-       "status": "IR",
-       "news": "Ristolainen (upper body) will be a game-time decision on Wednesday."
       }
      ],
      "unit_ratings": {
