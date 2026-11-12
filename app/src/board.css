@@ -342,3 +342,20 @@ button:disabled{cursor:default;opacity:.55}
 .card.smash-card{border-color:#4ade80;box-shadow:0 0 0 1px #4ade8055, 0 10px 30px #4ade8018}
 .card.smash-card:before{background:linear-gradient(90deg,#4ade80,transparent 88%)}
 .stat.smash-stat{border-color:#2e6a4a;background:linear-gradient(137deg,#122a1f,#0e1925)}.stat.smash-stat .stat-value{color:#9de0b6}
+
+/* ===== CARD TIGHTENING + TOTALS-FIRST BAR (JJ, 2026-11-12) ===== */
+.matchup{padding:6px 13px 8px;min-height:0}
+.crest{height:40px;width:48px;margin:0 auto 4px}.crest img{height:40px;width:46px}
+.team-record{margin-top:2px}.location{margin-top:2px}.goalie-line{margin-top:3px}
+.ranks-wrap{margin-top:4px}
+.totals{margin:0 12px;background:#09172295;border:1px solid #2a3d4c;border-radius:9px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:8px 12px}
+.tot-label{color:#7898aa;font-weight:850;font-size:8px;letter-spacing:1px}
+.tot-line{font-size:30px;font-weight:900;letter-spacing:-1px;line-height:1;margin-top:2px}
+.tot-line.good{color:#4ade80}.tot-line.bad{color:#f87171}.tot-line.mid{color:#f0bd81}.tot-line.none{font-size:11px;color:#6f8fa3;letter-spacing:.5px;font-weight:800;margin-top:6px}
+.tot-odds{display:flex;flex-direction:column;gap:3px}
+.tot-side{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:800;letter-spacing:.4px;color:#c9d7e0}.tot-side b{font-size:13px}
+.tot-side .mark{width:16px;text-align:center;font-size:14px;font-weight:900}
+.tot-side.good{color:#4ade80}.tot-side.bad{color:#f87171}.tot-side.muted{color:#7f98a8}
+.tot-ml{display:flex;flex-direction:column;gap:3px;text-align:right;font-size:10px;color:#7f98a8;font-weight:700}.tot-ml b{color:#b6c8d4;font-size:11px;margin-left:4px}
+.card{min-height:0}
+.card-head{padding:11px 16px 0}.matchup{padding-top:2px}.crest{margin-bottom:2px}.team-name{margin-top:0}

@@ -23,7 +23,7 @@ export function Crest({ team, small = false }: { team: TeamSide; small?: boolean
   )
 }
 
-function BigTeam({ team, position }: { team: TeamSide; position: 'AWAY' | 'HOME' }) {
+function BigTeam({ team, opp, position }: { team: TeamSide; opp: TeamSide; position: 'AWAY' | 'HOME' }) {
   const st = team.goalie_status
   const cls = st === 'Confirmed' ? 'ok' : st === 'Likely' || st === 'Expected' ? 'likely' : ''
   return (
@@ -40,7 +40,61 @@ function BigTeam({ team, position }: { team: TeamSide; position: 'AWAY' | 'HOME'
       <div className="goalie-line" title={team.goalie_news ?? undefined}>
         🥅 <b>{team.goalie ?? 'TBD'}</b> <span className={cls}>{st ?? 'unconfirmed'}</span>
       </div>
-      <RankStrip r={team.rates} compact />
+      <RankStrip r={team.rates} opp={opp.rates} compact />
+    </div>
+  )
+}
+
+function amer(v: number | null | undefined): string {
+  return v == null ? '—' : v > 0 ? `+${v}` : String(v)
+}
+
+/** implied probability of an American price */
+function implied(v: number | null | undefined): number | null {
+  if (v == null) return null
+  return v > 0 ? 100 / (v + 100) : -v / (-v + 100)
+}
+
+export const OVER_OK = 0.49 // over at -110 or better = coin-flip or over-favored
+
+export function TotalsBar({ game }: { game: Game }) {
+  const { markets, away, home } = game
+  const t = markets.total
+  const line = t.line
+  const pOver = implied(t.over)
+  const lineTone = line == null ? '' : line >= 6.5 ? 'good' : line <= 5.5 ? 'bad' : 'mid'
+  const juiceTone = pOver == null ? '' : pOver >= OVER_OK ? 'good' : 'bad'
+  const bml = markets.book_moneyline
+  return (
+    <div className="totals" title={game.smash?.why}>
+      <div className="tot-main">
+        <div className="tot-label">GAME O/U</div>
+        {line != null ? (
+          <div className={`tot-line ${lineTone}`}>{line}</div>
+        ) : (
+          <div className="tot-line none">{t.status === 'in process' ? 'IN PROCESS' : 'NO LINE'}</div>
+        )}
+      </div>
+      <div className="tot-odds">
+        {t.over != null ? (
+          <>
+            <div className={`tot-side ${juiceTone}`}>
+              <span className="mark">{juiceTone === 'good' ? '✓' : '✗'}</span>
+              <span>OVER <b>{amer(t.over)}</b></span>
+            </div>
+            <div className="tot-side muted">
+              <span className="mark"> </span>
+              <span>UNDER <b>{amer(t.under)}</b></span>
+            </div>
+          </>
+        ) : (
+          <div className="tot-side muted">{t.status === 'in process' ? 'line pending' : 'no odds feed'}</div>
+        )}
+      </div>
+      <div className="tot-ml">
+        <span>{away.abbr} <b>{amer(bml?.away ?? (markets.moneyline.away ? Number(markets.moneyline.away) : null))}</b></span>
+        <span>{home.abbr} <b>{amer(bml?.home ?? (markets.moneyline.home ? Number(markets.moneyline.home) : null))}</b></span>
+      </div>
     </div>
   )
 }
@@ -141,37 +195,11 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
         </span>
       </div>
       <div className="matchup">
-        <BigTeam team={away} position="AWAY" />
+        <BigTeam team={away} opp={home} position="AWAY" />
         <span className="vs">AT</span>
-        <BigTeam team={home} position="HOME" />
+        <BigTeam team={home} opp={away} position="HOME" />
       </div>
-      <div className="markets">
-        <div className="market-cell">
-          <div className="market-label">{away.abbr} ML</div>
-          <div className="market-value">{markets.moneyline.away ?? '—'}</div>
-          <div className="market-under">AWAY</div>
-        </div>
-        <div className="market-cell">
-          <div className="market-label">GAME O/U</div>
-          {markets.total.line != null ? (
-            <div className="market-value total" title={game.smash?.why}>{markets.total.line}</div>
-          ) : markets.total.status === 'in process' ? (
-            <div className="market-value unavailable">IN PROCESS</div>
-          ) : (
-            <div className="market-value unavailable">ODDS UNAVAILABLE</div>
-          )}
-          <div className="market-under">
-            {markets.total.line != null && markets.total.over != null
-              ? `O ${markets.total.over > 0 ? '+' : ''}${markets.total.over} · U ${markets.total.under! > 0 ? '+' : ''}${markets.total.under}`
-              : markets.total.line != null ? 'GOALS' : markets.total.status === 'in process' ? 'LINE PENDING' : 'NO FEED'}
-          </div>
-        </div>
-        <div className="market-cell">
-          <div className="market-label">{home.abbr} ML</div>
-          <div className="market-value favored">{markets.moneyline.home ?? '—'}</div>
-          <div className="market-under">HOME</div>
-        </div>
-      </div>
+      <TotalsBar game={game} />
       <div className="play-section">
         <div className="play-head">
           <h3>

@@ -50,12 +50,15 @@ function Row({ cols, r, label, hint }: { cols: typeof OFF; r: TeamRates; label: 
   )
 }
 
-export function RankStrip({ r, compact = false }: { r: TeamRates | undefined; compact?: boolean }) {
+/** Stacked for a bettor: this team's OFFENSE over the OPPONENT's defense — a green/green pair is the smash read.
+ *  Pass `opp` (the other team's rates); without it, falls back to this team's own defense row. */
+export function RankStrip({ r, opp, compact = false }: { r: TeamRates | undefined; opp?: TeamRates; compact?: boolean }) {
   if (!r) return null
+  const d = opp ?? r
   return (
     <div className={`ranks-wrap${compact ? ' compact' : ''}`}>
-      <Row cols={OFF} r={r} label="SHOOTS" hint="This team's offense — green = bet this team's shooters" />
-      <Row cols={DEF} r={r} label="GIVES UP" hint="This team's defense, colored for the OTHER team's shooters — green = they're leaky" />
+      <Row cols={OFF} r={r} label="OFFENSE" hint="This team's offense — green = its shooters are in form" />
+      <Row cols={DEF} r={d} label={opp ? 'OPP. DEF' : 'DEFENSE'} hint={opp ? "The opponent's defense — green = leaky, good for this team's shooters" : 'This team\'s defense'} />
     </div>
   )
 }
