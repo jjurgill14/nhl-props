@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_utc": "2026-11-12T22:45:40.168886+00:00",
+ "generated_utc": "2026-11-12T23:00:47.298413+00:00",
  "games": [
   {
    "game_id": 2026020309,
@@ -6929,7 +6929,7 @@
      "goalie_source": "Mark Scheig",
      "sv": "0.88",
      "gaa": "2.94",
-     "ml": "205",
+     "ml": "210",
      "gp": 18,
      "gf": 3.9444444444444446,
      "gf_rk": 4,
@@ -7649,7 +7649,7 @@
      "goalie_source": "Aaron Portzline",
      "sv": "0.879",
      "gaa": "3.35",
-     "ml": "-250",
+     "ml": "-258",
      "gp": 16,
      "gf": 2.4375,
      "gf_rk": 29,
@@ -12539,7 +12539,7 @@
      "ppga_rk": 29,
      "l5_gf": 2.8,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-12T14:20:26.846707+00:00",
+     "lineup_as_of": "2026-11-12T23:00:45.313147+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -12565,9 +12565,9 @@
        "Jonatan Berggren"
       ],
       "3": [
-       "Pavel Buchnevich",
        "Dalibor Dvorsky",
-       "Connor McMichael"
+       "Connor McMichael",
+       "Pavel Buchnevich"
       ],
       "4": [
        "Alexey Toropchenko",
@@ -12933,7 +12933,7 @@
        "home": false,
        "line": 3,
        "pp": 2,
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "other",
        "bias": "A",
@@ -12975,20 +12975,20 @@
        },
        "partners": [
         {
-         "name": "Pavel Buchnevich",
-         "jersey": 89,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 1
-        },
-        {
          "name": "Dalibor Dvorsky",
          "jersey": 15,
          "pp": 2,
          "n": 4,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Pavel Buchnevich",
+         "jersey": 89,
+         "pp": 2,
+         "n": 4,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -13067,7 +13067,7 @@
        "home": false,
        "line": 3,
        "pp": 2,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -13113,20 +13113,20 @@
        },
        "partners": [
         {
-         "name": "Pavel Buchnevich",
-         "jersey": 89,
-         "pp": 2,
-         "n": 12,
-         "both": 0,
-         "either": 5
-        },
-        {
          "name": "Connor McMichael",
          "jersey": 77,
          "pp": 2,
          "n": 4,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Pavel Buchnevich",
+         "jersey": 89,
+         "pp": 2,
+         "n": 12,
+         "both": 0,
+         "either": 5
         }
        ]
       },
@@ -13138,7 +13138,7 @@
        "home": false,
        "line": 3,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -13222,7 +13222,7 @@
      "ppga_rk": 5,
      "l5_gf": 3.0,
      "l5_ga": 4.4,
-     "lineup_as_of": "2026-11-12T14:20:27.166651+00:00",
+     "lineup_as_of": "2026-11-12T23:00:45.527541+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -13233,7 +13233,7 @@
       {
        "player": "Nate Schmidt",
        "status": "IR",
-       "news": "The Mammoth have placed Nate Schmidt (upper-body) on IR."
+       "news": "Schmidt (upper-body) is considered week-to-week."
       },
       {
        "player": "Dylan Guenther",
@@ -13243,7 +13243,12 @@
       {
        "player": "Logan Cooley",
        "status": "DTD",
-       "news": "Cooley (upper-body) will not play on Wednesday and is considered day-to-day."
+       "news": "Cooley (upper-body) will remain out vs. St. Louis and is considered day-to-day."
+      },
+      {
+       "player": "Nick Schmaltz",
+       "status": "DTD",
+       "news": "Schmaltz (lower-body) will be a game-time decision vs. St. Louis on Thursday."
       }
      ],
      "lines": {
@@ -13269,7 +13274,7 @@
       ]
      },
      "pp1": [
-      "Anders Lee",
+      "Barrett Hayton",
       "Vincent Trocheck",
       "Nick Schmaltz",
       "Mikhail Sergachev",
@@ -13277,8 +13282,8 @@
      ],
      "pp2": [
       "Kailer Yamamoto",
-      "Barrett Hayton",
       "Michael Carcone",
+      "Anders Lee",
       "Daniil But",
       "MacKenzie Weegar"
      ],
@@ -13363,7 +13368,7 @@
        "line": 1,
        "pp": 1,
        "pos": "C",
-       "gtd": false,
+       "gtd": true,
        "role": "pp1",
        "bias": "A",
        "gp": 19,
@@ -13497,6 +13502,77 @@
        ]
       },
       {
+       "name": "Barrett Hayton",
+       "jersey": 27,
+       "team": "UTA",
+       "opp": "STL",
+       "home": true,
+       "line": 3,
+       "pp": 1,
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 19,
+       "pt_games": 9,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 7,
+       "goal_games": 2,
+       "two_games": 1,
+       "home_split": [
+        3,
+        6
+       ],
+       "away_split": [
+        6,
+        13
+       ],
+       "pp_toi": 1.1,
+       "toi": 15.0,
+       "p": 0.422,
+       "fair": "+137",
+       "min": "+151",
+       "p2": 0.075,
+       "fair2": "+1238",
+       "min2": "+1319",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Anders Lee",
+         "jersey": 72,
+         "pp": 2,
+         "n": 14,
+         "both": 3,
+         "either": 8
+        },
+        {
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 2,
+         "n": 10,
+         "both": 5,
+         "either": 7
+        }
+       ]
+      },
+      {
        "name": "Kailer Yamamoto",
        "jersey": 56,
        "team": "UTA",
@@ -13552,7 +13628,7 @@
         {
          "name": "Anders Lee",
          "jersey": 72,
-         "pp": 1,
+         "pp": 2,
          "n": 10,
          "both": 2,
          "either": 6
@@ -13560,149 +13636,7 @@
         {
          "name": "Barrett Hayton",
          "jersey": 27,
-         "pp": 2,
-         "n": 10,
-         "both": 5,
-         "either": 7
-        }
-       ]
-      },
-      {
-       "name": "Anders Lee",
-       "jersey": 72,
-       "team": "UTA",
-       "opp": "STL",
-       "home": true,
-       "line": 3,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 19,
-       "pt_games": 7,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        2,
-        6
-       ],
-       "away_split": [
-        5,
-        13
-       ],
-       "pp_toi": 0.9,
-       "toi": 15.1,
-       "p": 0.359,
-       "fair": "+179",
-       "min": "+196",
-       "p2": 0.075,
-       "fair2": "+1238",
-       "min2": "+1319",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Barrett Hayton",
-         "jersey": 27,
-         "pp": 2,
-         "n": 14,
-         "both": 3,
-         "either": 8
-        },
-        {
-         "name": "Kailer Yamamoto",
-         "jersey": 56,
-         "pp": 2,
-         "n": 10,
-         "both": 2,
-         "either": 6
-        }
-       ]
-      },
-      {
-       "name": "Barrett Hayton",
-       "jersey": 27,
-       "team": "UTA",
-       "opp": "STL",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 19,
-       "pt_games": 9,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 7,
-       "goal_games": 2,
-       "two_games": 1,
-       "home_split": [
-        3,
-        6
-       ],
-       "away_split": [
-        6,
-        13
-       ],
-       "pp_toi": 1.1,
-       "toi": 15.0,
-       "p": 0.349,
-       "fair": "+187",
-       "min": "+204",
-       "p2": 0.038,
-       "fair2": "+2536",
-       "min2": "+2694",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Anders Lee",
-         "jersey": 72,
          "pp": 1,
-         "n": 14,
-         "both": 3,
-         "either": 8
-        },
-        {
-         "name": "Kailer Yamamoto",
-         "jersey": 56,
-         "pp": 2,
          "n": 10,
          "both": 5,
          "either": 7
@@ -13781,6 +13715,77 @@
          "n": 1,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Anders Lee",
+       "jersey": 72,
+       "team": "UTA",
+       "opp": "STL",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 19,
+       "pt_games": 7,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        2,
+        6
+       ],
+       "away_split": [
+        5,
+        13
+       ],
+       "pp_toi": 0.9,
+       "toi": 15.1,
+       "p": 0.285,
+       "fair": "+251",
+       "min": "+272",
+       "p2": 0.038,
+       "fair2": "+2536",
+       "min2": "+2694",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Barrett Hayton",
+         "jersey": 27,
+         "pp": 1,
+         "n": 14,
+         "both": 3,
+         "either": 8
+        },
+        {
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 2,
+         "n": 10,
+         "both": 2,
+         "either": 6
         }
        ]
       },
