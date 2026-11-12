@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_utc": "2026-11-12T22:30:34.140882+00:00",
+ "generated_utc": "2026-11-12T22:45:40.168886+00:00",
  "games": [
   {
    "game_id": 2026020309,
@@ -6924,9 +6924,9 @@
      "home": false,
      "b2b": true,
      "goalie": "Dennis Hildeby",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Hildeby will start Thursday in Columbus.",
+     "goalie_source": "Mark Scheig",
      "sv": "0.88",
      "gaa": "2.94",
      "ml": "205",
@@ -6941,25 +6941,35 @@
      "ppga_rk": 13,
      "l5_gf": 4.6,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-12T14:20:26.975227+00:00",
+     "lineup_as_of": "2026-11-12T22:45:38.472227+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Brayden Point",
        "status": "OUT",
        "news": "Point (undisclosed) has been placed on IR."
+      },
+      {
+       "player": "Anthony Cirelli",
+       "status": "DTD",
+       "news": "Cirelli (undisclosed) will play in Colorado on Friday."
+      },
+      {
+       "player": "Erik Cernak",
+       "status": "DTD",
+       "news": "Cernak (undisclosed) will return vs. Detroit on Tuesday."
       }
      ],
      "lines": {
       "1": [
        "Brandon Hagel",
-       "Anthony Cirelli",
+       "Yanni Gourde",
        "Nikita Kucherov"
       ],
       "2": [
        "Jake Guentzel",
        "Sam O'Reilly",
-       "Yanni Gourde"
+       "Gage Goncalves"
       ],
       "3": [
        "Ilya Mikheyev",
@@ -6980,8 +6990,8 @@
       "Charle-Edouard D'Astous"
      ],
      "pp2": [
+      "Gage Goncalves",
       "Conor Geekie",
-      "Anthony Cirelli",
       "Pontus Holmberg",
       "Brandon Hagel",
       "Victor Hedman"
@@ -7049,12 +7059,12 @@
          "either": 5
         },
         {
-         "name": "Anthony Cirelli",
-         "jersey": 71,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
+         "name": "Yanni Gourde",
+         "jersey": 37,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -7120,11 +7130,11 @@
          "either": 1
         },
         {
-         "name": "Yanni Gourde",
-         "jersey": 37,
-         "pp": null,
-         "n": 2,
-         "both": 1,
+         "name": "Gage Goncalves",
+         "jersey": 93,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
          "either": 1
         }
        ]
@@ -7191,12 +7201,12 @@
          "either": 1
         },
         {
-         "name": "Yanni Gourde",
-         "jersey": 37,
-         "pp": null,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "name": "Gage Goncalves",
+         "jersey": 93,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -7254,12 +7264,12 @@
        },
        "partners": [
         {
-         "name": "Anthony Cirelli",
-         "jersey": 71,
-         "pp": 2,
-         "n": 18,
-         "both": 8,
-         "either": 13
+         "name": "Yanni Gourde",
+         "jersey": 37,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 1
         },
         {
          "name": "Nikita Kucherov",
@@ -7268,77 +7278,6 @@
          "n": 6,
          "both": 3,
          "either": 5
-        }
-       ]
-      },
-      {
-       "name": "Anthony Cirelli",
-       "jersey": 71,
-       "team": "TBL",
-       "opp": "CBJ",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 18,
-       "pt_games": 9,
-       "l5": [
-        4,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 4,
-       "two_games": 3,
-       "home_split": [
-        5,
-        8
-       ],
-       "away_split": [
-        4,
-        10
-       ],
-       "pp_toi": 2.1,
-       "toi": 15.8,
-       "p": 0.394,
-       "fair": "+154",
-       "min": "+169",
-       "p2": 0.111,
-       "fair2": "+802",
-       "min2": "+856",
-       "adj": [
-        [
-         "opp",
-         1.0154838709677418
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Brandon Hagel",
-         "jersey": 38,
-         "pp": 2,
-         "n": 18,
-         "both": 8,
-         "either": 13
-        },
-        {
-         "name": "Nikita Kucherov",
-         "jersey": 86,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 2
         }
        ]
       },
@@ -7419,9 +7358,9 @@
        "team": "TBL",
        "opp": "CBJ",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": null,
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -7461,26 +7400,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jake Guentzel",
-         "jersey": 59,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
+         "name": "Brandon Hagel",
+         "jersey": 38,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
          "either": 1
         },
         {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
+         "name": "Nikita Kucherov",
+         "jersey": 86,
          "pp": 1,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -7623,6 +7562,77 @@
          "n": 15,
          "both": 4,
          "either": 7
+        }
+       ]
+      },
+      {
+       "name": "Gage Goncalves",
+       "jersey": 93,
+       "team": "TBL",
+       "opp": "CBJ",
+       "home": false,
+       "line": 2,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": "A",
+       "gp": 15,
+       "pt_games": 3,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        1,
+        8
+       ],
+       "pp_toi": 1.3,
+       "toi": 14.0,
+       "p": 0.217,
+       "fair": "+360",
+       "min": "+388",
+       "p2": 0.022,
+       "fair2": "+4437",
+       "min2": "+4709",
+       "adj": [
+        [
+         "opp",
+         1.0154838709677418
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Jake Guentzel",
+         "jersey": 59,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Sam O'Reilly",
+         "jersey": 23,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       }

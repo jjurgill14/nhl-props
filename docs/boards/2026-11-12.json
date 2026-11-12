@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-12T22:30:34.984017+00:00",
+ "generated_utc": "2026-11-12T22:45:40.968036+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -18901,12 +18901,12 @@
     "record": "12-4-2",
     "b2b": true,
     "goalie": "Dennis Hildeby",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Hildeby will start Thursday in Columbus.",
+    "goalie_source": "Mark Scheig",
     "sv": "0.88",
     "gaa": "2.94",
-    "lineup_as_of": "2026-11-12T14:20:26.975227+00:00",
+    "lineup_as_of": "2026-11-12T22:45:38.472227+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
     "gf_rk": 4,
@@ -19163,22 +19163,6 @@
       ]
      },
      {
-      "selection": "Hagel + Cirelli \u00b7 both 1+ point",
-      "prob": 0.382,
-      "fair": "+162",
-      "need": "+177",
-      "rationale": "Both scored 8 of 18 games together \u00b7 independent 19% \u00b7 correlated",
-      "team": "TBL",
-      "line": 1,
-      "read": "correlated",
-      "both": 8,
-      "n": 18,
-      "players": [
-       8479542,
-       8478519
-      ]
-     },
-     {
       "selection": "Nichushkin + Voronkov \u00b7 both 1+ point",
       "prob": 0.342,
       "fair": "+192",
@@ -19208,6 +19192,22 @@
       "players": [
        8475745,
        8482705
+      ]
+     },
+     {
+      "selection": "Johnson + Knies \u00b7 both 1+ point",
+      "prob": 0.306,
+      "fair": "+227",
+      "need": "+247",
+      "rationale": "Both scored 4 of 12 games together \u00b7 independent 25% \u00b7 correlated",
+      "team": "CBJ",
+      "line": 1,
+      "read": "correlated",
+      "both": 4,
+      "n": 12,
+      "players": [
+       8482660,
+       8482720
       ]
      }
     ],
@@ -19331,10 +19331,10 @@
    "lineup": {
     "away": {
      "team": "TBL",
-     "as_of": "2026-11-12T14:20:26.975227+00:00",
+     "as_of": "2026-11-12T22:45:38.472227+00:00",
      "stale": false,
-     "source": "Gabby Shirley",
-     "updated_dfo": "2026-11-11T23:37:18.704Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-12T22:44:05.544Z",
      "forwards": [
       [
        {
@@ -19376,39 +19376,39 @@
         }
        },
        {
-        "name": "Anthony Cirelli",
-        "jersey": 71,
+        "name": "Yanni Gourde",
+        "jersey": 37,
         "pos": "C",
         "slot": null,
-        "player_id": 8478519,
-        "dfo_id": 3842,
+        "player_id": 8476826,
+        "dfo_id": 2566,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 1,
+        "pp": null,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 9,
-         "g": 5,
-         "gp": 18,
-         "p": 14,
-         "ppp": 2,
-         "sog": 29,
-         "toi_s": 18411
+         "a": 0,
+         "g": 1,
+         "gp": 2,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 1837
         },
         "last5": {
-         "a": 5,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 4752
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4494
         },
-        "l5_point_games": 4,
-        "gp": 18,
+        "l5_point_games": 1,
+        "gp": 2,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -19530,41 +19530,41 @@
         }
        },
        {
-        "name": "Yanni Gourde",
-        "jersey": 37,
+        "name": "Gage Goncalves",
+        "jersey": 93,
         "pos": "RW",
         "slot": null,
-        "player_id": 8476826,
-        "dfo_id": 2566,
+        "player_id": 8482201,
+        "dfo_id": 32521,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 2,
-         "p": 1,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 1837
+         "a": 3,
+         "g": 0,
+         "gp": 15,
+         "p": 3,
+         "ppp": 1,
+         "sog": 13,
+         "toi_s": 13897
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
          "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4494
+         "ppp": 1,
+         "sog": 3,
+         "toi_s": 4206
         },
-        "l5_point_games": 1,
-        "gp": 2,
+        "l5_point_games": 2,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -19617,7 +19617,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": "A",
         "season": {
          "a": 3,
@@ -19655,7 +19655,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 7,
@@ -19842,39 +19842,39 @@
         }
        },
        {
-        "name": "Erik Cernak",
-        "jersey": 81,
+        "name": "J.J. Moser",
+        "jersey": 90,
         "pos": "RD",
         "slot": null,
-        "player_id": 8478416,
-        "dfo_id": 2749,
+        "player_id": 8482655,
+        "dfo_id": 34680,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 7,
+         "a": 1,
          "g": 0,
-         "gp": 17,
-         "p": 7,
+         "gp": 18,
+         "p": 1,
          "ppp": 0,
-         "sog": 20,
-         "toi_s": 18567
+         "sog": 18,
+         "toi_s": 19541
         },
         "last5": {
-         "a": 5,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 5,
+         "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4880
+         "sog": 3,
+         "toi_s": 5283
         },
-        "l5_point_games": 3,
-        "gp": 17,
+        "l5_point_games": 1,
+        "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -19998,25 +19998,25 @@
         }
        },
        {
-        "name": "J.J. Moser",
-        "jersey": 90,
+        "name": "Maxwell Crozier",
+        "jersey": 24,
         "pos": "RD",
         "slot": null,
-        "player_id": 8482655,
-        "dfo_id": 34680,
+        "player_id": null,
+        "dfo_id": 28863,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 3,
          "g": 0,
-         "gp": 18,
-         "p": 1,
+         "gp": 10,
+         "p": 3,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 19541
+         "sog": 17,
+         "toi_s": 10346
         },
         "last5": {
          "a": 1,
@@ -20024,15 +20024,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5283
+         "sog": 9,
+         "toi_s": 5318
         },
-        "l5_point_games": 1,
-        "gp": 18,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -20320,10 +20320,48 @@
       ],
       [
        {
+        "name": "Gage Goncalves",
+        "jersey": 93,
+        "pos": null,
+        "slot": 1,
+        "player_id": 8482201,
+        "dfo_id": 32521,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 3,
+         "g": 0,
+         "gp": 15,
+         "p": 3,
+         "ppp": 1,
+         "sog": 13,
+         "toi_s": 13897
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 3,
+         "toi_s": 4206
+        },
+        "l5_point_games": 2,
+        "gp": 15,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
         "name": "Conor Geekie",
         "jersey": 94,
         "pos": null,
-        "slot": 1,
+        "slot": 2,
         "player_id": 8483447,
         "dfo_id": 31505,
         "gtd": false,
@@ -20358,44 +20396,6 @@
         }
        },
        {
-        "name": "Anthony Cirelli",
-        "jersey": 71,
-        "pos": null,
-        "slot": 2,
-        "player_id": 8478519,
-        "dfo_id": 3842,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 9,
-         "g": 5,
-         "gp": 18,
-         "p": 14,
-         "ppp": 2,
-         "sog": 29,
-         "toi_s": 18411
-        },
-        "last5": {
-         "a": 5,
-         "g": 1,
-         "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 4752
-        },
-        "l5_point_games": 4,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Pontus Holmberg",
         "jersey": 29,
         "pos": null,
@@ -20405,7 +20405,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 7,
@@ -20514,37 +20514,37 @@
      "pk": [
       [
        {
-        "name": "Anthony Cirelli",
-        "jersey": 71,
+        "name": "Zemgus Girgensons",
+        "jersey": 28,
         "pos": null,
         "slot": 1,
-        "player_id": 8478519,
-        "dfo_id": 3842,
+        "player_id": 8476878,
+        "dfo_id": 1953,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": 1,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 9,
-         "g": 5,
-         "gp": 18,
-         "p": 14,
-         "ppp": 2,
-         "sog": 29,
-         "toi_s": 18411
+         "a": 3,
+         "g": 1,
+         "gp": 15,
+         "p": 4,
+         "ppp": 0,
+         "sog": 22,
+         "toi_s": 12894
         },
         "last5": {
-         "a": 5,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 4752
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4495
         },
-        "l5_point_games": 4,
-        "gp": 18,
+        "l5_point_games": 2,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -20628,39 +20628,39 @@
         }
        },
        {
-        "name": "Erik Cernak",
-        "jersey": 81,
+        "name": "J.J. Moser",
+        "jersey": 90,
         "pos": null,
         "slot": 4,
-        "player_id": 8478416,
-        "dfo_id": 2749,
+        "player_id": 8482655,
+        "dfo_id": 34680,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 7,
+         "a": 1,
          "g": 0,
-         "gp": 17,
-         "p": 7,
+         "gp": 18,
+         "p": 1,
          "ppp": 0,
-         "sog": 20,
-         "toi_s": 18567
+         "sog": 18,
+         "toi_s": 19541
         },
         "last5": {
-         "a": 5,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 5,
+         "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4880
+         "sog": 3,
+         "toi_s": 5283
         },
-        "l5_point_games": 3,
-        "gp": 17,
+        "l5_point_games": 1,
+        "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -20668,37 +20668,37 @@
       ],
       [
        {
-        "name": "Zemgus Girgensons",
-        "jersey": 28,
+        "name": "Pontus Holmberg",
+        "jersey": 29,
         "pos": null,
         "slot": 1,
-        "player_id": 8476878,
-        "dfo_id": 1953,
+        "player_id": 8480995,
+        "dfo_id": 29640,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 15,
-         "p": 4,
-         "ppp": 0,
-         "sog": 22,
-         "toi_s": 12894
+         "a": 7,
+         "g": 6,
+         "gp": 18,
+         "p": 13,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 15631
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 1,
+         "g": 2,
          "gp": 5,
-         "p": 2,
+         "p": 3,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4495
+         "sog": 11,
+         "toi_s": 4263
         },
         "l5_point_games": 2,
-        "gp": 15,
+        "gp": 18,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -20782,25 +20782,25 @@
         }
        },
        {
-        "name": "J.J. Moser",
-        "jersey": 90,
+        "name": "Maxwell Crozier",
+        "jersey": 24,
         "pos": null,
         "slot": 4,
-        "player_id": 8482655,
-        "dfo_id": 34680,
+        "player_id": null,
+        "dfo_id": 28863,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 3,
          "g": 0,
-         "gp": 18,
-         "p": 1,
+         "gp": 10,
+         "p": 3,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 19541
+         "sog": 17,
+         "toi_s": 10346
         },
         "last5": {
          "a": 1,
@@ -20808,15 +20808,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5283
+         "sog": 9,
+         "toi_s": 5318
         },
-        "l5_point_games": 1,
-        "gp": 18,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -20826,15 +20826,25 @@
        "player": "Brayden Point",
        "status": "OUT",
        "news": "Point (undisclosed) has been placed on IR."
+      },
+      {
+       "player": "Anthony Cirelli",
+       "status": "DTD",
+       "news": "Cirelli (undisclosed) will play in Colorado on Friday."
+      },
+      {
+       "player": "Erik Cernak",
+       "status": "DTD",
+       "news": "Cernak (undisclosed) will return vs. Detroit on Tuesday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 20,
-       "rating": 73.65837410877525
+       "rank": 17,
+       "rating": 73.9001316032933
       },
       "d2": {
-       "rank": 2,
+       "rank": 3,
        "rating": 77.1718582585227
       },
       "d3": {
@@ -20846,15 +20856,15 @@
        "rating": 0
       },
       "f1": {
-       "rank": 8,
-       "rating": 78.6009352010826
+       "rank": 9,
+       "rating": 77.77758644956675
       },
       "f2": {
-       "rank": 8,
-       "rating": 75.93841274502977
+       "rank": 3,
+       "rating": 79.01237213031321
       },
       "f3": {
-       "rank": 24,
+       "rank": 25,
        "rating": 71.95569483651936
       },
       "f4": {
