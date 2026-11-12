@@ -52,6 +52,7 @@ export function PropsPage({ board, target, onChange }: Props) {
   const [stat, setStat] = useState<StatKey>(target.stat ?? 'p')
   const [n, setN] = useState<5 | 10>(10)
   const [line, setLine] = useState<number>(target.line ?? 0.5)
+  const [venue, setVenue] = useState<'all' | 'home' | 'away'>('all')
 
   useEffect(() => {
     for (const id of target.players) {
@@ -74,13 +75,14 @@ export function PropsPage({ board, target, onChange }: Props) {
   // Game axis: for one player, their last N games. For a pair, the last N games BOTH played (shared game_ids).
   const games = useMemo(() => {
     if (!players.length) return [] as GameLogRow[]
-    if (players.length === 1) return players[0].log.slice(-n)
+    const byVenue = (rows: GameLogRow[]) => (venue === 'all' ? rows : rows.filter((r) => (venue === 'home') === r.home))
+    if (players.length === 1) return byVenue(players[0].log).slice(-n)
     const shared = players.slice(1).reduce((acc, p) => {
       const ids = new Set(p.log.map((r) => r.game_id))
       return acc.filter((r) => ids.has(r.game_id))
     }, players[0].log)
-    return shared.slice(-n)
-  }, [players, n])
+    return byVenue(shared).slice(-n)
+  }, [players, n, venue])
 
   const series: Series[] = players.map((p) => ({
     player: p,
@@ -192,12 +194,27 @@ export function PropsPage({ board, target, onChange }: Props) {
             </button>
           ))}
         </div>
+        <span className="pr-sep" />
+        <span className="pr-lbl">VENUE</span>
+        <div className="demo-switch">
+          {(
+            [
+              ['all', 'All'],
+              ['home', 'Home'],
+              ['away', 'Away'],
+            ] as const
+          ).map(([k, label]) => (
+            <button key={k} className={venue === k ? 'selected' : ''} aria-pressed={venue === k} onClick={() => setVenue(k)}>
+              {label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <section className="pr-chart">
         <header>
           <h2>
-            {title} — {statDef.label} per Game (Last {games.length})
+            {title} — {statDef.label} per Game (Last {games.length}{venue === 'all' ? '' : venue === 'home' ? ' home' : ' away'})
           </h2>
           <span className="tag pr-tag">
             {statDef.label.toUpperCase()} — OVER {line}
@@ -229,8 +246,8 @@ export function PropsPage({ board, target, onChange }: Props) {
                 <br />
                 {g.home ? 'vs' : '@'} {g.opp}
                 <br />
+                {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? <span className={`pr-rk ${o.tone}`} style={{ marginLeft: 0, marginRight: 6 }}>{o.label} #{o.rk}</span> : null })()}
                 <span className={g.tf != null && g.ta != null && g.tf > g.ta ? 'win' : 'loss'}>{scoreLabel(g)}</span>
-                {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? <span className={`pr-rk ${o.tone}`}>{o.label} #{o.rk}</span> : null })()}
               </div>
               {series.map((s, si) => {
                 const r = s.rows[i]
@@ -299,10 +316,10 @@ function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]
             })}
             <text x={cx} y={T + ih + 20} fill="#c9d7e0" fontSize="13" textAnchor="middle">{shortDate(g.date)}</text>
             <text x={cx} y={T + ih + 38} fill="#c9d7e0" fontSize="13" textAnchor="middle">{g.home ? 'vs' : '@'} {g.opp}</text>
-            <text x={cx} y={T + ih + 56} fill={g.tf != null && g.ta != null && g.tf > g.ta ? '#9de0b6' : '#f87171'} fontSize="12" fontWeight="700" textAnchor="middle">{scoreLabel(g)}</text>
             {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? (
-              <text x={cx} y={T + ih + 76} fill={TONE[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
+              <text x={cx} y={T + ih + 56} fill={TONE[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
             ) : null })()}
+            <text x={cx} y={T + ih + 76} fill={g.tf != null && g.ta != null && g.tf > g.ta ? '#9de0b6' : '#f87171'} fontSize="12" fontWeight="700" textAnchor="middle">{scoreLabel(g)}</text>
           </g>
         )
       })}
