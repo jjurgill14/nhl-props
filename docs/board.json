@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-12T18:20:36.156057+00:00",
+ "generated_utc": "2026-11-12T18:27:29.588801+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1182,7 +1182,9 @@
    },
    "smash": {
     "flag": null,
-    "label": "IN PROCESS",
+    "kind": null,
+    "side": null,
+    "label": "LINE PENDING",
     "why": "No line entered yet."
    },
    "lenses": {
@@ -4759,8 +4761,10 @@
    },
    "smash": {
     "flag": false,
+    "kind": null,
+    "side": null,
     "label": "",
-    "why": "Implied total 6.26 (line 6.5, over +109 / under -129, vig removed) \u00b7 threshold 6.35"
+    "why": "implied total 6.26 \u00b7 xG MTL 3.03 / BOS 3.23 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -8320,8 +8324,10 @@
    },
    "smash": {
     "flag": true,
-    "label": "SMASH",
-    "why": "Implied total 6.39 (line 6.5, over -101 / under -119, vig removed) \u00b7 threshold 6.35"
+    "kind": "side",
+    "side": "MIN",
+    "label": "SMASH \u00b7 MIN",
+    "why": "implied total 6.39 \u00b7 xG MIN 3.49 / TOR 2.90 (vig removed) \u00b7 MIN \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -11895,8 +11901,10 @@
    },
    "smash": {
     "flag": true,
-    "label": "SMASH",
-    "why": "Implied total 6.37 (line 6.5, over +100 / under -120, vig removed) \u00b7 threshold 6.35"
+    "kind": "all",
+    "side": null,
+    "label": "SMASH \u00b7 ALL-AROUND",
+    "why": "implied total 6.37 \u00b7 xG COL 3.17 / OTT 3.20 (vig removed) \u00b7 total \u2265 6.35, both \u2265 3.0"
    },
    "lenses": {
     "point": [
@@ -15449,9 +15457,11 @@
     "xg_tone_home": "good"
    },
    "smash": {
-    "flag": false,
-    "label": "",
-    "why": "Implied total 6.22 (line 6.5, over +113 / under -133, vig removed) \u00b7 threshold 6.35"
+    "flag": true,
+    "kind": "side",
+    "side": "NJD",
+    "label": "SMASH \u00b7 NJD",
+    "why": "implied total 6.22 \u00b7 xG WSH 2.86 / NJD 3.36 (vig removed) \u00b7 NJD \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -18978,8 +18988,10 @@
    },
    "smash": {
     "flag": true,
-    "label": "SMASH",
-    "why": "Implied total 6.45 (line 6.5, over -106 / under -114, vig removed) \u00b7 threshold 6.35"
+    "kind": "all",
+    "side": null,
+    "label": "SMASH \u00b7 ALL-AROUND",
+    "why": "implied total 6.45 \u00b7 xG TBL 3.26 / CBJ 3.19 (vig removed) \u00b7 total \u2265 6.35, both \u2265 3.0"
    },
    "lenses": {
     "point": [
@@ -22560,9 +22572,11 @@
     "xg_tone_home": "good"
    },
    "smash": {
-    "flag": false,
-    "label": "",
-    "why": "Implied total 5.82 (line 5.5, over -136 / under +116, vig removed) \u00b7 threshold 6.35"
+    "flag": true,
+    "kind": "side",
+    "side": "FLA",
+    "label": "SMASH \u00b7 FLA",
+    "why": "implied total 5.82 \u00b7 xG DET 2.62 / FLA 3.20 (vig removed) \u00b7 FLA \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -26153,8 +26167,10 @@
    },
    "smash": {
     "flag": true,
-    "label": "SMASH",
-    "why": "Implied total 6.42 (line 6.5, over -104 / under -116, vig removed) \u00b7 threshold 6.35"
+    "kind": "side",
+    "side": "BUF",
+    "label": "SMASH \u00b7 BUF",
+    "why": "implied total 6.42 \u00b7 xG BUF 3.44 / CHI 2.98 (vig removed) \u00b7 BUF \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -29751,8 +29767,10 @@
    },
    "smash": {
     "flag": false,
+    "kind": null,
+    "side": null,
     "label": "",
-    "why": "Implied total 5.64 (line 5.5, over -121 / under +101, vig removed) \u00b7 threshold 6.35"
+    "why": "implied total 5.64 \u00b7 xG WPG 2.52 / DAL 3.12 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -33359,8 +33377,10 @@
    },
    "smash": {
     "flag": false,
+    "kind": null,
+    "side": null,
     "label": "",
-    "why": "Implied total 5.82 (line 5.5, over -136 / under +116, vig removed) \u00b7 threshold 6.35"
+    "why": "implied total 5.82 \u00b7 xG STL 2.89 / UTA 2.93 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -36942,8 +36962,10 @@
    },
    "smash": {
     "flag": false,
+    "kind": null,
+    "side": null,
     "label": "",
-    "why": "Implied total 5.77 (line 5.5, over -132 / under +112, vig removed) \u00b7 threshold 6.35"
+    "why": "implied total 5.77 \u00b7 xG NYI 2.79 / LAK 2.98 (vig removed)"
    },
    "lenses": {
     "point": [

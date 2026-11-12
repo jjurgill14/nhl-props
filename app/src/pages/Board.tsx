@@ -45,6 +45,7 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
   )
   const ideas = games.reduce((n, g) => n + slots.filter((l) => g.lenses[l]?.length).length, 0)
   const smashCount = games.filter((g) => g.smash?.flag).length
+  const smashAll = games.filter((g) => g.smash?.kind === 'all').length
   const pending = games.filter((g) => g.smash?.flag === null && g.smash.label === 'IN PROCESS').length
   const openGame = open ? games.find((g) => g.id === open) ?? null : null
   const lensKeys = Object.keys(board.lenses) as LensKey[]
@@ -102,11 +103,11 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
             <span className="stat-suffix">Eastern Time</span>
           </div>
         </div>
-        <div className={`stat${smashCount ? ' smash-stat' : ''}`} role="button" tabIndex={0} title="Smash games: total ≥ 6.5 with the over juiced. Click to filter." onClick={() => setSmashOnly(!smashOnly)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSmashOnly(!smashOnly)} style={{ cursor: 'pointer' }}>
+        <div className={`stat${smashCount ? ' smash-stat' : ''}`} role="button" tabIndex={0} title="All-around: implied total ≥ 6.35 and both xG ≥ 3.0. One-sided: a team xG ≥ 3.2 vs an opponent < 3.0. Click to filter." onClick={() => setSmashOnly(!smashOnly)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSmashOnly(!smashOnly)} style={{ cursor: 'pointer' }}>
           <div className="stat-label">Smash games{smashOnly ? ' · filtered' : ''}</div>
           <div className="stat-main">
             <span className="stat-value">{String(smashCount).padStart(2, '0')}</span>
-            <span className="stat-suffix">{pending ? `${pending} in process` : 'O/U ≥ 6.5, over juiced'}</span>
+            <span className="stat-suffix">{smashCount ? `${smashAll} all-around · ${smashCount - smashAll} one-sided` : pending ? `${pending} line pending` : 'none tonight'}</span>
           </div>
         </div>
         <div className="stat">

@@ -384,3 +384,9 @@ button:disabled{cursor:default;opacity:.55}
 .card.tone-mid:before{background:linear-gradient(90deg,#f0bd81,#f0bd8133)}
 .card.tone-bad:before{background:linear-gradient(90deg,#f87171,#f8717133)}
 .card.tone-none:before{background:#2a3d4c}
+
+/* ===== SMASH kinds ===== */
+.status-badge.smash.side{background:#69cbd1;border-color:#69cbd1;box-shadow:0 0 0 3px #69cbd133}
+.card.smash-side{border-color:#69cbd1;box-shadow:0 0 0 1px #69cbd155, 0 10px 30px #69cbd118}
+.card.smash-side:before{background:linear-gradient(90deg,#69cbd1,#69cbd133)}
+.stat.smash-stat .stat-suffix{font-size:11px}

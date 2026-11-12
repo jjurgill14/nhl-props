@@ -60,7 +60,7 @@ export interface Game {
   markets: Markets
   lenses: Record<LensKey, Play[]>
   lineup?: GameLineup
-  smash?: { flag: boolean | null; label: string; why: string }
+  smash?: { flag: boolean | null; kind: 'all' | 'side' | null; side: string | null; label: string; why: string }
   market?: MarketBlock | null
 }
 

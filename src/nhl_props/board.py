@@ -206,7 +206,7 @@ def build(date: str | None = None) -> Path:
                 "book_moneyline": {"away": book.get("ml_away"), "home": book.get("ml_home"), "provider": book.get("source")} if book.get("ml_away") is not None else None,
             },
             "market": mkt,
-            "smash": market.smash(mkt) if mkt else {"flag": None, "label": "NO LINE", "why": "No book line for this game."},
+            "smash": market.smash(mkt, g["away"], g["home"]) if mkt else {"flag": None, "kind": None, "side": None, "label": "NO LINE", "why": "No book line for this game."},
             "lenses": lenses_for(g, ids),
             "lineup": lineup_view.game_lineups(g["away"], g["home"], date, logs, ids, grec),
         })

@@ -176,7 +176,7 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
   return (
     <article
-      className={`card tone-${game.market?.tone || 'none'}${game.smash?.flag ? ' smash-card' : ''}`}
+      className={`card tone-${game.market?.tone || 'none'}${game.smash?.flag ? ` smash-card smash-${game.smash.kind}` : ''}`}
       role="button"
       tabIndex={0}
       aria-label={label}
@@ -193,7 +193,11 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
       <div className="card-head">
         <span className={`gstate ${gameState(game.status, game.start_utc).cls}`}>{gameState(game.status, game.start_utc).label}</span>
         <span className="head-center">
-          {game.smash?.flag && <span className="status-badge smash" title={game.smash.why}>SMASH</span>}
+          {game.smash?.flag && (
+            <span className={`status-badge smash ${game.smash.kind === 'side' ? 'side' : 'all'}`} title={game.smash.why}>
+              {game.smash.kind === 'side' ? `SMASH ${game.smash.side === away.abbr ? '◀' : '▶'} ${game.smash.side}` : 'SMASH · ALL-AROUND'}
+            </span>
+          )}
         </span>
         <span className="game-time">
           <svg viewBox="0 0 24 24">

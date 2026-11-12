@@ -106,13 +106,25 @@ def analyze(book: dict) -> dict:
     return out
 
 
-def smash(m: dict) -> dict:
-    """v2 rule (JJ, 2026-11-12): market-implied total >= TOTAL_GREEN."""
+XG_SIDE, XG_OPP_MAX, XG_BOTH_MIN = 3.2, 3.0, 3.0
+
+
+def smash(m: dict, away: str = "", home: str = "") -> dict:
+    """v3 (JJ, 2026-11-12). Two kinds:
+       ALL-AROUND : implied total >= TOTAL_GREEN and both teams xG >= XG_BOTH_MIN  -> over / both teams 2+ / stack both sides
+       ONE-SIDED  : one team xG >= XG_SIDE and the opponent < XG_OPP_MAX           -> load up on that team's shooters
+    Returns {flag, kind: 'all'|'side'|None, side: abbr|None, label, why}."""
+    none = {"flag": False, "kind": None, "side": None, "label": "", "why": ""}
     if m.get("status") == "in process" or m.get("line") is None:
-        return {"flag": None, "label": "IN PROCESS", "why": "No line entered yet."}
-    t = m.get("implied_total")
-    if t is None:
-        return {"flag": None, "label": "NO PRICE", "why": "Total known, prices missing."}
-    ok = t >= TOTAL_GREEN
-    return {"flag": ok, "label": "SMASH" if ok else "",
-            "why": f"Implied total {t:.2f} (line {m['line']}, over {m['over']:+d} / under {m['under']:+d}, vig removed) · threshold {TOTAL_GREEN}"}
+        return {**none, "flag": None, "label": "LINE PENDING", "why": "No line entered yet."}
+    t, xa, xh = m.get("implied_total"), m.get("xg_away"), m.get("xg_home")
+    if t is None or xa is None or xh is None:
+        return {**none, "flag": None, "label": "NO PRICE", "why": "Need total and moneyline prices."}
+    base = f"implied total {t:.2f} · xG {away} {xa:.2f} / {home} {xh:.2f} (vig removed)"
+    if t >= TOTAL_GREEN and xa >= XG_BOTH_MIN and xh >= XG_BOTH_MIN:
+        return {"flag": True, "kind": "all", "side": None, "label": "SMASH · ALL-AROUND", "why": base + f" · total ≥ {TOTAL_GREEN}, both ≥ {XG_BOTH_MIN}"}
+    if xa >= XG_SIDE and xh < XG_OPP_MAX:
+        return {"flag": True, "kind": "side", "side": away, "label": f"SMASH · {away}", "why": base + f" · {away} ≥ {XG_SIDE}, opp < {XG_OPP_MAX}"}
+    if xh >= XG_SIDE and xa < XG_OPP_MAX:
+        return {"flag": True, "kind": "side", "side": home, "label": f"SMASH · {home}", "why": base + f" · {home} ≥ {XG_SIDE}, opp < {XG_OPP_MAX}"}
+    return {**none, "why": base}
