@@ -24,6 +24,7 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
   const [time, setTime] = useState<string>('all')
   const [view, setView] = useState<'cards' | 'list'>('cards')
   const [term, setTerm] = useState('')
+  const [smashOnly, setSmashOnly] = useState(false)
   const [slots, setSlots] = useState<LensKey[]>(board.default_slots)
   const [open, setOpen] = useState<string | null>(null)
 
@@ -38,11 +39,13 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
   const shown = useMemo(
     () =>
       games
-        .filter((g) => (activeTime === 'all' || etBucket(g.start_utc) === activeTime) && matchesTeam(g, term.trim().toLowerCase()))
+        .filter((g) => (activeTime === 'all' || etBucket(g.start_utc) === activeTime) && matchesTeam(g, term.trim().toLowerCase()) && (!smashOnly || g.smash?.flag))
         .sort((a, b) => bucketOrder(a.start_utc) - bucketOrder(b.start_utc) || a.id.localeCompare(b.id)),
-    [games, activeTime, term],
+    [games, activeTime, term, smashOnly],
   )
   const ideas = games.reduce((n, g) => n + slots.filter((l) => g.lenses[l]?.length).length, 0)
+  const smashCount = games.filter((g) => g.smash?.flag).length
+  const pending = games.filter((g) => g.smash?.flag === null && g.smash.label === 'IN PROCESS').length
   const openGame = open ? games.find((g) => g.id === open) ?? null : null
   const lensKeys = Object.keys(board.lenses) as LensKey[]
 
@@ -97,6 +100,13 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
           <div className="stat-main">
             <span className="stat-value">{String(buckets.length).padStart(2, '0')}</span>
             <span className="stat-suffix">Eastern Time</span>
+          </div>
+        </div>
+        <div className={`stat${smashCount ? ' smash-stat' : ''}`} role="button" tabIndex={0} title="Smash games: total ≥ 6.5 with the over juiced. Click to filter." onClick={() => setSmashOnly(!smashOnly)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSmashOnly(!smashOnly)} style={{ cursor: 'pointer' }}>
+          <div className="stat-label">Smash games{smashOnly ? ' · filtered' : ''}</div>
+          <div className="stat-main">
+            <span className="stat-value">{String(smashCount).padStart(2, '0')}</span>
+            <span className="stat-suffix">{pending ? `${pending} in process` : 'O/U ≥ 6.5, over juiced'}</span>
           </div>
         </div>
         <div className="stat">

@@ -45,7 +45,8 @@ export interface TeamSide {
 
 export interface Markets {
   moneyline: { away: string | null; home: string | null; provider: string | null; as_of: string | null }
-  total: { line: number | null; provider: string | null; as_of: string | null }
+  total: { line: number | null; over?: number | null; under?: number | null; provider: string | null; as_of: string | null; status?: string | null }
+  book_moneyline?: { away: number | null; home: number | null; provider: string | null } | null
 }
 
 export interface Game {
@@ -59,6 +60,7 @@ export interface Game {
   markets: Markets
   lenses: Record<LensKey, Play[]>
   lineup?: GameLineup
+  smash?: { flag: boolean | null; label: string; why: string }
 }
 
 export interface Board {

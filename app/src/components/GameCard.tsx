@@ -109,7 +109,7 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
   return (
     <article
-      className="card"
+      className={`card${game.smash?.flag ? ' smash-card' : ''}`}
       role="button"
       tabIndex={0}
       aria-label={label}
@@ -127,6 +127,8 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
       <div className="card-head">
         <span className="game-num">
           MATCHUP / {game.id}
+          {game.smash?.flag && <span className="status-badge smash" title={game.smash.why}>SMASH</span>}
+          {game.smash?.flag === null && <span className="status-badge pending" title={game.smash.why}>{game.smash.label}</span>}
           {game.status === 'LIVE' && <span className="status-badge live">LIVE</span>}
           {(game.status === 'OFF' || game.status === 'FINAL') && <span className="status-badge final">FINAL</span>}
         </span>
@@ -152,11 +154,17 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
         <div className="market-cell">
           <div className="market-label">GAME O/U</div>
           {markets.total.line != null ? (
-            <div className="market-value total">{markets.total.line}</div>
+            <div className="market-value total" title={game.smash?.why}>{markets.total.line}</div>
+          ) : markets.total.status === 'in process' ? (
+            <div className="market-value unavailable">IN PROCESS</div>
           ) : (
             <div className="market-value unavailable">ODDS UNAVAILABLE</div>
           )}
-          <div className="market-under">{markets.total.line != null ? 'GOALS' : 'NO FEED'}</div>
+          <div className="market-under">
+            {markets.total.line != null && markets.total.over != null
+              ? `O ${markets.total.over > 0 ? '+' : ''}${markets.total.over} · U ${markets.total.under! > 0 ? '+' : ''}${markets.total.under}`
+              : markets.total.line != null ? 'GOALS' : markets.total.status === 'in process' ? 'LINE PENDING' : 'NO FEED'}
+          </div>
         </div>
         <div className="market-cell">
           <div className="market-label">{home.abbr} ML</div>
