@@ -120,3 +120,14 @@ describe('entry points into player props', () => {
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })
 })
+
+describe('game state badge', () => {
+  it('uses the clock when the schedule pull is stale', async () => {
+    const { gameState } = await import('../components/GameCard')
+    const t0 = Date.parse('2026-11-12T17:00:00Z')
+    expect(gameState('FUT', '2026-11-12T17:00:00Z', t0 - 60_000).label).toBe('UPCOMING')
+    expect(gameState('FUT', '2026-11-12T17:00:00Z', t0 + 60_000).label).toBe('IN PROCESS')
+    expect(gameState('OFF', '2026-11-12T17:00:00Z', t0 + 60_000).label).toBe('FINAL')
+    expect(gameState('LIVE', '2026-11-12T17:00:00Z', t0 - 60_000).label).toBe('IN PROCESS')
+  })
+})

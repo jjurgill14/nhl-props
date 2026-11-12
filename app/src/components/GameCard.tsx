@@ -103,18 +103,13 @@ export function TotalsBar({ game }: { game: Game }) {
   )
 }
 
-/** NHL schedule state -> card label. FUT/PRE upcoming · LIVE/CRIT in process · OFF/FINAL final */
-export function gameState(status: string | null): { label: string; cls: string } {
-  switch (status) {
-    case 'LIVE':
-    case 'CRIT':
-      return { label: 'IN PROCESS', cls: 'live' }
-    case 'OFF':
-    case 'FINAL':
-      return { label: 'FINAL', cls: 'final' }
-    default:
-      return { label: 'UPCOMING', cls: 'upcoming' }
-  }
+/** Card label from the NHL schedule state, corrected by the clock: the pipeline's last pull can be hours old,
+ *  so a game whose puck drop has passed is IN PROCESS until the pipeline reports it final. */
+export function gameState(status: string | null, startUtc?: string, now: number = Date.now()): { label: string; cls: string } {
+  if (status === 'OFF' || status === 'FINAL') return { label: 'FINAL', cls: 'final' }
+  if (status === 'LIVE' || status === 'CRIT') return { label: 'IN PROCESS', cls: 'live' }
+  if (startUtc && now >= Date.parse(startUtc)) return { label: 'IN PROCESS', cls: 'live' }
+  return { label: 'UPCOMING', cls: 'upcoming' }
 }
 
 export function playFor(game: Game, lens: LensKey): Play | null {
@@ -197,7 +192,7 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
       }}
     >
       <div className="card-head">
-        <span className={`gstate ${gameState(game.status).cls}`}>{gameState(game.status).label}</span>
+        <span className={`gstate ${gameState(game.status, game.start_utc).cls}`}>{gameState(game.status, game.start_utc).label}</span>
         <span className="head-center">
           {game.smash?.flag && <span className="status-badge smash" title={game.smash.why}>SMASH</span>}
         </span>
