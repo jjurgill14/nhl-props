@@ -367,3 +367,13 @@ button:disabled{cursor:default;opacity:.55}
 .tot-side .fair{font-size:9px;color:#7f98a8;font-weight:700;margin-left:6px}
 .tot-side.mid{color:#f0bd81}
 .tr-table .xgcol{font-weight:850}
+
+/* ===== CARD HEAD: state · smash · time ===== */
+.card-head{display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
+.head-center{display:flex;justify-content:center}
+.card-head .game-time{justify-content:flex-end}
+.gstate{justify-self:start;font-size:9px;font-weight:850;letter-spacing:1.2px;padding:3px 8px;border-radius:6px;border:1px solid}
+.gstate.upcoming{color:#4ade80;border-color:#2e6a4a;background:#122a1f}
+.gstate.live{color:#f0bd81;border-color:#6b5230;background:#2e2414}
+.gstate.final{color:#f87171;border-color:#6b2e2e;background:#2a1414}
+.status-badge.smash{margin-left:0}

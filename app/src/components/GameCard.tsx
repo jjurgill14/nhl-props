@@ -75,7 +75,7 @@ export function TotalsBar({ game }: { game: Game }) {
             {m?.implied_total != null && <small>→ {m.implied_total.toFixed(2)}</small>}
           </div>
         ) : (
-          <div className="tot-line none">{t.status === 'in process' ? 'IN PROCESS' : 'NO LINE'}</div>
+          <div className="tot-line none">{t.status === 'in process' ? 'LINE PENDING' : 'NO LINE'}</div>
         )}
       </div>
       <div className="tot-odds">
@@ -101,6 +101,20 @@ export function TotalsBar({ game }: { game: Game }) {
       </div>
     </div>
   )
+}
+
+/** NHL schedule state -> card label. FUT/PRE upcoming · LIVE/CRIT in process · OFF/FINAL final */
+export function gameState(status: string | null): { label: string; cls: string } {
+  switch (status) {
+    case 'LIVE':
+    case 'CRIT':
+      return { label: 'IN PROCESS', cls: 'live' }
+    case 'OFF':
+    case 'FINAL':
+      return { label: 'FINAL', cls: 'final' }
+    default:
+      return { label: 'UPCOMING', cls: 'upcoming' }
+  }
 }
 
 export function playFor(game: Game, lens: LensKey): Play | null {
@@ -183,12 +197,9 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
       }}
     >
       <div className="card-head">
-        <span className="game-num">
-          MATCHUP / {game.id}
+        <span className={`gstate ${gameState(game.status).cls}`}>{gameState(game.status).label}</span>
+        <span className="head-center">
           {game.smash?.flag && <span className="status-badge smash" title={game.smash.why}>SMASH</span>}
-          {game.smash?.flag === null && <span className="status-badge pending" title={game.smash.why}>{game.smash.label}</span>}
-          {game.status === 'LIVE' && <span className="status-badge live">LIVE</span>}
-          {(game.status === 'OFF' || game.status === 'FINAL') && <span className="status-badge final">FINAL</span>}
         </span>
         <span className="game-time">
           <svg viewBox="0 0 24 24">
