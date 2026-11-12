@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import type { Board, GameLogRow, PlayerLog, StatKey } from '../data/types'
 import { LOGO, loadPlayer } from '../data/load'
 import { chipTone } from '../components/RankStrip'
+import { PlayerSearch } from '../components/PlayerSearch'
 
 const STATS: { key: StatKey; label: string; lines: number[] }[] = [
   { key: 'g', label: 'Goals', lines: [0.5, 1.5] },
@@ -45,9 +46,10 @@ interface Props {
   board: Board
   target: PropsTarget
   onChange: (t: PropsTarget) => void
+  searchFocus?: boolean
 }
 
-export function PropsPage({ board, target, onChange }: Props) {
+export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   const [logs, setLogs] = useState<Record<number, PlayerLog | 'error'>>({})
   const [stat, setStat] = useState<StatKey>(target.stat ?? 'p')
   const [n, setN] = useState<5 | 10>(10)
@@ -93,7 +95,19 @@ export function PropsPage({ board, target, onChange }: Props) {
   const maxVal = Math.max(1, ...series.flatMap((s) => s.rows.map((r) => r[stat])))
   const yMax = Math.max(3, maxVal)
 
-  if (!target.players.length) return <div className="state-box">Pick a player from the lineup or a play on the board.</div>
+  if (!target.players.length)
+    return (
+      <section className="hero" style={{ flexDirection: 'column', alignItems: 'flex-start' }}>
+        <div className="eyebrow">NHL / PLAYER PROPS</div>
+        <h1>
+          Find a <span>player.</span>
+        </h1>
+        <p>Any skater who has dressed this season, any team. Type a name or a team code.</p>
+        <div style={{ width: 'min(520px, 100%)', marginTop: 14 }}>
+          <PlayerSearch onPick={(id) => onChange({ players: [id], stat: 'p', line: 0.5 })} autoFocus={searchFocus} />
+        </div>
+      </section>
+    )
   if (loading && !players.length) return <div className="state-box">Loading game log…</div>
   if (failed.length && !players.length) return <div className="state-box err">No game log for this player yet.</div>
 
@@ -127,6 +141,12 @@ export function PropsPage({ board, target, onChange }: Props) {
           <p>{pair ? 'Shared games only — both players dressed. Hit = each clears the line in the same game.' : 'Player props trends, form, and key numbers to inform your bets.'}</p>
         </div>
         <div className="pr-cards">
+          <div className="pr-search-slot">
+            <PlayerSearch
+              placeholder={pair ? 'Replace a player…' : 'Search another player… (adds a pair)'}
+              onPick={(id) => onChange({ ...target, players: pair ? [target.players[0], id] : [...target.players, id].slice(0, 2) })}
+            />
+          </div>
           {players.map((p) => {
             const t = teamOf(p.team)
             return (

@@ -2,6 +2,7 @@ import type { Route } from '../components/Shell'
 
 const TITLES: Record<Route, [string, string]> = {
   slate: ['Daily slate', ''],
+  search: ['Player search', ''],
   matchup: ['Matchup details', 'Per-game breakdown — design pending.'],
   lineups: ['Lines & lineups', 'LW / C / RW grid, D pairs, PP units, goalies. Design approved; build is next.'],
   changes: ['Line changes', 'Promotions, demotions and new faces vs. the previous game day. Design pending.'],

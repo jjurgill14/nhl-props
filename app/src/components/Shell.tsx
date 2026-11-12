@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-export type Route = 'slate' | 'matchup' | 'lineups' | 'changes' | 'props' | 'rates' | 'analysis'
+export type Route = 'slate' | 'search' | 'matchup' | 'lineups' | 'changes' | 'props' | 'rates' | 'analysis'
 
 const NAV: { key: Route; label: string; icon: ReactNode }[] = [
   {
@@ -16,12 +16,23 @@ const NAV: { key: Route; label: string; icon: ReactNode }[] = [
     ),
   },
   {
-    key: 'lineups',
-    label: 'Lines & lineups',
+    key: 'search',
+    label: 'Player search',
     icon: (
       <svg viewBox="0 0 24 24">
         <circle cx="11" cy="11" r="7" />
         <path d="m16 16 5 5" />
+      </svg>
+    ),
+  },
+  {
+    key: 'lineups',
+    label: 'Lines & lineups',
+    icon: (
+      <svg viewBox="0 0 24 24">
+        <circle cx="5" cy="6" r="2" /><circle cx="12" cy="6" r="2" /><circle cx="19" cy="6" r="2" />
+        <circle cx="5" cy="13" r="2" /><circle cx="12" cy="13" r="2" /><circle cx="19" cy="13" r="2" />
+        <circle cx="8.5" cy="20" r="2" /><circle cx="15.5" cy="20" r="2" />
       </svg>
     ),
   },

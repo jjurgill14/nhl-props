@@ -1,12 +1,14 @@
 import type { Board, PlayerLog } from './types'
 
+export interface PlayerIndexRow { id: number; name: string; team: string; pos: string | null; jersey: number | null; gp: number }
+
 // The pipeline writes docs/board.json (today) and docs/boards/<date>.json (history).
 // The app is served from docs/app/, so data is one level up.
 // dev: Vite serves ../docs at the base URL; prod: the app lives in docs/app, data one level up
 export const DATA_BASE = import.meta.env.DEV ? import.meta.env.BASE_URL : '../'
 
 declare global {
-  interface Window { __BOARD__?: Board; __LOGOS__?: Record<string, string>; __PLAYERS__?: Record<string, PlayerLog> }
+  interface Window { __BOARD__?: Board; __LOGOS__?: Record<string, string>; __PLAYERS__?: Record<string, PlayerLog>; __PLAYERS_INDEX__?: PlayerIndexRow[] }
 }
 
 export async function loadBoard(date?: string): Promise<Board> {
@@ -34,4 +36,13 @@ export async function loadPlayer(id: number): Promise<PlayerLog> {
   const res = await fetch(`${DATA_BASE}players/${id}.json`, { cache: 'no-store' })
   if (!res.ok) throw new Error(`player ${id}: HTTP ${res.status}`)
   return (await res.json()) as PlayerLog
+}
+
+let indexCache: PlayerIndexRow[] | null = null
+export async function loadPlayerIndex(): Promise<PlayerIndexRow[]> {
+  if (indexCache) return indexCache
+  if (window.__PLAYERS_INDEX__) return (indexCache = window.__PLAYERS_INDEX__)
+  const res = await fetch(`${DATA_BASE}players/index.json`, { cache: 'no-store' })
+  if (!res.ok) throw new Error(`player index: HTTP ${res.status}`)
+  return (indexCache = (await res.json()) as PlayerIndexRow[])
 }

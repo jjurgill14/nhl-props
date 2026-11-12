@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <Shell route={route} onRoute={setRoute} mode={mode} statusLabel={statusLabel}>
-      {route !== 'slate' && route !== 'lineups' && route !== 'props' && route !== 'rates' ? (
+      {route !== 'slate' && route !== 'lineups' && route !== 'props' && route !== 'rates' && route !== 'search' ? (
         <Placeholder route={route} />
       ) : state.kind === 'loading' ? (
         <div className="state-box" style={{ marginTop: 40 }}>
@@ -61,8 +61,8 @@ export default function App() {
         </div>
       ) : route === 'rates' ? (
         <TeamRatesPage board={state.board} />
-      ) : route === 'props' ? (
-        <PropsPage board={state.board} target={propsTarget} onChange={setPropsTarget} />
+      ) : route === 'props' || route === 'search' ? (
+        <PropsPage board={state.board} target={route === 'search' ? { players: [] } : propsTarget} onChange={(t) => { setPropsTarget(t); setRoute('props') }} searchFocus={route === 'search'} />
       ) : route === 'lineups' ? (
         <Lineups board={state.board} gameId={gameId} onPick={setGameId} onPlayer={(id) => openProps({ players: [id] })} />
       ) : (

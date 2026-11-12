@@ -410,3 +410,10 @@ button:disabled{cursor:default;opacity:.55}
 .vs.at{font-size:30px;line-height:30px;padding-top:14px;font-weight:800}
 /* logos 50% larger without changing the layout: scale in place, box stays 40px */
 .crest{overflow:visible}.crest img{transform:scale(1.5);transform-origin:center center}
+
+/* ===== PLAYER SEARCH ===== */
+.psearch{position:relative}.psearch .search{width:100%;min-width:0}.psearch .search input{width:100%}
+.psearch-list{position:absolute;z-index:40;top:calc(100% + 6px);left:0;right:0;margin:0;padding:6px;list-style:none;background:#101c28;border:1px solid #3b596a;border-radius:10px;box-shadow:0 20px 50px #0008;max-height:360px;overflow:auto}
+.psearch-list li{display:flex;justify-content:space-between;gap:12px;padding:9px 10px;border-radius:7px;cursor:pointer;font-size:13px}
+.psearch-list li span{color:#8aa5b5;font-size:11px;white-space:nowrap}.psearch-list li.hi,.psearch-list li:hover{background:#1b3340}
+.pr-search-slot{flex:1 1 100%;max-width:520px;margin-left:auto}
