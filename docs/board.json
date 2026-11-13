@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-13T01:46:47.292927+00:00",
+ "generated_utc": "2026-11-13T02:01:52.199690+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -33322,7 +33322,7 @@
     "goalie_source": "Utah Mammoth",
     "sv": "0.866",
     "gaa": "3.29",
-    "lineup_as_of": "2026-11-12T23:00:45.527541+00:00",
+    "lineup_as_of": "2026-11-13T02:01:49.999704+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
     "gf_rk": 9,
@@ -33361,7 +33361,7 @@
      "away": "+205",
      "home": "-250",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-12T23:00:45.527541+00:00"
+     "as_of": "2026-11-13T02:01:49.999704+00:00"
     },
     "total": {
      "line": 5.5,
@@ -33482,38 +33482,22 @@
       ]
      },
      {
-      "selection": "Nick Schmaltz \u00b7 1+ point",
-      "prob": 0.517,
-      "fair": "-107",
-      "need": "+105",
-      "rationale": "Point in 12 of 19 this season, 3 of last 5 \u00b7 PP1, 3.6 PP min/game over L5",
-      "player": "Nick Schmaltz",
-      "team": "UTA",
-      "pp": 1,
+      "selection": "Dylan Holloway \u00b7 1+ point",
+      "prob": 0.509,
+      "fair": "-104",
+      "need": "+108",
+      "rationale": "Point in 9 of 18 this season, 2 of last 5 \u00b7 PP2 (1.6 PP min/game)",
+      "player": "Dylan Holloway",
+      "team": "STL",
+      "pp": 2,
       "line": 1,
       "bias": "A",
       "players": [
-       8477951
+       8482077
       ]
      }
     ],
     "pair": [
-     {
-      "selection": "Keller + Schmaltz \u00b7 both 1+ point",
-      "prob": 0.524,
-      "fair": "-110",
-      "need": "+102",
-      "rationale": "Both scored 9 of 15 games together \u00b7 independent 33% \u00b7 correlated",
-      "team": "UTA",
-      "line": 1,
-      "read": "correlated",
-      "both": 9,
-      "n": 15,
-      "players": [
-       8479343,
-       8477951
-      ]
-     },
      {
       "selection": "Thomas + Snuggerud \u00b7 both 1+ point",
       "prob": 0.382,
@@ -33531,6 +33515,38 @@
       ]
      },
      {
+      "selection": "Hayton + Yamamoto \u00b7 both 1+ point",
+      "prob": 0.378,
+      "fair": "+165",
+      "need": "+180",
+      "rationale": "Both scored 5 of 10 games together \u00b7 independent 17% \u00b7 correlated",
+      "team": "UTA",
+      "line": 2,
+      "read": "correlated",
+      "both": 5,
+      "n": 10,
+      "players": [
+       8480849,
+       8479977
+      ]
+     },
+     {
+      "selection": "Keller + Lee \u00b7 both 1+ point",
+      "prob": 0.376,
+      "fair": "+166",
+      "need": "+182",
+      "rationale": "Both scored 2 of 3 games together \u00b7 independent 23% \u00b7 new pair",
+      "team": "UTA",
+      "line": 1,
+      "read": "new pair",
+      "both": 2,
+      "n": 3,
+      "players": [
+       8479343,
+       8475314
+      ]
+     },
+     {
       "selection": "Thomas + Holloway \u00b7 both 1+ point",
       "prob": 0.376,
       "fair": "+166",
@@ -33544,22 +33560,6 @@
       "players": [
        8480023,
        8482077
-      ]
-     },
-     {
-      "selection": "Hayton + Yamamoto \u00b7 both 1+ point",
-      "prob": 0.373,
-      "fair": "+168",
-      "need": "+184",
-      "rationale": "Both scored 5 of 10 games together \u00b7 independent 16% \u00b7 correlated",
-      "team": "UTA",
-      "line": 3,
-      "read": "correlated",
-      "both": 5,
-      "n": 10,
-      "players": [
-       8480849,
-       8479977
       ]
      },
      {
@@ -33609,20 +33609,6 @@
       ]
      },
      {
-      "selection": "Nick Schmaltz \u00b7 2+ points",
-      "prob": 0.218,
-      "fair": "+359",
-      "need": "+386",
-      "rationale": "2+ in 6 of 19 \u00b7 3.6 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
-      "player": "Nick Schmaltz",
-      "team": "UTA",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8477951
-      ]
-     },
-     {
       "selection": "Robert Thomas \u00b7 2+ points",
       "prob": 0.2,
       "fair": "+400",
@@ -33653,22 +33639,6 @@
     ],
     "pp1": [
      {
-      "selection": "Keller + Schmaltz \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.524,
-      "fair": "-110",
-      "need": "+102",
-      "rationale": "Both scored 9 of 15 games together \u00b7 independent 33% \u00b7 correlated",
-      "team": "UTA",
-      "line": 1,
-      "read": "correlated",
-      "both": 9,
-      "n": 15,
-      "players": [
-       8479343,
-       8477951
-      ]
-     },
-     {
       "selection": "Thomas + Snuggerud \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.382,
       "fair": "+162",
@@ -33682,6 +33652,38 @@
       "players": [
        8480023,
        8483516
+      ]
+     },
+     {
+      "selection": "Keller + Lee \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.376,
+      "fair": "+166",
+      "need": "+182",
+      "rationale": "Both scored 2 of 3 games together \u00b7 independent 23% \u00b7 new pair",
+      "team": "UTA",
+      "line": 1,
+      "read": "new pair",
+      "both": 2,
+      "n": 3,
+      "players": [
+       8479343,
+       8475314
+      ]
+     },
+     {
+      "selection": "Keller + Trocheck \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.303,
+      "fair": "+231",
+      "need": "+250",
+      "rationale": "Both scored 2 of 6 games together \u00b7 independent 27% \u00b7 correlated",
+      "team": "UTA",
+      "line": 1,
+      "read": "correlated",
+      "both": 2,
+      "n": 6,
+      "players": [
+       8479343,
+       8476389
       ]
      },
      {
@@ -35274,16 +35276,92 @@
     },
     "home": {
      "team": "UTA",
-     "as_of": "2026-11-12T23:00:45.527541+00:00",
+     "as_of": "2026-11-13T02:01:49.999704+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-11)",
-     "updated_dfo": "2026-11-12T19:51:04.960Z",
+     "source": "Utah Mammoth",
+     "updated_dfo": "2026-11-13T01:50:28.528Z",
      "forwards": [
       [
        {
+        "name": "Anders Lee",
+        "jersey": 72,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8475314,
+        "dfo_id": 2071,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 3,
+         "gp": 19,
+         "p": 8,
+         "ppp": 1,
+         "sog": 33,
+         "toi_s": 15824
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 4543
+        },
+        "l5_point_games": 2,
+        "gp": 19,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Vincent Trocheck",
+        "jersey": 16,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8476389,
+        "dfo_id": 2006,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 7,
+         "g": 3,
+         "gp": 19,
+         "p": 10,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 20011
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5782
+        },
+        "l5_point_games": 2,
+        "gp": 19,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Clayton Keller",
         "jersey": 9,
-        "pos": "LW",
+        "pos": "RW",
         "slot": null,
         "player_id": 8479343,
         "dfo_id": 2642,
@@ -35317,236 +35395,44 @@
          "pp": 0,
          "new": false
         }
-       },
-       {
-        "name": "Nick Schmaltz",
-        "jersey": 8,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8477951,
-        "dfo_id": 2678,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 9,
-         "gp": 19,
-         "p": 20,
-         "ppp": 12,
-         "sog": 47,
-         "toi_s": 19514
-        },
-        "last5": {
-         "a": 4,
-         "g": 2,
-         "gp": 5,
-         "p": 6,
-         "ppp": 6,
-         "sog": 10,
-         "toi_s": 4548
-        },
-        "l5_point_games": 3,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Daniil But",
-        "jersey": 50,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8484388,
-        "dfo_id": 38459,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 14,
-         "p": 4,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 8951
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 3009
-        },
-        "l5_point_games": 1,
-        "gp": 14,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
        }
       ],
       [
        {
-        "name": "Jack McBain",
-        "jersey": 22,
+        "name": "Kailer Yamamoto",
+        "jersey": 56,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480855,
-        "dfo_id": 28796,
+        "player_id": 8479977,
+        "dfo_id": 2796,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": "A",
+        "pp": 2,
+        "pk": null,
+        "bias": null,
         "season": {
          "a": 4,
-         "g": 2,
-         "gp": 19,
-         "p": 6,
-         "ppp": 0,
-         "sog": 20,
-         "toi_s": 14312
-        },
-        "last5": {
-         "a": 2,
-         "g": 1,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 3975
-        },
-        "l5_point_games": 1,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Vincent Trocheck",
-        "jersey": 16,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476389,
-        "dfo_id": 2006,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 7,
          "g": 3,
-         "gp": 19,
-         "p": 10,
-         "ppp": 1,
-         "sog": 32,
-         "toi_s": 20011
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5782
-        },
-        "l5_point_games": 2,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Lawson Crouse",
-        "jersey": 67,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8478474,
-        "dfo_id": 2476,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 19,
+         "gp": 10,
          "p": 7,
-         "ppp": 1,
-         "sog": 28,
-         "toi_s": 16817
+         "ppp": 2,
+         "sog": 21,
+         "toi_s": 8910
         },
         "last5": {
          "a": 1,
          "g": 1,
          "gp": 5,
          "p": 2,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4500
-        },
-        "l5_point_games": 1,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Anders Lee",
-        "jersey": 72,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8475314,
-        "dfo_id": 2071,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 5,
-         "g": 3,
-         "gp": 19,
-         "p": 8,
          "ppp": 1,
-         "sog": 33,
-         "toi_s": 15824
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4543
+         "sog": 9,
+         "toi_s": 4512
         },
         "l5_point_games": 2,
-        "gp": 19,
+        "gp": 10,
         "move": {
-         "ev": 0,
-         "pp": -1,
+         "ev": 1,
+         "pp": 0,
          "new": false
         }
        },
@@ -35583,45 +35469,45 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
        },
        {
-        "name": "Kailer Yamamoto",
-        "jersey": 56,
+        "name": "Daniil But",
+        "jersey": 50,
         "pos": "RW",
         "slot": null,
-        "player_id": 8479977,
-        "dfo_id": 2796,
+        "player_id": 8484388,
+        "dfo_id": 38459,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 4,
-         "g": 3,
-         "gp": 10,
-         "p": 7,
-         "ppp": 2,
-         "sog": 21,
-         "toi_s": 8910
+         "a": 2,
+         "g": 2,
+         "gp": 14,
+         "p": 4,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 8951
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 4512
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 3009
         },
-        "l5_point_games": 2,
-        "gp": 10,
+        "l5_point_games": 1,
+        "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -35629,85 +35515,9 @@
       ],
       [
        {
-        "name": "Liam O'Brien",
-        "jersey": 38,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8477070,
-        "dfo_id": 2377,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 6,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 2982
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 2553
-        },
-        "l5_point_games": 0,
-        "gp": 6,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Kevin Stenlund",
-        "jersey": 82,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8478831,
-        "dfo_id": 4556,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 1,
-         "gp": 19,
-         "p": 5,
-         "ppp": 0,
-         "sog": 17,
-         "toi_s": 15285
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 3891
-        },
-        "l5_point_games": 0,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Michael Carcone",
         "jersey": 53,
-        "pos": "RW",
+        "pos": "LW",
         "slot": null,
         "player_id": 8479619,
         "dfo_id": 3864,
@@ -35736,6 +35546,198 @@
         },
         "l5_point_games": 0,
         "gp": 10,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Jack McBain",
+        "jersey": 22,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8480855,
+        "dfo_id": 28796,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 4,
+         "g": 2,
+         "gp": 19,
+         "p": 6,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 14312
+        },
+        "last5": {
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 3975
+        },
+        "l5_point_games": 1,
+        "gp": 19,
+        "move": {
+         "ev": -1,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
+        "name": "Lawson Crouse",
+        "jersey": 67,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8478474,
+        "dfo_id": 2476,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 2,
+         "gp": 19,
+         "p": 7,
+         "ppp": 1,
+         "sog": 28,
+         "toi_s": 16817
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4500
+        },
+        "l5_point_games": 1,
+        "gp": 19,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Ben McCartney",
+        "jersey": null,
+        "pos": "LW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 28455,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3660
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Kevin Stenlund",
+        "jersey": 82,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8478831,
+        "dfo_id": 4556,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 4,
+         "g": 1,
+         "gp": 19,
+         "p": 5,
+         "ppp": 0,
+         "sog": 17,
+         "toi_s": 15285
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3891
+        },
+        "l5_point_games": 0,
+        "gp": 19,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Liam O'Brien",
+        "jersey": 38,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8477070,
+        "dfo_id": 2377,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 6,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 2982
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2553
+        },
+        "l5_point_games": 0,
+        "gp": 6,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -35785,39 +35787,39 @@
         }
        },
        {
-        "name": "MacKenzie Weegar",
-        "jersey": 52,
+        "name": "Andrew Peeke",
+        "jersey": 20,
         "pos": "RD",
         "slot": null,
-        "player_id": 8477346,
-        "dfo_id": 2777,
+        "player_id": 8479369,
+        "dfo_id": 27242,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 1,
+        "pp": null,
+        "pk": 2,
         "bias": "A",
         "season": {
-         "a": 3,
+         "a": 6,
          "g": 2,
          "gp": 19,
-         "p": 5,
+         "p": 8,
          "ppp": 0,
-         "sog": 33,
-         "toi_s": 25219
+         "sog": 17,
+         "toi_s": 20157
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 3,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 6799
+         "sog": 5,
+         "toi_s": 5959
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -35863,39 +35865,39 @@
         }
        },
        {
-        "name": "Andrew Peeke",
-        "jersey": 20,
+        "name": "MacKenzie Weegar",
+        "jersey": 52,
         "pos": "RD",
         "slot": null,
-        "player_id": 8479369,
-        "dfo_id": 27242,
+        "player_id": 8477346,
+        "dfo_id": 2777,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 2,
+        "pp": 2,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 6,
+         "a": 3,
          "g": 2,
          "gp": 19,
-         "p": 8,
+         "p": 5,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 20157
+         "sog": 33,
+         "toi_s": 25219
         },
         "last5": {
-         "a": 2,
-         "g": 1,
+         "a": 1,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5959
+         "sog": 6,
+         "toi_s": 6799
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -35903,9 +35905,47 @@
       ],
       [
        {
+        "name": "Zac Jones",
+        "jersey": 15,
+        "pos": "LD",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 30457,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 5093
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
         "name": "Artem Duda",
         "jersey": 84,
-        "pos": "LD",
+        "pos": "RD",
         "slot": null,
         "player_id": 8483436,
         "dfo_id": 36382,
@@ -35934,44 +35974,6 @@
         },
         "l5_point_games": 0,
         "gp": 4,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Nick DeSimone",
-        "jersey": 57,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8480084,
-        "dfo_id": 2886,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 8,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 6704
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 4465
-        },
-        "l5_point_games": 0,
-        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -36071,10 +36073,86 @@
      "pp": [
       [
        {
+        "name": "Anders Lee",
+        "jersey": 72,
+        "pos": null,
+        "slot": 1,
+        "player_id": 8475314,
+        "dfo_id": 2071,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 3,
+         "gp": 19,
+         "p": 8,
+         "ppp": 1,
+         "sog": 33,
+         "toi_s": 15824
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 4543
+        },
+        "l5_point_games": 2,
+        "gp": 19,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Vincent Trocheck",
+        "jersey": 16,
+        "pos": null,
+        "slot": 2,
+        "player_id": 8476389,
+        "dfo_id": 2006,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 7,
+         "g": 3,
+         "gp": 19,
+         "p": 10,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 20011
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5782
+        },
+        "l5_point_games": 2,
+        "gp": 19,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Barrett Hayton",
         "jersey": 27,
         "pos": null,
-        "slot": 1,
+        "slot": 3,
         "player_id": 8480849,
         "dfo_id": 4796,
         "gtd": false,
@@ -36103,84 +36181,8 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
-         "new": false
-        }
-       },
-       {
-        "name": "Vincent Trocheck",
-        "jersey": 16,
-        "pos": null,
-        "slot": 2,
-        "player_id": 8476389,
-        "dfo_id": 2006,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 7,
-         "g": 3,
-         "gp": 19,
-         "p": 10,
-         "ppp": 1,
-         "sog": 32,
-         "toi_s": 20011
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5782
-        },
-        "l5_point_games": 2,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Nick Schmaltz",
-        "jersey": 8,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8477951,
-        "dfo_id": 2678,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 9,
-         "gp": 19,
-         "p": 20,
-         "ppp": 12,
-         "sog": 47,
-         "toi_s": 19514
-        },
-        "last5": {
-         "a": 4,
-         "g": 2,
-         "gp": 5,
-         "p": 6,
-         "ppp": 6,
-         "sog": 10,
-         "toi_s": 4548
-        },
-        "l5_point_games": 3,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
          "new": false
         }
        },
@@ -36295,8 +36297,46 @@
         "l5_point_games": 2,
         "gp": 10,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Jack McBain",
+        "jersey": 22,
+        "pos": null,
+        "slot": 2,
+        "player_id": 8480855,
+        "dfo_id": 28796,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 4,
+         "g": 2,
+         "gp": 19,
+         "p": 6,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 14312
+        },
+        "last5": {
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 3975
+        },
+        "l5_point_games": 1,
+        "gp": 19,
+        "move": {
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        },
@@ -36304,7 +36344,7 @@
         "name": "Michael Carcone",
         "jersey": 53,
         "pos": null,
-        "slot": 2,
+        "slot": 3,
         "player_id": 8479619,
         "dfo_id": 3864,
         "gtd": false,
@@ -36333,46 +36373,8 @@
         "l5_point_games": 0,
         "gp": 10,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Anders Lee",
-        "jersey": 72,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8475314,
-        "dfo_id": 2071,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 5,
-         "g": 3,
-         "gp": 19,
-         "p": 8,
-         "ppp": 1,
-         "sog": 33,
-         "toi_s": 15824
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4543
-        },
-        "l5_point_games": 2,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": -1,
          "new": false
         }
        },
@@ -36409,7 +36411,7 @@
         "l5_point_games": 1,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36447,7 +36449,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36457,36 +36459,36 @@
      "pk": [
       [
        {
-        "name": "Nick Schmaltz",
-        "jersey": 8,
+        "name": "Kevin Stenlund",
+        "jersey": 82,
         "pos": null,
         "slot": 1,
-        "player_id": 8477951,
-        "dfo_id": 2678,
-        "gtd": true,
+        "player_id": 8478831,
+        "dfo_id": 4556,
+        "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 9,
+         "a": 4,
+         "g": 1,
          "gp": 19,
-         "p": 20,
-         "ppp": 12,
-         "sog": 47,
-         "toi_s": 19514
+         "p": 5,
+         "ppp": 0,
+         "sog": 17,
+         "toi_s": 15285
         },
         "last5": {
-         "a": 4,
-         "g": 2,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 6,
-         "ppp": 6,
-         "sog": 10,
-         "toi_s": 4548
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3891
         },
-        "l5_point_games": 3,
+        "l5_point_games": 0,
         "gp": 19,
         "move": {
          "ev": 0,
@@ -36527,7 +36529,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36603,7 +36605,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36611,39 +36613,39 @@
       ],
       [
        {
-        "name": "Kevin Stenlund",
-        "jersey": 82,
+        "name": "Vincent Trocheck",
+        "jersey": 16,
         "pos": null,
         "slot": 1,
-        "player_id": 8478831,
-        "dfo_id": 4556,
+        "player_id": 8476389,
+        "dfo_id": 2006,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 4,
-         "g": 1,
+         "a": 7,
+         "g": 3,
          "gp": 19,
-         "p": 5,
-         "ppp": 0,
-         "sog": 17,
-         "toi_s": 15285
+         "p": 10,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 20011
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
          "sog": 5,
-         "toi_s": 3891
+         "toi_s": 5782
         },
-        "l5_point_games": 0,
+        "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -36657,7 +36659,7 @@
         "dfo_id": 28796,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -36681,8 +36683,8 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        },
@@ -36757,7 +36759,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -36788,17 +36790,17 @@
       {
        "player": "Nick Schmaltz",
        "status": "DTD",
-       "news": "Schmaltz (lower-body) will be a game-time decision vs. St. Louis on Thursday."
+       "news": "Schmaltz (lower-body) will not play Thursday and is considered day-to-day."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 15,
-       "rating": 74.13594709010916
+       "rank": 19,
+       "rating": 73.7466537666546
       },
       "d2": {
-       "rank": 28,
-       "rating": 72.57051807650141
+       "rank": 22,
+       "rating": 73.3491047234105
       },
       "d3": {
        "rank": 27,
@@ -36809,16 +36811,16 @@
        "rating": 0
       },
       "f1": {
-       "rank": 32,
-       "rating": 73.32520791139969
+       "rank": 26,
+       "rating": 74.60858295899371
       },
       "f2": {
-       "rank": 29,
-       "rating": 72.40788007344791
+       "rank": 24,
+       "rating": 72.78468950711832
       },
       "f3": {
-       "rank": 12,
-       "rating": 73.67098904159884
+       "rank": 24,
+       "rating": 71.90649537274241
       },
       "f4": {
        "rank": 18,
