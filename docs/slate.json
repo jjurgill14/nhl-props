@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated_utc": "2026-11-13T00:31:21.528700+00:00",
+ "generated_utc": "2026-11-13T00:46:26.838979+00:00",
  "games": [
   {
    "game_id": 2026020309,
@@ -2077,7 +2077,7 @@
      "goalie_news": "Swayman will start Thursday vs. Montreal.",
      "goalie_source": "Jack Studley",
      "sv": "0.92",
-     "gaa": "2.21",
+     "gaa": "2.2",
      "ml": "195",
      "gp": 18,
      "gf": 3.7222222222222223,
@@ -2761,7 +2761,7 @@
      "goalie_status": "Confirmed",
      "goalie_news": "Wallstedt will start in Toronto on Thursday.",
      "goalie_source": "Michael Russo",
-     "sv": "0.924",
+     "sv": "0.925",
      "gaa": "1.93",
      "ml": "140",
      "gp": 20,
@@ -5528,8 +5528,8 @@
      "goalie_status": "Confirmed",
      "goalie_news": "Thompson will start Thursday in New Jersey.",
      "goalie_source": "Mike Vogel",
-     "sv": "0.891",
-     "gaa": "3.09",
+     "sv": "0.892",
+     "gaa": "3.08",
      "ml": "-192",
      "gp": 16,
      "gf": 3.5,
@@ -6220,7 +6220,7 @@
      "goalie_news": "Hellebuyck will start vs. Washington on Thursday.",
      "goalie_source": "Devils Staff",
      "sv": "0.913",
-     "gaa": "1.96",
+     "gaa": "1.95",
      "ml": "160",
      "gp": 19,
      "gf": 3.526315789473684,
@@ -8316,7 +8316,7 @@
    "start_et": "7:30 PM",
    "away": "DET",
    "home": "FLA",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Amerant Bank Arena",
    "teams": {
     "away": {
@@ -9729,18 +9729,13 @@
      "ppga_rk": 3,
      "l5_gf": 2.6,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-12T23:46:02.846364+00:00",
+     "lineup_as_of": "2026-11-13T00:46:24.848610+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Matt Grzelcyk",
        "status": "IR",
        "news": "Grzelycyk (lower-body) has been placed on IR."
-      },
-      {
-       "player": "Alex Lyon",
-       "status": "IR",
-       "news": "Lyon will start Thursday in Chicago."
       },
       {
        "player": "Konsta Helenius",
@@ -9751,23 +9746,23 @@
      "lines": {
       "1": [
        "Zach Benson",
+       "Peyton Krebs",
+       "Tage Thompson"
+      ],
+      "2": [
+       "Jason Zucker",
        "Noah Ostlund",
        "Jack Quinn"
       ],
-      "2": [
-       "Peyton Krebs",
-       "Josh Norris",
-       "Tage Thompson"
-      ],
       "3": [
-       "Jason Zucker",
-       "Ryan McLeod",
+       "Jiri Kulich",
+       "Josh Norris",
        "Josh Doan"
       ],
       "4": [
-       "Beck Malenstyn",
        "Tyson Kozak",
-       "Sam Carrick"
+       "Ryan McLeod",
+       "Beck Malenstyn"
       ]
      },
      "pp1": [
@@ -9843,20 +9838,20 @@
        },
        "partners": [
         {
-         "name": "Noah Ostlund",
-         "jersey": 86,
-         "pp": 1,
-         "n": 11,
-         "both": 4,
-         "either": 8
+         "name": "Peyton Krebs",
+         "jersey": 19,
+         "pp": null,
+         "n": 5,
+         "both": 3,
+         "either": 4
         },
         {
-         "name": "Jack Quinn",
-         "jersey": 22,
+         "name": "Tage Thompson",
+         "jersey": 72,
          "pp": 1,
-         "n": 11,
+         "n": 7,
          "both": 5,
-         "either": 9
+         "either": 6
         }
        ]
       },
@@ -9866,7 +9861,7 @@
        "team": "BUF",
        "opp": "CHI",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -9908,11 +9903,19 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
+        {
+         "name": "Zach Benson",
+         "jersey": 6,
+         "pp": 1,
+         "n": 7,
+         "both": 5,
+         "either": 6
+        },
         {
          "name": "Peyton Krebs",
          "jersey": 19,
@@ -9920,14 +9923,6 @@
          "n": 10,
          "both": 6,
          "either": 7
-        },
-        {
-         "name": "Josh Norris",
-         "jersey": 9,
-         "pp": 2,
-         "n": 4,
-         "both": 1,
-         "either": 2
         }
        ]
       },
@@ -9937,7 +9932,7 @@
        "team": "BUF",
        "opp": "CHI",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -9979,18 +9974,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Zach Benson",
-         "jersey": 6,
-         "pp": 1,
-         "n": 11,
-         "both": 5,
-         "either": 9
+         "name": "Jason Zucker",
+         "jersey": 17,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Noah Ostlund",
@@ -10008,7 +10003,7 @@
        "team": "BUF",
        "opp": "CHI",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "C",
        "gtd": false,
@@ -10050,18 +10045,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Zach Benson",
-         "jersey": 6,
-         "pp": 1,
-         "n": 11,
-         "both": 4,
-         "either": 8
+         "name": "Jason Zucker",
+         "jersey": 17,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Jack Quinn",
@@ -10079,9 +10074,9 @@
        "team": "BUF",
        "opp": "CHI",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": null,
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "top6",
        "bias": "A",
@@ -10125,18 +10120,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Josh Norris",
-         "jersey": 9,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Zach Benson",
+         "jersey": 6,
+         "pp": 1,
+         "n": 5,
+         "both": 3,
+         "either": 4
         },
         {
          "name": "Tage Thompson",
@@ -10149,16 +10144,87 @@
        ]
       },
       {
+       "name": "Jiri Kulich",
+       "jersey": 20,
+       "team": "BUF",
+       "opp": "CHI",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 10,
+       "pt_games": 3,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        1,
+        3
+       ],
+       "pp_toi": 1.8,
+       "toi": 13.4,
+       "p": 0.275,
+       "fair": "+264",
+       "min": "+286",
+       "p2": 0.016,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.1496774193548387
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Josh Norris",
+         "jersey": 9,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Josh Doan",
+         "jersey": 91,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Josh Norris",
        "jersey": 9,
        "team": "BUF",
        "opp": "CHI",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "G",
        "gp": 18,
        "pt_games": 5,
@@ -10179,12 +10245,12 @@
        ],
        "pp_toi": 1.4,
        "toi": 12.2,
-       "p": 0.294,
-       "fair": "+241",
-       "min": "+261",
-       "p2": 0.057,
-       "fair2": "+1668",
-       "min2": "+1774",
+       "p": 0.266,
+       "fair": "+276",
+       "min": "+298",
+       "p2": 0.046,
+       "fair2": "+2096",
+       "min2": "+2228",
        "adj": [
         [
          "opp",
@@ -10196,26 +10262,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Peyton Krebs",
-         "jersey": 19,
+         "name": "Jiri Kulich",
+         "jersey": 20,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Tage Thompson",
-         "jersey": 72,
-         "pp": 1,
-         "n": 4,
+         "n": 3,
          "both": 1,
          "either": 2
+        },
+        {
+         "name": "Josh Doan",
+         "jersey": 91,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -10273,91 +10339,20 @@
        },
        "partners": [
         {
-         "name": "Jason Zucker",
-         "jersey": 17,
-         "pp": 2,
+         "name": "Jiri Kulich",
+         "jersey": 20,
+         "pp": null,
          "n": 1,
-         "both": 1,
-         "either": 1
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Ryan McLeod",
-         "jersey": 71,
+         "name": "Josh Norris",
+         "jersey": 9,
          "pp": 2,
          "n": 3,
-         "both": 1,
-         "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Ryan McLeod",
-       "jersey": 71,
-       "team": "BUF",
-       "opp": "CHI",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 16,
-       "pt_games": 4,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        2,
-        8
-       ],
-       "away_split": [
-        2,
-        8
-       ],
-       "pp_toi": 0.9,
-       "toi": 13.6,
-       "p": 0.247,
-       "fair": "+305",
-       "min": "+329",
-       "p2": 0.012,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.1496774193548387
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jason Zucker",
-         "jersey": 17,
-         "pp": 2,
-         "n": 5,
-         "both": 1,
+         "both": 0,
          "either": 1
-        },
-        {
-         "name": "Josh Doan",
-         "jersey": 91,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
         }
        ]
       },
@@ -10367,11 +10362,11 @@
        "team": "BUF",
        "opp": "CHI",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 9,
        "pt_games": 2,
@@ -10392,12 +10387,12 @@
        ],
        "pp_toi": 1.6,
        "toi": 12.9,
-       "p": 0.209,
-       "fair": "+378",
-       "min": "+406",
-       "p2": 0.015,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p": 0.247,
+       "fair": "+305",
+       "min": "+329",
+       "p2": 0.03,
+       "fair2": "+3191",
+       "min2": "+3389",
        "adj": [
         [
          "opp",
@@ -10413,26 +10408,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Ryan McLeod",
-         "jersey": 71,
-         "pp": 2,
-         "n": 5,
-         "both": 1,
-         "either": 1
+         "name": "Noah Ostlund",
+         "jersey": 86,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Josh Doan",
-         "jersey": 91,
-         "pp": 2,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "name": "Jack Quinn",
+         "jersey": 22,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       }
@@ -10444,9 +10439,9 @@
      "home": true,
      "b2b": false,
      "goalie": "Spencer Knight",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Knight led the Blackhawks onto the ice for warmups.",
+     "goalie_source": "Ben Pope",
      "sv": "0.881",
      "gaa": "3.66",
      "ml": "-192",
@@ -10461,14 +10456,9 @@
      "ppga_rk": 18,
      "l5_gf": 2.4,
      "l5_ga": 5.6,
-     "lineup_as_of": "2026-11-13T00:31:19.610783+00:00",
+     "lineup_as_of": "2026-11-13T00:46:24.914839+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Patrick Kane",
-       "status": "OUT",
-       "news": "The Blackhawks have activated Patrick Kane (upper-body) from IR; he's expected to play on Thursday."
-      },
       {
        "player": "Bowen Byram",
        "status": "IR",
@@ -10655,7 +10645,7 @@
        "line": 2,
        "pp": 1,
        "pos": "RW",
-       "gtd": true,
+       "gtd": false,
        "role": "pp1",
        "bias": "A",
        "gp": 15,

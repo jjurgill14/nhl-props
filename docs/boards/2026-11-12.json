@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-13T00:31:22.318468+00:00",
+ "generated_utc": "2026-11-13T00:46:27.625483+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -4683,7 +4683,7 @@
     "goalie_news": "Swayman will start Thursday vs. Montreal.",
     "goalie_source": "Jack Studley",
     "sv": "0.92",
-    "gaa": "2.21",
+    "gaa": "2.2",
     "lineup_as_of": "2026-11-12T14:20:25.320491+00:00",
     "lineup_stale": false,
     "ga_rk": 31,
@@ -8192,7 +8192,7 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Wallstedt will start in Toronto on Thursday.",
     "goalie_source": "Michael Russo",
-    "sv": "0.924",
+    "sv": "0.925",
     "gaa": "1.93",
     "lineup_as_of": "2026-11-12T14:20:26.202617+00:00",
     "lineup_stale": false,
@@ -15364,8 +15364,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Thompson will start Thursday in New Jersey.",
     "goalie_source": "Mike Vogel",
-    "sv": "0.891",
-    "gaa": "3.09",
+    "sv": "0.892",
+    "gaa": "3.08",
     "lineup_as_of": "2026-11-12T23:46:03.995752+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
@@ -15413,7 +15413,7 @@
     "goalie_news": "Hellebuyck will start vs. Washington on Thursday.",
     "goalie_source": "Devils Staff",
     "sv": "0.913",
-    "gaa": "1.96",
+    "gaa": "1.95",
     "lineup_as_of": "2026-11-12T22:00:20.280192+00:00",
     "lineup_stale": false,
     "ga_rk": 24,
@@ -22453,7 +22453,7 @@
    "id": "07",
    "game_id": 2026020302,
    "start_utc": "2026-11-13T00:30:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Amerant Bank Arena",
    "away": {
     "abbr": "DET",
@@ -26074,7 +26074,7 @@
     "goalie_source": "Mike Harrington",
     "sv": "0.0",
     "gaa": "0.0",
-    "lineup_as_of": "2026-11-12T23:46:02.846364+00:00",
+    "lineup_as_of": "2026-11-13T00:46:24.848610+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 19,
@@ -26117,12 +26117,12 @@
     "record": "4-13-1",
     "b2b": false,
     "goalie": "Spencer Knight",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Knight led the Blackhawks onto the ice for warmups.",
+    "goalie_source": "Ben Pope",
     "sv": "0.881",
     "gaa": "3.66",
-    "lineup_as_of": "2026-11-13T00:31:19.610783+00:00",
+    "lineup_as_of": "2026-11-13T00:46:24.914839+00:00",
     "lineup_stale": false,
     "ga_rk": 2,
     "gf_rk": 32,
@@ -26161,7 +26161,7 @@
      "away": "+160",
      "home": "-192",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-13T00:31:19.610783+00:00"
+     "as_of": "2026-11-13T00:46:24.914839+00:00"
     },
     "total": {
      "line": 6.5,
@@ -26245,7 +26245,7 @@
       "player": "Tage Thompson",
       "team": "BUF",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": null,
       "players": [
        8479420
@@ -26290,7 +26290,7 @@
       "player": "Jack Quinn",
       "team": "BUF",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": null,
       "players": [
        8482097
@@ -26315,13 +26315,29 @@
       ]
      },
      {
+      "selection": "Benson + Thompson \u00b7 both 1+ point",
+      "prob": 0.568,
+      "fair": "-132",
+      "need": "-116",
+      "rationale": "Both scored 5 of 7 games together \u00b7 independent 40% \u00b7 correlated",
+      "team": "BUF",
+      "line": 1,
+      "read": "correlated",
+      "both": 5,
+      "n": 7,
+      "players": [
+       8484145,
+       8479420
+      ]
+     },
+     {
       "selection": "Thompson + Krebs \u00b7 both 1+ point",
       "prob": 0.453,
       "fair": "+121",
       "need": "+134",
       "rationale": "Both scored 6 of 10 games together \u00b7 independent 21% \u00b7 correlated",
       "team": "BUF",
-      "line": 2,
+      "line": 1,
       "read": "correlated",
       "both": 6,
       "n": 10,
@@ -26331,29 +26347,13 @@
       ]
      },
      {
-      "selection": "Benson + Quinn \u00b7 both 1+ point",
-      "prob": 0.426,
-      "fair": "+135",
-      "need": "+149",
-      "rationale": "Both scored 5 of 11 games together \u00b7 independent 37% \u00b7 correlated",
-      "team": "BUF",
-      "line": 1,
-      "read": "correlated",
-      "both": 5,
-      "n": 11,
-      "players": [
-       8484145,
-       8482097
-      ]
-     },
-     {
       "selection": "Quinn + Ostlund \u00b7 both 1+ point",
       "prob": 0.425,
       "fair": "+135",
       "need": "+149",
       "rationale": "Both scored 8 of 17 games together \u00b7 independent 30% \u00b7 correlated",
       "team": "BUF",
-      "line": 1,
+      "line": 2,
       "read": "correlated",
       "both": 8,
       "n": 17,
@@ -26363,19 +26363,19 @@
       ]
      },
      {
-      "selection": "Benson + Ostlund \u00b7 both 1+ point",
-      "prob": 0.35,
-      "fair": "+186",
-      "need": "+203",
-      "rationale": "Both scored 4 of 11 games together \u00b7 independent 32% \u00b7 independent",
+      "selection": "Benson + Krebs \u00b7 both 1+ point",
+      "prob": 0.389,
+      "fair": "+157",
+      "need": "+172",
+      "rationale": "Both scored 3 of 5 games together \u00b7 independent 21% \u00b7 new pair",
       "team": "BUF",
       "line": 1,
-      "read": "independent",
-      "both": 4,
-      "n": 11,
+      "read": "new pair",
+      "both": 3,
+      "n": 5,
       "players": [
        8484145,
-       8483500
+       8481522
       ]
      }
     ],
@@ -26417,7 +26417,7 @@
       "player": "Tage Thompson",
       "team": "BUF",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8479420
       ]
@@ -26431,7 +26431,7 @@
       "player": "Jack Quinn",
       "team": "BUF",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8482097
       ]
@@ -26469,19 +26469,19 @@
       ]
      },
      {
-      "selection": "Benson + Quinn \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.426,
-      "fair": "+135",
-      "need": "+149",
-      "rationale": "Both scored 5 of 11 games together \u00b7 independent 37% \u00b7 correlated",
+      "selection": "Benson + Thompson \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.568,
+      "fair": "-132",
+      "need": "-116",
+      "rationale": "Both scored 5 of 7 games together \u00b7 independent 40% \u00b7 correlated",
       "team": "BUF",
       "line": 1,
       "read": "correlated",
       "both": 5,
-      "n": 11,
+      "n": 7,
       "players": [
        8484145,
-       8482097
+       8479420
       ]
      },
      {
@@ -26491,7 +26491,7 @@
       "need": "+149",
       "rationale": "Both scored 8 of 17 games together \u00b7 independent 30% \u00b7 correlated",
       "team": "BUF",
-      "line": 1,
+      "line": 2,
       "read": "correlated",
       "both": 8,
       "n": 17,
@@ -26501,19 +26501,19 @@
       ]
      },
      {
-      "selection": "Benson + Ostlund \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.35,
-      "fair": "+186",
-      "need": "+203",
-      "rationale": "Both scored 4 of 11 games together \u00b7 independent 32% \u00b7 independent",
-      "team": "BUF",
-      "line": 1,
-      "read": "independent",
-      "both": 4,
-      "n": 11,
+      "selection": "Kane + Frondell \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.181,
+      "fair": "+453",
+      "need": "+486",
+      "rationale": "Both scored 0 of 1 games together \u00b7 independent 21% \u00b7 new pair",
+      "team": "CHI",
+      "line": 2,
+      "read": "new pair",
+      "both": 0,
+      "n": 1,
       "players": [
-       8484145,
-       8483500
+       8474141,
+       8485391
       ]
      }
     ],
@@ -26531,10 +26531,10 @@
    "lineup": {
     "away": {
      "team": "BUF",
-     "as_of": "2026-11-12T23:46:02.846364+00:00",
+     "as_of": "2026-11-13T00:46:24.848610+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-11)",
-     "updated_dfo": "2026-11-12T16:36:38.719Z",
+     "source": "Paul Hamilton",
+     "updated_dfo": "2026-11-13T00:40:16.267Z",
      "forwards": [
       [
        {
@@ -26576,87 +26576,9 @@
         }
        },
        {
-        "name": "Noah Ostlund",
-        "jersey": 86,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8483500,
-        "dfo_id": 36383,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 18,
-         "p": 11,
-         "ppp": 3,
-         "sog": 43,
-         "toi_s": 20428
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 13,
-         "toi_s": 5648
-        },
-        "l5_point_games": 2,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Jack Quinn",
-        "jersey": 22,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8482097,
-        "dfo_id": 29241,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 8,
-         "g": 9,
-         "gp": 18,
-         "p": 17,
-         "ppp": 6,
-         "sog": 52,
-         "toi_s": 20564
-        },
-        "last5": {
-         "a": 3,
-         "g": 2,
-         "gp": 5,
-         "p": 5,
-         "ppp": 2,
-         "sog": 14,
-         "toi_s": 5430
-        },
-        "l5_point_games": 3,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Peyton Krebs",
         "jersey": 19,
-        "pos": "LW",
+        "pos": "C",
         "slot": null,
         "player_id": 8481522,
         "dfo_id": 28684,
@@ -26686,45 +26608,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Josh Norris",
-        "jersey": 9,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8480064,
-        "dfo_id": 28056,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 18,
-         "p": 6,
-         "ppp": 1,
-         "sog": 22,
-         "toi_s": 15284
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 7,
-         "toi_s": 3660
-        },
-        "l5_point_games": 2,
-        "gp": 18,
-        "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -26762,7 +26646,7 @@
         "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -26802,45 +26686,161 @@
         "l5_point_games": 1,
         "gp": 9,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Ryan McLeod",
-        "jersey": 71,
+        "name": "Noah Ostlund",
+        "jersey": 86,
         "pos": "C",
         "slot": null,
-        "player_id": 8480802,
-        "dfo_id": 4810,
+        "player_id": 8483500,
+        "dfo_id": 36383,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 7,
+         "g": 4,
+         "gp": 18,
+         "p": 11,
+         "ppp": 3,
+         "sog": 43,
+         "toi_s": 20428
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 13,
+         "toi_s": 5648
+        },
+        "l5_point_games": 2,
+        "gp": 18,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Jack Quinn",
+        "jersey": 22,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8482097,
+        "dfo_id": 29241,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
         "pk": null,
         "bias": null,
         "season": {
+         "a": 8,
+         "g": 9,
+         "gp": 18,
+         "p": 17,
+         "ppp": 6,
+         "sog": 52,
+         "toi_s": 20564
+        },
+        "last5": {
          "a": 3,
-         "g": 1,
-         "gp": 16,
-         "p": 4,
-         "ppp": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 5,
+         "ppp": 2,
          "sog": 14,
-         "toi_s": 14250
+         "toi_s": 5430
+        },
+        "l5_point_games": 3,
+        "gp": 18,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Jiri Kulich",
+        "jersey": 20,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8483468,
+        "dfo_id": 36381,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 2,
+         "g": 1,
+         "gp": 10,
+         "p": 3,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 7727
         },
         "last5": {
          "a": 1,
          "g": 0,
          "gp": 5,
          "p": 1,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 4087
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4021
         },
         "l5_point_games": 1,
-        "gp": 16,
+        "gp": 10,
         "move": {
          "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Josh Norris",
+        "jersey": 9,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8480064,
+        "dfo_id": 28056,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 2,
+         "g": 4,
+         "gp": 18,
+         "p": 6,
+         "ppp": 1,
+         "sog": 22,
+         "toi_s": 15284
+        },
+        "last5": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
+         "ppp": 1,
+         "sog": 7,
+         "toi_s": 3660
+        },
+        "l5_point_games": 2,
+        "gp": 18,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -26886,47 +26886,9 @@
       ],
       [
        {
-        "name": "Beck Malenstyn",
-        "jersey": 29,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8479359,
-        "dfo_id": 3914,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 18,
-         "p": 3,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 12140
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 3668
-        },
-        "l5_point_games": 1,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Tyson Kozak",
         "jersey": 48,
-        "pos": "C",
+        "pos": "LW",
         "slot": null,
         "player_id": 8482896,
         "dfo_id": 32822,
@@ -26962,37 +26924,75 @@
         }
        },
        {
-        "name": "Sam Carrick",
-        "jersey": 10,
-        "pos": "RW",
+        "name": "Ryan McLeod",
+        "jersey": 71,
+        "pos": "C",
         "slot": null,
-        "player_id": 8475842,
-        "dfo_id": 1914,
+        "player_id": 8480802,
+        "dfo_id": 4810,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
+         "a": 3,
+         "g": 1,
+         "gp": 16,
+         "p": 4,
+         "ppp": 1,
+         "sog": 14,
+         "toi_s": 14250
+        },
+        "last5": {
          "a": 1,
          "g": 0,
-         "gp": 10,
+         "gp": 5,
          "p": 1,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 4087
+        },
+        "l5_point_games": 1,
+        "gp": 16,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Beck Malenstyn",
+        "jersey": 29,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8479359,
+        "dfo_id": 3914,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 1,
+         "gp": 18,
+         "p": 3,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 4928
+         "sog": 8,
+         "toi_s": 12140
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 2631
+         "sog": 2,
+         "toi_s": 3668
         },
-        "l5_point_games": 0,
-        "gp": 10,
+        "l5_point_games": 1,
+        "gp": 18,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -27120,49 +27120,9 @@
         }
        },
        {
-        "name": "Olen Zellweger",
-        "jersey": 8,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8482803,
-        "dfo_id": 34623,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 3,
-         "g": 3,
-         "gp": 17,
-         "p": 6,
-         "ppp": 0,
-         "sog": 31,
-         "toi_s": 20058
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5823
-        },
-        "l5_point_games": 0,
-        "gp": 17,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Conor Timmins",
         "jersey": 21,
-        "pos": "LD",
+        "pos": "RD",
         "slot": null,
         "player_id": 8479982,
         "dfo_id": 2797,
@@ -27192,31 +27152,33 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
-       },
+       }
+      ],
+      [
        {
-        "name": "Zach Metsa",
-        "jersey": 73,
-        "pos": "RD",
+        "name": "Olen Zellweger",
+        "jersey": 8,
+        "pos": "LD",
         "slot": null,
-        "player_id": 8484305,
-        "dfo_id": 28387,
+        "player_id": 8482803,
+        "dfo_id": 34623,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 0,
-         "gp": 16,
-         "p": 2,
+         "a": 3,
+         "g": 3,
+         "gp": 17,
+         "p": 6,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 11753
+         "sog": 31,
+         "toi_s": 20058
         },
         "last5": {
          "a": 0,
@@ -27224,15 +27186,53 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3487
+         "sog": 5,
+         "toi_s": 5823
         },
         "l5_point_games": 0,
-        "gp": 16,
+        "gp": 17,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Louis Crevier",
+        "jersey": 46,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8481806,
+        "dfo_id": 29897,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 1,
+         "g": 0,
+         "gp": 15,
+         "p": 1,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 11582
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 2878
+        },
+        "l5_point_games": 0,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -27246,7 +27246,7 @@
         "slot": 1,
         "player_id": null,
         "dfo_id": 2873,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -27398,7 +27398,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27436,7 +27436,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27474,7 +27474,7 @@
         "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -27552,7 +27552,7 @@
         "l5_point_games": 1,
         "gp": 9,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -27590,7 +27590,7 @@
         "l5_point_games": 1,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27704,7 +27704,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27860,7 +27860,7 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -27938,7 +27938,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -28028,11 +28028,6 @@
        "news": "Grzelycyk (lower-body) has been placed on IR."
       },
       {
-       "player": "Alex Lyon",
-       "status": "IR",
-       "news": "Lyon will start Thursday in Chicago."
-      },
-      {
        "player": "Konsta Helenius",
        "status": "DTD",
        "news": "Helenius (upper-body) has been placed on IR."
@@ -28044,12 +28039,12 @@
        "rating": 73.8636294336494
       },
       "d2": {
-       "rank": 36,
-       "rating": 0
+       "rank": 23,
+       "rating": 73.04800009122891
       },
       "d3": {
-       "rank": 10,
-       "rating": 73.04800009122891
+       "rank": 27,
+       "rating": 0
       },
       "d4": {
        "rank": 6,
@@ -28057,19 +28052,19 @@
       },
       "f1": {
        "rank": 39,
-       "rating": 0
-      },
-      "f2": {
-       "rank": 37,
        "rating": 68.48613547072291
       },
-      "f3": {
-       "rank": 6,
+      "f2": {
+       "rank": 14,
        "rating": 74.63197555734001
       },
+      "f3": {
+       "rank": 33,
+       "rating": 0
+      },
       "f4": {
-       "rank": 11,
-       "rating": 72.94508353370126
+       "rank": 7,
+       "rating": 73.17968511403402
       },
       "g": {
        "rank": 26,
@@ -28095,10 +28090,10 @@
     },
     "home": {
      "team": "CHI",
-     "as_of": "2026-11-13T00:31:19.610783+00:00",
+     "as_of": "2026-11-13T00:46:24.914839+00:00",
      "stale": false,
-     "source": "Charlie Roumeliotis",
-     "updated_dfo": "2026-11-12T17:28:12.483Z",
+     "source": "Jack Bushman",
+     "updated_dfo": "2026-11-13T00:41:00.098Z",
      "forwards": [
       [
        {
@@ -28300,7 +28295,7 @@
         "slot": null,
         "player_id": 8474141,
         "dfo_id": 305,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -28974,7 +28969,7 @@
         "slot": 3,
         "player_id": 8474141,
         "dfo_id": 305,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -29587,11 +29582,6 @@
      ],
      "injuries": [
       {
-       "player": "Patrick Kane",
-       "status": "OUT",
-       "news": "The Blackhawks have activated Patrick Kane (upper-body) from IR; he's expected to play on Thursday."
-      },
-      {
        "player": "Bowen Byram",
        "status": "IR",
        "news": "Byram (upper-body) is practicing in a non-contact jersey on Wednesday."
@@ -29603,11 +29593,11 @@
        "rating": 73.20062632226701
       },
       "d2": {
-       "rank": 36,
+       "rank": 37,
        "rating": 0
       },
       "d3": {
-       "rank": 28,
+       "rank": 27,
        "rating": 0
       },
       "d4": {
@@ -29623,7 +29613,7 @@
        "rating": 77.15791349881022
       },
       "f3": {
-       "rank": 24,
+       "rank": 23,
        "rating": 72.0652513213227
       },
       "f4": {
