@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-14T22:49:53.185703+00:00",
+ "generated_utc": "2026-11-14T23:04:59.516070+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -4624,7 +4624,7 @@
    "id": "02",
    "game_id": 2026020312,
    "start_utc": "2026-11-14T20:30:00Z",
-   "status": "LIVE",
+   "status": "CRIT",
    "venue": "United Center",
    "away": {
     "abbr": "WPG",
@@ -40518,7 +40518,7 @@
     "goalie_source": "Sheng Peng",
     "sv": "0.894",
     "gaa": "3.12",
-    "lineup_as_of": "2026-11-14T12:45:07.967256+00:00",
+    "lineup_as_of": "2026-11-14T23:04:57.416327+00:00",
     "lineup_stale": false,
     "ga_rk": 10,
     "gf_rk": 29,
@@ -40566,7 +40566,7 @@
     "goalie_source": "Brogan Houston",
     "sv": "0.875",
     "gaa": "3.02",
-    "lineup_as_of": "2026-11-14T12:45:08.177619+00:00",
+    "lineup_as_of": "2026-11-14T23:04:57.724063+00:00",
     "lineup_stale": false,
     "ga_rk": 12,
     "gf_rk": 12,
@@ -40605,7 +40605,7 @@
      "away": "-155",
      "home": "+130",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-14T12:45:08.177619+00:00"
+     "as_of": "2026-11-14T23:04:57.724063+00:00"
     },
     "total": {
      "line": 6.5,
@@ -40867,6 +40867,20 @@
       ]
      },
      {
+      "selection": "Tyler Toffoli \u00b7 2+ points",
+      "prob": 0.166,
+      "fair": "+502",
+      "need": "+539",
+      "rationale": "2+ in 3 of 21 \u00b7 4.1 PP min/game \u00b7 PP1",
+      "player": "Tyler Toffoli",
+      "team": "SJS",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8475726
+      ]
+     },
+     {
       "selection": "Kailer Yamamoto \u00b7 2+ points",
       "prob": 0.146,
       "fair": "+585",
@@ -40878,20 +40892,6 @@
       "line": 2,
       "players": [
        8479977
-      ]
-     },
-     {
-      "selection": "Ivar Stenberg \u00b7 2+ points",
-      "prob": 0.13,
-      "fair": "+669",
-      "need": "+715",
-      "rationale": "2+ in 2 of 21 \u00b7 4.6 PP min/game \u00b7 PP1",
-      "player": "Ivar Stenberg",
-      "team": "SJS",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8486103
       ]
      }
     ],
@@ -40975,7 +40975,7 @@
    "lineup": {
     "away": {
      "team": "SJS",
-     "as_of": "2026-11-14T12:45:07.967256+00:00",
+     "as_of": "2026-11-14T23:04:57.416327+00:00",
      "stale": false,
      "source": "Max Miller",
      "updated_dfo": "2026-11-13T19:27:20.261Z",
@@ -41222,7 +41222,7 @@
         "dfo_id": 1656,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
         "bias": "A",
         "season": {
@@ -41247,44 +41247,44 @@
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
        {
-        "name": "Alexander Wennberg",
-        "jersey": 21,
+        "name": "Ty Dellandrea",
+        "jersey": 10,
         "pos": "C",
         "slot": null,
-        "player_id": 8477505,
-        "dfo_id": 2145,
+        "player_id": 8480848,
+        "dfo_id": 4813,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": 1,
-        "bias": "A",
+        "pp": null,
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 0,
-         "gp": 11,
-         "p": 3,
-         "ppp": 1,
-         "sog": 16,
-         "toi_s": 13505
-        },
-        "last5": {
          "a": 2,
          "g": 0,
-         "gp": 5,
+         "gp": 13,
          "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 6387
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 9837
         },
-        "l5_point_games": 2,
-        "gp": 11,
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 3394
+        },
+        "l5_point_games": 1,
+        "gp": 13,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -41298,7 +41298,7 @@
         "dfo_id": 4675,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": "A",
         "season": {
@@ -41323,7 +41323,7 @@
         "gp": 21,
         "move": {
          "ev": -1,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -41339,7 +41339,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 1,
@@ -41810,48 +41810,10 @@
         }
        },
        {
-        "name": "Alexander Wennberg",
-        "jersey": 21,
-        "pos": null,
-        "slot": 2,
-        "player_id": 8477505,
-        "dfo_id": 2145,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 3,
-         "g": 0,
-         "gp": 11,
-         "p": 3,
-         "ppp": 1,
-         "sog": 16,
-         "toi_s": 13505
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 6387
-        },
-        "l5_point_games": 2,
-        "gp": 11,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Will Smith",
         "jersey": 2,
         "pos": null,
-        "slot": 3,
+        "slot": 2,
         "player_id": 8484227,
         "dfo_id": 38126,
         "gtd": false,
@@ -41882,6 +41844,44 @@
         "move": {
          "ev": 0,
          "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Tyler Toffoli",
+        "jersey": 73,
+        "pos": null,
+        "slot": 3,
+        "player_id": 8475726,
+        "dfo_id": 1656,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 6,
+         "g": 5,
+         "gp": 21,
+         "p": 11,
+         "ppp": 4,
+         "sog": 45,
+         "toi_s": 16724
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 4021
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -41964,40 +41964,40 @@
       ],
       [
        {
-        "name": "Mason Marchment",
-        "jersey": 27,
+        "name": "Kiefer Sherwood",
+        "jersey": 44,
         "pos": null,
         "slot": 1,
-        "player_id": 8478975,
-        "dfo_id": 2855,
+        "player_id": 8480748,
+        "dfo_id": 4675,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 3,
-         "g": 5,
+         "a": 6,
+         "g": 2,
          "gp": 21,
          "p": 8,
-         "ppp": 3,
-         "sog": 39,
-         "toi_s": 20876
+         "ppp": 1,
+         "sog": 38,
+         "toi_s": 19933
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 5298
+         "p": 0,
+         "ppp": 0,
+         "sog": 9,
+         "toi_s": 4937
         },
-        "l5_point_games": 2,
+        "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        },
@@ -42040,36 +42040,36 @@
         }
        },
        {
-        "name": "Tyler Toffoli",
-        "jersey": 73,
+        "name": "Mason Marchment",
+        "jersey": 27,
         "pos": null,
         "slot": 3,
-        "player_id": 8475726,
-        "dfo_id": 1656,
+        "player_id": 8478975,
+        "dfo_id": 2855,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 6,
+         "a": 3,
          "g": 5,
          "gp": 21,
-         "p": 11,
-         "ppp": 4,
-         "sog": 45,
-         "toi_s": 16724
+         "p": 8,
+         "ppp": 3,
+         "sog": 39,
+         "toi_s": 20876
         },
         "last5": {
          "a": 1,
          "g": 1,
          "gp": 5,
          "p": 2,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 4021
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 5298
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 21,
         "move": {
          "ev": 0,
@@ -42158,39 +42158,39 @@
      "pk": [
       [
        {
-        "name": "Alexander Wennberg",
-        "jersey": 21,
+        "name": "Barclay Goodrow",
+        "jersey": 23,
         "pos": null,
         "slot": 1,
-        "player_id": 8477505,
-        "dfo_id": 2145,
+        "player_id": 8476624,
+        "dfo_id": 2395,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 3,
+         "a": 1,
          "g": 0,
-         "gp": 11,
-         "p": 3,
-         "ppp": 1,
+         "gp": 21,
+         "p": 1,
+         "ppp": 0,
          "sog": 16,
-         "toi_s": 13505
+         "toi_s": 13966
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 6387
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2885
         },
-        "l5_point_games": 2,
-        "gp": 11,
+        "l5_point_games": 0,
+        "gp": 21,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -42312,37 +42312,37 @@
       ],
       [
        {
-        "name": "Barclay Goodrow",
-        "jersey": 23,
+        "name": "Ty Dellandrea",
+        "jersey": 10,
         "pos": null,
         "slot": 1,
-        "player_id": 8476624,
-        "dfo_id": 2395,
+        "player_id": 8480848,
+        "dfo_id": 4813,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 2,
          "g": 0,
-         "gp": 21,
-         "p": 1,
+         "gp": 13,
+         "p": 2,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 13966
+         "sog": 12,
+         "toi_s": 9837
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 2885
+         "sog": 7,
+         "toi_s": 3394
         },
-        "l5_point_games": 0,
-        "gp": 21,
+        "l5_point_games": 1,
+        "gp": 13,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -42470,6 +42470,11 @@
        "player": "Igor Chernyshov",
        "status": "IR",
        "news": "Chernyshov (upper-body) is considered week-to-week."
+      },
+      {
+       "player": "Alexander Wennberg",
+       "status": "DTD",
+       "news": "Wennberg (undisclosed) will not play Saturday in Utah."
       }
      ],
      "unit_ratings": {
@@ -42478,7 +42483,7 @@
        "rating": 74.06476112866682
       },
       "d2": {
-       "rank": 25,
+       "rank": 26,
        "rating": 72.691166135604
       },
       "d3": {
@@ -42494,12 +42499,12 @@
        "rating": 0
       },
       "f2": {
-       "rank": 22,
+       "rank": 23,
        "rating": 73.36006573595802
       },
       "f3": {
-       "rank": 26,
-       "rating": 71.67833899614547
+       "rank": 15,
+       "rating": 72.66567012712136
       },
       "f4": {
        "rank": 33,
@@ -42529,10 +42534,10 @@
     },
     "home": {
      "team": "UTA",
-     "as_of": "2026-11-14T12:45:08.177619+00:00",
+     "as_of": "2026-11-14T23:04:57.724063+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-12)",
-     "updated_dfo": "2026-11-13T14:46:48.271Z",
+     "source": "Cole Bagley",
+     "updated_dfo": "2026-11-14T19:34:43.368Z",
      "forwards": [
       [
        {
@@ -44038,12 +44043,12 @@
       {
        "player": "Logan Cooley",
        "status": "DTD",
-       "news": "Cooley (upper-body) will remain out vs. St. Louis and is considered day-to-day."
+       "news": "Cooley (upper-body) remains day-to-day and will not play on Saturday."
       },
       {
        "player": "Nick Schmaltz",
        "status": "DTD",
-       "news": "Schmaltz (lower-body) will not play Thursday and is considered day-to-day."
+       "news": "Schmaltz (lower-body) will not play on Saturday and is still being evaluated."
       }
      ],
      "unit_ratings": {
@@ -44064,11 +44069,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 26,
+       "rank": 25,
        "rating": 74.60858295899371
       },
       "f2": {
-       "rank": 26,
+       "rank": 25,
        "rating": 72.78468950711832
       },
       "f3": {
@@ -44076,11 +44081,11 @@
        "rating": 71.90649537274241
       },
       "f4": {
-       "rank": 18,
+       "rank": 20,
        "rating": 71.91977873674156
       },
       "g": {
-       "rank": 30,
+       "rank": 29,
        "rating": 0
       },
       "pk1": {

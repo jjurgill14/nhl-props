@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_utc": "2026-11-14T22:49:52.539555+00:00",
+ "generated_utc": "2026-11-14T23:04:58.885779+00:00",
  "games": [
   {
    "game_id": 2026020321,
@@ -1385,7 +1385,7 @@
    "start_et": "3:30 PM",
    "away": "WPG",
    "home": "CHI",
-   "state": "LIVE",
+   "state": "CRIT",
    "venue": "United Center",
    "teams": {
     "away": {
@@ -15162,13 +15162,18 @@
      "ppga_rk": 9,
      "l5_gf": 2.0,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-14T12:45:07.967256+00:00",
+     "lineup_as_of": "2026-11-14T23:04:57.416327+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Igor Chernyshov",
        "status": "IR",
        "news": "Chernyshov (upper-body) is considered week-to-week."
+      },
+      {
+       "player": "Alexander Wennberg",
+       "status": "DTD",
+       "news": "Wennberg (undisclosed) will not play Saturday in Utah."
       }
      ],
      "lines": {
@@ -15184,7 +15189,7 @@
       ],
       "3": [
        "Tyler Toffoli",
-       "Alexander Wennberg",
+       "Ty Dellandrea",
        "Kiefer Sherwood"
       ],
       "4": [
@@ -15195,15 +15200,15 @@
      },
      "pp1": [
       "Ivar Stenberg",
-      "Alexander Wennberg",
       "Will Smith",
+      "Tyler Toffoli",
       "Macklin Celebrini",
       "Jacob Trouba"
      ],
      "pp2": [
-      "Mason Marchment",
+      "Kiefer Sherwood",
       "Michael Misa",
-      "Tyler Toffoli",
+      "Mason Marchment",
       "Dmitry Orlov",
       "Eric Pohlkamp"
      ],
@@ -15410,71 +15415,67 @@
        ]
       },
       {
-       "name": "Alexander Wennberg",
-       "jersey": 21,
+       "name": "Tyler Toffoli",
+       "jersey": 73,
        "team": "SJS",
        "opp": "UTA",
        "home": false,
        "line": 3,
        "pp": 1,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
-       "gp": 11,
-       "pt_games": 3,
+       "gp": 21,
+       "pt_games": 8,
        "l5": [
-        2,
+        1,
         5
        ],
-       "ast_games": 3,
-       "goal_games": 0,
-       "two_games": 0,
+       "ast_games": 6,
+       "goal_games": 5,
+       "two_games": 3,
        "home_split": [
-        0,
-        6
+        2,
+        10
        ],
        "away_split": [
-        3,
-        5
+        6,
+        11
        ],
-       "pp_toi": 5.5,
-       "toi": 21.3,
-       "p": 0.443,
+       "pp_toi": 4.1,
+       "toi": 13.4,
+       "p": 0.445,
        "fair": "+125",
-       "min": "+139",
-       "p2": 0.097,
-       "fair2": "+932",
-       "min2": "+994",
+       "min": "+138",
+       "p2": 0.166,
+       "fair2": "+502",
+       "min2": "+539",
        "adj": [
         [
          "opp",
          1.0464516129032257
-        ],
-        [
-         "venue",
-         1.1
         ]
        ],
        "move": {
-        "ev": -1,
-        "pp": 0,
+        "ev": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Tyler Toffoli",
-         "jersey": 73,
-         "pp": 2,
-         "n": 4,
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 6,
          "both": 1,
          "either": 2
         },
         {
          "name": "Kiefer Sherwood",
          "jersey": 44,
-         "pp": null,
-         "n": 4,
+         "pp": 2,
+         "n": 3,
          "both": 0,
          "either": 1
         }
@@ -15548,80 +15549,13 @@
        ]
       },
       {
-       "name": "Tyler Toffoli",
-       "jersey": 73,
-       "team": "SJS",
-       "opp": "UTA",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 21,
-       "pt_games": 8,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 5,
-       "two_games": 3,
-       "home_split": [
-        2,
-        10
-       ],
-       "away_split": [
-        6,
-        11
-       ],
-       "pp_toi": 4.1,
-       "toi": 13.4,
-       "p": 0.361,
-       "fair": "+177",
-       "min": "+194",
-       "p2": 0.12,
-       "fair2": "+735",
-       "min2": "+785",
-       "adj": [
-        [
-         "opp",
-         1.0464516129032257
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Alexander Wennberg",
-         "jersey": 21,
-         "pp": 1,
-         "n": 4,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Kiefer Sherwood",
-         "jersey": 44,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
        "name": "Kiefer Sherwood",
        "jersey": 44,
        "team": "SJS",
        "opp": "UTA",
        "home": false,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "pos": "RW",
        "gtd": false,
        "role": "other",
@@ -15659,25 +15593,25 @@
        ],
        "move": {
         "ev": -1,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
         {
          "name": "Tyler Toffoli",
          "jersey": 73,
-         "pp": 2,
+         "pp": 1,
          "n": 3,
          "both": 0,
          "either": 1
         },
         {
-         "name": "Alexander Wennberg",
-         "jersey": 21,
-         "pp": 1,
-         "n": 4,
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -15743,6 +15677,73 @@
          "jersey": 51,
          "pp": null,
          "n": 2,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Ty Dellandrea",
+       "jersey": 10,
+       "team": "SJS",
+       "opp": "UTA",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 13,
+       "pt_games": 2,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        5
+       ],
+       "away_split": [
+        1,
+        8
+       ],
+       "pp_toi": 0.0,
+       "toi": 11.3,
+       "p": 0.199,
+       "fair": "+402",
+       "min": "+432",
+       "p2": 0.016,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0464516129032257
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Tyler Toffoli",
+         "jersey": 73,
+         "pp": 1,
+         "n": 6,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Kiefer Sherwood",
+         "jersey": 44,
+         "pp": 2,
+         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -15840,7 +15841,7 @@
      "ppga_rk": 5,
      "l5_gf": 2.4,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-14T12:45:08.177619+00:00",
+     "lineup_as_of": "2026-11-14T23:04:57.724063+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -15861,12 +15862,12 @@
       {
        "player": "Logan Cooley",
        "status": "DTD",
-       "news": "Cooley (upper-body) will remain out vs. St. Louis and is considered day-to-day."
+       "news": "Cooley (upper-body) remains day-to-day and will not play on Saturday."
       },
       {
        "player": "Nick Schmaltz",
        "status": "DTD",
-       "news": "Schmaltz (lower-body) will not play Thursday and is considered day-to-day."
+       "news": "Schmaltz (lower-body) will not play on Saturday and is still being evaluated."
       }
      ],
      "lines": {
