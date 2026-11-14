@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-14T17:41:49.022939+00:00",
+ "generated_utc": "2026-11-14T20:18:58.591318+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1045,7 +1045,7 @@
    "id": "01",
    "game_id": 2026020321,
    "start_utc": "2026-11-14T18:00:00Z",
-   "status": "FUT",
+   "status": "LIVE",
    "venue": "Veikkaus Arena",
    "away": {
     "abbr": "SEA",
@@ -1056,11 +1056,11 @@
     "record": "9-7-1",
     "b2b": false,
     "goalie": "Joey Daccord",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.881",
-    "gaa": "3.83",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Daccord led the Kraken onto the ice for warmups.",
+    "goalie_source": "Ryan Henkel",
+    "sv": "0.878",
+    "gaa": "3.91",
     "lineup_as_of": "2026-11-14T12:45:07.916035+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
@@ -1104,11 +1104,11 @@
     "record": "15-3-2",
     "b2b": false,
     "goalie": "Pyotr Kochetkov",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.92",
-    "gaa": "1.67",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Kochetkov led the Hurricanes onto the ice for warmups.",
+    "goalie_source": "Ryan Henkel",
+    "sv": "0.921",
+    "gaa": "1.62",
     "lineup_as_of": "2026-11-14T12:45:06.874686+00:00",
     "lineup_stale": false,
     "ga_rk": 31,
@@ -1145,8 +1145,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+140",
-     "home": "-166",
+     "away": "+130",
+     "home": "-155",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:06.874686+00:00"
     },
@@ -4624,7 +4624,7 @@
    "id": "02",
    "game_id": 2026020312,
    "start_utc": "2026-11-14T20:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "United Center",
    "away": {
     "abbr": "WPG",
@@ -4635,9 +4635,9 @@
     "record": "9-8-3",
     "b2b": false,
     "goalie": "Stuart Skinner",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Skinner led the Jets onto the ice for warmups.",
+    "goalie_source": "Jack Bushman",
     "sv": "0.885",
     "gaa": "3.24",
     "lineup_as_of": "2026-11-14T12:45:08.299625+00:00",
@@ -4683,12 +4683,12 @@
     "record": "5-13-1",
     "b2b": false,
     "goalie": "Spencer Knight",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Knight led the Blackhawks onto the ice for warmups.",
+    "goalie_source": "Jack Bushman",
     "sv": "0.883",
     "gaa": "3.53",
-    "lineup_as_of": "2026-11-14T12:45:07.055460+00:00",
+    "lineup_as_of": "2026-11-14T20:18:56.723627+00:00",
     "lineup_stale": false,
     "ga_rk": 2,
     "gf_rk": 32,
@@ -4727,7 +4727,7 @@
      "away": "+154",
      "home": "-185",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-14T12:45:07.055460+00:00"
+     "as_of": "2026-11-14T20:18:56.723627+00:00"
     },
     "total": {
      "line": 6.5,
@@ -6666,10 +6666,10 @@
     },
     "home": {
      "team": "CHI",
-     "as_of": "2026-11-14T12:45:07.055460+00:00",
+     "as_of": "2026-11-14T20:18:56.723627+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-12)",
-     "updated_dfo": "2026-11-13T14:38:41.813Z",
+     "source": "Scott Powers",
+     "updated_dfo": "2026-11-14T20:11:02.477Z",
      "forwards": [
       [
        {
@@ -6789,41 +6789,41 @@
       ],
       [
        {
-        "name": "Andrew Mangiapane",
-        "jersey": 26,
+        "name": "Teuvo Teravainen",
+        "jersey": 86,
         "pos": "LW",
         "slot": null,
-        "player_id": 8478233,
-        "dfo_id": 4622,
+        "player_id": 8476882,
+        "dfo_id": 2128,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": null,
+        "pp": 2,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 2,
-         "g": 0,
-         "gp": 6,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 3752
+         "a": 4,
+         "g": 2,
+         "gp": 15,
+         "p": 6,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 13264
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3429
+         "sog": 1,
+         "toi_s": 4218
         },
-        "l5_point_games": 2,
-        "gp": 6,
+        "l5_point_games": 0,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -6873,7 +6873,7 @@
         "dfo_id": 4635,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": "A",
         "season": {
@@ -6898,7 +6898,7 @@
         "gp": 19,
         "move": {
          "ev": 1,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -7097,39 +7097,39 @@
         }
        },
        {
-        "name": "Jordan Greenway",
-        "jersey": 12,
+        "name": "Andrew Mangiapane",
+        "jersey": 26,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478413,
-        "dfo_id": 4644,
+        "player_id": 8478233,
+        "dfo_id": 4622,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 17,
-         "p": 1,
+         "a": 2,
+         "g": 0,
+         "gp": 6,
+         "p": 2,
          "ppp": 0,
-         "sog": 20,
-         "toi_s": 13346
+         "sog": 6,
+         "toi_s": 3752
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3674
+         "sog": 5,
+         "toi_s": 3429
         },
-        "l5_point_games": 0,
-        "gp": 17,
+        "l5_point_games": 2,
+        "gp": 6,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -7137,84 +7137,6 @@
       ]
      ],
      "defense": [
-      [
-       {
-        "name": "Ian Cole",
-        "jersey": 28,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8474013,
-        "dfo_id": 1313,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 19,
-         "p": 0,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 21165
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5743
-        },
-        "l5_point_games": 0,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Artyom Levshunov",
-        "jersey": 55,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8484783,
-        "dfo_id": 38138,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 19,
-         "p": 3,
-         "ppp": 0,
-         "sog": 25,
-         "toi_s": 23539
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 6233
-        },
-        "l5_point_games": 0,
-        "gp": 19,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
       [
        {
         "name": "Alex Vlasic",
@@ -7249,7 +7171,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -7288,6 +7210,84 @@
         "gp": 18,
         "move": {
          "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Ian Cole",
+        "jersey": 28,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8474013,
+        "dfo_id": 1313,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 19,
+         "p": 0,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 21165
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5743
+        },
+        "l5_point_games": 0,
+        "gp": 19,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Artyom Levshunov",
+        "jersey": 55,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8484783,
+        "dfo_id": 38138,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 1,
+         "gp": 19,
+         "p": 3,
+         "ppp": 0,
+         "sog": 25,
+         "toi_s": 23539
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 6233
+        },
+        "l5_point_games": 0,
+        "gp": 19,
+        "move": {
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -7731,41 +7731,41 @@
         }
        },
        {
-        "name": "Ryan Donato",
-        "jersey": 8,
+        "name": "Teuvo Teravainen",
+        "jersey": 86,
         "pos": null,
         "slot": 3,
-        "player_id": 8477987,
-        "dfo_id": 4635,
+        "player_id": 8476882,
+        "dfo_id": 2128,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": "A",
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 3,
-         "gp": 19,
+         "a": 4,
+         "g": 2,
+         "gp": 15,
          "p": 6,
-         "ppp": 0,
-         "sog": 21,
-         "toi_s": 13970
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 13264
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3951
+         "sog": 1,
+         "toi_s": 4218
         },
-        "l5_point_games": 2,
-        "gp": 19,
+        "l5_point_games": 0,
+        "gp": 15,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -7839,7 +7839,7 @@
         "l5_point_games": 0,
         "gp": 19,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -7957,7 +7957,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -7995,7 +7995,7 @@
         "l5_point_games": 0,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -8041,25 +8041,25 @@
         }
        },
        {
-        "name": "Jordan Greenway",
-        "jersey": 12,
+        "name": "Teuvo Teravainen",
+        "jersey": 86,
         "pos": null,
         "slot": 2,
-        "player_id": 8478413,
-        "dfo_id": 4644,
+        "player_id": 8476882,
+        "dfo_id": 2128,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 17,
-         "p": 1,
-         "ppp": 0,
-         "sog": 20,
-         "toi_s": 13346
+         "a": 4,
+         "g": 2,
+         "gp": 15,
+         "p": 6,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 13264
         },
         "last5": {
          "a": 0,
@@ -8067,15 +8067,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3674
+         "sog": 1,
+         "toi_s": 4218
         },
         "l5_point_games": 0,
-        "gp": 17,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -8149,7 +8149,7 @@
         "l5_point_games": 0,
         "gp": 19,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8160,17 +8160,17 @@
       {
        "player": "Bowen Byram",
        "status": "IR",
-       "news": "Byram (upper-body) is practicing in a non-contact jersey on Wednesday."
+       "news": "Byram (upper-body) remains day-to-day and will not play on Saturday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 24,
-       "rating": 73.20062632226701
+       "rank": 33,
+       "rating": 0
       },
       "d2": {
-       "rank": 37,
-       "rating": 0
+       "rank": 24,
+       "rating": 73.20062632226701
       },
       "d3": {
        "rank": 27,
@@ -8181,20 +8181,20 @@
        "rating": 0
       },
       "f1": {
-       "rank": 25,
+       "rank": 24,
        "rating": 74.62991715151881
       },
       "f2": {
-       "rank": 24,
-       "rating": 73.14944971730917
+       "rank": 13,
+       "rating": 74.65366841176436
       },
       "f3": {
        "rank": 1,
        "rating": 80.0821788843248
       },
       "f4": {
-       "rank": 26,
-       "rating": 71.2452765422756
+       "rank": 6,
+       "rating": 74.23364811329562
       },
       "g": {
        "rank": 29,
@@ -8235,9 +8235,9 @@
     "record": "14-3-4",
     "b2b": false,
     "goalie": "Jesper Wallstedt",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Wallstedt will start Saturday in Boston.",
+    "goalie_source": "Michael Russo",
     "sv": "0.925",
     "gaa": "1.94",
     "lineup_as_of": "2026-11-14T12:45:07.494323+00:00",
@@ -8283,9 +8283,9 @@
     "record": "13-5-1",
     "b2b": false,
     "goalie": "Jeremy Swayman",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Swayman will start Saturday vs. the Wild.",
+    "goalie_source": "Jack Studley",
     "sv": "0.913",
     "gaa": "2.42",
     "lineup_as_of": "2026-11-14T12:45:06.706898+00:00",
@@ -8324,8 +8324,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+205",
-     "home": "-250",
+     "away": "+200",
+     "home": "-245",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:06.706898+00:00"
     },
@@ -11877,12 +11877,12 @@
     "color2": "#FFFFFF",
     "record": "8-11-2",
     "b2b": false,
-    "goalie": "Sergei Bobrovsky",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.881",
-    "gaa": "3.47",
+    "goalie": "Anthony Stolarz",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Stolarz will start Saturday vs. the Oilers.",
+    "goalie_source": "Arun Srinivasan",
+    "sv": "0.9",
+    "gaa": "2.89",
     "lineup_as_of": "2026-11-14T12:45:08.123757+00:00",
     "lineup_stale": false,
     "ga_rk": 7,
@@ -15460,9 +15460,9 @@
     "record": "11-6-3",
     "b2b": false,
     "goalie": "Mackenzie Blackwood",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Blackwood will start Saturday in Montreal.",
+    "goalie_source": "Corey Masisak",
     "sv": "0.901",
     "gaa": "2.63",
     "lineup_as_of": "2026-11-14T12:45:07.118904+00:00",
@@ -15507,12 +15507,12 @@
     "color2": "#192168",
     "record": "12-3-4",
     "b2b": false,
-    "goalie": "Jacob Fowler",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.924",
-    "gaa": "2.26",
+    "goalie": "Jakub Dobes",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Dobes will start Saturday vs. the Avalanche.",
+    "goalie_source": "Patrick Friolet",
+    "sv": "0.847",
+    "gaa": "4.04",
     "lineup_as_of": "2026-11-14T12:45:07.567160+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
@@ -15549,8 +15549,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-245",
-     "home": "+200",
+     "away": "-225",
+     "home": "+185",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:07.567160+00:00"
     },
@@ -19086,9 +19086,9 @@
     "record": "13-4-2",
     "b2b": false,
     "goalie": "Andrei Vasilevskiy",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Likely",
+    "goalie_news": "Vasilevskiy was the first goalie off the ice at the Lightning's morning skate.",
+    "goalie_source": "Benjamin Pierce",
     "sv": "0.885",
     "gaa": "2.85",
     "lineup_as_of": "2026-11-14T12:45:08.074791+00:00",
@@ -22578,9 +22578,9 @@
     "record": "12-6-2",
     "b2b": false,
     "goalie": "Linus Ullmark",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Ullmark will start Saturday in Pittsburgh.",
+    "goalie_source": "Jackson Starr",
     "sv": "0.938",
     "gaa": "1.52",
     "lineup_as_of": "2026-11-14T12:45:07.757800+00:00",
@@ -22626,9 +22626,9 @@
     "record": "7-10-2",
     "b2b": false,
     "goalie": "Sergei Murashov",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Murashov will start Saturday vs. the Senators.",
+    "goalie_source": "Dan Potash",
     "sv": "0.889",
     "gaa": "3.26",
     "lineup_as_of": "2026-11-14T12:45:07.856612+00:00",
@@ -22667,8 +22667,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+195",
-     "home": "-238",
+     "away": "+185",
+     "home": "-225",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:07.856612+00:00"
     },
@@ -26203,12 +26203,12 @@
     "color2": "#C8102E",
     "record": "10-7-0",
     "b2b": false,
-    "goalie": "Logan Thompson",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.889",
-    "gaa": "3.17",
+    "goalie": "Charlie Lindgren",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Lindgren will start Saturday vs. the Devils.",
+    "goalie_source": "Sammi Silber",
+    "sv": "0.882",
+    "gaa": "3.07",
     "lineup_as_of": "2026-11-14T12:45:08.366968+00:00",
     "lineup_stale": false,
     "ga_rk": 11,
@@ -26245,8 +26245,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+205",
-     "home": "-250",
+     "away": "+190",
+     "home": "-230",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:08.366968+00:00"
     },
@@ -29729,9 +29729,9 @@
     "record": "5-10-6",
     "b2b": false,
     "goalie": "Joseph Woll",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Woll will start Saturday in Columbus.",
+    "goalie_source": "Mark Scheig",
     "sv": "0.902",
     "gaa": "2.9",
     "lineup_as_of": "2026-11-14T12:45:07.805549+00:00",
@@ -29776,12 +29776,12 @@
     "color2": "#CE1126",
     "record": "7-10-0",
     "b2b": false,
-    "goalie": "Cam Talbot",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.909",
-    "gaa": "2.5",
+    "goalie": "Jet Greaves",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Greaves will start Saturday vs. the Flyers.",
+    "goalie_source": "Aaron Portzline",
+    "sv": "0.88",
+    "gaa": "3.34",
     "lineup_as_of": "2026-11-14T12:45:06.935756+00:00",
     "lineup_stale": false,
     "ga_rk": 15,
@@ -29818,8 +29818,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-218",
-     "home": "+180",
+     "away": "-230",
+     "home": "+190",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:06.935756+00:00"
     },
@@ -33319,9 +33319,9 @@
     "record": "11-7-2",
     "b2b": false,
     "goalie": "Jacob Markstrom",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Markstrom will start Saturday in St. Louis.",
+    "goalie_source": "@FlaPanthers",
     "sv": "0.901",
     "gaa": "2.55",
     "lineup_as_of": "2026-11-14T12:45:07.381435+00:00",
@@ -33366,12 +33366,12 @@
     "color2": "#FCB514",
     "record": "9-8-2",
     "b2b": false,
-    "goalie": "Jordan Binnington",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.851",
-    "gaa": "4.26",
+    "goalie": "Joel Hofer",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Hofer will start Saturday vs. the Panthers.",
+    "goalie_source": "Jeremy Rutherford",
+    "sv": "0.926",
+    "gaa": "2.15",
     "lineup_as_of": "2026-11-14T12:45:08.022804+00:00",
     "lineup_stale": false,
     "ga_rk": 22,
@@ -33408,8 +33408,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+225",
-     "home": "-278",
+     "away": "-285",
+     "home": "+230",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:08.022804+00:00"
     },
@@ -36919,9 +36919,9 @@
     "record": "8-7-4",
     "b2b": false,
     "goalie": "Alex Lyon",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Lyon will start Saturday in Dallas.",
+    "goalie_source": "Paul Hamilton",
     "sv": "0.88",
     "gaa": "2.86",
     "lineup_as_of": "2026-11-14T12:45:06.815287+00:00",
@@ -36967,9 +36967,9 @@
     "record": "10-6-2",
     "b2b": false,
     "goalie": "Jake Oettinger",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Oettinger will start Saturday vs. the Sabres.",
+    "goalie_source": "Brien Rea",
     "sv": "0.895",
     "gaa": "2.32",
     "lineup_as_of": "2026-11-14T12:45:07.189649+00:00",
@@ -40529,9 +40529,9 @@
     "record": "8-11-2",
     "b2b": false,
     "goalie": "Yaroslav Askarov",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Askarov will start Saturday in Utah.",
+    "goalie_source": "Sheng Peng",
     "sv": "0.894",
     "gaa": "3.12",
     "lineup_as_of": "2026-11-14T12:45:07.967256+00:00",
@@ -40577,9 +40577,9 @@
     "record": "10-8-2",
     "b2b": false,
     "goalie": "Karel Vejmelka",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Likely",
+    "goalie_news": "Vejmelka was the first goalie off the ice at the Mammoth morning skate.",
+    "goalie_source": "Brogan Houston",
     "sv": "0.875",
     "gaa": "3.02",
     "lineup_as_of": "2026-11-14T12:45:08.177619+00:00",
@@ -40618,8 +40618,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-142",
-     "home": "+120",
+     "away": "-155",
+     "home": "+130",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:08.177619+00:00"
     },
@@ -44129,12 +44129,12 @@
     "color2": "#F47D30",
     "record": "8-6-4",
     "b2b": false,
-    "goalie": "Ilya Sorokin",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.915",
-    "gaa": "2.53",
+    "goalie": "Semyon Varlamov",
+    "goalie_status": "Likely",
+    "goalie_news": "Varlamov will likely start Saturday in Anaheim.",
+    "goalie_source": "Andrew Gross",
+    "sv": "0.891",
+    "gaa": "2.72",
     "lineup_as_of": "2026-11-14T12:45:07.682643+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
@@ -44177,12 +44177,12 @@
     "color2": "#B9975B",
     "record": "10-8-1",
     "b2b": false,
-    "goalie": "Ville Husso",
+    "goalie": "Lukas Dostal",
     "goalie_status": "",
     "goalie_news": "",
     "goalie_source": "",
-    "sv": "0.869",
-    "gaa": "3.54",
+    "sv": "0.865",
+    "gaa": "3.75",
     "lineup_as_of": "2026-11-14T12:45:06.657751+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
@@ -44219,8 +44219,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-250",
-     "home": "+205",
+     "away": "+225",
+     "home": "-278",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:06.657751+00:00"
     },
@@ -47750,9 +47750,9 @@
     "record": "5-10-2",
     "b2b": false,
     "goalie": "Anton Forsberg",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Likely",
+    "goalie_news": "Forsberg was the first goalie off the ice at the Kings' morning skate.",
+    "goalie_source": "Zach Dooley",
     "sv": "0.907",
     "gaa": "2.44",
     "lineup_as_of": "2026-11-14T12:45:07.445106+00:00",
@@ -47791,8 +47791,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-170",
-     "home": "+142",
+     "away": "-180",
+     "home": "+150",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T12:45:07.445106+00:00"
     },
