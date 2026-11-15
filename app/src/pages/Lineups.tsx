@@ -3,6 +3,7 @@ import type { Board, Game, LineupPlayer, TeamLineup, TeamSide } from '../data/ty
 import { LOGO } from '../data/load'
 import { etStamp, etTime } from '../data/time'
 import { Sweater } from '../components/Sweater'
+import { Badge } from '../components/Badge'
 import { RankStrip } from '../components/RankStrip'
 
 function Tag({ p }: { p: LineupPlayer }) {
@@ -33,7 +34,7 @@ function PlayerCell({ p, team, size = 104, onPlayer }: { p: LineupPlayer; team: 
       onKeyDown={(e) => click && (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), click())}
       title={click ? 'Open player props' : s ? `${s.gp} GP · ${s.g}G ${s.a}A ${s.p}P · ${s.sog} SOG` : undefined}
     >
-      <Sweater name={p.name} number={p.jersey} color={team.color} color2={team.color2} size={size} dim={p.gtd} />
+      <Badge team={team.abbr} name={p.name} number={p.jersey} size={size} dim={p.gtd} fallback={<Sweater name={p.name} number={p.jersey} color={team.color} color2={team.color2} size={size} dim={p.gtd} />} />
       <div className="lu-name">
         {p.name} <span className="lu-pos">({p.pos ?? '–'})</span>
       </div>
@@ -48,7 +49,7 @@ function PlayerCell({ p, team, size = 104, onPlayer }: { p: LineupPlayer; team: 
 function Goalie({ p, team, label }: { p: LineupPlayer; team: TeamSide; label: string }) {
   return (
     <div className="lu-goalie">
-      <Sweater name={p.name} number={p.jersey} color={team.color} color2={team.color2} size={92} />
+      <Badge team={team.abbr} name={p.name} number={p.jersey} size={92} fallback={<Sweater name={p.name} number={p.jersey} color={team.color} color2={team.color2} size={92} />} />
       <div>
         <div className="lu-gname">
           <i className="lu-tag g-badge">G</i> {p.name}

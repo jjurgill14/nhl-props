@@ -132,3 +132,18 @@ describe('game state badge', () => {
     expect(gameState('LIVE', '2026-11-12T17:00:00Z', t0 + 3.5 * 3600_000).label).toBe('FINAL')
   })
 })
+
+import { fitName, surname } from '../components/Badge'
+describe('badge lettering', () => {
+  const widths = { A: 0.46, B: 0.47, C: 0.45, E: 0.44, H: 0.47, I: 0.18, K: 0.48, L: 0.43, M: 0.48, N: 0.48, O: 0.47, P: 0.45, R: 0.47, S: 0.46, T: 0.45, V: 0.46, Y: 0.46, Z: 0.46, '-': 0.3 }
+  it('takes the surname, uppercased, accents stripped', () => {
+    expect(surname('David Pastrňák')).toBe('PASTRNAK')
+    expect(surname('Ryan Nugent-Hopkins')).toBe('NUGENT-HOPKINS')
+  })
+  it('keeps short names at full size and shrinks long ones to fit the hem', () => {
+    expect(fitName('ZACHA', widths)).toBe(131.39)
+    const long = fitName('NUGENT-HOPKINS', widths)
+    expect(long).toBeLessThan(131.39)
+    expect(long).toBeGreaterThanOrEqual(40)
+  })
+})

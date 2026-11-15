@@ -44,6 +44,8 @@ def morning(date: str) -> None:
         from . import assets
         assets.logos()
         assets.headshots()
+        from . import badges
+        badges.build()
     except Exception as e:  # assets are nice-to-have, never block data
         log.error("assets failed: %s", e)
 

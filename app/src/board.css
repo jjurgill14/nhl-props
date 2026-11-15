@@ -417,3 +417,6 @@ button:disabled{cursor:default;opacity:.55}
 .psearch-list li{display:flex;justify-content:space-between;gap:12px;padding:9px 10px;border-radius:7px;cursor:pointer;font-size:13px}
 .psearch-list li span{color:#8aa5b5;font-size:11px;white-space:nowrap}.psearch-list li.hi,.psearch-list li:hover{background:#1b3340}
 .pr-search-slot{flex:1 1 100%;max-width:520px;margin-left:auto}
+
+/* ---- team badges (pucks) ---- */
+.badge svg { width: 100%; height: 100%; display: block; }
