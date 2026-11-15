@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-15T21:29:37.276822+00:00",
+ "generated_utc": "2026-11-15T21:44:41.460880+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1061,7 +1061,7 @@
     "goalie_source": "",
     "sv": "0.903",
     "gaa": "2.5",
-    "lineup_as_of": "2026-11-15T13:13:19.785893+00:00",
+    "lineup_as_of": "2026-11-15T21:44:39.672458+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 3,
@@ -1109,7 +1109,7 @@
     "goalie_source": "Bill Meltzer",
     "sv": "0.879",
     "gaa": "3.24",
-    "lineup_as_of": "2026-11-15T13:13:19.990963+00:00",
+    "lineup_as_of": "2026-11-15T21:44:39.751023+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
     "gf_rk": 31,
@@ -1148,7 +1148,7 @@
      "away": "+164",
      "home": "-198",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-15T13:13:19.990963+00:00"
+     "as_of": "2026-11-15T21:44:39.751023+00:00"
     },
     "total": {
      "line": 6.5,
@@ -1488,10 +1488,10 @@
    "lineup": {
     "away": {
      "team": "EDM",
-     "as_of": "2026-11-15T13:13:19.785893+00:00",
+     "as_of": "2026-11-15T21:44:39.672458+00:00",
      "stale": false,
-     "source": "Edmonton Oilers",
-     "updated_dfo": "2026-11-14T23:58:46.468Z",
+     "source": "Last Game (11-14-26)",
+     "updated_dfo": "2026-11-15T13:17:27.009Z",
      "forwards": [
       [
        {
@@ -1542,7 +1542,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 1,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 39,
@@ -1620,7 +1620,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
          "a": 5,
@@ -1774,7 +1774,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 2,
@@ -2408,7 +2408,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 1,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 39,
@@ -2562,7 +2562,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
          "a": 5,
@@ -2671,37 +2671,37 @@
      "pk": [
       [
        {
-        "name": "Connor McDavid",
-        "jersey": 97,
+        "name": "Jason Dickinson",
+        "jersey": 16,
         "pos": null,
         "slot": 1,
-        "player_id": 8478402,
-        "dfo_id": 2471,
+        "player_id": 8477450,
+        "dfo_id": 2160,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 39,
-         "g": 11,
-         "gp": 21,
-         "p": 50,
-         "ppp": 20,
-         "sog": 58,
-         "toi_s": 29842
+         "a": 2,
+         "g": 2,
+         "gp": 12,
+         "p": 4,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 9100
         },
         "last5": {
-         "a": 8,
-         "g": 2,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 10,
-         "ppp": 4,
-         "sog": 15,
-         "toi_s": 7261
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3947
         },
-        "l5_point_games": 5,
-        "gp": 21,
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -2825,37 +2825,37 @@
       ],
       [
        {
-        "name": "Jason Dickinson",
-        "jersey": 16,
+        "name": "Kasperi Kapanen",
+        "jersey": 42,
         "pos": null,
         "slot": 1,
-        "player_id": 8477450,
-        "dfo_id": 2160,
+        "player_id": 8477953,
+        "dfo_id": 2385,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 12,
-         "p": 4,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 9100
+         "a": 5,
+         "g": 5,
+         "gp": 21,
+         "p": 10,
+         "ppp": 7,
+         "sog": 29,
+         "toi_s": 22784
         },
         "last5": {
          "a": 0,
          "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 3947
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 5189
         },
         "l5_point_games": 1,
-        "gp": 12,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -3015,7 +3015,7 @@
        "rating": 72.51196628833281
       },
       "d3": {
-       "rank": 27,
+       "rank": 29,
        "rating": 0
       },
       "d4": {
@@ -3062,10 +3062,10 @@
     },
     "home": {
      "team": "PHI",
-     "as_of": "2026-11-15T13:13:19.990963+00:00",
+     "as_of": "2026-11-15T21:44:39.751023+00:00",
      "stale": false,
-     "source": "Jackie Spiegel",
-     "updated_dfo": "2026-11-14T23:44:49.279Z",
+     "source": "Last Game (11-14-26)",
+     "updated_dfo": "2026-11-15T13:16:27.583Z",
      "forwards": [
       [
        {
@@ -3269,7 +3269,7 @@
         "dfo_id": 2786,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": "A",
         "season": {
@@ -3294,7 +3294,7 @@
         "gp": 16,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -3543,7 +3543,7 @@
         "dfo_id": 2827,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
         "bias": "A",
         "season": {
@@ -3568,7 +3568,7 @@
         "gp": 22,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -3622,7 +3622,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 1,
@@ -3738,7 +3738,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 1,
@@ -4165,40 +4165,40 @@
         }
        },
        {
-        "name": "Owen Tippett",
-        "jersey": 74,
+        "name": "Travis Sanheim",
+        "jersey": 6,
         "pos": null,
         "slot": 4,
-        "player_id": 8480015,
-        "dfo_id": 2786,
+        "player_id": 8477948,
+        "dfo_id": 2827,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 16,
-         "p": 4,
-         "ppp": 2,
-         "sog": 35,
-         "toi_s": 14499
+         "a": 6,
+         "g": 3,
+         "gp": 22,
+         "p": 9,
+         "ppp": 1,
+         "sog": 39,
+         "toi_s": 32982
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 2,
          "gp": 5,
          "p": 2,
-         "ppp": 2,
-         "sog": 11,
-         "toi_s": 4070
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 7172
         },
         "l5_point_games": 2,
-        "gp": 16,
+        "gp": 22,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -4321,53 +4321,15 @@
         }
        },
        {
-        "name": "Cam York",
-        "jersey": 8,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8481546,
-        "dfo_id": 30422,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 14,
-         "p": 1,
-         "ppp": 0,
-         "sog": 15,
-         "toi_s": 16643
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5339
-        },
-        "l5_point_games": 0,
-        "gp": 14,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Travis Sanheim",
         "jersey": 6,
         "pos": null,
-        "slot": 4,
+        "slot": 3,
         "player_id": 8477948,
         "dfo_id": 2827,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
         "bias": "A",
         "season": {
@@ -4390,6 +4352,44 @@
         },
         "l5_point_games": 2,
         "gp": 22,
+        "move": {
+         "ev": 0,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
+        "name": "Rasmus Ristolainen",
+        "jersey": 55,
+        "pos": null,
+        "slot": 4,
+        "player_id": 8477499,
+        "dfo_id": 2140,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 1,
+         "g": 1,
+         "gp": 6,
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 6519
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 5459
+        },
+        "l5_point_games": 2,
+        "gp": 6,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -4513,12 +4513,12 @@
         }
        },
        {
-        "name": "Rasmus Ristolainen",
-        "jersey": 55,
+        "name": "Cam York",
+        "jersey": 8,
         "pos": null,
         "slot": 4,
-        "player_id": 8477499,
-        "dfo_id": 2140,
+        "player_id": 8481546,
+        "dfo_id": 30422,
         "gtd": false,
         "injury": null,
         "pp": null,
@@ -4526,24 +4526,24 @@
         "bias": null,
         "season": {
          "a": 1,
-         "g": 1,
-         "gp": 6,
-         "p": 2,
+         "g": 0,
+         "gp": 14,
+         "p": 1,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 6519
+         "sog": 15,
+         "toi_s": 16643
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 5459
+         "sog": 5,
+         "toi_s": 5339
         },
-        "l5_point_games": 2,
-        "gp": 6,
+        "l5_point_games": 0,
+        "gp": 14,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -4561,7 +4561,7 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 14,
+       "rank": 15,
        "rating": 74.82599179221971
       },
       "d2": {
@@ -4569,7 +4569,7 @@
        "rating": 0
       },
       "d3": {
-       "rank": 24,
+       "rank": 25,
        "rating": 70.90441453444679
       },
       "d4": {
