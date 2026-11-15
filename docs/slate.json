@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_utc": "2026-11-14T23:50:17.441841+00:00",
+ "generated_utc": "2026-11-15T00:05:23.428536+00:00",
  "games": [
   {
    "game_id": 2026020321,
@@ -2785,7 +2785,7 @@
      "ppga_rk": 20,
      "l5_gf": 3.6,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-14T21:04:11.098473+00:00",
+     "lineup_as_of": "2026-11-15T00:05:21.517473+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -6928,7 +6928,7 @@
      "goalie_source": "@DetroitRedWings",
      "sv": "0.924",
      "gaa": "1.97",
-     "ml": "-142",
+     "ml": "-148",
      "gp": 20,
      "gf": 2.65,
      "gf_rk": 27,
@@ -7612,7 +7612,7 @@
      "goalie_source": "Gabby Shirley",
      "sv": "0.885",
      "gaa": "2.85",
-     "ml": "120",
+     "ml": "124",
      "gp": 19,
      "gf": 3.8947368421052633,
      "gf_rk": 4,
@@ -16627,13 +16627,13 @@
      "ppga_rk": 26,
      "l5_gf": 2.8,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-14T12:45:07.682643+00:00",
+     "lineup_as_of": "2026-11-15T00:05:21.716316+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Mathew Barzal",
        "status": "IR",
-       "news": "Barzal (lower body) will travel on the upcoming road trip."
+       "news": "Barzal (knee) has been activated and is expected to make his season debut on Saturday."
       },
       {
        "player": "Alexander Romanov",
@@ -17315,7 +17315,7 @@
      "ppga_rk": 4,
      "l5_gf": 4.4,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-14T12:45:06.657751+00:00",
+     "lineup_as_of": "2026-11-15T00:05:20.683589+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -18701,18 +18701,23 @@
      "ppga_rk": 2,
      "l5_gf": 2.6,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-14T12:45:07.445106+00:00",
+     "lineup_as_of": "2026-11-15T00:05:21.427232+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Erik Gustafsson",
        "status": "DTD",
        "news": "Gustafsson (undisclosed) returned to practice on Friday."
+      },
+      {
+       "player": "Artemi Panarin",
+       "status": "DTD",
+       "news": "Panarin (personal) will not play Saturday vs. the Flames."
       }
      ],
      "lines": {
       "1": [
-       "Artemi Panarin",
+       "Alex Turcotte",
        "Alex Laferriere",
        "Adrian Kempe"
       ],
@@ -18733,14 +18738,14 @@
       ]
      },
      "pp1": [
-      "Artemi Panarin",
+      "Mats Zuccarello",
       "Quinton Byfield",
       "Alex Laferriere",
       "Adrian Kempe",
       "Kevin Fiala"
      ],
      "pp2": [
-      "Mats Zuccarello",
+      "Alex Turcotte",
       "Erik Haula",
       "Corey Perry",
       "Brandt Clarke",
@@ -18807,77 +18812,10 @@
         {
          "name": "Mats Zuccarello",
          "jersey": 36,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
          "both": 0,
          "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Artemi Panarin",
-       "jersey": 10,
-       "team": "LAK",
-       "opp": "CGY",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 17,
-       "pt_games": 10,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 7,
-       "goal_games": 7,
-       "two_games": 6,
-       "home_split": [
-        4,
-        9
-       ],
-       "away_split": [
-        6,
-        8
-       ],
-       "pp_toi": 4.1,
-       "toi": 20.6,
-       "p": 0.617,
-       "fair": "-161",
-       "min": "-139",
-       "p2": 0.328,
-       "fair2": "+205",
-       "min2": "+224",
-       "adj": [
-        [
-         "opp",
-         1.0774193548387097
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Alex Laferriere",
-         "jersey": 14,
-         "pp": 1,
-         "n": 12,
-         "both": 5,
-         "either": 8
-        },
-        {
-         "name": "Adrian Kempe",
-         "jersey": 9,
-         "pp": 1,
-         "n": 16,
-         "both": 6,
-         "either": 12
         }
        ]
       },
@@ -18931,12 +18869,12 @@
        },
        "partners": [
         {
-         "name": "Artemi Panarin",
-         "jersey": 10,
-         "pp": 1,
-         "n": 16,
-         "both": 6,
-         "either": 12
+         "name": "Alex Turcotte",
+         "jersey": 15,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Alex Laferriere",
@@ -18998,12 +18936,12 @@
        },
        "partners": [
         {
-         "name": "Artemi Panarin",
-         "jersey": 10,
-         "pp": 1,
-         "n": 12,
-         "both": 5,
-         "either": 8
+         "name": "Alex Turcotte",
+         "jersey": 15,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 1
         },
         {
          "name": "Adrian Kempe",
@@ -19075,7 +19013,7 @@
         {
          "name": "Mats Zuccarello",
          "jersey": 36,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
          "both": 0,
          "either": 1
@@ -19146,6 +19084,73 @@
          "n": 7,
          "both": 1,
          "either": 4
+        }
+       ]
+      },
+      {
+       "name": "Mats Zuccarello",
+       "jersey": 36,
+       "team": "LAK",
+       "opp": "CGY",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "pos": "RW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 8,
+       "pt_games": 1,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        3
+       ],
+       "away_split": [
+        1,
+        5
+       ],
+       "pp_toi": 1.5,
+       "toi": 13.6,
+       "p": 0.358,
+       "fair": "+179",
+       "min": "+196",
+       "p2": 0.108,
+       "fair2": "+828",
+       "min2": "+884",
+       "adj": [
+        [
+         "opp",
+         1.0774193548387097
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Kevin Fiala",
+         "jersey": 22,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Quinton Byfield",
+         "jersey": 55,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -19284,42 +19289,42 @@
        ]
       },
       {
-       "name": "Mats Zuccarello",
-       "jersey": 36,
+       "name": "Alex Turcotte",
+       "jersey": 15,
        "team": "LAK",
        "opp": "CGY",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 2,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": null,
-       "gp": 8,
+       "gp": 4,
        "pt_games": 1,
        "l5": [
-        0,
-        5
+        1,
+        4
        ],
        "ast_games": 1,
        "goal_games": 0,
        "two_games": 0,
        "home_split": [
         0,
-        3
+        2
        ],
        "away_split": [
         1,
-        5
+        2
        ],
-       "pp_toi": 1.5,
-       "toi": 13.6,
-       "p": 0.251,
-       "fair": "+299",
-       "min": "+323",
-       "p2": 0.043,
-       "fair2": "+2220",
-       "min2": "+2360",
+       "pp_toi": 1.2,
+       "toi": 13.3,
+       "p": 0.334,
+       "fair": "+199",
+       "min": "+217",
+       "p2": 0.057,
+       "fair2": "+1640",
+       "min2": "+1745",
        "adj": [
         [
          "opp",
@@ -19329,24 +19334,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Kevin Fiala",
-         "jersey": 22,
+         "name": "Alex Laferriere",
+         "jersey": 14,
          "pp": 1,
-         "n": 1,
-         "both": 0,
+         "n": 2,
+         "both": 1,
          "either": 1
         },
         {
-         "name": "Quinton Byfield",
-         "jersey": 55,
+         "name": "Adrian Kempe",
+         "jersey": 9,
          "pp": 1,
-         "n": 1,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       }

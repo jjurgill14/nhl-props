@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-14T23:50:18.116197+00:00",
+ "generated_utc": "2026-11-15T00:05:24.058589+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -8240,7 +8240,7 @@
     "goalie_source": "Michael Russo",
     "sv": "0.925",
     "gaa": "1.94",
-    "lineup_as_of": "2026-11-14T21:04:11.098473+00:00",
+    "lineup_as_of": "2026-11-15T00:05:21.517473+00:00",
     "lineup_stale": false,
     "ga_rk": 32,
     "gf_rk": 11,
@@ -8697,10 +8697,10 @@
    "lineup": {
     "away": {
      "team": "MIN",
-     "as_of": "2026-11-14T21:04:11.098473+00:00",
+     "as_of": "2026-11-15T00:05:21.517473+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-12)",
-     "updated_dfo": "2026-11-14T17:03:30.326Z",
+     "source": "Anthony LaPanta",
+     "updated_dfo": "2026-11-14T23:46:08.706Z",
      "forwards": [
       [
        {
@@ -9208,6 +9208,84 @@
         }
        },
        {
+        "name": "Jared Spurgeon",
+        "jersey": 46,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8474716,
+        "dfo_id": 1557,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 4,
+         "g": 1,
+         "gp": 12,
+         "p": 5,
+         "ppp": 1,
+         "sog": 16,
+         "toi_s": 14573
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5364
+        },
+        "l5_point_games": 0,
+        "gp": 12,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Jonas Brodin",
+        "jersey": 25,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8476463,
+        "dfo_id": 1740,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 7,
+         "g": 0,
+         "gp": 21,
+         "p": 7,
+         "ppp": 0,
+         "sog": 22,
+         "toi_s": 28515
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 7450
+        },
+        "l5_point_games": 2,
+        "gp": 21,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Brock Faber",
         "jersey": 7,
         "pos": "RD",
@@ -9243,84 +9321,6 @@
          "ev": 0,
          "pp": 0,
          "new": true
-        }
-       }
-      ],
-      [
-       {
-        "name": "Jared Spurgeon",
-        "jersey": 46,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8474716,
-        "dfo_id": 1557,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": "A",
-        "season": {
-         "a": 4,
-         "g": 1,
-         "gp": 12,
-         "p": 5,
-         "ppp": 1,
-         "sog": 16,
-         "toi_s": 14573
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5364
-        },
-        "l5_point_games": 0,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Jonas Brodin",
-        "jersey": 25,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8476463,
-        "dfo_id": 1740,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 7,
-         "g": 0,
-         "gp": 21,
-         "p": 7,
-         "ppp": 0,
-         "sog": 22,
-         "toi_s": 28515
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 7450
-        },
-        "l5_point_games": 2,
-        "gp": 21,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
         }
        }
       ],
@@ -10142,7 +10142,7 @@
         "l5_point_games": 0,
         "gp": 12,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -10197,11 +10197,11 @@
      "unit_ratings": {
       "d1": {
        "rank": 14,
-       "rating": 75.21036526730352
+       "rating": 75.66983706046227
       },
       "d2": {
-       "rank": 10,
-       "rating": 74.8906446403745
+       "rank": 17,
+       "rating": 73.65198042712801
       },
       "d3": {
        "rank": 20,
@@ -10220,7 +10220,7 @@
        "rating": 70.47323920959235
       },
       "f3": {
-       "rank": 21,
+       "rank": 22,
        "rating": 72.09561466905461
       },
       "f4": {
@@ -19133,8 +19133,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-142",
-     "home": "+120",
+     "away": "-148",
+     "home": "+124",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-14T23:50:16.066453+00:00"
     },
@@ -44130,7 +44130,7 @@
     "goalie_source": "Andrew Gross",
     "sv": "0.891",
     "gaa": "2.72",
-    "lineup_as_of": "2026-11-14T12:45:07.682643+00:00",
+    "lineup_as_of": "2026-11-15T00:05:21.716316+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 21,
@@ -44178,7 +44178,7 @@
     "goalie_source": "",
     "sv": "0.865",
     "gaa": "3.75",
-    "lineup_as_of": "2026-11-14T12:45:06.657751+00:00",
+    "lineup_as_of": "2026-11-15T00:05:20.683589+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 5,
@@ -44217,7 +44217,7 @@
      "away": "+225",
      "home": "-278",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-14T12:45:06.657751+00:00"
+     "as_of": "2026-11-15T00:05:20.683589+00:00"
     },
     "total": {
      "line": 6.5,
@@ -44587,7 +44587,7 @@
    "lineup": {
     "away": {
      "team": "NYI",
-     "as_of": "2026-11-14T12:45:07.682643+00:00",
+     "as_of": "2026-11-15T00:05:21.716316+00:00",
      "stale": false,
      "source": "Last Game (2026-11-12)",
      "updated_dfo": "2026-11-13T14:47:44.852Z",
@@ -46043,7 +46043,7 @@
       {
        "player": "Mathew Barzal",
        "status": "IR",
-       "news": "Barzal (lower body) will travel on the upcoming road trip."
+       "news": "Barzal (knee) has been activated and is expected to make his season debut on Saturday."
       },
       {
        "player": "Alexander Romanov",
@@ -46063,11 +46063,11 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 34,
+       "rank": 33,
        "rating": 0
       },
       "d2": {
-       "rank": 12,
+       "rank": 11,
        "rating": 73.9733022125617
       },
       "d3": {
@@ -46079,19 +46079,19 @@
        "rating": 0
       },
       "f1": {
-       "rank": 27,
+       "rank": 26,
        "rating": 74.56465790521624
       },
       "f2": {
-       "rank": 6,
+       "rank": 8,
        "rating": 76.62900944860871
       },
       "f3": {
-       "rank": 18,
+       "rank": 19,
        "rating": 72.29002322904698
       },
       "f4": {
-       "rank": 35,
+       "rank": 34,
        "rating": 0
       },
       "g": {
@@ -46118,7 +46118,7 @@
     },
     "home": {
      "team": "ANA",
-     "as_of": "2026-11-14T12:45:06.657751+00:00",
+     "as_of": "2026-11-15T00:05:20.683589+00:00",
      "stale": false,
      "source": "Patrick Present",
      "updated_dfo": "2026-11-13T19:25:33.579Z",
@@ -46827,53 +46827,10 @@
      "goalies": [
       [
        {
-        "name": "Ville Husso",
-        "jersey": 33,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8478024,
-        "dfo_id": 3837,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 6,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "2-3-0",
-        "sv_pct": "0.869",
-        "starts": 4
-       }
-      ],
-      [
-       {
         "name": "Lukas Dostal",
         "jersey": 1,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8480843,
         "dfo_id": 29143,
         "gtd": false,
@@ -46909,6 +46866,49 @@
         "record": "4-4-1",
         "sv_pct": "0.865",
         "starts": 10
+       }
+      ],
+      [
+       {
+        "name": "Ville Husso",
+        "jersey": 33,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8478024,
+        "dfo_id": 3837,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 6,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "2-3-0",
+        "sv_pct": "0.869",
+        "starts": 4
        }
       ]
      ],
@@ -47627,11 +47627,11 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 34,
+       "rank": 33,
        "rating": 0
       },
       "d2": {
-       "rank": 37,
+       "rank": 38,
        "rating": 0
       },
       "d3": {
@@ -47647,15 +47647,15 @@
        "rating": 70.9953877684216
       },
       "f2": {
-       "rank": 30,
+       "rank": 29,
        "rating": 72.51395960454711
       },
       "f3": {
-       "rank": 6,
+       "rank": 5,
        "rating": 74.743977877946
       },
       "f4": {
-       "rank": 15,
+       "rank": 17,
        "rating": 72.42018116594211
       },
       "g": {
@@ -47750,7 +47750,7 @@
     "goalie_source": "Zach Dooley",
     "sv": "0.907",
     "gaa": "2.44",
-    "lineup_as_of": "2026-11-14T12:45:07.445106+00:00",
+    "lineup_as_of": "2026-11-15T00:05:21.427232+00:00",
     "lineup_stale": false,
     "ga_rk": 5,
     "gf_rk": 25,
@@ -47789,7 +47789,7 @@
      "away": "-180",
      "home": "+150",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-14T12:45:07.445106+00:00"
+     "as_of": "2026-11-15T00:05:21.427232+00:00"
     },
     "total": {
      "line": 5.5,
@@ -47865,21 +47865,6 @@
       ]
      },
      {
-      "selection": "Artemi Panarin \u00b7 1+ point",
-      "prob": 0.617,
-      "fair": "-161",
-      "need": "-139",
-      "rationale": "Point in 10 of 17 this season, 3 of last 5 \u00b7 PP1, 4.1 PP min/game over L5",
-      "player": "Artemi Panarin",
-      "team": "LAK",
-      "pp": 1,
-      "line": 1,
-      "bias": "A",
-      "players": [
-       8478550
-      ]
-     },
-     {
       "selection": "Adrian Kempe \u00b7 1+ point",
       "prob": 0.553,
       "fair": "-124",
@@ -47923,6 +47908,21 @@
       "players": [
        8482155
       ]
+     },
+     {
+      "selection": "Matt Coronato \u00b7 1+ point",
+      "prob": 0.497,
+      "fair": "+101",
+      "need": "+113",
+      "rationale": "Point in 9 of 19 this season, 1 of last 5 \u00b7 PP1, 2.5 PP min/game over L5",
+      "player": "Matt Coronato",
+      "team": "CGY",
+      "pp": 1,
+      "line": 1,
+      "bias": "A",
+      "players": [
+       8482679
+      ]
      }
     ],
     "pair": [
@@ -47959,38 +47959,6 @@
       ]
      },
      {
-      "selection": "Panarin + Laferriere \u00b7 both 1+ point",
-      "prob": 0.387,
-      "fair": "+158",
-      "need": "+174",
-      "rationale": "Both scored 5 of 12 games together \u00b7 independent 33% \u00b7 correlated",
-      "team": "LAK",
-      "line": 1,
-      "read": "correlated",
-      "both": 5,
-      "n": 12,
-      "players": [
-       8478550,
-       8482155
-      ]
-     },
-     {
-      "selection": "Panarin + Kempe \u00b7 both 1+ point",
-      "prob": 0.366,
-      "fair": "+173",
-      "need": "+190",
-      "rationale": "Both scored 6 of 16 games together \u00b7 independent 34% \u00b7 independent",
-      "team": "LAK",
-      "line": 1,
-      "read": "independent",
-      "both": 6,
-      "n": 16,
-      "players": [
-       8478550,
-       8477960
-      ]
-     },
-     {
       "selection": "Fiala + Byfield \u00b7 both 1+ point",
       "prob": 0.356,
       "fair": "+181",
@@ -48005,23 +47973,41 @@
        8477942,
        8482124
       ]
+     },
+     {
+      "selection": "Farabee + Backlund \u00b7 both 1+ point",
+      "prob": 0.282,
+      "fair": "+255",
+      "need": "+276",
+      "rationale": "Both scored 5 of 17 games together \u00b7 independent 25% \u00b7 correlated",
+      "team": "CGY",
+      "line": 1,
+      "read": "correlated",
+      "both": 5,
+      "n": 17,
+      "players": [
+       8480797,
+       8474150
+      ]
+     },
+     {
+      "selection": "Laferriere + Turcotte \u00b7 both 1+ point",
+      "prob": 0.258,
+      "fair": "+288",
+      "need": "+311",
+      "rationale": "Both scored 1 of 2 games together \u00b7 independent 18% \u00b7 new pair",
+      "team": "LAK",
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 2,
+      "players": [
+       8482155,
+       8481532
+      ]
      }
     ],
     "two": [
-     {
-      "selection": "Artemi Panarin \u00b7 2+ points",
-      "prob": 0.328,
-      "fair": "+205",
-      "need": "+223",
-      "rationale": "2+ in 6 of 17 \u00b7 4.1 PP min/game \u00b7 PP1",
-      "player": "Artemi Panarin",
-      "team": "LAK",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8478550
-      ]
-     },
      {
       "selection": "Quinton Byfield \u00b7 2+ points",
       "prob": 0.215,
@@ -48077,6 +48063,20 @@
       "players": [
        8482155
       ]
+     },
+     {
+      "selection": "Kevin Fiala \u00b7 2+ points",
+      "prob": 0.192,
+      "fair": "+421",
+      "need": "+452",
+      "rationale": "2+ in 0 of 1 \u00b7 3.4 PP min/game \u00b7 PP1",
+      "player": "Kevin Fiala",
+      "team": "LAK",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8477942
+      ]
      }
     ],
     "pp1": [
@@ -48113,35 +48113,35 @@
       ]
      },
      {
-      "selection": "Panarin + Laferriere \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.387,
-      "fair": "+158",
-      "need": "+174",
-      "rationale": "Both scored 5 of 12 games together \u00b7 independent 33% \u00b7 correlated",
+      "selection": "Fiala + Byfield \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.356,
+      "fair": "+181",
+      "need": "+198",
+      "rationale": "Both scored 1 of 1 games together \u00b7 independent 25% \u00b7 new pair",
       "team": "LAK",
-      "line": 1,
-      "read": "correlated",
-      "both": 5,
-      "n": 12,
+      "line": 2,
+      "read": "new pair",
+      "both": 1,
+      "n": 1,
       "players": [
-       8478550,
-       8482155
+       8477942,
+       8482124
       ]
      },
      {
-      "selection": "Panarin + Kempe \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.366,
-      "fair": "+173",
-      "need": "+190",
-      "rationale": "Both scored 6 of 16 games together \u00b7 independent 34% \u00b7 independent",
+      "selection": "Fiala + Zuccarello \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.195,
+      "fair": "+412",
+      "need": "+442",
+      "rationale": "Both scored 0 of 1 games together \u00b7 independent 23% \u00b7 new pair",
       "team": "LAK",
-      "line": 1,
-      "read": "independent",
-      "both": 6,
-      "n": 16,
+      "line": 2,
+      "read": "new pair",
+      "both": 0,
+      "n": 1,
       "players": [
-       8478550,
-       8477960
+       8477942,
+       8475692
       ]
      }
     ],
@@ -49702,48 +49702,48 @@
     },
     "home": {
      "team": "LAK",
-     "as_of": "2026-11-14T12:45:07.445106+00:00",
+     "as_of": "2026-11-15T00:05:21.427232+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-12)",
-     "updated_dfo": "2026-11-13T14:50:19.700Z",
+     "source": "Zach Dooley",
+     "updated_dfo": "2026-11-14T23:25:15.047Z",
      "forwards": [
       [
        {
-        "name": "Artemi Panarin",
-        "jersey": 10,
+        "name": "Alex Turcotte",
+        "jersey": 15,
         "pos": "LW",
         "slot": null,
-        "player_id": 8478550,
-        "dfo_id": 2519,
+        "player_id": 8481532,
+        "dfo_id": 30420,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 8,
-         "gp": 17,
-         "p": 19,
-         "ppp": 8,
-         "sog": 56,
-         "toi_s": 21873
+         "a": 1,
+         "g": 0,
+         "gp": 4,
+         "p": 1,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 3194
         },
         "last5": {
-         "a": 6,
-         "g": 0,
+         "a": 2,
+         "g": 2,
          "gp": 5,
-         "p": 6,
-         "ppp": 4,
-         "sog": 17,
-         "toi_s": 6187
+         "p": 4,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 3992
         },
-        "l5_point_games": 3,
-        "gp": 17,
+        "l5_point_games": 1,
+        "gp": 4,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -49909,7 +49909,7 @@
         "dfo_id": 1065,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
         "bias": null,
         "season": {
@@ -49934,7 +49934,7 @@
         "gp": 8,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -50499,40 +50499,40 @@
      "pp": [
       [
        {
-        "name": "Artemi Panarin",
-        "jersey": 10,
+        "name": "Mats Zuccarello",
+        "jersey": 36,
         "pos": null,
         "slot": 1,
-        "player_id": 8478550,
-        "dfo_id": 2519,
+        "player_id": 8475692,
+        "dfo_id": 1065,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 8,
-         "gp": 17,
-         "p": 19,
-         "ppp": 8,
-         "sog": 56,
-         "toi_s": 21873
+         "a": 1,
+         "g": 0,
+         "gp": 8,
+         "p": 1,
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 7363
         },
         "last5": {
-         "a": 6,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 6,
-         "ppp": 4,
-         "sog": 17,
-         "toi_s": 6187
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4090
         },
-        "l5_point_games": 3,
-        "gp": 17,
+        "l5_point_games": 0,
+        "gp": 8,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -50691,12 +50691,12 @@
       ],
       [
        {
-        "name": "Mats Zuccarello",
-        "jersey": 36,
+        "name": "Alex Turcotte",
+        "jersey": 15,
         "pos": null,
         "slot": 1,
-        "player_id": 8475692,
-        "dfo_id": 1065,
+        "player_id": 8481532,
+        "dfo_id": 30420,
         "gtd": false,
         "injury": null,
         "pp": 2,
@@ -50705,27 +50705,27 @@
         "season": {
          "a": 1,
          "g": 0,
-         "gp": 8,
+         "gp": 4,
          "p": 1,
-         "ppp": 1,
-         "sog": 6,
-         "toi_s": 7363
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 3194
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 2,
+         "g": 2,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
+         "p": 4,
+         "ppp": 1,
          "sog": 5,
-         "toi_s": 4090
+         "toi_s": 3992
         },
-        "l5_point_games": 0,
-        "gp": 8,
+        "l5_point_games": 1,
+        "gp": 4,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -51197,6 +51197,11 @@
        "player": "Erik Gustafsson",
        "status": "DTD",
        "news": "Gustafsson (undisclosed) returned to practice on Friday."
+      },
+      {
+       "player": "Artemi Panarin",
+       "status": "DTD",
+       "news": "Panarin (personal) will not play Saturday vs. the Flames."
       }
      ],
      "unit_ratings": {
@@ -51209,7 +51214,7 @@
        "rating": 73.8823101159445
       },
       "d3": {
-       "rank": 16,
+       "rank": 15,
        "rating": 72.26777140600905
       },
       "d4": {
@@ -51217,11 +51222,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 17,
-       "rating": 76.3627668181256
+       "rank": 31,
+       "rating": 72.9710594298163
       },
       "f2": {
-       "rank": 11,
+       "rank": 12,
        "rating": 75.02746990116675
       },
       "f3": {
@@ -51229,7 +51234,7 @@
        "rating": 71.73977015218512
       },
       "f4": {
-       "rank": 23,
+       "rank": 25,
        "rating": 71.6859154416015
       },
       "g": {
