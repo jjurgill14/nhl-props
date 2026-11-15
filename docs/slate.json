@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_utc": "2026-11-15T21:59:44.786822+00:00",
+ "generated_utc": "2026-11-15T22:14:49.257372+00:00",
  "games": [
   {
    "game_id": 2026020326,
@@ -1489,7 +1489,7 @@
      "ppga_rk": 21,
      "l5_gf": 3.4,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-15T13:13:19.860876+00:00",
+     "lineup_as_of": "2026-11-15T22:14:48.178830+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2209,7 +2209,7 @@
      "ppga_rk": 30,
      "l5_gf": 3.2,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-15T13:13:19.722820+00:00",
+     "lineup_as_of": "2026-11-15T22:14:48.041591+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2241,18 +2241,18 @@
      "lines": {
       "1": [
        "Jason Robertson",
-       "Roope Hintz",
-       "Arttu Hyry"
-      ],
-      "2": [
-       "Jamie Benn",
        "Wyatt Johnston",
        "Mikko Rantanen"
+      ],
+      "2": [
+       "Arttu Hyry",
+       "Roope Hintz",
+       "Tyler Seguin"
       ],
       "3": [
        "Sam Steel",
        "Justin Hryckowian",
-       "Tyler Seguin"
+       "Jamie Benn"
       ],
       "4": [
        "Joel Kiviranta",
@@ -2268,11 +2268,11 @@
       "Jason Robertson"
      ],
      "pp2": [
-      "Justin Hryckowian",
-      "Tyler Seguin",
       "Jamie Benn",
+      "Justin Hryckowian",
+      "David Perron",
       "Esa Lindell",
-      "David Perron"
+      "Tyler Seguin"
      ],
      "players": [
       {
@@ -2281,7 +2281,7 @@
        "team": "DAL",
        "opp": "FLA",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -2323,18 +2323,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jamie Benn",
-         "jersey": 14,
-         "pp": 2,
-         "n": 3,
+         "name": "Jason Robertson",
+         "jersey": 21,
+         "pp": 1,
+         "n": 4,
          "both": 1,
-         "either": 2
+         "either": 3
         },
         {
          "name": "Wyatt Johnston",
@@ -2400,20 +2400,20 @@
        },
        "partners": [
         {
-         "name": "Roope Hintz",
-         "jersey": 24,
+         "name": "Wyatt Johnston",
+         "jersey": 53,
          "pp": 1,
-         "n": 18,
-         "both": 10,
-         "either": 12
-        },
-        {
-         "name": "Arttu Hyry",
-         "jersey": 25,
-         "pp": null,
          "n": 3,
          "both": 2,
-         "either": 2
+         "either": 3
+        },
+        {
+         "name": "Mikko Rantanen",
+         "jersey": 96,
+         "pp": 1,
+         "n": 4,
+         "both": 1,
+         "either": 3
         }
        ]
       },
@@ -2423,7 +2423,7 @@
        "team": "DAL",
        "opp": "FLA",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "C",
        "gtd": false,
@@ -2465,18 +2465,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jamie Benn",
-         "jersey": 14,
-         "pp": 2,
+         "name": "Jason Robertson",
+         "jersey": 21,
+         "pp": 1,
          "n": 3,
-         "both": 1,
-         "either": 2
+         "both": 2,
+         "either": 3
         },
         {
          "name": "Mikko Rantanen",
@@ -2494,7 +2494,7 @@
        "team": "DAL",
        "opp": "FLA",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "C",
        "gtd": false,
@@ -2536,24 +2536,24 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jason Robertson",
-         "jersey": 21,
-         "pp": 1,
-         "n": 18,
-         "both": 10,
-         "either": 12
-        },
-        {
          "name": "Arttu Hyry",
          "jersey": 25,
          "pp": null,
          "n": 5,
+         "both": 2,
+         "either": 4
+        },
+        {
+         "name": "Tyler Seguin",
+         "jersey": 91,
+         "pp": 2,
+         "n": 9,
          "both": 2,
          "either": 4
         }
@@ -2565,11 +2565,11 @@
        "team": "DAL",
        "opp": "FLA",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 19,
        "pt_games": 7,
@@ -2590,12 +2590,12 @@
        ],
        "pp_toi": 1.0,
        "toi": 13.0,
-       "p": 0.298,
-       "fair": "+235",
-       "min": "+255",
-       "p2": 0.046,
-       "fair2": "+2090",
-       "min2": "+2221",
+       "p": 0.276,
+       "fair": "+262",
+       "min": "+284",
+       "p2": 0.037,
+       "fair2": "+2621",
+       "min2": "+2784",
        "adj": [
         [
          "opp",
@@ -2607,26 +2607,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Wyatt Johnston",
-         "jersey": 53,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 2
+         "name": "Sam Steel",
+         "jersey": 18,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Mikko Rantanen",
-         "jersey": 96,
-         "pp": 1,
+         "name": "Justin Hryckowian",
+         "jersey": 49,
+         "pp": 2,
          "n": 3,
-         "both": 1,
-         "either": 2
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2636,9 +2636,9 @@
        "team": "DAL",
        "opp": "FLA",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": null,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -2678,19 +2678,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Jason Robertson",
-         "jersey": 21,
-         "pp": 1,
-         "n": 3,
-         "both": 2,
-         "either": 2
-        },
         {
          "name": "Roope Hintz",
          "jersey": 24,
@@ -2698,6 +2690,14 @@
          "n": 5,
          "both": 2,
          "either": 4
+        },
+        {
+         "name": "Tyler Seguin",
+         "jersey": 91,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2707,11 +2707,11 @@
        "team": "DAL",
        "opp": "FLA",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 19,
        "pt_games": 4,
@@ -2732,12 +2732,12 @@
        ],
        "pp_toi": 1.4,
        "toi": 14.0,
-       "p": 0.184,
-       "fair": "+443",
-       "min": "+475",
-       "p2": 0.065,
-       "fair2": "+1448",
-       "min2": "+1541",
+       "p": 0.206,
+       "fair": "+385",
+       "min": "+414",
+       "p2": 0.074,
+       "fair2": "+1260",
+       "min2": "+1342",
        "adj": [
         [
          "opp",
@@ -2749,26 +2749,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Sam Steel",
-         "jersey": 18,
+         "name": "Arttu Hyry",
+         "jersey": 25,
          "pp": null,
-         "n": 3,
+         "n": 2,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Justin Hryckowian",
-         "jersey": 49,
-         "pp": 2,
-         "n": 8,
-         "both": 0,
-         "either": 2
+         "name": "Roope Hintz",
+         "jersey": 24,
+         "pp": 1,
+         "n": 9,
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -2834,12 +2834,12 @@
          "either": 1
         },
         {
-         "name": "Tyler Seguin",
-         "jersey": 91,
+         "name": "Jamie Benn",
+         "jersey": 14,
          "pp": 2,
-         "n": 3,
+         "n": 2,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -2905,12 +2905,12 @@
          "either": 1
         },
         {
-         "name": "Tyler Seguin",
-         "jersey": 91,
+         "name": "Jamie Benn",
+         "jersey": 14,
          "pp": 2,
-         "n": 8,
+         "n": 3,
          "both": 0,
-         "either": 2
+         "either": 0
         }
        ]
       }
@@ -2950,7 +2950,7 @@
      "ppga_rk": 25,
      "l5_gf": 2.4,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-15T13:13:19.642502+00:00",
+     "lineup_as_of": "2026-11-15T22:14:47.968967+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3669,7 +3669,7 @@
      "ppga_rk": 5,
      "l5_gf": 3.8,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-15T13:13:19.566457+00:00",
+     "lineup_as_of": "2026-11-15T22:14:47.909823+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3692,12 +3692,12 @@
       "1": [
        "Judd Caulfield",
        "Leo Carlsson",
-       "Troy Terry"
+       "Cutter Gauthier"
       ],
       "2": [
-       "Cutter Gauthier",
+       "Beckett Sennecke",
        "Mikael Granlund",
-       "Beckett Sennecke"
+       "Troy Terry"
       ],
       "3": [
        "Jeff Malott",
@@ -3719,8 +3719,8 @@
      ],
      "pp2": [
       "Judd Caulfield",
+      "Nikita Nesterenko",
       "Alex Killorn",
-      "Sam Colangelo",
       "Troy Terry",
       "Tristan Luneau"
      ],
@@ -3731,9 +3731,9 @@
        "team": "ANA",
        "opp": "CGY",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -3777,26 +3777,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Mikael Granlund",
-         "jersey": 64,
-         "pp": 1,
-         "n": 10,
-         "both": 7,
-         "either": 9
+         "name": "Judd Caulfield",
+         "jersey": 28,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 2
         },
         {
-         "name": "Beckett Sennecke",
-         "jersey": 45,
+         "name": "Leo Carlsson",
+         "jersey": 91,
          "pp": 1,
-         "n": 8,
-         "both": 6,
-         "either": 8
+         "n": 7,
+         "both": 5,
+         "either": 7
         }
        ]
       },
@@ -3862,12 +3862,12 @@
          "either": 7
         },
         {
-         "name": "Troy Terry",
-         "jersey": 19,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Cutter Gauthier",
+         "jersey": 61,
+         "pp": 1,
+         "n": 7,
+         "both": 5,
+         "either": 7
         }
        ]
       },
@@ -3879,7 +3879,7 @@
        "home": true,
        "line": 2,
        "pp": 1,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
@@ -3925,20 +3925,20 @@
        },
        "partners": [
         {
-         "name": "Cutter Gauthier",
-         "jersey": 61,
-         "pp": 1,
-         "n": 8,
-         "both": 6,
-         "either": 8
-        },
-        {
          "name": "Mikael Granlund",
          "jersey": 64,
          "pp": 1,
          "n": 15,
          "both": 9,
          "either": 12
+        },
+        {
+         "name": "Troy Terry",
+         "jersey": 19,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -3996,20 +3996,20 @@
        },
        "partners": [
         {
-         "name": "Cutter Gauthier",
-         "jersey": 61,
-         "pp": 1,
-         "n": 10,
-         "both": 7,
-         "either": 9
-        },
-        {
          "name": "Beckett Sennecke",
          "jersey": 45,
          "pp": 1,
          "n": 15,
          "both": 9,
          "either": 12
+        },
+        {
+         "name": "Troy Terry",
+         "jersey": 19,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -4075,12 +4075,12 @@
          "either": 7
         },
         {
-         "name": "Troy Terry",
-         "jersey": 19,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Cutter Gauthier",
+         "jersey": 61,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -4161,7 +4161,7 @@
        "team": "ANA",
        "opp": "CGY",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
@@ -4203,22 +4203,22 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Judd Caulfield",
-         "jersey": 28,
-         "pp": 2,
+         "name": "Beckett Sennecke",
+         "jersey": 45,
+         "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Leo Carlsson",
-         "jersey": 91,
+         "name": "Mikael Granlund",
+         "jersey": 64,
          "pp": 1,
          "n": 0,
          "both": 0,
