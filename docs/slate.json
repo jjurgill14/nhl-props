@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_utc": "2026-11-15T22:14:49.257372+00:00",
+ "generated_utc": "2026-11-15T22:29:54.038460+00:00",
  "games": [
   {
    "game_id": 2026020326,
@@ -764,13 +764,18 @@
      "ppga_rk": 19,
      "l5_gf": 2.8,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-15T21:44:39.751023+00:00",
+     "lineup_as_of": "2026-11-15T22:29:52.968413+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Nikita Grebenkin",
        "status": "IR",
        "news": "Grebenkin (upper-body) has been placed on injured reserve."
+      },
+      {
+       "player": "Denver Barkey",
+       "status": "OUT",
+       "news": "Barkey (illness) is out vs. Edmonton on Sunday."
       }
      ],
      "lines": {
@@ -790,24 +795,24 @@
        "Matvei Michkov"
       ],
       "4": [
-       "Denver Barkey",
+       "Cole Knuble",
        "Sean Couturier",
        "Noel Acciari"
       ]
      },
      "pp1": [
       "Porter Martone",
-      "Denver Barkey",
+      "Christian Dvorak",
       "Matvei Michkov",
       "Trevor Zegras",
       "Jamie Drysdale"
      ],
      "pp2": [
       "Travis Konecny",
-      "Christian Dvorak",
+      "Sean Couturier",
       "Tyson Foerster",
       "Travis Sanheim",
-      "Oliver Bonk"
+      "Cam York"
      ],
      "players": [
       {
@@ -959,10 +964,10 @@
        "opp": "EDM",
        "home": true,
        "line": 2,
-       "pp": 2,
+       "pp": 1,
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "pp1",
        "bias": "A",
        "gp": 22,
        "pt_games": 9,
@@ -983,12 +988,12 @@
        ],
        "pp_toi": 1.6,
        "toi": 18.0,
-       "p": 0.303,
-       "fair": "+230",
-       "min": "+250",
-       "p2": 0.062,
-       "fair2": "+1515",
-       "min2": "+1612",
+       "p": 0.344,
+       "fair": "+190",
+       "min": "+208",
+       "p2": 0.084,
+       "fair2": "+1085",
+       "min2": "+1156",
        "adj": [
         [
          "opp",
@@ -1001,7 +1006,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -1300,7 +1305,7 @@
         {
          "name": "Christian Dvorak",
          "jersey": 22,
-         "pp": 2,
+         "pp": 1,
          "n": 4,
          "both": 1,
          "either": 2
@@ -1363,7 +1368,7 @@
         {
          "name": "Christian Dvorak",
          "jersey": 22,
-         "pp": 2,
+         "pp": 1,
          "n": 3,
          "both": 1,
          "either": 2
