@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_utc": "2026-11-15T22:44:58.993777+00:00",
+ "generated_utc": "2026-11-15T23:00:03.926109+00:00",
  "games": [
   {
    "game_id": 2026020326,
@@ -4409,7 +4409,7 @@
      "ppga_rk": 1,
      "l5_gf": 2.0,
      "l5_ga": 4.6,
-     "lineup_as_of": "2026-11-15T13:13:20.139458+00:00",
+     "lineup_as_of": "2026-11-15T23:00:02.774001+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4422,12 +4422,12 @@
       "1": [
        "Jake DeBrusk",
        "Elias Pettersson",
-       "Brock Boeser"
+       "Jonathan Lekkerimaki"
       ],
       "2": [
        "Paul Cotter",
        "Filip Chytil",
-       "Jonathan Lekkerimaki"
+       "Brock Boeser"
       ],
       "3": [
        "Liam Ohgren",
@@ -4450,7 +4450,7 @@
      "pp2": [
       "Paul Cotter",
       "Filip Chytil",
-      "Liam Ohgren",
+      "Linus Karlsson",
       "Zeev Buium",
       "Marco Rossi"
      ],
@@ -4461,7 +4461,7 @@
        "team": "VAN",
        "opp": "VGK",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -4499,26 +4499,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jake DeBrusk",
-         "jersey": 74,
-         "pp": 1,
-         "n": 6,
+         "name": "Paul Cotter",
+         "jersey": 47,
+         "pp": 2,
+         "n": 8,
          "both": 1,
          "either": 5
         },
         {
-         "name": "Elias Pettersson",
-         "jersey": 40,
-         "pp": 1,
-         "n": 8,
-         "both": 1,
-         "either": 8
+         "name": "Filip Chytil",
+         "jersey": 77,
+         "pp": 2,
+         "n": 3,
+         "both": 2,
+         "either": 3
         }
        ]
       },
@@ -4528,7 +4528,7 @@
        "team": "VAN",
        "opp": "VGK",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -4566,25 +4566,25 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Paul Cotter",
-         "jersey": 47,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
+         "name": "Jake DeBrusk",
+         "jersey": 74,
+         "pp": 1,
+         "n": 9,
+         "both": 3,
+         "either": 6
         },
         {
-         "name": "Filip Chytil",
-         "jersey": 77,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
+         "name": "Elias Pettersson",
+         "jersey": 40,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
          "either": 2
         }
        ]
@@ -4647,12 +4647,12 @@
          "either": 2
         },
         {
-         "name": "Brock Boeser",
-         "jersey": 6,
+         "name": "Jonathan Lekkerimaki",
+         "jersey": 88,
          "pp": 1,
-         "n": 8,
+         "n": 2,
          "both": 1,
-         "either": 8
+         "either": 2
         }
        ]
       },
@@ -4714,12 +4714,12 @@
          "either": 2
         },
         {
-         "name": "Brock Boeser",
-         "jersey": 6,
+         "name": "Jonathan Lekkerimaki",
+         "jersey": 88,
          "pp": 1,
-         "n": 6,
-         "both": 1,
-         "either": 5
+         "n": 9,
+         "both": 3,
+         "either": 6
         }
        ]
       },
@@ -4730,7 +4730,7 @@
        "opp": "VGK",
        "home": false,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "pos": "RW",
        "gtd": false,
        "role": "other",
@@ -4768,14 +4768,14 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
         {
          "name": "Liam Ohgren",
          "jersey": 92,
-         "pp": 2,
+         "pp": null,
          "n": 8,
          "both": 2,
          "either": 4
@@ -4797,7 +4797,7 @@
        "opp": "VGK",
        "home": false,
        "line": 3,
-       "pp": 2,
+       "pp": null,
        "pos": "LW",
        "gtd": false,
        "role": "other",
@@ -4835,7 +4835,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
@@ -4850,7 +4850,7 @@
         {
          "name": "Linus Karlsson",
          "jersey": 94,
-         "pp": null,
+         "pp": 2,
          "n": 8,
          "both": 2,
          "either": 4
@@ -4919,12 +4919,12 @@
          "either": 2
         },
         {
-         "name": "Jonathan Lekkerimaki",
-         "jersey": 88,
+         "name": "Brock Boeser",
+         "jersey": 6,
          "pp": 1,
-         "n": 5,
-         "both": 0,
-         "either": 2
+         "n": 3,
+         "both": 2,
+         "either": 3
         }
        ]
       },
@@ -4986,12 +4986,12 @@
          "either": 2
         },
         {
-         "name": "Jonathan Lekkerimaki",
-         "jersey": 88,
+         "name": "Brock Boeser",
+         "jersey": 6,
          "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 0
+         "n": 8,
+         "both": 1,
+         "either": 5
         }
        ]
       },
@@ -5047,7 +5047,7 @@
         {
          "name": "Liam Ohgren",
          "jersey": 92,
-         "pp": 2,
+         "pp": null,
          "n": 9,
          "both": 3,
          "either": 6
@@ -5055,7 +5055,7 @@
         {
          "name": "Linus Karlsson",
          "jersey": 94,
-         "pp": null,
+         "pp": 2,
          "n": 7,
          "both": 0,
          "either": 4
@@ -5087,7 +5087,7 @@
      "ppga_rk": 22,
      "l5_gf": 3.2,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-15T13:13:20.194768+00:00",
+     "lineup_as_of": "2026-11-15T23:00:02.908010+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -5780,7 +5780,7 @@
      "ppga_rk": 32,
      "l5_gf": 3.0,
      "l5_ga": 1.4,
-     "lineup_as_of": "2026-11-15T13:13:19.925971+00:00",
+     "lineup_as_of": "2026-11-15T23:00:02.601239+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -5827,8 +5827,8 @@
       "Nils Hoglander",
       "Shane Wright",
       "Alex Kerfoot",
-      "Vitali Pinchuk",
-      "Brady Skjei"
+      "Brady Skjei",
+      "Vitali Pinchuk"
      ],
      "players": [
       {
@@ -6463,7 +6463,7 @@
      "ppga_rk": 7,
      "l5_gf": 2.6,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-15T13:13:20.065009+00:00",
+     "lineup_as_of": "2026-11-15T23:00:02.716072+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -6500,18 +6500,18 @@
       ]
      },
      "pp1": [
+      "Kiefer Sherwood",
       "Ivar Stenberg",
-      "Will Smith",
-      "Tyler Toffoli",
+      "Mason Marchment",
       "Macklin Celebrini",
-      "Jacob Trouba"
+      "Sam Dickinson"
      ],
      "pp2": [
-      "Kiefer Sherwood",
+      "Tyler Toffoli",
       "Michael Misa",
-      "Mason Marchment",
+      "Adam Gaudette",
       "Dmitry Orlov",
-      "Eric Pohlkamp"
+      "Will Smith"
      ],
      "players": [
       {
@@ -6578,78 +6578,7 @@
         {
          "name": "Will Smith",
          "jersey": 2,
-         "pp": 1,
-         "n": 18,
-         "both": 9,
-         "either": 13
-        }
-       ]
-      },
-      {
-       "name": "Will Smith",
-       "jersey": 2,
-       "team": "SJS",
-       "opp": "NSH",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 22,
-       "pt_games": 11,
-       "l5": [
-        4,
-        5
-       ],
-       "ast_games": 8,
-       "goal_games": 5,
-       "two_games": 3,
-       "home_split": [
-        4,
-        10
-       ],
-       "away_split": [
-        7,
-        12
-       ],
-       "pp_toi": 5.7,
-       "toi": 22.4,
-       "p": 0.383,
-       "fair": "+161",
-       "min": "+177",
-       "p2": 0.104,
-       "fair2": "+860",
-       "min2": "+918",
-       "adj": [
-        [
-         "opp",
-         0.8709677419354839
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ivar Stenberg",
-         "jersey": 41,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 2
-        },
-        {
-         "name": "Macklin Celebrini",
-         "jersey": 71,
-         "pp": 1,
+         "pp": 2,
          "n": 18,
          "both": 9,
          "either": 13
@@ -6720,7 +6649,7 @@
         {
          "name": "Will Smith",
          "jersey": 2,
-         "pp": 1,
+         "pp": 2,
          "n": 2,
          "both": 0,
          "either": 2
@@ -6728,50 +6657,46 @@
        ]
       },
       {
-       "name": "Tyler Toffoli",
-       "jersey": 73,
+       "name": "Will Smith",
+       "jersey": 2,
        "team": "SJS",
        "opp": "NSH",
        "home": true,
-       "line": 3,
-       "pp": 1,
-       "pos": "LW",
+       "line": 1,
+       "pp": 2,
+       "pos": "RW",
        "gtd": false,
-       "role": "pp1",
+       "role": "top6",
        "bias": null,
        "gp": 22,
-       "pt_games": 9,
+       "pt_games": 11,
        "l5": [
-        2,
+        4,
         5
        ],
-       "ast_games": 7,
-       "goal_games": 6,
-       "two_games": 4,
+       "ast_games": 8,
+       "goal_games": 5,
+       "two_games": 3,
        "home_split": [
-        2,
+        4,
         10
        ],
        "away_split": [
         7,
         12
        ],
-       "pp_toi": 3.6,
-       "toi": 12.7,
-       "p": 0.299,
-       "fair": "+234",
-       "min": "+254",
-       "p2": 0.114,
-       "fair2": "+776",
-       "min2": "+829",
+       "pp_toi": 5.7,
+       "toi": 22.4,
+       "p": 0.343,
+       "fair": "+192",
+       "min": "+209",
+       "p2": 0.082,
+       "fair2": "+1113",
+       "min2": "+1186",
        "adj": [
         [
          "opp",
          0.8709677419354839
-        ],
-        [
-         "venue",
-         0.9
         ],
         [
          "b2b",
@@ -6780,25 +6705,167 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
         {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 7,
-         "both": 1,
+         "name": "Ivar Stenberg",
+         "jersey": 41,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 2
+        },
+        {
+         "name": "Macklin Celebrini",
+         "jersey": 71,
+         "pp": 1,
+         "n": 18,
+         "both": 9,
+         "either": 13
+        }
+       ]
+      },
+      {
+       "name": "Mason Marchment",
+       "jersey": 27,
+       "team": "SJS",
+       "opp": "NSH",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 22,
+       "pt_games": 8,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 5,
+       "two_games": 1,
+       "home_split": [
+        3,
+        10
+       ],
+       "away_split": [
+        5,
+        12
+       ],
+       "pp_toi": 4.8,
+       "toi": 17.6,
+       "p": 0.308,
+       "fair": "+225",
+       "min": "+245",
+       "p2": 0.059,
+       "fair2": "+1598",
+       "min2": "+1700",
+       "adj": [
+        [
+         "opp",
+         0.8709677419354839
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Michael Misa",
+         "jersey": 77,
+         "pp": 2,
+         "n": 5,
+         "both": 0,
          "either": 3
         },
         {
-         "name": "Kiefer Sherwood",
-         "jersey": 44,
+         "name": "Collin Graf",
+         "jersey": 51,
+         "pp": null,
+         "n": 3,
+         "both": 1,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Kiefer Sherwood",
+       "jersey": 44,
+       "team": "SJS",
+       "opp": "NSH",
+       "home": true,
+       "line": 3,
+       "pp": 1,
+       "pos": "RW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 22,
+       "pt_games": 8,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 6,
+       "goal_games": 2,
+       "two_games": 1,
+       "home_split": [
+        5,
+        10
+       ],
+       "away_split": [
+        3,
+        12
+       ],
+       "pp_toi": 2.0,
+       "toi": 16.3,
+       "p": 0.308,
+       "fair": "+225",
+       "min": "+245",
+       "p2": 0.059,
+       "fair2": "+1598",
+       "min2": "+1700",
+       "adj": [
+        [
+         "opp",
+         0.8709677419354839
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Tyler Toffoli",
+         "jersey": 73,
          "pp": 2,
          "n": 4,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -6858,7 +6925,7 @@
         {
          "name": "Mason Marchment",
          "jersey": 27,
-         "pp": 2,
+         "pp": 1,
          "n": 5,
          "both": 0,
          "either": 3
@@ -6874,117 +6941,50 @@
        ]
       },
       {
-       "name": "Mason Marchment",
-       "jersey": 27,
-       "team": "SJS",
-       "opp": "NSH",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 22,
-       "pt_games": 8,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 5,
-       "two_games": 1,
-       "home_split": [
-        3,
-        10
-       ],
-       "away_split": [
-        5,
-        12
-       ],
-       "pp_toi": 4.8,
-       "toi": 17.6,
-       "p": 0.268,
-       "fair": "+274",
-       "min": "+296",
-       "p2": 0.037,
-       "fair2": "+2593",
-       "min2": "+2754",
-       "adj": [
-        [
-         "opp",
-         0.8709677419354839
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Michael Misa",
-         "jersey": 77,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
-         "either": 3
-        },
-        {
-         "name": "Collin Graf",
-         "jersey": 51,
-         "pp": null,
-         "n": 3,
-         "both": 1,
-         "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Kiefer Sherwood",
-       "jersey": 44,
+       "name": "Tyler Toffoli",
+       "jersey": 73,
        "team": "SJS",
        "opp": "NSH",
        "home": true,
        "line": 3,
        "pp": 2,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
-       "bias": "A",
+       "bias": null,
        "gp": 22,
-       "pt_games": 8,
+       "pt_games": 9,
        "l5": [
-        0,
+        2,
         5
        ],
-       "ast_games": 6,
-       "goal_games": 2,
-       "two_games": 1,
+       "ast_games": 7,
+       "goal_games": 6,
+       "two_games": 4,
        "home_split": [
-        5,
+        2,
         10
        ],
        "away_split": [
-        3,
+        7,
         12
        ],
-       "pp_toi": 2.0,
-       "toi": 16.3,
-       "p": 0.25,
-       "fair": "+301",
-       "min": "+325",
-       "p2": 0.03,
-       "fair2": "+3245",
-       "min2": "+3446",
+       "pp_toi": 3.6,
+       "toi": 12.7,
+       "p": 0.247,
+       "fair": "+305",
+       "min": "+329",
+       "p2": 0.088,
+       "fair2": "+1036",
+       "min2": "+1104",
        "adj": [
         [
          "opp",
          0.8709677419354839
+        ],
+        [
+         "venue",
+         0.9
         ],
         [
          "b2b",
@@ -6993,25 +6993,25 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
         {
-         "name": "Tyler Toffoli",
-         "jersey": 73,
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 7,
+         "both": 1,
+         "either": 3
+        },
+        {
+         "name": "Kiefer Sherwood",
+         "jersey": 44,
          "pp": 1,
          "n": 4,
          "both": 0,
          "either": 2
-        },
-        {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -7071,7 +7071,7 @@
         {
          "name": "Mason Marchment",
          "jersey": 27,
-         "pp": 2,
+         "pp": 1,
          "n": 3,
          "both": 1,
          "either": 1
@@ -7142,7 +7142,7 @@
         {
          "name": "Tyler Toffoli",
          "jersey": 73,
-         "pp": 1,
+         "pp": 2,
          "n": 7,
          "both": 1,
          "either": 3
@@ -7150,7 +7150,7 @@
         {
          "name": "Kiefer Sherwood",
          "jersey": 44,
-         "pp": 2,
+         "pp": 1,
          "n": 2,
          "both": 0,
          "either": 0
