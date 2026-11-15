@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-15T01:51:03.849517+00:00",
+ "generated_utc": "2026-11-15T02:06:09.004139+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -44130,7 +44130,7 @@
     "goalie_source": "Andrew Gross",
     "sv": "0.891",
     "gaa": "2.72",
-    "lineup_as_of": "2026-11-15T00:05:21.716316+00:00",
+    "lineup_as_of": "2026-11-15T02:06:07.040296+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 21,
@@ -44316,7 +44316,7 @@
       "player": "Brayden Schenn",
       "team": "NYI",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "bias": null,
       "players": [
        8475170
@@ -44555,22 +44555,6 @@
        8484762,
        8475798
       ]
-     },
-     {
-      "selection": "Schenn + Eklund \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.349,
-      "fair": "+186",
-      "need": "+203",
-      "rationale": "Both scored 6 of 17 games together \u00b7 independent 34% \u00b7 independent",
-      "team": "NYI",
-      "line": 2,
-      "read": "independent",
-      "both": 6,
-      "n": 17,
-      "players": [
-       8475170,
-       8485388
-      ]
      }
     ],
     "btts2": [
@@ -44587,10 +44571,10 @@
    "lineup": {
     "away": {
      "team": "NYI",
-     "as_of": "2026-11-15T00:05:21.716316+00:00",
+     "as_of": "2026-11-15T02:06:07.040296+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-12)",
-     "updated_dfo": "2026-11-13T14:47:44.852Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-15T01:57:38.938Z",
      "forwards": [
       [
        {
@@ -44748,41 +44732,41 @@
         }
        },
        {
-        "name": "Brayden Schenn",
-        "jersey": 10,
+        "name": "Mathew Barzal",
+        "jersey": 13,
         "pos": "C",
         "slot": null,
-        "player_id": 8475170,
-        "dfo_id": 773,
+        "player_id": null,
+        "dfo_id": 2482,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 9,
-         "g": 6,
-         "gp": 18,
-         "p": 15,
-         "ppp": 4,
-         "sog": 32,
-         "toi_s": 18187
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 5,
-         "g": 2,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 7,
-         "ppp": 2,
-         "sog": 7,
-         "toi_s": 5337
+         "p": 3,
+         "ppp": 1,
+         "sog": 14,
+         "toi_s": 6210
         },
-        "l5_point_games": 4,
-        "gp": 18,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -44864,39 +44848,39 @@
         }
        },
        {
-        "name": "Casey Cizikas",
-        "jersey": 53,
+        "name": "Brayden Schenn",
+        "jersey": 10,
         "pos": "C",
         "slot": null,
-        "player_id": 8475231,
-        "dfo_id": 1807,
+        "player_id": 8475170,
+        "dfo_id": 773,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 2,
+        "pp": 1,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 2,
-         "g": 1,
+         "a": 9,
+         "g": 6,
          "gp": 18,
-         "p": 3,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 13063
+         "p": 15,
+         "ppp": 4,
+         "sog": 32,
+         "toi_s": 18187
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 5,
+         "g": 2,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 1,
-         "toi_s": 3768
+         "p": 7,
+         "ppp": 2,
+         "sog": 7,
+         "toi_s": 5337
         },
-        "l5_point_games": 1,
+        "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -44910,7 +44894,7 @@
         "dfo_id": 2380,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
@@ -44935,7 +44919,7 @@
         "gp": 18,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -44975,6 +44959,44 @@
         "gp": 10,
         "move": {
          "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Casey Cizikas",
+        "jersey": 53,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8475231,
+        "dfo_id": 1807,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 1,
+         "gp": 18,
+         "p": 3,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 13063
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 3768
+        },
+        "l5_point_games": 1,
+        "gp": 18,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -45454,7 +45476,7 @@
         "l5_point_games": 4,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -45614,48 +45636,10 @@
         }
        },
        {
-        "name": "Anthony Duclair",
-        "jersey": 11,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8477407,
-        "dfo_id": 2380,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 18,
-         "p": 6,
-         "ppp": 0,
-         "sog": 22,
-         "toi_s": 14648
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4238
-        },
-        "l5_point_games": 1,
-        "gp": 18,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Emil Heineman",
         "jersey": 51,
         "pos": null,
-        "slot": 4,
+        "slot": 3,
         "player_id": 8482476,
         "dfo_id": 33094,
         "gtd": false,
@@ -45687,6 +45671,44 @@
          "ev": 0,
          "pp": 0,
          "new": false
+        }
+       },
+       {
+        "name": "Mathew Barzal",
+        "jersey": 13,
+        "pos": null,
+        "slot": 4,
+        "player_id": null,
+        "dfo_id": 2482,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 3,
+         "g": 0,
+         "gp": 5,
+         "p": 3,
+         "ppp": 1,
+         "sog": 14,
+         "toi_s": 6210
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        },
        {
@@ -45918,7 +45940,7 @@
         "l5_point_games": 1,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -46041,11 +46063,6 @@
      ],
      "injuries": [
       {
-       "player": "Mathew Barzal",
-       "status": "IR",
-       "news": "Barzal (knee) has been activated and is expected to make his season debut on Saturday."
-      },
-      {
        "player": "Alexander Romanov",
        "status": "IR",
        "news": "Romanov will undergo surgery to repair an ACL tear and miss 6-8 months."
@@ -46083,16 +46100,16 @@
        "rating": 74.56465790521624
       },
       "f2": {
-       "rank": 8,
-       "rating": 76.62900944860871
+       "rank": 7,
+       "rating": 76.8292501348103
       },
       "f3": {
-       "rank": 19,
-       "rating": 72.29002322904698
+       "rank": 9,
+       "rating": 74.096513477854
       },
       "f4": {
-       "rank": 34,
-       "rating": 0
+       "rank": 27,
+       "rating": 71.20953870218761
       },
       "g": {
        "rank": 20,

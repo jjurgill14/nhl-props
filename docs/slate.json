@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_utc": "2026-11-15T01:51:03.217287+00:00",
+ "generated_utc": "2026-11-15T02:06:08.346848+00:00",
  "games": [
   {
    "game_id": 2026020321,
@@ -16627,14 +16627,9 @@
      "ppga_rk": 26,
      "l5_gf": 2.8,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-15T00:05:21.716316+00:00",
+     "lineup_as_of": "2026-11-15T02:06:07.040296+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Mathew Barzal",
-       "status": "IR",
-       "news": "Barzal (knee) has been activated and is expected to make his season debut on Saturday."
-      },
       {
        "player": "Alexander Romanov",
        "status": "IR",
@@ -16659,16 +16654,17 @@
       ],
       "2": [
        "Emil Heineman",
-       "Brayden Schenn",
+       "Mathew Barzal",
        "Victor Eklund"
       ],
       "3": [
        "Ondrej Palat",
-       "Casey Cizikas",
+       "Brayden Schenn",
        "Anthony Duclair"
       ],
       "4": [
        "Mitchell Chaffee",
+       "Casey Cizikas",
        "Matias Maccelli"
       ]
      },
@@ -16682,8 +16678,8 @@
      "pp2": [
       "Kyle Palmieri",
       "Simon Holmstrom",
-      "Anthony Duclair",
       "Emil Heineman",
+      "Mathew Barzal",
       "Tony DeAngelo"
      ],
      "players": [
@@ -16760,7 +16756,7 @@
        "team": "NYI",
        "opp": "ANA",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "pos": "C",
        "gtd": false,
@@ -16798,26 +16794,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Emil Heineman",
-         "jersey": 51,
-         "pp": 2,
-         "n": 9,
-         "both": 4,
-         "either": 9
+         "name": "Ondrej Palat",
+         "jersey": 18,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Victor Eklund",
-         "jersey": 73,
-         "pp": 1,
-         "n": 17,
-         "both": 6,
-         "either": 12
+         "name": "Anthony Duclair",
+         "jersey": 11,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -16879,12 +16875,12 @@
          "either": 8
         },
         {
-         "name": "Brayden Schenn",
-         "jersey": 10,
-         "pp": 1,
-         "n": 17,
-         "both": 6,
-         "either": 12
+         "name": "Mathew Barzal",
+         "jersey": 13,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -17005,12 +17001,12 @@
        },
        "partners": [
         {
-         "name": "Brayden Schenn",
-         "jersey": 10,
-         "pp": 1,
-         "n": 9,
-         "both": 4,
-         "either": 9
+         "name": "Mathew Barzal",
+         "jersey": 13,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Victor Eklund",
@@ -17023,13 +17019,80 @@
        ]
       },
       {
+       "name": "Mathew Barzal",
+       "jersey": 13,
+       "team": "NYI",
+       "opp": "ANA",
+       "home": false,
+       "line": 2,
+       "pp": 2,
+       "pos": "C",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.387,
+       "fair": "+158",
+       "min": "+174",
+       "p2": 0.091,
+       "fair2": "+997",
+       "min2": "+1063",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Emil Heineman",
+         "jersey": 51,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Victor Eklund",
+         "jersey": 73,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Anthony Duclair",
        "jersey": 11,
        "team": "NYI",
        "opp": "ANA",
        "home": false,
        "line": 3,
-       "pp": 2,
+       "pp": null,
        "pos": "RW",
        "gtd": false,
        "role": "other",
@@ -17067,7 +17130,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
@@ -17080,10 +17143,10 @@
          "either": 5
         },
         {
-         "name": "Casey Cizikas",
-         "jersey": 53,
-         "pp": null,
-         "n": 2,
+         "name": "Brayden Schenn",
+         "jersey": 10,
+         "pp": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -17206,87 +17269,20 @@
        },
        "partners": [
         {
-         "name": "Casey Cizikas",
-         "jersey": 53,
-         "pp": null,
-         "n": 6,
-         "both": 1,
-         "either": 1
+         "name": "Brayden Schenn",
+         "jersey": 10,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Anthony Duclair",
          "jersey": 11,
-         "pp": 2,
+         "pp": null,
          "n": 13,
          "both": 2,
          "either": 5
-        }
-       ]
-      },
-      {
-       "name": "Casey Cizikas",
-       "jersey": 53,
-       "team": "NYI",
-       "opp": "ANA",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 18,
-       "pt_games": 2,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 1,
-       "two_games": 1,
-       "home_split": [
-        2,
-        9
-       ],
-       "away_split": [
-        0,
-        9
-       ],
-       "pp_toi": 0.0,
-       "toi": 12.6,
-       "p": 0.175,
-       "fair": "+470",
-       "min": "+505",
-       "p2": 0.058,
-       "fair2": "+1629",
-       "min2": "+1733",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ondrej Palat",
-         "jersey": 18,
-         "pp": null,
-         "n": 6,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Anthony Duclair",
-         "jersey": 11,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
         }
        ]
       }
