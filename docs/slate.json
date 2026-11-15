@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_utc": "2026-11-15T23:15:09.023163+00:00",
+ "generated_utc": "2026-11-15T23:30:13.749105+00:00",
  "games": [
   {
    "game_id": 2026020326,
@@ -17,9 +17,9 @@
      "home": false,
      "b2b": true,
      "goalie": "Tristan Jarry",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Jarry will start in Philadelphia on Sunday.",
+     "goalie_source": "Paige Martin",
      "sv": "0.903",
      "gaa": "2.5",
      "ml": "164",
@@ -34,7 +34,7 @@
      "ppga_rk": 16,
      "l5_gf": 3.0,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-15T21:44:39.672458+00:00",
+     "lineup_as_of": "2026-11-15T23:30:12.324785+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -61,6 +61,11 @@
        "player": "Isaac Howard",
        "status": "IR",
        "news": "Howard (lower-body) is considered week-to-week."
+      },
+      {
+       "player": "Ryan Nugent-Hopkins",
+       "status": "OUT",
+       "news": "Nugent-Hopkins (undisclosed) is out vs. Philadelphia on Sunday."
       }
      ],
      "lines": {
@@ -71,11 +76,11 @@
       ],
       "2": [
        "Kasperi Kapanen",
-       "Ryan Nugent-Hopkins",
+       "Colton Dach",
        "Zach Hyman"
       ],
       "3": [
-       "Colton Dach",
+       "Filip Hallander",
        "Jason Dickinson",
        "Trent Frederic"
       ],
@@ -87,15 +92,15 @@
      },
      "pp1": [
       "Zach Hyman",
-      "Ryan Nugent-Hopkins",
       "Leon Draisaitl",
+      "Kasperi Kapanen",
       "Connor McDavid",
       "Evan Bouchard"
      ],
      "pp2": [
       "Vasily Podkolzin",
       "Colton Dach",
-      "Kasperi Kapanen",
+      "Trent Frederic",
       "Ryan Shea",
       "Mattias Ekholm"
      ],
@@ -243,77 +248,6 @@
        ]
       },
       {
-       "name": "Ryan Nugent-Hopkins",
-       "jersey": 93,
-       "team": "EDM",
-       "opp": "PHI",
-       "home": false,
-       "line": 2,
-       "pp": 1,
-       "pos": "C",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 12,
-       "pt_games": 6,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 5,
-       "home_split": [
-        4,
-        8
-       ],
-       "away_split": [
-        2,
-        4
-       ],
-       "pp_toi": 2.4,
-       "toi": 15.8,
-       "p": 0.455,
-       "fair": "+120",
-       "min": "+133",
-       "p2": 0.264,
-       "fair2": "+279",
-       "min2": "+301",
-       "adj": [
-        [
-         "opp",
-         1.0258064516129033
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Kasperi Kapanen",
-         "jersey": 42,
-         "pp": 2,
-         "n": 10,
-         "both": 5,
-         "either": 6
-        },
-        {
-         "name": "Zach Hyman",
-         "jersey": 18,
-         "pp": 1,
-         "n": 6,
-         "both": 0,
-         "either": 3
-        }
-       ]
-      },
-      {
        "name": "Vasily Podkolzin",
        "jersey": 92,
        "team": "EDM",
@@ -385,6 +319,77 @@
        ]
       },
       {
+       "name": "Kasperi Kapanen",
+       "jersey": 42,
+       "team": "EDM",
+       "opp": "PHI",
+       "home": false,
+       "line": 2,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 21,
+       "pt_games": 8,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 5,
+       "two_games": 2,
+       "home_split": [
+        3,
+        12
+       ],
+       "away_split": [
+        5,
+        9
+       ],
+       "pp_toi": 1.6,
+       "toi": 17.3,
+       "p": 0.375,
+       "fair": "+167",
+       "min": "+183",
+       "p2": 0.099,
+       "fair2": "+907",
+       "min2": "+967",
+       "adj": [
+        [
+         "opp",
+         1.0258064516129033
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Colton Dach",
+         "jersey": 34,
+         "pp": 2,
+         "n": 9,
+         "both": 1,
+         "either": 7
+        },
+        {
+         "name": "Zach Hyman",
+         "jersey": 18,
+         "pp": 1,
+         "n": 6,
+         "both": 1,
+         "either": 1
+        }
+       ]
+      },
+      {
        "name": "Zach Hyman",
        "jersey": 18,
        "team": "EDM",
@@ -440,89 +445,18 @@
         {
          "name": "Kasperi Kapanen",
          "jersey": 42,
+         "pp": 1,
+         "n": 6,
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Colton Dach",
+         "jersey": 34,
          "pp": 2,
-         "n": 6,
+         "n": 3,
          "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Ryan Nugent-Hopkins",
-         "jersey": 93,
-         "pp": 1,
-         "n": 6,
-         "both": 0,
-         "either": 3
-        }
-       ]
-      },
-      {
-       "name": "Kasperi Kapanen",
-       "jersey": 42,
-       "team": "EDM",
-       "opp": "PHI",
-       "home": false,
-       "line": 2,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 21,
-       "pt_games": 8,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 5,
-       "two_games": 2,
-       "home_split": [
-        3,
-        12
-       ],
-       "away_split": [
-        5,
-        9
-       ],
-       "pp_toi": 1.6,
-       "toi": 17.3,
-       "p": 0.326,
-       "fair": "+207",
-       "min": "+225",
-       "p2": 0.073,
-       "fair2": "+1273",
-       "min2": "+1355",
-       "adj": [
-        [
-         "opp",
-         1.0258064516129033
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ryan Nugent-Hopkins",
-         "jersey": 93,
-         "pp": 1,
-         "n": 10,
-         "both": 5,
-         "either": 6
-        },
-        {
-         "name": "Zach Hyman",
-         "jersey": 18,
-         "pp": 1,
-         "n": 6,
-         "both": 1,
-         "either": 1
+         "either": 2
         }
        ]
       },
@@ -580,17 +514,17 @@
        },
        "partners": [
         {
-         "name": "Colton Dach",
-         "jersey": 34,
-         "pp": 2,
-         "n": 1,
+         "name": "Filip Hallander",
+         "jersey": 19,
+         "pp": null,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
          "name": "Trent Frederic",
          "jersey": 10,
-         "pp": null,
+         "pp": 2,
          "n": 3,
          "both": 0,
          "either": 0
@@ -603,11 +537,11 @@
        "team": "EDM",
        "opp": "PHI",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "G",
        "gp": 15,
        "pt_games": 3,
@@ -628,12 +562,83 @@
        ],
        "pp_toi": 0.8,
        "toi": 14.8,
-       "p": 0.192,
-       "fair": "+421",
-       "min": "+453",
-       "p2": 0.081,
-       "fair2": "+1139",
-       "min2": "+1213",
+       "p": 0.219,
+       "fair": "+356",
+       "min": "+383",
+       "p2": 0.092,
+       "fair2": "+989",
+       "min2": "+1054",
+       "adj": [
+        [
+         "opp",
+         1.0258064516129033
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Kasperi Kapanen",
+         "jersey": 42,
+         "pp": 1,
+         "n": 9,
+         "both": 1,
+         "either": 7
+        },
+        {
+         "name": "Zach Hyman",
+         "jersey": 18,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Filip Hallander",
+       "jersey": 19,
+       "team": "EDM",
+       "opp": "PHI",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 9,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        4
+       ],
+       "away_split": [
+        0,
+        5
+       ],
+       "pp_toi": 0.6,
+       "toi": 9.3,
+       "p": 0.104,
+       "fair": "+864",
+       "min": "+921",
+       "p2": 0.015,
+       "fair2": "+4900",
+       "min2": "+4900",
        "adj": [
         [
          "opp",
@@ -647,22 +652,22 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
          "name": "Jason Dickinson",
          "jersey": 16,
          "pp": null,
-         "n": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
          "name": "Trent Frederic",
          "jersey": 10,
-         "pp": null,
-         "n": 2,
+         "pp": 2,
+         "n": 4,
          "both": 0,
          "either": 0
         }
@@ -675,7 +680,7 @@
        "opp": "PHI",
        "home": false,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "pos": "RW",
        "gtd": false,
        "role": "other",
@@ -717,15 +722,15 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Colton Dach",
-         "jersey": 34,
-         "pp": 2,
-         "n": 2,
+         "name": "Filip Hallander",
+         "jersey": 19,
+         "pp": null,
+         "n": 4,
          "both": 0,
          "either": 0
         },
@@ -2943,7 +2948,7 @@
      "goalie_source": "Derek Wills",
      "sv": "0.913",
      "gaa": "2.63",
-     "ml": "-185",
+     "ml": "-192",
      "gp": 20,
      "gf": 2.5,
      "gf_rk": 29,
@@ -3662,7 +3667,7 @@
      "goalie_source": "",
      "sv": "0.869",
      "gaa": "3.54",
-     "ml": "154",
+     "ml": "160",
      "gp": 20,
      "gf": 3.65,
      "gf_rk": 6,
@@ -6446,9 +6451,9 @@
      "home": true,
      "b2b": true,
      "goalie": "Alex Nedeljkovic",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Nedeljkovic will start vs. Nashville on Sunday.",
+     "goalie_source": "Curtis Pashelka",
      "sv": "0.895",
      "gaa": "3.22",
      "ml": "-170",

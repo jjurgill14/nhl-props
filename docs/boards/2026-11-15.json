@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-15T23:15:09.580561+00:00",
+ "generated_utc": "2026-11-15T23:30:14.309161+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1056,12 +1056,12 @@
     "record": "15-3-3",
     "b2b": true,
     "goalie": "Tristan Jarry",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Jarry will start in Philadelphia on Sunday.",
+    "goalie_source": "Paige Martin",
     "sv": "0.903",
     "gaa": "2.5",
-    "lineup_as_of": "2026-11-15T21:44:39.672458+00:00",
+    "lineup_as_of": "2026-11-15T23:30:12.324785+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 3,
@@ -1224,21 +1224,6 @@
       ]
      },
      {
-      "selection": "Ryan Nugent-Hopkins \u00b7 1+ point",
-      "prob": 0.455,
-      "fair": "+120",
-      "need": "+133",
-      "rationale": "Point in 6 of 12 this season, 1 of last 5 \u00b7 PP1, 2.4 PP min/game over L5",
-      "player": "Ryan Nugent-Hopkins",
-      "team": "EDM",
-      "pp": 1,
-      "line": 2,
-      "bias": "A",
-      "players": [
-       8476454
-      ]
-     },
-     {
       "selection": "Matvei Michkov \u00b7 1+ point",
       "prob": 0.448,
       "fair": "+123",
@@ -1281,6 +1266,21 @@
       "bias": "A",
       "players": [
        8481533
+      ]
+     },
+     {
+      "selection": "Kasperi Kapanen \u00b7 1+ point",
+      "prob": 0.375,
+      "fair": "+167",
+      "need": "+183",
+      "rationale": "Point in 8 of 21 this season, 1 of last 5 \u00b7 PP1, 1.6 PP min/game over L5",
+      "player": "Kasperi Kapanen",
+      "team": "EDM",
+      "pp": 1,
+      "line": 2,
+      "bias": "A",
+      "players": [
+       8477953
       ]
      }
     ],
@@ -1334,22 +1334,6 @@
       ]
      },
      {
-      "selection": "Nugent-Hopkins + Kapanen \u00b7 both 1+ point",
-      "prob": 0.368,
-      "fair": "+172",
-      "need": "+188",
-      "rationale": "Both scored 5 of 10 games together \u00b7 independent 15% \u00b7 correlated",
-      "team": "EDM",
-      "line": 2,
-      "read": "correlated",
-      "both": 5,
-      "n": 10,
-      "players": [
-       8476454,
-       8477953
-      ]
-     },
-     {
       "selection": "Michkov + Martone \u00b7 both 1+ point",
       "prob": 0.289,
       "fair": "+246",
@@ -1363,6 +1347,22 @@
       "players": [
        8484387,
        8485406
+      ]
+     },
+     {
+      "selection": "Hyman + Dach \u00b7 both 1+ point",
+      "prob": 0.164,
+      "fair": "+512",
+      "need": "+548",
+      "rationale": "Both scored 1 of 3 games together \u00b7 independent 8% \u00b7 new pair",
+      "team": "EDM",
+      "line": 2,
+      "read": "new pair",
+      "both": 1,
+      "n": 3,
+      "players": [
+       8475786,
+       8482703
       ]
      }
     ],
@@ -1393,20 +1393,6 @@
       "line": 1,
       "players": [
        8477934
-      ]
-     },
-     {
-      "selection": "Ryan Nugent-Hopkins \u00b7 2+ points",
-      "prob": 0.264,
-      "fair": "+279",
-      "need": "+302",
-      "rationale": "2+ in 5 of 12 \u00b7 2.4 PP min/game \u00b7 PP1 \u00b7 B2B haircut applied",
-      "player": "Ryan Nugent-Hopkins",
-      "team": "EDM",
-      "pp": 1,
-      "line": 2,
-      "players": [
-       8476454
       ]
      },
      {
@@ -1458,18 +1444,18 @@
       ]
      },
      {
-      "selection": "Nugent-Hopkins + Hyman \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.082,
-      "fair": "+1124",
-      "need": "+1198",
-      "rationale": "Both scored 0 of 6 games together \u00b7 independent 16% \u00b7 negative",
+      "selection": "Kapanen + Hyman \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.151,
+      "fair": "+564",
+      "need": "+604",
+      "rationale": "Both scored 1 of 6 games together \u00b7 independent 13% \u00b7 correlated",
       "team": "EDM",
       "line": 2,
-      "read": "negative",
-      "both": 0,
+      "read": "correlated",
+      "both": 1,
       "n": 6,
       "players": [
-       8476454,
+       8477953,
        8475786
       ]
      }
@@ -1488,10 +1474,10 @@
    "lineup": {
     "away": {
      "team": "EDM",
-     "as_of": "2026-11-15T21:44:39.672458+00:00",
+     "as_of": "2026-11-15T23:30:12.324785+00:00",
      "stale": false,
-     "source": "Last Game (11-14-26)",
-     "updated_dfo": "2026-11-15T13:17:27.009Z",
+     "source": "Paige Martin",
+     "updated_dfo": "2026-11-15T23:17:13.035Z",
      "forwards": [
       [
        {
@@ -1619,7 +1605,7 @@
         "dfo_id": 2385,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -1644,44 +1630,44 @@
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
        {
-        "name": "Ryan Nugent-Hopkins",
-        "jersey": 93,
+        "name": "Colton Dach",
+        "jersey": 34,
         "pos": "C",
         "slot": null,
-        "player_id": 8476454,
-        "dfo_id": 1733,
+        "player_id": 8482703,
+        "dfo_id": 32903,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 12,
-         "p": 11,
-         "ppp": 7,
-         "sog": 19,
-         "toi_s": 13098
+         "a": 2,
+         "g": 3,
+         "gp": 15,
+         "p": 5,
+         "ppp": 1,
+         "sog": 29,
+         "toi_s": 12842
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 1,
+         "g": 2,
          "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 4,
-         "toi_s": 4747
+         "p": 3,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 4426
         },
-        "l5_point_games": 1,
-        "gp": 12,
+        "l5_point_games": 2,
+        "gp": 15,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1727,41 +1713,41 @@
       ],
       [
        {
-        "name": "Colton Dach",
-        "jersey": 34,
+        "name": "Filip Hallander",
+        "jersey": 19,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482703,
-        "dfo_id": 32903,
+        "player_id": 8480842,
+        "dfo_id": 29096,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
          "a": 2,
-         "g": 3,
-         "gp": 15,
-         "p": 5,
-         "ppp": 1,
-         "sog": 29,
-         "toi_s": 12842
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
+         "g": 1,
+         "gp": 11,
          "p": 3,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 4426
+         "sog": 9,
+         "toi_s": 6769
         },
-        "l5_point_games": 2,
-        "gp": 15,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2794
+        },
+        "l5_point_games": 0,
+        "gp": 9,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -1811,7 +1797,7 @@
         "dfo_id": 2662,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -1836,7 +1822,7 @@
         "gp": 18,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -2323,48 +2309,10 @@
         }
        },
        {
-        "name": "Ryan Nugent-Hopkins",
-        "jersey": 93,
-        "pos": null,
-        "slot": 2,
-        "player_id": 8476454,
-        "dfo_id": 1733,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 12,
-         "p": 11,
-         "ppp": 7,
-         "sog": 19,
-         "toi_s": 13098
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 4,
-         "toi_s": 4747
-        },
-        "l5_point_games": 1,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Leon Draisaitl",
         "jersey": 29,
         "pos": null,
-        "slot": 3,
+        "slot": 2,
         "player_id": 8477934,
         "dfo_id": 2365,
         "gtd": false,
@@ -2395,6 +2343,44 @@
         "move": {
          "ev": 0,
          "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Kasperi Kapanen",
+        "jersey": 42,
+        "pos": null,
+        "slot": 3,
+        "player_id": 8477953,
+        "dfo_id": 2385,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 5,
+         "gp": 21,
+         "p": 10,
+         "ppp": 7,
+         "sog": 29,
+         "toi_s": 22784
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 5189
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -2547,46 +2533,46 @@
         "l5_point_games": 2,
         "gp": 15,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Kasperi Kapanen",
-        "jersey": 42,
+        "name": "Trent Frederic",
+        "jersey": 10,
         "pos": null,
         "slot": 3,
-        "player_id": 8477953,
-        "dfo_id": 2385,
+        "player_id": 8479365,
+        "dfo_id": 2662,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 5,
-         "gp": 21,
-         "p": 10,
-         "ppp": 7,
-         "sog": 29,
-         "toi_s": 22784
+         "a": 0,
+         "g": 1,
+         "gp": 18,
+         "p": 1,
+         "ppp": 0,
+         "sog": 16,
+         "toi_s": 10089
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 6,
-         "toi_s": 5189
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 2595
         },
-        "l5_point_games": 1,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 18,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -2833,7 +2819,7 @@
         "dfo_id": 2385,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -2858,7 +2844,7 @@
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -3003,6 +2989,11 @@
        "player": "Isaac Howard",
        "status": "IR",
        "news": "Howard (lower-body) is considered week-to-week."
+      },
+      {
+       "player": "Ryan Nugent-Hopkins",
+       "status": "OUT",
+       "news": "Nugent-Hopkins (undisclosed) is out vs. Philadelphia on Sunday."
       }
      ],
      "unit_ratings": {
@@ -3027,8 +3018,8 @@
        "rating": 84.3760359183493
       },
       "f2": {
-       "rank": 16,
-       "rating": 74.49438675803798
+       "rank": 23,
+       "rating": 73.04186163298365
       },
       "f3": {
        "rank": 30,
@@ -8340,8 +8331,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-185",
-     "home": "+154",
+     "away": "-192",
+     "home": "+160",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-15T22:14:47.909823+00:00"
     },
@@ -15452,9 +15443,9 @@
     "record": "9-11-2",
     "b2b": true,
     "goalie": "Alex Nedeljkovic",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Nedeljkovic will start vs. Nashville on Sunday.",
+    "goalie_source": "Curtis Pashelka",
     "sv": "0.895",
     "gaa": "3.22",
     "lineup_as_of": "2026-11-15T23:00:02.716072+00:00",
