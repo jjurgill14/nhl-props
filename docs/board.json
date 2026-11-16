@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-16T21:56:24.653245+00:00",
+ "generated_utc": "2026-11-16T23:57:04.189931+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -4642,8 +4642,8 @@
     "goalie_source": "Rick Dhaliwal",
     "sv": "0.0",
     "gaa": "0.0",
-    "lineup_as_of": "2026-11-16T01:41:44.808Z",
-    "lineup_checked": "2026-11-16T14:21:44.000278+00:00",
+    "lineup_as_of": "2026-11-16T15:12:09.658Z",
+    "lineup_checked": "2026-11-16T23:57:02.894737+00:00",
     "lineup_stale": false,
     "ga_rk": 1,
     "gf_rk": 22,
@@ -4691,8 +4691,8 @@
     "goalie_source": "Brogan Houston",
     "sv": "0.868",
     "gaa": "3.14",
-    "lineup_as_of": "2026-11-15T14:10:11.060Z",
-    "lineup_checked": "2026-11-16T14:21:43.941822+00:00",
+    "lineup_as_of": "2026-11-16T19:27:38.549Z",
+    "lineup_checked": "2026-11-16T23:57:02.793220+00:00",
     "lineup_stale": false,
     "ga_rk": 9,
     "gf_rk": 10,
@@ -4728,10 +4728,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+114",
-     "home": "-135",
+     "away": "+110",
+     "home": "-130",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-15T14:10:11.060Z"
+     "as_of": "2026-11-16T19:27:38.549Z"
     },
     "total": {
      "line": 6.5,
@@ -5087,11 +5087,11 @@
    "lineup": {
     "away": {
      "team": "VAN",
-     "as_of": "2026-11-16T01:41:44.808Z",
-     "checked": "2026-11-16T14:21:44.000278+00:00",
+     "as_of": "2026-11-16T15:12:09.658Z",
+     "checked": "2026-11-16T23:57:02.894737+00:00",
      "stale": false,
-     "source": "Brendan Batchelor",
-     "updated_dfo": "2026-11-16T01:41:44.808Z",
+     "source": "Last Game (2026-11-15)",
+     "updated_dfo": "2026-11-16T15:12:09.658Z",
      "forwards": [
       [
        {
@@ -5219,7 +5219,7 @@
         "dfo_id": 27620,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
@@ -5244,7 +5244,7 @@
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        },
@@ -5412,7 +5412,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": "G",
         "season": {
          "a": 6,
@@ -5490,7 +5490,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": "G",
         "season": {
          "a": 2,
@@ -5685,7 +5685,7 @@
         "dfo_id": 38455,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -5710,7 +5710,7 @@
         "gp": 18,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -6077,12 +6077,12 @@
       ],
       [
        {
-        "name": "Paul Cotter",
-        "jersey": 47,
+        "name": "Marco Rossi",
+        "jersey": 23,
         "pos": null,
         "slot": 1,
-        "player_id": 8481032,
-        "dfo_id": 27620,
+        "player_id": 8482079,
+        "dfo_id": 29821,
         "gtd": false,
         "injury": null,
         "pp": 2,
@@ -6090,24 +6090,24 @@
         "bias": null,
         "season": {
          "a": 4,
-         "g": 4,
-         "gp": 21,
-         "p": 8,
+         "g": 3,
+         "gp": 20,
+         "p": 7,
          "ppp": 2,
-         "sog": 13,
-         "toi_s": 17828
+         "sog": 35,
+         "toi_s": 18422
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 1,
-         "toi_s": 4236
+         "sog": 12,
+         "toi_s": 4160
         },
-        "l5_point_games": 0,
-        "gp": 21,
+        "l5_point_games": 1,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -6162,7 +6162,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": "G",
         "season": {
          "a": 6,
@@ -6229,12 +6229,12 @@
         }
        },
        {
-        "name": "Marco Rossi",
-        "jersey": 23,
+        "name": "Tom Willander",
+        "jersey": 5,
         "pos": null,
         "slot": 5,
-        "player_id": 8482079,
-        "dfo_id": 29821,
+        "player_id": 8484240,
+        "dfo_id": 38455,
         "gtd": false,
         "injury": null,
         "pp": 2,
@@ -6242,12 +6242,12 @@
         "bias": null,
         "season": {
          "a": 4,
-         "g": 3,
-         "gp": 20,
-         "p": 7,
-         "ppp": 2,
-         "sog": 35,
-         "toi_s": 18422
+         "g": 0,
+         "gp": 18,
+         "p": 4,
+         "ppp": 0,
+         "sog": 16,
+         "toi_s": 22048
         },
         "last5": {
          "a": 1,
@@ -6255,14 +6255,14 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 4160
+         "sog": 7,
+         "toi_s": 6060
         },
         "l5_point_games": 1,
-        "gp": 20,
+        "gp": 18,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -6463,36 +6463,36 @@
         }
        },
        {
-        "name": "Max Sasson",
-        "jersey": 63,
+        "name": "Linus Karlsson",
+        "jersey": 94,
         "pos": null,
         "slot": 2,
-        "player_id": 8484136,
-        "dfo_id": 30007,
+        "player_id": 8481024,
+        "dfo_id": 29135,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": "G",
         "season": {
-         "a": 2,
+         "a": 6,
          "g": 6,
          "gp": 22,
-         "p": 8,
-         "ppp": 0,
-         "sog": 25,
-         "toi_s": 16419
+         "p": 12,
+         "ppp": 1,
+         "sog": 43,
+         "toi_s": 19118
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 2,
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3654
+         "sog": 14,
+         "toi_s": 4272
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 22,
         "move": {
          "ev": 0,
@@ -6587,7 +6587,7 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 30,
+       "rank": 31,
        "rating": 71.1851359118453
       },
       "d2": {
@@ -6595,15 +6595,15 @@
        "rating": 0
       },
       "d3": {
-       "rank": 22,
+       "rank": 21,
        "rating": 71.40584302949271
       },
       "d4": {
-       "rank": 6,
+       "rank": 7,
        "rating": 0
       },
       "f1": {
-       "rank": 19,
+       "rank": 18,
        "rating": 75.95153440550536
       },
       "f2": {
@@ -6642,11 +6642,11 @@
     },
     "home": {
      "team": "UTA",
-     "as_of": "2026-11-15T14:10:11.060Z",
-     "checked": "2026-11-16T14:21:43.941822+00:00",
+     "as_of": "2026-11-16T19:27:38.549Z",
+     "checked": "2026-11-16T23:57:02.793220+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-14)",
-     "updated_dfo": "2026-11-15T14:10:11.060Z",
+     "source": "Brogan Houston",
+     "updated_dfo": "2026-11-16T19:27:38.549Z",
      "forwards": [
       [
        {
@@ -6850,7 +6850,7 @@
         "dfo_id": 38459,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": "A",
         "season": {
@@ -6875,7 +6875,7 @@
         "gp": 16,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -7160,7 +7160,7 @@
         "slot": null,
         "player_id": 8483436,
         "dfo_id": 36382,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -7280,7 +7280,7 @@
         "dfo_id": 30457,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -7305,7 +7305,7 @@
         "gp": 2,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -7440,37 +7440,37 @@
      "pp": [
       [
        {
-        "name": "Kailer Yamamoto",
-        "jersey": 56,
+        "name": "Barrett Hayton",
+        "jersey": 27,
         "pos": null,
         "slot": 1,
-        "player_id": 8479977,
-        "dfo_id": 2796,
+        "player_id": 8480849,
+        "dfo_id": 4796,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 7,
+         "a": 8,
          "g": 3,
-         "gp": 12,
-         "p": 10,
-         "ppp": 4,
-         "sog": 24,
-         "toi_s": 11178
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 39,
+         "toi_s": 18655
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 0,
+         "g": 2,
          "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 4,
-         "toi_s": 4965
+         "p": 2,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4910
         },
-        "l5_point_games": 1,
-        "gp": 12,
+        "l5_point_games": 2,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -7516,37 +7516,37 @@
         }
        },
        {
-        "name": "Barrett Hayton",
-        "jersey": 27,
+        "name": "Kailer Yamamoto",
+        "jersey": 56,
         "pos": null,
         "slot": 3,
-        "player_id": 8480849,
-        "dfo_id": 4796,
+        "player_id": 8479977,
+        "dfo_id": 2796,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 8,
+         "a": 7,
          "g": 3,
-         "gp": 21,
-         "p": 11,
-         "ppp": 3,
-         "sog": 39,
-         "toi_s": 18655
+         "gp": 12,
+         "p": 10,
+         "ppp": 4,
+         "sog": 24,
+         "toi_s": 11178
         },
         "last5": {
-         "a": 0,
-         "g": 2,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 4910
+         "p": 3,
+         "ppp": 2,
+         "sog": 4,
+         "toi_s": 4965
         },
-        "l5_point_games": 2,
-        "gp": 21,
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -7746,40 +7746,40 @@
         }
        },
        {
-        "name": "Daniil But",
-        "jersey": 50,
+        "name": "Zac Jones",
+        "jersey": 15,
         "pos": null,
         "slot": 4,
-        "player_id": 8484388,
-        "dfo_id": 38459,
+        "player_id": 8481708,
+        "dfo_id": 30457,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 2,
+         "a": 0,
          "g": 2,
-         "gp": 16,
-         "p": 4,
+         "gp": 2,
+         "p": 2,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 10042
+         "sog": 6,
+         "toi_s": 1538
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 2800
+         "p": 4,
+         "ppp": 1,
+         "sog": 13,
+         "toi_s": 4584
         },
-        "l5_point_games": 0,
-        "gp": 16,
+        "l5_point_games": 1,
+        "gp": 2,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -8158,11 +8158,16 @@
        "player": "Nick Schmaltz",
        "status": "DTD",
        "news": "Schmaltz (lower-body) will not play on Saturday and is still being evaluated."
+      },
+      {
+       "player": "Artem Duda",
+       "status": "DTD",
+       "news": "Duda (lower-body) will be a game-time decision vs. Vancouver on Monday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 14,
+       "rank": 15,
        "rating": 74.9227894568078
       },
       "d2": {
@@ -8174,7 +8179,7 @@
        "rating": 72.57051807650141
       },
       "d4": {
-       "rank": 6,
+       "rank": 7,
        "rating": 0
       },
       "f1": {
@@ -8182,7 +8187,7 @@
        "rating": 74.60858295899371
       },
       "f2": {
-       "rank": 24,
+       "rank": 23,
        "rating": 72.78468950711832
       },
       "f3": {

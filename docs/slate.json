@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_utc": "2026-11-16T21:48:03.291873+00:00",
+ "generated_utc": "2026-11-16T23:57:03.693380+00:00",
  "games": [
   {
    "game_id": 2026020331,
@@ -34,7 +34,8 @@
      "ppga_rk": 10,
      "l5_gf": 3.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-16T14:21:43.679081+00:00",
+     "lineup_as_of": "2026-11-15T13:54:28.416Z",
+     "lineup_checked": "2026-11-16T14:21:43.679081+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -740,7 +741,8 @@
      "ppga_rk": 31,
      "l5_gf": 3.2,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-16T21:48:01.946361+00:00",
+     "lineup_as_of": "2026-11-15T17:40:33.127Z",
+     "lineup_checked": "2026-11-16T21:48:01.946361+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -1436,7 +1438,7 @@
      "goalie_source": "Rick Dhaliwal",
      "sv": "0.0",
      "gaa": "0.0",
-     "ml": "114",
+     "ml": "110",
      "gp": 22,
      "gf": 2.8636363636363638,
      "gf_rk": 22,
@@ -1448,7 +1450,8 @@
      "ppga_rk": 1,
      "l5_gf": 2.4,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-16T14:21:44.000278+00:00",
+     "lineup_as_of": "2026-11-16T15:12:09.658Z",
+     "lineup_checked": "2026-11-16T23:57:02.894737+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -1487,11 +1490,11 @@
       "Filip Hronek"
      ],
      "pp2": [
-      "Paul Cotter",
+      "Marco Rossi",
       "Filip Chytil",
       "Linus Karlsson",
       "Zeev Buium",
-      "Marco Rossi"
+      "Tom Willander"
      ],
      "players": [
       {
@@ -1550,7 +1553,7 @@
         {
          "name": "Paul Cotter",
          "jersey": 47,
-         "pp": 2,
+         "pp": null,
          "n": 9,
          "both": 1,
          "either": 6
@@ -1980,7 +1983,7 @@
         {
          "name": "Paul Cotter",
          "jersey": 47,
-         "pp": 2,
+         "pp": null,
          "n": 5,
          "both": 1,
          "either": 3
@@ -2002,7 +2005,7 @@
        "opp": "UTA",
        "home": false,
        "line": 2,
-       "pp": 2,
+       "pp": null,
        "pos": "LW",
        "gtd": false,
        "role": "top6",
@@ -2044,7 +2047,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
@@ -2150,7 +2153,7 @@
      "goalie_source": "Brogan Houston",
      "sv": "0.868",
      "gaa": "3.14",
-     "ml": "-135",
+     "ml": "-130",
      "gp": 21,
      "gf": 3.380952380952381,
      "gf_rk": 10,
@@ -2162,7 +2165,8 @@
      "ppga_rk": 5,
      "l5_gf": 2.8,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-16T14:21:43.941822+00:00",
+     "lineup_as_of": "2026-11-16T19:27:38.549Z",
+     "lineup_checked": "2026-11-16T23:57:02.793220+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2189,6 +2193,11 @@
        "player": "Nick Schmaltz",
        "status": "DTD",
        "news": "Schmaltz (lower-body) will not play on Saturday and is still being evaluated."
+      },
+      {
+       "player": "Artem Duda",
+       "status": "DTD",
+       "news": "Duda (lower-body) will be a game-time decision vs. Vancouver on Monday."
       }
      ],
      "lines": {
@@ -2214,9 +2223,9 @@
       ]
      },
      "pp1": [
-      "Kailer Yamamoto",
-      "Vincent Trocheck",
       "Barrett Hayton",
+      "Vincent Trocheck",
+      "Kailer Yamamoto",
       "Mikhail Sergachev",
       "Clayton Keller"
      ],
@@ -2224,7 +2233,7 @@
       "Anders Lee",
       "Lawson Crouse",
       "Michael Carcone",
-      "Daniil But",
+      "Zac Jones",
       "MacKenzie Weegar"
      ],
      "players": [
@@ -2355,7 +2364,7 @@
         {
          "name": "Daniil But",
          "jersey": 50,
-         "pp": 2,
+         "pp": null,
          "n": 1,
          "both": 0,
          "either": 0
@@ -2422,7 +2431,7 @@
         {
          "name": "Daniil But",
          "jersey": 50,
-         "pp": 2,
+         "pp": null,
          "n": 2,
          "both": 0,
          "either": 1
@@ -2570,7 +2579,7 @@
        "opp": "VAN",
        "home": true,
        "line": 2,
-       "pp": 2,
+       "pp": null,
        "pos": "RW",
        "gtd": false,
        "role": "top6",
@@ -2612,7 +2621,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
