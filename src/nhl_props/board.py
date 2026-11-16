@@ -183,7 +183,7 @@ def build(date: str | None = None) -> Path:
                     "record": rec.get(t["team"], {}).get("text", "0-0-0"), "b2b": t["b2b"],
                     "goalie": t["goalie"], "goalie_status": t["goalie_status"], "goalie_news": t["goalie_news"],
                     "goalie_source": t["goalie_source"], "sv": t["sv"], "gaa": t["gaa"],
-                    "lineup_as_of": t["lineup_as_of"], "lineup_stale": t["lineup_stale"],
+                    "lineup_as_of": t["lineup_as_of"], "lineup_checked": t.get("lineup_checked"), "lineup_stale": t["lineup_stale"],
                     "ga_rk": t["ga_rk"], "gf_rk": t["gf_rk"], "ppga_rk": t["ppga_rk"],
                     "rates": _rates_block(season.get(t["team"], {}), l5.get(t["team"], {}))}
         a, h = team("away"), team("home")

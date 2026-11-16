@@ -98,7 +98,7 @@ def team_lineup(team: str, date: str, logs, ids, grec) -> dict | None:
         for no, ps in units[sec].items():
             ps.sort(key=lambda e: (_POS_ORDER.get(e["pos"] or "", 9), e["slot"] or 0))
     return {
-        "team": team, "as_of": cur.get("captured_utc"), "stale": not snaps,
+        "team": team, "as_of": cur.get("updated_dfo") or cur.get("captured_utc"), "checked": cur.get("captured_utc"), "stale": not snaps,
         "source": cur.get("source_name") or "Daily Faceoff", "updated_dfo": cur.get("updated_dfo"),
         "forwards": [units["F"][i] for i in (1, 2, 3, 4)],
         "defense": [units["D"][i] for i in (1, 2, 3)],

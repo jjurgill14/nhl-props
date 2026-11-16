@@ -1,10 +1,12 @@
+import { LineupStamp } from './LineupStamp'
+import { etYmd } from '../data/time'
 import { useEffect, useRef } from 'react'
 import type { Game, LensKey, TeamSide } from '../data/types'
 import { LOGO } from '../data/load'
 import { etStamp, etTime } from '../data/time'
 import { propsFor, type PropsOpener } from './GameCard'
 
-function TeamBlock({ t, side }: { t: TeamSide; side: 'AWAY' | 'HOME' }) {
+function TeamBlock({ t, side, gameDate }: { t: TeamSide; side: 'AWAY' | 'HOME'; gameDate: string }) {
   return (
     <div className="drawer-team">
       <img src={LOGO(t.abbr)} alt="" />
@@ -20,7 +22,7 @@ function TeamBlock({ t, side }: { t: TeamSide; side: 'AWAY' | 'HOME' }) {
           🥅 {t.goalie ?? 'TBD'} ({t.goalie_status ?? 'unconfirmed'}) · {t.sv ?? '–'} sv% · {t.gaa ?? '–'} GAA
           {t.goalie_news ? ` — ${t.goalie_news}` : ''}
         </small>
-        <small>lineup as of {etStamp(t.lineup_as_of)} ET</small>
+        <small><LineupStamp asOf={t.lineup_as_of} checked={t.lineup_checked} stale={t.lineup_stale} gameDate={gameDate} /></small>
       </div>
     </div>
   )
@@ -70,8 +72,8 @@ export function Drawer({ game, lensLabels, onClose, onLineups, onProps }: Props)
             Lines & lineups for this game <span>OPEN ↗</span>
           </button>
         )}
-        <TeamBlock t={away} side="AWAY" />
-        <TeamBlock t={home} side="HOME" />
+        <TeamBlock t={away} side="AWAY" gameDate={etYmd(game.start_utc) ?? ''} />
+        <TeamBlock t={home} side="HOME" gameDate={etYmd(game.start_utc) ?? ''} />
         <div className="drawer-stats">
           <div className="drawer-stat">
             <small>{away.abbr} MONEYLINE</small>

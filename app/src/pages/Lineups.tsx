@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import type { Board, Game, LineupPlayer, TeamLineup, TeamSide } from '../data/types'
 import { LOGO } from '../data/load'
-import { etStamp, etTime } from '../data/time'
+import { etTime } from '../data/time'
 import { Sweater } from '../components/Sweater'
 import { Badge } from '../components/Badge'
+import { LineupStamp } from '../components/LineupStamp'
 import { RankStrip } from '../components/RankStrip'
 
 function Tag({ p }: { p: LineupPlayer }) {
@@ -63,7 +64,7 @@ function Goalie({ p, team, label }: { p: LineupPlayer; team: TeamSide; label: st
   )
 }
 
-function TeamPanel({ lu, team, side, goalieStatus, onPlayer }: { lu: TeamLineup | null; team: TeamSide; side: 'AWAY' | 'HOME'; goalieStatus: string | null; onPlayer?: (id: number) => void }) {
+function TeamPanel({ lu, team, side, goalieStatus, onPlayer, gameDate }: { lu: TeamLineup | null; team: TeamSide; side: 'AWAY' | 'HOME'; goalieStatus: string | null; onPlayer?: (id: number) => void; gameDate: string }) {
   if (!lu) {
     return (
       <section className="lu-panel">
@@ -82,7 +83,7 @@ function TeamPanel({ lu, team, side, goalieStatus, onPlayer }: { lu: TeamLineup 
           </h3>
           <div className="lu-sub">
             {side} <span className="sep">|</span> Record: {team.record} <span className="sep">|</span>{' '}
-            {lu.stale ? <b className="warn">last known lineup</b> : 'lineup'} as of {etStamp(lu.as_of)} ET
+            <LineupStamp asOf={lu.as_of} checked={lu.checked} stale={lu.stale} gameDate={gameDate} />
             {team.b2b && <i className="lu-tag b2b">B2B</i>}
           </div>
           <RankStrip r={team.rates} />
@@ -222,8 +223,8 @@ export function Lineups({ board, gameId, onPick, onPlayer }: Props) {
       {tab === 'lines' ? (
         <div className="lu-grid">
           <div className="lu-center">Projected Lineups</div>
-          <TeamPanel lu={lineup?.away ?? null} team={away} side="AWAY" goalieStatus={away.goalie_status} onPlayer={onPlayer} />
-          <TeamPanel lu={lineup?.home ?? null} team={home} side="HOME" goalieStatus={home.goalie_status} onPlayer={onPlayer} />
+          <TeamPanel lu={lineup?.away ?? null} team={away} side="AWAY" goalieStatus={away.goalie_status} onPlayer={onPlayer} gameDate={board.date} />
+          <TeamPanel lu={lineup?.home ?? null} team={home} side="HOME" goalieStatus={home.goalie_status} onPlayer={onPlayer} gameDate={board.date} />
         </div>
       ) : (
         <div className="state-box" style={{ marginTop: 18 }}>

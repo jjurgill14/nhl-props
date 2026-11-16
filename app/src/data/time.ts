@@ -47,3 +47,10 @@ export function longDate(ymd: string): string {
     new Date(Date.UTC(y, m - 1, d)),
   )
 }
+
+
+/** ET calendar date as YYYY-MM-DD, comparable to Board.date. */
+const fmtYmd = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' })
+export function etYmd(iso: string | null): string | null {
+  return iso ? fmtYmd.format(new Date(iso)) : null
+}

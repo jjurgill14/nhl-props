@@ -168,7 +168,8 @@ def build_slate(date: str) -> dict:
                 "ga": r.get("ga"), "ga_rk": r.get("ga_rk"), "sa": r.get("sa"), "sa_rk": r.get("sa_rk"),
                 "ppga": pk.get(t), "ppga_rk": pk_rk.get(t),
                 "l5_gf": r5.get("gf"), "l5_ga": r5.get("ga"),
-                "lineup_as_of": cur.get("captured_utc") if cur else None, "lineup_stale": stale,
+                "lineup_as_of": (cur.get("updated_dfo") or cur.get("captured_utc")) if cur else None,
+                "lineup_checked": cur.get("captured_utc") if cur else None, "lineup_stale": stale,
                 "out": [{"player": i["player"], "status": i.get("status"), "news": i.get("news")}
                         for i in (cur.get("injuries", []) if cur else [])],
                 "lines": {str(no): ev[no] for no in sorted(ev)},

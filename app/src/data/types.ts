@@ -36,6 +36,7 @@ export interface TeamSide {
   sv: string | null
   gaa: string | null
   lineup_as_of: string | null
+  lineup_checked?: string | null
   lineup_stale: boolean
   ga_rk: number | null
   gf_rk: number | null
@@ -129,6 +130,7 @@ export interface LineupPlayer {
 export interface TeamLineup {
   team: string
   as_of: string | null
+  checked?: string | null
   stale: boolean
   source: string
   updated_dfo: string | null
