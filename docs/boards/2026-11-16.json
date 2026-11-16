@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-16T12:32:29.891473+00:00",
+ "generated_utc": "2026-11-16T14:21:46.390522+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1055,14 +1055,14 @@
     "color2": "#192168",
     "record": "12-4-4",
     "b2b": false,
-    "goalie": null,
-    "goalie_status": null,
-    "goalie_news": null,
-    "goalie_source": null,
-    "sv": null,
-    "gaa": null,
-    "lineup_as_of": "2026-11-14T23:50:15.307258+00:00",
-    "lineup_stale": true,
+    "goalie": "Jacob Fowler",
+    "goalie_status": "",
+    "goalie_news": "",
+    "goalie_source": "",
+    "sv": "0.924",
+    "gaa": "2.26",
+    "lineup_as_of": "2026-11-16T14:21:43.679081+00:00",
+    "lineup_stale": false,
     "ga_rk": 16,
     "gf_rk": 12,
     "ppga_rk": 10,
@@ -1103,14 +1103,14 @@
     "color2": "#CE1126",
     "record": "12-8-1",
     "b2b": false,
-    "goalie": null,
-    "goalie_status": null,
-    "goalie_news": null,
-    "goalie_source": null,
-    "sv": null,
-    "gaa": null,
-    "lineup_as_of": "2026-11-13T18:10:14.480507+00:00",
-    "lineup_stale": true,
+    "goalie": "Joonas Korpisalo",
+    "goalie_status": "",
+    "goalie_news": "",
+    "goalie_source": "",
+    "sv": "0.931",
+    "gaa": "2.0",
+    "lineup_as_of": "2026-11-16T14:21:43.757596+00:00",
+    "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 19,
     "ppga_rk": 31,
@@ -1145,10 +1145,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": null,
-     "home": null,
+     "away": "+225",
+     "home": "-278",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-13T18:10:14.480507+00:00"
+     "as_of": "2026-11-16T14:21:43.757596+00:00"
     },
     "total": {
      "line": 6.5,
@@ -1470,10 +1470,10 @@
    "lineup": {
     "away": {
      "team": "MTL",
-     "as_of": "2026-11-14T23:50:15.307258+00:00",
-     "stale": true,
-     "source": "Patrick Friolet",
-     "updated_dfo": "2026-11-14T23:48:32.222Z",
+     "as_of": "2026-11-16T14:21:43.679081+00:00",
+     "stale": false,
+     "source": "Last Game (2026-11-14)",
+     "updated_dfo": "2026-11-15T13:54:28.416Z",
      "forwards": [
       [
        {
@@ -1489,22 +1489,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 6,
+         "a": 7,
          "g": 12,
-         "gp": 19,
-         "p": 18,
+         "gp": 20,
+         "p": 19,
          "ppp": 4,
-         "sog": 63,
-         "toi_s": 20949
+         "sog": 67,
+         "toi_s": 22122
         },
         "last5": {
-         "a": 2,
-         "g": 4,
+         "a": 3,
+         "g": 2,
          "gp": 5,
-         "p": 6,
-         "ppp": 3,
+         "p": 5,
+         "ppp": 1,
          "sog": 19,
-         "toi_s": 5185
+         "toi_s": 5316
         },
         "l5_point_games": 5,
         "gp": 20,
@@ -1528,21 +1528,21 @@
         "bias": null,
         "season": {
          "a": 9,
-         "g": 7,
-         "gp": 13,
-         "p": 16,
+         "g": 8,
+         "gp": 14,
+         "p": 17,
          "ppp": 3,
-         "sog": 34,
-         "toi_s": 16360
+         "sog": 36,
+         "toi_s": 17557
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 3,
          "gp": 5,
-         "p": 6,
+         "p": 5,
          "ppp": 1,
-         "sog": 12,
-         "toi_s": 5862
+         "sog": 10,
+         "toi_s": 5796
         },
         "l5_point_games": 3,
         "gp": 14,
@@ -1565,22 +1565,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 10,
+         "a": 11,
          "g": 2,
-         "gp": 19,
-         "p": 12,
+         "gp": 20,
+         "p": 13,
          "ppp": 4,
-         "sog": 45,
-         "toi_s": 20748
+         "sog": 47,
+         "toi_s": 21963
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 11,
-         "toi_s": 5415
+         "p": 2,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5640
         },
         "l5_point_games": 2,
         "gp": 20,
@@ -1607,11 +1607,11 @@
         "season": {
          "a": 3,
          "g": 6,
-         "gp": 19,
+         "gp": 20,
          "p": 9,
          "ppp": 3,
-         "sog": 31,
-         "toi_s": 16245
+         "sog": 32,
+         "toi_s": 17207
         },
         "last5": {
          "a": 1,
@@ -1619,8 +1619,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 1,
-         "sog": 8,
-         "toi_s": 4564
+         "sog": 9,
+         "toi_s": 4745
         },
         "l5_point_games": 0,
         "gp": 0,
@@ -1645,11 +1645,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 19,
+         "gp": 20,
          "p": 7,
          "ppp": 0,
-         "sog": 26,
-         "toi_s": 19339
+         "sog": 29,
+         "toi_s": 20540
         },
         "last5": {
          "a": 0,
@@ -1657,8 +1657,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5016
+         "sog": 8,
+         "toi_s": 5108
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -1678,16 +1678,16 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 3,
          "g": 2,
-         "gp": 19,
+         "gp": 20,
          "p": 5,
          "ppp": 1,
-         "sog": 33,
-         "toi_s": 15341
+         "sog": 34,
+         "toi_s": 16193
         },
         "last5": {
          "a": 0,
@@ -1695,8 +1695,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 4310
+         "sog": 13,
+         "toi_s": 4287
         },
         "l5_point_games": 0,
         "gp": 20,
@@ -1723,11 +1723,11 @@
         "season": {
          "a": 5,
          "g": 5,
-         "gp": 19,
+         "gp": 20,
          "p": 10,
          "ppp": 1,
-         "sog": 22,
-         "toi_s": 18553
+         "sog": 24,
+         "toi_s": 19471
         },
         "last5": {
          "a": 2,
@@ -1735,8 +1735,8 @@
          "gp": 5,
          "p": 4,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4629
+         "sog": 9,
+         "toi_s": 4364
         },
         "l5_point_games": 3,
         "gp": 20,
@@ -1761,11 +1761,11 @@
         "season": {
          "a": 1,
          "g": 1,
-         "gp": 12,
+         "gp": 13,
          "p": 2,
          "ppp": 0,
          "sog": 16,
-         "toi_s": 8704
+         "toi_s": 9307
         },
         "last5": {
          "a": 1,
@@ -1773,8 +1773,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3282
+         "sog": 5,
+         "toi_s": 3227
         },
         "l5_point_games": 1,
         "gp": 13,
@@ -1799,11 +1799,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 17,
+         "gp": 18,
          "p": 7,
          "ppp": 1,
-         "sog": 15,
-         "toi_s": 11428
+         "sog": 17,
+         "toi_s": 12185
         },
         "last5": {
          "a": 2,
@@ -1811,8 +1811,8 @@
          "gp": 5,
          "p": 4,
          "ppp": 1,
-         "sog": 7,
-         "toi_s": 3848
+         "sog": 8,
+         "toi_s": 3796
         },
         "l5_point_games": 3,
         "gp": 18,
@@ -1839,11 +1839,11 @@
         "season": {
          "a": 2,
          "g": 1,
-         "gp": 7,
+         "gp": 8,
          "p": 3,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 3310
+         "sog": 10,
+         "toi_s": 3758
         },
         "last5": {
          "a": 2,
@@ -1852,7 +1852,7 @@
          "p": 3,
          "ppp": 0,
          "sog": 7,
-         "toi_s": 2398
+         "toi_s": 2229
         },
         "l5_point_games": 3,
         "gp": 8,
@@ -1877,11 +1877,11 @@
         "season": {
          "a": 5,
          "g": 3,
-         "gp": 19,
+         "gp": 20,
          "p": 8,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 17617
+         "sog": 16,
+         "toi_s": 18553
         },
         "last5": {
          "a": 2,
@@ -1889,8 +1889,8 @@
          "gp": 5,
          "p": 3,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5179
+         "sog": 4,
+         "toi_s": 4951
         },
         "l5_point_games": 2,
         "gp": 20,
@@ -1901,41 +1901,41 @@
         }
        },
        {
-        "name": "Josh Anderson",
-        "jersey": 17,
+        "name": "Owen Beck",
+        "jersey": 62,
         "pos": "RW",
         "slot": null,
-        "player_id": 8476981,
-        "dfo_id": 21932,
+        "player_id": 8483424,
+        "dfo_id": 33212,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "G",
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 4,
-         "g": 8,
-         "gp": 18,
-         "p": 12,
+         "a": 2,
+         "g": 1,
+         "gp": 6,
+         "p": 3,
          "ppp": 0,
-         "sog": 34,
-         "toi_s": 15402
+         "sog": 6,
+         "toi_s": 3229
         },
         "last5": {
          "a": 2,
-         "g": 4,
+         "g": 1,
          "gp": 5,
-         "p": 6,
+         "p": 3,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 4227
+         "sog": 5,
+         "toi_s": 2810
         },
-        "l5_point_games": 2,
-        "gp": 19,
+        "l5_point_games": 3,
+        "gp": 6,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -1957,20 +1957,20 @@
         "season": {
          "a": 15,
          "g": 3,
-         "gp": 19,
+         "gp": 20,
          "p": 18,
          "ppp": 5,
-         "sog": 39,
-         "toi_s": 28263
+         "sog": 42,
+         "toi_s": 29887
         },
         "last5": {
-         "a": 5,
+         "a": 4,
          "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 3,
-         "sog": 14,
-         "toi_s": 7349
+         "p": 4,
+         "ppp": 2,
+         "sog": 16,
+         "toi_s": 7519
         },
         "l5_point_games": 3,
         "gp": 20,
@@ -1995,20 +1995,20 @@
         "season": {
          "a": 8,
          "g": 0,
-         "gp": 19,
+         "gp": 20,
          "p": 8,
          "ppp": 1,
          "sog": 42,
-         "toi_s": 23931
+         "toi_s": 25246
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 6278
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 6380
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -2035,20 +2035,20 @@
         "season": {
          "a": 4,
          "g": 2,
-         "gp": 15,
+         "gp": 16,
          "p": 6,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 20647
+         "sog": 19,
+         "toi_s": 21942
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 6959
+         "sog": 6,
+         "toi_s": 6736
         },
         "l5_point_games": 1,
         "gp": 16,
@@ -2073,11 +2073,11 @@
         "season": {
          "a": 6,
          "g": 1,
-         "gp": 19,
+         "gp": 20,
          "p": 7,
          "ppp": 0,
          "sog": 14,
-         "toi_s": 23489
+         "toi_s": 24569
         },
         "last5": {
          "a": 1,
@@ -2086,7 +2086,7 @@
          "p": 1,
          "ppp": 0,
          "sog": 1,
-         "toi_s": 6428
+         "toi_s": 6093
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -2113,20 +2113,20 @@
         "season": {
          "a": 3,
          "g": 1,
-         "gp": 18,
+         "gp": 19,
          "p": 4,
          "ppp": 0,
          "sog": 14,
-         "toi_s": 13037
+         "toi_s": 13856
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3750
+         "sog": 5,
+         "toi_s": 3784
         },
         "l5_point_games": 2,
         "gp": 19,
@@ -2151,11 +2151,11 @@
         "season": {
          "a": 1,
          "g": 1,
-         "gp": 12,
+         "gp": 13,
          "p": 2,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 8232
+         "sog": 13,
+         "toi_s": 8927
         },
         "last5": {
          "a": 0,
@@ -2163,8 +2163,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3549
+         "sog": 6,
+         "toi_s": 3586
         },
         "l5_point_games": 1,
         "gp": 13,
@@ -2179,53 +2179,10 @@
      "goalies": [
       [
        {
-        "name": "Jakub Dobes",
-        "jersey": 75,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8482487,
-        "dfo_id": 31895,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 7,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "2-3-2",
-        "sv_pct": "0.840",
-        "starts": 7
-       }
-      ],
-      [
-       {
         "name": "Jacob Fowler",
         "jersey": 32,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8484170,
         "dfo_id": 38444,
         "gtd": false,
@@ -2262,6 +2219,49 @@
         "sv_pct": "0.926",
         "starts": 12
        }
+      ],
+      [
+       {
+        "name": "Jakub Dobes",
+        "jersey": 75,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8482487,
+        "dfo_id": 31895,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 8,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "2-3-2",
+        "sv_pct": "0.840",
+        "starts": 7
+       }
       ]
      ],
      "pp": [
@@ -2279,22 +2279,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 10,
+         "a": 11,
          "g": 2,
-         "gp": 19,
-         "p": 12,
+         "gp": 20,
+         "p": 13,
          "ppp": 4,
-         "sog": 45,
-         "toi_s": 20748
+         "sog": 47,
+         "toi_s": 21963
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 11,
-         "toi_s": 5415
+         "p": 2,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5640
         },
         "l5_point_games": 2,
         "gp": 20,
@@ -2318,21 +2318,21 @@
         "bias": null,
         "season": {
          "a": 9,
-         "g": 7,
-         "gp": 13,
-         "p": 16,
+         "g": 8,
+         "gp": 14,
+         "p": 17,
          "ppp": 3,
-         "sog": 34,
-         "toi_s": 16360
+         "sog": 36,
+         "toi_s": 17557
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 3,
          "gp": 5,
-         "p": 6,
+         "p": 5,
          "ppp": 1,
-         "sog": 12,
-         "toi_s": 5862
+         "sog": 10,
+         "toi_s": 5796
         },
         "l5_point_games": 3,
         "gp": 14,
@@ -2357,11 +2357,11 @@
         "season": {
          "a": 3,
          "g": 6,
-         "gp": 19,
+         "gp": 20,
          "p": 9,
          "ppp": 3,
-         "sog": 31,
-         "toi_s": 16245
+         "sog": 32,
+         "toi_s": 17207
         },
         "last5": {
          "a": 1,
@@ -2369,8 +2369,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 1,
-         "sog": 8,
-         "toi_s": 4564
+         "sog": 9,
+         "toi_s": 4745
         },
         "l5_point_games": 0,
         "gp": 0,
@@ -2393,22 +2393,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 6,
+         "a": 7,
          "g": 12,
-         "gp": 19,
-         "p": 18,
+         "gp": 20,
+         "p": 19,
          "ppp": 4,
-         "sog": 63,
-         "toi_s": 20949
+         "sog": 67,
+         "toi_s": 22122
         },
         "last5": {
-         "a": 2,
-         "g": 4,
+         "a": 3,
+         "g": 2,
          "gp": 5,
-         "p": 6,
-         "ppp": 3,
+         "p": 5,
+         "ppp": 1,
          "sog": 19,
-         "toi_s": 5185
+         "toi_s": 5316
         },
         "l5_point_games": 5,
         "gp": 20,
@@ -2433,20 +2433,20 @@
         "season": {
          "a": 15,
          "g": 3,
-         "gp": 19,
+         "gp": 20,
          "p": 18,
          "ppp": 5,
-         "sog": 39,
-         "toi_s": 28263
+         "sog": 42,
+         "toi_s": 29887
         },
         "last5": {
-         "a": 5,
+         "a": 4,
          "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 3,
-         "sog": 14,
-         "toi_s": 7349
+         "p": 4,
+         "ppp": 2,
+         "sog": 16,
+         "toi_s": 7519
         },
         "l5_point_games": 3,
         "gp": 20,
@@ -2473,11 +2473,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 17,
+         "gp": 18,
          "p": 7,
          "ppp": 1,
-         "sog": 15,
-         "toi_s": 11428
+         "sog": 17,
+         "toi_s": 12185
         },
         "last5": {
          "a": 2,
@@ -2485,8 +2485,8 @@
          "gp": 5,
          "p": 4,
          "ppp": 1,
-         "sog": 7,
-         "toi_s": 3848
+         "sog": 8,
+         "toi_s": 3796
         },
         "l5_point_games": 3,
         "gp": 18,
@@ -2511,11 +2511,11 @@
         "season": {
          "a": 1,
          "g": 1,
-         "gp": 12,
+         "gp": 13,
          "p": 2,
          "ppp": 0,
          "sog": 16,
-         "toi_s": 8704
+         "toi_s": 9307
         },
         "last5": {
          "a": 1,
@@ -2523,8 +2523,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3282
+         "sog": 5,
+         "toi_s": 3227
         },
         "l5_point_games": 1,
         "gp": 13,
@@ -2544,16 +2544,16 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 3,
          "g": 2,
-         "gp": 19,
+         "gp": 20,
          "p": 5,
          "ppp": 1,
-         "sog": 33,
-         "toi_s": 15341
+         "sog": 34,
+         "toi_s": 16193
         },
         "last5": {
          "a": 0,
@@ -2561,8 +2561,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 4310
+         "sog": 13,
+         "toi_s": 4287
         },
         "l5_point_games": 0,
         "gp": 20,
@@ -2587,20 +2587,20 @@
         "season": {
          "a": 8,
          "g": 0,
-         "gp": 19,
+         "gp": 20,
          "p": 8,
          "ppp": 1,
          "sog": 42,
-         "toi_s": 23931
+         "toi_s": 25246
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 6278
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 6380
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -2625,11 +2625,11 @@
         "season": {
          "a": 5,
          "g": 5,
-         "gp": 19,
+         "gp": 20,
          "p": 10,
          "ppp": 1,
-         "sog": 22,
-         "toi_s": 18553
+         "sog": 24,
+         "toi_s": 19471
         },
         "last5": {
          "a": 2,
@@ -2637,8 +2637,8 @@
          "gp": 5,
          "p": 4,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4629
+         "sog": 9,
+         "toi_s": 4364
         },
         "l5_point_games": 3,
         "gp": 20,
@@ -2667,11 +2667,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 19,
+         "gp": 20,
          "p": 7,
          "ppp": 0,
-         "sog": 26,
-         "toi_s": 19339
+         "sog": 29,
+         "toi_s": 20540
         },
         "last5": {
          "a": 0,
@@ -2679,8 +2679,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5016
+         "sog": 8,
+         "toi_s": 5108
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -2705,11 +2705,11 @@
         "season": {
          "a": 5,
          "g": 3,
-         "gp": 19,
+         "gp": 20,
          "p": 8,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 17617
+         "sog": 16,
+         "toi_s": 18553
         },
         "last5": {
          "a": 2,
@@ -2717,8 +2717,8 @@
          "gp": 5,
          "p": 3,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5179
+         "sog": 4,
+         "toi_s": 4951
         },
         "l5_point_games": 2,
         "gp": 20,
@@ -2743,20 +2743,20 @@
         "season": {
          "a": 4,
          "g": 2,
-         "gp": 15,
+         "gp": 16,
          "p": 6,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 20647
+         "sog": 19,
+         "toi_s": 21942
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 6959
+         "sog": 6,
+         "toi_s": 6736
         },
         "l5_point_games": 1,
         "gp": 16,
@@ -2781,11 +2781,11 @@
         "season": {
          "a": 6,
          "g": 1,
-         "gp": 19,
+         "gp": 20,
          "p": 7,
          "ppp": 0,
          "sog": 14,
-         "toi_s": 23489
+         "toi_s": 24569
         },
         "last5": {
          "a": 1,
@@ -2794,7 +2794,7 @@
          "p": 1,
          "ppp": 0,
          "sog": 1,
-         "toi_s": 6428
+         "toi_s": 6093
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -2820,21 +2820,21 @@
         "bias": null,
         "season": {
          "a": 9,
-         "g": 7,
-         "gp": 13,
-         "p": 16,
+         "g": 8,
+         "gp": 14,
+         "p": 17,
          "ppp": 3,
-         "sog": 34,
-         "toi_s": 16360
+         "sog": 36,
+         "toi_s": 17557
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 3,
          "gp": 5,
-         "p": 6,
+         "p": 5,
          "ppp": 1,
-         "sog": 12,
-         "toi_s": 5862
+         "sog": 10,
+         "toi_s": 5796
         },
         "l5_point_games": 3,
         "gp": 14,
@@ -2845,37 +2845,37 @@
         }
        },
        {
-        "name": "Josh Anderson",
-        "jersey": 17,
+        "name": "Alexandre Texier",
+        "jersey": 85,
         "pos": null,
         "slot": 2,
-        "player_id": 8476981,
-        "dfo_id": 21932,
+        "player_id": 8480074,
+        "dfo_id": 4759,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 4,
-         "g": 8,
-         "gp": 18,
-         "p": 12,
-         "ppp": 0,
+         "a": 3,
+         "g": 2,
+         "gp": 20,
+         "p": 5,
+         "ppp": 1,
          "sog": 34,
-         "toi_s": 15402
+         "toi_s": 16193
         },
         "last5": {
-         "a": 2,
-         "g": 4,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 6,
+         "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 4227
+         "sog": 13,
+         "toi_s": 4287
         },
-        "l5_point_games": 2,
-        "gp": 19,
+        "l5_point_games": 0,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -2897,20 +2897,20 @@
         "season": {
          "a": 3,
          "g": 1,
-         "gp": 18,
+         "gp": 19,
          "p": 4,
          "ppp": 0,
          "sog": 14,
-         "toi_s": 13037
+         "toi_s": 13856
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3750
+         "sog": 5,
+         "toi_s": 3784
         },
         "l5_point_games": 2,
         "gp": 19,
@@ -2935,20 +2935,20 @@
         "season": {
          "a": 8,
          "g": 0,
-         "gp": 19,
+         "gp": 20,
          "p": 8,
          "ppp": 1,
          "sog": 42,
-         "toi_s": 23931
+         "toi_s": 25246
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 6278
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 6380
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -2972,19 +2972,24 @@
        "news": "Montembeault (lower-body) is expected to be out for the next 10 to 14 days."
       },
       {
-       "player": "Chris Kreider",
-       "status": "OUT",
-       "news": "Kreider (lower-body) will miss 6-to-8 weeks."
+       "player": "Josh Anderson",
+       "status": "IR",
+       "news": "Anderson (lower-body) will be out for approximately 3-4 weeks."
       },
       {
        "player": "Mike Matheson",
        "status": "DTD",
-       "news": "Matheson (lower-body) will not play Saturday vs. the Avalanche."
+       "news": "Matheson (lower-body) is expected to be out for 2-3 weeks."
+      },
+      {
+       "player": "Chris Kreider",
+       "status": "OUT",
+       "news": "Kreider (lower-body) will miss 6-to-8 weeks."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 29,
+       "rank": 28,
        "rating": 71.5857849960372
       },
       "d2": {
@@ -2992,7 +2997,7 @@
        "rating": 73.39911168240361
       },
       "d3": {
-       "rank": 26,
+       "rank": 29,
        "rating": 0
       },
       "d4": {
@@ -3000,11 +3005,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 41,
+       "rank": 40,
        "rating": 0
       },
       "f2": {
-       "rank": 20,
+       "rank": 19,
        "rating": 74.075950818218
       },
       "f3": {
@@ -3012,8 +3017,8 @@
        "rating": 71.08722555900941
       },
       "f4": {
-       "rank": 7,
-       "rating": 73.3582089013433
+       "rank": 35,
+       "rating": 0
       },
       "g": {
        "rank": 29,
@@ -3039,10 +3044,10 @@
     },
     "home": {
      "team": "NYR",
-     "as_of": "2026-11-13T18:10:14.480507+00:00",
-     "stale": true,
-     "source": "Vince Mercogliano",
-     "updated_dfo": "2026-11-13T03:30:12.935Z",
+     "as_of": "2026-11-16T14:21:43.757596+00:00",
+     "stale": false,
+     "source": "Peter Baugh",
+     "updated_dfo": "2026-11-15T17:40:33.127Z",
      "forwards": [
       [
        {
@@ -3058,22 +3063,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 6,
-         "gp": 20,
-         "p": 9,
+         "a": 4,
+         "g": 7,
+         "gp": 21,
+         "p": 11,
          "ppp": 3,
-         "sog": 39,
-         "toi_s": 19947
+         "sog": 41,
+         "toi_s": 20802
         },
         "last5": {
-         "a": 0,
-         "g": 2,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 2,
+         "p": 4,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4988
+         "sog": 10,
+         "toi_s": 4966
         },
         "l5_point_games": 0,
         "gp": 0,
@@ -3096,22 +3101,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 13,
+         "a": 14,
          "g": 5,
-         "gp": 20,
-         "p": 18,
+         "gp": 21,
+         "p": 19,
          "ppp": 4,
-         "sog": 36,
-         "toi_s": 24610
+         "sog": 39,
+         "toi_s": 25716
         },
         "last5": {
-         "a": 4,
+         "a": 5,
          "g": 2,
          "gp": 5,
-         "p": 6,
+         "p": 7,
          "ppp": 2,
-         "sog": 7,
-         "toi_s": 6014
+         "sog": 9,
+         "toi_s": 6046
         },
         "l5_point_games": 5,
         "gp": 21,
@@ -3134,22 +3139,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 11,
-         "g": 9,
-         "gp": 20,
-         "p": 20,
+         "a": 12,
+         "g": 10,
+         "gp": 21,
+         "p": 22,
          "ppp": 6,
-         "sog": 43,
-         "toi_s": 22480
+         "sog": 45,
+         "toi_s": 23357
         },
         "last5": {
-         "a": 4,
-         "g": 0,
+         "a": 5,
+         "g": 1,
          "gp": 5,
-         "p": 4,
+         "p": 6,
          "ppp": 1,
          "sog": 7,
-         "toi_s": 5438
+         "toi_s": 5410
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3176,20 +3181,20 @@
         "season": {
          "a": 7,
          "g": 7,
-         "gp": 20,
+         "gp": 21,
          "p": 14,
          "ppp": 1,
-         "sog": 36,
-         "toi_s": 20125
+         "sog": 37,
+         "toi_s": 21173
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 3,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 1,
-         "sog": 15,
-         "toi_s": 6095
+         "sog": 13,
+         "toi_s": 5942
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3212,22 +3217,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 10,
+         "a": 12,
          "g": 4,
-         "gp": 20,
-         "p": 14,
-         "ppp": 2,
-         "sog": 38,
-         "toi_s": 22760
+         "gp": 21,
+         "p": 16,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 23889
         },
         "last5": {
          "a": 4,
          "g": 0,
          "gp": 5,
          "p": 4,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 5977
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 5896
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3252,11 +3257,11 @@
         "season": {
          "a": 6,
          "g": 6,
-         "gp": 20,
+         "gp": 21,
          "p": 12,
          "ppp": 6,
-         "sog": 60,
-         "toi_s": 20339
+         "sog": 64,
+         "toi_s": 21176
         },
         "last5": {
          "a": 1,
@@ -3264,8 +3269,8 @@
          "gp": 5,
          "p": 3,
          "ppp": 2,
-         "sog": 17,
-         "toi_s": 4643
+         "sog": 20,
+         "toi_s": 4685
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3292,20 +3297,20 @@
         "season": {
          "a": 5,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 9,
          "ppp": 2,
-         "sog": 39,
-         "toi_s": 19635
+         "sog": 41,
+         "toi_s": 20791
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5157
+         "sog": 4,
+         "toi_s": 5214
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -3330,11 +3335,11 @@
         "season": {
          "a": 5,
          "g": 0,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 17526
+         "sog": 18,
+         "toi_s": 18533
         },
         "last5": {
          "a": 1,
@@ -3342,8 +3347,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4207
+         "sog": 7,
+         "toi_s": 4358
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -3367,21 +3372,21 @@
         "bias": null,
         "season": {
          "a": 4,
-         "g": 6,
-         "gp": 20,
-         "p": 10,
-         "ppp": 2,
-         "sog": 29,
-         "toi_s": 13882
+         "g": 7,
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 30,
+         "toi_s": 14761
         },
         "last5": {
          "a": 2,
          "g": 1,
          "gp": 5,
          "p": 3,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 3810
+         "ppp": 2,
+         "sog": 6,
+         "toi_s": 4030
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3408,20 +3413,20 @@
         "season": {
          "a": 2,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 6,
          "ppp": 0,
-         "sog": 23,
-         "toi_s": 14592
+         "sog": 24,
+         "toi_s": 15185
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
          "sog": 6,
-         "toi_s": 3333
+         "toi_s": 3124
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -3445,21 +3450,21 @@
         "bias": null,
         "season": {
          "a": 0,
-         "g": 0,
-         "gp": 1,
-         "p": 0,
+         "g": 2,
+         "gp": 2,
+         "p": 2,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 387
+         "sog": 2,
+         "toi_s": 866
         },
         "last5": {
          "a": 1,
-         "g": 0,
+         "g": 2,
          "gp": 5,
-         "p": 1,
+         "p": 3,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 2877
+         "sog": 4,
+         "toi_s": 2650
         },
         "l5_point_games": 1,
         "gp": 2,
@@ -3482,22 +3487,22 @@
         "pk": null,
         "bias": "G",
         "season": {
-         "a": 0,
+         "a": 1,
          "g": 2,
-         "gp": 12,
-         "p": 2,
+         "gp": 13,
+         "p": 3,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 6010
+         "sog": 9,
+         "toi_s": 6552
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 2,
          "gp": 5,
-         "p": 2,
+         "p": 3,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 2547
+         "sog": 4,
+         "toi_s": 2569
         },
         "l5_point_games": 3,
         "gp": 13,
@@ -3524,22 +3529,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 5,
+         "a": 6,
          "g": 1,
-         "gp": 20,
-         "p": 6,
+         "gp": 21,
+         "p": 7,
          "ppp": 0,
          "sog": 30,
-         "toi_s": 25834
+         "toi_s": 27059
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 6664
+         "sog": 6,
+         "toi_s": 6605
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -3562,22 +3567,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 19,
+         "a": 20,
          "g": 2,
-         "gp": 20,
-         "p": 21,
-         "ppp": 6,
-         "sog": 29,
-         "toi_s": 27434
+         "gp": 21,
+         "p": 22,
+         "ppp": 7,
+         "sog": 32,
+         "toi_s": 28879
         },
         "last5": {
          "a": 4,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 2,
+         "p": 4,
+         "ppp": 3,
          "sog": 11,
-         "toi_s": 7465
+         "toi_s": 7490
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3604,11 +3609,11 @@
         "season": {
          "a": 3,
          "g": 0,
-         "gp": 20,
+         "gp": 21,
          "p": 3,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 25044
+         "sog": 13,
+         "toi_s": 26482
         },
         "last5": {
          "a": 2,
@@ -3617,7 +3622,7 @@
          "p": 2,
          "ppp": 0,
          "sog": 3,
-         "toi_s": 6449
+         "toi_s": 6637
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -3642,11 +3647,11 @@
         "season": {
          "a": 2,
          "g": 0,
-         "gp": 20,
+         "gp": 21,
          "p": 2,
          "ppp": 0,
-         "sog": 29,
-         "toi_s": 22297
+         "sog": 30,
+         "toi_s": 23407
         },
         "last5": {
          "a": 0,
@@ -3654,8 +3659,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 6338
+         "sog": 7,
+         "toi_s": 6118
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -3682,11 +3687,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 3,
+         "gp": 4,
          "p": 0,
          "ppp": 0,
-         "sog": 1,
-         "toi_s": 2166
+         "sog": 2,
+         "toi_s": 3044
         },
         "last5": {
          "a": 1,
@@ -3695,7 +3700,7 @@
          "p": 1,
          "ppp": 0,
          "sog": 2,
-         "toi_s": 4449
+         "toi_s": 4070
         },
         "l5_point_games": 0,
         "gp": 4,
@@ -3720,11 +3725,11 @@
         "season": {
          "a": 1,
          "g": 0,
-         "gp": 6,
+         "gp": 7,
          "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 4682
+         "sog": 13,
+         "toi_s": 5622
         },
         "last5": {
          "a": 0,
@@ -3732,8 +3737,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 3780
+         "sog": 8,
+         "toi_s": 3933
         },
         "l5_point_games": 0,
         "gp": 7,
@@ -3748,53 +3753,10 @@
      "goalies": [
       [
        {
-        "name": "Dylan Garand",
-        "jersey": 33,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8482193,
-        "dfo_id": 32794,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 14,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "7-7-1",
-        "sv_pct": "0.910",
-        "starts": 13
-       }
-      ],
-      [
-       {
         "name": "Joonas Korpisalo",
         "jersey": 70,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8476914,
         "dfo_id": 2556,
         "gtd": false,
@@ -3831,6 +3793,49 @@
         "sv_pct": "0.931",
         "starts": 2
        }
+      ],
+      [
+       {
+        "name": "Dylan Garand",
+        "jersey": 33,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8482193,
+        "dfo_id": 32794,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 15,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "7-7-1",
+        "sv_pct": "0.910",
+        "starts": 13
+       }
       ]
      ],
      "pp": [
@@ -3848,22 +3853,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 11,
-         "g": 9,
-         "gp": 20,
-         "p": 20,
+         "a": 12,
+         "g": 10,
+         "gp": 21,
+         "p": 22,
          "ppp": 6,
-         "sog": 43,
-         "toi_s": 22480
+         "sog": 45,
+         "toi_s": 23357
         },
         "last5": {
-         "a": 4,
-         "g": 0,
+         "a": 5,
+         "g": 1,
          "gp": 5,
-         "p": 4,
+         "p": 6,
          "ppp": 1,
          "sog": 7,
-         "toi_s": 5438
+         "toi_s": 5410
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3886,22 +3891,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 6,
-         "gp": 20,
-         "p": 9,
+         "a": 4,
+         "g": 7,
+         "gp": 21,
+         "p": 11,
          "ppp": 3,
-         "sog": 39,
-         "toi_s": 19947
+         "sog": 41,
+         "toi_s": 20802
         },
         "last5": {
-         "a": 0,
-         "g": 2,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 2,
+         "p": 4,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4988
+         "sog": 10,
+         "toi_s": 4966
         },
         "l5_point_games": 0,
         "gp": 0,
@@ -3926,11 +3931,11 @@
         "season": {
          "a": 6,
          "g": 6,
-         "gp": 20,
+         "gp": 21,
          "p": 12,
          "ppp": 6,
-         "sog": 60,
-         "toi_s": 20339
+         "sog": 64,
+         "toi_s": 21176
         },
         "last5": {
          "a": 1,
@@ -3938,8 +3943,8 @@
          "gp": 5,
          "p": 3,
          "ppp": 2,
-         "sog": 17,
-         "toi_s": 4643
+         "sog": 20,
+         "toi_s": 4685
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -3962,22 +3967,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 13,
+         "a": 14,
          "g": 5,
-         "gp": 20,
-         "p": 18,
+         "gp": 21,
+         "p": 19,
          "ppp": 4,
-         "sog": 36,
-         "toi_s": 24610
+         "sog": 39,
+         "toi_s": 25716
         },
         "last5": {
-         "a": 4,
+         "a": 5,
          "g": 2,
          "gp": 5,
-         "p": 6,
+         "p": 7,
          "ppp": 2,
-         "sog": 7,
-         "toi_s": 6014
+         "sog": 9,
+         "toi_s": 6046
         },
         "l5_point_games": 5,
         "gp": 21,
@@ -4000,22 +4005,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 19,
+         "a": 20,
          "g": 2,
-         "gp": 20,
-         "p": 21,
-         "ppp": 6,
-         "sog": 29,
-         "toi_s": 27434
+         "gp": 21,
+         "p": 22,
+         "ppp": 7,
+         "sog": 32,
+         "toi_s": 28879
         },
         "last5": {
          "a": 4,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 2,
+         "p": 4,
+         "ppp": 3,
          "sog": 11,
-         "toi_s": 7465
+         "toi_s": 7490
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4042,20 +4047,20 @@
         "season": {
          "a": 7,
          "g": 7,
-         "gp": 20,
+         "gp": 21,
          "p": 14,
          "ppp": 1,
-         "sog": 36,
-         "toi_s": 20125
+         "sog": 37,
+         "toi_s": 21173
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 3,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 1,
-         "sog": 15,
-         "toi_s": 6095
+         "sog": 13,
+         "toi_s": 5942
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4078,22 +4083,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 10,
+         "a": 12,
          "g": 4,
-         "gp": 20,
-         "p": 14,
-         "ppp": 2,
-         "sog": 38,
-         "toi_s": 22760
+         "gp": 21,
+         "p": 16,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 23889
         },
         "last5": {
          "a": 4,
          "g": 0,
          "gp": 5,
          "p": 4,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 5977
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 5896
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4118,20 +4123,20 @@
         "season": {
          "a": 5,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 9,
          "ppp": 2,
-         "sog": 39,
-         "toi_s": 19635
+         "sog": 41,
+         "toi_s": 20791
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5157
+         "sog": 4,
+         "toi_s": 5214
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -4155,21 +4160,21 @@
         "bias": null,
         "season": {
          "a": 4,
-         "g": 6,
-         "gp": 20,
-         "p": 10,
-         "ppp": 2,
-         "sog": 29,
-         "toi_s": 13882
+         "g": 7,
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 30,
+         "toi_s": 14761
         },
         "last5": {
          "a": 2,
          "g": 1,
          "gp": 5,
          "p": 3,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 3810
+         "ppp": 2,
+         "sog": 6,
+         "toi_s": 4030
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4192,22 +4197,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 19,
+         "a": 20,
          "g": 2,
-         "gp": 20,
-         "p": 21,
-         "ppp": 6,
-         "sog": 29,
-         "toi_s": 27434
+         "gp": 21,
+         "p": 22,
+         "ppp": 7,
+         "sog": 32,
+         "toi_s": 28879
         },
         "last5": {
          "a": 4,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 2,
+         "p": 4,
+         "ppp": 3,
          "sog": 11,
-         "toi_s": 7465
+         "toi_s": 7490
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4234,22 +4239,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 10,
+         "a": 12,
          "g": 4,
-         "gp": 20,
-         "p": 14,
-         "ppp": 2,
-         "sog": 38,
-         "toi_s": 22760
+         "gp": 21,
+         "p": 16,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 23889
         },
         "last5": {
          "a": 4,
          "g": 0,
          "gp": 5,
          "p": 4,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 5977
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 5896
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4274,20 +4279,20 @@
         "season": {
          "a": 7,
          "g": 7,
-         "gp": 20,
+         "gp": 21,
          "p": 14,
          "ppp": 1,
-         "sog": 36,
-         "toi_s": 20125
+         "sog": 37,
+         "toi_s": 21173
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 3,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 1,
-         "sog": 15,
-         "toi_s": 6095
+         "sog": 13,
+         "toi_s": 5942
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4310,22 +4315,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 5,
+         "a": 6,
          "g": 1,
-         "gp": 20,
-         "p": 6,
+         "gp": 21,
+         "p": 7,
          "ppp": 0,
          "sog": 30,
-         "toi_s": 25834
+         "toi_s": 27059
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 6664
+         "sog": 6,
+         "toi_s": 6605
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -4348,22 +4353,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 19,
+         "a": 20,
          "g": 2,
-         "gp": 20,
-         "p": 21,
-         "ppp": 6,
-         "sog": 29,
-         "toi_s": 27434
+         "gp": 21,
+         "p": 22,
+         "ppp": 7,
+         "sog": 32,
+         "toi_s": 28879
         },
         "last5": {
          "a": 4,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 2,
+         "p": 4,
+         "ppp": 3,
          "sog": 11,
-         "toi_s": 7465
+         "toi_s": 7490
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4390,11 +4395,11 @@
         "season": {
          "a": 5,
          "g": 0,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 17526
+         "sog": 18,
+         "toi_s": 18533
         },
         "last5": {
          "a": 1,
@@ -4402,8 +4407,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4207
+         "sog": 7,
+         "toi_s": 4358
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -4428,20 +4433,20 @@
         "season": {
          "a": 5,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 9,
          "ppp": 2,
-         "sog": 39,
-         "toi_s": 19635
+         "sog": 41,
+         "toi_s": 20791
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5157
+         "sog": 4,
+         "toi_s": 5214
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -4466,11 +4471,11 @@
         "season": {
          "a": 3,
          "g": 0,
-         "gp": 20,
+         "gp": 21,
          "p": 3,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 25044
+         "sog": 13,
+         "toi_s": 26482
         },
         "last5": {
          "a": 2,
@@ -4479,7 +4484,7 @@
          "p": 2,
          "ppp": 0,
          "sog": 3,
-         "toi_s": 6449
+         "toi_s": 6637
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -4504,11 +4509,11 @@
         "season": {
          "a": 2,
          "g": 0,
-         "gp": 20,
+         "gp": 21,
          "p": 2,
          "ppp": 0,
-         "sog": 29,
-         "toi_s": 22297
+         "sog": 30,
+         "toi_s": 23407
         },
         "last5": {
          "a": 0,
@@ -4516,8 +4521,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 6338
+         "sog": 7,
+         "toi_s": 6118
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -4533,7 +4538,7 @@
       {
        "player": "Igor Shesterkin",
        "status": "IR",
-       "news": "Shesterkin (lower-body) will miss the rest of the 2026-27 season."
+       "news": "Shesterkin (lower-body) has been placed on Season Ending Injury Reserve."
       },
       {
        "player": "Joe Veleno",
@@ -4562,11 +4567,11 @@
        "rating": 73.4497210895543
       },
       "d2": {
-       "rank": 18,
+       "rank": 17,
        "rating": 73.64999425719571
       },
       "d3": {
-       "rank": 27,
+       "rank": 29,
        "rating": 0
       },
       "d4": {
@@ -4586,11 +4591,11 @@
        "rating": 77.78937051939312
       },
       "f4": {
-       "rank": 8,
+       "rank": 9,
        "rating": 73.17265152625231
       },
       "g": {
-       "rank": 29,
+       "rank": 28,
        "rating": 63.32367185220641
       },
       "pk1": {
@@ -4627,14 +4632,14 @@
     "color2": "#00843D",
     "record": "4-17-1",
     "b2b": true,
-    "goalie": null,
-    "goalie_status": null,
-    "goalie_news": null,
-    "goalie_source": null,
-    "sv": null,
-    "gaa": null,
-    "lineup_as_of": "2026-11-15T23:00:02.774001+00:00",
-    "lineup_stale": true,
+    "goalie": "Nikita Tolopilo",
+    "goalie_status": "",
+    "goalie_news": "",
+    "goalie_source": "",
+    "sv": "0.0",
+    "gaa": "0.0",
+    "lineup_as_of": "2026-11-16T14:21:44.000278+00:00",
+    "lineup_stale": false,
     "ga_rk": 1,
     "gf_rk": 22,
     "ppga_rk": 1,
@@ -4675,14 +4680,14 @@
     "color2": "#010101",
     "record": "10-8-3",
     "b2b": false,
-    "goalie": null,
-    "goalie_status": null,
-    "goalie_news": null,
-    "goalie_source": null,
-    "sv": null,
-    "gaa": null,
-    "lineup_as_of": "2026-11-14T23:04:57.724063+00:00",
-    "lineup_stale": true,
+    "goalie": "Sebastian Cossa",
+    "goalie_status": "",
+    "goalie_news": "",
+    "goalie_source": "",
+    "sv": "0.865",
+    "gaa": "3.65",
+    "lineup_as_of": "2026-11-16T14:21:43.941822+00:00",
+    "lineup_stale": false,
     "ga_rk": 9,
     "gf_rk": 10,
     "ppga_rk": 5,
@@ -4717,10 +4722,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": null,
-     "home": null,
+     "away": "+114",
+     "home": "-135",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-14T23:04:57.724063+00:00"
+     "as_of": "2026-11-16T14:21:43.941822+00:00"
     },
     "total": {
      "line": 6.5,
@@ -5076,10 +5081,10 @@
    "lineup": {
     "away": {
      "team": "VAN",
-     "as_of": "2026-11-15T23:00:02.774001+00:00",
-     "stale": true,
-     "source": "Dan Murphy",
-     "updated_dfo": "2026-11-15T18:10:14.215Z",
+     "as_of": "2026-11-16T14:21:44.000278+00:00",
+     "stale": false,
+     "source": "Brendan Batchelor",
+     "updated_dfo": "2026-11-16T01:41:44.808Z",
      "forwards": [
       [
        {
@@ -5097,20 +5102,20 @@
         "season": {
          "a": 5,
          "g": 5,
-         "gp": 19,
+         "gp": 20,
          "p": 10,
          "ppp": 3,
-         "sog": 44,
-         "toi_s": 19427
+         "sog": 46,
+         "toi_s": 20203
         },
         "last5": {
          "a": 0,
-         "g": 2,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 5572
+         "p": 0,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5182
         },
         "l5_point_games": 0,
         "gp": 20,
@@ -5133,22 +5138,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 16,
-         "g": 5,
-         "gp": 21,
-         "p": 21,
-         "ppp": 8,
-         "sog": 26,
-         "toi_s": 25947
+         "a": 17,
+         "g": 6,
+         "gp": 22,
+         "p": 23,
+         "ppp": 9,
+         "sog": 27,
+         "toi_s": 27139
         },
         "last5": {
-         "a": 4,
-         "g": 1,
+         "a": 3,
+         "g": 2,
          "gp": 5,
          "p": 5,
          "ppp": 2,
-         "sog": 2,
-         "toi_s": 6620
+         "sog": 3,
+         "toi_s": 6423
         },
         "l5_point_games": 2,
         "gp": 44,
@@ -5171,22 +5176,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 8,
+         "a": 9,
          "g": 7,
-         "gp": 21,
-         "p": 15,
-         "ppp": 6,
-         "sog": 37,
-         "toi_s": 19386
+         "gp": 22,
+         "p": 16,
+         "ppp": 7,
+         "sog": 38,
+         "toi_s": 20234
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 1,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 4841
+         "p": 3,
+         "ppp": 2,
+         "sog": 8,
+         "toi_s": 4742
         },
         "l5_point_games": 3,
         "gp": 22,
@@ -5213,20 +5218,20 @@
         "season": {
          "a": 4,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 8,
          "ppp": 2,
          "sog": 13,
-         "toi_s": 17039
+         "toi_s": 17828
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 2,
-         "toi_s": 4070
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 4236
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -5250,21 +5255,21 @@
         "bias": null,
         "season": {
          "a": 2,
-         "g": 0,
-         "gp": 8,
-         "p": 2,
+         "g": 2,
+         "gp": 9,
+         "p": 4,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 9388
+         "sog": 20,
+         "toi_s": 10430
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 2,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 5924
+         "sog": 15,
+         "toi_s": 5734
         },
         "l5_point_games": 1,
         "gp": 9,
@@ -5287,22 +5292,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 11,
+         "a": 13,
          "g": 7,
-         "gp": 21,
-         "p": 18,
-         "ppp": 10,
-         "sog": 33,
-         "toi_s": 24179
+         "gp": 22,
+         "p": 20,
+         "ppp": 11,
+         "sog": 34,
+         "toi_s": 25478
         },
         "last5": {
-         "a": 3,
+         "a": 4,
          "g": 2,
          "gp": 5,
-         "p": 5,
+         "p": 6,
          "ppp": 2,
-         "sog": 10,
-         "toi_s": 6408
+         "sog": 8,
+         "toi_s": 6418
         },
         "l5_point_games": 5,
         "gp": 22,
@@ -5327,22 +5332,22 @@
         "pk": null,
         "bias": "G",
         "season": {
-         "a": 3,
+         "a": 4,
          "g": 6,
-         "gp": 20,
-         "p": 9,
+         "gp": 21,
+         "p": 10,
          "ppp": 1,
-         "sog": 28,
-         "toi_s": 16950
+         "sog": 29,
+         "toi_s": 17787
         },
         "last5": {
-         "a": 0,
-         "g": 2,
+         "a": 1,
+         "g": 1,
          "gp": 5,
          "p": 2,
-         "ppp": 1,
+         "ppp": 0,
          "sog": 7,
-         "toi_s": 3848
+         "toi_s": 3720
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -5367,20 +5372,20 @@
         "season": {
          "a": 4,
          "g": 3,
-         "gp": 19,
+         "gp": 20,
          "p": 7,
          "ppp": 2,
          "sog": 35,
-         "toi_s": 17596
+         "toi_s": 18422
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 4287
+         "p": 1,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 4160
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -5404,21 +5409,21 @@
         "bias": "G",
         "season": {
          "a": 6,
-         "g": 4,
-         "gp": 21,
-         "p": 10,
+         "g": 6,
+         "gp": 22,
+         "p": 12,
          "ppp": 1,
-         "sog": 36,
-         "toi_s": 18242
+         "sog": 43,
+         "toi_s": 19118
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4286
+         "sog": 14,
+         "toi_s": 4272
         },
         "l5_point_games": 1,
         "gp": 22,
@@ -5444,21 +5449,21 @@
         "bias": "G",
         "season": {
          "a": 3,
-         "g": 2,
-         "gp": 21,
-         "p": 5,
+         "g": 3,
+         "gp": 22,
+         "p": 6,
          "ppp": 0,
-         "sog": 27,
-         "toi_s": 19361
+         "sog": 30,
+         "toi_s": 20106
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4117
+         "sog": 10,
+         "toi_s": 3924
         },
         "l5_point_games": 1,
         "gp": 22,
@@ -5481,22 +5486,22 @@
         "pk": 2,
         "bias": "G",
         "season": {
-         "a": 1,
+         "a": 2,
          "g": 6,
-         "gp": 21,
-         "p": 7,
+         "gp": 22,
+         "p": 8,
          "ppp": 0,
          "sog": 25,
-         "toi_s": 15822
+         "toi_s": 16419
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
          "sog": 7,
-         "toi_s": 3718
+         "toi_s": 3654
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -5519,22 +5524,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 3,
+         "a": 4,
          "g": 0,
-         "gp": 18,
-         "p": 3,
+         "gp": 19,
+         "p": 4,
          "ppp": 0,
-         "sog": 22,
-         "toi_s": 11357
+         "sog": 24,
+         "toi_s": 11958
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3160
+         "sog": 9,
+         "toi_s": 3071
         },
         "l5_point_games": 1,
         "gp": 19,
@@ -5563,11 +5568,11 @@
         "season": {
          "a": 5,
          "g": 0,
-         "gp": 21,
+         "gp": 22,
          "p": 5,
          "ppp": 0,
          "sog": 18,
-         "toi_s": 27114
+         "toi_s": 28156
         },
         "last5": {
          "a": 1,
@@ -5575,8 +5580,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 7371
+         "sog": 4,
+         "toi_s": 6958
         },
         "l5_point_games": 1,
         "gp": 22,
@@ -5599,22 +5604,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 12,
+         "a": 13,
          "g": 1,
-         "gp": 21,
-         "p": 13,
+         "gp": 22,
+         "p": 14,
          "ppp": 6,
-         "sog": 23,
-         "toi_s": 33154
+         "sog": 24,
+         "toi_s": 34831
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 8400
+         "toi_s": 8418
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -5641,11 +5646,11 @@
         "season": {
          "a": 1,
          "g": 3,
-         "gp": 21,
+         "gp": 22,
          "p": 4,
          "ppp": 0,
          "sog": 21,
-         "toi_s": 23438
+         "toi_s": 24886
         },
         "last5": {
          "a": 0,
@@ -5653,8 +5658,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5424
+         "sog": 4,
+         "toi_s": 5577
         },
         "l5_point_games": 0,
         "gp": 0,
@@ -5677,22 +5682,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
+         "a": 4,
          "g": 0,
-         "gp": 17,
-         "p": 3,
+         "gp": 18,
+         "p": 4,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 20617
+         "sog": 16,
+         "toi_s": 22048
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
          "sog": 7,
-         "toi_s": 5859
+         "toi_s": 6060
         },
         "l5_point_games": 1,
         "gp": 18,
@@ -5717,13 +5722,13 @@
         "pk": 2,
         "bias": "A",
         "season": {
-         "a": 5,
+         "a": 6,
          "g": 2,
-         "gp": 19,
-         "p": 7,
+         "gp": 20,
+         "p": 8,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 19700
+         "sog": 15,
+         "toi_s": 20703
         },
         "last5": {
          "a": 2,
@@ -5731,8 +5736,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4627
+         "sog": 4,
+         "toi_s": 4665
         },
         "l5_point_games": 2,
         "gp": 19,
@@ -5757,11 +5762,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 4,
+         "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 2747
+         "sog": 1,
+         "toi_s": 3314
         },
         "last5": {
          "a": 0,
@@ -5770,7 +5775,7 @@
          "p": 0,
          "ppp": 0,
          "sog": 1,
-         "toi_s": 3694
+         "toi_s": 3314
         },
         "l5_point_games": 0,
         "gp": 2,
@@ -5785,10 +5790,53 @@
      "goalies": [
       [
        {
+        "name": "Nikita Tolopilo",
+        "jersey": 60,
+        "pos": "G",
+        "slot": 1,
+        "player_id": null,
+        "dfo_id": 38115,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 0,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": null,
+        "sv_pct": null,
+        "starts": 0
+       }
+      ],
+      [
+       {
         "name": "Leevi Merilainen",
         "jersey": 31,
         "pos": "G",
-        "slot": 1,
+        "slot": 2,
         "player_id": 8482447,
         "dfo_id": 34600,
         "gtd": false,
@@ -5799,7 +5847,7 @@
         "season": {
          "a": null,
          "g": null,
-         "gp": 14,
+         "gp": 15,
          "p": null,
          "ppp": null,
          "sog": null,
@@ -5825,49 +5873,6 @@
         "sv_pct": "0.888",
         "starts": 14
        }
-      ],
-      [
-       {
-        "name": "Kevin Lankinen",
-        "jersey": 32,
-        "pos": "G",
-        "slot": 2,
-        "player_id": 8480947,
-        "dfo_id": 4757,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 9,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "0-8-0",
-        "sv_pct": "0.797",
-        "starts": 7
-       }
       ]
      ],
      "pp": [
@@ -5887,20 +5892,20 @@
         "season": {
          "a": 5,
          "g": 5,
-         "gp": 19,
+         "gp": 20,
          "p": 10,
          "ppp": 3,
-         "sog": 44,
-         "toi_s": 19427
+         "sog": 46,
+         "toi_s": 20203
         },
         "last5": {
          "a": 0,
-         "g": 2,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 5572
+         "p": 0,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5182
         },
         "l5_point_games": 0,
         "gp": 20,
@@ -5923,22 +5928,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 16,
-         "g": 5,
-         "gp": 21,
-         "p": 21,
-         "ppp": 8,
-         "sog": 26,
-         "toi_s": 25947
+         "a": 17,
+         "g": 6,
+         "gp": 22,
+         "p": 23,
+         "ppp": 9,
+         "sog": 27,
+         "toi_s": 27139
         },
         "last5": {
-         "a": 4,
-         "g": 1,
+         "a": 3,
+         "g": 2,
          "gp": 5,
          "p": 5,
          "ppp": 2,
-         "sog": 2,
-         "toi_s": 6620
+         "sog": 3,
+         "toi_s": 6423
         },
         "l5_point_games": 2,
         "gp": 44,
@@ -5961,22 +5966,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 11,
+         "a": 13,
          "g": 7,
-         "gp": 21,
-         "p": 18,
-         "ppp": 10,
-         "sog": 33,
-         "toi_s": 24179
+         "gp": 22,
+         "p": 20,
+         "ppp": 11,
+         "sog": 34,
+         "toi_s": 25478
         },
         "last5": {
-         "a": 3,
+         "a": 4,
          "g": 2,
          "gp": 5,
-         "p": 5,
+         "p": 6,
          "ppp": 2,
-         "sog": 10,
-         "toi_s": 6408
+         "sog": 8,
+         "toi_s": 6418
         },
         "l5_point_games": 5,
         "gp": 22,
@@ -5999,22 +6004,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 8,
+         "a": 9,
          "g": 7,
-         "gp": 21,
-         "p": 15,
-         "ppp": 6,
-         "sog": 37,
-         "toi_s": 19386
+         "gp": 22,
+         "p": 16,
+         "ppp": 7,
+         "sog": 38,
+         "toi_s": 20234
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 1,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 4841
+         "p": 3,
+         "ppp": 2,
+         "sog": 8,
+         "toi_s": 4742
         },
         "l5_point_games": 3,
         "gp": 22,
@@ -6037,22 +6042,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 12,
+         "a": 13,
          "g": 1,
-         "gp": 21,
-         "p": 13,
+         "gp": 22,
+         "p": 14,
          "ppp": 6,
-         "sog": 23,
-         "toi_s": 33154
+         "sog": 24,
+         "toi_s": 34831
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 8400
+         "toi_s": 8418
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -6079,20 +6084,20 @@
         "season": {
          "a": 4,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 8,
          "ppp": 2,
          "sog": 13,
-         "toi_s": 17039
+         "toi_s": 17828
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 2,
-         "toi_s": 4070
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 4236
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -6116,21 +6121,21 @@
         "bias": null,
         "season": {
          "a": 2,
-         "g": 0,
-         "gp": 8,
-         "p": 2,
+         "g": 2,
+         "gp": 9,
+         "p": 4,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 9388
+         "sog": 20,
+         "toi_s": 10430
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 2,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 5924
+         "sog": 15,
+         "toi_s": 5734
         },
         "l5_point_games": 1,
         "gp": 9,
@@ -6154,21 +6159,21 @@
         "bias": "G",
         "season": {
          "a": 6,
-         "g": 4,
-         "gp": 21,
-         "p": 10,
+         "g": 6,
+         "gp": 22,
+         "p": 12,
          "ppp": 1,
-         "sog": 36,
-         "toi_s": 18242
+         "sog": 43,
+         "toi_s": 19118
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4286
+         "sog": 14,
+         "toi_s": 4272
         },
         "l5_point_games": 1,
         "gp": 22,
@@ -6193,11 +6198,11 @@
         "season": {
          "a": 5,
          "g": 0,
-         "gp": 21,
+         "gp": 22,
          "p": 5,
          "ppp": 0,
          "sog": 18,
-         "toi_s": 27114
+         "toi_s": 28156
         },
         "last5": {
          "a": 1,
@@ -6205,8 +6210,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 7371
+         "sog": 4,
+         "toi_s": 6958
         },
         "l5_point_games": 1,
         "gp": 22,
@@ -6231,20 +6236,20 @@
         "season": {
          "a": 4,
          "g": 3,
-         "gp": 19,
+         "gp": 20,
          "p": 7,
          "ppp": 2,
          "sog": 35,
-         "toi_s": 17596
+         "toi_s": 18422
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 4287
+         "p": 1,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 4160
         },
         "l5_point_games": 1,
         "gp": 20,
@@ -6271,22 +6276,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 16,
-         "g": 5,
-         "gp": 21,
-         "p": 21,
-         "ppp": 8,
-         "sog": 26,
-         "toi_s": 25947
+         "a": 17,
+         "g": 6,
+         "gp": 22,
+         "p": 23,
+         "ppp": 9,
+         "sog": 27,
+         "toi_s": 27139
         },
         "last5": {
-         "a": 4,
-         "g": 1,
+         "a": 3,
+         "g": 2,
          "gp": 5,
          "p": 5,
          "ppp": 2,
-         "sog": 2,
-         "toi_s": 6620
+         "sog": 3,
+         "toi_s": 6423
         },
         "l5_point_games": 2,
         "gp": 44,
@@ -6309,22 +6314,22 @@
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 11,
+         "a": 13,
          "g": 7,
-         "gp": 21,
-         "p": 18,
-         "ppp": 10,
-         "sog": 33,
-         "toi_s": 24179
+         "gp": 22,
+         "p": 20,
+         "ppp": 11,
+         "sog": 34,
+         "toi_s": 25478
         },
         "last5": {
-         "a": 3,
+         "a": 4,
          "g": 2,
          "gp": 5,
-         "p": 5,
+         "p": 6,
          "ppp": 2,
-         "sog": 10,
-         "toi_s": 6408
+         "sog": 8,
+         "toi_s": 6418
         },
         "l5_point_games": 5,
         "gp": 22,
@@ -6349,11 +6354,11 @@
         "season": {
          "a": 1,
          "g": 3,
-         "gp": 21,
+         "gp": 22,
          "p": 4,
          "ppp": 0,
          "sog": 21,
-         "toi_s": 23438
+         "toi_s": 24886
         },
         "last5": {
          "a": 0,
@@ -6361,8 +6366,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5424
+         "sog": 4,
+         "toi_s": 5577
         },
         "l5_point_games": 0,
         "gp": 0,
@@ -6385,22 +6390,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 12,
+         "a": 13,
          "g": 1,
-         "gp": 21,
-         "p": 13,
+         "gp": 22,
+         "p": 14,
          "ppp": 6,
-         "sog": 23,
-         "toi_s": 33154
+         "sog": 24,
+         "toi_s": 34831
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 8400
+         "toi_s": 8418
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -6426,21 +6431,21 @@
         "bias": null,
         "season": {
          "a": 2,
-         "g": 0,
-         "gp": 8,
-         "p": 2,
+         "g": 2,
+         "gp": 9,
+         "p": 4,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 9388
+         "sog": 20,
+         "toi_s": 10430
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 2,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 5924
+         "sog": 15,
+         "toi_s": 5734
         },
         "l5_point_games": 1,
         "gp": 9,
@@ -6463,22 +6468,22 @@
         "pk": 2,
         "bias": "G",
         "season": {
-         "a": 1,
+         "a": 2,
          "g": 6,
-         "gp": 21,
-         "p": 7,
+         "gp": 22,
+         "p": 8,
          "ppp": 0,
          "sog": 25,
-         "toi_s": 15822
+         "toi_s": 16419
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
          "sog": 7,
-         "toi_s": 3718
+         "toi_s": 3654
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -6501,13 +6506,13 @@
         "pk": 2,
         "bias": "A",
         "season": {
-         "a": 5,
+         "a": 6,
          "g": 2,
-         "gp": 19,
-         "p": 7,
+         "gp": 20,
+         "p": 8,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 19700
+         "sog": 15,
+         "toi_s": 20703
         },
         "last5": {
          "a": 2,
@@ -6515,8 +6520,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4627
+         "sog": 4,
+         "toi_s": 4665
         },
         "l5_point_games": 2,
         "gp": 19,
@@ -6541,11 +6546,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 4,
+         "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 2747
+         "sog": 1,
+         "toi_s": 3314
         },
         "last5": {
          "a": 0,
@@ -6554,7 +6559,7 @@
          "p": 0,
          "ppp": 0,
          "sog": 1,
-         "toi_s": 3694
+         "toi_s": 3314
         },
         "l5_point_games": 0,
         "gp": 2,
@@ -6595,7 +6600,7 @@
        "rating": 75.95153440550536
       },
       "f2": {
-       "rank": 30,
+       "rank": 31,
        "rating": 71.98572086896542
       },
       "f3": {
@@ -6630,10 +6635,10 @@
     },
     "home": {
      "team": "UTA",
-     "as_of": "2026-11-14T23:04:57.724063+00:00",
-     "stale": true,
-     "source": "Cole Bagley",
-     "updated_dfo": "2026-11-14T19:34:43.368Z",
+     "as_of": "2026-11-16T14:21:43.941822+00:00",
+     "stale": false,
+     "source": "Last Game (2026-11-14)",
+     "updated_dfo": "2026-11-15T14:10:11.060Z",
      "forwards": [
       [
        {
@@ -6649,13 +6654,13 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 5,
+         "a": 6,
          "g": 3,
-         "gp": 20,
-         "p": 8,
+         "gp": 21,
+         "p": 9,
          "ppp": 1,
-         "sog": 34,
-         "toi_s": 16767
+         "sog": 37,
+         "toi_s": 17676
         },
         "last5": {
          "a": 2,
@@ -6664,7 +6669,7 @@
          "p": 2,
          "ppp": 0,
          "sog": 7,
-         "toi_s": 4625
+         "toi_s": 4648
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -6689,11 +6694,11 @@
         "season": {
          "a": 7,
          "g": 3,
-         "gp": 20,
+         "gp": 21,
          "p": 10,
          "ppp": 1,
-         "sog": 34,
-         "toi_s": 21610
+         "sog": 38,
+         "toi_s": 23079
         },
         "last5": {
          "a": 1,
@@ -6701,8 +6706,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 6233
+         "sog": 9,
+         "toi_s": 6586
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -6725,22 +6730,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 20,
+         "a": 22,
          "g": 5,
-         "gp": 20,
-         "p": 25,
-         "ppp": 15,
-         "sog": 54,
-         "toi_s": 22723
+         "gp": 21,
+         "p": 27,
+         "ppp": 16,
+         "sog": 56,
+         "toi_s": 24008
         },
         "last5": {
-         "a": 6,
+         "a": 5,
          "g": 1,
          "gp": 5,
-         "p": 7,
-         "ppp": 3,
-         "sog": 18,
-         "toi_s": 6385
+         "p": 6,
+         "ppp": 2,
+         "sog": 15,
+         "toi_s": 6543
         },
         "l5_point_games": 4,
         "gp": 21,
@@ -6765,22 +6770,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 4,
+         "a": 7,
          "g": 3,
-         "gp": 11,
-         "p": 7,
-         "ppp": 2,
-         "sog": 22,
-         "toi_s": 10123
+         "gp": 12,
+         "p": 10,
+         "ppp": 4,
+         "sog": 24,
+         "toi_s": 11178
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4901
+         "p": 3,
+         "ppp": 2,
+         "sog": 4,
+         "toi_s": 4965
         },
         "l5_point_games": 1,
         "gp": 12,
@@ -6804,21 +6809,21 @@
         "bias": null,
         "season": {
          "a": 8,
-         "g": 2,
-         "gp": 20,
-         "p": 10,
-         "ppp": 2,
-         "sog": 37,
-         "toi_s": 17644
+         "g": 3,
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 39,
+         "toi_s": 18655
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4881
+         "p": 2,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4910
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -6843,11 +6848,11 @@
         "season": {
          "a": 2,
          "g": 2,
-         "gp": 15,
+         "gp": 16,
          "p": 4,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 9526
+         "sog": 17,
+         "toi_s": 10042
         },
         "last5": {
          "a": 0,
@@ -6855,8 +6860,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2858
+         "sog": 4,
+         "toi_s": 2800
         },
         "l5_point_games": 0,
         "gp": 16,
@@ -6881,22 +6886,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 2,
          "g": 1,
-         "gp": 11,
-         "p": 2,
+         "gp": 12,
+         "p": 3,
          "ppp": 0,
-         "sog": 27,
-         "toi_s": 8050
+         "sog": 28,
+         "toi_s": 8736
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
          "sog": 10,
-         "toi_s": 3483
+         "toi_s": 3658
         },
         "l5_point_games": 1,
         "gp": 12,
@@ -6920,21 +6925,21 @@
         "bias": null,
         "season": {
          "a": 4,
-         "g": 2,
-         "gp": 20,
-         "p": 6,
+         "g": 3,
+         "gp": 21,
+         "p": 7,
          "ppp": 0,
-         "sog": 22,
-         "toi_s": 15276
+         "sog": 24,
+         "toi_s": 16162
         },
         "last5": {
          "a": 2,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 3,
+         "p": 4,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4197
+         "sog": 10,
+         "toi_s": 4245
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -6959,11 +6964,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 7,
          "ppp": 1,
-         "sog": 32,
-         "toi_s": 17938
+         "sog": 34,
+         "toi_s": 19099
         },
         "last5": {
          "a": 1,
@@ -6971,8 +6976,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 4876
+         "sog": 9,
+         "toi_s": 5010
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -6999,11 +7004,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 1,
+         "gp": 2,
          "p": 0,
          "ppp": 0,
          "sog": 0,
-         "toi_s": 292
+         "toi_s": 743
         },
         "last5": {
          "a": 0,
@@ -7011,8 +7016,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3030
+         "sog": 2,
+         "toi_s": 2800
         },
         "l5_point_games": 0,
         "gp": 2,
@@ -7037,11 +7042,11 @@
         "season": {
          "a": 4,
          "g": 1,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 16002
+         "sog": 19,
+         "toi_s": 17012
         },
         "last5": {
          "a": 0,
@@ -7049,8 +7054,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3688
+         "sog": 6,
+         "toi_s": 3950
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -7075,11 +7080,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 7,
+         "gp": 8,
          "p": 0,
          "ppp": 0,
          "sog": 5,
-         "toi_s": 3153
+         "toi_s": 3730
         },
         "last5": {
          "a": 0,
@@ -7087,8 +7092,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 2114
+         "sog": 3,
+         "toi_s": 2256
         },
         "l5_point_games": 0,
         "gp": 8,
@@ -7115,22 +7120,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 15,
-         "g": 5,
-         "gp": 20,
-         "p": 20,
-         "ppp": 10,
-         "sog": 47,
-         "toi_s": 29227
+         "a": 16,
+         "g": 6,
+         "gp": 21,
+         "p": 22,
+         "ppp": 12,
+         "sog": 52,
+         "toi_s": 30903
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 5,
          "p": 3,
          "ppp": 3,
-         "sog": 11,
-         "toi_s": 7943
+         "sog": 15,
+         "toi_s": 8067
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -7141,39 +7146,39 @@
         }
        },
        {
-        "name": "Andrew Peeke",
-        "jersey": 20,
+        "name": "Artem Duda",
+        "jersey": 84,
         "pos": "RD",
         "slot": null,
-        "player_id": 8479369,
-        "dfo_id": 27242,
+        "player_id": 8483436,
+        "dfo_id": 36382,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 6,
-         "g": 2,
-         "gp": 20,
-         "p": 8,
+         "a": 0,
+         "g": 0,
+         "gp": 6,
+         "p": 0,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 21475
+         "sog": 7,
+         "toi_s": 5314
         },
         "last5": {
-         "a": 2,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 6169
+         "sog": 3,
+         "toi_s": 4397
         },
-        "l5_point_games": 1,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 6,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7195,11 +7200,11 @@
         "season": {
          "a": 2,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 6,
          "ppp": 0,
          "sog": 20,
-         "toi_s": 18908
+         "toi_s": 20188
         },
         "last5": {
          "a": 0,
@@ -7207,8 +7212,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 5585
+         "sog": 3,
+         "toi_s": 6024
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7233,11 +7238,11 @@
         "season": {
          "a": 3,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
          "sog": 37,
-         "toi_s": 26730
+         "toi_s": 28055
         },
         "last5": {
          "a": 1,
@@ -7245,8 +7250,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 6988
+         "sog": 7,
+         "toi_s": 6867
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7272,21 +7277,21 @@
         "bias": null,
         "season": {
          "a": 0,
-         "g": 0,
-         "gp": 1,
-         "p": 0,
+         "g": 2,
+         "gp": 2,
+         "p": 2,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 660
+         "sog": 6,
+         "toi_s": 1538
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 3,
          "gp": 5,
-         "p": 2,
+         "p": 4,
          "ppp": 1,
-         "sog": 11,
-         "toi_s": 4648
+         "sog": 13,
+         "toi_s": 4584
         },
         "l5_point_games": 1,
         "gp": 2,
@@ -7297,39 +7302,39 @@
         }
        },
        {
-        "name": "Artem Duda",
-        "jersey": 84,
+        "name": "Andrew Peeke",
+        "jersey": 20,
         "pos": "RD",
         "slot": null,
-        "player_id": 8483436,
-        "dfo_id": 36382,
+        "player_id": 8479369,
+        "dfo_id": 27242,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
+         "a": 6,
+         "g": 2,
+         "gp": 21,
+         "p": 8,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 4424
+         "sog": 18,
+         "toi_s": 22609
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 4424
+         "sog": 3,
+         "toi_s": 6122
         },
-        "l5_point_games": 0,
-        "gp": 6,
+        "l5_point_games": 1,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -7339,53 +7344,10 @@
      "goalies": [
       [
        {
-        "name": "Karel Vejmelka",
-        "jersey": 70,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8478872,
-        "dfo_id": 26614,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 14,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "6-6-2",
-        "sv_pct": "0.871",
-        "starts": 14
-       }
-      ],
-      [
-       {
         "name": "Sebastian Cossa",
         "jersey": 33,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8482657,
         "dfo_id": 34654,
         "gtd": false,
@@ -7422,6 +7384,49 @@
         "sv_pct": "0.863",
         "starts": 7
        }
+      ],
+      [
+       {
+        "name": "Karel Vejmelka",
+        "jersey": 70,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8478872,
+        "dfo_id": 26614,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 15,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "6-6-2",
+        "sv_pct": "0.871",
+        "starts": 14
+       }
       ]
      ],
      "pp": [
@@ -7439,22 +7444,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 4,
+         "a": 7,
          "g": 3,
-         "gp": 11,
-         "p": 7,
-         "ppp": 2,
-         "sog": 22,
-         "toi_s": 10123
+         "gp": 12,
+         "p": 10,
+         "ppp": 4,
+         "sog": 24,
+         "toi_s": 11178
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4901
+         "p": 3,
+         "ppp": 2,
+         "sog": 4,
+         "toi_s": 4965
         },
         "l5_point_games": 1,
         "gp": 12,
@@ -7479,11 +7484,11 @@
         "season": {
          "a": 7,
          "g": 3,
-         "gp": 20,
+         "gp": 21,
          "p": 10,
          "ppp": 1,
-         "sog": 34,
-         "toi_s": 21610
+         "sog": 38,
+         "toi_s": 23079
         },
         "last5": {
          "a": 1,
@@ -7491,8 +7496,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 6233
+         "sog": 9,
+         "toi_s": 6586
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7516,21 +7521,21 @@
         "bias": null,
         "season": {
          "a": 8,
-         "g": 2,
-         "gp": 20,
-         "p": 10,
-         "ppp": 2,
-         "sog": 37,
-         "toi_s": 17644
+         "g": 3,
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 39,
+         "toi_s": 18655
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4881
+         "p": 2,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4910
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -7553,22 +7558,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 15,
-         "g": 5,
-         "gp": 20,
-         "p": 20,
-         "ppp": 10,
-         "sog": 47,
-         "toi_s": 29227
+         "a": 16,
+         "g": 6,
+         "gp": 21,
+         "p": 22,
+         "ppp": 12,
+         "sog": 52,
+         "toi_s": 30903
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 5,
          "p": 3,
          "ppp": 3,
-         "sog": 11,
-         "toi_s": 7943
+         "sog": 15,
+         "toi_s": 8067
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -7591,22 +7596,22 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 20,
+         "a": 22,
          "g": 5,
-         "gp": 20,
-         "p": 25,
-         "ppp": 15,
-         "sog": 54,
-         "toi_s": 22723
+         "gp": 21,
+         "p": 27,
+         "ppp": 16,
+         "sog": 56,
+         "toi_s": 24008
         },
         "last5": {
-         "a": 6,
+         "a": 5,
          "g": 1,
          "gp": 5,
-         "p": 7,
-         "ppp": 3,
-         "sog": 18,
-         "toi_s": 6385
+         "p": 6,
+         "ppp": 2,
+         "sog": 15,
+         "toi_s": 6543
         },
         "l5_point_games": 4,
         "gp": 21,
@@ -7631,13 +7636,13 @@
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 5,
+         "a": 6,
          "g": 3,
-         "gp": 20,
-         "p": 8,
+         "gp": 21,
+         "p": 9,
          "ppp": 1,
-         "sog": 34,
-         "toi_s": 16767
+         "sog": 37,
+         "toi_s": 17676
         },
         "last5": {
          "a": 2,
@@ -7646,7 +7651,7 @@
          "p": 2,
          "ppp": 0,
          "sog": 7,
-         "toi_s": 4625
+         "toi_s": 4648
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -7671,11 +7676,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 7,
          "ppp": 1,
-         "sog": 32,
-         "toi_s": 17938
+         "sog": 34,
+         "toi_s": 19099
         },
         "last5": {
          "a": 1,
@@ -7683,8 +7688,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 4876
+         "sog": 9,
+         "toi_s": 5010
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7707,22 +7712,22 @@
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 2,
          "g": 1,
-         "gp": 11,
-         "p": 2,
+         "gp": 12,
+         "p": 3,
          "ppp": 0,
-         "sog": 27,
-         "toi_s": 8050
+         "sog": 28,
+         "toi_s": 8736
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
          "sog": 10,
-         "toi_s": 3483
+         "toi_s": 3658
         },
         "l5_point_games": 1,
         "gp": 12,
@@ -7747,11 +7752,11 @@
         "season": {
          "a": 2,
          "g": 2,
-         "gp": 15,
+         "gp": 16,
          "p": 4,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 9526
+         "sog": 17,
+         "toi_s": 10042
         },
         "last5": {
          "a": 0,
@@ -7759,8 +7764,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2858
+         "sog": 4,
+         "toi_s": 2800
         },
         "l5_point_games": 0,
         "gp": 16,
@@ -7785,11 +7790,11 @@
         "season": {
          "a": 3,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
          "sog": 37,
-         "toi_s": 26730
+         "toi_s": 28055
         },
         "last5": {
          "a": 1,
@@ -7797,8 +7802,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 6988
+         "sog": 7,
+         "toi_s": 6867
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7827,11 +7832,11 @@
         "season": {
          "a": 4,
          "g": 1,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 16002
+         "sog": 19,
+         "toi_s": 17012
         },
         "last5": {
          "a": 0,
@@ -7839,8 +7844,8 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3688
+         "sog": 6,
+         "toi_s": 3950
         },
         "l5_point_games": 0,
         "gp": 21,
@@ -7865,11 +7870,11 @@
         "season": {
          "a": 5,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 7,
          "ppp": 1,
-         "sog": 32,
-         "toi_s": 17938
+         "sog": 34,
+         "toi_s": 19099
         },
         "last5": {
          "a": 1,
@@ -7877,8 +7882,8 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 4876
+         "sog": 9,
+         "toi_s": 5010
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7901,22 +7906,22 @@
         "pk": 1,
         "bias": "A",
         "season": {
-         "a": 15,
-         "g": 5,
-         "gp": 20,
-         "p": 20,
-         "ppp": 10,
-         "sog": 47,
-         "toi_s": 29227
+         "a": 16,
+         "g": 6,
+         "gp": 21,
+         "p": 22,
+         "ppp": 12,
+         "sog": 52,
+         "toi_s": 30903
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 5,
          "p": 3,
          "ppp": 3,
-         "sog": 11,
-         "toi_s": 7943
+         "sog": 15,
+         "toi_s": 8067
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -7941,11 +7946,11 @@
         "season": {
          "a": 3,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 5,
          "ppp": 0,
          "sog": 37,
-         "toi_s": 26730
+         "toi_s": 28055
         },
         "last5": {
          "a": 1,
@@ -7953,8 +7958,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 6988
+         "sog": 7,
+         "toi_s": 6867
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -7981,11 +7986,11 @@
         "season": {
          "a": 7,
          "g": 3,
-         "gp": 20,
+         "gp": 21,
          "p": 10,
          "ppp": 1,
-         "sog": 34,
-         "toi_s": 21610
+         "sog": 38,
+         "toi_s": 23079
         },
         "last5": {
          "a": 1,
@@ -7993,8 +7998,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 6233
+         "sog": 9,
+         "toi_s": 6586
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -8018,21 +8023,21 @@
         "bias": null,
         "season": {
          "a": 4,
-         "g": 2,
-         "gp": 20,
-         "p": 6,
+         "g": 3,
+         "gp": 21,
+         "p": 7,
          "ppp": 0,
-         "sog": 22,
-         "toi_s": 15276
+         "sog": 24,
+         "toi_s": 16162
         },
         "last5": {
          "a": 2,
-         "g": 1,
+         "g": 2,
          "gp": 5,
-         "p": 3,
+         "p": 4,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4197
+         "sog": 10,
+         "toi_s": 4245
         },
         "l5_point_games": 2,
         "gp": 21,
@@ -8057,11 +8062,11 @@
         "season": {
          "a": 2,
          "g": 4,
-         "gp": 20,
+         "gp": 21,
          "p": 6,
          "ppp": 0,
          "sog": 20,
-         "toi_s": 18908
+         "toi_s": 20188
         },
         "last5": {
          "a": 0,
@@ -8069,8 +8074,8 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 5585
+         "sog": 3,
+         "toi_s": 6024
         },
         "l5_point_games": 1,
         "gp": 21,
@@ -8095,25 +8100,25 @@
         "season": {
          "a": 6,
          "g": 2,
-         "gp": 20,
+         "gp": 21,
          "p": 8,
          "ppp": 0,
          "sog": 18,
-         "toi_s": 21475
+         "toi_s": 22609
         },
         "last5": {
          "a": 2,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 6169
+         "sog": 3,
+         "toi_s": 6122
         },
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -8149,35 +8154,35 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 19,
-       "rating": 73.7466537666546
+       "rank": 14,
+       "rating": 74.9227894568078
       },
       "d2": {
        "rank": 22,
        "rating": 73.3491047234105
       },
       "d3": {
-       "rank": 27,
-       "rating": 0
+       "rank": 13,
+       "rating": 72.57051807650141
       },
       "d4": {
        "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 25,
+       "rank": 26,
        "rating": 74.60858295899371
       },
       "f2": {
-       "rank": 25,
+       "rank": 24,
        "rating": 72.78468950711832
       },
       "f3": {
-       "rank": 23,
+       "rank": 24,
        "rating": 71.90649537274241
       },
       "f4": {
-       "rank": 20,
+       "rank": 18,
        "rating": 71.91977873674156
       },
       "g": {
