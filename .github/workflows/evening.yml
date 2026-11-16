@@ -45,8 +45,8 @@ jobs:
             git add -A data docs
             if ! git diff --cached --quiet; then
               git commit -m "evening: $(date -u +%Y-%m-%dT%H:%MZ)"
-              git pull --rebase || true
-              git push || (git pull --rebase && git push)
+              git pull --rebase -X theirs || { git rebase --abort || true; git reset --hard origin/main; }
+              git push || (git pull --rebase -X theirs && git push)
             fi
             if [ "${{ github.event.inputs.once }}" = "true" ]; then exit 0; fi
             NOW=$(date +%s)
