@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_utc": "2026-11-16T00:30:34.040059+00:00",
+ "generated_utc": "2026-11-16T00:45:38.472215+00:00",
  "games": [
   {
    "game_id": 2026020326,
@@ -8,7 +8,7 @@
    "start_et": "7:30 PM",
    "away": "EDM",
    "home": "PHI",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Xfinity Mobile Arena",
    "teams": {
     "away": {
@@ -1499,7 +1499,7 @@
      "ppga_rk": 21,
      "l5_gf": 3.4,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-15T22:14:48.178830+00:00",
+     "lineup_as_of": "2026-11-16T00:45:37.215280+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3662,9 +3662,9 @@
      "home": true,
      "b2b": true,
      "goalie": "Ville Husso",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Husso will start vs. Calgary on Sunday.",
+     "goalie_source": "Zach Cavanagh",
      "sv": "0.869",
      "gaa": "3.54",
      "ml": "160",
@@ -3679,14 +3679,9 @@
      "ppga_rk": 5,
      "l5_gf": 3.8,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-15T22:14:47.909823+00:00",
+     "lineup_as_of": "2026-11-16T00:45:37.026319+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Ian Moore",
-       "status": "IR",
-       "news": "Moore (lower body) could return by the end of the week."
-      },
       {
        "player": "Ryan Poehling",
        "status": "IR",
@@ -3705,19 +3700,19 @@
        "Cutter Gauthier"
       ],
       "2": [
-       "Beckett Sennecke",
+       "Jeff Malott",
        "Mikael Granlund",
-       "Troy Terry"
+       "Beckett Sennecke"
       ],
       "3": [
-       "Jeff Malott",
+       "Ian Moore",
        "Tim Washe",
        "Alex Killorn"
       ],
       "4": [
        "Nikita Nesterenko",
        "Roger McQueen",
-       "Sam Colangelo"
+       "Troy Terry"
       ]
      },
      "pp1": [
@@ -3889,7 +3884,7 @@
        "home": true,
        "line": 2,
        "pp": 1,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
@@ -3935,20 +3930,20 @@
        },
        "partners": [
         {
+         "name": "Jeff Malott",
+         "jersey": 39,
+         "pp": null,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        },
+        {
          "name": "Mikael Granlund",
          "jersey": 64,
          "pp": 1,
          "n": 15,
          "both": 9,
          "either": 12
-        },
-        {
-         "name": "Troy Terry",
-         "jersey": 19,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -4006,20 +4001,20 @@
        },
        "partners": [
         {
+         "name": "Jeff Malott",
+         "jersey": 39,
+         "pp": null,
+         "n": 3,
+         "both": 0,
+         "either": 1
+        },
+        {
          "name": "Beckett Sennecke",
          "jersey": 45,
          "pp": 1,
          "n": 15,
          "both": 9,
          "either": 12
-        },
-        {
-         "name": "Troy Terry",
-         "jersey": 19,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -4148,10 +4143,10 @@
        },
        "partners": [
         {
-         "name": "Jeff Malott",
-         "jersey": 39,
+         "name": "Ian Moore",
+         "jersey": null,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         },
@@ -4166,42 +4161,42 @@
        ]
       },
       {
-       "name": "Troy Terry",
-       "jersey": 19,
+       "name": "Ian Moore",
+       "jersey": null,
        "team": "ANA",
        "opp": "CGY",
        "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "RW",
+       "line": 3,
+       "pp": null,
+       "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
-       "gp": 2,
+       "gp": 0,
        "pt_games": 0,
        "l5": [
         0,
-        2
+        0
        ],
        "ast_games": 0,
        "goal_games": 0,
        "two_games": 0,
        "home_split": [
         0,
-        2
+        0
        ],
        "away_split": [
         0,
         0
        ],
-       "pp_toi": 1.0,
-       "toi": 13.3,
-       "p": 0.242,
-       "fair": "+313",
-       "min": "+337",
-       "p2": 0.052,
-       "fair2": "+1833",
-       "min2": "+1949",
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.223,
+       "fair": "+349",
+       "min": "+376",
+       "p2": 0.032,
+       "fair2": "+2993",
+       "min2": "+3179",
        "adj": [
         [
          "opp",
@@ -4213,23 +4208,23 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Beckett Sennecke",
-         "jersey": 45,
-         "pp": 1,
+         "name": "Tim Washe",
+         "jersey": null,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Mikael Granlund",
-         "jersey": 64,
-         "pp": 1,
+         "name": "Alex Killorn",
+         "jersey": 17,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -4290,12 +4285,12 @@
        },
        "partners": [
         {
-         "name": "Jeff Malott",
-         "jersey": 39,
+         "name": "Ian Moore",
+         "jersey": null,
          "pp": null,
-         "n": 9,
-         "both": 2,
-         "either": 3
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Alex Killorn",
@@ -4313,11 +4308,11 @@
        "team": "ANA",
        "opp": "CGY",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "G",
        "gp": 19,
        "pt_games": 4,
@@ -4338,12 +4333,12 @@
        ],
        "pp_toi": 0.1,
        "toi": 10.2,
-       "p": 0.198,
-       "fair": "+405",
-       "min": "+435",
-       "p2": 0.069,
-       "fair2": "+1340",
-       "min2": "+1426",
+       "p": 0.222,
+       "fair": "+351",
+       "min": "+378",
+       "p2": 0.079,
+       "fair2": "+1165",
+       "min2": "+1241",
        "adj": [
         [
          "opp",
@@ -4355,26 +4350,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Tim Washe",
-         "jersey": null,
-         "pp": null,
-         "n": 9,
-         "both": 2,
-         "either": 3
+         "name": "Mikael Granlund",
+         "jersey": 64,
+         "pp": 1,
+         "n": 3,
+         "both": 0,
+         "either": 1
         },
         {
-         "name": "Alex Killorn",
-         "jersey": 17,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Beckett Sennecke",
+         "jersey": 45,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       }
