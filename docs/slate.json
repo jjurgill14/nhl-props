@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-17T23:41:14.186442+00:00",
+ "generated_utc": "2026-11-17T23:46:22.740099+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -2090,8 +2090,8 @@
      "ppga_rk": 24,
      "l5_gf": 3.0,
      "l5_ga": 2.4,
-     "lineup_as_of": "2026-11-16T15:05:09.436Z",
-     "lineup_checked": "2026-11-17T15:14:19.817752+00:00",
+     "lineup_as_of": "2026-11-17T23:41:52.132Z",
+     "lineup_checked": "2026-11-17T23:46:17.833676+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2113,17 +2113,17 @@
      "lines": {
       "1": [
        "Brady Tkachuk",
-       "Anton Lundell",
+       "Sam Bennett",
        "Matthew Tkachuk"
       ],
       "2": [
-       "Carter Verhaeghe",
-       "Sam Reinhart",
-       "Lars Eller"
+       "Eetu Luostarinen",
+       "Anton Lundell",
+       "Sam Reinhart"
       ],
       "3": [
-       "Eetu Luostarinen",
-       "Sam Bennett",
+       "Carter Verhaeghe",
+       "Lars Eller",
        "Sandis Vilmanis"
       ],
       "4": [
@@ -2205,12 +2205,12 @@
          "either": 15
         },
         {
-         "name": "Anton Lundell",
-         "jersey": 15,
+         "name": "Sam Bennett",
+         "jersey": 9,
          "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 2
+         "n": 19,
+         "both": 6,
+         "either": 16
         }
        ]
       },
@@ -2222,7 +2222,7 @@
        "home": true,
        "line": 2,
        "pp": 1,
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -2268,20 +2268,20 @@
        },
        "partners": [
         {
-         "name": "Carter Verhaeghe",
-         "jersey": 23,
-         "pp": 1,
-         "n": 17,
-         "both": 10,
-         "either": 15
+         "name": "Eetu Luostarinen",
+         "jersey": 27,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Lars Eller",
-         "jersey": 20,
+         "name": "Anton Lundell",
+         "jersey": 15,
          "pp": 2,
-         "n": 11,
-         "both": 4,
-         "either": 7
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2291,7 +2291,7 @@
        "team": "FLA",
        "opp": "EDM",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -2333,25 +2333,25 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Sam Reinhart",
-         "jersey": 13,
-         "pp": 1,
-         "n": 17,
-         "both": 10,
-         "either": 15
-        },
         {
          "name": "Lars Eller",
          "jersey": 20,
          "pp": 2,
          "n": 9,
          "both": 4,
+         "either": 5
+        },
+        {
+         "name": "Sandis Vilmanis",
+         "jersey": 95,
+         "pp": null,
+         "n": 5,
+         "both": 3,
          "either": 5
         }
        ]
@@ -2406,12 +2406,12 @@
        },
        "partners": [
         {
-         "name": "Anton Lundell",
-         "jersey": 15,
+         "name": "Sam Bennett",
+         "jersey": 9,
          "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "n": 15,
+         "both": 3,
+         "either": 13
         },
         {
          "name": "Matthew Tkachuk",
@@ -2429,11 +2429,11 @@
        "team": "FLA",
        "opp": "EDM",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 22,
        "pt_games": 10,
@@ -2454,10 +2454,10 @@
        ],
        "pp_toi": 0.5,
        "toi": 16.6,
-       "p": 0.374,
-       "fair": "+168",
-       "min": "+184",
-       "p2": 0.019,
+       "p": 0.353,
+       "fair": "+184",
+       "min": "+201",
+       "p2": 0.009,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -2467,7 +2467,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 1,
         "new": false
        },
@@ -2481,12 +2481,79 @@
          "either": 5
         },
         {
-         "name": "Sam Reinhart",
-         "jersey": 13,
+         "name": "Sandis Vilmanis",
+         "jersey": 95,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Sam Bennett",
+       "jersey": 9,
+       "team": "FLA",
+       "opp": "EDM",
+       "home": true,
+       "line": 1,
+       "pp": 2,
+       "pos": "C",
+       "gtd": false,
+       "role": "top6",
+       "bias": "G",
+       "gp": 22,
+       "pt_games": 8,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 4,
+       "two_games": 2,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        6,
+        15
+       ],
+       "pp_toi": 1.1,
+       "toi": 16.4,
+       "p": 0.315,
+       "fair": "+218",
+       "min": "+237",
+       "p2": 0.078,
+       "fair2": "+1189",
+       "min2": "+1267",
+       "adj": [
+        [
+         "opp",
+         0.8812903225806452
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Brady Tkachuk",
+         "jersey": 8,
          "pp": 1,
-         "n": 11,
-         "both": 4,
-         "either": 7
+         "n": 15,
+         "both": 3,
+         "either": 13
+        },
+        {
+         "name": "Matthew Tkachuk",
+         "jersey": 19,
+         "pp": 1,
+         "n": 19,
+         "both": 6,
+         "either": 16
         }
        ]
       },
@@ -2496,7 +2563,7 @@
        "team": "FLA",
        "opp": "EDM",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "C",
        "gtd": false,
@@ -2534,74 +2601,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Brady Tkachuk",
-         "jersey": 8,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Matthew Tkachuk",
-         "jersey": 19,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Sam Bennett",
-       "jersey": 9,
-       "team": "FLA",
-       "opp": "EDM",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 22,
-       "pt_games": 8,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 4,
-       "two_games": 2,
-       "home_split": [
-        2,
-        7
-       ],
-       "away_split": [
-        6,
-        15
-       ],
-       "pp_toi": 1.1,
-       "toi": 16.4,
-       "p": 0.294,
-       "fair": "+240",
-       "min": "+261",
-       "p2": 0.068,
-       "fair2": "+1367",
-       "min2": "+1455",
-       "adj": [
-        [
-         "opp",
-         0.8812903225806452
-        ]
-       ],
-       "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -2610,17 +2610,17 @@
          "name": "Eetu Luostarinen",
          "jersey": 27,
          "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 19,
+         "both": 3,
+         "either": 6
         },
         {
-         "name": "Sandis Vilmanis",
-         "jersey": 95,
-         "pp": null,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "name": "Sam Reinhart",
+         "jersey": 13,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2674,20 +2674,20 @@
        },
        "partners": [
         {
-         "name": "Eetu Luostarinen",
-         "jersey": 27,
-         "pp": 2,
-         "n": 13,
-         "both": 0,
-         "either": 3
+         "name": "Carter Verhaeghe",
+         "jersey": 23,
+         "pp": 1,
+         "n": 5,
+         "both": 3,
+         "either": 5
         },
         {
-         "name": "Sam Bennett",
-         "jersey": 9,
+         "name": "Lars Eller",
+         "jersey": 20,
          "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -2697,11 +2697,11 @@
        "team": "FLA",
        "opp": "EDM",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 22,
        "pt_games": 3,
@@ -2722,12 +2722,12 @@
        ],
        "pp_toi": 0.5,
        "toi": 15.3,
-       "p": 0.147,
-       "fair": "+581",
-       "min": "+622",
-       "p2": 0.068,
-       "fair2": "+1367",
-       "min2": "+1455",
+       "p": 0.168,
+       "fair": "+495",
+       "min": "+531",
+       "p2": 0.078,
+       "fair2": "+1189",
+       "min2": "+1267",
        "adj": [
         [
          "opp",
@@ -2735,26 +2735,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Sam Bennett",
-         "jersey": 9,
+         "name": "Anton Lundell",
+         "jersey": 15,
          "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 19,
+         "both": 3,
+         "either": 6
         },
         {
-         "name": "Sandis Vilmanis",
-         "jersey": 95,
-         "pp": null,
-         "n": 13,
+         "name": "Sam Reinhart",
+         "jersey": 13,
+         "pp": 1,
+         "n": 0,
          "both": 0,
-         "either": 3
+         "either": 0
         }
        ]
       }
@@ -2795,7 +2795,7 @@
      "l5_gf": 1.6,
      "l5_ga": 3.4,
      "lineup_as_of": "2026-11-17T17:59:23.315Z",
-     "lineup_checked": "2026-11-17T21:09:27.005127+00:00",
+     "lineup_checked": "2026-11-17T23:46:17.907770+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2838,14 +2838,14 @@
      },
      "pp1": [
       "Matthew Knies",
-      "Adam Fantilli",
+      "Luca Del Bel Belluz",
       "Charlie Coyle",
       "Zach Werenski",
       "Kent Johnson"
      ],
      "pp2": [
       "Valeri Nichushkin",
-      "Luca Del Bel Belluz",
+      "Adam Fantilli",
       "Dmitri Voronkov",
       "Denton Mateychuk",
       "Ivan Provorov"
@@ -2911,7 +2911,7 @@
         {
          "name": "Luca Del Bel Belluz",
          "jersey": 93,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
          "both": 1,
          "either": 1
@@ -3045,7 +3045,7 @@
         {
          "name": "Adam Fantilli",
          "jersey": 19,
-         "pp": 1,
+         "pp": 2,
          "n": 6,
          "both": 3,
          "either": 4
@@ -3104,7 +3104,7 @@
         {
          "name": "Luca Del Bel Belluz",
          "jersey": 93,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
          "both": 1,
          "either": 1
@@ -3126,10 +3126,10 @@
        "opp": "NYI",
        "home": false,
        "line": 1,
-       "pp": 1,
+       "pp": 2,
        "pos": "C",
        "gtd": false,
-       "role": "pp1",
+       "role": "top6",
        "bias": "G",
        "gp": 18,
        "pt_games": 6,
@@ -3150,12 +3150,12 @@
        ],
        "pp_toi": 1.8,
        "toi": 20.1,
-       "p": 0.366,
-       "fair": "+173",
-       "min": "+189",
-       "p2": 0.092,
-       "fair2": "+984",
-       "min2": "+1049",
+       "p": 0.309,
+       "fair": "+223",
+       "min": "+243",
+       "p2": 0.058,
+       "fair2": "+1618",
+       "min2": "+1722",
        "adj": [
         [
          "opp",
@@ -3164,7 +3164,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 1,
+        "pp": 0,
         "new": false
        },
        "partners": [
@@ -3238,7 +3238,7 @@
         {
          "name": "Adam Fantilli",
          "jersey": 19,
-         "pp": 1,
+         "pp": 2,
          "n": 2,
          "both": 1,
          "either": 2
@@ -3250,6 +3250,73 @@
          "n": 7,
          "both": 4,
          "either": 5
+        }
+       ]
+      },
+      {
+       "name": "Luca Del Bel Belluz",
+       "jersey": 93,
+       "team": "CBJ",
+       "opp": "NYI",
+       "home": false,
+       "line": 2,
+       "pp": 1,
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 9,
+       "pt_games": 1,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        6
+       ],
+       "away_split": [
+        0,
+        3
+       ],
+       "pp_toi": 0.0,
+       "toi": 7.9,
+       "p": 0.289,
+       "fair": "+246",
+       "min": "+267",
+       "p2": 0.087,
+       "fair2": "+1052",
+       "min2": "+1121",
+       "adj": [
+        [
+         "opp",
+         0.9225806451612903
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Matthew Knies",
+         "jersey": 89,
+         "pp": 1,
+         "n": 1,
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Kent Johnson",
+         "jersey": 91,
+         "pp": 1,
+         "n": 1,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -3388,73 +3455,6 @@
          "n": 17,
          "both": 2,
          "either": 10
-        }
-       ]
-      },
-      {
-       "name": "Luca Del Bel Belluz",
-       "jersey": 93,
-       "team": "CBJ",
-       "opp": "NYI",
-       "home": false,
-       "line": 2,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 9,
-       "pt_games": 1,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        6
-       ],
-       "away_split": [
-        0,
-        3
-       ],
-       "pp_toi": 0.0,
-       "toi": 7.9,
-       "p": 0.202,
-       "fair": "+395",
-       "min": "+425",
-       "p2": 0.035,
-       "fair2": "+2779",
-       "min2": "+2952",
-       "adj": [
-        [
-         "opp",
-         0.9225806451612903
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Matthew Knies",
-         "jersey": 89,
-         "pp": 1,
-         "n": 1,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Kent Johnson",
-         "jersey": 91,
-         "pp": 1,
-         "n": 1,
-         "both": 1,
-         "either": 1
         }
        ]
       }
@@ -4184,8 +4184,8 @@
      "ppga_rk": 4,
      "l5_gf": 2.2,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-16T16:48:11.423Z",
-     "lineup_checked": "2026-11-17T21:09:27.245737+00:00",
+     "lineup_as_of": "2026-11-17T23:44:04.629Z",
+     "lineup_checked": "2026-11-17T23:46:18.442784+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4206,14 +4206,14 @@
        "Tage Thompson"
       ],
       "2": [
-       "Josh Norris",
-       "Peyton Krebs",
-       "Josh Doan"
-      ],
-      "3": [
        "Ryan McLeod",
        "Noah Ostlund",
        "Jack Quinn"
+      ],
+      "3": [
+       "Peyton Krebs",
+       "Josh Norris",
+       "Josh Doan"
       ],
       "4": [
        "Beck Malenstyn",
@@ -4380,7 +4380,7 @@
        "team": "BUF",
        "opp": "PHI",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -4418,7 +4418,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -4447,11 +4447,11 @@
        "team": "BUF",
        "opp": "PHI",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
        "pos": "C",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 20,
        "pt_games": 9,
@@ -4472,12 +4472,12 @@
        ],
        "pp_toi": 4.2,
        "toi": 17.5,
-       "p": 0.403,
-       "fair": "+148",
-       "min": "+163",
-       "p2": 0.085,
-       "fair2": "+1077",
-       "min2": "+1147",
+       "p": 0.429,
+       "fair": "+133",
+       "min": "+147",
+       "p2": 0.097,
+       "fair2": "+934",
+       "min2": "+996",
        "adj": [
         [
          "opp",
@@ -4485,7 +4485,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": -1,
         "new": false
        },
@@ -4514,7 +4514,7 @@
        "team": "BUF",
        "opp": "PHI",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "pos": "RW",
        "gtd": false,
@@ -4552,19 +4552,11 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 1,
         "new": false
        },
        "partners": [
-        {
-         "name": "Josh Norris",
-         "jersey": 9,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
-         "either": 2
-        },
         {
          "name": "Peyton Krebs",
          "jersey": 19,
@@ -4572,6 +4564,14 @@
          "n": 3,
          "both": 1,
          "either": 1
+        },
+        {
+         "name": "Josh Norris",
+         "jersey": 9,
+         "pp": 2,
+         "n": 5,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -4581,11 +4581,11 @@
        "team": "BUF",
        "opp": "PHI",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": null,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 20,
        "pt_games": 7,
@@ -4606,12 +4606,12 @@
        ],
        "pp_toi": 0.1,
        "toi": 16.8,
-       "p": 0.32,
-       "fair": "+212",
-       "min": "+231",
-       "p2": 0.087,
-       "fair2": "+1049",
-       "min2": "+1118",
+       "p": 0.297,
+       "fair": "+237",
+       "min": "+257",
+       "p2": 0.076,
+       "fair2": "+1207",
+       "min2": "+1286",
        "adj": [
         [
          "opp",
@@ -4643,73 +4643,6 @@
          "n": 3,
          "both": 1,
          "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Josh Norris",
-       "jersey": 9,
-       "team": "BUF",
-       "opp": "PHI",
-       "home": false,
-       "line": 2,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 20,
-       "pt_games": 6,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        3,
-        10
-       ],
-       "away_split": [
-        3,
-        10
-       ],
-       "pp_toi": 2.2,
-       "toi": 13.7,
-       "p": 0.319,
-       "fair": "+213",
-       "min": "+232",
-       "p2": 0.06,
-       "fair2": "+1564",
-       "min2": "+1664",
-       "adj": [
-        [
-         "opp",
-         1.0258064516129033
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Peyton Krebs",
-         "jersey": 19,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Josh Doan",
-         "jersey": 91,
-         "pp": 1,
-         "n": 5,
-         "both": 0,
-         "either": 2
         }
        ]
       },
@@ -4781,16 +4714,83 @@
        ]
       },
       {
+       "name": "Josh Norris",
+       "jersey": 9,
+       "team": "BUF",
+       "opp": "PHI",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 20,
+       "pt_games": 6,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        3,
+        10
+       ],
+       "away_split": [
+        3,
+        10
+       ],
+       "pp_toi": 2.2,
+       "toi": 13.7,
+       "p": 0.293,
+       "fair": "+241",
+       "min": "+262",
+       "p2": 0.048,
+       "fair2": "+1968",
+       "min2": "+2092",
+       "adj": [
+        [
+         "opp",
+         1.0258064516129033
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Peyton Krebs",
+         "jersey": 19,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Josh Doan",
+         "jersey": 91,
+         "pp": 1,
+         "n": 5,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Ryan McLeod",
        "jersey": 71,
        "team": "BUF",
        "opp": "PHI",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 18,
        "pt_games": 4,
@@ -4811,12 +4811,12 @@
        ],
        "pp_toi": 1.2,
        "toi": 13.9,
-       "p": 0.237,
-       "fair": "+322",
-       "min": "+348",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p": 0.265,
+       "fair": "+277",
+       "min": "+300",
+       "p2": 0.025,
+       "fair2": "+3860",
+       "min2": "+4098",
        "adj": [
         [
          "opp",
