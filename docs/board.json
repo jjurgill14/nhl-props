@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T21:24:39.120700+00:00",
+ "generated_utc": "2026-11-17T21:39:47.296495+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19113,12 +19113,23 @@
     "sv": "0.888",
     "gaa": "2.74",
     "lineup_as_of": "2026-11-17T14:31:06.042Z",
-    "lineup_checked": "2026-11-17T15:14:20.526486+00:00",
+    "lineup_checked": "2026-11-17T21:39:43.554342+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 6,
     "ppga_rk": 14,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-17T21:39:43.556889+00:00",
+      "kind": "out",
+      "text": "OUT: Conor Geekie (was L3) \u2192 IR"
+     },
+     {
+      "at": "2026-11-17T21:39:43.556889+00:00",
+      "kind": "move",
+      "text": "Victor Hedman: PP-\u2192PP2"
+     }
+    ],
     "rates": {
      "gp": 20,
      "pp_gp": 20,
@@ -21084,7 +21095,7 @@
     "home": {
      "team": "TBL",
      "as_of": "2026-11-17T14:31:06.042Z",
-     "checked": "2026-11-17T15:14:20.526486+00:00",
+     "checked": "2026-11-17T21:39:43.554342+00:00",
      "stale": false,
      "source": "Projected",
      "updated_dfo": "2026-11-17T14:31:06.042Z",
@@ -21184,7 +21195,7 @@
          "gp": 20,
          "p": 28,
          "ppp": 9,
-         "sog": 63,
+         "sog": 64,
          "toi_s": 25471
         },
         "last5": {
@@ -21193,7 +21204,7 @@
          "gp": 5,
          "p": 8,
          "ppp": 3,
-         "sog": 22,
+         "sog": 23,
          "toi_s": 6583
         },
         "l5_point_games": 3,
@@ -21394,44 +21405,6 @@
         "gp": 3,
         "move": {
          "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Conor Geekie",
-        "jersey": 94,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8483447,
-        "dfo_id": 31505,
-        "gtd": true,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 1,
-         "g": 4,
-         "gp": 20,
-         "p": 5,
-         "ppp": 0,
-         "sog": 27,
-         "toi_s": 13734
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 3229
-        },
-        "l5_point_games": 1,
-        "gp": 20,
-        "move": {
-         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -21643,7 +21616,7 @@
         "dfo_id": 1369,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
@@ -21668,7 +21641,7 @@
         "gp": 19,
         "move": {
          "ev": 0,
-         "pp": -1,
+         "pp": 0,
          "new": false
         }
        },
@@ -21974,7 +21947,7 @@
          "gp": 20,
          "p": 28,
          "ppp": 9,
-         "sog": 63,
+         "sog": 64,
          "toi_s": 25471
         },
         "last5": {
@@ -21983,7 +21956,7 @@
          "gp": 5,
          "p": 8,
          "ppp": 3,
-         "sog": 22,
+         "sog": 23,
          "toi_s": 6583
         },
         "l5_point_games": 3,
@@ -22073,39 +22046,39 @@
       ],
       [
        {
-        "name": "Conor Geekie",
-        "jersey": 94,
+        "name": "Brandon Hagel",
+        "jersey": 38,
         "pos": null,
         "slot": 1,
-        "player_id": 8483447,
-        "dfo_id": 31505,
-        "gtd": true,
+        "player_id": 8479542,
+        "dfo_id": 27046,
+        "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": "G",
+        "pk": 1,
+        "bias": null,
         "season": {
-         "a": 1,
-         "g": 4,
+         "a": 11,
+         "g": 13,
          "gp": 20,
-         "p": 5,
-         "ppp": 0,
-         "sog": 27,
-         "toi_s": 13734
+         "p": 24,
+         "ppp": 4,
+         "sog": 80,
+         "toi_s": 24634
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 2,
+         "g": 5,
          "gp": 5,
-         "p": 1,
+         "p": 7,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 3229
+         "sog": 18,
+         "toi_s": 5546
         },
-        "l5_point_games": 1,
+        "l5_point_games": 3,
         "gp": 20,
         "move": {
-         "ev": 1,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -22187,39 +22160,39 @@
         }
        },
        {
-        "name": "Brandon Hagel",
-        "jersey": 38,
+        "name": "Victor Hedman",
+        "jersey": 77,
         "pos": null,
         "slot": 4,
-        "player_id": 8479542,
-        "dfo_id": 27046,
+        "player_id": 8475167,
+        "dfo_id": 1369,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 1,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 11,
-         "g": 13,
-         "gp": 20,
-         "p": 24,
-         "ppp": 4,
-         "sog": 80,
-         "toi_s": 24634
+         "a": 2,
+         "g": 4,
+         "gp": 19,
+         "p": 6,
+         "ppp": 1,
+         "sog": 20,
+         "toi_s": 17579
         },
         "last5": {
-         "a": 2,
-         "g": 5,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 7,
+         "p": 0,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 5546
+         "sog": 1,
+         "toi_s": 5520
         },
-        "l5_point_games": 3,
-        "gp": 20,
+        "l5_point_games": 0,
+        "gp": 19,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -22505,7 +22478,7 @@
         "dfo_id": 1369,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
@@ -22530,7 +22503,7 @@
         "gp": 19,
         "move": {
          "ev": 0,
-         "pp": -1,
+         "pp": 0,
          "new": false
         }
        },
@@ -22578,7 +22551,7 @@
       {
        "player": "Brayden Point",
        "status": "DTD",
-       "news": "Point (undisclosed) has been placed on IR."
+       "news": "Point (undisclosed) is expected to return vs. Washington on Tuesday."
       },
       {
        "player": "Anthony Cirelli",
@@ -22589,6 +22562,11 @@
        "player": "Erik Cernak",
        "status": "DTD",
        "news": "Cernak (undisclosed) will not play Thursday in Columbus."
+      },
+      {
+       "player": "Conor Geekie",
+       "status": "IR",
+       "news": "Geekie (undisclosed) has been placed on IR."
       }
      ],
      "unit_ratings": {
@@ -22601,11 +22579,11 @@
        "rating": 79.5198978490266
       },
       "d3": {
-       "rank": 7,
+       "rank": 8,
        "rating": 73.65837410877525
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -22617,7 +22595,7 @@
        "rating": 74.51115086277801
       },
       "f3": {
-       "rank": 16,
+       "rank": 18,
        "rating": 72.8644533597463
       },
       "f4": {
@@ -22669,7 +22647,7 @@
     "sv": "0.881",
     "gaa": "3.47",
     "lineup_as_of": "2026-11-16T17:02:02.414Z",
-    "lineup_checked": "2026-11-17T15:14:20.619462+00:00",
+    "lineup_checked": "2026-11-17T21:39:43.659685+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
     "gf_rk": 16,
@@ -22719,7 +22697,7 @@
     "sv": "0.882",
     "gaa": "3.54",
     "lineup_as_of": "2026-11-17T02:36:53.865Z",
-    "lineup_checked": "2026-11-17T15:14:19.609611+00:00",
+    "lineup_checked": "2026-11-17T21:39:43.770006+00:00",
     "lineup_stale": false,
     "ga_rk": 2,
     "gf_rk": 32,
@@ -23130,7 +23108,7 @@
     "away": {
      "team": "TOR",
      "as_of": "2026-11-16T17:02:02.414Z",
-     "checked": "2026-11-17T15:14:20.619462+00:00",
+     "checked": "2026-11-17T21:39:43.659685+00:00",
      "stale": false,
      "source": "David Alter",
      "updated_dfo": "2026-11-16T17:02:02.414Z",
@@ -24644,16 +24622,16 @@
       {
        "player": "Morgan Rielly",
        "status": "DTD",
-       "news": "Rielly (lower-body) will participate in practice on Monday but is still considered day-to-day."
+       "news": "Rielly (lower-body) is expected to return in Chicago on Tuesday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 27,
+       "rank": 29,
        "rating": 71.6838952495147
       },
       "d2": {
-       "rank": 19,
+       "rank": 18,
        "rating": 73.42252671063466
       },
       "d3": {
@@ -24661,11 +24639,11 @@
        "rating": 73.60956640469905
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 12,
+       "rank": 11,
        "rating": 76.87026378419155
       },
       "f2": {
@@ -24673,11 +24651,11 @@
        "rating": 76.84174593675621
       },
       "f3": {
-       "rank": 28,
+       "rank": 29,
        "rating": 71.2016858893763
       },
       "f4": {
-       "rank": 34,
+       "rank": 33,
        "rating": 0
       },
       "g": {
@@ -24705,7 +24683,7 @@
     "home": {
      "team": "CHI",
      "as_of": "2026-11-17T02:36:53.865Z",
-     "checked": "2026-11-17T15:14:19.609611+00:00",
+     "checked": "2026-11-17T21:39:43.770006+00:00",
      "stale": false,
      "source": "Mario Tirabassi",
      "updated_dfo": "2026-11-17T02:36:53.865Z",
@@ -26199,34 +26177,34 @@
       {
        "player": "Bowen Byram",
        "status": "IR",
-       "news": "Byram (upper-body) remains day-to-day and will not play on Saturday."
+       "news": "Byram (upper-body) will miss Chicago's next two games."
       },
       {
        "player": "Cole Smith",
        "status": "DTD",
-       "news": "Smith (undisclosed) missed practice on Monday but is likely to play Tuesday vs. Toronto."
+       "news": "Smith (undisclosed) will play vs. Toronto on Tuesday."
       },
       {
        "player": "Tyler Bertuzzi",
        "status": "DTD",
-       "news": "Bertuzzi (upper-body) is likely able to play vs. Toronto on Tuesday."
+       "news": "Bertuzzi (upper-body) will play vs. Toronto on Tuesday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 33,
+       "rank": 34,
        "rating": 0
       },
       "d2": {
-       "rank": 23,
+       "rank": 22,
        "rating": 73.20062632226701
       },
       "d3": {
-       "rank": 27,
+       "rank": 28,
        "rating": 0
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {

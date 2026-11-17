@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-17T21:24:38.435789+00:00",
+ "generated_utc": "2026-11-17T21:39:46.608451+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -7650,13 +7650,13 @@
      "l5_gf": 3.6,
      "l5_ga": 2.6,
      "lineup_as_of": "2026-11-17T14:31:06.042Z",
-     "lineup_checked": "2026-11-17T15:14:20.526486+00:00",
+     "lineup_checked": "2026-11-17T21:39:43.554342+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Brayden Point",
        "status": "DTD",
-       "news": "Point (undisclosed) has been placed on IR."
+       "news": "Point (undisclosed) is expected to return vs. Washington on Tuesday."
       },
       {
        "player": "Anthony Cirelli",
@@ -7667,6 +7667,11 @@
        "player": "Erik Cernak",
        "status": "DTD",
        "news": "Cernak (undisclosed) will not play Thursday in Columbus."
+      },
+      {
+       "player": "Conor Geekie",
+       "status": "IR",
+       "news": "Geekie (undisclosed) has been placed on IR."
       }
      ],
      "lines": {
@@ -7682,8 +7687,7 @@
       ],
       "3": [
        "Yanni Gourde",
-       "Sam O'Reilly",
-       "Conor Geekie"
+       "Sam O'Reilly"
       ],
       "4": [
        "Ilya Mikheyev",
@@ -7699,10 +7703,10 @@
       "John Carlson"
      ],
      "pp2": [
-      "Conor Geekie",
+      "Brandon Hagel",
       "Anthony Cirelli",
       "Gage Goncalves",
-      "Brandon Hagel",
+      "Victor Hedman",
       "Charle-Edouard D'Astous"
      ],
      "players": [
@@ -8030,14 +8034,6 @@
          "n": 2,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Conor Geekie",
-         "jersey": 14,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -8164,81 +8160,6 @@
          "n": 2,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Conor Geekie",
-         "jersey": 14,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Conor Geekie",
-       "jersey": 14,
-       "team": "TBL",
-       "opp": "WSH",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "pos": "RW",
-       "gtd": true,
-       "role": "other",
-       "bias": "G",
-       "gp": 20,
-       "pt_games": 5,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 4,
-       "two_games": 0,
-       "home_split": [
-        2,
-        9
-       ],
-       "away_split": [
-        3,
-        11
-       ],
-       "pp_toi": 0.9,
-       "toi": 10.8,
-       "p": 0.28,
-       "fair": "+258",
-       "min": "+279",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.1187096774193548
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Yanni Gourde",
-         "jersey": 37,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -8346,7 +8267,7 @@
      "l5_gf": 1.4,
      "l5_ga": 4.0,
      "lineup_as_of": "2026-11-16T17:02:02.414Z",
-     "lineup_checked": "2026-11-17T15:14:20.619462+00:00",
+     "lineup_checked": "2026-11-17T21:39:43.659685+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -8372,7 +8293,7 @@
       {
        "player": "Morgan Rielly",
        "status": "DTD",
-       "news": "Rielly (lower-body) will participate in practice on Monday but is still considered day-to-day."
+       "news": "Rielly (lower-body) is expected to return in Chicago on Tuesday."
       }
      ],
      "lines": {
@@ -9057,23 +8978,23 @@
      "l5_gf": 2.6,
      "l5_ga": 4.8,
      "lineup_as_of": "2026-11-17T02:36:53.865Z",
-     "lineup_checked": "2026-11-17T15:14:19.609611+00:00",
+     "lineup_checked": "2026-11-17T21:39:43.770006+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Bowen Byram",
        "status": "IR",
-       "news": "Byram (upper-body) remains day-to-day and will not play on Saturday."
+       "news": "Byram (upper-body) will miss Chicago's next two games."
       },
       {
        "player": "Cole Smith",
        "status": "DTD",
-       "news": "Smith (undisclosed) missed practice on Monday but is likely to play Tuesday vs. Toronto."
+       "news": "Smith (undisclosed) will play vs. Toronto on Tuesday."
       },
       {
        "player": "Tyler Bertuzzi",
        "status": "DTD",
-       "news": "Bertuzzi (upper-body) is likely able to play vs. Toronto on Tuesday."
+       "news": "Bertuzzi (upper-body) will play vs. Toronto on Tuesday."
       }
      ],
      "lines": {
