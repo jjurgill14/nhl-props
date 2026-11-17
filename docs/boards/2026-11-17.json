@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T21:54:53.478401+00:00",
+ "generated_utc": "2026-11-17T22:10:00.781070+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -26317,13 +26317,39 @@
     "goalie_source": "Lou Korac",
     "sv": "0.851",
     "gaa": "4.26",
-    "lineup_as_of": "2026-11-17T02:37:41.058Z",
-    "lineup_checked": "2026-11-17T15:14:20.451196+00:00",
+    "lineup_as_of": "2026-11-17T18:48:03.102Z",
+    "lineup_checked": "2026-11-17T22:09:57.431861+00:00",
     "lineup_stale": false,
     "ga_rk": 19,
     "gf_rk": 26,
     "ppga_rk": 30,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-17T22:09:57.434502+00:00",
+      "kind": "move",
+      "text": "Dylan Holloway: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-17T22:09:57.434502+00:00",
+      "kind": "move",
+      "text": "Jake Neighbours: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-17T22:09:57.434502+00:00",
+      "kind": "move",
+      "text": "Dalibor Dvorsky: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-17T22:09:57.434502+00:00",
+      "kind": "move",
+      "text": "Aleksanteri Kaskimaki: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-17T22:09:57.434502+00:00",
+      "kind": "injury",
+      "text": "Ross Johnston: added to injuries (DTD)"
+     }
+    ],
     "rates": {
      "gp": 20,
      "pp_gp": 20,
@@ -26358,7 +26384,7 @@
      "away": "-218",
      "home": "+180",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T02:37:41.058Z"
+     "as_of": "2026-11-17T18:48:03.102Z"
     },
     "total": {
      "line": 6.5,
@@ -26528,38 +26554,6 @@
       ]
      },
      {
-      "selection": "Thomas + Neighbours \u00b7 both 1+ point",
-      "prob": 0.465,
-      "fair": "+115",
-      "need": "+128",
-      "rationale": "Both scored 2 of 2 games together \u00b7 independent 29% \u00b7 new pair",
-      "team": "STL",
-      "line": 1,
-      "read": "new pair",
-      "both": 2,
-      "n": 2,
-      "players": [
-       8480023,
-       8482089
-      ]
-     },
-     {
-      "selection": "Snuggerud + Neighbours \u00b7 both 1+ point",
-      "prob": 0.45,
-      "fair": "+122",
-      "need": "+135",
-      "rationale": "Both scored 2 of 2 games together \u00b7 independent 27% \u00b7 new pair",
-      "team": "STL",
-      "line": 1,
-      "read": "new pair",
-      "both": 2,
-      "n": 2,
-      "players": [
-       8483516,
-       8482089
-      ]
-     },
-     {
       "selection": "Gauthier + Caulfield \u00b7 both 1+ point",
       "prob": 0.371,
       "fair": "+169",
@@ -26573,6 +26567,38 @@
       "players": [
        8483445,
        8481538
+      ]
+     },
+     {
+      "selection": "McTavish + McMichael \u00b7 both 1+ point",
+      "prob": 0.363,
+      "fair": "+175",
+      "need": "+192",
+      "rationale": "Both scored 6 of 14 games together \u00b7 independent 21% \u00b7 correlated",
+      "team": "STL",
+      "line": 2,
+      "read": "correlated",
+      "both": 6,
+      "n": 14,
+      "players": [
+       8482745,
+       8481580
+      ]
+     },
+     {
+      "selection": "Thomas + Snuggerud \u00b7 both 1+ point",
+      "prob": 0.341,
+      "fair": "+193",
+      "need": "+211",
+      "rationale": "Both scored 7 of 20 games together \u00b7 independent 31% \u00b7 independent",
+      "team": "STL",
+      "line": 1,
+      "read": "independent",
+      "both": 7,
+      "n": 20,
+      "players": [
+       8480023,
+       8483516
       ]
      }
     ],
@@ -26682,34 +26708,34 @@
       ]
      },
      {
-      "selection": "Thomas + Neighbours \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.465,
-      "fair": "+115",
-      "need": "+128",
-      "rationale": "Both scored 2 of 2 games together \u00b7 independent 29% \u00b7 new pair",
+      "selection": "Thomas + Snuggerud \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.341,
+      "fair": "+193",
+      "need": "+211",
+      "rationale": "Both scored 7 of 20 games together \u00b7 independent 31% \u00b7 independent",
       "team": "STL",
       "line": 1,
-      "read": "new pair",
-      "both": 2,
-      "n": 2,
+      "read": "independent",
+      "both": 7,
+      "n": 20,
       "players": [
        8480023,
-       8482089
+       8483516
       ]
      },
      {
-      "selection": "Snuggerud + Neighbours \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.45,
-      "fair": "+122",
-      "need": "+135",
-      "rationale": "Both scored 2 of 2 games together \u00b7 independent 27% \u00b7 new pair",
+      "selection": "McTavish + Neighbours \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.16,
+      "fair": "+524",
+      "need": "+562",
+      "rationale": "Both scored 0 of 4 games together \u00b7 independent 27% \u00b7 new pair",
       "team": "STL",
-      "line": 1,
+      "line": 2,
       "read": "new pair",
-      "both": 2,
-      "n": 2,
+      "both": 0,
+      "n": 4,
       "players": [
-       8483516,
+       8482745,
        8482089
       ]
      }
@@ -28250,47 +28276,47 @@
     },
     "home": {
      "team": "STL",
-     "as_of": "2026-11-17T02:37:41.058Z",
-     "checked": "2026-11-17T15:14:20.451196+00:00",
+     "as_of": "2026-11-17T18:48:03.102Z",
+     "checked": "2026-11-17T22:09:57.431861+00:00",
      "stale": false,
-     "source": "Jeremy Rutherford",
-     "updated_dfo": "2026-11-17T02:37:41.058Z",
+     "source": "Lou Korac",
+     "updated_dfo": "2026-11-17T18:48:03.102Z",
      "forwards": [
       [
        {
-        "name": "Jake Neighbours",
-        "jersey": 63,
+        "name": "Dylan Holloway",
+        "jersey": 81,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482089,
-        "dfo_id": 29498,
+        "player_id": 8482077,
+        "dfo_id": 32948,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": 1,
+        "pp": 2,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 5,
+         "a": 10,
          "g": 4,
          "gp": 20,
-         "p": 9,
-         "ppp": 4,
-         "sog": 30,
-         "toi_s": 18790
+         "p": 14,
+         "ppp": 3,
+         "sog": 48,
+         "toi_s": 21370
         },
         "last5": {
          "a": 1,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5009
+         "p": 2,
+         "ppp": 1,
+         "sog": 15,
+         "toi_s": 5462
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 20,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -28374,39 +28400,39 @@
       ],
       [
        {
-        "name": "Dylan Holloway",
-        "jersey": 81,
+        "name": "Jake Neighbours",
+        "jersey": 63,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482077,
-        "dfo_id": 32948,
+        "player_id": 8482089,
+        "dfo_id": 29498,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
+        "pp": 1,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 10,
+         "a": 5,
          "g": 4,
          "gp": 20,
-         "p": 14,
-         "ppp": 3,
-         "sog": 48,
-         "toi_s": 21370
+         "p": 9,
+         "ppp": 4,
+         "sog": 30,
+         "toi_s": 18790
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 15,
-         "toi_s": 5462
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 5009
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 20,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -28490,37 +28516,37 @@
       ],
       [
        {
-        "name": "Aleksanteri Kaskimaki",
-        "jersey": 41,
+        "name": "Dalibor Dvorsky",
+        "jersey": 15,
         "pos": "LW",
         "slot": null,
-        "player_id": 8483463,
-        "dfo_id": 36379,
+        "player_id": 8484164,
+        "dfo_id": 35010,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "G",
         "season": {
-         "a": 1,
-         "g": 1,
-         "gp": 9,
-         "p": 2,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 6626
+         "a": 2,
+         "g": 4,
+         "gp": 20,
+         "p": 6,
+         "ppp": 2,
+         "sog": 31,
+         "toi_s": 14373
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 3807
+         "p": 2,
+         "ppp": 1,
+         "sog": 9,
+         "toi_s": 3402
         },
-        "l5_point_games": 1,
-        "gp": 9,
+        "l5_point_games": 2,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -28682,37 +28708,37 @@
         }
        },
        {
-        "name": "Dalibor Dvorsky",
-        "jersey": 15,
+        "name": "Aleksanteri Kaskimaki",
+        "jersey": 41,
         "pos": "RW",
         "slot": null,
-        "player_id": 8484164,
-        "dfo_id": 35010,
+        "player_id": 8483463,
+        "dfo_id": 36379,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 20,
-         "p": 6,
-         "ppp": 2,
-         "sog": 31,
-         "toi_s": 14373
-        },
-        "last5": {
          "a": 1,
          "g": 1,
-         "gp": 5,
+         "gp": 9,
          "p": 2,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 3402
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 6626
         },
-        "l5_point_games": 2,
-        "gp": 20,
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3807
+        },
+        "l5_point_games": 1,
+        "gp": 9,
         "move": {
          "ev": -1,
          "pp": 0,
@@ -28730,7 +28756,7 @@
         "slot": null,
         "player_id": 8481598,
         "dfo_id": 30607,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -29156,7 +29182,7 @@
         "l5_point_games": 1,
         "gp": 20,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -29206,7 +29232,7 @@
         "slot": 5,
         "player_id": 8481598,
         "dfo_id": 30607,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -29348,7 +29374,7 @@
         "l5_point_games": 2,
         "gp": 20,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -29424,7 +29450,7 @@
         "l5_point_games": 2,
         "gp": 20,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -29504,7 +29530,7 @@
         "l5_point_games": 1,
         "gp": 20,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -29516,7 +29542,7 @@
         "slot": 3,
         "player_id": 8481598,
         "dfo_id": 30607,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -29753,18 +29779,18 @@
        "news": "Tucker underwent a successful arthroscopic procedure on his right knee and will be re-evaluated in six weeks."
       },
       {
-       "player": "Philip Broberg",
+       "player": "Ross Johnston",
        "status": "DTD",
-       "news": "Broberg (lower-body) returned to practice on Monday."
+       "news": "Johnston (personal) is out vs. Anaheim on Tuesday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 33,
+       "rank": 34,
        "rating": 0
       },
       "d2": {
-       "rank": 5,
+       "rank": 4,
        "rating": 76.91731080984862
       },
       "d3": {
@@ -29772,7 +29798,7 @@
        "rating": 74.8968031654723
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -29784,11 +29810,11 @@
        "rating": 0
       },
       "f3": {
-       "rank": 10,
+       "rank": 11,
        "rating": 73.98693235638241
       },
       "f4": {
-       "rank": 34,
+       "rank": 33,
        "rating": 0
       },
       "g": {
@@ -29835,13 +29861,64 @@
     "goalie_source": "",
     "sv": "0.918",
     "gaa": "2.49",
-    "lineup_as_of": "2026-11-16T15:14:19.015Z",
-    "lineup_checked": "2026-11-17T15:14:20.051951+00:00",
+    "lineup_as_of": "2026-11-17T17:49:16.031Z",
+    "lineup_checked": "2026-11-17T22:09:57.494537+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 21,
     "ppga_rk": 32,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "in",
+      "text": "IN: Jonathan Marchessault (was DTD) \u2192 L3, PP1"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "in",
+      "text": "IN: Nicolas Hague \u2192 L3"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "out",
+      "text": "OUT: Vitali Pinchuk (was L4)"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "out",
+      "text": "OUT: Daemon Hunt (was L3)"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "move",
+      "text": "Mavrik Bourque: PP1\u2192PP2"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "move",
+      "text": "Reid Schaefer: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "move",
+      "text": "Alex Kerfoot: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "move",
+      "text": "Ross Colton: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "move",
+      "text": "Jack Drury: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-17T22:09:57.497189+00:00",
+      "kind": "move",
+      "text": "Adam Edstrom: L3\u2192L4"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
@@ -30129,10 +30206,10 @@
      },
      {
       "selection": "Stamkos + Bourque \u00b7 both 1+ point",
-      "prob": 0.3,
-      "fair": "+233",
-      "need": "+253",
-      "rationale": "Both scored 4 of 11 games together \u00b7 independent 18% \u00b7 correlated",
+      "prob": 0.289,
+      "fair": "+246",
+      "need": "+267",
+      "rationale": "Both scored 4 of 11 games together \u00b7 independent 15% \u00b7 correlated",
       "team": "NSH",
       "line": 1,
       "read": "correlated",
@@ -30296,11 +30373,11 @@
    "lineup": {
     "away": {
      "team": "NSH",
-     "as_of": "2026-11-16T15:14:19.015Z",
-     "checked": "2026-11-17T15:14:20.051951+00:00",
+     "as_of": "2026-11-17T17:49:16.031Z",
+     "checked": "2026-11-17T22:09:57.494537+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-15)",
-     "updated_dfo": "2026-11-16T15:14:19.015Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-17T17:49:16.031Z",
      "forwards": [
       [
        {
@@ -30388,7 +30465,7 @@
         "dfo_id": 29958,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
         "bias": "A",
         "season": {
@@ -30413,7 +30490,7 @@
         "gp": 17,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -30536,122 +30613,6 @@
       ],
       [
        {
-        "name": "Ross Colton",
-        "jersey": 79,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8479525,
-        "dfo_id": 27086,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 3,
-         "g": 5,
-         "gp": 21,
-         "p": 8,
-         "ppp": 0,
-         "sog": 34,
-         "toi_s": 16635
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 3873
-        },
-        "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Jack Drury",
-        "jersey": 18,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8480835,
-        "dfo_id": 27584,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 2,
-         "gp": 21,
-         "p": 5,
-         "ppp": 0,
-         "sog": 22,
-         "toi_s": 21445
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4984
-        },
-        "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Adam Edstrom",
-        "jersey": 84,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8481726,
-        "dfo_id": 30691,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "G",
-        "season": {
-         "a": 1,
-         "g": 6,
-         "gp": 21,
-         "p": 7,
-         "ppp": 0,
-         "sog": 31,
-         "toi_s": 18583
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4110
-        },
-        "l5_point_games": 0,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Reid Schaefer",
         "jersey": 49,
         "pos": "LW",
@@ -30684,7 +30645,7 @@
         "l5_point_games": 0,
         "gp": 14,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -30722,31 +30683,147 @@
         "l5_point_games": 0,
         "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Vitali Pinchuk",
-        "jersey": 51,
+        "name": "Jonathan Marchessault",
+        "jersey": 81,
         "pos": "RW",
         "slot": null,
-        "player_id": 8486189,
-        "dfo_id": 31775,
+        "player_id": 8476539,
+        "dfo_id": 2399,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 1,
-         "gp": 12,
+         "a": 3,
+         "g": 2,
+         "gp": 14,
+         "p": 5,
+         "ppp": 4,
+         "sog": 31,
+         "toi_s": 13960
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
          "p": 2,
+         "ppp": 2,
+         "sog": 12,
+         "toi_s": 4990
+        },
+        "l5_point_games": 2,
+        "gp": 14,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       }
+      ],
+      [
+       {
+        "name": "Ross Colton",
+        "jersey": 79,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8479525,
+        "dfo_id": 27086,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 3,
+         "g": 5,
+         "gp": 21,
+         "p": 8,
          "ppp": 0,
-         "sog": 13,
-         "toi_s": 6490
+         "sog": 34,
+         "toi_s": 16635
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 3873
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Jack Drury",
+        "jersey": 18,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8480835,
+        "dfo_id": 27584,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 2,
+         "gp": 21,
+         "p": 5,
+         "ppp": 0,
+         "sog": 22,
+         "toi_s": 21445
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4984
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Adam Edstrom",
+        "jersey": 84,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8481726,
+        "dfo_id": 30691,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "G",
+        "season": {
+         "a": 1,
+         "g": 6,
+         "gp": 21,
+         "p": 7,
+         "ppp": 0,
+         "sog": 31,
+         "toi_s": 18583
         },
         "last5": {
          "a": 0,
@@ -30754,13 +30831,13 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 2929
+         "sog": 5,
+         "toi_s": 4110
         },
         "l5_point_games": 0,
-        "gp": 12,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -30926,12 +31003,12 @@
       ],
       [
        {
-        "name": "Daemon Hunt",
-        "jersey": 52,
+        "name": "Nicolas Hague",
+        "jersey": 41,
         "pos": "LD",
         "slot": null,
-        "player_id": 8482094,
-        "dfo_id": 29543,
+        "player_id": 8479980,
+        "dfo_id": 2799,
         "gtd": false,
         "injury": null,
         "pp": null,
@@ -30940,11 +31017,11 @@
         "season": {
          "a": 1,
          "g": 0,
-         "gp": 22,
+         "gp": 13,
          "p": 1,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 17966
+         "sog": 10,
+         "toi_s": 12927
         },
         "last5": {
          "a": 0,
@@ -30952,15 +31029,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4010
+         "sog": 3,
+         "toi_s": 4413
         },
         "l5_point_games": 0,
-        "gp": 11,
+        "gp": 13,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -31170,41 +31247,41 @@
         }
        },
        {
-        "name": "Mavrik Bourque",
-        "jersey": 22,
+        "name": "Jonathan Marchessault",
+        "jersey": 81,
         "pos": null,
         "slot": 3,
-        "player_id": 8482145,
-        "dfo_id": 29958,
+        "player_id": 8476539,
+        "dfo_id": 2399,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 0,
-         "gp": 17,
+         "a": 3,
+         "g": 2,
+         "gp": 14,
          "p": 5,
-         "ppp": 1,
-         "sog": 34,
-         "toi_s": 16348
+         "ppp": 4,
+         "sog": 31,
+         "toi_s": 13960
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 4778
+         "p": 2,
+         "ppp": 2,
+         "sog": 12,
+         "toi_s": 4990
         },
-        "l5_point_games": 3,
-        "gp": 17,
+        "l5_point_games": 2,
+        "gp": 14,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -31286,39 +31363,39 @@
       ],
       [
        {
-        "name": "Nils Hoglander",
-        "jersey": 21,
+        "name": "Alex Kerfoot",
+        "jersey": 14,
         "pos": null,
         "slot": 1,
-        "player_id": 8481535,
-        "dfo_id": 30614,
+        "player_id": null,
+        "dfo_id": 2833,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": "A",
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 5,
+         "a": 4,
+         "g": 2,
          "gp": 21,
-         "p": 10,
+         "p": 6,
          "ppp": 1,
-         "sog": 33,
-         "toi_s": 14365
+         "sog": 16,
+         "toi_s": 20104
         },
         "last5": {
-         "a": 3,
-         "g": 2,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 5,
+         "p": 0,
          "ppp": 0,
-         "sog": 15,
-         "toi_s": 4404
+         "sog": 3,
+         "toi_s": 4412
         },
-        "l5_point_games": 3,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -31362,37 +31439,37 @@
         }
        },
        {
-        "name": "Alex Kerfoot",
-        "jersey": 14,
+        "name": "Nils Hoglander",
+        "jersey": 21,
         "pos": null,
         "slot": 3,
-        "player_id": null,
-        "dfo_id": 2833,
+        "player_id": 8481535,
+        "dfo_id": 30614,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
-        "bias": null,
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 4,
-         "g": 2,
+         "a": 5,
+         "g": 5,
          "gp": 21,
-         "p": 6,
+         "p": 10,
          "ppp": 1,
-         "sog": 16,
-         "toi_s": 20104
+         "sog": 33,
+         "toi_s": 14365
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 3,
+         "g": 2,
          "gp": 5,
-         "p": 0,
+         "p": 5,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4412
+         "sog": 15,
+         "toi_s": 4404
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 3,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -31438,40 +31515,40 @@
         }
        },
        {
-        "name": "Vitali Pinchuk",
-        "jersey": 51,
+        "name": "Mavrik Bourque",
+        "jersey": 22,
         "pos": null,
         "slot": 5,
-        "player_id": 8486189,
-        "dfo_id": 31775,
+        "player_id": 8482145,
+        "dfo_id": 29958,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 1,
-         "gp": 12,
-         "p": 2,
-         "ppp": 0,
-         "sog": 13,
-         "toi_s": 6490
+         "a": 5,
+         "g": 0,
+         "gp": 17,
+         "p": 5,
+         "ppp": 1,
+         "sog": 34,
+         "toi_s": 16348
         },
         "last5": {
-         "a": 0,
+         "a": 3,
          "g": 0,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 2929
+         "p": 3,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 4778
         },
-        "l5_point_games": 0,
-        "gp": 12,
+        "l5_point_games": 3,
+        "gp": 17,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -31550,7 +31627,7 @@
         "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -31666,7 +31743,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -31704,7 +31781,7 @@
         "l5_point_games": 0,
         "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -31792,11 +31869,6 @@
        "player": "William Trudeau",
        "status": "IR",
        "news": "Trudeau has been placed on IR with an upper-body injury and is considered week-to-week."
-      },
-      {
-       "player": "Jonathan Marchessault",
-       "status": "DTD",
-       "news": "Marchessault (lower-body) returned to practice on Monday."
       }
      ],
      "unit_ratings": {
@@ -31809,15 +31881,15 @@
        "rating": 72.5897779051874
       },
       "d3": {
-       "rank": 27,
-       "rating": 0
+       "rank": 11,
+       "rating": 73.40098715290901
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 7,
+       "rank": 6,
        "rating": 79.26043322204985
       },
       "f2": {
@@ -31825,12 +31897,12 @@
        "rating": 74.39236704614952
       },
       "f3": {
-       "rank": 35,
-       "rating": 0
+       "rank": 16,
+       "rating": 73.16742412007515
       },
       "f4": {
-       "rank": 27,
-       "rating": 70.81751493039641
+       "rank": 33,
+       "rating": 0
       },
       "g": {
        "rank": 11,
@@ -37140,8 +37212,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-245",
-     "home": "+200",
+     "away": "-238",
+     "home": "+195",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-16T15:16:02.601Z"
     },
