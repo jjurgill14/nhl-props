@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T18:37:22.586151+00:00",
+ "generated_utc": "2026-11-17T18:42:31.625708+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1155,22 +1155,45 @@
      "as_of": "2026-11-16T16:47:13.743Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 6.5,
+     "over": 110,
+     "under": -130,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 133,
+     "home": -158,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": 110,
+    "under": -130,
+    "vig_total": 0.0414,
+    "p_over": 0.4573,
+    "fair_over": "+119",
+    "fair_under": "-119",
+    "implied_total": 6.25,
+    "ml_away": 133,
+    "ml_home": -158,
+    "vig_ml": 0.0416,
+    "p_home": 0.588,
+    "xg_away": 2.88,
+    "xg_home": 3.37,
+    "tone": "mid",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "good"
+   },
    "smash": {
-    "flag": null,
-    "kind": null,
-    "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "flag": true,
+    "kind": "side",
+    "side": "BOS",
+    "label": "SMASH \u00b7 BOS",
+    "why": "implied total 6.25 \u00b7 xG LAK 2.88 / BOS 3.37 (vig removed) \u00b7 BOS \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -4712,22 +4735,45 @@
      "as_of": "2026-11-16T15:05:09.436Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 5.5,
+     "over": -140,
+     "under": 120,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 108,
+     "home": -128,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -140,
+    "under": 120,
+    "vig_total": 0.0379,
+    "p_over": 0.562,
+    "fair_over": "-128",
+    "fair_under": "+128",
+    "implied_total": 5.86,
+    "ml_away": 108,
+    "ml_home": -128,
+    "vig_ml": 0.0422,
+    "p_home": 0.5387,
+    "xg_away": 2.83,
+    "xg_home": 3.03,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": null,
+    "flag": false,
     "kind": null,
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "",
+    "why": "implied total 5.86 \u00b7 xG EDM 2.83 / FLA 3.03 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -8315,22 +8361,45 @@
      "as_of": "2026-11-16T16:08:22.808Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 5.5,
+     "over": -119,
+     "under": -101,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 123,
+     "home": -146,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -119,
+    "under": -101,
+    "vig_total": 0.0459,
+    "p_over": 0.5195,
+    "fair_over": "-108",
+    "fair_under": "+108",
+    "implied_total": 5.61,
+    "ml_away": 123,
+    "ml_home": -146,
+    "vig_ml": 0.0419,
+    "p_home": 0.5696,
+    "xg_away": 2.62,
+    "xg_home": 2.99,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": null,
+    "flag": false,
     "kind": null,
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "",
+    "why": "implied total 5.61 \u00b7 xG CBJ 2.62 / NYI 2.99 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -11876,22 +11945,45 @@
      "as_of": "2026-11-16T15:03:48.838Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 5.5,
+     "over": -136,
+     "under": 116,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": -127,
+     "home": 107,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -136,
+    "under": 116,
+    "vig_total": 0.0392,
+    "p_over": 0.5545,
+    "fair_over": "-124",
+    "fair_under": "+124",
+    "implied_total": 5.82,
+    "ml_away": -127,
+    "ml_home": 107,
+    "vig_ml": 0.0426,
+    "p_home": 0.4634,
+    "xg_away": 3.01,
+    "xg_home": 2.81,
+    "tone": "bad",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "bad"
+   },
    "smash": {
-    "flag": null,
+    "flag": false,
     "kind": null,
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "",
+    "why": "implied total 5.82 \u00b7 xG BUF 3.01 / PHI 2.81 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -15454,22 +15546,45 @@
      "as_of": "2026-11-17T12:58:41.819Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 5.5,
+     "over": -132,
+     "under": 112,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": -131,
+     "home": 111,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -132,
+    "under": 112,
+    "vig_total": 0.0407,
+    "p_over": 0.5467,
+    "fair_over": "-121",
+    "fair_under": "+121",
+    "implied_total": 5.77,
+    "ml_away": -131,
+    "ml_home": 111,
+    "vig_ml": 0.041,
+    "p_home": 0.4553,
+    "xg_away": 3.0,
+    "xg_home": 2.77,
+    "tone": "bad",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "bad"
+   },
    "smash": {
-    "flag": null,
+    "flag": false,
     "kind": null,
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "",
+    "why": "implied total 5.77 \u00b7 xG OTT 3.00 / WPG 2.77 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -19014,22 +19129,45 @@
      "as_of": "2026-11-17T14:31:06.042Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 6.5,
+     "over": -105,
+     "under": -115,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 139,
+     "home": -164,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -105,
+    "under": -115,
+    "vig_total": 0.0471,
+    "p_over": 0.4892,
+    "fair_over": "+104",
+    "fair_under": "-104",
+    "implied_total": 6.44,
+    "ml_away": 139,
+    "ml_home": -164,
+    "vig_ml": 0.0396,
+    "p_home": 0.5975,
+    "xg_away": 2.94,
+    "xg_home": 3.5,
+    "tone": "good",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "good"
+   },
    "smash": {
-    "flag": null,
-    "kind": null,
-    "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "flag": true,
+    "kind": "side",
+    "side": "TBL",
+    "label": "SMASH \u00b7 TBL",
+    "why": "implied total 6.44 \u00b7 xG WSH 2.94 / TBL 3.50 (vig removed) \u00b7 TBL \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -22597,22 +22735,45 @@
      "as_of": "2026-11-17T02:36:53.865Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 6.5,
+     "over": -110,
+     "under": -110,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": -144,
+     "home": 122,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -110,
+    "under": -110,
+    "vig_total": 0.0476,
+    "p_over": 0.5,
+    "fair_over": "-100",
+    "fair_under": "-100",
+    "implied_total": 6.5,
+    "ml_away": -144,
+    "ml_home": 122,
+    "vig_ml": 0.0406,
+    "p_home": 0.4329,
+    "xg_away": 3.44,
+    "xg_home": 3.06,
+    "tone": "good",
+    "xg_tone_away": "good",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": null,
-    "kind": null,
+    "flag": true,
+    "kind": "all",
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "SMASH \u00b7 ALL-AROUND",
+    "why": "implied total 6.50 \u00b7 xG TOR 3.44 / CHI 3.06 (vig removed) \u00b7 total \u2265 6.35, both \u2265 3.0"
    },
    "lenses": {
     "point": [
@@ -26195,22 +26356,45 @@
      "as_of": "2026-11-17T02:37:41.058Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 6.5,
+     "over": -110,
+     "under": -110,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 118,
+     "home": -138,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -110,
+    "under": -110,
+    "vig_total": 0.0476,
+    "p_over": 0.5,
+    "fair_over": "-100",
+    "fair_under": "-100",
+    "implied_total": 6.5,
+    "ml_away": 118,
+    "ml_home": -138,
+    "vig_ml": 0.0385,
+    "p_home": 0.5583,
+    "xg_away": 3.09,
+    "xg_home": 3.41,
+    "tone": "good",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "good"
+   },
    "smash": {
-    "flag": null,
-    "kind": null,
+    "flag": true,
+    "kind": "all",
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "SMASH \u00b7 ALL-AROUND",
+    "why": "implied total 6.50 \u00b7 xG ANA 3.09 / STL 3.41 (vig removed) \u00b7 total \u2265 6.35, both \u2265 3.0"
    },
    "lenses": {
     "point": [
@@ -29740,22 +29924,45 @@
      "as_of": "2026-11-15T13:51:19.923Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 6.5,
+     "over": 113,
+     "under": -133,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 175,
+     "home": -210,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": 113,
+    "under": -133,
+    "vig_total": 0.0403,
+    "p_over": 0.4513,
+    "fair_over": "+122",
+    "fair_under": "-122",
+    "implied_total": 6.22,
+    "ml_away": 175,
+    "ml_home": -210,
+    "vig_ml": 0.0411,
+    "p_home": 0.6507,
+    "xg_away": 2.69,
+    "xg_home": 3.53,
+    "tone": "mid",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "good"
+   },
    "smash": {
-    "flag": null,
-    "kind": null,
-    "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "flag": true,
+    "kind": "side",
+    "side": "MIN",
+    "label": "SMASH \u00b7 MIN",
+    "why": "implied total 6.22 \u00b7 xG NSH 2.69 / MIN 3.53 (vig removed) \u00b7 MIN \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -33318,22 +33525,45 @@
      "as_of": "2026-11-16T15:13:32.468Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 5.5,
+     "over": -121,
+     "under": 101,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 115,
+     "home": -135,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -121,
+    "under": 101,
+    "vig_total": 0.045,
+    "p_over": 0.5239,
+    "fair_over": "-110",
+    "fair_under": "+110",
+    "implied_total": 5.64,
+    "ml_away": 115,
+    "ml_home": -135,
+    "vig_ml": 0.0396,
+    "p_home": 0.5526,
+    "xg_away": 2.68,
+    "xg_home": 2.96,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": null,
+    "flag": false,
     "kind": null,
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "",
+    "why": "implied total 5.64 \u00b7 xG DAL 2.68 / VGK 2.96 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -36911,22 +37141,45 @@
      "as_of": "2026-11-16T15:16:02.601Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 5.5,
+     "over": -140,
+     "under": 120,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-17T18:41:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": 111,
+     "home": -131,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 5.5,
+    "over": -140,
+    "under": 120,
+    "vig_total": 0.0379,
+    "p_over": 0.562,
+    "fair_over": "-128",
+    "fair_under": "+128",
+    "implied_total": 5.86,
+    "ml_away": 111,
+    "ml_home": -131,
+    "vig_ml": 0.041,
+    "p_home": 0.5447,
+    "xg_away": 2.81,
+    "xg_home": 3.05,
+    "tone": "bad",
+    "xg_tone_away": "bad",
+    "xg_tone_home": "mid"
+   },
    "smash": {
-    "flag": null,
+    "flag": false,
     "kind": null,
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "",
+    "why": "implied total 5.86 \u00b7 xG CGY 2.81 / SJS 3.05 (vig removed)"
    },
    "lenses": {
     "point": [
