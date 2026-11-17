@@ -4,6 +4,8 @@ can see when a start went from Unconfirmed -> Likely -> Confirmed, and what the 
 """
 from __future__ import annotations
 
+import time
+
 from bs4 import BeautifulSoup
 
 from .common import DATA, DFO, TEAM_NAMES, get, log, now_utc, stamp, write_csv
@@ -16,7 +18,8 @@ FIELDS = ["date", "captured_utc", "away", "home", "start_utc", "team", "side", "
 
 
 def fetch_html(date: str) -> str:
-    r = get(f"{DFO}/starting-goalies/{date}")
+    r = get(f"{DFO}/starting-goalies/{date}", params={"_": int(time.time())},
+            headers={"Cache-Control": "no-cache", "Pragma": "no-cache"})
     if r.status_code != 200:
         raise RuntimeError(f"DFO goalies {date}: HTTP {r.status_code}")
     return r.text

@@ -5,7 +5,7 @@ import argparse
 from datetime import datetime, timedelta, timezone
 
 from . import alerts, goalies, lineups, report, results, roster, schedule
-from .common import ET, log, now_utc, parse_utc, today_et
+from .common import DATA, ET, log, now_utc, parse_utc, today_et
 
 WINDOW_HOURS = 3.0
 
@@ -78,6 +78,8 @@ def evening(date: str) -> None:
         roster.probe(upcoming, date)
     except Exception as e:
         log.warning("roster probe: %s", e)
+    hot = schedule.games_starting_within(games, 1.0)
+    (DATA / "next_sleep").write_text("300" if hot else "900")
     alerts.publish(date)
     if new_alerts:
         log.info("late changes: %s", [a["text"] for a in new_alerts])

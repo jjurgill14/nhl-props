@@ -10,6 +10,8 @@ change log: one file per meaningful update.
 """
 from __future__ import annotations
 
+import time
+
 import json
 import re
 
@@ -27,7 +29,8 @@ CATEGORY = {"ev": None, "pp": "PP", "pk": "PK", "oi": "INJ"}  # ev is split by g
 
 def fetch_html(abbrev: str) -> str:
     slug = TEAM_SLUGS[abbrev]
-    r = get(f"{DFO}/teams/{slug}/line-combinations")
+    r = get(f"{DFO}/teams/{slug}/line-combinations", params={"_": int(time.time())},
+            headers={"Cache-Control": "no-cache", "Pragma": "no-cache"})
     if r.status_code != 200:
         raise RuntimeError(f"DFO {abbrev}: HTTP {r.status_code}")
     return r.text

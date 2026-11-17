@@ -54,5 +54,6 @@ jobs:
             if [ "${{ github.event.inputs.once }}" = "true" ]; then exit 0; fi
             NOW=$(date +%s)
             if [ "$NOW" -gt "$END" ]; then echo "window closed"; exit 0; fi
-            sleep 900
+            # evening job writes the cadence: 300s when any game is inside the final hour, else 900s
+            sleep "$(cat data/next_sleep 2>/dev/null || echo 900)"
           done
