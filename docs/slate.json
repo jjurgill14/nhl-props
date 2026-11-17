@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-17T23:15:35.647296+00:00",
+ "generated_utc": "2026-11-17T23:20:44.706920+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -7649,24 +7649,14 @@
      "ppga_rk": 14,
      "l5_gf": 3.6,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-17T14:31:06.042Z",
-     "lineup_checked": "2026-11-17T21:39:43.554342+00:00",
+     "lineup_as_of": "2026-11-17T23:17:51.883Z",
+     "lineup_checked": "2026-11-17T23:20:40.709613+00:00",
      "lineup_stale": false,
      "out": [
       {
-       "player": "Brayden Point",
+       "player": "Brandon Hagel",
        "status": "DTD",
-       "news": "Point (undisclosed) is expected to return vs. Washington on Tuesday."
-      },
-      {
-       "player": "Anthony Cirelli",
-       "status": "DTD",
-       "news": "Cirelli (lower-body) will not play on Saturday but the Lightning are hopeful he'll play Tuesday."
-      },
-      {
-       "player": "Erik Cernak",
-       "status": "DTD",
-       "news": "Cernak (undisclosed) will not play Thursday in Columbus."
+       "news": "Hagel (upper-body) will not play on Tuesday; he's considered day-to-day."
       },
       {
        "player": "Conor Geekie",
@@ -7681,12 +7671,12 @@
        "Nikita Kucherov"
       ],
       "2": [
-       "Brandon Hagel",
+       "Yanni Gourde",
        "Anthony Cirelli",
        "Gage Goncalves"
       ],
       "3": [
-       "Yanni Gourde",
+       "Jeffrey Viel",
        "Sam O'Reilly"
       ],
       "4": [
@@ -7703,7 +7693,7 @@
       "John Carlson"
      ],
      "pp2": [
-      "Brandon Hagel",
+      "Pontus Holmberg",
       "Anthony Cirelli",
       "Gage Goncalves",
       "Victor Hedman",
@@ -7786,7 +7776,7 @@
        "line": 1,
        "pp": 1,
        "pos": "C",
-       "gtd": true,
+       "gtd": false,
        "role": "pp1",
        "bias": "A",
        "gp": 17,
@@ -7912,73 +7902,6 @@
        ]
       },
       {
-       "name": "Brandon Hagel",
-       "jersey": 38,
-       "team": "TBL",
-       "opp": "WSH",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 20,
-       "pt_games": 13,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 9,
-       "goal_games": 8,
-       "two_games": 6,
-       "home_split": [
-        7,
-        9
-       ],
-       "away_split": [
-        6,
-        11
-       ],
-       "pp_toi": 2.2,
-       "toi": 18.5,
-       "p": 0.628,
-       "fair": "-169",
-       "min": "-145",
-       "p2": 0.265,
-       "fair2": "+277",
-       "min2": "+300",
-       "adj": [
-        [
-         "opp",
-         1.1187096774193548
-        ]
-       ],
-       "move": {
-        "ev": -1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Anthony Cirelli",
-         "jersey": 71,
-         "pp": 2,
-         "n": 18,
-         "both": 8,
-         "either": 13
-        },
-        {
-         "name": "Gage Goncalves",
-         "jersey": 93,
-         "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 2
-        }
-       ]
-      },
-      {
        "name": "Sam O'Reilly",
        "jersey": 23,
        "team": "TBL",
@@ -8028,12 +7951,12 @@
        },
        "partners": [
         {
-         "name": "Yanni Gourde",
-         "jersey": 37,
+         "name": "Jeffrey Viel",
+         "jersey": 28,
          "pp": null,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -8046,7 +7969,7 @@
        "line": 2,
        "pp": 2,
        "pos": "C",
-       "gtd": true,
+       "gtd": false,
        "role": "top6",
        "bias": null,
        "gp": 18,
@@ -8087,12 +8010,12 @@
        },
        "partners": [
         {
-         "name": "Brandon Hagel",
-         "jersey": 38,
-         "pp": 2,
-         "n": 18,
-         "both": 8,
-         "either": 13
+         "name": "Yanni Gourde",
+         "jersey": 37,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Gage Goncalves",
@@ -8110,11 +8033,11 @@
        "team": "TBL",
        "opp": "WSH",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 3,
        "pt_games": 1,
@@ -8135,12 +8058,12 @@
        ],
        "pp_toi": 0.2,
        "toi": 15.4,
-       "p": 0.305,
-       "fair": "+228",
-       "min": "+247",
-       "p2": 0.033,
-       "fair2": "+2973",
-       "min2": "+3157",
+       "p": 0.378,
+       "fair": "+164",
+       "min": "+180",
+       "p2": 0.065,
+       "fair2": "+1436",
+       "min2": "+1529",
        "adj": [
         [
          "opp",
@@ -8148,7 +8071,74 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Anthony Cirelli",
+         "jersey": 71,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Gage Goncalves",
+         "jersey": 93,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Jeffrey Viel",
+       "jersey": 28,
+       "team": "TBL",
+       "opp": "WSH",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.28,
+       "fair": "+258",
+       "min": "+279",
+       "p2": 0.045,
+       "fair2": "+2135",
+       "min2": "+2269",
+       "adj": [
+        [
+         "opp",
+         1.1187096774193548
+        ]
+       ],
+       "move": {
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -8157,9 +8147,9 @@
          "name": "Sam O'Reilly",
          "jersey": 23,
          "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -8213,12 +8203,12 @@
        },
        "partners": [
         {
-         "name": "Brandon Hagel",
-         "jersey": 38,
-         "pp": 2,
-         "n": 3,
+         "name": "Yanni Gourde",
+         "jersey": 37,
+         "pp": null,
+         "n": 1,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Anthony Cirelli",

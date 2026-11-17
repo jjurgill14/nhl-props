@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T23:15:36.335485+00:00",
+ "generated_utc": "2026-11-17T23:20:45.364261+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -19118,8 +19118,8 @@
     "goalie_source": "Benjamin Pierce",
     "sv": "0.888",
     "gaa": "2.74",
-    "lineup_as_of": "2026-11-17T14:31:06.042Z",
-    "lineup_checked": "2026-11-17T21:39:43.554342+00:00",
+    "lineup_as_of": "2026-11-17T23:17:51.883Z",
+    "lineup_checked": "2026-11-17T23:20:40.709613+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 6,
@@ -19139,6 +19139,26 @@
       "at": "2026-11-17T23:15:32.393784+00:00",
       "kind": "goalie",
       "text": "G: Andrei Vasilevskiy confirmed"
+     },
+     {
+      "at": "2026-11-17T23:20:40.712729+00:00",
+      "kind": "in",
+      "text": "IN: Jeffrey Viel \u2192 L3"
+     },
+     {
+      "at": "2026-11-17T23:20:40.712729+00:00",
+      "kind": "out",
+      "text": "OUT: Brandon Hagel (was L2) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-17T23:20:40.712729+00:00",
+      "kind": "move",
+      "text": "Yanni Gourde: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-17T23:20:40.712729+00:00",
+      "kind": "move",
+      "text": "Pontus Holmberg: PP-\u2192PP2"
      }
     ],
     "rates": {
@@ -19175,7 +19195,7 @@
      "away": "-180",
      "home": "+150",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T14:31:06.042Z"
+     "as_of": "2026-11-17T23:17:51.883Z"
     },
     "total": {
      "line": 6.5,
@@ -19266,21 +19286,6 @@
       ]
      },
      {
-      "selection": "Brandon Hagel \u00b7 1+ point",
-      "prob": 0.628,
-      "fair": "-169",
-      "need": "-145",
-      "rationale": "Point in 13 of 20 this season, 3 of last 5 \u00b7 PP2 (2.2 PP min/game)",
-      "player": "Brandon Hagel",
-      "team": "TBL",
-      "pp": 2,
-      "line": 2,
-      "bias": null,
-      "players": [
-       8479542
-      ]
-     },
-     {
       "selection": "Sam O'Reilly \u00b7 1+ point",
       "prob": 0.541,
       "fair": "-118",
@@ -19308,6 +19313,21 @@
       "bias": "A",
       "players": [
        8478440
+      ]
+     },
+     {
+      "selection": "Anthony Cirelli \u00b7 1+ point",
+      "prob": 0.504,
+      "fair": "-102",
+      "need": "+110",
+      "rationale": "Point in 9 of 18 this season, 4 of last 5 \u00b7 PP2 (2.1 PP min/game)",
+      "player": "Anthony Cirelli",
+      "team": "TBL",
+      "pp": 2,
+      "line": 2,
+      "bias": null,
+      "players": [
+       8478519
       ]
      }
     ],
@@ -19377,19 +19397,19 @@
       ]
      },
      {
-      "selection": "Hagel + Cirelli \u00b7 both 1+ point",
-      "prob": 0.412,
-      "fair": "+142",
-      "need": "+157",
-      "rationale": "Both scored 8 of 18 games together \u00b7 independent 32% \u00b7 correlated",
-      "team": "TBL",
+      "selection": "Strome + Leonard \u00b7 both 1+ point",
+      "prob": 0.352,
+      "fair": "+184",
+      "need": "+201",
+      "rationale": "Both scored 2 of 4 games together \u00b7 independent 25% \u00b7 new pair",
+      "team": "WSH",
       "line": 2,
-      "read": "correlated",
-      "both": 8,
-      "n": 18,
+      "read": "new pair",
+      "both": 2,
+      "n": 4,
       "players": [
-       8479542,
-       8478519
+       8478440,
+       8484186
       ]
      }
     ],
@@ -19423,20 +19443,6 @@
       ]
      },
      {
-      "selection": "Brandon Hagel \u00b7 2+ points",
-      "prob": 0.265,
-      "fair": "+277",
-      "need": "+300",
-      "rationale": "2+ in 6 of 20 \u00b7 2.2 PP min/game \u00b7 L2",
-      "player": "Brandon Hagel",
-      "team": "TBL",
-      "pp": 2,
-      "line": 2,
-      "players": [
-       8479542
-      ]
-     },
-     {
       "selection": "Brayden Point \u00b7 2+ points",
       "prob": 0.251,
       "fair": "+298",
@@ -19462,6 +19468,20 @@
       "line": 1,
       "players": [
        8479400
+      ]
+     },
+     {
+      "selection": "Dylan Strome \u00b7 2+ points",
+      "prob": 0.201,
+      "fair": "+398",
+      "need": "+427",
+      "rationale": "2+ in 4 of 18 \u00b7 3.8 PP min/game \u00b7 PP1",
+      "player": "Dylan Strome",
+      "team": "WSH",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8478440
       ]
      }
     ],
@@ -21105,11 +21125,11 @@
     },
     "home": {
      "team": "TBL",
-     "as_of": "2026-11-17T14:31:06.042Z",
-     "checked": "2026-11-17T21:39:43.554342+00:00",
+     "as_of": "2026-11-17T23:17:51.883Z",
+     "checked": "2026-11-17T23:20:40.709613+00:00",
      "stale": false,
      "source": "Projected",
-     "updated_dfo": "2026-11-17T14:31:06.042Z",
+     "updated_dfo": "2026-11-17T23:17:51.883Z",
      "forwards": [
       [
        {
@@ -21157,7 +21177,7 @@
         "slot": null,
         "player_id": 8478010,
         "dfo_id": 2456,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -21229,39 +21249,39 @@
       ],
       [
        {
-        "name": "Brandon Hagel",
-        "jersey": 38,
+        "name": "Yanni Gourde",
+        "jersey": 37,
         "pos": "LW",
         "slot": null,
-        "player_id": 8479542,
-        "dfo_id": 27046,
+        "player_id": 8476826,
+        "dfo_id": 2566,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 1,
+        "pp": null,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 11,
-         "g": 13,
-         "gp": 20,
-         "p": 24,
-         "ppp": 4,
-         "sog": 80,
-         "toi_s": 24634
+         "a": 0,
+         "g": 1,
+         "gp": 3,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2774
         },
         "last5": {
-         "a": 2,
-         "g": 5,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 7,
+         "p": 1,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 5546
+         "sog": 5,
+         "toi_s": 4568
         },
-        "l5_point_games": 3,
-        "gp": 20,
+        "l5_point_games": 1,
+        "gp": 3,
         "move": {
-         "ev": -1,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -21273,7 +21293,7 @@
         "slot": null,
         "player_id": 8478519,
         "dfo_id": 3842,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 1,
@@ -21345,39 +21365,39 @@
       ],
       [
        {
-        "name": "Yanni Gourde",
-        "jersey": 37,
+        "name": "Jeffrey Viel",
+        "jersey": 28,
         "pos": "LW",
         "slot": null,
-        "player_id": 8476826,
-        "dfo_id": 2566,
+        "player_id": null,
+        "dfo_id": 24312,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 3,
-         "p": 1,
+         "a": 2,
+         "g": 0,
+         "gp": 17,
+         "p": 2,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2774
+         "sog": 12,
+         "toi_s": 9858
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4568
+         "sog": 3,
+         "toi_s": 2950
         },
-        "l5_point_games": 1,
-        "gp": 3,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -21432,7 +21452,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 2,
         "bias": "G",
         "season": {
          "a": 3,
@@ -21470,7 +21490,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 3,
@@ -21507,7 +21527,7 @@
         "dfo_id": 29640,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -21532,7 +21552,7 @@
         "gp": 20,
         "move": {
          "ev": -1,
-         "pp": -1,
+         "pp": 0,
          "new": false
         }
        }
@@ -21741,7 +21761,7 @@
         "slot": null,
         "player_id": 8478416,
         "dfo_id": 2749,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
@@ -21985,7 +22005,7 @@
         "slot": 4,
         "player_id": 8478010,
         "dfo_id": 2456,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -22057,36 +22077,36 @@
       ],
       [
        {
-        "name": "Brandon Hagel",
-        "jersey": 38,
+        "name": "Pontus Holmberg",
+        "jersey": 29,
         "pos": null,
         "slot": 1,
-        "player_id": 8479542,
-        "dfo_id": 27046,
+        "player_id": 8480995,
+        "dfo_id": 29640,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 1,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 11,
-         "g": 13,
+         "a": 7,
+         "g": 6,
          "gp": 20,
-         "p": 24,
-         "ppp": 4,
-         "sog": 80,
-         "toi_s": 24634
+         "p": 13,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 17642
         },
         "last5": {
-         "a": 2,
-         "g": 5,
+         "a": 0,
+         "g": 2,
          "gp": 5,
-         "p": 7,
+         "p": 2,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 5546
+         "sog": 8,
+         "toi_s": 4561
         },
-        "l5_point_games": 3,
+        "l5_point_games": 1,
         "gp": 20,
         "move": {
          "ev": -1,
@@ -22257,7 +22277,7 @@
         "slot": 1,
         "player_id": 8478519,
         "dfo_id": 3842,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 1,
@@ -22289,37 +22309,37 @@
         }
        },
        {
-        "name": "Brandon Hagel",
-        "jersey": 38,
+        "name": "Zemgus Girgensons",
+        "jersey": 28,
         "pos": null,
         "slot": 2,
-        "player_id": 8479542,
-        "dfo_id": 27046,
+        "player_id": 8476878,
+        "dfo_id": 1953,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 11,
-         "g": 13,
-         "gp": 20,
-         "p": 24,
-         "ppp": 4,
-         "sog": 80,
-         "toi_s": 24634
+         "a": 3,
+         "g": 1,
+         "gp": 17,
+         "p": 4,
+         "ppp": 0,
+         "sog": 26,
+         "toi_s": 15183
         },
         "last5": {
-         "a": 2,
-         "g": 5,
+         "a": 1,
+         "g": 0,
          "gp": 5,
-         "p": 7,
+         "p": 1,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 5546
+         "sog": 7,
+         "toi_s": 5297
         },
-        "l5_point_games": 3,
-        "gp": 20,
+        "l5_point_games": 1,
+        "gp": 17,
         "move": {
          "ev": -1,
          "pp": 0,
@@ -22371,7 +22391,7 @@
         "slot": 4,
         "player_id": 8478416,
         "dfo_id": 2749,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
@@ -22437,31 +22457,31 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Zemgus Girgensons",
-        "jersey": 28,
+        "name": "Ilya Mikheyev",
+        "jersey": 95,
         "pos": null,
         "slot": 2,
-        "player_id": 8476878,
-        "dfo_id": 1953,
+        "player_id": 8481624,
+        "dfo_id": 30651,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": null,
+        "bias": "G",
         "season": {
          "a": 3,
-         "g": 1,
-         "gp": 17,
-         "p": 4,
+         "g": 4,
+         "gp": 20,
+         "p": 7,
          "ppp": 0,
-         "sog": 26,
-         "toi_s": 15183
+         "sog": 27,
+         "toi_s": 18005
         },
         "last5": {
          "a": 1,
@@ -22469,11 +22489,11 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 5297
+         "sog": 5,
+         "toi_s": 4737
         },
         "l5_point_games": 1,
-        "gp": 17,
+        "gp": 20,
         "move": {
          "ev": -1,
          "pp": 0,
@@ -22560,19 +22580,9 @@
      ],
      "injuries": [
       {
-       "player": "Brayden Point",
+       "player": "Brandon Hagel",
        "status": "DTD",
-       "news": "Point (undisclosed) is expected to return vs. Washington on Tuesday."
-      },
-      {
-       "player": "Anthony Cirelli",
-       "status": "DTD",
-       "news": "Cirelli (lower-body) will not play on Saturday but the Lightning are hopeful he'll play Tuesday."
-      },
-      {
-       "player": "Erik Cernak",
-       "status": "DTD",
-       "news": "Cernak (undisclosed) will not play Thursday in Columbus."
+       "news": "Hagel (upper-body) will not play on Tuesday; he's considered day-to-day."
       },
       {
        "player": "Conor Geekie",
@@ -22602,12 +22612,12 @@
        "rating": 79.90820935464193
       },
       "f2": {
-       "rank": 16,
-       "rating": 74.51115086277801
+       "rank": 21,
+       "rating": 73.68780211126216
       },
       "f3": {
-       "rank": 18,
-       "rating": 72.8644533597463
+       "rank": 35,
+       "rating": 0
       },
       "f4": {
        "rank": 17,
