@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_utc": "2026-11-17T02:12:37.167881+00:00",
+ "generated_utc": "2026-11-17T02:27:40.747404+00:00",
  "games": [
   {
    "game_id": 2026020331,
@@ -2170,8 +2170,8 @@
      "ppga_rk": 5,
      "l5_gf": 2.8,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-16T19:27:38.549Z",
-     "lineup_checked": "2026-11-16T23:57:02.793220+00:00",
+     "lineup_as_of": "2026-11-17T02:17:49.082Z",
+     "lineup_checked": "2026-11-17T02:27:39.855270+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2190,11 +2190,6 @@
        "news": "Guenther (upper-body) has been placed on IR and is expected to miss 2-to-4 weeks."
       },
       {
-       "player": "Logan Cooley",
-       "status": "DTD",
-       "news": "Cooley (upper-body) remains day-to-day and will not play on Saturday."
-      },
-      {
        "player": "Nick Schmaltz",
        "status": "DTD",
        "news": "Schmaltz (lower-body) will not play on Saturday and is still being evaluated."
@@ -2202,19 +2197,19 @@
       {
        "player": "Artem Duda",
        "status": "DTD",
-       "news": "Duda (lower-body) will be a game-time decision vs. Vancouver on Monday."
+       "news": "Duda (lower-body) will not play Monday vs. the Canucks."
       }
      ],
      "lines": {
       "1": [
-       "Anders Lee",
+       "Logan Cooley",
        "Vincent Trocheck",
        "Clayton Keller"
       ],
       "2": [
-       "Kailer Yamamoto",
+       "Anders Lee",
        "Barrett Hayton",
-       "Daniil But"
+       "Kailer Yamamoto"
       ],
       "3": [
        "Michael Carcone",
@@ -2222,24 +2217,24 @@
        "Lawson Crouse"
       ],
       "4": [
-       "Ben McCartney",
+       "Liam O'Brien",
        "Kevin Stenlund",
-       "Liam O'Brien"
+       "Daniil But"
       ]
      },
      "pp1": [
       "Barrett Hayton",
       "Vincent Trocheck",
-      "Kailer Yamamoto",
+      "Logan Cooley",
       "Mikhail Sergachev",
       "Clayton Keller"
      ],
      "pp2": [
       "Anders Lee",
       "Lawson Crouse",
-      "Michael Carcone",
-      "Zac Jones",
-      "MacKenzie Weegar"
+      "Kailer Yamamoto",
+      "MacKenzie Weegar",
+      "Michael Carcone"
      ],
      "players": [
       {
@@ -2292,12 +2287,12 @@
        },
        "partners": [
         {
-         "name": "Anders Lee",
-         "jersey": 72,
-         "pp": 2,
-         "n": 5,
-         "both": 3,
-         "either": 4
+         "name": "Logan Cooley",
+         "jersey": 92,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Vincent Trocheck",
@@ -2310,42 +2305,42 @@
        ]
       },
       {
-       "name": "Kailer Yamamoto",
-       "jersey": 56,
+       "name": "Logan Cooley",
+       "jersey": 92,
        "team": "UTA",
        "opp": "VAN",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
        "role": "pp1",
-       "bias": "A",
-       "gp": 12,
-       "pt_games": 7,
+       "bias": "G",
+       "gp": 18,
+       "pt_games": 12,
        "l5": [
-        1,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 2,
-       "home_split": [
-        4,
-        7
-       ],
-       "away_split": [
         3,
         5
        ],
-       "pp_toi": 2.1,
-       "toi": 16.6,
-       "p": 0.657,
-       "fair": "-191",
-       "min": "-163",
-       "p2": 0.209,
-       "fair2": "+379",
-       "min2": "+408",
+       "ast_games": 9,
+       "goal_games": 6,
+       "two_games": 6,
+       "home_split": [
+        4,
+        6
+       ],
+       "away_split": [
+        8,
+        12
+       ],
+       "pp_toi": 3.7,
+       "toi": 19.0,
+       "p": 0.728,
+       "fair": "-268",
+       "min": "-219",
+       "p2": 0.339,
+       "fair2": "+195",
+       "min2": "+213",
        "adj": [
         [
          "opp",
@@ -2355,22 +2350,22 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Barrett Hayton",
-         "jersey": 27,
+         "name": "Vincent Trocheck",
+         "jersey": 16,
          "pp": 1,
          "n": 12,
-         "both": 6,
-         "either": 8
+         "both": 5,
+         "either": 9
         },
         {
-         "name": "Daniil But",
-         "jersey": 50,
-         "pp": null,
-         "n": 1,
+         "name": "Clayton Keller",
+         "jersey": 9,
+         "pp": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -2426,20 +2421,87 @@
        },
        "partners": [
         {
+         "name": "Anders Lee",
+         "jersey": 72,
+         "pp": 2,
+         "n": 14,
+         "both": 3,
+         "either": 8
+        },
+        {
          "name": "Kailer Yamamoto",
          "jersey": 56,
+         "pp": 2,
+         "n": 12,
+         "both": 6,
+         "either": 8
+        }
+       ]
+      },
+      {
+       "name": "Kailer Yamamoto",
+       "jersey": 56,
+       "team": "UTA",
+       "opp": "VAN",
+       "home": true,
+       "line": 2,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": "A",
+       "gp": 12,
+       "pt_games": 7,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 3,
+       "two_games": 2,
+       "home_split": [
+        4,
+        7
+       ],
+       "away_split": [
+        3,
+        5
+       ],
+       "pp_toi": 2.1,
+       "toi": 16.6,
+       "p": 0.564,
+       "fair": "-129",
+       "min": "-114",
+       "p2": 0.153,
+       "fair2": "+553",
+       "min2": "+592",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Anders Lee",
+         "jersey": 72,
+         "pp": 2,
+         "n": 10,
+         "both": 2,
+         "either": 6
+        },
+        {
+         "name": "Barrett Hayton",
+         "jersey": 27,
          "pp": 1,
          "n": 12,
          "both": 6,
          "either": 8
-        },
-        {
-         "name": "Daniil But",
-         "jersey": 50,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
         }
        ]
       },
@@ -2493,12 +2555,12 @@
        },
        "partners": [
         {
-         "name": "Anders Lee",
-         "jersey": 72,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "name": "Logan Cooley",
+         "jersey": 92,
+         "pp": 1,
+         "n": 12,
+         "both": 5,
+         "either": 9
         },
         {
          "name": "Clayton Keller",
@@ -2516,7 +2578,7 @@
        "team": "UTA",
        "opp": "VAN",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
@@ -2554,97 +2616,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Vincent Trocheck",
-         "jersey": 16,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Clayton Keller",
-         "jersey": 9,
-         "pp": 1,
-         "n": 5,
-         "both": 3,
-         "either": 4
-        }
-       ]
-      },
-      {
-       "name": "Daniil But",
-       "jersey": 50,
-       "team": "UTA",
-       "opp": "VAN",
-       "home": true,
-       "line": 2,
-       "pp": null,
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 16,
-       "pt_games": 4,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        4,
-        7
-       ],
-       "away_split": [
-        0,
-        9
-       ],
-       "pp_toi": 0.4,
-       "toi": 9.3,
-       "p": 0.357,
-       "fair": "+180",
-       "min": "+197",
-       "p2": 0.034,
-       "fair2": "+2839",
-       "min2": "+3015",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ],
-        [
-         "venue",
-         1.1
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": -1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Kailer Yamamoto",
-         "jersey": 56,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Barrett Hayton",
          "jersey": 27,
          "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 14,
+         "both": 3,
+         "either": 8
+        },
+        {
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 2,
+         "n": 10,
+         "both": 2,
+         "either": 6
         }
        ]
       },

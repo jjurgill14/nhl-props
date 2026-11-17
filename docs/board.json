@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T02:12:37.589614+00:00",
+ "generated_utc": "2026-11-17T02:27:41.169298+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -4696,8 +4696,8 @@
     "goalie_source": "Brogan Houston",
     "sv": "0.868",
     "gaa": "3.14",
-    "lineup_as_of": "2026-11-16T19:27:38.549Z",
-    "lineup_checked": "2026-11-16T23:57:02.793220+00:00",
+    "lineup_as_of": "2026-11-17T02:17:49.082Z",
+    "lineup_checked": "2026-11-17T02:27:39.855270+00:00",
     "lineup_stale": false,
     "ga_rk": 9,
     "gf_rk": 10,
@@ -4736,7 +4736,7 @@
      "away": "+110",
      "home": "-130",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-16T19:27:38.549Z"
+     "as_of": "2026-11-17T02:17:49.082Z"
     },
     "total": {
      "line": 6.5,
@@ -4797,18 +4797,18 @@
       ]
      },
      {
-      "selection": "Kailer Yamamoto \u00b7 1+ point",
-      "prob": 0.657,
-      "fair": "-192",
-      "need": "-163",
-      "rationale": "Point in 7 of 12 this season, 1 of last 5 \u00b7 PP1, 2.1 PP min/game over L5",
-      "player": "Kailer Yamamoto",
+      "selection": "Logan Cooley \u00b7 1+ point",
+      "prob": 0.728,
+      "fair": "-268",
+      "need": "-219",
+      "rationale": "Point in 12 of 18 this season, 3 of last 5 \u00b7 PP1, 3.7 PP min/game over L5",
+      "player": "Logan Cooley",
       "team": "UTA",
       "pp": 1,
-      "line": 2,
-      "bias": "A",
+      "line": 1,
+      "bias": "G",
       "players": [
-       8479977
+       8483431
       ]
      },
      {
@@ -4842,6 +4842,21 @@
       ]
      },
      {
+      "selection": "Kailer Yamamoto \u00b7 1+ point",
+      "prob": 0.564,
+      "fair": "-129",
+      "need": "-114",
+      "rationale": "Point in 7 of 12 this season, 1 of last 5 \u00b7 PP2 (2.1 PP min/game)",
+      "player": "Kailer Yamamoto",
+      "team": "UTA",
+      "pp": 2,
+      "line": 2,
+      "bias": "A",
+      "players": [
+       8479977
+      ]
+     },
+     {
       "selection": "Jonathan Lekkerimaki \u00b7 1+ point",
       "prob": 0.535,
       "fair": "-115",
@@ -4855,54 +4870,23 @@
       "players": [
        8483476
       ]
-     },
-     {
-      "selection": "Vincent Trocheck \u00b7 1+ point",
-      "prob": 0.533,
-      "fair": "-114",
-      "need": "-101",
-      "rationale": "Point in 9 of 21 this season, 1 of last 5 \u00b7 PP1, 2.5 PP min/game over L5",
-      "player": "Vincent Trocheck",
-      "team": "UTA",
-      "pp": 1,
-      "line": 1,
-      "bias": "A",
-      "players": [
-       8476389
-      ]
      }
     ],
     "pair": [
      {
-      "selection": "Keller + Lee \u00b7 both 1+ point",
-      "prob": 0.472,
-      "fair": "+112",
-      "need": "+125",
-      "rationale": "Both scored 3 of 5 games together \u00b7 independent 36% \u00b7 new pair",
-      "team": "UTA",
-      "line": 1,
-      "read": "new pair",
-      "both": 3,
-      "n": 5,
-      "players": [
-       8479343,
-       8475314
-      ]
-     },
-     {
-      "selection": "Yamamoto + Hayton \u00b7 both 1+ point",
-      "prob": 0.459,
-      "fair": "+118",
-      "need": "+131",
-      "rationale": "Both scored 6 of 12 games together \u00b7 independent 38% \u00b7 correlated",
+      "selection": "Hayton + Yamamoto \u00b7 both 1+ point",
+      "prob": 0.441,
+      "fair": "+127",
+      "need": "+140",
+      "rationale": "Both scored 6 of 12 games together \u00b7 independent 32% \u00b7 correlated",
       "team": "UTA",
       "line": 2,
       "read": "correlated",
       "both": 6,
       "n": 12,
       "players": [
-       8479977,
-       8480849
+       8480849,
+       8479977
       ]
      },
      {
@@ -4919,6 +4903,22 @@
       "players": [
        8478444,
        8480078
+      ]
+     },
+     {
+      "selection": "Cooley + Trocheck \u00b7 both 1+ point",
+      "prob": 0.407,
+      "fair": "+146",
+      "need": "+160",
+      "rationale": "Both scored 5 of 12 games together \u00b7 independent 39% \u00b7 independent",
+      "team": "UTA",
+      "line": 1,
+      "read": "independent",
+      "both": 5,
+      "n": 12,
+      "players": [
+       8483431,
+       8476389
       ]
      },
      {
@@ -4970,14 +4970,28 @@
       ]
      },
      {
-      "selection": "Kailer Yamamoto \u00b7 2+ points",
-      "prob": 0.209,
-      "fair": "+378",
-      "need": "+407",
-      "rationale": "2+ in 2 of 12 \u00b7 2.1 PP min/game \u00b7 PP1",
-      "player": "Kailer Yamamoto",
+      "selection": "Logan Cooley \u00b7 2+ points",
+      "prob": 0.339,
+      "fair": "+195",
+      "need": "+213",
+      "rationale": "2+ in 6 of 18 \u00b7 3.7 PP min/game \u00b7 PP1",
+      "player": "Logan Cooley",
       "team": "UTA",
       "pp": 1,
+      "line": 1,
+      "players": [
+       8483431
+      ]
+     },
+     {
+      "selection": "Kailer Yamamoto \u00b7 2+ points",
+      "prob": 0.153,
+      "fair": "+554",
+      "need": "+593",
+      "rationale": "2+ in 2 of 12 \u00b7 2.1 PP min/game \u00b7 L2",
+      "player": "Kailer Yamamoto",
+      "team": "UTA",
+      "pp": 2,
       "line": 2,
       "players": [
        8479977
@@ -5014,19 +5028,19 @@
     ],
     "pp1": [
      {
-      "selection": "Yamamoto + Hayton \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.459,
-      "fair": "+118",
-      "need": "+131",
-      "rationale": "Both scored 6 of 12 games together \u00b7 independent 38% \u00b7 correlated",
+      "selection": "Cooley + Trocheck \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.407,
+      "fair": "+146",
+      "need": "+160",
+      "rationale": "Both scored 5 of 12 games together \u00b7 independent 39% \u00b7 independent",
       "team": "UTA",
-      "line": 2,
-      "read": "correlated",
-      "both": 6,
+      "line": 1,
+      "read": "independent",
+      "both": 5,
       "n": 12,
       "players": [
-       8479977,
-       8480849
+       8483431,
+       8476389
       ]
      },
      {
@@ -6647,49 +6661,49 @@
     },
     "home": {
      "team": "UTA",
-     "as_of": "2026-11-16T19:27:38.549Z",
-     "checked": "2026-11-16T23:57:02.793220+00:00",
+     "as_of": "2026-11-17T02:17:49.082Z",
+     "checked": "2026-11-17T02:27:39.855270+00:00",
      "stale": false,
-     "source": "Brogan Houston",
-     "updated_dfo": "2026-11-16T19:27:38.549Z",
+     "source": "Utah Mammoth",
+     "updated_dfo": "2026-11-17T02:17:49.082Z",
      "forwards": [
       [
        {
-        "name": "Anders Lee",
-        "jersey": 72,
+        "name": "Logan Cooley",
+        "jersey": 92,
         "pos": "LW",
         "slot": null,
-        "player_id": 8475314,
-        "dfo_id": 2071,
+        "player_id": 8483431,
+        "dfo_id": 33387,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 6,
-         "g": 3,
-         "gp": 21,
-         "p": 9,
-         "ppp": 1,
-         "sog": 37,
-         "toi_s": 17676
+         "a": 10,
+         "g": 11,
+         "gp": 18,
+         "p": 21,
+         "ppp": 12,
+         "sog": 31,
+         "toi_s": 19963
         },
         "last5": {
          "a": 2,
-         "g": 0,
+         "g": 7,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4648
+         "p": 9,
+         "ppp": 4,
+         "sog": 15,
+         "toi_s": 5714
         },
-        "l5_point_games": 2,
-        "gp": 21,
+        "l5_point_games": 3,
+        "gp": 18,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -6771,39 +6785,39 @@
       ],
       [
        {
-        "name": "Kailer Yamamoto",
-        "jersey": 56,
+        "name": "Anders Lee",
+        "jersey": 72,
         "pos": "LW",
         "slot": null,
-        "player_id": 8479977,
-        "dfo_id": 2796,
+        "player_id": 8475314,
+        "dfo_id": 2071,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 7,
+         "a": 6,
          "g": 3,
-         "gp": 12,
-         "p": 10,
-         "ppp": 4,
-         "sog": 24,
-         "toi_s": 11178
+         "gp": 21,
+         "p": 9,
+         "ppp": 1,
+         "sog": 37,
+         "toi_s": 17676
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 4,
-         "toi_s": 4965
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4648
         },
-        "l5_point_games": 1,
-        "gp": 12,
+        "l5_point_games": 2,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -6847,37 +6861,37 @@
         }
        },
        {
-        "name": "Daniil But",
-        "jersey": 50,
+        "name": "Kailer Yamamoto",
+        "jersey": 56,
         "pos": "RW",
         "slot": null,
-        "player_id": 8484388,
-        "dfo_id": 38459,
+        "player_id": 8479977,
+        "dfo_id": 2796,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": "A",
         "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 16,
-         "p": 4,
-         "ppp": 0,
-         "sog": 17,
-         "toi_s": 10042
+         "a": 7,
+         "g": 3,
+         "gp": 12,
+         "p": 10,
+         "ppp": 4,
+         "sog": 24,
+         "toi_s": 11178
         },
         "last5": {
-         "a": 0,
+         "a": 3,
          "g": 0,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
+         "p": 3,
+         "ppp": 2,
          "sog": 4,
-         "toi_s": 2800
+         "toi_s": 4965
         },
-        "l5_point_games": 0,
-        "gp": 16,
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": -1,
@@ -7003,12 +7017,12 @@
       ],
       [
        {
-        "name": "Ben McCartney",
-        "jersey": 62,
+        "name": "Liam O'Brien",
+        "jersey": 38,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481827,
-        "dfo_id": 28455,
+        "player_id": 8477070,
+        "dfo_id": 2377,
         "gtd": false,
         "injury": null,
         "pp": null,
@@ -7017,11 +7031,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 2,
+         "gp": 8,
          "p": 0,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 743
+         "sog": 5,
+         "toi_s": 3730
         },
         "last5": {
          "a": 0,
@@ -7029,11 +7043,11 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 2800
+         "sog": 3,
+         "toi_s": 2256
         },
         "l5_point_games": 0,
-        "gp": 2,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -7079,25 +7093,25 @@
         }
        },
        {
-        "name": "Liam O'Brien",
-        "jersey": 38,
+        "name": "Daniil But",
+        "jersey": 50,
         "pos": "RW",
         "slot": null,
-        "player_id": 8477070,
-        "dfo_id": 2377,
+        "player_id": 8484388,
+        "dfo_id": 38459,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 8,
-         "p": 0,
+         "a": 2,
+         "g": 2,
+         "gp": 16,
+         "p": 4,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3730
+         "sog": 17,
+         "toi_s": 10042
         },
         "last5": {
          "a": 0,
@@ -7105,14 +7119,14 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2256
+         "sog": 4,
+         "toi_s": 2800
         },
         "l5_point_games": 0,
-        "gp": 8,
+        "gp": 16,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": -1,
          "new": false
         }
        }
@@ -7159,39 +7173,39 @@
         }
        },
        {
-        "name": "Artem Duda",
-        "jersey": 84,
+        "name": "Andrew Peeke",
+        "jersey": 20,
         "pos": "RD",
         "slot": null,
-        "player_id": 8483436,
-        "dfo_id": 36382,
-        "gtd": true,
+        "player_id": 8479369,
+        "dfo_id": 27242,
+        "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 6,
-         "p": 0,
+         "a": 6,
+         "g": 2,
+         "gp": 21,
+         "p": 8,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 5314
+         "sog": 18,
+         "toi_s": 22609
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
          "sog": 3,
-         "toi_s": 4397
+         "toi_s": 6122
         },
-        "l5_point_games": 0,
-        "gp": 6,
+        "l5_point_games": 1,
+        "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -7285,7 +7299,7 @@
         "dfo_id": 30457,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
@@ -7310,46 +7324,46 @@
         "gp": 2,
         "move": {
          "ev": 0,
-         "pp": 1,
+         "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Andrew Peeke",
-        "jersey": 20,
+        "name": "Nick DeSimone",
+        "jersey": 57,
         "pos": "RD",
         "slot": null,
-        "player_id": 8479369,
-        "dfo_id": 27242,
+        "player_id": 8480084,
+        "dfo_id": 2886,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 6,
-         "g": 2,
-         "gp": 21,
-         "p": 8,
+         "a": 0,
+         "g": 0,
+         "gp": 8,
+         "p": 0,
          "ppp": 0,
-         "sog": 18,
-         "toi_s": 22609
+         "sog": 5,
+         "toi_s": 6704
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 6122
+         "sog": 2,
+         "toi_s": 4465
         },
-        "l5_point_games": 1,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 8,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -7357,53 +7371,10 @@
      "goalies": [
       [
        {
-        "name": "Sebastian Cossa",
-        "jersey": 33,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8482657,
-        "dfo_id": 34654,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 7,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "4-2-1",
-        "sv_pct": "0.863",
-        "starts": 7
-       }
-      ],
-      [
-       {
         "name": "Karel Vejmelka",
         "jersey": 70,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8478872,
         "dfo_id": 26614,
         "gtd": false,
@@ -7439,6 +7410,49 @@
         "record": "6-6-2",
         "sv_pct": "0.871",
         "starts": 14
+       }
+      ],
+      [
+       {
+        "name": "Sebastian Cossa",
+        "jersey": 33,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8482657,
+        "dfo_id": 34654,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 7,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "4-2-1",
+        "sv_pct": "0.863",
+        "starts": 7
        }
       ]
      ],
@@ -7521,41 +7535,41 @@
         }
        },
        {
-        "name": "Kailer Yamamoto",
-        "jersey": 56,
+        "name": "Logan Cooley",
+        "jersey": 92,
         "pos": null,
         "slot": 3,
-        "player_id": 8479977,
-        "dfo_id": 2796,
+        "player_id": 8483431,
+        "dfo_id": 33387,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 7,
-         "g": 3,
-         "gp": 12,
-         "p": 10,
-         "ppp": 4,
-         "sog": 24,
-         "toi_s": 11178
+         "a": 10,
+         "g": 11,
+         "gp": 18,
+         "p": 21,
+         "ppp": 12,
+         "sog": 31,
+         "toi_s": 19963
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 2,
+         "g": 7,
          "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 4,
-         "toi_s": 4965
+         "p": 9,
+         "ppp": 4,
+         "sog": 15,
+         "toi_s": 5714
         },
-        "l5_point_games": 1,
-        "gp": 12,
+        "l5_point_games": 3,
+        "gp": 18,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -7669,7 +7683,7 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -7713,78 +7727,40 @@
         }
        },
        {
-        "name": "Michael Carcone",
-        "jersey": 53,
+        "name": "Kailer Yamamoto",
+        "jersey": 56,
         "pos": null,
         "slot": 3,
-        "player_id": 8479619,
-        "dfo_id": 3864,
+        "player_id": 8479977,
+        "dfo_id": 2796,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 1,
+         "a": 7,
+         "g": 3,
          "gp": 12,
-         "p": 3,
-         "ppp": 0,
-         "sog": 28,
-         "toi_s": 8736
+         "p": 10,
+         "ppp": 4,
+         "sog": 24,
+         "toi_s": 11178
         },
         "last5": {
-         "a": 1,
+         "a": 3,
          "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 3658
+         "p": 3,
+         "ppp": 2,
+         "sog": 4,
+         "toi_s": 4965
         },
         "l5_point_games": 1,
         "gp": 12,
         "move": {
          "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Zac Jones",
-        "jersey": 15,
-        "pos": null,
-        "slot": 4,
-        "player_id": 8481708,
-        "dfo_id": 30457,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 2,
-         "gp": 2,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 1538
-        },
-        "last5": {
-         "a": 1,
-         "g": 3,
-         "gp": 5,
-         "p": 4,
-         "ppp": 1,
-         "sog": 13,
-         "toi_s": 4584
-        },
-        "l5_point_games": 1,
-        "gp": 2,
-        "move": {
-         "ev": 0,
-         "pp": 1,
+         "pp": -1,
          "new": false
         }
        },
@@ -7792,7 +7768,7 @@
         "name": "MacKenzie Weegar",
         "jersey": 52,
         "pos": null,
-        "slot": 5,
+        "slot": 4,
         "player_id": 8477346,
         "dfo_id": 2777,
         "gtd": false,
@@ -7820,6 +7796,44 @@
         },
         "l5_point_games": 1,
         "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Michael Carcone",
+        "jersey": 53,
+        "pos": null,
+        "slot": 5,
+        "player_id": 8479619,
+        "dfo_id": 3864,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 1,
+         "gp": 12,
+         "p": 3,
+         "ppp": 0,
+         "sog": 28,
+         "toi_s": 8736
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 3658
+        },
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -8131,7 +8145,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8155,11 +8169,6 @@
        "news": "Guenther (upper-body) has been placed on IR and is expected to miss 2-to-4 weeks."
       },
       {
-       "player": "Logan Cooley",
-       "status": "DTD",
-       "news": "Cooley (upper-body) remains day-to-day and will not play on Saturday."
-      },
-      {
        "player": "Nick Schmaltz",
        "status": "DTD",
        "news": "Schmaltz (lower-body) will not play on Saturday and is still being evaluated."
@@ -8167,40 +8176,40 @@
       {
        "player": "Artem Duda",
        "status": "DTD",
-       "news": "Duda (lower-body) will be a game-time decision vs. Vancouver on Monday."
+       "news": "Duda (lower-body) will not play Monday vs. the Canucks."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 15,
-       "rating": 74.9227894568078
+       "rank": 20,
+       "rating": 73.7466537666546
       },
       "d2": {
        "rank": 22,
        "rating": 73.3491047234105
       },
       "d3": {
-       "rank": 13,
-       "rating": 72.57051807650141
+       "rank": 27,
+       "rating": 0
       },
       "d4": {
        "rank": 7,
        "rating": 0
       },
       "f1": {
-       "rank": 26,
-       "rating": 74.60858295899371
+       "rank": 27,
+       "rating": 74.1910803832106
       },
       "f2": {
-       "rank": 23,
-       "rating": 72.78468950711832
+       "rank": 20,
+       "rating": 73.67098904159884
       },
       "f3": {
        "rank": 24,
        "rating": 71.90649537274241
       },
       "f4": {
-       "rank": 18,
+       "rank": 17,
        "rating": 71.91977873674156
       },
       "g": {
