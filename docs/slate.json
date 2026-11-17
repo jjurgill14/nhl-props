@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_utc": "2026-11-16T23:57:03.693380+00:00",
+ "generated_utc": "2026-11-17T00:12:07.709558+00:00",
  "games": [
   {
    "game_id": 2026020331,
@@ -8,7 +8,7 @@
    "start_et": "7:30 PM",
    "away": "MTL",
    "home": "NYR",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Madison Square Garden",
    "teams": {
     "away": {
@@ -22,7 +22,7 @@
      "goalie_source": "Renaud Lavoie",
      "sv": "0.924",
      "gaa": "2.26",
-     "ml": "225",
+     "ml": "215",
      "gp": 20,
      "gf": 3.3,
      "gf_rk": 12,
@@ -729,7 +729,7 @@
      "goalie_source": "Vince Mercogliano",
      "sv": "0.931",
      "gaa": "2.0",
-     "ml": "-278",
+     "ml": "-265",
      "gp": 21,
      "gf": 3.0,
      "gf_rk": 19,
@@ -741,8 +741,8 @@
      "ppga_rk": 31,
      "l5_gf": 3.2,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-15T17:40:33.127Z",
-     "lineup_checked": "2026-11-16T21:48:01.946361+00:00",
+     "lineup_as_of": "2026-11-17T00:09:45.315Z",
+     "lineup_checked": "2026-11-17T00:12:06.839808+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -769,6 +769,11 @@
        "player": "Alberts Smits",
        "status": "IR",
        "news": "Smits is week-to-week with an upper-body injury."
+      },
+      {
+       "player": "Pavel Dorofeyev",
+       "status": "DTD",
+       "news": "Dorofeyev (undisclosed) will not play Monday vs. Montreal."
       }
      ],
      "lines": {
@@ -778,35 +783,106 @@
        "Alexis Lafreni\u00e8re"
       ],
       "2": [
-       "Tye Kartye",
+       "Will Cuylle",
        "J.T. Miller",
-       "Pavel Dorofeyev"
+       "Tye Kartye"
       ],
       "3": [
-       "Will Cuylle",
+       "Eeli Tolvanen",
        "Noah Laba",
        "Oliver Bjorkstrand"
       ],
       "4": [
-       "Eeli Tolvanen",
+       "Jaroslav Chmelar",
        "Glenn Gawdin",
-       "Jaroslav Chmelar"
+       "Matt Rempe"
       ]
      },
      "pp1": [
       "Alexis Lafreni\u00e8re",
       "Gabriel Perreault",
-      "Pavel Dorofeyev",
+      "J.T. Miller",
       "Mika Zibanejad",
       "Adam Fox"
      ],
      "pp2": [
+      "Eeli Tolvanen",
       "Tye Kartye",
-      "J.T. Miller",
       "Will Cuylle",
       "Oliver Bjorkstrand"
      ],
      "players": [
+      {
+       "name": "J.T. Miller",
+       "jersey": 10,
+       "team": "NYR",
+       "opp": "MTL",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 21,
+       "pt_games": 12,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 9,
+       "goal_games": 4,
+       "two_games": 4,
+       "home_split": [
+        8,
+        10
+       ],
+       "away_split": [
+        4,
+        11
+       ],
+       "pp_toi": 2.6,
+       "toi": 19.7,
+       "p": 0.622,
+       "fair": "-165",
+       "min": "-142",
+       "p2": 0.214,
+       "fair2": "+368",
+       "min2": "+396",
+       "adj": [
+        [
+         "opp",
+         1.0051612903225806
+        ],
+        [
+         "venue",
+         1.1
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Will Cuylle",
+         "jersey": 50,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tye Kartye",
+         "jersey": 24,
+         "pp": 2,
+         "n": 18,
+         "both": 8,
+         "either": 14
+        }
+       ]
+      },
       {
        "name": "Mika Zibanejad",
        "jersey": 93,
@@ -942,77 +1018,6 @@
        ]
       },
       {
-       "name": "J.T. Miller",
-       "jersey": 10,
-       "team": "NYR",
-       "opp": "MTL",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 21,
-       "pt_games": 12,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 9,
-       "goal_games": 4,
-       "two_games": 4,
-       "home_split": [
-        8,
-        10
-       ],
-       "away_split": [
-        4,
-        11
-       ],
-       "pp_toi": 2.6,
-       "toi": 19.7,
-       "p": 0.561,
-       "fair": "-128",
-       "min": "-113",
-       "p2": 0.177,
-       "fair2": "+465",
-       "min2": "+499",
-       "adj": [
-        [
-         "opp",
-         1.0051612903225806
-        ],
-        [
-         "venue",
-         1.1
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Tye Kartye",
-         "jersey": 24,
-         "pp": 2,
-         "n": 18,
-         "both": 8,
-         "either": 14
-        },
-        {
-         "name": "Pavel Dorofeyev",
-         "jersey": 16,
-         "pp": 1,
-         "n": 13,
-         "both": 4,
-         "either": 9
-        }
-       ]
-      },
-      {
        "name": "Gabriel Perreault",
        "jersey": 94,
        "team": "NYR",
@@ -1080,73 +1085,6 @@
        ]
       },
       {
-       "name": "Pavel Dorofeyev",
-       "jersey": 16,
-       "team": "NYR",
-       "opp": "MTL",
-       "home": true,
-       "line": 2,
-       "pp": 1,
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 21,
-       "pt_games": 11,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 6,
-       "two_games": 1,
-       "home_split": [
-        5,
-        10
-       ],
-       "away_split": [
-        6,
-        11
-       ],
-       "pp_toi": 2.5,
-       "toi": 15.6,
-       "p": 0.531,
-       "fair": "-113",
-       "min": "-100",
-       "p2": 0.09,
-       "fair2": "+1010",
-       "min2": "+1076",
-       "adj": [
-        [
-         "opp",
-         1.0051612903225806
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Tye Kartye",
-         "jersey": 24,
-         "pp": 2,
-         "n": 9,
-         "both": 3,
-         "either": 5
-        },
-        {
-         "name": "J.T. Miller",
-         "jersey": 10,
-         "pp": 2,
-         "n": 13,
-         "both": 4,
-         "either": 9
-        }
-       ]
-      },
-      {
        "name": "Tye Kartye",
        "jersey": 24,
        "team": "NYR",
@@ -1154,7 +1092,7 @@
        "home": true,
        "line": 2,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "G",
@@ -1196,20 +1134,20 @@
        },
        "partners": [
         {
+         "name": "Will Cuylle",
+         "jersey": 50,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "J.T. Miller",
          "jersey": 10,
-         "pp": 2,
+         "pp": 1,
          "n": 18,
          "both": 8,
          "either": 14
-        },
-        {
-         "name": "Pavel Dorofeyev",
-         "jersey": 16,
-         "pp": 1,
-         "n": 9,
-         "both": 3,
-         "either": 5
         }
        ]
       },
@@ -1263,12 +1201,12 @@
        },
        "partners": [
         {
-         "name": "Will Cuylle",
-         "jersey": 50,
+         "name": "Eeli Tolvanen",
+         "jersey": 17,
          "pp": 2,
-         "n": 5,
+         "n": 1,
          "both": 1,
-         "either": 3
+         "either": 1
         },
         {
          "name": "Noah Laba",
@@ -1286,11 +1224,11 @@
        "team": "NYR",
        "opp": "MTL",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 21,
        "pt_games": 7,
@@ -1311,12 +1249,12 @@
        ],
        "pp_toi": 2.1,
        "toi": 17.4,
-       "p": 0.312,
-       "fair": "+221",
-       "min": "+240",
-       "p2": 0.08,
-       "fair2": "+1144",
-       "min2": "+1218",
+       "p": 0.337,
+       "fair": "+197",
+       "min": "+215",
+       "p2": 0.092,
+       "fair2": "+993",
+       "min2": "+1058",
        "adj": [
         [
          "opp",
@@ -1324,8 +1262,75 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "J.T. Miller",
+         "jersey": 10,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tye Kartye",
+         "jersey": 24,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Eeli Tolvanen",
+       "jersey": 17,
+       "team": "NYR",
+       "opp": "MTL",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 21,
+       "pt_games": 5,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 4,
+       "two_games": 1,
+       "home_split": [
+        4,
+        10
+       ],
+       "away_split": [
+        1,
+        11
+       ],
+       "pp_toi": 0.0,
+       "toi": 10.4,
+       "p": 0.243,
+       "fair": "+312",
+       "min": "+337",
+       "p2": 0.046,
+       "fair2": "+2086",
+       "min2": "+2217",
+       "adj": [
+        [
+         "opp",
+         1.0051612903225806
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -1333,17 +1338,17 @@
          "name": "Noah Laba",
          "jersey": 42,
          "pp": null,
-         "n": 18,
+         "n": 12,
          "both": 2,
-         "either": 7
+         "either": 4
         },
         {
          "name": "Oliver Bjorkstrand",
          "jersey": 28,
          "pp": 2,
-         "n": 5,
+         "n": 1,
          "both": 1,
-         "either": 3
+         "either": 1
         }
        ]
       },
@@ -1397,12 +1402,12 @@
        },
        "partners": [
         {
-         "name": "Will Cuylle",
-         "jersey": 50,
+         "name": "Eeli Tolvanen",
+         "jersey": 17,
          "pp": 2,
-         "n": 18,
+         "n": 12,
          "both": 2,
-         "either": 7
+         "either": 4
         },
         {
          "name": "Oliver Bjorkstrand",

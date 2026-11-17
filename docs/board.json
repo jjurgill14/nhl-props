@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-16T23:57:04.189931+00:00",
+ "generated_utc": "2026-11-17T00:12:08.129876+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1045,7 +1045,7 @@
    "id": "01",
    "game_id": 2026020331,
    "start_utc": "2026-11-17T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Madison Square Garden",
    "away": {
     "abbr": "MTL",
@@ -1110,8 +1110,8 @@
     "goalie_source": "Vince Mercogliano",
     "sv": "0.931",
     "gaa": "2.0",
-    "lineup_as_of": "2026-11-15T17:40:33.127Z",
-    "lineup_checked": "2026-11-16T21:48:01.946361+00:00",
+    "lineup_as_of": "2026-11-17T00:09:45.315Z",
+    "lineup_checked": "2026-11-17T00:12:06.839808+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 19,
@@ -1147,10 +1147,10 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+225",
-     "home": "-278",
+     "away": "+215",
+     "home": "-265",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-15T17:40:33.127Z"
+     "as_of": "2026-11-17T00:09:45.315Z"
     },
     "total": {
      "line": 6.5,
@@ -1196,6 +1196,21 @@
    "lenses": {
     "point": [
      {
+      "selection": "J.T. Miller \u00b7 1+ point",
+      "prob": 0.622,
+      "fair": "-165",
+      "need": "-142",
+      "rationale": "Point in 12 of 21 this season, 3 of last 5 \u00b7 PP1, 2.6 PP min/game over L5",
+      "player": "J.T. Miller",
+      "team": "NYR",
+      "pp": 1,
+      "line": 2,
+      "bias": "A",
+      "players": [
+       8476468
+      ]
+     },
+     {
       "selection": "Mika Zibanejad \u00b7 1+ point",
       "prob": 0.6,
       "fair": "-150",
@@ -1226,21 +1241,6 @@
       ]
      },
      {
-      "selection": "J.T. Miller \u00b7 1+ point",
-      "prob": 0.561,
-      "fair": "-128",
-      "need": "-112",
-      "rationale": "Point in 12 of 21 this season, 3 of last 5 \u00b7 PP2 (2.6 PP min/game)",
-      "player": "J.T. Miller",
-      "team": "NYR",
-      "pp": 2,
-      "line": 2,
-      "bias": "A",
-      "players": [
-       8476468
-      ]
-     },
-     {
       "selection": "Gabriel Perreault \u00b7 1+ point",
       "prob": 0.543,
       "fair": "-119",
@@ -1256,21 +1256,6 @@
       ]
      },
      {
-      "selection": "Pavel Dorofeyev \u00b7 1+ point",
-      "prob": 0.531,
-      "fair": "-113",
-      "need": "-100",
-      "rationale": "Point in 11 of 21 this season, 3 of last 5 \u00b7 PP1, 2.5 PP min/game over L5",
-      "player": "Pavel Dorofeyev",
-      "team": "NYR",
-      "pp": 1,
-      "line": 2,
-      "bias": null,
-      "players": [
-       8481604
-      ]
-     },
-     {
       "selection": "Nick Suzuki \u00b7 1+ point",
       "prob": 0.528,
       "fair": "-112",
@@ -1283,6 +1268,21 @@
       "bias": null,
       "players": [
        8480018
+      ]
+     },
+     {
+      "selection": "Cole Caufield \u00b7 1+ point",
+      "prob": 0.526,
+      "fair": "-111",
+      "need": "+102",
+      "rationale": "Point in 12 of 20 this season, 5 of last 5 \u00b7 PP1, 3.0 PP min/game over L5",
+      "player": "Cole Caufield",
+      "team": "MTL",
+      "pp": 1,
+      "line": 1,
+      "bias": null,
+      "players": [
+       8481540
       ]
      }
     ],
@@ -1305,10 +1305,10 @@
      },
      {
       "selection": "Miller + Kartye \u00b7 both 1+ point",
-      "prob": 0.4,
-      "fair": "+150",
-      "need": "+165",
-      "rationale": "Both scored 8 of 18 games together \u00b7 independent 27% \u00b7 correlated",
+      "prob": 0.407,
+      "fair": "+145",
+      "need": "+160",
+      "rationale": "Both scored 8 of 18 games together \u00b7 independent 30% \u00b7 correlated",
       "team": "NYR",
       "line": 2,
       "read": "correlated",
@@ -1316,38 +1316,6 @@
       "n": 18,
       "players": [
        8476468,
-       8481789
-      ]
-     },
-     {
-      "selection": "Miller + Dorofeyev \u00b7 both 1+ point",
-      "prob": 0.305,
-      "fair": "+228",
-      "need": "+248",
-      "rationale": "Both scored 4 of 13 games together \u00b7 independent 30% \u00b7 independent",
-      "team": "NYR",
-      "line": 2,
-      "read": "independent",
-      "both": 4,
-      "n": 13,
-      "players": [
-       8476468,
-       8481604
-      ]
-     },
-     {
-      "selection": "Dorofeyev + Kartye \u00b7 both 1+ point",
-      "prob": 0.301,
-      "fair": "+232",
-      "need": "+252",
-      "rationale": "Both scored 3 of 9 games together \u00b7 independent 25% \u00b7 correlated",
-      "team": "NYR",
-      "line": 2,
-      "read": "correlated",
-      "both": 3,
-      "n": 9,
-      "players": [
-       8481604,
        8481789
       ]
      },
@@ -1365,6 +1333,38 @@
       "players": [
        8481523,
        8481618
+      ]
+     },
+     {
+      "selection": "Bjorkstrand + Tolvanen \u00b7 both 1+ point",
+      "prob": 0.222,
+      "fair": "+350",
+      "need": "+377",
+      "rationale": "Both scored 1 of 1 games together \u00b7 independent 9% \u00b7 new pair",
+      "team": "NYR",
+      "line": 3,
+      "read": "new pair",
+      "both": 1,
+      "n": 1,
+      "players": [
+       8477416,
+       8480009
+      ]
+     },
+     {
+      "selection": "Tolvanen + Laba \u00b7 both 1+ point",
+      "prob": 0.128,
+      "fair": "+681",
+      "need": "+728",
+      "rationale": "Both scored 2 of 12 games together \u00b7 independent 5% \u00b7 correlated",
+      "team": "NYR",
+      "line": 3,
+      "read": "correlated",
+      "both": 2,
+      "n": 12,
+      "players": [
+       8480009,
+       8483690
       ]
      }
     ],
@@ -1412,6 +1412,20 @@
       ]
      },
      {
+      "selection": "J.T. Miller \u00b7 2+ points",
+      "prob": 0.214,
+      "fair": "+367",
+      "need": "+395",
+      "rationale": "2+ in 4 of 21 \u00b7 2.6 PP min/game \u00b7 PP1",
+      "player": "J.T. Miller",
+      "team": "NYR",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8476468
+      ]
+     },
+     {
       "selection": "Nick Suzuki \u00b7 2+ points",
       "prob": 0.207,
       "fair": "+383",
@@ -1423,20 +1437,6 @@
       "line": 1,
       "players": [
        8480018
-      ]
-     },
-     {
-      "selection": "Gabriel Perreault \u00b7 2+ points",
-      "prob": 0.201,
-      "fair": "+398",
-      "need": "+427",
-      "rationale": "2+ in 0 of 0 \u00b7 0.0 PP min/game \u00b7 PP1",
-      "player": "Gabriel Perreault",
-      "team": "NYR",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       null
       ]
      }
     ],
@@ -3047,11 +3047,11 @@
     },
     "home": {
      "team": "NYR",
-     "as_of": "2026-11-15T17:40:33.127Z",
-     "checked": "2026-11-16T21:48:01.946361+00:00",
+     "as_of": "2026-11-17T00:09:45.315Z",
+     "checked": "2026-11-17T00:12:06.839808+00:00",
      "stale": false,
      "source": "Peter Baugh",
-     "updated_dfo": "2026-11-15T17:40:33.127Z",
+     "updated_dfo": "2026-11-17T00:09:45.315Z",
      "forwards": [
       [
        {
@@ -3171,9 +3171,85 @@
       ],
       [
        {
+        "name": "Will Cuylle",
+        "jersey": 50,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8482157,
+        "dfo_id": 29725,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 4,
+         "gp": 21,
+         "p": 9,
+         "ppp": 2,
+         "sog": 41,
+         "toi_s": 20791
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 5214
+        },
+        "l5_point_games": 0,
+        "gp": 21,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "J.T. Miller",
+        "jersey": 10,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8476468,
+        "dfo_id": 1762,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 12,
+         "g": 4,
+         "gp": 21,
+         "p": 16,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 23889
+        },
+        "last5": {
+         "a": 4,
+         "g": 0,
+         "gp": 5,
+         "p": 4,
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 5896
+        },
+        "l5_point_games": 3,
+        "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
         "name": "Tye Kartye",
         "jersey": 24,
-        "pos": "LW",
+        "pos": "RW",
         "slot": null,
         "player_id": 8481789,
         "dfo_id": 29846,
@@ -3207,105 +3283,29 @@
          "pp": 0,
          "new": false
         }
-       },
-       {
-        "name": "J.T. Miller",
-        "jersey": 10,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476468,
-        "dfo_id": 1762,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 12,
-         "g": 4,
-         "gp": 21,
-         "p": 16,
-         "ppp": 3,
-         "sog": 40,
-         "toi_s": 23889
-        },
-        "last5": {
-         "a": 4,
-         "g": 0,
-         "gp": 5,
-         "p": 4,
-         "ppp": 1,
-         "sog": 12,
-         "toi_s": 5896
-        },
-        "l5_point_games": 3,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Pavel Dorofeyev",
-        "jersey": 16,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8481604,
-        "dfo_id": 30622,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 6,
-         "g": 6,
-         "gp": 21,
-         "p": 12,
-         "ppp": 6,
-         "sog": 64,
-         "toi_s": 21176
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 20,
-         "toi_s": 4685
-        },
-        "l5_point_games": 3,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
        }
       ],
       [
        {
-        "name": "Will Cuylle",
-        "jersey": 50,
+        "name": "Eeli Tolvanen",
+        "jersey": 17,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482157,
-        "dfo_id": 29725,
+        "player_id": 8480009,
+        "dfo_id": 2787,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 5,
+         "a": 2,
          "g": 4,
          "gp": 21,
-         "p": 9,
-         "ppp": 2,
-         "sog": 41,
-         "toi_s": 20791
+         "p": 6,
+         "ppp": 0,
+         "sog": 24,
+         "toi_s": 15185
         },
         "last5": {
          "a": 0,
@@ -3313,14 +3313,14 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 5214
+         "sog": 6,
+         "toi_s": 3124
         },
         "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
@@ -3403,37 +3403,37 @@
       ],
       [
        {
-        "name": "Eeli Tolvanen",
-        "jersey": 17,
+        "name": "Jaroslav Chmelar",
+        "jersey": 49,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480009,
-        "dfo_id": 2787,
+        "player_id": 8482877,
+        "dfo_id": 34742,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "G",
         "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 21,
-         "p": 6,
+         "a": 1,
+         "g": 2,
+         "gp": 13,
+         "p": 3,
          "ppp": 0,
-         "sog": 24,
-         "toi_s": 15185
+         "sog": 9,
+         "toi_s": 6552
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 1,
+         "g": 2,
          "gp": 5,
-         "p": 0,
+         "p": 3,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3124
+         "sog": 4,
+         "toi_s": 2569
         },
-        "l5_point_games": 0,
-        "gp": 21,
+        "l5_point_games": 3,
+        "gp": 13,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -3479,41 +3479,41 @@
         }
        },
        {
-        "name": "Jaroslav Chmelar",
-        "jersey": 49,
+        "name": "Matt Rempe",
+        "jersey": 73,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482877,
-        "dfo_id": 34742,
+        "player_id": 8482460,
+        "dfo_id": 32523,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 1,
-         "g": 2,
-         "gp": 13,
-         "p": 3,
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 6552
+         "sog": 3,
+         "toi_s": 2045
         },
         "last5": {
-         "a": 1,
-         "g": 2,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 2569
+         "sog": 3,
+         "toi_s": 2045
         },
-        "l5_point_games": 3,
-        "gp": 13,
+        "l5_point_games": 0,
+        "gp": 5,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -3921,40 +3921,40 @@
         }
        },
        {
-        "name": "Pavel Dorofeyev",
-        "jersey": 16,
+        "name": "J.T. Miller",
+        "jersey": 10,
         "pos": null,
         "slot": 3,
-        "player_id": 8481604,
-        "dfo_id": 30622,
+        "player_id": 8476468,
+        "dfo_id": 1762,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": null,
+        "pk": 1,
+        "bias": "A",
         "season": {
-         "a": 6,
-         "g": 6,
+         "a": 12,
+         "g": 4,
          "gp": 21,
-         "p": 12,
-         "ppp": 6,
-         "sog": 64,
-         "toi_s": 21176
+         "p": 16,
+         "ppp": 3,
+         "sog": 40,
+         "toi_s": 23889
         },
         "last5": {
-         "a": 1,
-         "g": 2,
+         "a": 4,
+         "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 20,
-         "toi_s": 4685
+         "p": 4,
+         "ppp": 1,
+         "sog": 12,
+         "toi_s": 5896
         },
         "l5_point_games": 3,
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -4037,10 +4037,48 @@
       ],
       [
        {
+        "name": "Eeli Tolvanen",
+        "jersey": 17,
+        "pos": null,
+        "slot": 1,
+        "player_id": 8480009,
+        "dfo_id": 2787,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 4,
+         "gp": 21,
+         "p": 6,
+         "ppp": 0,
+         "sog": 24,
+         "toi_s": 15185
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 3124
+        },
+        "l5_point_games": 0,
+        "gp": 21,
+        "move": {
+         "ev": 1,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
         "name": "Tye Kartye",
         "jersey": 24,
         "pos": null,
-        "slot": 1,
+        "slot": 2,
         "player_id": 8481789,
         "dfo_id": 29846,
         "gtd": false,
@@ -4065,44 +4103,6 @@
          "ppp": 1,
          "sog": 13,
          "toi_s": 5942
-        },
-        "l5_point_games": 3,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "J.T. Miller",
-        "jersey": 10,
-        "pos": null,
-        "slot": 2,
-        "player_id": 8476468,
-        "dfo_id": 1762,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 12,
-         "g": 4,
-         "gp": 21,
-         "p": 16,
-         "ppp": 3,
-         "sog": 40,
-         "toi_s": 23889
-        },
-        "last5": {
-         "a": 4,
-         "g": 0,
-         "gp": 5,
-         "p": 4,
-         "ppp": 1,
-         "sog": 12,
-         "toi_s": 5896
         },
         "l5_point_games": 3,
         "gp": 21,
@@ -4145,7 +4145,7 @@
         "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -4239,7 +4239,7 @@
         "dfo_id": 1762,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 1,
         "bias": "A",
         "season": {
@@ -4264,7 +4264,7 @@
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -4455,7 +4455,7 @@
         "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -4563,6 +4563,11 @@
        "player": "Alberts Smits",
        "status": "IR",
        "news": "Smits is week-to-week with an upper-body injury."
+      },
+      {
+       "player": "Pavel Dorofeyev",
+       "status": "DTD",
+       "news": "Dorofeyev (undisclosed) will not play Monday vs. Montreal."
       }
      ],
      "unit_ratings": {
@@ -4591,12 +4596,12 @@
        "rating": 78.49069970196581
       },
       "f3": {
-       "rank": 2,
-       "rating": 77.78937051939312
+       "rank": 4,
+       "rating": 75.48101102282271
       },
       "f4": {
-       "rank": 9,
-       "rating": 73.17265152625231
+       "rank": 34,
+       "rating": 0
       },
       "g": {
        "rank": 28,
