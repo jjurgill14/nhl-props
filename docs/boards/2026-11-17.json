@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T23:30:59.535283+00:00",
+ "generated_utc": "2026-11-17T23:36:07.103126+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1056,8 +1056,8 @@
     "record": "5-11-2",
     "b2b": false,
     "goalie": "Darcy Kuemper",
-    "goalie_status": "Likely",
-    "goalie_news": "Kuemper was the first goalie off the ice at Los Angeles' morning skate on Tuesday.",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Kuemper led the Kings onto the ice for warmups.",
     "goalie_source": "Zach Dooley",
     "sv": "0.872",
     "gaa": "3.57",
@@ -1067,7 +1067,13 @@
     "ga_rk": 8,
     "gf_rk": 25,
     "ppga_rk": 2,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-17T23:36:02.497164+00:00",
+      "kind": "goalie",
+      "text": "G: Darcy Kuemper confirmed"
+     }
+    ],
     "rates": {
      "gp": 18,
      "pp_gp": 18,
@@ -11847,9 +11853,9 @@
     "record": "8-8-4",
     "b2b": false,
     "goalie": "Alex Lyon",
-    "goalie_status": "Likely",
-    "goalie_news": "Lyon is in the starter's crease at Buffalo's morning skate.",
-    "goalie_source": "Rachel Lenzi",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Lyon led the Sabres onto the ice for warmups.",
+    "goalie_source": "Paul Hamilton",
     "sv": "0.909",
     "gaa": "2.48",
     "lineup_as_of": "2026-11-16T16:48:11.423Z",
@@ -11868,6 +11874,11 @@
       "at": "2026-11-17T21:09:27.248126+00:00",
       "kind": "out",
       "text": "OUT: Louis Crevier (was L3)"
+     },
+     {
+      "at": "2026-11-17T23:36:02.955017+00:00",
+      "kind": "goalie",
+      "text": "G: Alex Lyon confirmed"
      }
     ],
     "rates": {
