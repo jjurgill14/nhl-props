@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T23:36:07.103126+00:00",
+ "generated_utc": "2026-11-17T23:41:14.857367+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -8362,8 +8362,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-225",
-     "home": "+185",
+     "away": "-238",
+     "home": "+195",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-16T16:08:22.808Z"
     },
@@ -15529,8 +15529,8 @@
     "goalie_source": "Ken Wiebe",
     "sv": "0.88",
     "gaa": "3.38",
-    "lineup_as_of": "2026-11-17T12:58:41.819Z",
-    "lineup_checked": "2026-11-17T21:09:27.839487+00:00",
+    "lineup_as_of": "2026-11-17T23:37:44.541Z",
+    "lineup_checked": "2026-11-17T23:41:10.818139+00:00",
     "lineup_stale": false,
     "ga_rk": 12,
     "gf_rk": 18,
@@ -15545,6 +15545,31 @@
       "at": "2026-11-17T21:09:27.842016+00:00",
       "kind": "out",
       "text": "OUT: Haydn Fleury (was L4)"
+     },
+     {
+      "at": "2026-11-17T23:41:10.821820+00:00",
+      "kind": "in",
+      "text": "IN: Danny Zhilkin \u2192 L4"
+     },
+     {
+      "at": "2026-11-17T23:41:10.821820+00:00",
+      "kind": "out",
+      "text": "OUT: Elias Salomonsson (was L3) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-17T23:41:10.821820+00:00",
+      "kind": "move",
+      "text": "Kyle Connor: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-17T23:41:10.821820+00:00",
+      "kind": "move",
+      "text": "Cole Perfetti: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-17T23:41:10.821820+00:00",
+      "kind": "move",
+      "text": "Henry Thrun: L4\u2192L3"
      }
     ],
     "rates": {
@@ -15581,7 +15606,7 @@
      "away": "+195",
      "home": "-238",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T12:58:41.819Z"
+     "as_of": "2026-11-17T23:37:44.541Z"
     },
     "total": {
      "line": 5.5,
@@ -15680,7 +15705,7 @@
       "player": "Kyle Connor",
       "team": "WPG",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": null,
       "players": [
        8478398
@@ -15710,7 +15735,7 @@
       "player": "Cole Perfetti",
       "team": "WPG",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": "A",
       "players": [
        8482149
@@ -15718,6 +15743,22 @@
      }
     ],
     "pair": [
+     {
+      "selection": "Connor + Vilardi \u00b7 both 1+ point",
+      "prob": 0.448,
+      "fair": "+123",
+      "need": "+137",
+      "rationale": "Both scored 4 of 7 games together \u00b7 independent 30% \u00b7 correlated",
+      "team": "WPG",
+      "line": 1,
+      "read": "correlated",
+      "both": 4,
+      "n": 7,
+      "players": [
+       8478398,
+       8480014
+      ]
+     },
      {
       "selection": "Scheifele + Vilardi \u00b7 both 1+ point",
       "prob": 0.448,
@@ -15732,6 +15773,22 @@
       "players": [
        8476460,
        8480014
+      ]
+     },
+     {
+      "selection": "Connor + Scheifele \u00b7 both 1+ point",
+      "prob": 0.442,
+      "fair": "+126",
+      "need": "+140",
+      "rationale": "Both scored 9 of 19 games together \u00b7 independent 34% \u00b7 correlated",
+      "team": "WPG",
+      "line": 1,
+      "read": "correlated",
+      "both": 9,
+      "n": 19,
+      "players": [
+       8478398,
+       8476460
       ]
      },
      {
@@ -15751,22 +15808,6 @@
       ]
      },
      {
-      "selection": "Connor + Mercer \u00b7 both 1+ point",
-      "prob": 0.343,
-      "fair": "+192",
-      "need": "+209",
-      "rationale": "Both scored 1 of 1 games together \u00b7 independent 23% \u00b7 new pair",
-      "team": "WPG",
-      "line": 2,
-      "read": "new pair",
-      "both": 1,
-      "n": 1,
-      "players": [
-       8478398,
-       8482110
-      ]
-     },
-     {
       "selection": "Pinto + Tomasino \u00b7 both 1+ point",
       "prob": 0.342,
       "fair": "+193",
@@ -15781,22 +15822,6 @@
        8481596,
        8481577
       ]
-     },
-     {
-      "selection": "Batherson + Tomasino \u00b7 both 1+ point",
-      "prob": 0.313,
-      "fair": "+219",
-      "need": "+238",
-      "rationale": "Both scored 2 of 6 games together \u00b7 independent 29% \u00b7 independent",
-      "team": "OTT",
-      "line": 2,
-      "read": "independent",
-      "both": 2,
-      "n": 6,
-      "players": [
-       8480208,
-       8481577
-      ]
      }
     ],
     "two": [
@@ -15809,7 +15834,7 @@
       "player": "Kyle Connor",
       "team": "WPG",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8478398
       ]
@@ -15851,7 +15876,7 @@
       "player": "Cole Perfetti",
       "team": "WPG",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8482149
       ]
@@ -15873,6 +15898,22 @@
     ],
     "pp1": [
      {
+      "selection": "Connor + Vilardi \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.448,
+      "fair": "+123",
+      "need": "+137",
+      "rationale": "Both scored 4 of 7 games together \u00b7 independent 30% \u00b7 correlated",
+      "team": "WPG",
+      "line": 1,
+      "read": "correlated",
+      "both": 4,
+      "n": 7,
+      "players": [
+       8478398,
+       8480014
+      ]
+     },
+     {
       "selection": "Scheifele + Vilardi \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.448,
       "fair": "+123",
@@ -15889,6 +15930,22 @@
       ]
      },
      {
+      "selection": "Connor + Scheifele \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.442,
+      "fair": "+126",
+      "need": "+140",
+      "rationale": "Both scored 9 of 19 games together \u00b7 independent 34% \u00b7 correlated",
+      "team": "WPG",
+      "line": 1,
+      "read": "correlated",
+      "both": 9,
+      "n": 19,
+      "players": [
+       8478398,
+       8476460
+      ]
+     },
+     {
       "selection": "Pinto + Batherson \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.362,
       "fair": "+176",
@@ -15902,38 +15959,6 @@
       "players": [
        8481596,
        8480208
-      ]
-     },
-     {
-      "selection": "Scheifele + Perfetti \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.242,
-      "fair": "+314",
-      "need": "+339",
-      "rationale": "Both scored 3 of 14 games together \u00b7 independent 31% \u00b7 negative",
-      "team": "WPG",
-      "line": 1,
-      "read": "negative",
-      "both": 3,
-      "n": 14,
-      "players": [
-       8476460,
-       8482149
-      ]
-     },
-     {
-      "selection": "Perfetti + Vilardi \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.203,
-      "fair": "+393",
-      "need": "+422",
-      "rationale": "Both scored 0 of 2 games together \u00b7 independent 27% \u00b7 new pair",
-      "team": "WPG",
-      "line": 1,
-      "read": "new pair",
-      "both": 0,
-      "n": 2,
-      "players": [
-       8482149,
-       8480014
       ]
      }
     ],
@@ -17521,47 +17546,47 @@
     },
     "home": {
      "team": "WPG",
-     "as_of": "2026-11-17T12:58:41.819Z",
-     "checked": "2026-11-17T21:09:27.839487+00:00",
+     "as_of": "2026-11-17T23:37:44.541Z",
+     "checked": "2026-11-17T23:41:10.818139+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-17T12:58:41.819Z",
+     "source": "Mitchell Clinton",
+     "updated_dfo": "2026-11-17T23:37:44.541Z",
      "forwards": [
       [
        {
-        "name": "Cole Perfetti",
-        "jersey": 91,
+        "name": "Kyle Connor",
+        "jersey": 81,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482149,
-        "dfo_id": 29837,
+        "player_id": 8478398,
+        "dfo_id": 2483,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 8,
+         "a": 9,
+         "g": 17,
          "gp": 21,
-         "p": 19,
+         "p": 26,
          "ppp": 9,
-         "sog": 61,
-         "toi_s": 23040
+         "sog": 89,
+         "toi_s": 27179
         },
         "last5": {
-         "a": 6,
-         "g": 2,
+         "a": 5,
+         "g": 4,
          "gp": 5,
-         "p": 8,
-         "ppp": 4,
-         "sog": 12,
-         "toi_s": 5095
+         "p": 9,
+         "ppp": 2,
+         "sog": 21,
+         "toi_s": 6586
         },
-        "l5_point_games": 5,
+        "l5_point_games": 4,
         "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -17645,39 +17670,39 @@
       ],
       [
        {
-        "name": "Kyle Connor",
-        "jersey": 81,
+        "name": "Cole Perfetti",
+        "jersey": 91,
         "pos": "LW",
         "slot": null,
-        "player_id": 8478398,
-        "dfo_id": 2483,
+        "player_id": 8482149,
+        "dfo_id": 29837,
         "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 9,
-         "g": 17,
+         "a": 11,
+         "g": 8,
          "gp": 21,
-         "p": 26,
+         "p": 19,
          "ppp": 9,
-         "sog": 89,
-         "toi_s": 27179
+         "sog": 61,
+         "toi_s": 23040
         },
         "last5": {
-         "a": 5,
-         "g": 4,
+         "a": 6,
+         "g": 2,
          "gp": 5,
-         "p": 9,
-         "ppp": 2,
-         "sog": 21,
-         "toi_s": 6586
+         "p": 8,
+         "ppp": 4,
+         "sog": 12,
+         "toi_s": 5095
         },
-        "l5_point_games": 4,
+        "l5_point_games": 5,
         "gp": 21,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -17951,6 +17976,44 @@
          "pp": 0,
          "new": false
         }
+       },
+       {
+        "name": "Danny Zhilkin",
+        "jersey": null,
+        "pos": "RW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 30843,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 2323
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
        }
       ]
      ],
@@ -18113,13 +18176,13 @@
       ],
       [
        {
-        "name": "Elias Salomonsson",
-        "jersey": 57,
+        "name": "Henry Thrun",
+        "jersey": 8,
         "pos": "LD",
         "slot": null,
-        "player_id": 8483510,
-        "dfo_id": 36380,
-        "gtd": true,
+        "player_id": null,
+        "dfo_id": 30428,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -18127,11 +18190,11 @@
         "season": {
          "a": 0,
          "g": 0,
-         "gp": 6,
+         "gp": 0,
          "p": 0,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 6597
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
          "a": 0,
@@ -18139,11 +18202,11 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 13,
-         "toi_s": 5538
+         "sog": 2,
+         "toi_s": 5010
         },
         "l5_point_games": 0,
-        "gp": 6,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -18389,7 +18452,7 @@
         "l5_point_games": 5,
         "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -18465,7 +18528,7 @@
         "l5_point_games": 4,
         "gp": 21,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -19014,15 +19077,15 @@
        "rating": 0
       },
       "f1": {
-       "rank": 22,
-       "rating": 75.03329488636956
+       "rank": 14,
+       "rating": 76.53323810058065
       },
       "f2": {
-       "rank": 3,
-       "rating": 79.5331245290028
+       "rank": 36,
+       "rating": 0
       },
       "f3": {
-       "rank": 30,
+       "rank": 29,
        "rating": 71.18457224957761
       },
       "f4": {

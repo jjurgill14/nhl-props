@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-17T23:36:06.456701+00:00",
+ "generated_utc": "2026-11-17T23:41:14.186442+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -2782,7 +2782,7 @@
      "goalie_source": "Dave Maetzold",
      "sv": "0.909",
      "gaa": "2.5",
-     "ml": "-225",
+     "ml": "-238",
      "gp": 18,
      "gf": 2.388888888888889,
      "gf_rk": 30,
@@ -3471,7 +3471,7 @@
      "goalie_source": "Stefen Rosner",
      "sv": "0.915",
      "gaa": "2.53",
-     "ml": "185",
+     "ml": "195",
      "gp": 19,
      "gf": 3.1052631578947367,
      "gf_rk": 17,
@@ -6257,8 +6257,8 @@
      "ppga_rk": 12,
      "l5_gf": 5.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-17T12:58:41.819Z",
-     "lineup_checked": "2026-11-17T21:09:27.839487+00:00",
+     "lineup_as_of": "2026-11-17T23:37:44.541Z",
+     "lineup_checked": "2026-11-17T23:41:10.818139+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -6284,12 +6284,12 @@
      ],
      "lines": {
       "1": [
-       "Cole Perfetti",
+       "Kyle Connor",
        "Mark Scheifele",
        "Gabriel Vilardi"
       ],
       "2": [
-       "Kyle Connor",
+       "Cole Perfetti",
        "Brayden Yager",
        "Dawson Mercer"
       ],
@@ -6300,7 +6300,8 @@
       ],
       "4": [
        "Cole Koepke",
-       "Morgan Barron"
+       "Morgan Barron",
+       "Danny Zhilkin"
       ]
      },
      "pp1": [
@@ -6324,7 +6325,7 @@
        "team": "WPG",
        "opp": "OTT",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -6362,26 +6363,26 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Brayden Yager",
-         "jersey": 29,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Mark Scheifele",
+         "jersey": 55,
+         "pp": 1,
+         "n": 19,
+         "both": 9,
+         "either": 14
         },
         {
-         "name": "Dawson Mercer",
-         "jersey": 19,
-         "pp": 2,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "name": "Gabriel Vilardi",
+         "jersey": 13,
+         "pp": 1,
+         "n": 7,
+         "both": 4,
+         "either": 6
         }
        ]
       },
@@ -6435,12 +6436,12 @@
        },
        "partners": [
         {
-         "name": "Cole Perfetti",
-         "jersey": 91,
+         "name": "Kyle Connor",
+         "jersey": 81,
          "pp": 1,
-         "n": 14,
-         "both": 3,
-         "either": 11
+         "n": 19,
+         "both": 9,
+         "either": 14
         },
         {
          "name": "Gabriel Vilardi",
@@ -6458,7 +6459,7 @@
        "team": "WPG",
        "opp": "OTT",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "pos": "LW",
        "gtd": false,
@@ -6496,26 +6497,26 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Mark Scheifele",
-         "jersey": 55,
-         "pp": 1,
-         "n": 14,
-         "both": 3,
-         "either": 11
+         "name": "Brayden Yager",
+         "jersey": 29,
+         "pp": 2,
+         "n": 4,
+         "both": 2,
+         "either": 4
         },
         {
-         "name": "Gabriel Vilardi",
-         "jersey": 13,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "name": "Dawson Mercer",
+         "jersey": 19,
+         "pp": 2,
+         "n": 7,
+         "both": 3,
+         "either": 5
         }
        ]
       },
@@ -6569,12 +6570,12 @@
        },
        "partners": [
         {
-         "name": "Cole Perfetti",
-         "jersey": 91,
+         "name": "Kyle Connor",
+         "jersey": 81,
          "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "n": 7,
+         "both": 4,
+         "either": 6
         },
         {
          "name": "Mark Scheifele",
@@ -6636,12 +6637,12 @@
        },
        "partners": [
         {
-         "name": "Kyle Connor",
-         "jersey": 81,
+         "name": "Cole Perfetti",
+         "jersey": 91,
          "pp": 1,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "n": 7,
+         "both": 3,
+         "either": 5
         },
         {
          "name": "Brayden Yager",
@@ -6703,12 +6704,12 @@
        },
        "partners": [
         {
-         "name": "Kyle Connor",
-         "jersey": 81,
+         "name": "Cole Perfetti",
+         "jersey": 91,
          "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 4,
+         "both": 2,
+         "either": 4
         },
         {
          "name": "Dawson Mercer",
