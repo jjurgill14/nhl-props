@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timedelta, timezone
 
-from . import goalies, lineups, report, results, schedule
+from . import alerts, goalies, lineups, report, results, schedule
 from .common import ET, log, now_utc, today_et
 
 WINDOW_HOURS = 3.0
@@ -57,10 +57,25 @@ def evening(date: str) -> None:
     if not games:
         return
     goalies.snapshot(date)
-    teams = [t for g in soon for t in (g["away"], g["home"])]
-    if teams:
-        res = lineups.snapshot_teams(teams, date)
-        log.info("lineups: %s", res)
+    new_alerts: list[dict] = []
+    for g in soon:
+        for side in ("away", "home"):
+            t, o = g[side], g["home" if side == "away" else "away"]
+            prev = lineups.latest(t, date)
+            try:
+                status, changed = lineups.snapshot_team(t, date)
+            except Exception as e:
+                log.error("DFO %s failed: %s", t, e)
+                continue
+            items = alerts.diff_goalies(date, t)
+            if changed:
+                cur = lineups.latest(t, date)
+                items += alerts.diff_snapshots(prev, cur)
+            new_alerts += alerts.record(date, t, o, g.get("start_utc", ""), items, (lineups.latest(t, date) or {}).get("updated_dfo"))
+    alerts.publish(date)
+    if new_alerts:
+        log.info("late changes: %s", [a["text"] for a in new_alerts])
+        alerts.notify(date, new_alerts)
 
 
 def overnight(date: str) -> None:

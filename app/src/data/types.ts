@@ -37,6 +37,7 @@ export interface TeamSide {
   gaa: string | null
   lineup_as_of: string | null
   lineup_checked?: string | null
+  late_changes?: { at: string; kind: string; text: string }[]
   lineup_stale: boolean
   ga_rk: number | null
   gf_rk: number | null

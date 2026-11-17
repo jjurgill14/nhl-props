@@ -13,7 +13,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import analysis, lineup_view, market, model, results, schedule
+from . import alerts, analysis, lineup_view, market, model, results, schedule
 from .common import read_json
 
 DOCS = results.DATA.parent / "docs"
@@ -174,6 +174,9 @@ def build(date: str | None = None) -> Path:
     ids = lineup_view.player_ids()
     grec = lineup_view.goalie_records()
     odds = manual_odds(date)
+    late = {}
+    for a_ in alerts.load(date):
+        late.setdefault(a_["team"], []).append({"at": a_["at"], "kind": a_["kind"], "text": a_["text"]})
     out_games = []
     for i, g in enumerate(slate["games"], 1):
         def team(side):
@@ -185,6 +188,7 @@ def build(date: str | None = None) -> Path:
                     "goalie_source": t["goalie_source"], "sv": t["sv"], "gaa": t["gaa"],
                     "lineup_as_of": t["lineup_as_of"], "lineup_checked": t.get("lineup_checked"), "lineup_stale": t["lineup_stale"],
                     "ga_rk": t["ga_rk"], "gf_rk": t["gf_rk"], "ppga_rk": t["ppga_rk"],
+                    "late_changes": late.get(t["team"], []),
                     "rates": _rates_block(season.get(t["team"], {}), l5.get(t["team"], {}))}
         a, h = team("away"), team("home")
         ml_a, ml_h = g["teams"]["away"]["ml"], g["teams"]["home"]["ml"]

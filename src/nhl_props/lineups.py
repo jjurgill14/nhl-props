@@ -126,6 +126,13 @@ def _save_debug(name: str, html: str) -> None:
     (DEBUG_DIR / f"{name}_{stamp()}.html").write_text(html)
 
 
+def latest(abbrev: str, date: str) -> dict | None:
+    """Most recent snapshot written for the team on the date, or None."""
+    d = LINEUP_DIR / date / abbrev
+    files = sorted(d.glob("*.json")) if d.exists() else []
+    return read_json(files[-1]) if files else None
+
+
 def snapshot_team(abbrev: str, date: str) -> tuple[str, bool]:
     """Fetch+parse one team; write a snapshot only if changed. Returns (status, changed)."""
     html = fetch_html(abbrev)

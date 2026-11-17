@@ -172,6 +172,25 @@ interface Props {
   onProps?: PropsOpener
 }
 
+/** Red strip when Daily Faceoff changed a lineup after the morning pull (who dresses, lines, PP, goalie). */
+export function LateStrip({ game }: { game: Game }) {
+  const items = [...(game.away.late_changes ?? []).map((c) => ({ ...c, team: game.away.abbr })), ...(game.home.late_changes ?? []).map((c) => ({ ...c, team: game.home.abbr }))]
+  if (!items.length) return null
+  const big = items.filter((c) => c.kind === 'in' || c.kind === 'out' || c.kind === 'goalie')
+  const show = (big.length ? big : items).slice(-3)
+  return (
+    <div className={`late-strip${big.length ? ' hot' : ''}`} title={items.map((c) => `${c.team}: ${c.text}`).join('\n')}>
+      <b>LATE CHANGE</b>
+      {show.map((c, i) => (
+        <span key={i}>
+          <i>{c.team}</i> {c.text}
+        </span>
+      ))}
+      {items.length > show.length && <span className="more">+{items.length - show.length}</span>}
+    </div>
+  )
+}
+
 export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
   const { away, home, markets } = game
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
@@ -191,6 +210,7 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
         }
       }}
     >
+      <LateStrip game={game} />
       <div className="card-head">
         <span className={`gstate ${gameState(game.status, game.start_utc).cls}`}>{gameState(game.status, game.start_utc).label}</span>
         <span className="head-center">

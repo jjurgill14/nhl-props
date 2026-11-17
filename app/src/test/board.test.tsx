@@ -147,3 +147,20 @@ describe('badge lettering', () => {
     expect(long).toBeGreaterThanOrEqual(40)
   })
 })
+
+import { LateStrip } from '../components/GameCard'
+describe('late change strip', () => {
+  it('renders nothing without changes and a red strip with IN/OUT when there are', () => {
+    const g = game('99', '2026-11-17T02:30:00Z', team('VAN', 'Vancouver', 'Canucks'), team('UTA', 'Utah', 'Mammoth'))
+    const { container } = render(<LateStrip game={g} />)
+    expect(container.innerHTML).toBe('')
+    g.home.late_changes = [
+      { at: '2026-11-17T02:27:39Z', kind: 'move', text: 'Anders Lee: L1→L2' },
+      { at: '2026-11-17T02:27:39Z', kind: 'in', text: 'IN: Logan Cooley (was DTD) → L1, PP1' },
+    ]
+    render(<LateStrip game={g} />)
+    expect(screen.getByText('LATE CHANGE')).toBeInTheDocument()
+    expect(screen.getByText(/Logan Cooley/)).toBeInTheDocument()
+    expect(screen.queryByText(/Anders Lee/)).toBeNull() // moves hide behind the IN/OUT headline
+  })
+})
