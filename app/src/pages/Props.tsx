@@ -128,6 +128,9 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   const avg = (rows: GameLogRow[]) => (rows.length ? (rows.reduce((a, r) => a + r[stat], 0) / rows.length).toFixed(1) : '–')
   const pct = ([k, m]: readonly [number, number]) => (m ? `${Math.round((100 * k) / m)}%` : '–')
   const pair = series.length > 1
+  const MAXP = 3
+  const canAdd = target.players.length < MAXP
+  const code = (p: PlayerLog) => p.name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()
 
   return (
     <>
@@ -136,15 +139,15 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
           <div className="eyebrow">NHL / PLAYER PROPS{pair ? ' · CORRELATED' : ''}</div>
           <h1>
             {lead.name.split(' ').slice(-1)[0]}
-            {pair ? ` + ${players[1].name.split(' ').slice(-1)[0]}` : ''} <span>props.</span>
+            {players.slice(1).map((p) => ` + ${p.name.split(' ').slice(-1)[0]}`).join('')} <span>props.</span>
           </h1>
-          <p>{pair ? 'Shared games only — both players dressed. Hit = each clears the line in the same game.' : 'Player props trends, form, and key numbers to inform your bets.'}</p>
+          <p>{pair ? `Shared games only — ${players.length === 3 ? 'all three' : 'both'} dressed. Hit = each clears the line in the same game.` : 'Player props trends, form, and key numbers to inform your bets.'}</p>
         </div>
         <div className="pr-cards">
           <div className="pr-search-slot">
             <PlayerSearch
-              placeholder={pair ? 'Replace a player…' : 'Search another player… (adds a pair)'}
-              onPick={(id) => onChange({ ...target, players: pair ? [target.players[0], id] : [...target.players, id].slice(0, 2) })}
+              placeholder={canAdd ? `Add a player… (${target.players.length}/${MAXP} — a pair or a full line)` : 'Replace the last player…'}
+              onPick={(id) => onChange({ ...target, players: canAdd ? [...target.players, id] : [...target.players.slice(0, MAXP - 1), id] })}
             />
           </div>
           {players.map((p) => {
@@ -173,10 +176,10 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
       <section className="summary pr-tiles">
         {pair ? (
           <>
-            <div className="stat"><div className="stat-label">L10 both over {line}</div><div className="stat-main"><span className="stat-value">{bothHit(l10).join('/')}</span><span className="stat-suffix">({pct(bothHit(l10))})</span></div></div>
-            <div className="stat"><div className="stat-label">L5 both over {line}</div><div className="stat-main"><span className="stat-value">{bothHit(l5).join('/')}</span><span className="stat-suffix">({pct(bothHit(l5))})</span></div></div>
+            <div className="stat"><div className="stat-label">L10 {players.length === 3 ? 'all three' : 'both'} over {line}</div><div className="stat-main"><span className="stat-value">{bothHit(l10).join('/')}</span><span className="stat-suffix">({pct(bothHit(l10))})</span></div></div>
+            <div className="stat"><div className="stat-label">L5 {players.length === 3 ? 'all three' : 'both'} over {line}</div><div className="stat-main"><span className="stat-value">{bothHit(l5).join('/')}</span><span className="stat-suffix">({pct(bothHit(l5))})</span></div></div>
             <div className="stat"><div className="stat-label">Independent (product)</div><div className="stat-main"><span className="stat-value">{pct([Math.round(1000 * l10.reduce((acc, rows) => acc * (rate(rows)[0] / Math.max(1, rows.length)), 1)), 1000])}</span><span className="stat-suffix">L10 rates multiplied</span></div></div>
-            <div className="stat"><div className="stat-label">Shared games</div><div className="stat-main"><span className="stat-value">{games.length}</span><span className="stat-suffix">both dressed (any line)</span></div></div>
+            <div className="stat"><div className="stat-label">Shared games</div><div className="stat-main"><span className="stat-value">{games.length}</span><span className="stat-suffix">{players.length === 3 ? 'all three' : 'both'} dressed (any line)</span></div></div>
           </>
         ) : (
           <>
@@ -250,12 +253,12 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
           </h3>
           <span className="pr-legend">
             <i style={{ background: '#4ade80' }} /> Over {line} (Hit) <i style={{ background: '#f87171' }} /> Under {line} (Miss)
-            {pair && (
-              <>
-                {' '}· <i style={{ background: '#9fb6c5' }} /> {players[0].name.split(' ').slice(-1)[0]} solid{' '}
-                <i style={{ background: 'repeating-linear-gradient(45deg,#9fb6c5 0 3px,#30465a 3px 6px)' }} /> {players[1].name.split(' ').slice(-1)[0]} striped
-              </>
-            )}
+            {pair &&
+              players.map((p, i) => (
+                <span key={p.id}>
+                  {' '}· <i style={{ background: FILL_CSS[i] }} /> <b>{code(p)}</b> {p.name.split(' ').slice(-1)[0]}
+                </span>
+              ))}
           </span>
         </div>
         <div className="pr-log-row">
@@ -273,7 +276,7 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
                 const r = s.rows[i]
                 return (
                   <div key={si} className={`pr-pill ${hit(r) ? 'hit' : 'miss'}`} title={s.player.name}>
-                    {pair && <small>{s.player.name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()} </small>}
+                    {pair && <small>{code(s.player)} </small>}
                     {r[stat]} {stat === 'sog' ? 'SOG' : stat === 'p' ? 'PTS' : stat === 'g' ? 'G' : 'A'}
                   </div>
                 )
@@ -287,8 +290,13 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   )
 }
 
+// Bar fills per player slot: solid, diagonal stripes, dots. Hit/miss colour still carries the result.
+const FILL_CSS = ['#9fb6c5', 'repeating-linear-gradient(45deg,#9fb6c5 0 3px,#30465a 3px 6px)', 'radial-gradient(circle,#9fb6c5 1.6px,#30465a 1.8px)']
+
 function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]; series: Series[]; stat: StatKey; line: number; yMax: number; board: Board }) {
-  const W = 1200, H = 340, L = 44, R = 90, T = 28, B = 96
+  const code = (name: string) => name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()
+  const dy = series.length > 1 ? 14 : 0
+  const W = 1200, H = 340 + dy, L = 44, R = 90, T = 28, B = 96 + dy
   const TONE: Record<string, string> = { hot: '#4ade80', mid: '#f0bd81', cold: '#f87171', '': '#8fb0c0' }
   const iw = W - L - R, ih = H - T - B
   const n = Math.max(1, games.length)
@@ -308,6 +316,14 @@ function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]
           <rect width="8" height="8" fill="#5b1f1f" />
           <rect width="4" height="8" fill="#f87171" />
         </pattern>
+        <pattern id="dots-hit" patternUnits="userSpaceOnUse" width="8" height="8">
+          <rect width="8" height="8" fill="#14532d" />
+          <circle cx="4" cy="4" r="2.2" fill="#4ade80" />
+        </pattern>
+        <pattern id="dots-miss" patternUnits="userSpaceOnUse" width="8" height="8">
+          <rect width="8" height="8" fill="#5b1f1f" />
+          <circle cx="4" cy="4" r="2.2" fill="#f87171" />
+        </pattern>
       </defs>
       {ticks.map((t) => (
         <g key={t}>
@@ -326,20 +342,24 @@ function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]
               const h = Math.max(4, ih * (v / yMax))
               const isHit = v > line
               const base = isHit ? '#4ade80' : '#f87171'
-              const fill = si === 0 ? base : `url(#stripe-${isHit ? 'hit' : 'miss'})`
+              const fill = si === 0 ? base : `url(#${si === 1 ? 'stripe' : 'dots'}-${isHit ? 'hit' : 'miss'})`
               return (
                 <g key={si}>
+                  <title>{s.player.name}: {v}</title>
                   <rect x={x} y={v === 0 ? T + ih - 4 : y(v)} width={bw - 4} height={v === 0 ? 4 : h} rx="2" fill={fill} stroke={si === 0 ? 'none' : base} strokeWidth={si === 0 ? 0 : 1.5} opacity={v === 0 ? 0.7 : 1} />
                   <text x={x + (bw - 4) / 2} y={(v === 0 ? T + ih - 4 : y(v)) - 7} fill="#e6edf3" fontSize="14" fontWeight="700" textAnchor="middle">{v}</text>
+                  {k > 1 && (
+                    <text x={x + (bw - 4) / 2} y={T + ih + 12} fill="#8fb0c0" fontSize={k > 2 ? 9 : 10} fontWeight="800" textAnchor="middle" letterSpacing=".04em">{code(s.player.name)}</text>
+                  )}
                 </g>
               )
             })}
-            <text x={cx} y={T + ih + 20} fill="#c9d7e0" fontSize="13" textAnchor="middle">{shortDate(g.date)}</text>
-            <text x={cx} y={T + ih + 38} fill="#c9d7e0" fontSize="13" textAnchor="middle">{g.home ? 'vs' : '@'} {g.opp}</text>
+            <text x={cx} y={T + ih + 20 + dy} fill="#c9d7e0" fontSize="13" textAnchor="middle">{shortDate(g.date)}</text>
+            <text x={cx} y={T + ih + 38 + dy} fill="#c9d7e0" fontSize="13" textAnchor="middle">{g.home ? 'vs' : '@'} {g.opp}</text>
             {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? (
-              <text x={cx} y={T + ih + 56} fill={TONE[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
+              <text x={cx} y={T + ih + 56 + dy} fill={TONE[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
             ) : null })()}
-            <text x={cx} y={T + ih + 76} fill={g.tf != null && g.ta != null && g.tf > g.ta ? '#9de0b6' : '#f87171'} fontSize="12" fontWeight="700" textAnchor="middle">{scoreLabel(g)}</text>
+            <text x={cx} y={T + ih + 76 + dy} fill={g.tf != null && g.ta != null && g.tf > g.ta ? '#9de0b6' : '#f87171'} fontSize="12" fontWeight="700" textAnchor="middle">{scoreLabel(g)}</text>
           </g>
         )
       })}

@@ -427,3 +427,7 @@ button:disabled{cursor:default;opacity:.55}
 .late-strip.hot{color:#ffd0d0;background:rgba(220,50,50,.16);border-bottom-color:rgba(220,50,50,.45)}
 .late-strip b{letter-spacing:.08em;font-size:11px;color:#ff6b6b}.late-strip.hot b{color:#ff5252}
 .late-strip i{font-style:normal;font-weight:700;color:#fff;margin-right:2px}.late-strip .more{opacity:.6}
+.lu-label.clickable{cursor:pointer;border-radius:6px;transition:color .12s,background .12s}
+.lu-label.clickable:hover{color:#69cbd1;background:rgba(105,203,209,.08)}
+.lu-label-go{margin-left:4px;font-size:10px;opacity:.55}
+.pr-legend b{color:#e6edf3;letter-spacing:.06em;margin-right:3px}

@@ -64,7 +64,7 @@ export default function App() {
       ) : route === 'props' || route === 'search' ? (
         <PropsPage board={state.board} target={route === 'search' ? { players: [] } : propsTarget} onChange={(t) => { setPropsTarget(t); setRoute('props') }} searchFocus={route === 'search'} />
       ) : route === 'lineups' ? (
-        <Lineups board={state.board} gameId={gameId} onPick={setGameId} onPlayer={(id) => openProps({ players: [id] })} />
+        <Lineups board={state.board} gameId={gameId} onPick={setGameId} onPlayer={(id) => openProps({ players: [id] })} onGroup={(ids) => openProps({ players: ids.slice(0, 3) })} />
       ) : (
         <Board
           key={state.board.date + state.board.mode}
