@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-17T23:46:22.740099+00:00",
+ "generated_utc": "2026-11-17T23:51:30.545706+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -4872,19 +4872,14 @@
      "ppga_rk": 18,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-17T15:32:17.417Z",
-     "lineup_checked": "2026-11-17T21:09:27.378962+00:00",
+     "lineup_as_of": "2026-11-17T23:41:24.456Z",
+     "lineup_checked": "2026-11-17T23:51:26.891221+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Nikita Grebenkin",
        "status": "IR",
        "news": "Grebenkin (upper-body) has been placed on injured reserve."
-      },
-      {
-       "player": "Denver Barkey",
-       "status": "OUT",
-       "news": "Barkey (illness) is expected to return vs. Buffalo on Tuesday."
       }
      ],
      "lines": {
@@ -4894,7 +4889,7 @@
        "Travis Konecny"
       ],
       "2": [
-       "Denver Barkey",
+       "Cole Knuble",
        "Christian Dvorak",
        "Owen Tippett"
       ],
@@ -4904,7 +4899,7 @@
        "Matvei Michkov"
       ],
       "4": [
-       "Cole Knuble",
+       "Denver Barkey",
        "Sean Couturier",
        "Noel Acciari"
       ]
@@ -5059,73 +5054,6 @@
        ]
       },
       {
-       "name": "Denver Barkey",
-       "jersey": 86,
-       "team": "PHI",
-       "opp": "BUF",
-       "home": true,
-       "line": 2,
-       "pp": 1,
-       "pos": "LW",
-       "gtd": true,
-       "role": "pp1",
-       "bias": "G",
-       "gp": 19,
-       "pt_games": 9,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        3,
-        8
-       ],
-       "away_split": [
-        6,
-        11
-       ],
-       "pp_toi": 2.5,
-       "toi": 15.0,
-       "p": 0.526,
-       "fair": "-111",
-       "min": "+101",
-       "p2": 0.103,
-       "fair2": "+873",
-       "min2": "+932",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Christian Dvorak",
-         "jersey": 22,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Owen Tippett",
-         "jersey": 74,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Christian Dvorak",
        "jersey": 22,
        "team": "PHI",
@@ -5175,12 +5103,12 @@
        },
        "partners": [
         {
-         "name": "Denver Barkey",
-         "jersey": 86,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 2
+         "name": "Cole Knuble",
+         "jersey": 54,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 1
         },
         {
          "name": "Owen Tippett",
@@ -5394,6 +5322,73 @@
        ]
       },
       {
+       "name": "Cole Knuble",
+       "jersey": 54,
+       "team": "PHI",
+       "opp": "BUF",
+       "home": true,
+       "line": 2,
+       "pp": null,
+       "pos": "LW",
+       "gtd": false,
+       "role": "top6",
+       "bias": "G",
+       "gp": 10,
+       "pt_games": 3,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        2,
+        6
+       ],
+       "away_split": [
+        1,
+        4
+       ],
+       "pp_toi": 0.0,
+       "toi": 11.2,
+       "p": 0.339,
+       "fair": "+195",
+       "min": "+213",
+       "p2": 0.097,
+       "fair2": "+929",
+       "min2": "+990",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Christian Dvorak",
+         "jersey": 22,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Owen Tippett",
+         "jersey": 74,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
        "name": "Owen Tippett",
        "jersey": 74,
        "team": "PHI",
@@ -5443,12 +5438,12 @@
        },
        "partners": [
         {
-         "name": "Denver Barkey",
-         "jersey": 86,
-         "pp": 1,
-         "n": 2,
+         "name": "Cole Knuble",
+         "jersey": 54,
+         "pp": null,
+         "n": 3,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
          "name": "Christian Dvorak",

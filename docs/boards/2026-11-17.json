@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-17T23:46:23.416160+00:00",
+ "generated_utc": "2026-11-17T23:51:31.238194+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -12006,8 +12006,8 @@
     "goalie_source": "Jordan Hall",
     "sv": "0.902",
     "gaa": "2.91",
-    "lineup_as_of": "2026-11-17T15:32:17.417Z",
-    "lineup_checked": "2026-11-17T21:09:27.378962+00:00",
+    "lineup_as_of": "2026-11-17T23:41:24.456Z",
+    "lineup_checked": "2026-11-17T23:51:26.891221+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
     "gf_rk": 31,
@@ -12047,6 +12047,16 @@
       "at": "2026-11-17T21:09:27.381349+00:00",
       "kind": "move",
       "text": "Rasmus Ristolainen: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-17T23:51:26.894863+00:00",
+      "kind": "move",
+      "text": "Cole Knuble: L4\u2192L2"
+     },
+     {
+      "at": "2026-11-17T23:51:26.894863+00:00",
+      "kind": "move",
+      "text": "Denver Barkey: L2\u2192L4"
      }
     ],
     "rates": {
@@ -12083,7 +12093,7 @@
      "away": "+200",
      "home": "-245",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T15:32:17.417Z"
+     "as_of": "2026-11-17T23:41:24.456Z"
     },
     "total": {
      "line": 5.5,
@@ -12204,18 +12214,18 @@
       ]
      },
      {
-      "selection": "Denver Barkey \u00b7 1+ point",
-      "prob": 0.526,
-      "fair": "-111",
-      "need": "+102",
-      "rationale": "Point in 9 of 19 this season, 3 of last 5 \u00b7 PP1, 2.5 PP min/game over L5",
-      "player": "Denver Barkey",
-      "team": "PHI",
-      "pp": 1,
+      "selection": "Noah Ostlund \u00b7 1+ point",
+      "prob": 0.429,
+      "fair": "+133",
+      "need": "+147",
+      "rationale": "Point in 9 of 20 this season, 2 of last 5 \u00b7 PP2 (4.2 PP min/game)",
+      "player": "Noah Ostlund",
+      "team": "BUF",
+      "pp": 2,
       "line": 2,
-      "bias": "G",
+      "bias": null,
       "players": [
-       8484142
+       8483500
       ]
      }
     ],
@@ -12269,22 +12279,6 @@
       ]
      },
      {
-      "selection": "Barkey + Dvorak \u00b7 both 1+ point",
-      "prob": 0.252,
-      "fair": "+296",
-      "need": "+320",
-      "rationale": "Both scored 1 of 3 games together \u00b7 independent 21% \u00b7 new pair",
-      "team": "PHI",
-      "line": 2,
-      "read": "new pair",
-      "both": 1,
-      "n": 3,
-      "players": [
-       8484142,
-       8477989
-      ]
-     },
-     {
       "selection": "Michkov + Cates \u00b7 both 1+ point",
       "prob": 0.218,
       "fair": "+360",
@@ -12298,6 +12292,22 @@
       "players": [
        8484387,
        8480220
+      ]
+     },
+     {
+      "selection": "Doan + Krebs \u00b7 both 1+ point",
+      "prob": 0.179,
+      "fair": "+460",
+      "need": "+493",
+      "rationale": "Both scored 1 of 3 games together \u00b7 independent 10% \u00b7 new pair",
+      "team": "BUF",
+      "line": 3,
+      "read": "new pair",
+      "both": 1,
+      "n": 3,
+      "players": [
+       8482659,
+       8481522
       ]
      }
     ],
@@ -13981,11 +13991,11 @@
     },
     "home": {
      "team": "PHI",
-     "as_of": "2026-11-17T15:32:17.417Z",
-     "checked": "2026-11-17T21:09:27.378962+00:00",
+     "as_of": "2026-11-17T23:41:24.456Z",
+     "checked": "2026-11-17T23:51:26.891221+00:00",
      "stale": false,
-     "source": "Siobhan Nolan",
-     "updated_dfo": "2026-11-17T15:32:17.417Z",
+     "source": "Will James",
+     "updated_dfo": "2026-11-17T23:41:24.456Z",
      "forwards": [
       [
        {
@@ -14105,41 +14115,41 @@
       ],
       [
        {
-        "name": "Denver Barkey",
-        "jersey": 86,
+        "name": "Cole Knuble",
+        "jersey": 54,
         "pos": "LW",
         "slot": null,
-        "player_id": 8484142,
-        "dfo_id": 35098,
-        "gtd": true,
+        "player_id": 8483787,
+        "dfo_id": 33787,
+        "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": null,
         "bias": "G",
         "season": {
-         "a": 6,
+         "a": 0,
          "g": 4,
-         "gp": 19,
-         "p": 10,
-         "ppp": 5,
-         "sog": 19,
-         "toi_s": 16767
+         "gp": 10,
+         "p": 4,
+         "ppp": 0,
+         "sog": 18,
+         "toi_s": 7130
         },
         "last5": {
-         "a": 1,
-         "g": 3,
+         "a": 0,
+         "g": 2,
          "gp": 5,
-         "p": 4,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 4506
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 3366
         },
-        "l5_point_games": 3,
-        "gp": 19,
+        "l5_point_games": 2,
+        "gp": 10,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -14337,41 +14347,41 @@
       ],
       [
        {
-        "name": "Cole Knuble",
-        "jersey": 54,
+        "name": "Denver Barkey",
+        "jersey": 86,
         "pos": "LW",
         "slot": null,
-        "player_id": 8483787,
-        "dfo_id": 33787,
+        "player_id": 8484142,
+        "dfo_id": 35098,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": null,
         "bias": "G",
         "season": {
-         "a": 0,
+         "a": 6,
          "g": 4,
-         "gp": 10,
-         "p": 4,
-         "ppp": 0,
-         "sog": 18,
-         "toi_s": 7130
+         "gp": 19,
+         "p": 10,
+         "ppp": 5,
+         "sog": 19,
+         "toi_s": 16767
         },
         "last5": {
-         "a": 0,
-         "g": 2,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 3366
+         "p": 4,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 4506
         },
-        "l5_point_games": 2,
-        "gp": 10,
+        "l5_point_games": 3,
+        "gp": 19,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -14823,7 +14833,7 @@
         "slot": 2,
         "player_id": 8484142,
         "dfo_id": 35098,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -15477,11 +15487,6 @@
        "player": "Nikita Grebenkin",
        "status": "IR",
        "news": "Grebenkin (upper-body) has been placed on injured reserve."
-      },
-      {
-       "player": "Denver Barkey",
-       "status": "OUT",
-       "news": "Barkey (illness) is expected to return vs. Buffalo on Tuesday."
       }
      ],
      "unit_ratings": {
@@ -15502,15 +15507,15 @@
        "rating": 0
       },
       "f1": {
-       "rank": 14,
+       "rank": 15,
        "rating": 76.5313531505034
       },
       "f2": {
-       "rank": 30,
+       "rank": 29,
        "rating": 72.17349292074536
       },
       "f3": {
-       "rank": 36,
+       "rank": 35,
        "rating": 0
       },
       "f4": {
