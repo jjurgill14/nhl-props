@@ -4,8 +4,8 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timedelta, timezone
 
-from . import alerts, goalies, lineups, report, results, schedule
-from .common import ET, log, now_utc, today_et
+from . import alerts, goalies, lineups, report, results, roster, schedule
+from .common import ET, log, now_utc, parse_utc, today_et
 
 WINDOW_HOURS = 3.0
 
@@ -72,6 +72,12 @@ def evening(date: str) -> None:
                 cur = lineups.latest(t, date)
                 items += alerts.diff_snapshots(prev, cur)
             new_alerts += alerts.record(date, t, o, g.get("start_utc", ""), items, (lineups.latest(t, date) or {}).get("updated_dfo"))
+    try:  # B: measure when the league publishes the dressed roster (never blocks the loop)
+        cutoff = now_utc() - timedelta(minutes=30)
+        upcoming = [g for g in schedule.games_starting_within(games, WINDOW_HOURS, include_started=True) if parse_utc(g["start_utc"]) >= cutoff]
+        roster.probe(upcoming, date)
+    except Exception as e:
+        log.warning("roster probe: %s", e)
     alerts.publish(date)
     if new_alerts:
         log.info("late changes: %s", [a["text"] for a in new_alerts])
