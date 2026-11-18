@@ -456,5 +456,5 @@ button:disabled{cursor:default;opacity:.55}
 /* ---- tighter play rows ---- */
 .play-row{min-height:0;padding:6px 9px 5px;row-gap:0}
 .play-row .bet{font-size:12px}.play-row .reason{font-size:10.5px;line-height:1.3}
-.plays{gap:5px}
-.play-row{padding:4px 9px 4px}.play-row .reason{margin-top:0;min-height:0}.bet-odds{padding:3px 6px}.plays{gap:4px}
+.play-stack{grid-template-rows:repeat(3,minmax(52px,auto));gap:5px;flex:0 0 auto}
+.play-row{padding:5px 9px}.play-row .reason{margin-top:0;min-height:0}.bet-odds{padding:3px 6px}
