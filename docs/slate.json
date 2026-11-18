@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_utc": "2026-11-18T09:39:17.107543+00:00",
+ "generated_utc": "2026-11-18T09:39:44.356650+00:00",
  "games": [
   {
    "game_id": 2026020344,
@@ -16,13 +16,13 @@
      "opp": "DET",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Jeremy Swayman",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.906",
+     "gaa": "2.6",
+     "ml": "-270",
      "gp": 21,
      "gf": 3.380952380952381,
      "gf_rk": 8,
@@ -35,8 +35,8 @@
      "l5_gf": 2.8,
      "l5_ga": 3.4,
      "lineup_as_of": "2026-11-16T16:47:13.743Z",
-     "lineup_checked": "2026-11-17T15:14:19.266285+00:00",
-     "lineup_stale": true,
+     "lineup_checked": "2026-11-18T09:39:41.937648+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "James Hagens",
@@ -727,13 +727,13 @@
      "opp": "BOS",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Daniil Tarasov",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Tarasov will start vs. Boston on Wednesday.",
+     "goalie_source": "Helene St. James",
+     "sv": "0.937",
+     "gaa": "1.69",
+     "ml": "220",
      "gp": 21,
      "gf": 2.619047619047619,
      "gf_rk": 27,
@@ -745,14 +745,14 @@
      "ppga_rk": 8,
      "l5_gf": 1.8,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-14T17:00:22.819Z",
-     "lineup_checked": "2026-11-14T21:04:10.822768+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-17T16:48:53.542Z",
+     "lineup_checked": "2026-11-18T09:39:42.156740+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Albert Johansson",
        "status": "IR",
-       "news": "Johansson (undisclosed) has been placed on IR retroactive to October 24th."
+       "news": "Johansson (undisclosed) returned to practice in a non-contact jersey on Tuesday."
       },
       {
        "player": "Simon Edvinsson",
@@ -768,8 +768,8 @@
      "lines": {
       "1": [
        "Alex DeBrincat",
-       "Emmitt Finnie",
-       "Marco Kasper"
+       "Marco Kasper",
+       "Emmitt Finnie"
       ],
       "2": [
        "Michael Brandsegg-Nyg\u00e5rd",
@@ -795,9 +795,9 @@
       "Moritz Seider"
      ],
      "pp2": [
-      "Carter Mazur",
-      "J.T. Compher",
       "Marco Kasper",
+      "J.T. Compher",
+      "Andrew Copp",
       "Michael Brandsegg-Nyg\u00e5rd",
       "Justin Faulk"
      ],
@@ -862,7 +862,7 @@
         {
          "name": "Andrew Copp",
          "jersey": 18,
-         "pp": null,
+         "pp": 2,
          "n": 11,
          "both": 5,
          "either": 8
@@ -919,20 +919,20 @@
        },
        "partners": [
         {
-         "name": "Emmitt Finnie",
-         "jersey": null,
-         "pp": 1,
-         "n": 19,
-         "both": 7,
-         "either": 10
-        },
-        {
          "name": "Marco Kasper",
          "jersey": null,
          "pp": 2,
          "n": 2,
          "both": 0,
          "either": 1
+        },
+        {
+         "name": "Emmitt Finnie",
+         "jersey": null,
+         "pp": 1,
+         "n": 19,
+         "both": 7,
+         "either": 10
         }
        ]
       },
@@ -944,7 +944,7 @@
        "home": true,
        "line": 1,
        "pp": 1,
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -1055,7 +1055,7 @@
         {
          "name": "Carter Mazur",
          "jersey": 43,
-         "pp": 2,
+         "pp": null,
          "n": 2,
          "both": 0,
          "either": 1
@@ -1077,7 +1077,7 @@
        "opp": "BOS",
        "home": true,
        "line": 2,
-       "pp": null,
+       "pp": 2,
        "pos": "C",
        "gtd": false,
        "role": "top6",
@@ -1115,7 +1115,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -1189,7 +1189,7 @@
         {
          "name": "Carter Mazur",
          "jersey": 43,
-         "pp": 2,
+         "pp": null,
          "n": 2,
          "both": 1,
          "either": 1
@@ -1256,7 +1256,7 @@
         {
          "name": "Andrew Copp",
          "jersey": 18,
-         "pp": null,
+         "pp": 2,
          "n": 9,
          "both": 2,
          "either": 5
@@ -1278,7 +1278,7 @@
        "opp": "BOS",
        "home": true,
        "line": 3,
-       "pp": 2,
+       "pp": null,
        "pos": "LW",
        "gtd": false,
        "role": "other",
@@ -1316,7 +1316,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
@@ -1346,7 +1346,7 @@
        "home": true,
        "line": 1,
        "pp": 2,
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -1423,13 +1423,13 @@
      "opp": "NJD",
      "home": false,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Jacob Fowler",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.921",
+     "gaa": "2.34",
+     "ml": "-180",
      "gp": 21,
      "gf": 3.1904761904761907,
      "gf_rk": 13,
@@ -1441,9 +1441,9 @@
      "ppga_rk": 11,
      "l5_gf": 2.4,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-15T13:54:28.416Z",
-     "lineup_checked": "2026-11-16T14:21:43.679081+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-17T00:10:50.579Z",
+     "lineup_checked": "2026-11-18T09:39:42.259987+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Ivan Demidov",
@@ -2126,13 +2126,13 @@
      "opp": "MTL",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Connor Hellebuyck",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.915",
+     "gaa": "2.25",
+     "ml": "150",
      "gp": 21,
      "gf": 3.761904761904762,
      "gf_rk": 5,
@@ -2144,9 +2144,9 @@
      "ppga_rk": 13,
      "l5_gf": 4.6,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-14T17:02:29.071Z",
-     "lineup_checked": "2026-11-14T21:04:11.302524+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-17T17:43:53.464Z",
+     "lineup_checked": "2026-11-18T09:39:42.354959+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Seamus Casey",
@@ -2156,17 +2156,12 @@
       {
        "player": "Anthony Mantha",
        "status": "OUT",
-       "news": "Mantha (throat) has been placed on LTIR."
+       "news": "Mantha had surgery on Monday to repair a fracture in his throat and is expected out for a month."
       },
       {
        "player": "Johnathan Kovacevic",
        "status": "OUT",
-       "news": "Kovacevic (ankle) has been placed on IR retroactive to November 10th."
-      },
-      {
-       "player": "Brett Pesce",
-       "status": "DTD",
-       "news": "Pesce (illness) is out vs. Washington on Thursday."
+       "news": "Kovacevic (ankle sprain) is expected to miss the next 4-6 weeks."
       }
      ],
      "lines": {
@@ -2192,7 +2187,7 @@
       ]
      },
      "pp1": [
-      "Jesper Bratt",
+      "Arseny Gritsyuk",
       "Nico Hischier",
       "Connor Brown",
       "Jack Hughes",
@@ -2202,7 +2197,7 @@
       "Timo Meier",
       "Evan Rodrigues",
       "Luke Evangelista",
-      "Arseny Gritsyuk",
+      "Jesper Bratt",
       "Dougie Hamilton"
      ],
      "players": [
@@ -2258,7 +2253,7 @@
         {
          "name": "Arseny Gritsyuk",
          "jersey": 81,
-         "pp": 2,
+         "pp": 1,
          "n": 16,
          "both": 8,
          "either": 15
@@ -2266,7 +2261,7 @@
         {
          "name": "Jesper Bratt",
          "jersey": 63,
-         "pp": 1,
+         "pp": 2,
          "n": 21,
          "both": 14,
          "either": 17
@@ -2280,10 +2275,10 @@
        "opp": "MTL",
        "home": true,
        "line": 1,
-       "pp": 1,
+       "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "pp1",
+       "role": "top6",
        "bias": "A",
        "gp": 21,
        "pt_games": 15,
@@ -2304,12 +2299,12 @@
        ],
        "pp_toi": 3.8,
        "toi": 17.7,
-       "p": 0.663,
-       "fair": "-197",
-       "min": "-167",
-       "p2": 0.226,
-       "fair2": "+342",
-       "min2": "+368",
+       "p": 0.608,
+       "fair": "-155",
+       "min": "-134",
+       "p2": 0.193,
+       "fair2": "+417",
+       "min2": "+448",
        "adj": [
         [
          "opp",
@@ -2318,14 +2313,14 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
         {
          "name": "Arseny Gritsyuk",
          "jersey": 81,
-         "pp": 2,
+         "pp": 1,
          "n": 16,
          "both": 8,
          "either": 15
@@ -2347,10 +2342,10 @@
        "opp": "MTL",
        "home": true,
        "line": 1,
-       "pp": 2,
+       "pp": 1,
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "pp1",
        "bias": "A",
        "gp": 21,
        "pt_games": 13,
@@ -2371,12 +2366,12 @@
        ],
        "pp_toi": 1.6,
        "toi": 15.8,
-       "p": 0.539,
-       "fair": "-117",
-       "min": "-104",
-       "p2": 0.159,
-       "fair2": "+528",
-       "min2": "+566",
+       "p": 0.594,
+       "fair": "-146",
+       "min": "-128",
+       "p2": 0.192,
+       "fair2": "+421",
+       "min2": "+452",
        "adj": [
         [
          "opp",
@@ -2385,7 +2380,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -2400,7 +2395,7 @@
         {
          "name": "Jesper Bratt",
          "jersey": 63,
-         "pp": 1,
+         "pp": 2,
          "n": 16,
          "both": 8,
          "either": 15
@@ -2827,13 +2822,13 @@
      "opp": "UTA",
      "home": false,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Mackenzie Blackwood",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.905",
+     "gaa": "2.52",
+     "ml": "-258",
      "gp": 21,
      "gf": 4.0476190476190474,
      "gf_rk": 2,
@@ -2845,9 +2840,9 @@
      "ppga_rk": 22,
      "l5_gf": 3.8,
      "l5_ga": 2.2,
-     "lineup_as_of": "2026-11-14T23:47:54.390Z",
-     "lineup_checked": "2026-11-14T23:50:14.859028+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-17T18:49:19.677Z",
+     "lineup_checked": "2026-11-18T09:39:42.034583+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Josh Manson",
@@ -2862,12 +2857,12 @@
       {
        "player": "Nathan MacKinnon",
        "status": "OUT",
-       "news": "MacKinnon (lower-body) will not play Saturday in Montreal."
+       "news": "MacKinnon will miss at least a month with a lower-body injury."
       },
       {
        "player": "Cale Makar",
        "status": "OUT",
-       "news": "Makar (lower-body) will not play Saturday in Montreal."
+       "news": "Makar is expected to miss a couple of weeks with a lower-body injury."
       }
      ],
      "lines": {
@@ -2900,11 +2895,11 @@
       "Devon Toews"
      ],
      "pp2": [
-      "Gabriel Landeskog",
-      "Nicolas Roy",
       "Jaden Schwartz",
+      "Nicolas Roy",
+      "Brock Nelson",
       "Sam Malinski",
-      "Brock Nelson"
+      "Gabriel Landeskog"
      ],
      "players": [
       {
@@ -3521,13 +3516,13 @@
      "opp": "COL",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Karel Vejmelka",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.869",
+     "gaa": "3.14",
+     "ml": "210",
      "gp": 22,
      "gf": 3.3181818181818183,
      "gf_rk": 10,
@@ -3540,8 +3535,8 @@
      "l5_gf": 2.4,
      "l5_ga": 3.4,
      "lineup_as_of": "2026-11-17T02:17:49.082Z",
-     "lineup_checked": "2026-11-17T02:27:39.855270+00:00",
-     "lineup_stale": true,
+     "lineup_checked": "2026-11-18T09:39:42.437933+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "John Marino",
@@ -3556,7 +3551,7 @@
       {
        "player": "Dylan Guenther",
        "status": "IR",
-       "news": "Guenther (upper-body) has been placed on IR and is expected to miss 2-to-4 weeks."
+       "news": "Guenther (upper-body) practiced in a non-contact jersey on Tuesday."
       },
       {
        "player": "Nick Schmaltz",
