@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T00:32:26.457775+00:00",
+ "generated_utc": "2026-11-18T00:37:34.237683+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1060,7 +1060,7 @@
     "goalie_news": "Kuemper led the Kings onto the ice for warmups.",
     "goalie_source": "Zach Dooley",
     "sv": "0.872",
-    "gaa": "3.57",
+    "gaa": "3.56",
     "lineup_as_of": "2026-11-17T18:08:59.150Z",
     "lineup_checked": "2026-11-17T21:09:26.460264+00:00",
     "lineup_stale": false,
@@ -1116,7 +1116,7 @@
     "goalie_news": "DiPietro will start vs. Los Angeles on Tuesday.",
     "goalie_source": "Jack Studley",
     "sv": "0.924",
-    "gaa": "2.17",
+    "gaa": "2.16",
     "lineup_as_of": "2026-11-16T16:47:13.743Z",
     "lineup_checked": "2026-11-17T15:14:19.266285+00:00",
     "lineup_stale": false,
@@ -4691,7 +4691,7 @@
     "goalie_news": "Markstrom will start vs. Edmonton on Tuesday.",
     "goalie_source": "Florida Panthers",
     "sv": "0.906",
-    "gaa": "2.41",
+    "gaa": "2.4",
     "lineup_as_of": "2026-11-17T23:41:52.132Z",
     "lineup_checked": "2026-11-17T23:46:17.833676+00:00",
     "lineup_stale": false,
@@ -8343,7 +8343,7 @@
     "goalie_news": "Sorokin will start vs. Columbus on Tuesday.",
     "goalie_source": "Stefen Rosner",
     "sv": "0.915",
-    "gaa": "2.53",
+    "gaa": "2.52",
     "lineup_as_of": "2026-11-16T16:08:22.808Z",
     "lineup_checked": "2026-11-17T21:09:27.123560+00:00",
     "lineup_stale": false,
@@ -15630,7 +15630,7 @@
     "goalie_news": "Skinner will start vs. Ottawa on Tuesday.",
     "goalie_source": "Ken Wiebe",
     "sv": "0.88",
-    "gaa": "3.38",
+    "gaa": "3.37",
     "lineup_as_of": "2026-11-17T23:37:44.541Z",
     "lineup_checked": "2026-11-17T23:41:10.818139+00:00",
     "lineup_stale": false,
@@ -19222,7 +19222,7 @@
    "id": "06",
    "game_id": 2026020334,
    "start_utc": "2026-11-18T00:30:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Benchmark International Arena",
    "away": {
     "abbr": "WSH",
@@ -22900,7 +22900,7 @@
    "id": "07",
    "game_id": 2026020338,
    "start_utc": "2026-11-18T00:30:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "United Center",
    "away": {
     "abbr": "TOR",
@@ -26532,9 +26532,9 @@
     "record": "11-9-1",
     "b2b": false,
     "goalie": "Ville Husso",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Husso led the Ducks onto the ice for warmups.",
+    "goalie_source": "Lou Korac",
     "sv": "0.881",
     "gaa": "3.1",
     "lineup_as_of": "2026-11-16T15:10:53.912Z",
@@ -26543,7 +26543,13 @@
     "ga_rk": 4,
     "gf_rk": 5,
     "ppga_rk": 6,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-18T00:37:30.388952+00:00",
+      "kind": "goalie",
+      "text": "G: Ville Husso confirmed"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
