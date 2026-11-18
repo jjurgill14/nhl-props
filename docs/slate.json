@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-17T23:56:37.285548+00:00",
+ "generated_utc": "2026-11-18T00:01:45.457066+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -4872,14 +4872,19 @@
      "ppga_rk": 18,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-17T23:41:24.456Z",
-     "lineup_checked": "2026-11-17T23:51:26.891221+00:00",
+     "lineup_as_of": "2026-11-17T15:32:17.417Z",
+     "lineup_checked": "2026-11-18T00:01:41.490687+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Nikita Grebenkin",
        "status": "IR",
        "news": "Grebenkin (upper-body) has been placed on injured reserve."
+      },
+      {
+       "player": "Denver Barkey",
+       "status": "OUT",
+       "news": "Barkey (illness) is expected to return vs. Buffalo on Tuesday."
       }
      ],
      "lines": {
@@ -4889,7 +4894,7 @@
        "Travis Konecny"
       ],
       "2": [
-       "Cole Knuble",
+       "Denver Barkey",
        "Christian Dvorak",
        "Owen Tippett"
       ],
@@ -4899,7 +4904,7 @@
        "Matvei Michkov"
       ],
       "4": [
-       "Denver Barkey",
+       "Cole Knuble",
        "Sean Couturier",
        "Noel Acciari"
       ]
@@ -5054,6 +5059,73 @@
        ]
       },
       {
+       "name": "Denver Barkey",
+       "jersey": 86,
+       "team": "PHI",
+       "opp": "BUF",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": true,
+       "role": "pp1",
+       "bias": "G",
+       "gp": 19,
+       "pt_games": 9,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 6,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        3,
+        8
+       ],
+       "away_split": [
+        6,
+        11
+       ],
+       "pp_toi": 2.5,
+       "toi": 15.0,
+       "p": 0.526,
+       "fair": "-111",
+       "min": "+101",
+       "p2": 0.103,
+       "fair2": "+873",
+       "min2": "+932",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Christian Dvorak",
+         "jersey": 22,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Owen Tippett",
+         "jersey": 74,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Christian Dvorak",
        "jersey": 22,
        "team": "PHI",
@@ -5103,12 +5175,12 @@
        },
        "partners": [
         {
-         "name": "Cole Knuble",
-         "jersey": 54,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "name": "Denver Barkey",
+         "jersey": 86,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Owen Tippett",
@@ -5322,73 +5394,6 @@
        ]
       },
       {
-       "name": "Cole Knuble",
-       "jersey": 54,
-       "team": "PHI",
-       "opp": "BUF",
-       "home": true,
-       "line": 2,
-       "pp": null,
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 10,
-       "pt_games": 3,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        2,
-        6
-       ],
-       "away_split": [
-        1,
-        4
-       ],
-       "pp_toi": 0.0,
-       "toi": 11.2,
-       "p": 0.339,
-       "fair": "+195",
-       "min": "+213",
-       "p2": 0.097,
-       "fair2": "+929",
-       "min2": "+990",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Christian Dvorak",
-         "jersey": 22,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Owen Tippett",
-         "jersey": 74,
-         "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
        "name": "Owen Tippett",
        "jersey": 74,
        "team": "PHI",
@@ -5438,12 +5443,12 @@
        },
        "partners": [
         {
-         "name": "Cole Knuble",
-         "jersey": 54,
-         "pp": null,
-         "n": 3,
+         "name": "Denver Barkey",
+         "jersey": 86,
+         "pp": 1,
+         "n": 2,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
          "name": "Christian Dvorak",
@@ -6927,7 +6932,7 @@
    "start_et": "7:30 PM",
    "away": "WSH",
    "home": "TBL",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Benchmark International Arena",
    "teams": {
     "away": {
@@ -8226,7 +8231,7 @@
    "start_et": "7:30 PM",
    "away": "TOR",
    "home": "CHI",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "United Center",
    "teams": {
     "away": {
@@ -12332,8 +12337,8 @@
      "ppga_rk": 29,
      "l5_gf": 2.4,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-16T15:08:02.460Z",
-     "lineup_checked": "2026-11-17T15:14:19.679603+00:00",
+     "lineup_as_of": "2026-11-17T20:28:24.577Z",
+     "lineup_checked": "2026-11-18T00:01:42.288065+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -12352,11 +12357,6 @@
        "news": "The Stars have placed Kyle Capobianco (leg) on LTIR."
       },
       {
-       "player": "Miro Heiskanen",
-       "status": "DTD",
-       "news": "Heiskanen (upper-body) is doubtful to play Sunday vs. the Panthers."
-      },
-      {
        "player": "Lian Bichsel",
        "status": "IR",
        "news": "The Stars have placed Lian Bichsel (lower-body) on IR."
@@ -12364,7 +12364,7 @@
       {
        "player": "Tyler Myers",
        "status": "DTD",
-       "news": "Myers (upper-body) left Sunday\u2019s game vs. Florida and did not return."
+       "news": "Myers (upper-body) is out vs. Vegas on Tuesday."
       }
      ],
      "lines": {
@@ -12384,23 +12384,23 @@
        "Tyler Seguin"
       ],
       "4": [
-       "Colin Blackwell",
+       "David Perron",
        "Radek Faksa",
-       "David Perron"
+       "Colin Blackwell"
       ]
      },
      "pp1": [
       "Wyatt Johnston",
       "Roope Hintz",
       "Mikko Rantanen",
-      "Thomas Harley",
+      "Miro Heiskanen",
       "Jason Robertson"
      ],
      "pp2": [
       "Jamie Benn",
       "Justin Hryckowian",
       "David Perron",
-      "Esa Lindell",
+      "Thomas Harley",
       "Tyler Seguin"
      ],
      "players": [
@@ -13036,8 +13036,8 @@
      "ppga_rk": 21,
      "l5_gf": 3.2,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-16T15:13:32.468Z",
-     "lineup_checked": "2026-11-17T15:14:20.689779+00:00",
+     "lineup_as_of": "2026-11-17T19:19:55.343Z",
+     "lineup_checked": "2026-11-18T00:01:42.349195+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -13048,12 +13048,12 @@
      ],
      "lines": {
       "1": [
-       "Trevor Connelly",
+       "Brett Howden",
        "Jack Eichel",
        "Mark Stone"
       ],
       "2": [
-       "Braeden Bowman",
+       "Trevor Connelly",
        "William Karlsson",
        "Mitch Marner"
       ],
@@ -13065,7 +13065,7 @@
       "4": [
        "Raphael Lavoie",
        "Nic Dowd",
-       "Brett Howden"
+       "Braeden Bowman"
       ]
      },
      "pp1": [
@@ -13133,12 +13133,12 @@
        },
        "partners": [
         {
-         "name": "Braeden Bowman",
-         "jersey": 42,
+         "name": "Trevor Connelly",
+         "jersey": 24,
          "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 2,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "William Karlsson",
@@ -13267,10 +13267,10 @@
        },
        "partners": [
         {
-         "name": "Trevor Connelly",
-         "jersey": 24,
-         "pp": 2,
-         "n": 3,
+         "name": "Brett Howden",
+         "jersey": 21,
+         "pp": null,
+         "n": 2,
          "both": 0,
          "either": 2
         },
@@ -13334,10 +13334,10 @@
        },
        "partners": [
         {
-         "name": "Trevor Connelly",
-         "jersey": 24,
-         "pp": 2,
-         "n": 3,
+         "name": "Brett Howden",
+         "jersey": 21,
+         "pp": null,
+         "n": 2,
          "both": 0,
          "either": 1
         },
@@ -13495,7 +13495,7 @@
        "team": "VGK",
        "opp": "DAL",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
@@ -13539,44 +13539,44 @@
        },
        "partners": [
         {
-         "name": "Jack Eichel",
-         "jersey": 9,
-         "pp": 1,
-         "n": 3,
+         "name": "William Karlsson",
+         "jersey": 71,
+         "pp": 2,
+         "n": 1,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
-         "name": "Mark Stone",
-         "jersey": 61,
+         "name": "Mitch Marner",
+         "jersey": 16,
          "pp": 1,
-         "n": 3,
-         "both": 0,
-         "either": 1
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
       {
-       "name": "Braeden Bowman",
-       "jersey": 42,
+       "name": "Brett Howden",
+       "jersey": 21,
        "team": "VGK",
        "opp": "DAL",
        "home": true,
-       "line": 2,
-       "pp": 2,
+       "line": 1,
+       "pp": null,
        "pos": "LW",
        "gtd": false,
        "role": "top6",
-       "bias": "G",
+       "bias": null,
        "gp": 22,
        "pt_games": 8,
        "l5": [
-        2,
+        1,
         5
        ],
        "ast_games": 3,
-       "goal_games": 5,
-       "two_games": 0,
+       "goal_games": 6,
+       "two_games": 1,
        "home_split": [
         5,
         12
@@ -13585,14 +13585,14 @@
         3,
         10
        ],
-       "pp_toi": 1.1,
-       "toi": 12.3,
+       "pp_toi": 0.1,
+       "toi": 14.4,
        "p": 0.308,
        "fair": "+225",
        "min": "+245",
-       "p2": 0.018,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p2": 0.047,
+       "fair2": "+2025",
+       "min2": "+2153",
        "adj": [
         [
          "opp",
@@ -13606,20 +13606,20 @@
        },
        "partners": [
         {
-         "name": "William Karlsson",
-         "jersey": 71,
-         "pp": 2,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "name": "Jack Eichel",
+         "jersey": 9,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 2
         },
         {
-         "name": "Mitch Marner",
-         "jersey": 16,
+         "name": "Mark Stone",
+         "jersey": 61,
          "pp": 1,
-         "n": 0,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -13673,12 +13673,12 @@
        },
        "partners": [
         {
-         "name": "Braeden Bowman",
-         "jersey": 42,
+         "name": "Trevor Connelly",
+         "jersey": 24,
          "pp": 2,
          "n": 1,
-         "both": 1,
-         "either": 1
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Mitch Marner",
@@ -13726,15 +13726,10 @@
      "ppga_rk": 25,
      "l5_gf": 2.4,
      "l5_ga": 3.8,
-     "lineup_as_of": "2026-11-17T01:32:12.002Z",
-     "lineup_checked": "2026-11-17T15:14:19.513713+00:00",
+     "lineup_as_of": "2026-11-17T19:41:46.818Z",
+     "lineup_checked": "2026-11-18T00:01:42.410872+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Jonathan Huberdeau",
-       "status": "IR",
-       "news": "Huberdeau (hip) has been skating but will not travel on Calgary's upcoming road trip."
-      },
       {
        "player": "Kevin Bahl",
        "status": "IR",
@@ -13758,7 +13753,7 @@
        "Adam Klapka"
       ],
       "4": [
-       "Brennan Othmann",
+       "Maxim Tsyplakov",
        "Jonathan Castagna",
        "Aydar Suniev"
       ]
@@ -14410,8 +14405,8 @@
      "ppga_rk": 7,
      "l5_gf": 3.2,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-16T15:16:02.601Z",
-     "lineup_checked": "2026-11-17T15:14:20.371929+00:00",
+     "lineup_as_of": "2026-11-17T19:40:48.202Z",
+     "lineup_checked": "2026-11-18T00:01:42.478550+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -14420,14 +14415,9 @@
        "news": "Chernyshov (upper-body) is considered week-to-week."
       },
       {
-       "player": "Alexander Wennberg",
-       "status": "DTD",
-       "news": "Wennberg (undisclosed) is out vs. Nashville on Sunday and is considered day-to-day."
-      },
-      {
        "player": "Kiefer Sherwood",
-       "status": "DTD",
-       "news": "Sherwood (upper-body) left Sunday's game vs. Nashville and did not return."
+       "status": "OUT",
+       "news": "Sherwood is considered week-to-week with an upper-body injury."
       }
      ],
      "lines": {
@@ -14437,14 +14427,14 @@
        "Will Smith"
       ],
       "2": [
-       "Mason Marchment",
        "Michael Misa",
-       "Collin Graf"
+       "Alexander Wennberg",
+       "Mason Marchment"
       ],
       "3": [
        "Tyler Toffoli",
        "Ty Dellandrea",
-       "Kiefer Sherwood"
+       "Collin Graf"
       ],
       "4": [
        "Barclay Goodrow",
@@ -14454,17 +14444,17 @@
      },
      "pp1": [
       "Ivar Stenberg",
+      "Alexander Wennberg",
+      "Tyler Toffoli",
       "Macklin Celebrini",
-      "Will Smith",
-      "Jacob Trouba",
       "Sam Dickinson"
      ],
      "pp2": [
-      "Tyler Toffoli",
+      "Adam Gaudette",
       "Michael Misa",
       "Mason Marchment",
       "Dmitry Orlov",
-      "Eric Pohlkamp"
+      "Will Smith"
      ],
      "players": [
       {
@@ -14527,74 +14517,7 @@
         {
          "name": "Will Smith",
          "jersey": 2,
-         "pp": 1,
-         "n": 19,
-         "both": 10,
-         "either": 14
-        }
-       ]
-      },
-      {
-       "name": "Will Smith",
-       "jersey": 2,
-       "team": "SJS",
-       "opp": "CGY",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 23,
-       "pt_games": 12,
-       "l5": [
-        4,
-        5
-       ],
-       "ast_games": 9,
-       "goal_games": 6,
-       "two_games": 4,
-       "home_split": [
-        5,
-        11
-       ],
-       "away_split": [
-        7,
-        12
-       ],
-       "pp_toi": 5.1,
-       "toi": 21.3,
-       "p": 0.584,
-       "fair": "-140",
-       "min": "-122",
-       "p2": 0.2,
-       "fair2": "+399",
-       "min2": "+429",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ivar Stenberg",
-         "jersey": 41,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 3
-        },
-        {
-         "name": "Macklin Celebrini",
-         "jersey": 71,
-         "pp": 1,
+         "pp": 2,
          "n": 19,
          "both": 10,
          "either": 14
@@ -14661,10 +14584,77 @@
         {
          "name": "Will Smith",
          "jersey": 2,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 3
+        }
+       ]
+      },
+      {
+       "name": "Will Smith",
+       "jersey": 2,
+       "team": "SJS",
+       "opp": "CGY",
+       "home": true,
+       "line": 1,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 23,
+       "pt_games": 12,
+       "l5": [
+        4,
+        5
+       ],
+       "ast_games": 9,
+       "goal_games": 6,
+       "two_games": 4,
+       "home_split": [
+        5,
+        11
+       ],
+       "away_split": [
+        7,
+        12
+       ],
+       "pp_toi": 5.1,
+       "toi": 21.3,
+       "p": 0.526,
+       "fair": "-111",
+       "min": "+101",
+       "p2": 0.166,
+       "fair2": "+503",
+       "min2": "+539",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ivar Stenberg",
+         "jersey": 41,
          "pp": 1,
          "n": 3,
          "both": 1,
          "either": 3
+        },
+        {
+         "name": "Macklin Celebrini",
+         "jersey": 71,
+         "pp": 1,
+         "n": 19,
+         "both": 10,
+         "either": 14
         }
        ]
       },
@@ -14676,7 +14666,7 @@
        "home": true,
        "line": 2,
        "pp": 2,
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -14718,20 +14708,91 @@
        },
        "partners": [
         {
+         "name": "Alexander Wennberg",
+         "jersey": 21,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Mason Marchment",
          "jersey": 27,
          "pp": 2,
          "n": 6,
          "both": 1,
          "either": 4
+        }
+       ]
+      },
+      {
+       "name": "Tyler Toffoli",
+       "jersey": 73,
+       "team": "SJS",
+       "opp": "CGY",
+       "home": true,
+       "line": 3,
+       "pp": 1,
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 23,
+       "pt_games": 9,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 7,
+       "goal_games": 6,
+       "two_games": 4,
+       "home_split": [
+        2,
+        11
+       ],
+       "away_split": [
+        7,
+        12
+       ],
+       "pp_toi": 2.9,
+       "toi": 11.9,
+       "p": 0.429,
+       "fair": "+133",
+       "min": "+147",
+       "p2": 0.18,
+       "fair2": "+455",
+       "min2": "+488",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ],
+        [
+         "venue",
+         0.9
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 8,
+         "both": 1,
+         "either": 3
         },
         {
          "name": "Collin Graf",
          "jersey": 51,
          "pp": null,
-         "n": 4,
-         "both": 2,
-         "either": 4
+         "n": 3,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -14743,7 +14804,7 @@
        "home": true,
        "line": 2,
        "pp": 2,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "A",
@@ -14793,119 +14854,52 @@
          "either": 4
         },
         {
-         "name": "Collin Graf",
-         "jersey": 51,
-         "pp": null,
-         "n": 4,
-         "both": 2,
-         "either": 2
+         "name": "Alexander Wennberg",
+         "jersey": 21,
+         "pp": 1,
+         "n": 6,
+         "both": 1,
+         "either": 4
         }
        ]
       },
       {
-       "name": "Kiefer Sherwood",
-       "jersey": 44,
+       "name": "Alexander Wennberg",
+       "jersey": 21,
        "team": "SJS",
        "opp": "CGY",
        "home": true,
-       "line": 3,
-       "pp": null,
-       "pos": "RW",
+       "line": 2,
+       "pp": 1,
+       "pos": "C",
        "gtd": true,
-       "role": "other",
+       "role": "pp1",
        "bias": "A",
-       "gp": 23,
-       "pt_games": 8,
+       "gp": 11,
+       "pt_games": 3,
        "l5": [
-        0,
+        2,
         5
        ],
-       "ast_games": 6,
-       "goal_games": 2,
-       "two_games": 1,
+       "ast_games": 3,
+       "goal_games": 0,
+       "two_games": 0,
        "home_split": [
-        5,
-        11
+        0,
+        6
        ],
        "away_split": [
         3,
-        12
-       ],
-       "pp_toi": 1.8,
-       "toi": 15.0,
-       "p": 0.358,
-       "fair": "+180",
-       "min": "+196",
-       "p2": 0.047,
-       "fair2": "+2019",
-       "min2": "+2146",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": -1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Tyler Toffoli",
-         "jersey": 73,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
-         "either": 2
-        },
-        {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Tyler Toffoli",
-       "jersey": 73,
-       "team": "SJS",
-       "opp": "CGY",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 23,
-       "pt_games": 9,
-       "l5": [
-        2,
         5
        ],
-       "ast_games": 7,
-       "goal_games": 6,
-       "two_games": 4,
-       "home_split": [
-        2,
-        11
-       ],
-       "away_split": [
-        7,
-        12
-       ],
-       "pp_toi": 2.9,
-       "toi": 11.9,
-       "p": 0.354,
-       "fair": "+183",
-       "min": "+199",
-       "p2": 0.139,
-       "fair2": "+619",
-       "min2": "+663",
+       "pp_toi": 5.5,
+       "toi": 21.3,
+       "p": 0.384,
+       "fair": "+160",
+       "min": "+176",
+       "p2": 0.084,
+       "fair2": "+1090",
+       "min2": "+1162",
        "adj": [
         [
          "opp",
@@ -14919,24 +14913,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Ty Dellandrea",
-         "jersey": 10,
-         "pp": null,
-         "n": 8,
-         "both": 1,
-         "either": 3
+         "name": "Michael Misa",
+         "jersey": 77,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Kiefer Sherwood",
-         "jersey": 44,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 2
+         "name": "Mason Marchment",
+         "jersey": 27,
+         "pp": 2,
+         "n": 6,
+         "both": 1,
+         "either": 4
         }
        ]
       },
@@ -14946,11 +14940,11 @@
        "team": "SJS",
        "opp": "CGY",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 23,
        "pt_games": 4,
@@ -14971,12 +14965,12 @@
        ],
        "pp_toi": 0.4,
        "toi": 16.6,
-       "p": 0.24,
-       "fair": "+316",
-       "min": "+341",
-       "p2": 0.059,
-       "fair2": "+1605",
-       "min2": "+1708",
+       "p": 0.215,
+       "fair": "+366",
+       "min": "+394",
+       "p2": 0.047,
+       "fair2": "+2019",
+       "min2": "+2146",
        "adj": [
         [
          "opp",
@@ -14984,26 +14978,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Mason Marchment",
-         "jersey": 27,
-         "pp": 2,
-         "n": 4,
-         "both": 2,
+         "name": "Tyler Toffoli",
+         "jersey": 73,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
          "either": 2
         },
         {
-         "name": "Michael Misa",
-         "jersey": 77,
-         "pp": 2,
-         "n": 4,
-         "both": 2,
-         "either": 4
+         "name": "Ty Dellandrea",
+         "jersey": 10,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -15059,16 +15053,16 @@
         {
          "name": "Tyler Toffoli",
          "jersey": 73,
-         "pp": 2,
+         "pp": 1,
          "n": 8,
          "both": 1,
          "either": 3
         },
         {
-         "name": "Kiefer Sherwood",
-         "jersey": 44,
+         "name": "Collin Graf",
+         "jersey": 51,
          "pp": null,
-         "n": 3,
+         "n": 0,
          "both": 0,
          "either": 0
         }
