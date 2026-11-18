@@ -4,6 +4,7 @@ on:
     # one job per window; each loops internally until the window ends, so a late start still covers the rest.
     # GitHub launches scheduled jobs ~4h late on this repo, so these are 4h earlier than the window we want.
     # 16:00Z = noon EDT; the loop idles until a game is within 3h. Backups at 18:00Z / 20:00Z queue behind a running loop.
+    # The primary kick is a Claude scheduled task that dispatches this workflow at ~2:40pm ET; these crons are backups.
     - cron: "0 16 * * *"
     - cron: "0 18 * * *"
     - cron: "0 20 * * *"
@@ -40,8 +41,12 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           END=$(TZ=America/New_York date -d "today 23:45" +%s)
           NOW=$(date +%s)
-          if [ "$NOW" -gt "$END" ] && [ "${{ github.event.inputs.once }}" != "true" ]; then
-            echo "past window end"; exit 0
+          HOUR_ET=$(TZ=America/New_York date +%H)
+          if [ "${{ github.event.inputs.once }}" != "true" ]; then
+            if [ "$NOW" -gt "$END" ]; then echo "past window end"; exit 0; fi
+            # a late cron run that was queued behind tonight's loop starts after midnight ET;
+            # "today 23:45" is then tomorrow, so bail instead of looping all night.
+            if [ "$HOUR_ET" -lt 10 ]; then echo "started after midnight ET; nothing to do"; exit 0; fi
           fi
           while true; do
             python -m nhl_props.run evening || echo "evening pull failed (continuing)"
