@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T02:40:09.047303+00:00",
+ "generated_utc": "2026-11-18T02:45:14.462825+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1045,7 +1045,7 @@
    "id": "01",
    "game_id": 2026020333,
    "start_utc": "2026-11-18T00:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "TD Garden",
    "away": {
     "abbr": "LAK",
@@ -37589,8 +37589,8 @@
     "goalie_source": "Sheng Peng",
     "sv": "0.89",
     "gaa": "3.22",
-    "lineup_as_of": "2026-11-17T19:40:48.202Z",
-    "lineup_checked": "2026-11-18T00:01:42.478550+00:00",
+    "lineup_as_of": "2026-11-18T02:40:21.700Z",
+    "lineup_checked": "2026-11-18T02:45:12.261703+00:00",
     "lineup_stale": false,
     "ga_rk": 11,
     "gf_rk": 28,
@@ -37671,7 +37671,7 @@
      "away": "-238",
      "home": "+195",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T19:40:48.202Z"
+     "as_of": "2026-11-18T02:40:21.700Z"
     },
     "total": {
      "line": 5.5,
@@ -39564,11 +39564,11 @@
     },
     "home": {
      "team": "SJS",
-     "as_of": "2026-11-17T19:40:48.202Z",
-     "checked": "2026-11-18T00:01:42.478550+00:00",
+     "as_of": "2026-11-18T02:40:21.700Z",
+     "checked": "2026-11-18T02:45:12.261703+00:00",
      "stale": false,
-     "source": "Sheng Peng",
-     "updated_dfo": "2026-11-17T19:40:48.202Z",
+     "source": "Curtis Pashelka",
+     "updated_dfo": "2026-11-18T02:40:21.700Z",
      "forwards": [
       [
        {
@@ -39688,85 +39688,9 @@
       ],
       [
        {
-        "name": "Michael Misa",
-        "jersey": 77,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8485402,
-        "dfo_id": 37508,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 8,
-         "g": 4,
-         "gp": 23,
-         "p": 12,
-         "ppp": 3,
-         "sog": 32,
-         "toi_s": 20709
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 5235
-        },
-        "l5_point_games": 2,
-        "gp": 23,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Alexander Wennberg",
-        "jersey": 21,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8477505,
-        "dfo_id": 2145,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 3,
-         "g": 0,
-         "gp": 11,
-         "p": 3,
-         "ppp": 1,
-         "sog": 16,
-         "toi_s": 13505
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 6387
-        },
-        "l5_point_games": 2,
-        "gp": 11,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       },
-       {
         "name": "Mason Marchment",
         "jersey": 27,
-        "pos": "RW",
+        "pos": "LW",
         "slot": null,
         "player_id": 8478975,
         "dfo_id": 2855,
@@ -39798,6 +39722,82 @@
         "move": {
          "ev": 0,
          "pp": -1,
+         "new": false
+        }
+       },
+       {
+        "name": "Alexander Wennberg",
+        "jersey": 21,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8477505,
+        "dfo_id": 2145,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 3,
+         "g": 0,
+         "gp": 11,
+         "p": 3,
+         "ppp": 1,
+         "sog": 16,
+         "toi_s": 13505
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 6387
+        },
+        "l5_point_games": 2,
+        "gp": 11,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Michael Misa",
+        "jersey": 77,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8485402,
+        "dfo_id": 37508,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 8,
+         "g": 4,
+         "gp": 23,
+         "p": 12,
+         "ppp": 3,
+         "sog": 32,
+         "toi_s": 20709
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 5235
+        },
+        "l5_point_games": 2,
+        "gp": 23,
+        "move": {
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        }
@@ -40406,7 +40406,7 @@
         "slot": 2,
         "player_id": 8477505,
         "dfo_id": 2145,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -41089,7 +41089,7 @@
        "rating": 0
       },
       "f2": {
-       "rank": 32,
+       "rank": 33,
        "rating": 71.53187123507587
       },
       "f3": {
@@ -41097,7 +41097,7 @@
        "rating": 75.90881739521431
       },
       "f4": {
-       "rank": 32,
+       "rank": 31,
        "rating": 70.43165534476402
       },
       "g": {
