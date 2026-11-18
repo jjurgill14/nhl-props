@@ -22,12 +22,13 @@ export function Crest({ team, small = false }: { team: TeamSide; small?: boolean
   )
 }
 
-function BigTeam({ team, opp, xg, xgTone }: { team: TeamSide; opp: TeamSide; xg: number | null; xgTone: string }) {
+function BigTeam({ team, opp, xg, xgTone, side }: { team: TeamSide; opp: TeamSide; xg: number | null; xgTone: string; side: 'away' | 'home' }) {
   const st = team.goalie_status
   const cls = st === 'Confirmed' ? 'ok' : st === 'Likely' || st === 'Expected' ? 'likely' : ''
   return (
-    <div className="team">
+    <div className={`team${team.b2b ? ' has-b2b' : ''}`}>
       <Crest team={team} />
+      {team.b2b && <span className={`status-badge b2b b2b-side ${side}`} title="Second leg of a back-to-back">B2B</span>}
       <div className="team-name" title={`${team.city} ${team.name}`}>
         {team.city}
       </div>
@@ -39,7 +40,6 @@ function BigTeam({ team, opp, xg, xgTone }: { team: TeamSide; opp: TeamSide; xg:
           </span>
         )}
       </div>
-      {team.b2b && <div className="location"><span className="status-badge b2b">B2B</span></div>}
       <div className="goalie-line" title={team.goalie_news ?? undefined}>
         🥅 <b>{team.goalie ?? 'TBD'}</b> <span className={cls}>{st ?? 'unconfirmed'}</span>
       </div>
@@ -156,8 +156,7 @@ export function PlayRow({ play, rank, lensLabel, onClick }: { play: Play | null;
       <span className="bet-odds" title={`fair ${play.fair} · need ${play.need} or better`}>
         {play.fair}
       </span>
-      <span className="reason" title={play.rationale}>
-        <span className="need">need {play.need} · </span>
+      <span className="reason" title={`${play.rationale} · fair ${play.fair}, need ${play.need} or better`}>
         {play.rationale}
       </span>
     </div>
@@ -230,9 +229,9 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }
         </span>
       </div>
       <div className="matchup">
-        <BigTeam team={away} opp={home} xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} />
+        <BigTeam team={away} opp={home} xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} side="away" />
         <span className="vs at">@</span>
-        <BigTeam team={home} opp={away} xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} />
+        <BigTeam team={home} opp={away} xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} side="home" />
       </div>
       <TotalsBar game={game} />
       <div className="play-section">

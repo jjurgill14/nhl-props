@@ -111,6 +111,9 @@ def build_slate(date: str) -> dict:
                     k2, _ = _hits(rows, thresh=2)
                     hk, hn = _hits([x for x in rows if x.get("home") == "1"])
                     ak, an = _hits([x for x in rows if x.get("home") != "1"])
+                    venue_rows = [x for x in rows if (x.get("home") == "1") == (side == "home")]
+                    vk5, vn5 = _hits(venue_rows, n=5)  # last 5 at tonight's venue (home or road)
+                    vk5_2, _ = _hits(venue_rows, n=5, thresh=2)
                     role = _role(pp.get(n), row["unit_no"])
                     p = _shrink(k, gp, ROLE_PRIOR[role])
                     p2 = _shrink(k2, gp, ROLE_PRIOR_2[role])
@@ -151,6 +154,7 @@ def build_slate(date: str) -> dict:
                         "bias": analysis.bias(rows),
                         "gp": gp, "pt_games": k, "l5": [k5, n5], "ast_games": ka, "goal_games": kg,
                         "two_games": k2, "home_split": [hk, hn], "away_split": [ak, an],
+                        "l5_venue": [vk5, vn5], "l5_venue_two": vk5_2,
                         "pp_toi": round(avg_pp, 1), "toi": round(avg_toi, 1),
                         "p": round(p, 3), "fair": american(p), "min": american(p / EDGE),
                         "p2": round(p2, 3), "fair2": american(p2), "min2": american(p2 / EDGE),

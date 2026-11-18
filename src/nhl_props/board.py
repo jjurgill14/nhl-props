@@ -112,10 +112,22 @@ def lenses_for(g: dict, ids: dict | None = None) -> dict[str, list[dict]]:
     opp_of = lambda p: h if p["team"] == a["team"] else a
     team_of = lambda p: a if p["team"] == a["team"] else h
 
+    def venue_word(p):
+        return "home" if p["home"] else "away"
+
+    def point_reason(p):
+        k5, n5 = p["l5"]
+        vk, vn = p.get("l5_venue", [0, 0])
+        bits = [f"Point in {p['pt_games']} of {p['gp']} this season", f"{k5} of L{n5}"]
+        if vn:
+            bits.append(f"{vk} of L{vn} {venue_word(p)}")
+        if team_of(p)["b2b"]:
+            bits.append("B2B")
+        return " · ".join(bits)
+
     point = []
     for p in players[:6]:
-        why = model.why(p, team_of(p), opp_of(p))
-        point.append(_play(f"{p['name']} · 1+ point", p["p"], " · ".join(w.rstrip(".") for w in why[:2]),
+        point.append(_play(f"{p['name']} · 1+ point", p["p"], point_reason(p),
                            player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], bias=p["bias"], players=[pid(p)]))
 
     pairs, pp1, seen = [], [], set()
@@ -144,8 +156,9 @@ def lenses_for(g: dict, ids: dict | None = None) -> dict[str, list[dict]]:
         if p["p2"] < 0.12:
             break
         two.append(_play(f"{p['name']} · 2+ points", p["p2"],
-                         f"2+ in {p['two_games']} of {p['gp']} · {p['pp_toi']} PP min/game · {'PP1' if p['pp']==1 else 'L'+str(p['line'])}"
-                         + (" · B2B haircut applied" if team_of(p)["b2b"] else ""),
+                         f"2+ in {p['two_games']} of {p['gp']} this season"
+                         + (f" · {p.get('l5_venue_two', 0)} of L{p['l5_venue'][1]} {venue_word(p)}" if p.get("l5_venue", [0, 0])[1] else "")
+                         + (" · B2B" if team_of(p)["b2b"] else ""),
                          player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], players=[pid(p)]))
 
     # Both teams 2+ goals: Poisson on each team's expected goals vs this opponent (season GF, opp GA, B2B)

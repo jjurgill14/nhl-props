@@ -447,3 +447,14 @@ button:disabled{cursor:default;opacity:.55}
 .foot-actions{display:flex;gap:4px;align-items:center}
 .card-foot .lineups-btn{color:#e6edf3;background:#1b3340;border:1px solid #36586b;border-radius:7px;padding:5px 9px}
 .card-foot .lineups-btn:hover{background:#24465a;border-color:#69cbd1}
+
+/* ---- B2B tag floats beside the crest, vertically centred on the logo ---- */
+.team{position:relative}
+.b2b-side{position:absolute;top:31px;transform:translateY(-50%);font-size:9px;padding:2px 6px}
+.b2b-side.away{right:calc(50% + 40px)}
+.b2b-side.home{left:calc(50% + 40px)}
+/* ---- tighter play rows ---- */
+.play-row{min-height:0;padding:6px 9px 5px;row-gap:0}
+.play-row .bet{font-size:12px}.play-row .reason{font-size:10.5px;line-height:1.3}
+.plays{gap:5px}
+.play-row{padding:4px 9px 4px}.play-row .reason{margin-top:0;min-height:0}.bet-odds{padding:3px 6px}.plays{gap:4px}
