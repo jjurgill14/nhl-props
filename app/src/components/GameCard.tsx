@@ -169,6 +169,7 @@ interface Props {
   slots: LensKey[]
   lensLabels: Record<LensKey, string>
   onOpen: (id: string) => void
+  onLineups?: (id: string) => void
   onProps?: PropsOpener
 }
 
@@ -191,7 +192,7 @@ export function LateStrip({ game }: { game: Game }) {
   )
 }
 
-export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
+export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }: Props) {
   const { away, home, markets } = game
   const label = `Open ${away.abbr} at ${home.abbr} breakdown`
   return (
@@ -251,9 +252,24 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps }: Props) {
       </div>
       <div className="card-foot">
         <span className="foot-note">{markets.moneyline.provider?.toUpperCase() ?? 'NO ODDS'} · LINEUP {home.lineup_stale ? 'STALE' : 'CURRENT'}</span>
-        <button type="button" onClick={() => onOpen(game.id)}>
-          OPEN BREAKDOWN ↗
-        </button>
+        <span className="foot-actions">
+          {onLineups && (
+            <button
+              type="button"
+              className="lineups-btn"
+              title="Lines & lineups for this game"
+              onClick={(e) => {
+                e.stopPropagation()
+                onLineups(game.id)
+              }}
+            >
+              LINEUPS ↗
+            </button>
+          )}
+          <button type="button" onClick={() => onOpen(game.id)}>
+            OPEN BREAKDOWN ↗
+          </button>
+        </span>
       </div>
     </article>
   )

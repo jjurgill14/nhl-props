@@ -187,7 +187,7 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
           ) : view === 'cards' ? (
             <div className="game-grid">
               {shown.map((g) => (
-                <GameCard key={g.id} game={g} slots={slots} lensLabels={board.lenses} onOpen={setOpen} onProps={onProps} />
+                <GameCard key={g.id} game={g} slots={slots} lensLabels={board.lenses} onOpen={setOpen} onProps={onProps} onLineups={onLineups} />
               ))}
             </div>
           ) : (

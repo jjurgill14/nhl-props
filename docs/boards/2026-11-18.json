@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T14:51:33.600386+00:00",
+ "generated_utc": "2026-11-18T19:37:18.431075+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -1155,37 +1155,37 @@
      "as_of": "2026-11-17T16:48:53.542Z"
     },
     "total": {
-     "line": 6.5,
-     "over": 109,
-     "under": -129,
+     "line": 5.5,
+     "over": -134,
+     "under": 114,
      "provider": "JJ's book (screenshot)",
-     "as_of": "2026-11-17T18:41:00Z",
+     "as_of": "2026-11-18T19:32:00Z",
      "status": null
     },
     "book_moneyline": {
-     "away": 100,
-     "home": -120,
+     "away": -108,
+     "home": -112,
      "provider": "JJ's book (screenshot)"
     }
    },
    "market": {
     "status": null,
-    "line": 6.5,
-    "over": 109,
-    "under": -129,
-    "vig_total": 0.0418,
-    "p_over": 0.4593,
-    "fair_over": "+118",
-    "fair_under": "-118",
-    "implied_total": 6.26,
-    "ml_away": 100,
-    "ml_home": -120,
-    "vig_ml": 0.0455,
-    "p_home": 0.5217,
-    "xg_away": 3.07,
-    "xg_home": 3.19,
-    "tone": "mid",
-    "xg_tone_away": "mid",
+    "line": 5.5,
+    "over": -134,
+    "under": 114,
+    "vig_total": 0.0399,
+    "p_over": 0.5507,
+    "fair_over": "-123",
+    "fair_under": "+123",
+    "implied_total": 5.79,
+    "ml_away": -108,
+    "ml_home": -112,
+    "vig_ml": 0.0475,
+    "p_home": 0.5043,
+    "xg_away": 2.88,
+    "xg_home": 2.91,
+    "tone": "bad",
+    "xg_tone_away": "bad",
     "xg_tone_home": "mid"
    },
    "smash": {
@@ -1193,7 +1193,7 @@
     "kind": null,
     "side": null,
     "label": "",
-    "why": "implied total 6.26 \u00b7 xG BOS 3.07 / DET 3.19 (vig removed)"
+    "why": "implied total 5.79 \u00b7 xG BOS 2.88 / DET 2.91 (vig removed)"
    },
    "lenses": {
     "point": [
@@ -4730,10 +4730,10 @@
     },
     "total": {
      "line": 6.5,
-     "over": 109,
-     "under": -129,
+     "over": 113,
+     "under": -133,
      "provider": "JJ's book (screenshot)",
-     "as_of": "2026-11-17T18:41:00Z",
+     "as_of": "2026-11-18T19:32:00Z",
      "status": null
     },
     "book_moneyline": {
@@ -4745,19 +4745,19 @@
    "market": {
     "status": null,
     "line": 6.5,
-    "over": 109,
-    "under": -129,
-    "vig_total": 0.0418,
-    "p_over": 0.4593,
-    "fair_over": "+118",
-    "fair_under": "-118",
-    "implied_total": 6.26,
+    "over": 113,
+    "under": -133,
+    "vig_total": 0.0403,
+    "p_over": 0.4513,
+    "fair_over": "+122",
+    "fair_under": "-122",
+    "implied_total": 6.22,
     "ml_away": 146,
     "ml_home": -172,
     "vig_ml": 0.0389,
     "p_home": 0.6087,
-    "xg_away": 2.83,
-    "xg_home": 3.43,
+    "xg_away": 2.81,
+    "xg_home": 3.41,
     "tone": "mid",
     "xg_tone_away": "bad",
     "xg_tone_home": "good"
@@ -4767,7 +4767,7 @@
     "kind": "side",
     "side": "NJD",
     "label": "SMASH \u00b7 NJD",
-    "why": "implied total 6.26 \u00b7 xG MTL 2.83 / NJD 3.43 (vig removed) \u00b7 NJD \u2265 3.2, opp < 3.0"
+    "why": "implied total 6.22 \u00b7 xG MTL 2.81 / NJD 3.41 (vig removed) \u00b7 NJD \u2265 3.2, opp < 3.0"
    },
    "lenses": {
     "point": [
@@ -8323,22 +8323,45 @@
      "as_of": "2026-11-17T02:17:49.082Z"
     },
     "total": {
-     "line": null,
-     "over": null,
-     "under": null,
-     "provider": null,
-     "as_of": null,
+     "line": 6.5,
+     "over": -103,
+     "under": -117,
+     "provider": "JJ's book (screenshot)",
+     "as_of": "2026-11-18T19:32:00Z",
      "status": null
     },
-    "book_moneyline": null
+    "book_moneyline": {
+     "away": -107,
+     "home": -113,
+     "provider": "JJ's book (screenshot)"
+    }
    },
-   "market": null,
+   "market": {
+    "status": null,
+    "line": 6.5,
+    "over": -103,
+    "under": -117,
+    "vig_total": 0.0466,
+    "p_over": 0.4848,
+    "fair_over": "+106",
+    "fair_under": "-106",
+    "implied_total": 6.41,
+    "ml_away": -107,
+    "ml_home": -113,
+    "vig_ml": 0.0474,
+    "p_home": 0.5065,
+    "xg_away": 3.19,
+    "xg_home": 3.22,
+    "tone": "good",
+    "xg_tone_away": "mid",
+    "xg_tone_home": "good"
+   },
    "smash": {
-    "flag": null,
-    "kind": null,
+    "flag": true,
+    "kind": "all",
     "side": null,
-    "label": "NO LINE",
-    "why": "No book line for this game."
+    "label": "SMASH \u00b7 ALL-AROUND",
+    "why": "implied total 6.41 \u00b7 xG COL 3.19 / UTA 3.22 (vig removed) \u00b7 total \u2265 6.35, both \u2265 3.0"
    },
    "lenses": {
     "point": [
