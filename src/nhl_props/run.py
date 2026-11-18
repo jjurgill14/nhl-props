@@ -81,6 +81,10 @@ def evening(date: str) -> None:
     hot = schedule.games_starting_within(games, 1.0)
     (DATA / "next_sleep").write_text("300" if hot else "900")
     alerts.publish(date)
+    try:  # one card per game about an hour out, whether or not anything changed
+        alerts.pregame(date, games)
+    except Exception as e:
+        log.error("pregame card failed: %s", e)
     if new_alerts:
         log.info("late changes: %s", [a["text"] for a in new_alerts])
         alerts.notify(date, new_alerts)
