@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-18T00:58:02.695830+00:00",
+ "generated_utc": "2026-11-18T01:03:09.486848+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -11724,8 +11724,8 @@
      "ppga_rk": 20,
      "l5_gf": 4.0,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-15T13:51:19.923Z",
-     "lineup_checked": "2026-11-17T15:14:19.952388+00:00",
+     "lineup_as_of": "2026-11-18T01:00:26.377Z",
+     "lineup_checked": "2026-11-18T01:03:06.746169+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -11746,14 +11746,14 @@
        "Matt Boldy"
       ],
       "2": [
+       "Yakov Trenin",
+       "Danila Yurov",
+       "Maxim Shabanov"
+      ],
+      "3": [
        "Blake Coleman",
        "Michael McCarron",
        "Bobby Brink"
-      ],
-      "3": [
-       "Maxim Shabanov",
-       "Danila Yurov",
-       "Yakov Trenin"
       ],
       "4": [
        "Marcus Foligno",
@@ -11919,9 +11919,9 @@
        "team": "MIN",
        "opp": "NSH",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 1,
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -11961,19 +11961,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Danila Yurov",
-         "jersey": 22,
-         "pp": null,
-         "n": 18,
-         "both": 4,
-         "either": 12
-        },
         {
          "name": "Yakov Trenin",
          "jersey": 13,
@@ -11981,6 +11973,14 @@
          "n": 14,
          "both": 2,
          "either": 8
+        },
+        {
+         "name": "Danila Yurov",
+         "jersey": 22,
+         "pp": null,
+         "n": 18,
+         "both": 4,
+         "either": 12
         }
        ]
       },
@@ -12057,11 +12057,11 @@
        "team": "MIN",
        "opp": "NSH",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 22,
        "pt_games": 10,
@@ -12082,12 +12082,12 @@
        ],
        "pp_toi": 1.8,
        "toi": 14.5,
-       "p": 0.382,
-       "fair": "+161",
-       "min": "+177",
-       "p2": 0.049,
-       "fair2": "+1928",
-       "min2": "+2050",
+       "p": 0.361,
+       "fair": "+177",
+       "min": "+194",
+       "p2": 0.04,
+       "fair2": "+2420",
+       "min2": "+2571",
        "adj": [
         [
          "opp",
@@ -12095,7 +12095,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -12119,8 +12119,8 @@
        ]
       },
       {
-       "name": "Michael McCarron",
-       "jersey": 47,
+       "name": "Danila Yurov",
+       "jersey": 22,
        "team": "MIN",
        "opp": "NSH",
        "home": true,
@@ -12129,6 +12129,73 @@
        "pos": "C",
        "gtd": false,
        "role": "top6",
+       "bias": "G",
+       "gp": 22,
+       "pt_games": 9,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 8,
+       "two_games": 2,
+       "home_split": [
+        3,
+        7
+       ],
+       "away_split": [
+        6,
+        15
+       ],
+       "pp_toi": 1.9,
+       "toi": 17.2,
+       "p": 0.352,
+       "fair": "+184",
+       "min": "+201",
+       "p2": 0.079,
+       "fair2": "+1160",
+       "min2": "+1236",
+       "adj": [
+        [
+         "opp",
+         0.9019354838709678
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Yakov Trenin",
+         "jersey": 13,
+         "pp": null,
+         "n": 15,
+         "both": 3,
+         "either": 6
+        },
+        {
+         "name": "Maxim Shabanov",
+         "jersey": 49,
+         "pp": 1,
+         "n": 18,
+         "both": 4,
+         "either": 12
+        }
+       ]
+      },
+      {
+       "name": "Michael McCarron",
+       "jersey": 47,
+       "team": "MIN",
+       "opp": "NSH",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
        "bias": "G",
        "gp": 21,
        "pt_games": 9,
@@ -12149,10 +12216,10 @@
        ],
        "pp_toi": 0.4,
        "toi": 14.9,
-       "p": 0.365,
-       "fair": "+174",
-       "min": "+191",
-       "p2": 0.02,
+       "p": 0.342,
+       "fair": "+192",
+       "min": "+210",
+       "p2": 0.01,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -12162,7 +12229,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -12186,83 +12253,16 @@
        ]
       },
       {
-       "name": "Danila Yurov",
-       "jersey": 22,
-       "team": "MIN",
-       "opp": "NSH",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 22,
-       "pt_games": 9,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 8,
-       "two_games": 2,
-       "home_split": [
-        3,
-        7
-       ],
-       "away_split": [
-        6,
-        15
-       ],
-       "pp_toi": 1.9,
-       "toi": 17.2,
-       "p": 0.331,
-       "fair": "+202",
-       "min": "+221",
-       "p2": 0.07,
-       "fair2": "+1334",
-       "min2": "+1420",
-       "adj": [
-        [
-         "opp",
-         0.9019354838709678
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": -1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Maxim Shabanov",
-         "jersey": 49,
-         "pp": 1,
-         "n": 18,
-         "both": 4,
-         "either": 12
-        },
-        {
-         "name": "Yakov Trenin",
-         "jersey": 13,
-         "pp": null,
-         "n": 15,
-         "both": 3,
-         "either": 6
-        }
-       ]
-      },
-      {
        "name": "Blake Coleman",
        "jersey": 20,
        "team": "MIN",
        "opp": "NSH",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 22,
        "pt_games": 9,
@@ -12283,12 +12283,12 @@
        ],
        "pp_toi": 2.2,
        "toi": 16.6,
-       "p": 0.317,
-       "fair": "+215",
-       "min": "+234",
-       "p2": 0.071,
-       "fair2": "+1300",
-       "min2": "+1384",
+       "p": 0.298,
+       "fair": "+236",
+       "min": "+256",
+       "p2": 0.063,
+       "fair2": "+1493",
+       "min2": "+1589",
        "adj": [
         [
          "opp",
@@ -12300,7 +12300,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -12329,11 +12329,11 @@
        "team": "MIN",
        "opp": "NSH",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 22,
        "pt_games": 3,
@@ -12354,10 +12354,10 @@
        ],
        "pp_toi": 0.0,
        "toi": 12.8,
-       "p": 0.15,
-       "fair": "+565",
-       "min": "+605",
-       "p2": 0.01,
+       "p": 0.172,
+       "fair": "+482",
+       "min": "+516",
+       "p2": 0.019,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -12367,19 +12367,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Maxim Shabanov",
-         "jersey": 49,
-         "pp": 1,
-         "n": 14,
-         "both": 2,
-         "either": 8
-        },
         {
          "name": "Danila Yurov",
          "jersey": 22,
@@ -12387,6 +12379,14 @@
          "n": 15,
          "both": 3,
          "either": 6
+        },
+        {
+         "name": "Maxim Shabanov",
+         "jersey": 49,
+         "pp": 1,
+         "n": 14,
+         "both": 2,
+         "either": 8
         }
        ]
       }

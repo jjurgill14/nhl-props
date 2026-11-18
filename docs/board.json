@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T00:58:03.373937+00:00",
+ "generated_utc": "2026-11-18T01:03:10.189708+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -30288,13 +30288,54 @@
     "goalie_source": "Michael Russo",
     "sv": "0.926",
     "gaa": "1.94",
-    "lineup_as_of": "2026-11-15T13:51:19.923Z",
-    "lineup_checked": "2026-11-17T15:14:19.952388+00:00",
+    "lineup_as_of": "2026-11-18T01:00:26.377Z",
+    "lineup_checked": "2026-11-18T01:03:06.746169+00:00",
     "lineup_stale": false,
     "ga_rk": 32,
     "gf_rk": 8,
     "ppga_rk": 20,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Yakov Trenin: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Danila Yurov: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Maxim Shabanov: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Blake Coleman: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Michael McCarron: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Bobby Brink: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Jared Spurgeon: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-18T01:03:06.751279+00:00",
+      "kind": "move",
+      "text": "Brock Faber: L1\u2192L2"
+     }
+    ],
     "rates": {
      "gp": 22,
      "pp_gp": 22,
@@ -30329,7 +30370,7 @@
      "away": "-155",
      "home": "+130",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-15T13:51:19.923Z"
+     "as_of": "2026-11-18T01:00:26.377Z"
     },
     "total": {
      "line": 6.5,
@@ -30443,7 +30484,7 @@
       "player": "Maxim Shabanov",
       "team": "MIN",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "bias": "G",
       "players": [
        8485702
@@ -32254,11 +32295,11 @@
     },
     "home": {
      "team": "MIN",
-     "as_of": "2026-11-15T13:51:19.923Z",
-     "checked": "2026-11-17T15:14:19.952388+00:00",
+     "as_of": "2026-11-18T01:00:26.377Z",
+     "checked": "2026-11-18T01:03:06.746169+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-14)",
-     "updated_dfo": "2026-11-15T13:51:19.923Z",
+     "source": "Anthony LaPanta",
+     "updated_dfo": "2026-11-18T01:00:26.377Z",
      "forwards": [
       [
        {
@@ -32378,155 +32419,39 @@
       ],
       [
        {
-        "name": "Blake Coleman",
-        "jersey": 20,
+        "name": "Yakov Trenin",
+        "jersey": 13,
         "pos": "LW",
         "slot": null,
-        "player_id": 8476399,
-        "dfo_id": 2728,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 6,
-         "g": 6,
-         "gp": 22,
-         "p": 12,
-         "ppp": 3,
-         "sog": 43,
-         "toi_s": 21052
-        },
-        "last5": {
-         "a": 3,
-         "g": 2,
-         "gp": 5,
-         "p": 5,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4968
-        },
-        "l5_point_games": 3,
-        "gp": 22,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Michael McCarron",
-        "jersey": 47,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8477446,
-        "dfo_id": 2156,
+        "player_id": 8478508,
+        "dfo_id": 3775,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
-        "bias": "G",
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 4,
-         "gp": 21,
-         "p": 9,
-         "ppp": 0,
-         "sog": 36,
-         "toi_s": 17487
-        },
-        "last5": {
-         "a": 0,
-         "g": 2,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4477
-        },
-        "l5_point_games": 2,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Bobby Brink",
-        "jersey": 10,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8481553,
-        "dfo_id": 30223,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 9,
-         "g": 2,
+         "a": 3,
+         "g": 0,
          "gp": 22,
-         "p": 11,
-         "ppp": 3,
-         "sog": 34,
-         "toi_s": 18037
+         "p": 3,
+         "ppp": 0,
+         "sog": 21,
+         "toi_s": 17291
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4358
+         "sog": 4,
+         "toi_s": 3853
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Maxim Shabanov",
-        "jersey": 49,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8485702,
-        "dfo_id": 38466,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 5,
-         "g": 8,
-         "gp": 21,
-         "p": 13,
-         "ppp": 9,
-         "sog": 31,
-         "toi_s": 18889
-        },
-        "last5": {
-         "a": 0,
-         "g": 3,
-         "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 10,
-         "toi_s": 4402
-        },
-        "l5_point_games": 2,
-        "gp": 21,
-        "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -32564,45 +32489,161 @@
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": -1,
          "new": false
         }
        },
        {
-        "name": "Yakov Trenin",
-        "jersey": 13,
+        "name": "Maxim Shabanov",
+        "jersey": 49,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478508,
-        "dfo_id": 3775,
+        "player_id": 8485702,
+        "dfo_id": 38466,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 5,
+         "g": 8,
+         "gp": 21,
+         "p": 13,
+         "ppp": 9,
+         "sog": 31,
+         "toi_s": 18889
+        },
+        "last5": {
+         "a": 0,
+         "g": 3,
+         "gp": 5,
+         "p": 3,
+         "ppp": 2,
+         "sog": 10,
+         "toi_s": 4402
+        },
+        "l5_point_games": 2,
+        "gp": 21,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Blake Coleman",
+        "jersey": 20,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8476399,
+        "dfo_id": 2728,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 6,
+         "g": 6,
+         "gp": 22,
+         "p": 12,
+         "ppp": 3,
+         "sog": 43,
+         "toi_s": 21052
+        },
+        "last5": {
+         "a": 3,
+         "g": 2,
+         "gp": 5,
+         "p": 5,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4968
+        },
+        "l5_point_games": 3,
+        "gp": 22,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Michael McCarron",
+        "jersey": 47,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8477446,
+        "dfo_id": 2156,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": null,
+        "pk": 1,
+        "bias": "G",
         "season": {
-         "a": 3,
-         "g": 0,
-         "gp": 22,
-         "p": 3,
+         "a": 5,
+         "g": 4,
+         "gp": 21,
+         "p": 9,
          "ppp": 0,
-         "sog": 21,
-         "toi_s": 17291
+         "sog": 36,
+         "toi_s": 17487
+        },
+        "last5": {
+         "a": 0,
+         "g": 2,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4477
+        },
+        "l5_point_games": 2,
+        "gp": 21,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Bobby Brink",
+        "jersey": 10,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8481553,
+        "dfo_id": 30223,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 9,
+         "g": 2,
+         "gp": 22,
+         "p": 11,
+         "ppp": 3,
+         "sog": 34,
+         "toi_s": 18037
         },
         "last5": {
          "a": 1,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3853
+         "sog": 8,
+         "toi_s": 4358
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -32766,39 +32807,39 @@
         }
        },
        {
-        "name": "Brock Faber",
-        "jersey": 7,
+        "name": "Jared Spurgeon",
+        "jersey": 46,
         "pos": "RD",
         "slot": null,
-        "player_id": 8482122,
-        "dfo_id": 30792,
+        "player_id": 8474716,
+        "dfo_id": 1557,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 1,
-         "p": 1,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 1469
-        },
-        "last5": {
          "a": 4,
          "g": 1,
-         "gp": 5,
+         "gp": 13,
          "p": 5,
          "ppp": 1,
-         "sog": 8,
-         "toi_s": 7798
+         "sog": 16,
+         "toi_s": 15810
         },
-        "l5_point_games": 1,
-        "gp": 1,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 5294
+        },
+        "l5_point_games": 0,
+        "gp": 13,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -32844,39 +32885,39 @@
         }
        },
        {
-        "name": "Jared Spurgeon",
-        "jersey": 46,
+        "name": "Brock Faber",
+        "jersey": 7,
         "pos": "RD",
         "slot": null,
-        "player_id": 8474716,
-        "dfo_id": 1557,
+        "player_id": 8482122,
+        "dfo_id": 30792,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 4,
-         "g": 1,
-         "gp": 13,
-         "p": 5,
-         "ppp": 1,
-         "sog": 16,
-         "toi_s": 15810
+         "a": 1,
+         "g": 0,
+         "gp": 1,
+         "p": 1,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 1469
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 4,
+         "g": 1,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 5294
+         "p": 5,
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 7798
         },
-        "l5_point_games": 0,
-        "gp": 13,
+        "l5_point_games": 1,
+        "gp": 1,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -33084,7 +33125,7 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33276,7 +33317,7 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -33352,7 +33393,7 @@
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -33428,7 +33469,7 @@
         "l5_point_games": 1,
         "gp": 1,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -33470,7 +33511,7 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -33508,7 +33549,7 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -33662,7 +33703,7 @@
         "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33700,7 +33741,7 @@
         "l5_point_games": 0,
         "gp": 13,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -33738,7 +33779,7 @@
         "l5_point_games": 1,
         "gp": 1,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -33759,19 +33800,19 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 13,
-       "rating": 75.21036526730352
+       "rank": 14,
+       "rating": 75.66983706046227
       },
       "d2": {
-       "rank": 11,
-       "rating": 74.8906446403745
+       "rank": 15,
+       "rating": 73.65198042712801
       },
       "d3": {
-       "rank": 19,
+       "rank": 20,
        "rating": 71.4469042877604
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -33779,15 +33820,15 @@
        "rating": 71.5629880288299
       },
       "f2": {
-       "rank": 34,
-       "rating": 70.47323920959235
-      },
-      "f3": {
-       "rank": 22,
+       "rank": 29,
        "rating": 72.09561466905461
       },
+      "f3": {
+       "rank": 33,
+       "rating": 70.47323920959235
+      },
       "f4": {
-       "rank": 21,
+       "rank": 19,
        "rating": 71.79707571203647
       },
       "g": {
