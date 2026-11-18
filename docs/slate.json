@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_utc": "2026-11-18T12:48:55.663054+00:00",
+ "generated_utc": "2026-11-18T14:51:32.754342+00:00",
  "games": [
   {
    "game_id": 2026020344,
@@ -22,7 +22,7 @@
      "goalie_source": "",
      "sv": "0.906",
      "gaa": "2.6",
-     "ml": "-270",
+     "ml": "225",
      "gp": 21,
      "gf": 3.380952380952381,
      "gf_rk": 8,
@@ -34,8 +34,8 @@
      "ppga_rk": 16,
      "l5_gf": 2.8,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-16T16:47:13.743Z",
-     "lineup_checked": "2026-11-18T09:39:41.937648+00:00",
+     "lineup_as_of": "2026-11-18T11:51:24.206Z",
+     "lineup_checked": "2026-11-18T14:51:30.633382+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -733,7 +733,7 @@
      "goalie_source": "Helene St. James",
      "sv": "0.937",
      "gaa": "1.69",
-     "ml": "220",
+     "ml": "-278",
      "gp": 21,
      "gf": 2.619047619047619,
      "gf_rk": 27,
@@ -746,13 +746,13 @@
      "l5_gf": 1.8,
      "l5_ga": 2.8,
      "lineup_as_of": "2026-11-17T16:48:53.542Z",
-     "lineup_checked": "2026-11-18T09:39:42.156740+00:00",
+     "lineup_checked": "2026-11-18T14:51:30.810735+00:00",
      "lineup_stale": false,
      "out": [
       {
-       "player": "Albert Johansson",
-       "status": "IR",
-       "news": "Johansson (undisclosed) returned to practice in a non-contact jersey on Tuesday."
+       "player": "Dylan Larkin",
+       "status": "OUT",
+       "news": "Detroit has suspended Dylan Larkin without pay."
       },
       {
        "player": "Simon Edvinsson",
@@ -760,9 +760,14 @@
        "news": "The Red Wings activated Edvinsson (lower-body) off injured reserve on Thursday."
       },
       {
-       "player": "Dylan Larkin",
-       "status": "OUT",
-       "news": "Detroit has suspended Dylan Larkin without pay."
+       "player": "Albert Johansson",
+       "status": "IR",
+       "news": "Johansson (undisclosed) returned to practice in a non-contact jersey on Tuesday."
+      },
+      {
+       "player": "William Wallinder",
+       "status": "DTD",
+       "news": "Wallinder is day-to-day with an upper-body injury."
       }
      ],
      "lines": {
@@ -1441,8 +1446,8 @@
      "ppga_rk": 11,
      "l5_gf": 2.4,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-17T00:10:50.579Z",
-     "lineup_checked": "2026-11-18T09:39:42.259987+00:00",
+     "lineup_as_of": "2026-11-18T12:16:41.673Z",
+     "lineup_checked": "2026-11-18T14:51:30.884197+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -1461,14 +1466,19 @@
        "news": "Anderson (lower-body) will be out for approximately 3-4 weeks."
       },
       {
+       "player": "Chris Kreider",
+       "status": "IR",
+       "news": "Kreider (lower-body) will miss 6-to-8 weeks."
+      },
+      {
        "player": "Mike Matheson",
-       "status": "DTD",
+       "status": "OUT",
        "news": "Matheson (lower-body) is expected to be out for 2-3 weeks."
       },
       {
-       "player": "Chris Kreider",
-       "status": "OUT",
-       "news": "Kreider (lower-body) will miss 6-to-8 weeks."
+       "player": "Alexandre Texier",
+       "status": "DTD",
+       "news": "Texier (illness) missed practice on Tuesday."
       }
      ],
      "lines": {
@@ -1994,7 +2004,7 @@
        "line": 2,
        "pp": 2,
        "pos": "RW",
-       "gtd": false,
+       "gtd": true,
        "role": "top6",
        "bias": null,
        "gp": 21,
@@ -2145,7 +2155,7 @@
      "l5_gf": 4.6,
      "l5_ga": 2.8,
      "lineup_as_of": "2026-11-17T17:43:53.464Z",
-     "lineup_checked": "2026-11-18T09:39:42.354959+00:00",
+     "lineup_checked": "2026-11-18T14:51:30.956977+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2155,12 +2165,12 @@
       },
       {
        "player": "Anthony Mantha",
-       "status": "OUT",
+       "status": "IR",
        "news": "Mantha had surgery on Monday to repair a fracture in his throat and is expected out for a month."
       },
       {
        "player": "Johnathan Kovacevic",
-       "status": "OUT",
+       "status": "IR",
        "news": "Kovacevic (ankle sprain) is expected to miss the next 4-6 weeks."
       }
      ],
@@ -2840,8 +2850,8 @@
      "ppga_rk": 22,
      "l5_gf": 3.8,
      "l5_ga": 2.2,
-     "lineup_as_of": "2026-11-17T18:49:19.677Z",
-     "lineup_checked": "2026-11-18T09:39:42.034583+00:00",
+     "lineup_as_of": "2026-11-18T12:10:42.916Z",
+     "lineup_checked": "2026-11-18T14:51:30.724704+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2851,7 +2861,7 @@
       },
       {
        "player": "Zachary L'Heureux",
-       "status": "OUT",
+       "status": "IR",
        "news": "L'Heureux (upper-body) will miss at least two more games."
       },
       {
@@ -2863,6 +2873,11 @@
        "player": "Cale Makar",
        "status": "OUT",
        "news": "Makar is expected to miss a couple of weeks with a lower-body injury."
+      },
+      {
+       "player": "Scott Wedgewood",
+       "status": "DTD",
+       "news": "Wedgewood (illness) left Colorado's practice on Tuesday and did not return."
       }
      ],
      "lines": {
