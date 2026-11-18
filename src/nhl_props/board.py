@@ -50,11 +50,18 @@ def manual_odds(date: str) -> dict[tuple[str, str], dict]:
 
 LENSES = {
     "point": "Point",
+    "assist": "Assist",
+    "goal": "Goal",
+    "sneaky_point": "Sneaky point · depth heaters",
+    "sneaky_assist": "Sneaky assist · depth heaters",
+    "sneaky_goal": "Sneaky goal · depth heaters",
     "pair": "Linemate pair · both score",
     "two": "2+ points",
     "pp1": "PP1 mates · both score",
     "btts2": "Both teams 2+ goals",
 }
+STAT_WORD = {"points": "Point", "goals": "Goal", "assists": "Assist"}
+STAT_SEL = {"points": "1+ point", "goals": "1+ goal", "assists": "1+ assist"}
 
 
 def records(before_date: str) -> dict[str, dict]:
@@ -173,7 +180,37 @@ def lenses_for(g: dict, ids: dict | None = None) -> dict[str, list[dict]]:
     btts = [_play(f"Both teams 2+ goals · {verdict}", pb,
                   f"{a['team']} xG {la:.2f} · {h['team']} xG {lh:.2f} · P({a['team']} 2+) {round(p2(la)*100)}% · P({h['team']} 2+) {round(p2(lh)*100)}%",
                   verdict=verdict)]
-    return {"point": point, "pair": pairs[:5], "two": two, "pp1": pp1[:4], "btts2": btts}
+    def slot(p):
+        return ("L" if p.get("section", "F") == "F" else "D") + str(p["line"]) + (" · PP1" if p["pp"] == 1 else " · PP2" if p["pp"] == 2 else "")
+
+    def stat_reason(p, st):
+        f = p["form"][st]
+        bits = [f"{STAT_WORD[st]} in {f['k']} of {p['gp']} this season", f"{f['k5']} of L{f['n5']}"]
+        if team_of(p)["b2b"]:
+            bits.append("B2B")
+        return " · ".join(bits)
+
+    def stat_lens(st):
+        out = []
+        for p in sorted(players, key=lambda x: -x["form"][st]["p"])[:6]:
+            out.append(_play(f"{p['name']} · {STAT_SEL[st]}", p["form"][st]["p"], stat_reason(p, st),
+                             player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], players=[pid(p)]))
+        return out
+
+    def sneaky_lens(st):
+        pool = [p for p in players if p["sneaky"] and p["form"][st]["heater"]]
+        out = []
+        for p in sorted(pool, key=lambda x: -x["form"][st]["p_hot"])[:5]:
+            f = p["form"][st]
+            out.append(_play(f"{p['name']} · {STAT_SEL[st]}", f["p_hot"],
+                             f"{slot(p)} · {f['k5']} of L5 · {f['k10']} of L10 · {f['k']} of {p['gp']} season"
+                             + (" · B2B" if team_of(p)["b2b"] else ""),
+                             player=p["name"], team=p["team"], pp=p["pp"], line=p["line"], players=[pid(p)], sneaky=True))
+        return out
+
+    return {"point": point, "assist": stat_lens("assists"), "goal": stat_lens("goals"),
+            "sneaky_point": sneaky_lens("points"), "sneaky_assist": sneaky_lens("assists"), "sneaky_goal": sneaky_lens("goals"),
+            "pair": pairs[:5], "two": two, "pp1": pp1[:4], "btts2": btts}
 
 
 def build(date: str | None = None) -> Path:

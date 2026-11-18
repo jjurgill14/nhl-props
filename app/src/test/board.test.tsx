@@ -16,6 +16,7 @@ const game = (id: string, start_utc: string, away: TeamSide, home: TeamSide, pla
   markets: { moneyline: { away: '+120', home: '-140', provider: 'Daily Faceoff', as_of: null }, total: { line: null, provider: null, as_of: null } },
   lenses: {
     point: plays ? [{ selection: `${away.abbr} guy · 1+ point`, prob: 0.6, fair: '-150', need: '-130', rationale: 'because' }] : [],
+    assist: [], goal: [], sneaky_point: [], sneaky_assist: [], sneaky_goal: [],
     pair: [], two: [], pp1: [], btts2: [],
   },
 })
@@ -23,7 +24,7 @@ const game = (id: string, start_utc: string, away: TeamSide, home: TeamSide, pla
 // Nov 7 2026 is EST (DST ended Nov 1): 17:30Z = 12:30 PM ET, 00:00Z next day = 7:00 PM ET.
 const fixture: BoardData = {
   mode: 'live', date: '2026-11-07', generated_utc: '2026-11-07T10:00:00Z',
-  lenses: { point: 'Point', pair: 'Pair', two: '2+ points', pp1: 'PP1 mates', btts2: 'Both teams 2+' },
+  lenses: { point: 'Point', assist: 'Assist', goal: 'Goal', sneaky_point: 'Sneaky point', sneaky_assist: 'Sneaky assist', sneaky_goal: 'Sneaky goal', pair: 'Pair', two: '2+ points', pp1: 'PP1 mates', btts2: 'Both teams 2+' },
   default_slots: ['point', 'pair', 'two'],
   games: [
     game('01', '2026-11-07T17:30:00Z', team('FLA', 'Florida', 'Panthers'), team('WSH', 'Washington', 'Capitals')),

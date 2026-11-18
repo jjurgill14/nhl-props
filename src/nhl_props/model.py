@@ -18,8 +18,14 @@ EDGE = 1.06           # need = price with +6% expected return: odds at P ÷ EDGE
 OPP_NUDGE = 0.16      # ±8% by opponent GA rank (rank 1 = leakiest)
 B2B_POINT = 0.86      # second leg of a back-to-back, measured n=57 (team goals −14%)
 B2B_TWO = 0.78        # same, for 2+ points
-ROLE_PRIOR = {"pp1": 0.54, "top6": 0.34, "other": 0.25}
-ROLE_PRIOR_2 = {"pp1": 0.20, "top6": 0.08, "other": 0.04}
+# Season-to-date base rates by lineup role (measured 2026-11-18, ~12k player-games): point / goal / assist games
+ROLE_PRIOR = {"pp1": 0.54, "top6": 0.34, "other": 0.25, "d_pp1": 0.55, "d": 0.23}
+ROLE_PRIOR_2 = {"pp1": 0.20, "top6": 0.08, "other": 0.04, "d_pp1": 0.12, "d": 0.03}
+ROLE_PRIOR_G = {"pp1": 0.28, "top6": 0.19, "other": 0.12, "d_pp1": 0.15, "d": 0.06}
+ROLE_PRIOR_A = {"pp1": 0.39, "top6": 0.24, "other": 0.15, "d_pp1": 0.48, "d": 0.18}
+# "Sneaky": depth forwards (L3/L4, no PP1) and non-PP1 defensemen whose recent form beats their season rate.
+SNEAKY_ROLES = {"other", "d"}
+HEAT_MIN = {"points": 3, "goals": 2, "assists": 2}  # hits in L5 to count as a heater
 
 
 def american(p: float) -> str:
@@ -27,7 +33,9 @@ def american(p: float) -> str:
     return f"+{round(100 * (1 - p) / p)}" if p < 0.5 else f"-{round(100 * p / (1 - p))}"
 
 
-def _role(pp_unit: int | None, line_no: int) -> str:
+def _role(pp_unit: int | None, line_no: int, section: str = "F") -> str:
+    if section == "D":
+        return "d_pp1" if pp_unit == 1 else "d"
     return "pp1" if pp_unit == 1 else ("top6" if line_no <= 2 else "other")
 
 
@@ -92,14 +100,18 @@ def build_slate(date: str) -> dict:
             orr = season.get(o, {})
             b2b = _played_yesterday(t, date)
             ev = collections.defaultdict(list)
+            evd = collections.defaultdict(list)
             if cur:
                 for row in cur.get("lines", []):
                     if row["section"] == "F" and row.get("unit_no"):
                         ev[row["unit_no"]].append(row["player"])
+                    elif row["section"] == "D" and row.get("unit_no"):
+                        evd[row["unit_no"]].append(row["player"])
             players = []
             if cur:
                 for row in cur.get("lines", []):
-                    if row["section"] != "F" or row.get("unit_no") not in (1, 2, 3):
+                    sec = row["section"]
+                    if sec not in ("F", "D") or row.get("unit_no") not in (1, 2, 3, 4):
                         continue
                     n = row["player"]
                     rows = logs.get((t, analysis.norm(n)), [])
@@ -114,7 +126,18 @@ def build_slate(date: str) -> dict:
                     venue_rows = [x for x in rows if (x.get("home") == "1") == (side == "home")]
                     vk5, vn5 = _hits(venue_rows, n=5)  # last 5 at tonight's venue (home or road)
                     vk5_2, _ = _hits(venue_rows, n=5, thresh=2)
-                    role = _role(pp.get(n), row["unit_no"])
+                    role = _role(pp.get(n), row["unit_no"], sec)
+                    # goal / assist game rates and recent form, for the goal/assist and sneaky lenses
+                    form = {}
+                    for st, prior in (("points", ROLE_PRIOR[role]), ("goals", ROLE_PRIOR_G[role]), ("assists", ROLE_PRIOR_A[role])):
+                        ks, _ = _hits(rows, st)
+                        ks5, ns5 = _hits(rows, st, n=5)
+                        ks10, ns10 = _hits(rows, st, n=10)
+                        form[st] = {"k": ks, "k5": ks5, "n5": ns5, "k10": ks10, "n10": ns10,
+                                    "p": _shrink(ks, gp, prior),
+                                    # heater price: L10 with L5 counted twice, shrunk to the role prior
+                                    "p_hot": _shrink(ks10 + ks5, ns10 + ns5, prior),
+                                    "heater": gp >= 5 and ks5 >= HEAT_MIN[st] and ns5 and (ks5 / ns5) > (ks / gp)}
                     p = _shrink(k, gp, ROLE_PRIOR[role])
                     p2 = _shrink(k2, gp, ROLE_PRIOR_2[role])
                     adj = []
@@ -136,10 +159,16 @@ def build_slate(date: str) -> dict:
                         p *= B2B_POINT; p2 *= B2B_TWO
                         adj.append(("b2b", B2B_POINT))
                     p = min(0.85, p); p2 = min(0.60, p2)
+                    mult = 1.0
+                    for _, f_ in adj:
+                        mult *= f_
+                    for st in form.values():
+                        st["p"] = min(0.85, st["p"] * mult)
+                        st["p_hot"] = min(0.85, st["p_hot"] * mult)
                     avg_pp = sum(analysis._i(x.get("pp_toi_s")) for x in rows[-5:]) / max(1, len(rows[-5:])) / 60
                     avg_toi = sum(analysis._i(x.get("toi_s")) for x in rows[-5:]) / max(1, len(rows[-5:])) / 60
                     partners = []
-                    for m in [m for m in ev[row["unit_no"]] if m != n]:
+                    for m in [m for m in (ev if sec == "F" else evd)[row["unit_no"]] if m != n]:
                         q = pairs.get((t,) + tuple(sorted((analysis.norm(n), analysis.norm(m)))))
                         partners.append({
                             "name": m, "jersey": jer.get(m), "pp": pp.get(m),
@@ -148,8 +177,9 @@ def build_slate(date: str) -> dict:
                         })
                     m = mv.get(n) or {}
                     players.append({
-                        "name": n, "jersey": jer.get(n), "team": t, "opp": o,
+                        "name": n, "jersey": jer.get(n), "team": t, "opp": o, "section": sec,
                         "home": side == "home", "line": row["unit_no"], "pp": pp.get(n),
+                        "sneaky": role in SNEAKY_ROLES, "form": form,
                         "pos": row.get("pos"), "gtd": row.get("gtd"), "role": role,
                         "bias": analysis.bias(rows),
                         "gp": gp, "pt_games": k, "l5": [k5, n5], "ast_games": ka, "goal_games": kg,

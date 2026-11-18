@@ -1027,9 +1027,14 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T21:24:35.598885+00:00",
+ "generated_utc": "2026-11-18T21:30:52.796228+00:00",
  "lenses": {
   "point": "Point",
+  "assist": "Assist",
+  "goal": "Goal",
+  "sneaky_point": "Sneaky point \u00b7 depth heaters",
+  "sneaky_assist": "Sneaky assist \u00b7 depth heaters",
+  "sneaky_goal": "Sneaky goal \u00b7 depth heaters",
   "pair": "Linemate pair \u00b7 both score",
   "two": "2+ points",
   "pp1": "PP1 mates \u00b7 both score",
@@ -1273,21 +1278,227 @@
       ]
      },
      {
-      "selection": "Alex DeBrincat \u00b7 1+ point",
-      "prob": 0.435,
-      "fair": "+130",
-      "need": "+144",
-      "rationale": "Point in 10 of 21 this season \u00b7 0 of L5 \u00b7 2 of L5 home",
-      "player": "Alex DeBrincat",
+      "selection": "Moritz Seider \u00b7 1+ point",
+      "prob": 0.438,
+      "fair": "+128",
+      "need": "+142",
+      "rationale": "Point in 10 of 21 this season \u00b7 2 of L5 \u00b7 3 of L5 home",
+      "player": "Moritz Seider",
       "team": "DET",
       "pp": 1,
       "line": 1,
       "bias": "A",
       "players": [
+       8481542
+      ]
+     }
+    ],
+    "assist": [
+     {
+      "selection": "David Pastrnak \u00b7 1+ assist",
+      "prob": 0.432,
+      "fair": "+131",
+      "need": "+145",
+      "rationale": "Assist in 12 of 21 this season \u00b7 3 of L5 \u00b7 B2B",
+      "player": "David Pastrnak",
+      "team": "BOS",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8477956
+      ]
+     },
+     {
+      "selection": "Moritz Seider \u00b7 1+ assist",
+      "prob": 0.39,
+      "fair": "+156",
+      "need": "+172",
+      "rationale": "Assist in 9 of 21 this season \u00b7 1 of L5",
+      "player": "Moritz Seider",
+      "team": "DET",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8481542
+      ]
+     },
+     {
+      "selection": "Lucas Raymond \u00b7 1+ assist",
+      "prob": 0.368,
+      "fair": "+172",
+      "need": "+188",
+      "rationale": "Assist in 9 of 21 this season \u00b7 2 of L5",
+      "player": "Lucas Raymond",
+      "team": "DET",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8482078
+      ]
+     },
+     {
+      "selection": "Alex DeBrincat \u00b7 1+ assist",
+      "prob": 0.338,
+      "fair": "+196",
+      "need": "+214",
+      "rationale": "Assist in 8 of 21 this season \u00b7 0 of L5",
+      "player": "Alex DeBrincat",
+      "team": "DET",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8479337
+      ]
+     },
+     {
+      "selection": "Elias Lindholm \u00b7 1+ assist",
+      "prob": 0.318,
+      "fair": "+215",
+      "need": "+233",
+      "rationale": "Assist in 8 of 21 this season \u00b7 1 of L5 \u00b7 B2B",
+      "player": "Elias Lindholm",
+      "team": "BOS",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8477496
+      ]
+     },
+     {
+      "selection": "Morgan Geekie \u00b7 1+ assist",
+      "prob": 0.318,
+      "fair": "+215",
+      "need": "+233",
+      "rationale": "Assist in 8 of 21 this season \u00b7 2 of L5 \u00b7 B2B",
+      "player": "Morgan Geekie",
+      "team": "BOS",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8479987
+      ]
+     }
+    ],
+    "goal": [
+     {
+      "selection": "Lucas Raymond \u00b7 1+ goal",
+      "prob": 0.281,
+      "fair": "+256",
+      "need": "+277",
+      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5",
+      "player": "Lucas Raymond",
+      "team": "DET",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8482078
+      ]
+     },
+     {
+      "selection": "Emmitt Finnie \u00b7 1+ goal",
+      "prob": 0.281,
+      "fair": "+256",
+      "need": "+277",
+      "rationale": "Goal in 7 of 21 this season \u00b7 0 of L5",
+      "player": "Emmitt Finnie",
+      "team": "DET",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8484471
+      ]
+     },
+     {
+      "selection": "David Pastrnak \u00b7 1+ goal",
+      "prob": 0.264,
+      "fair": "+279",
+      "need": "+301",
+      "rationale": "Goal in 7 of 21 this season \u00b7 1 of L5 \u00b7 B2B",
+      "player": "David Pastrnak",
+      "team": "BOS",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8477956
+      ]
+     },
+     {
+      "selection": "Elias Lindholm \u00b7 1+ goal",
+      "prob": 0.264,
+      "fair": "+279",
+      "need": "+301",
+      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5 \u00b7 B2B",
+      "player": "Elias Lindholm",
+      "team": "BOS",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8477496
+      ]
+     },
+     {
+      "selection": "Viktor Arvidsson \u00b7 1+ goal",
+      "prob": 0.25,
+      "fair": "+299",
+      "need": "+323",
+      "rationale": "Goal in 6 of 21 this season \u00b7 0 of L5",
+      "player": "Viktor Arvidsson",
+      "team": "DET",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8478042
+      ]
+     },
+     {
+      "selection": "Alex DeBrincat \u00b7 1+ goal",
+      "prob": 0.22,
+      "fair": "+355",
+      "need": "+382",
+      "rationale": "Goal in 5 of 21 this season \u00b7 0 of L5",
+      "player": "Alex DeBrincat",
+      "team": "DET",
+      "pp": 1,
+      "line": 1,
+      "players": [
        8479337
       ]
      }
     ],
+    "sneaky_point": [],
+    "sneaky_assist": [
+     {
+      "selection": "Carter Mazur \u00b7 1+ assist",
+      "prob": 0.238,
+      "fair": "+321",
+      "need": "+346",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 14 season",
+      "player": "Carter Mazur",
+      "team": "DET",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8482802
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Nikita Zadorov \u00b7 1+ assist",
+      "prob": 0.232,
+      "fair": "+331",
+      "need": "+357",
+      "rationale": "D2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 6 of 20 season \u00b7 B2B",
+      "player": "Nikita Zadorov",
+      "team": "BOS",
+      "pp": null,
+      "line": 2,
+      "players": [
+       8477507
+      ],
+      "sneaky": true
+     }
+    ],
+    "sneaky_goal": [],
     "pair": [
      {
       "selection": "Pastrnak + Zacha \u00b7 both 1+ point",
@@ -4817,6 +5028,21 @@
       ]
      },
      {
+      "selection": "Lane Hutson \u00b7 1+ point",
+      "prob": 0.572,
+      "fair": "-134",
+      "need": "-117",
+      "rationale": "Point in 13 of 21 this season \u00b7 3 of L5 \u00b7 3 of L5 away",
+      "player": "Lane Hutson",
+      "team": "MTL",
+      "pp": 1,
+      "line": 1,
+      "bias": "A",
+      "players": [
+       8483457
+      ]
+     },
+     {
       "selection": "Cole Caufield \u00b7 1+ point",
       "prob": 0.537,
       "fair": "-116",
@@ -4845,21 +5071,364 @@
       "players": [
        8480018
       ]
+     }
+    ],
+    "assist": [
+     {
+      "selection": "Jack Hughes \u00b7 1+ assist",
+      "prob": 0.553,
+      "fair": "-124",
+      "need": "-109",
+      "rationale": "Assist in 13 of 21 this season \u00b7 3 of L5",
+      "player": "Jack Hughes",
+      "team": "NJD",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8481559
+      ]
      },
      {
-      "selection": "Zack Bolduc \u00b7 1+ point",
-      "prob": 0.515,
-      "fair": "-106",
-      "need": "+106",
-      "rationale": "Point in 0 of 0 this season \u00b7 0 of L0",
+      "selection": "Jesper Bratt \u00b7 1+ assist",
+      "prob": 0.546,
+      "fair": "-120",
+      "need": "-106",
+      "rationale": "Assist in 14 of 21 this season \u00b7 4 of L5",
+      "player": "Jesper Bratt",
+      "team": "NJD",
+      "pp": 2,
+      "line": 1,
+      "players": [
+       8479407
+      ]
+     },
+     {
+      "selection": "Lane Hutson \u00b7 1+ assist",
+      "prob": 0.521,
+      "fair": "-109",
+      "need": "+104",
+      "rationale": "Assist in 12 of 21 this season \u00b7 3 of L5",
+      "player": "Lane Hutson",
+      "team": "MTL",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8483457
+      ]
+     },
+     {
+      "selection": "Arseny Gritsyuk \u00b7 1+ assist",
+      "prob": 0.381,
+      "fair": "+162",
+      "need": "+178",
+      "rationale": "Assist in 8 of 21 this season \u00b7 4 of L5",
+      "player": "Arseny Gritsyuk",
+      "team": "NJD",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8481721
+      ]
+     },
+     {
+      "selection": "Zack Bolduc \u00b7 1+ assist",
+      "prob": 0.372,
+      "fair": "+169",
+      "need": "+185",
+      "rationale": "Assist in 0 of 0 this season \u00b7 0 of L0",
       "player": "Zack Bolduc",
       "team": "MTL",
       "pp": 1,
       "line": 2,
-      "bias": null,
       "players": [
        null
       ]
+     },
+     {
+      "selection": "Luke Evangelista \u00b7 1+ assist",
+      "prob": 0.341,
+      "fair": "+193",
+      "need": "+211",
+      "rationale": "Assist in 7 of 18 this season \u00b7 2 of L5",
+      "player": "Luke Evangelista",
+      "team": "NJD",
+      "pp": 2,
+      "line": 2,
+      "players": [
+       8482146
+      ]
+     }
+    ],
+    "goal": [
+     {
+      "selection": "Nick Suzuki \u00b7 1+ goal",
+      "prob": 0.382,
+      "fair": "+162",
+      "need": "+177",
+      "rationale": "Goal in 8 of 15 this season \u00b7 2 of L5",
+      "player": "Nick Suzuki",
+      "team": "MTL",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8480018
+      ]
+     },
+     {
+      "selection": "Jack Hughes \u00b7 1+ goal",
+      "prob": 0.351,
+      "fair": "+185",
+      "need": "+202",
+      "rationale": "Goal in 8 of 21 this season \u00b7 2 of L5",
+      "player": "Jack Hughes",
+      "team": "NJD",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8481559
+      ]
+     },
+     {
+      "selection": "Cole Caufield \u00b7 1+ goal",
+      "prob": 0.337,
+      "fair": "+197",
+      "need": "+215",
+      "rationale": "Goal in 8 of 21 this season \u00b7 1 of L5",
+      "player": "Cole Caufield",
+      "team": "MTL",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8481540
+      ]
+     },
+     {
+      "selection": "Arseny Gritsyuk \u00b7 1+ goal",
+      "prob": 0.317,
+      "fair": "+215",
+      "need": "+234",
+      "rationale": "Goal in 7 of 21 this season \u00b7 0 of L5",
+      "player": "Arseny Gritsyuk",
+      "team": "NJD",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8481721
+      ]
+     },
+     {
+      "selection": "Nico Hischier \u00b7 1+ goal",
+      "prob": 0.317,
+      "fair": "+215",
+      "need": "+234",
+      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5",
+      "player": "Nico Hischier",
+      "team": "NJD",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8480002
+      ]
+     },
+     {
+      "selection": "Connor Brown \u00b7 1+ goal",
+      "prob": 0.296,
+      "fair": "+238",
+      "need": "+259",
+      "rationale": "Goal in 4 of 13 this season \u00b7 2 of L5",
+      "player": "Connor Brown",
+      "team": "NJD",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8477015
+      ]
+     }
+    ],
+    "sneaky_point": [
+     {
+      "selection": "Stefan Noesen \u00b7 1+ point",
+      "prob": 0.497,
+      "fair": "+101",
+      "need": "+113",
+      "rationale": "L3 \u00b7 4 of L5 \u00b7 4 of L10 \u00b7 4 of 7 season",
+      "player": "Stefan Noesen",
+      "team": "NJD",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8476474
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Cody Glass \u00b7 1+ point",
+      "prob": 0.476,
+      "fair": "+110",
+      "need": "+123",
+      "rationale": "L4 \u00b7 4 of L5 \u00b7 5 of L10 \u00b7 6 of 21 season",
+      "player": "Cody Glass",
+      "team": "NJD",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8479996
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Evan Rodrigues \u00b7 1+ point",
+      "prob": 0.389,
+      "fair": "+157",
+      "need": "+172",
+      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 7 of 21 season",
+      "player": "Evan Rodrigues",
+      "team": "NJD",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8478542
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Owen Beck \u00b7 1+ point",
+      "prob": 0.381,
+      "fair": "+162",
+      "need": "+178",
+      "rationale": "L4 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 3 of 7 season",
+      "player": "Owen Beck",
+      "team": "MTL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8483424
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Declan Chisholm \u00b7 1+ point",
+      "prob": 0.339,
+      "fair": "+195",
+      "need": "+213",
+      "rationale": "D3 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 5 of 19 season",
+      "player": "Declan Chisholm",
+      "team": "NJD",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8480990
+      ],
+      "sneaky": true
+     }
+    ],
+    "sneaky_assist": [
+     {
+      "selection": "Cody Glass \u00b7 1+ assist",
+      "prob": 0.355,
+      "fair": "+182",
+      "need": "+199",
+      "rationale": "L4 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 4 of 21 season",
+      "player": "Cody Glass",
+      "team": "NJD",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8479996
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Brett Pesce \u00b7 1+ assist",
+      "prob": 0.322,
+      "fair": "+211",
+      "need": "+229",
+      "rationale": "D1 \u00b7 2 of L5 \u00b7 4 of L10 \u00b7 5 of 19 season",
+      "player": "Brett Pesce",
+      "team": "NJD",
+      "pp": null,
+      "line": 1,
+      "players": [
+       8477488
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Stefan Noesen \u00b7 1+ assist",
+      "prob": 0.259,
+      "fair": "+287",
+      "need": "+310",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 2 of 7 season",
+      "player": "Stefan Noesen",
+      "team": "NJD",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8476474
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Owen Beck \u00b7 1+ assist",
+      "prob": 0.248,
+      "fair": "+303",
+      "need": "+328",
+      "rationale": "L4 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 2 of 7 season",
+      "player": "Owen Beck",
+      "team": "MTL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8483424
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Declan Chisholm \u00b7 1+ assist",
+      "prob": 0.235,
+      "fair": "+325",
+      "need": "+350",
+      "rationale": "D3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 19 season",
+      "player": "Declan Chisholm",
+      "team": "NJD",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8480990
+      ],
+      "sneaky": true
+     }
+    ],
+    "sneaky_goal": [
+     {
+      "selection": "Evan Rodrigues \u00b7 1+ goal",
+      "prob": 0.301,
+      "fair": "+232",
+      "need": "+252",
+      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 5 of 21 season",
+      "player": "Evan Rodrigues",
+      "team": "NJD",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8478542
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Stefan Noesen \u00b7 1+ goal",
+      "prob": 0.247,
+      "fair": "+305",
+      "need": "+330",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 2 of 7 season",
+      "player": "Stefan Noesen",
+      "team": "NJD",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8476474
+      ],
+      "sneaky": true
      }
     ],
     "pair": [
@@ -5002,17 +5571,17 @@
       ]
      },
      {
-      "selection": "Jesper Bratt \u00b7 2+ points",
-      "prob": 0.193,
-      "fair": "+418",
-      "need": "+449",
-      "rationale": "2+ in 5 of 21 this season \u00b7 2 of L5 home",
-      "player": "Jesper Bratt",
-      "team": "NJD",
-      "pp": 2,
+      "selection": "Lane Hutson \u00b7 2+ points",
+      "prob": 0.196,
+      "fair": "+410",
+      "need": "+441",
+      "rationale": "2+ in 5 of 21 this season \u00b7 0 of L5 away",
+      "player": "Lane Hutson",
+      "team": "MTL",
+      "pp": 1,
       "line": 1,
       "players": [
-       8479407
+       8483457
       ]
      }
     ],
@@ -8396,6 +8965,21 @@
       ]
      },
      {
+      "selection": "Devon Toews \u00b7 1+ point",
+      "prob": 0.64,
+      "fair": "-178",
+      "need": "-152",
+      "rationale": "Point in 13 of 21 this season \u00b7 3 of L5 \u00b7 3 of L5 away",
+      "player": "Devon Toews",
+      "team": "COL",
+      "pp": 1,
+      "line": 1,
+      "bias": "A",
+      "players": [
+       8478038
+      ]
+     },
+     {
       "selection": "Nazem Kadri \u00b7 1+ point",
       "prob": 0.637,
       "fair": "-175",
@@ -8408,6 +8992,21 @@
       "bias": null,
       "players": [
        8475172
+      ]
+     },
+     {
+      "selection": "Mikhail Sergachev \u00b7 1+ point",
+      "prob": 0.637,
+      "fair": "-175",
+      "need": "-151",
+      "rationale": "Point in 15 of 22 this season \u00b7 1 of L5 \u00b7 3 of L5 home",
+      "player": "Mikhail Sergachev",
+      "team": "UTA",
+      "pp": 1,
+      "line": 1,
+      "bias": null,
+      "players": [
+       8479410
       ]
      },
      {
@@ -8424,36 +9023,274 @@
       "players": [
        8483431
       ]
+     }
+    ],
+    "assist": [
+     {
+      "selection": "Clayton Keller \u00b7 1+ assist",
+      "prob": 0.66,
+      "fair": "-194",
+      "need": "-165",
+      "rationale": "Assist in 17 of 22 this season \u00b7 4 of L5",
+      "player": "Clayton Keller",
+      "team": "UTA",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8479343
+      ]
      },
      {
-      "selection": "Martin Necas \u00b7 1+ point",
-      "prob": 0.54,
-      "fair": "-117",
-      "need": "-104",
-      "rationale": "Point in 12 of 21 this season \u00b7 3 of L5 \u00b7 1 of L5 away",
+      "selection": "Devon Toews \u00b7 1+ assist",
+      "prob": 0.546,
+      "fair": "-120",
+      "need": "-106",
+      "rationale": "Assist in 11 of 21 this season \u00b7 3 of L5",
+      "player": "Devon Toews",
+      "team": "COL",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8478038
+      ]
+     },
+     {
+      "selection": "Mikhail Sergachev \u00b7 1+ assist",
+      "prob": 0.52,
+      "fair": "-108",
+      "need": "+104",
+      "rationale": "Assist in 12 of 22 this season \u00b7 1 of L5",
+      "player": "Mikhail Sergachev",
+      "team": "UTA",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8479410
+      ]
+     },
+     {
+      "selection": "Nazem Kadri \u00b7 1+ assist",
+      "prob": 0.483,
+      "fair": "+107",
+      "need": "+120",
+      "rationale": "Assist in 10 of 21 this season \u00b7 3 of L5",
+      "player": "Nazem Kadri",
+      "team": "COL",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8475172
+      ]
+     },
+     {
+      "selection": "Logan Cooley \u00b7 1+ assist",
+      "prob": 0.478,
+      "fair": "+109",
+      "need": "+122",
+      "rationale": "Assist in 10 of 19 this season \u00b7 3 of L5",
+      "player": "Logan Cooley",
+      "team": "UTA",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8483431
+      ]
+     },
+     {
+      "selection": "Martin Necas \u00b7 1+ assist",
+      "prob": 0.401,
+      "fair": "+149",
+      "need": "+164",
+      "rationale": "Assist in 9 of 21 this season \u00b7 2 of L5",
       "player": "Martin Necas",
       "team": "COL",
       "pp": 1,
       "line": 1,
-      "bias": null,
+      "players": [
+       8480039
+      ]
+     }
+    ],
+    "goal": [
+     {
+      "selection": "Artturi Lehkonen \u00b7 1+ goal",
+      "prob": 0.487,
+      "fair": "+105",
+      "need": "+118",
+      "rationale": "Goal in 11 of 21 this season \u00b7 3 of L5",
+      "player": "Artturi Lehkonen",
+      "team": "COL",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8477476
+      ]
+     },
+     {
+      "selection": "Martin Necas \u00b7 1+ goal",
+      "prob": 0.306,
+      "fair": "+227",
+      "need": "+246",
+      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5",
+      "player": "Martin Necas",
+      "team": "COL",
+      "pp": 1,
+      "line": 1,
       "players": [
        8480039
       ]
      },
      {
-      "selection": "Gabriel Landeskog \u00b7 1+ point",
-      "prob": 0.515,
-      "fair": "-106",
-      "need": "+106",
-      "rationale": "Point in 12 of 21 this season \u00b7 2 of L5 \u00b7 3 of L5 away",
+      "selection": "Logan Cooley \u00b7 1+ goal",
+      "prob": 0.3,
+      "fair": "+233",
+      "need": "+253",
+      "rationale": "Goal in 6 of 19 this season \u00b7 2 of L5",
+      "player": "Logan Cooley",
+      "team": "UTA",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8483431
+      ]
+     },
+     {
+      "selection": "Gabriel Landeskog \u00b7 1+ goal",
+      "prob": 0.293,
+      "fair": "+241",
+      "need": "+262",
+      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5",
       "player": "Gabriel Landeskog",
       "team": "COL",
       "pp": 2,
       "line": 3,
-      "bias": "G",
       "players": [
        8476455
       ]
+     },
+     {
+      "selection": "Brock Nelson \u00b7 1+ goal",
+      "prob": 0.277,
+      "fair": "+261",
+      "need": "+283",
+      "rationale": "Goal in 6 of 21 this season \u00b7 2 of L5",
+      "player": "Brock Nelson",
+      "team": "COL",
+      "pp": 2,
+      "line": 1,
+      "players": [
+       8475754
+      ]
+     },
+     {
+      "selection": "Jaden Schwartz \u00b7 1+ goal",
+      "prob": 0.24,
+      "fair": "+317",
+      "need": "+342",
+      "rationale": "Goal in 5 of 21 this season \u00b7 1 of L5",
+      "player": "Jaden Schwartz",
+      "team": "COL",
+      "pp": 2,
+      "line": 2,
+      "players": [
+       8475768
+      ]
+     }
+    ],
+    "sneaky_point": [
+     {
+      "selection": "Parker Kelly \u00b7 1+ point",
+      "prob": 0.418,
+      "fair": "+139",
+      "need": "+154",
+      "rationale": "L4 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 7 of 21 season",
+      "player": "Parker Kelly",
+      "team": "COL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8480448
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Logan O'Connor \u00b7 1+ point",
+      "prob": 0.371,
+      "fair": "+169",
+      "need": "+186",
+      "rationale": "L4 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 3 of 10 season",
+      "player": "Logan O'Connor",
+      "team": "COL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8481186
+      ],
+      "sneaky": true
+     }
+    ],
+    "sneaky_assist": [
+     {
+      "selection": "Logan O'Connor \u00b7 1+ assist",
+      "prob": 0.334,
+      "fair": "+199",
+      "need": "+217",
+      "rationale": "L4 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 3 of 10 season",
+      "player": "Logan O'Connor",
+      "team": "COL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8481186
+      ],
+      "sneaky": true
+     }
+    ],
+    "sneaky_goal": [
+     {
+      "selection": "Gabriel Landeskog \u00b7 1+ goal",
+      "prob": 0.277,
+      "fair": "+262",
+      "need": "+283",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 7 of 21 season",
+      "player": "Gabriel Landeskog",
+      "team": "COL",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8476455
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Parker Kelly \u00b7 1+ goal",
+      "prob": 0.277,
+      "fair": "+262",
+      "need": "+283",
+      "rationale": "L4 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 21 season",
+      "player": "Parker Kelly",
+      "team": "COL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8480448
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Jack McBain \u00b7 1+ goal",
+      "prob": 0.212,
+      "fair": "+371",
+      "need": "+399",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 22 season",
+      "player": "Jack McBain",
+      "team": "UTA",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8480855
+      ],
+      "sneaky": true
      }
     ],
     "pair": [
@@ -8596,17 +9433,17 @@
       ]
      },
      {
-      "selection": "Jaden Schwartz \u00b7 2+ points",
-      "prob": 0.208,
-      "fair": "+381",
-      "need": "+410",
-      "rationale": "2+ in 5 of 21 this season \u00b7 1 of L5 away",
-      "player": "Jaden Schwartz",
+      "selection": "Devon Toews \u00b7 2+ points",
+      "prob": 0.256,
+      "fair": "+291",
+      "need": "+314",
+      "rationale": "2+ in 6 of 21 this season \u00b7 2 of L5 away",
+      "player": "Devon Toews",
       "team": "COL",
-      "pp": 2,
-      "line": 2,
+      "pp": 1,
+      "line": 1,
       "players": [
-       8475768
+       8478038
       ]
      }
     ],

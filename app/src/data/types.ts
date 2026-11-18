@@ -1,7 +1,7 @@
 // Data contract between the Python pipeline (docs/board.json) and the app.
 // Nothing here is ever invented client-side: missing data stays null/empty.
 
-export type LensKey = 'point' | 'pair' | 'two' | 'pp1' | 'btts2'
+export type LensKey = 'point' | 'assist' | 'goal' | 'sneaky_point' | 'sneaky_assist' | 'sneaky_goal' | 'pair' | 'two' | 'pp1' | 'btts2'
 
 export interface Play {
   selection: string

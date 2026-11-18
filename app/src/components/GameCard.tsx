@@ -8,6 +8,8 @@ export function propsFor(play: Play, lens: LensKey): { players: number[]; stat?:
   if (!ids.length) return null
   if (lens === 'two') return { players: ids, stat: 'p', line: 1.5 }
   if (lens === 'btts2') return null
+  if (lens === 'assist' || lens === 'sneaky_assist') return { players: ids, stat: 'a', line: 0.5 }
+  if (lens === 'goal' || lens === 'sneaky_goal') return { players: ids, stat: 'g', line: 0.5 }
   return { players: ids, stat: 'p', line: 0.5 }
 }
 import { LOGO } from '../data/load'
