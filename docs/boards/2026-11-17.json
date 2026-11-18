@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T00:06:52.700525+00:00",
+ "generated_utc": "2026-11-18T00:12:00.395164+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -8257,7 +8257,7 @@
    "id": "03",
    "game_id": 2026020336,
    "start_utc": "2026-11-18T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "UBS Arena",
    "away": {
     "abbr": "CBJ",
@@ -11894,7 +11894,7 @@
    "id": "04",
    "game_id": 2026020337,
    "start_utc": "2026-11-18T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Xfinity Mobile Arena",
    "away": {
     "abbr": "BUF",
@@ -15565,7 +15565,7 @@
    "id": "05",
    "game_id": 2026020341,
    "start_utc": "2026-11-18T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Canada Life Centre",
    "away": {
     "abbr": "OTT",
@@ -19294,8 +19294,8 @@
     "goalie_source": "Benjamin Pierce",
     "sv": "0.888",
     "gaa": "2.74",
-    "lineup_as_of": "2026-11-17T23:17:51.883Z",
-    "lineup_checked": "2026-11-17T23:20:40.709613+00:00",
+    "lineup_as_of": "2026-11-18T00:08:10.343Z",
+    "lineup_checked": "2026-11-18T00:11:56.250651+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 6,
@@ -19335,6 +19335,41 @@
       "at": "2026-11-17T23:20:40.712729+00:00",
       "kind": "move",
       "text": "Pontus Holmberg: PP-\u2192PP2"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "in",
+      "text": "IN: Scott Sabourin \u2192 L4"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "out",
+      "text": "OUT: Maxwell Crozier (was L4)"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "move",
+      "text": "Ilya Mikheyev: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "move",
+      "text": "Zemgus Girgensons: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "move",
+      "text": "Pontus Holmberg: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "move",
+      "text": "Jeffrey Viel: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-18T00:11:56.254975+00:00",
+      "kind": "move",
+      "text": "Sam O'Reilly: L3\u2192L4"
      }
     ],
     "rates": {
@@ -19371,7 +19406,7 @@
      "away": "-198",
      "home": "+164",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T23:17:51.883Z"
+     "as_of": "2026-11-18T00:08:10.343Z"
     },
     "total": {
      "line": 6.5,
@@ -19462,21 +19497,6 @@
       ]
      },
      {
-      "selection": "Sam O'Reilly \u00b7 1+ point",
-      "prob": 0.541,
-      "fair": "-118",
-      "need": "-104",
-      "rationale": "Point in 1 of 3 this season, 1 of last 3 \u00b7 PP1, 1.7 PP min/game over L5",
-      "player": "Sam O'Reilly",
-      "team": "TBL",
-      "pp": 1,
-      "line": 3,
-      "bias": null,
-      "players": [
-       8484770
-      ]
-     },
-     {
       "selection": "Dylan Strome \u00b7 1+ point",
       "prob": 0.514,
       "fair": "-106",
@@ -19504,6 +19524,21 @@
       "bias": null,
       "players": [
        8478519
+      ]
+     },
+     {
+      "selection": "Ryan Leonard \u00b7 1+ point",
+      "prob": 0.492,
+      "fair": "+103",
+      "need": "+115",
+      "rationale": "Point in 11 of 18 this season, 4 of last 5 \u00b7 PP2 (2.4 PP min/game)",
+      "player": "Ryan Leonard",
+      "team": "WSH",
+      "pp": 2,
+      "line": 2,
+      "bias": null,
+      "players": [
+       8484186
       ]
      }
     ],
@@ -21301,11 +21336,11 @@
     },
     "home": {
      "team": "TBL",
-     "as_of": "2026-11-17T23:17:51.883Z",
-     "checked": "2026-11-17T23:20:40.709613+00:00",
+     "as_of": "2026-11-18T00:08:10.343Z",
+     "checked": "2026-11-18T00:11:56.250651+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-17T23:17:51.883Z",
+     "source": "Gabby Shirley",
+     "updated_dfo": "2026-11-18T00:08:10.343Z",
      "forwards": [
       [
        {
@@ -21541,84 +21576,6 @@
       ],
       [
        {
-        "name": "Jeffrey Viel",
-        "jersey": 28,
-        "pos": "LW",
-        "slot": null,
-        "player_id": null,
-        "dfo_id": 24312,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 0,
-         "gp": 17,
-         "p": 2,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 9858
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 2950
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Sam O'Reilly",
-        "jersey": 23,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8484770,
-        "dfo_id": 36872,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 3,
-         "p": 1,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 2369
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 4470
-        },
-        "l5_point_games": 1,
-        "gp": 3,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Ilya Mikheyev",
         "jersey": 95,
         "pos": "LW",
@@ -21730,6 +21687,122 @@
          "ev": -1,
          "pp": 0,
          "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Jeffrey Viel",
+        "jersey": 28,
+        "pos": "LW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 24312,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 0,
+         "gp": 17,
+         "p": 2,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 9858
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2950
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Sam O'Reilly",
+        "jersey": 23,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8484770,
+        "dfo_id": 36872,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 1,
+         "g": 0,
+         "gp": 3,
+         "p": 1,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 2369
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 4470
+        },
+        "l5_point_games": 1,
+        "gp": 3,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Scott Sabourin",
+        "jersey": 49,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8477149,
+        "dfo_id": 2171,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 1,
+         "g": 1,
+         "gp": 6,
+         "p": 2,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 3225
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 2656
+        },
+        "l5_point_games": 2,
+        "gp": 6,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -22131,7 +22204,7 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -22792,12 +22865,12 @@
        "rating": 73.68780211126216
       },
       "f3": {
-       "rank": 35,
-       "rating": 0
+       "rank": 25,
+       "rating": 71.95569483651936
       },
       "f4": {
-       "rank": 17,
-       "rating": 71.95569483651936
+       "rank": 23,
+       "rating": 71.63615523893601
       },
       "g": {
        "rank": 2,

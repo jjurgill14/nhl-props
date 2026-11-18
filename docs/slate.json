@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_utc": "2026-11-18T00:06:52.013019+00:00",
+ "generated_utc": "2026-11-18T00:11:59.709473+00:00",
  "games": [
   {
    "game_id": 2026020333,
@@ -2768,7 +2768,7 @@
    "start_et": "7:00 PM",
    "away": "CBJ",
    "home": "NYI",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "UBS Arena",
    "teams": {
     "away": {
@@ -4158,7 +4158,7 @@
    "start_et": "7:00 PM",
    "away": "BUF",
    "home": "PHI",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Xfinity Mobile Arena",
    "teams": {
     "away": {
@@ -5541,7 +5541,7 @@
    "start_et": "7:00 PM",
    "away": "OTT",
    "home": "WPG",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Canada Life Centre",
    "teams": {
     "away": {
@@ -7650,8 +7650,8 @@
      "ppga_rk": 14,
      "l5_gf": 3.6,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-17T23:17:51.883Z",
-     "lineup_checked": "2026-11-17T23:20:40.709613+00:00",
+     "lineup_as_of": "2026-11-18T00:08:10.343Z",
+     "lineup_checked": "2026-11-18T00:11:56.250651+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7677,13 +7677,14 @@
        "Gage Goncalves"
       ],
       "3": [
-       "Jeffrey Viel",
-       "Sam O'Reilly"
-      ],
-      "4": [
        "Ilya Mikheyev",
        "Zemgus Girgensons",
        "Pontus Holmberg"
+      ],
+      "4": [
+       "Jeffrey Viel",
+       "Sam O'Reilly",
+       "Scott Sabourin"
       ]
      },
      "pp1": [
@@ -7903,65 +7904,6 @@
        ]
       },
       {
-       "name": "Sam O'Reilly",
-       "jersey": 23,
-       "team": "TBL",
-       "opp": "WSH",
-       "home": true,
-       "line": 3,
-       "pp": 1,
-       "pos": "C",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 3,
-       "pt_games": 1,
-       "l5": [
-        1,
-        3
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        1
-       ],
-       "away_split": [
-        1,
-        2
-       ],
-       "pp_toi": 1.7,
-       "toi": 13.2,
-       "p": 0.541,
-       "fair": "-118",
-       "min": "-104",
-       "p2": 0.163,
-       "fair2": "+515",
-       "min2": "+551",
-       "adj": [
-        [
-         "opp",
-         1.1187096774193548
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jeffrey Viel",
-         "jersey": 28,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Anthony Cirelli",
        "jersey": 71,
        "team": "TBL",
@@ -8025,6 +7967,73 @@
          "n": 2,
          "both": 0,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Pontus Holmberg",
+       "jersey": 29,
+       "team": "TBL",
+       "opp": "WSH",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 20,
+       "pt_games": 8,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 5,
+       "two_games": 3,
+       "home_split": [
+        5,
+        9
+       ],
+       "away_split": [
+        3,
+        11
+       ],
+       "pp_toi": 0.7,
+       "toi": 15.2,
+       "p": 0.4,
+       "fair": "+150",
+       "min": "+165",
+       "p2": 0.133,
+       "fair2": "+654",
+       "min2": "+699",
+       "adj": [
+        [
+         "opp",
+         1.1187096774193548
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ilya Mikheyev",
+         "jersey": 95,
+         "pp": null,
+         "n": 17,
+         "both": 4,
+         "either": 7
+        },
+        {
+         "name": "Zemgus Girgensons",
+         "jersey": 28,
+         "pp": null,
+         "n": 17,
+         "both": 4,
+         "either": 7
         }
        ]
       },
@@ -8096,8 +8105,8 @@
        ]
       },
       {
-       "name": "Jeffrey Viel",
-       "jersey": 28,
+       "name": "Ilya Mikheyev",
+       "jersey": 95,
        "team": "TBL",
        "opp": "WSH",
        "home": true,
@@ -8106,32 +8115,32 @@
        "pos": "LW",
        "gtd": false,
        "role": "other",
-       "bias": null,
-       "gp": 0,
-       "pt_games": 0,
+       "bias": "G",
+       "gp": 20,
+       "pt_games": 5,
        "l5": [
-        0,
-        0
+        1,
+        5
        ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
+       "ast_games": 3,
+       "goal_games": 3,
+       "two_games": 2,
        "home_split": [
-        0,
-        0
+        3,
+        9
        ],
        "away_split": [
-        0,
-        0
+        2,
+        11
        ],
        "pp_toi": 0.0,
-       "toi": 0.0,
+       "toi": 15.8,
        "p": 0.28,
        "fair": "+258",
        "min": "+279",
-       "p2": 0.045,
-       "fair2": "+2135",
-       "min2": "+2269",
+       "p2": 0.093,
+       "fair2": "+979",
+       "min2": "+1044",
        "adj": [
         [
          "opp",
@@ -8139,18 +8148,93 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Zemgus Girgensons",
+         "jersey": 28,
+         "pp": null,
+         "n": 16,
+         "both": 3,
+         "either": 5
+        },
+        {
+         "name": "Pontus Holmberg",
+         "jersey": 29,
+         "pp": 2,
+         "n": 17,
+         "both": 4,
+         "either": 7
+        }
+       ]
+      },
+      {
+       "name": "Zemgus Girgensons",
+       "jersey": 28,
+       "team": "TBL",
+       "opp": "WSH",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 17,
+       "pt_games": 4,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        2,
+        10
+       ],
+       "pp_toi": 0.1,
+       "toi": 17.7,
+       "p": 0.268,
+       "fair": "+272",
+       "min": "+295",
+       "p2": 0.014,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.1187096774193548
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ilya Mikheyev",
+         "jersey": 95,
+         "pp": null,
+         "n": 16,
+         "both": 3,
+         "either": 5
+        },
+        {
+         "name": "Pontus Holmberg",
+         "jersey": 29,
+         "pp": 2,
+         "n": 17,
+         "both": 4,
+         "either": 7
         }
        ]
       },
