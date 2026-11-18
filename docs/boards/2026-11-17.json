@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-18T00:52:56.479474+00:00",
+ "generated_utc": "2026-11-18T00:58:03.373937+00:00",
  "lenses": {
   "point": "Point",
   "pair": "Linemate pair \u00b7 both score",
@@ -26537,8 +26537,8 @@
     "goalie_source": "Lou Korac",
     "sv": "0.881",
     "gaa": "3.1",
-    "lineup_as_of": "2026-11-16T15:10:53.912Z",
-    "lineup_checked": "2026-11-17T15:14:19.191364+00:00",
+    "lineup_as_of": "2026-11-18T00:57:50.337Z",
+    "lineup_checked": "2026-11-18T00:57:59.250438+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
     "gf_rk": 5,
@@ -26548,6 +26548,26 @@
       "at": "2026-11-18T00:37:30.388952+00:00",
       "kind": "goalie",
       "text": "G: Ville Husso confirmed"
+     },
+     {
+      "at": "2026-11-18T00:57:59.256389+00:00",
+      "kind": "in",
+      "text": "IN: Sam Colangelo \u2192 L4, PP2"
+     },
+     {
+      "at": "2026-11-18T00:57:59.256389+00:00",
+      "kind": "out",
+      "text": "OUT: Beckett Sennecke (was L2) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-18T00:57:59.256389+00:00",
+      "kind": "move",
+      "text": "Troy Terry: L4\u2192L2"
+     },
+     {
+      "at": "2026-11-18T00:57:59.256389+00:00",
+      "kind": "move",
+      "text": "Alex Killorn: PP2\u2192PP1"
      }
     ],
     "rates": {
@@ -26726,21 +26746,6 @@
    "lenses": {
     "point": [
      {
-      "selection": "Beckett Sennecke \u00b7 1+ point",
-      "prob": 0.649,
-      "fair": "-185",
-      "need": "-158",
-      "rationale": "Point in 15 of 21 this season, 4 of last 5 \u00b7 PP1, 3.7 PP min/game over L5",
-      "player": "Beckett Sennecke",
-      "team": "ANA",
-      "pp": 1,
-      "line": 2,
-      "bias": null,
-      "players": [
-       8484762
-      ]
-     },
-     {
       "selection": "Cutter Gauthier \u00b7 1+ point",
       "prob": 0.637,
       "fair": "-175",
@@ -26814,25 +26819,24 @@
       "players": [
        8483516
       ]
+     },
+     {
+      "selection": "Mason McTavish \u00b7 1+ point",
+      "prob": 0.537,
+      "fair": "-116",
+      "need": "-103",
+      "rationale": "Point in 9 of 20 this season, 1 of last 5 \u00b7 PP1, 2.9 PP min/game over L5",
+      "player": "Mason McTavish",
+      "team": "STL",
+      "pp": 1,
+      "line": 2,
+      "bias": null,
+      "players": [
+       8482745
+      ]
      }
     ],
     "pair": [
-     {
-      "selection": "Sennecke + Granlund \u00b7 both 1+ point",
-      "prob": 0.567,
-      "fair": "-131",
-      "need": "-115",
-      "rationale": "Both scored 10 of 16 games together \u00b7 independent 41% \u00b7 correlated",
-      "team": "ANA",
-      "line": 2,
-      "read": "correlated",
-      "both": 10,
-      "n": 16,
-      "players": [
-       8484762,
-       8475798
-      ]
-     },
      {
       "selection": "Gauthier + Carlsson \u00b7 both 1+ point",
       "prob": 0.525,
@@ -26896,6 +26900,22 @@
        8483445,
        8481538
       ]
+     },
+     {
+      "selection": "McTavish + McMichael \u00b7 both 1+ point",
+      "prob": 0.363,
+      "fair": "+175",
+      "need": "+192",
+      "rationale": "Both scored 6 of 14 games together \u00b7 independent 21% \u00b7 correlated",
+      "team": "STL",
+      "line": 2,
+      "read": "correlated",
+      "both": 6,
+      "n": 14,
+      "players": [
+       8482745,
+       8481580
+      ]
      }
     ],
     "two": [
@@ -26928,20 +26948,6 @@
       ]
      },
      {
-      "selection": "Beckett Sennecke \u00b7 2+ points",
-      "prob": 0.289,
-      "fair": "+246",
-      "need": "+267",
-      "rationale": "2+ in 7 of 21 \u00b7 3.7 PP min/game \u00b7 PP1",
-      "player": "Beckett Sennecke",
-      "team": "ANA",
-      "pp": 1,
-      "line": 2,
-      "players": [
-       8484762
-      ]
-     },
-     {
       "selection": "Jimmy Snuggerud \u00b7 2+ points",
       "prob": 0.266,
       "fair": "+276",
@@ -26968,25 +26974,23 @@
       "players": [
        8483445
       ]
+     },
+     {
+      "selection": "Robert Thomas \u00b7 2+ points",
+      "prob": 0.185,
+      "fair": "+441",
+      "need": "+473",
+      "rationale": "2+ in 3 of 20 \u00b7 3.2 PP min/game \u00b7 PP1",
+      "player": "Robert Thomas",
+      "team": "STL",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8480023
+      ]
      }
     ],
     "pp1": [
-     {
-      "selection": "Sennecke + Granlund \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.567,
-      "fair": "-131",
-      "need": "-115",
-      "rationale": "Both scored 10 of 16 games together \u00b7 independent 41% \u00b7 correlated",
-      "team": "ANA",
-      "line": 2,
-      "read": "correlated",
-      "both": 10,
-      "n": 16,
-      "players": [
-       8484762,
-       8475798
-      ]
-     },
      {
       "selection": "Gauthier + Carlsson \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.525,
@@ -27034,6 +27038,22 @@
        8483516,
        8482089
       ]
+     },
+     {
+      "selection": "Thomas + Snuggerud \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.341,
+      "fair": "+193",
+      "need": "+211",
+      "rationale": "Both scored 7 of 20 games together \u00b7 independent 31% \u00b7 independent",
+      "team": "STL",
+      "line": 1,
+      "read": "independent",
+      "both": 7,
+      "n": 20,
+      "players": [
+       8480023,
+       8483516
+      ]
      }
     ],
     "btts2": [
@@ -27050,45 +27070,45 @@
    "lineup": {
     "away": {
      "team": "ANA",
-     "as_of": "2026-11-16T15:10:53.912Z",
-     "checked": "2026-11-17T15:14:19.191364+00:00",
+     "as_of": "2026-11-18T00:57:50.337Z",
+     "checked": "2026-11-18T00:57:59.250438+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-15)",
-     "updated_dfo": "2026-11-16T15:10:53.912Z",
+     "source": "@AnaheimDucks",
+     "updated_dfo": "2026-11-18T00:57:50.337Z",
      "forwards": [
       [
        {
-        "name": "Judd Caulfield",
-        "jersey": 28,
+        "name": "Cutter Gauthier",
+        "jersey": 61,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481538,
-        "dfo_id": 30440,
+        "player_id": 8483445,
+        "dfo_id": 33248,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": "A",
+        "pp": 1,
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 6,
-         "g": 4,
-         "gp": 19,
-         "p": 10,
-         "ppp": 3,
-         "sog": 22,
-         "toi_s": 15785
+         "a": 7,
+         "g": 18,
+         "gp": 20,
+         "p": 25,
+         "ppp": 14,
+         "sog": 87,
+         "toi_s": 22092
         },
         "last5": {
          "a": 1,
-         "g": 0,
+         "g": 7,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4640
+         "p": 8,
+         "ppp": 2,
+         "sog": 25,
+         "toi_s": 5869
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "l5_point_games": 5,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -27134,37 +27154,37 @@
         }
        },
        {
-        "name": "Cutter Gauthier",
-        "jersey": 61,
+        "name": "Judd Caulfield",
+        "jersey": 28,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483445,
-        "dfo_id": 33248,
+        "player_id": 8481538,
+        "dfo_id": 30440,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "G",
+        "pp": 2,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 7,
-         "g": 18,
-         "gp": 20,
-         "p": 25,
-         "ppp": 14,
-         "sog": 87,
-         "toi_s": 22092
+         "a": 6,
+         "g": 4,
+         "gp": 19,
+         "p": 10,
+         "ppp": 3,
+         "sog": 22,
+         "toi_s": 15785
         },
         "last5": {
          "a": 1,
-         "g": 7,
+         "g": 0,
          "gp": 5,
-         "p": 8,
-         "ppp": 2,
-         "sog": 25,
-         "toi_s": 5869
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4640
         },
-        "l5_point_games": 5,
-        "gp": 20,
+        "l5_point_games": 1,
+        "gp": 19,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -27250,45 +27270,83 @@
         }
        },
        {
-        "name": "Beckett Sennecke",
-        "jersey": 45,
+        "name": "Troy Terry",
+        "jersey": 19,
         "pos": "RW",
         "slot": null,
-        "player_id": 8484762,
-        "dfo_id": 36637,
+        "player_id": 8478873,
+        "dfo_id": 4645,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 14,
-         "g": 12,
-         "gp": 21,
-         "p": 26,
-         "ppp": 11,
-         "sog": 53,
-         "toi_s": 25685
+         "a": 1,
+         "g": 0,
+         "gp": 3,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2364
         },
         "last5": {
-         "a": 5,
-         "g": 2,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 7,
+         "p": 2,
          "ppp": 1,
-         "sog": 13,
-         "toi_s": 6155
+         "sog": 7,
+         "toi_s": 4448
         },
-        "l5_point_games": 4,
-        "gp": 21,
+        "l5_point_games": 1,
+        "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        }
       ],
       [
+       {
+        "name": "Alex Killorn",
+        "jersey": 17,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8473986,
+        "dfo_id": 1877,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 6,
+         "g": 2,
+         "gp": 21,
+         "p": 8,
+         "ppp": 1,
+         "sog": 31,
+         "toi_s": 20691
+        },
+        "last5": {
+         "a": 3,
+         "g": 0,
+         "gp": 5,
+         "p": 3,
+         "ppp": 1,
+         "sog": 9,
+         "toi_s": 4979
+        },
+        "l5_point_games": 2,
+        "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 1,
+         "new": false
+        }
+       },
        {
         "name": "Tim Washe",
         "jersey": 42,
@@ -27320,44 +27378,6 @@
          "toi_s": 3987
         },
         "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Alex Killorn",
-        "jersey": 17,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8473986,
-        "dfo_id": 1877,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 6,
-         "g": 2,
-         "gp": 21,
-         "p": 8,
-         "ppp": 1,
-         "sog": 31,
-         "toi_s": 20691
-        },
-        "last5": {
-         "a": 3,
-         "g": 0,
-         "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 4979
-        },
-        "l5_point_games": 2,
         "gp": 21,
         "move": {
          "ev": 0,
@@ -27444,41 +27464,41 @@
         }
        },
        {
-        "name": "Troy Terry",
-        "jersey": 19,
+        "name": "Sam Colangelo",
+        "jersey": 12,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478873,
-        "dfo_id": 4645,
+        "player_id": 8482118,
+        "dfo_id": 32857,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 3,
-         "p": 1,
+         "a": 4,
+         "g": 1,
+         "gp": 15,
+         "p": 5,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2364
+         "sog": 18,
+         "toi_s": 9544
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 7,
-         "toi_s": 4448
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2530
         },
-        "l5_point_games": 1,
-        "gp": 3,
+        "l5_point_games": 0,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -27810,40 +27830,40 @@
      "pp": [
       [
        {
-        "name": "Beckett Sennecke",
-        "jersey": 45,
+        "name": "Alex Killorn",
+        "jersey": 17,
         "pos": null,
         "slot": 1,
-        "player_id": 8484762,
-        "dfo_id": 36637,
+        "player_id": 8473986,
+        "dfo_id": 1877,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": null,
+        "pk": 1,
+        "bias": "A",
         "season": {
-         "a": 14,
-         "g": 12,
+         "a": 6,
+         "g": 2,
          "gp": 21,
-         "p": 26,
-         "ppp": 11,
-         "sog": 53,
-         "toi_s": 25685
+         "p": 8,
+         "ppp": 1,
+         "sog": 31,
+         "toi_s": 20691
         },
         "last5": {
-         "a": 5,
-         "g": 2,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 7,
+         "p": 3,
          "ppp": 1,
-         "sog": 13,
-         "toi_s": 6155
+         "sog": 9,
+         "toi_s": 4979
         },
-        "l5_point_games": 4,
+        "l5_point_games": 2,
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -28078,41 +28098,41 @@
         }
        },
        {
-        "name": "Alex Killorn",
-        "jersey": 17,
+        "name": "Sam Colangelo",
+        "jersey": 12,
         "pos": null,
         "slot": 3,
-        "player_id": 8473986,
-        "dfo_id": 1877,
+        "player_id": 8482118,
+        "dfo_id": 32857,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 1,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 6,
-         "g": 2,
-         "gp": 21,
-         "p": 8,
-         "ppp": 1,
-         "sog": 31,
-         "toi_s": 20691
+         "a": 4,
+         "g": 1,
+         "gp": 15,
+         "p": 5,
+         "ppp": 0,
+         "sog": 18,
+         "toi_s": 9544
         },
         "last5": {
-         "a": 3,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 4979
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2530
         },
-        "l5_point_games": 2,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -28148,7 +28168,7 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -28242,7 +28262,7 @@
         "dfo_id": 1877,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 1,
         "bias": "A",
         "season": {
@@ -28267,7 +28287,7 @@
         "gp": 21,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -28513,11 +28533,16 @@
        "player": "A.J. Greer",
        "status": "IR",
        "news": "Greer has been placed on IR with an upper-body injury."
+      },
+      {
+       "player": "Beckett Sennecke",
+       "status": "DTD",
+       "news": "Sennecke (illness) will not play on Tuesday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 33,
+       "rank": 34,
        "rating": 0
       },
       "d2": {
@@ -28525,11 +28550,11 @@
        "rating": 0
       },
       "d3": {
-       "rank": 27,
+       "rank": 28,
        "rating": 0
       },
       "d4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 0
       },
       "f1": {
@@ -28538,15 +28563,15 @@
       },
       "f2": {
        "rank": 30,
-       "rating": 72.51395960454711
+       "rating": 71.75467368648435
       },
       "f3": {
-       "rank": 5,
+       "rank": 6,
        "rating": 74.743977877946
       },
       "f4": {
-       "rank": 26,
-       "rating": 70.9953877684216
+       "rank": 32,
+       "rating": 0
       },
       "g": {
        "rank": 29,
