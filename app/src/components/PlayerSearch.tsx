@@ -44,6 +44,10 @@ export function PlayerSearch({ onPick, placeholder = 'Search any player…', aut
         <input
           ref={ref}
           type="search"
+          autoCorrect="off"
+          autoCapitalize="off"
+          autoComplete="off"
+          spellCheck={false}
           aria-label="Search players"
           placeholder={placeholder}
           value={q}

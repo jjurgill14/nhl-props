@@ -431,3 +431,16 @@ button:disabled{cursor:default;opacity:.55}
 .lu-label.clickable:hover{color:#69cbd1;background:rgba(105,203,209,.08)}
 .lu-label-go{margin-left:4px;font-size:10px;opacity:.55}
 .pr-legend b{color:#e6edf3;letter-spacing:.06em;margin-right:3px}
+
+/* ---- props: compact stacked tiles with player key + own line ---- */
+.pr-cards.stack{flex-direction:column;flex-wrap:nowrap;align-items:stretch;gap:8px;min-width:460px}
+.pr-card.compact{min-width:0;padding:8px 14px;gap:12px;border-radius:10px}
+.pr-card.compact img{width:40px;height:40px}
+.pr-card.compact b{font-size:17px;letter-spacing:-.2px}.pr-card.compact small{font-size:10px;letter-spacing:1.2px;margin-top:2px}
+.pr-card.compact:before{width:90px}.pr-card.compact:after{display:none}
+.pr-key{display:flex;flex-direction:column;align-items:center;gap:2px;position:relative;z-index:1;min-width:34px}
+.pr-key b{font-size:10px!important;letter-spacing:.1em;color:#e6edf3;line-height:1}
+.pr-line-pick{margin-left:auto;margin-right:32px;position:relative;z-index:1;transform:scale(.86);transform-origin:right center}
+.pr-line-pick button{padding:4px 9px;font-size:12px}
+.pr-swatch{display:inline-block;vertical-align:middle;margin-right:4px}
+.pr-legend .pr-swatch{margin-left:2px}

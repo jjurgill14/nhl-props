@@ -34,6 +34,7 @@ function oppRank(board: Board, opp: string, stat: StatKey): { label: string; rk:
 interface Series {
   player: PlayerLog
   rows: GameLogRow[] // last N, aligned to `games` (null-filled when a player missed one)
+  line: number
 }
 
 export interface PropsTarget {
@@ -54,6 +55,13 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   const [stat, setStat] = useState<StatKey>(target.stat ?? 'p')
   const [n, setN] = useState<5 | 10>(10)
   const [line, setLine] = useState<number>(target.line ?? 0.5)
+  // Per-player overrides (Pastrnak 1.5 next to Zacha 0.5). The LINE control sets everyone; a tile sets one.
+  const [lines, setLines] = useState<Record<number, number>>({})
+  const lineFor = (id: number) => lines[id] ?? line
+  const setAllLines = (l: number) => {
+    setLine(l)
+    setLines({})
+  }
   const [venue, setVenue] = useState<'all' | 'home' | 'away'>('all')
 
   useEffect(() => {
@@ -67,7 +75,7 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
 
   const statDef = STATS.find((s) => s.key === stat)!
   useEffect(() => {
-    if (!statDef.lines.includes(line)) setLine(statDef.lines[0])
+    if (!statDef.lines.includes(line)) setAllLines(statDef.lines[0])
   }, [stat, statDef, line])
 
   const players = target.players.map((id) => logs[id]).filter((p): p is PlayerLog => !!p && p !== 'error')
@@ -88,10 +96,13 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
 
   const series: Series[] = players.map((p) => ({
     player: p,
+    line: lineFor(p.id),
     rows: games.map((g) => p.log.find((r) => r.game_id === g.game_id)!),
   }))
 
-  const hit = (r: GameLogRow) => r[stat] > line
+  const hitAt = (r: GameLogRow, l: number) => r[stat] > l
+  const pair = players.length > 1
+  const code = (p: PlayerLog) => p.name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()
   const maxVal = Math.max(1, ...series.flatMap((s) => s.rows.map((r) => r[stat])))
   const yMax = Math.max(3, maxVal)
 
@@ -121,16 +132,16 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   const bothHit = (sets: GameLogRow[][]) => {
     const len = Math.min(...sets.map((r) => r.length))
     let k = 0
-    for (let i = 0; i < len; i++) if (sets.every((rows) => hit(rows[rows.length - len + i]))) k++
+    for (let i = 0; i < len; i++) if (sets.every((rows, si) => hitAt(rows[rows.length - len + i], series[si].line))) k++
     return [k, len] as const
   }
-  const rate = (rows: GameLogRow[]) => [rows.filter(hit).length, rows.length] as const
+  const rate = (rows: GameLogRow[], l = line) => [rows.filter((r) => hitAt(r, l)).length, rows.length] as const
+  const mixed = pair && series.some((s) => s.line !== series[0].line)
+  const lineLabel = mixed ? series.map((s) => `${code(s.player)} ${s.line}`).join(' · ') : String(line)
   const avg = (rows: GameLogRow[]) => (rows.length ? (rows.reduce((a, r) => a + r[stat], 0) / rows.length).toFixed(1) : '–')
   const pct = ([k, m]: readonly [number, number]) => (m ? `${Math.round((100 * k) / m)}%` : '–')
-  const pair = series.length > 1
   const MAXP = 3
   const canAdd = target.players.length < MAXP
-  const code = (p: PlayerLog) => p.name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()
 
   return (
     <>
@@ -143,17 +154,23 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
           </h1>
           <p>{pair ? `Shared games only — ${players.length === 3 ? 'all three' : 'both'} dressed. Hit = each clears the line in the same game.` : 'Player props trends, form, and key numbers to inform your bets.'}</p>
         </div>
-        <div className="pr-cards">
+        <div className={`pr-cards${pair ? ' stack' : ''}`}>
           <div className="pr-search-slot">
             <PlayerSearch
               placeholder={canAdd ? `Add a player… (${target.players.length}/${MAXP} — a pair or a full line)` : 'Replace the last player…'}
-              onPick={(id) => onChange({ ...target, players: canAdd ? [...target.players, id] : [...target.players.slice(0, MAXP - 1), id] })}
+              onPick={(id) => { if (target.players.includes(id)) return; onChange({ ...target, players: canAdd ? [...target.players, id] : [...target.players.slice(0, MAXP - 1), id] }) }}
             />
           </div>
-          {players.map((p) => {
+          {players.map((p, pi) => {
             const t = teamOf(p.team)
             return (
-              <div className="pr-card" key={p.id} style={{ ['--team-accent' as string]: t?.color ?? '#69cbd1' }}>
+              <div className={`pr-card${pair ? ' compact' : ''}`} key={p.id} style={{ ['--team-accent' as string]: t?.color ?? '#69cbd1' }}>
+                {pair && (
+                  <span className="pr-key" title={`${p.name}'s bars`}>
+                    <Swatch idx={pi} />
+                    <b>{code(p)}</b>
+                  </span>
+                )}
                 <img src={LOGO(p.team)} alt="" />
                 <div>
                   <b>{p.name}</b>
@@ -162,6 +179,15 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
                     {t ? `${t.city} ${t.name}`.toUpperCase() : p.team}
                   </small>
                 </div>
+                {pair && (
+                  <div className="pr-line-pick demo-switch" title="This player's line">
+                    {statDef.lines.map((l) => (
+                      <button key={l} className={lineFor(p.id) === l ? 'selected' : ''} aria-pressed={lineFor(p.id) === l} onClick={() => setLines((m) => ({ ...m, [p.id]: l }))}>
+                        {l}
+                      </button>
+                    ))}
+                  </div>
+                )}
                 {pair && (
                   <button className="pr-remove" title="Remove from view" onClick={() => onChange({ ...target, players: target.players.filter((x) => x !== p.id) })}>
                     ×
@@ -176,9 +202,9 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
       <section className="summary pr-tiles">
         {pair ? (
           <>
-            <div className="stat"><div className="stat-label">L10 {players.length === 3 ? 'all three' : 'both'} over {line}</div><div className="stat-main"><span className="stat-value">{bothHit(l10).join('/')}</span><span className="stat-suffix">({pct(bothHit(l10))})</span></div></div>
-            <div className="stat"><div className="stat-label">L5 {players.length === 3 ? 'all three' : 'both'} over {line}</div><div className="stat-main"><span className="stat-value">{bothHit(l5).join('/')}</span><span className="stat-suffix">({pct(bothHit(l5))})</span></div></div>
-            <div className="stat"><div className="stat-label">Independent (product)</div><div className="stat-main"><span className="stat-value">{pct([Math.round(1000 * l10.reduce((acc, rows) => acc * (rate(rows)[0] / Math.max(1, rows.length)), 1)), 1000])}</span><span className="stat-suffix">L10 rates multiplied</span></div></div>
+            <div className="stat"><div className="stat-label">L10 {players.length === 3 ? 'all three' : 'both'} over {lineLabel}</div><div className="stat-main"><span className="stat-value">{bothHit(l10).join('/')}</span><span className="stat-suffix">({pct(bothHit(l10))})</span></div></div>
+            <div className="stat"><div className="stat-label">L5 {players.length === 3 ? 'all three' : 'both'} over {lineLabel}</div><div className="stat-main"><span className="stat-value">{bothHit(l5).join('/')}</span><span className="stat-suffix">({pct(bothHit(l5))})</span></div></div>
+            <div className="stat"><div className="stat-label">Independent (product)</div><div className="stat-main"><span className="stat-value">{pct([Math.round(1000 * l10.reduce((acc, rows, si) => acc * (rate(rows, series[si].line)[0] / Math.max(1, rows.length)), 1)), 1000])}</span><span className="stat-suffix">L10 rates multiplied</span></div></div>
             <div className="stat"><div className="stat-label">Shared games</div><div className="stat-main"><span className="stat-value">{games.length}</span><span className="stat-suffix">{players.length === 3 ? 'all three' : 'both'} dressed (any line)</span></div></div>
           </>
         ) : (
@@ -203,7 +229,7 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
         <span className="pr-lbl">LINE</span>
         <div className="demo-switch">
           {statDef.lines.map((l) => (
-            <button key={l} className={line === l ? 'selected' : ''} aria-pressed={line === l} onClick={() => setLine(l)}>
+            <button key={l} className={line === l ? 'selected' : ''} aria-pressed={line === l} onClick={() => setAllLines(l)}>
               {l}
             </button>
           ))}
@@ -243,7 +269,7 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
             {statDef.label.toUpperCase()} — OVER {line}
           </span>
         </header>
-        <Chart games={games} series={series} stat={stat} line={line} yMax={yMax} board={board} />
+        <Chart games={games} series={series} stat={stat} yMax={yMax} board={board} />
       </section>
 
       <section className="pr-log">
@@ -256,7 +282,7 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
             {pair &&
               players.map((p, i) => (
                 <span key={p.id}>
-                  {' '}· <i style={{ background: FILL_CSS[i] }} /> <b>{code(p)}</b> {p.name.split(' ').slice(-1)[0]}
+                  {' '}· <Swatch idx={i} small /> <b>{code(p)}</b> {p.name.split(' ').slice(-1)[0]} (line {lineFor(p.id)})
                 </span>
               ))}
           </span>
@@ -275,7 +301,7 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
               {series.map((s, si) => {
                 const r = s.rows[i]
                 return (
-                  <div key={si} className={`pr-pill ${hit(r) ? 'hit' : 'miss'}`} title={s.player.name}>
+                  <div key={si} className={`pr-pill ${hitAt(r, s.line) ? 'hit' : 'miss'}`} title={`${s.player.name} · line ${s.line}`}>
                     {pair && <small>{code(s.player)} </small>}
                     {r[stat]} {stat === 'sog' ? 'SOG' : stat === 'p' ? 'PTS' : stat === 'g' ? 'G' : 'A'}
                   </div>
@@ -290,10 +316,29 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   )
 }
 
-// Bar fills per player slot: solid, diagonal stripes, dots. Hit/miss colour still carries the result.
-const FILL_CSS = ['#9fb6c5', 'repeating-linear-gradient(45deg,#9fb6c5 0 3px,#30465a 3px 6px)', 'radial-gradient(circle,#9fb6c5 1.6px,#30465a 1.8px)']
+// Bar fills per player slot: solid, diagonal stripes, dots. Hit/miss colour still carries the result,
+// so the swatch is shown in "hit" green — it is the shape that identifies the player.
+export function Swatch({ idx, small = false }: { idx: number; small?: boolean }) {
+  const s = small ? 14 : 26
+  const id = `sw-${idx}-${small ? 's' : 'l'}`
+  return (
+    <svg width={s} height={s} viewBox="0 0 26 26" className="pr-swatch" aria-hidden="true">
+      <defs>
+        <pattern id={`${id}-stripe`} patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+          <rect width="6" height="6" fill="#14532d" />
+          <rect width="3" height="6" fill="#4ade80" />
+        </pattern>
+        <pattern id={`${id}-dots`} patternUnits="userSpaceOnUse" width="6" height="6">
+          <rect width="6" height="6" fill="#14532d" />
+          <circle cx="3" cy="3" r="1.7" fill="#4ade80" />
+        </pattern>
+      </defs>
+      <rect x="1" y="1" width="24" height="24" rx="5" fill={idx === 0 ? '#4ade80' : `url(#${id}-${idx === 1 ? 'stripe' : 'dots'})`} stroke="#4ade80" strokeWidth="1.5" />
+    </svg>
+  )
+}
 
-function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]; series: Series[]; stat: StatKey; line: number; yMax: number; board: Board }) {
+function Chart({ games, series, stat, yMax, board }: { games: GameLogRow[]; series: Series[]; stat: StatKey; yMax: number; board: Board }) {
   const code = (name: string) => name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()
   const dy = series.length > 1 ? 14 : 0
   const W = 1200, H = 340 + dy, L = 44, R = 90, T = 28, B = 96 + dy
@@ -305,6 +350,9 @@ function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]
   const bw = Math.min(90, (slot * 0.72) / k)
   const y = (v: number) => T + ih - (v / yMax) * ih
   const ticks = Array.from({ length: Math.ceil(yMax) + 1 }, (_, i) => i)
+  // one dashed line per distinct prop line; labelled with the player codes when they differ
+  const distinct = [...new Set(series.map((s) => s.line))].sort((a, b) => a - b)
+  const propLines = distinct.map((value) => ({ value, who: distinct.length > 1 ? series.filter((s) => s.line === value).map((s) => code(s.player.name)).join('/') : '' }))
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="pr-svg" role="img" aria-label={`${stat} per game`}>
       <defs>
@@ -340,7 +388,7 @@ function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]
               const v = s.rows[i][stat]
               const x = cx - (bw * k) / 2 + bw * si + 2
               const h = Math.max(4, ih * (v / yMax))
-              const isHit = v > line
+              const isHit = v > s.line
               const base = isHit ? '#4ade80' : '#f87171'
               const fill = si === 0 ? base : `url(#${si === 1 ? 'stripe' : 'dots'}-${isHit ? 'hit' : 'miss'})`
               return (
@@ -363,9 +411,13 @@ function Chart({ games, series, stat, line, yMax, board }: { games: GameLogRow[]
           </g>
         )
       })}
-      <line x1={L} x2={W - R} y1={y(line)} y2={y(line)} stroke="#f4f7fa" strokeWidth="2.5" strokeLinecap="round" strokeDasharray="0.1 6" />
-      <rect x={W - R + 6} y={y(line) - 12} width={R - 10} height="24" rx="6" fill="#1c2a38" stroke="#f4f7fa" />
-      <text x={W - R + 6 + (R - 10) / 2} y={y(line) + 4} fill="#f4f7fa" fontSize="11" fontWeight="800" textAnchor="middle">Prop line: {line}</text>
+      {propLines.map(({ value, who }, li) => (
+        <g key={value}>
+          <line x1={L} x2={W - R} y1={y(value)} y2={y(value)} stroke="#f4f7fa" strokeWidth="2.5" strokeLinecap="round" strokeDasharray="0.1 6" />
+          <rect x={W - R + 6} y={y(value) - 12 + (li % 2 ? 0 : 0)} width={R - 10} height="24" rx="6" fill="#1c2a38" stroke="#f4f7fa" />
+          <text x={W - R + 6 + (R - 10) / 2} y={y(value) + 4} fill="#f4f7fa" fontSize={who ? 10 : 11} fontWeight="800" textAnchor="middle">{who ? `${who} ${value}` : `Prop line: ${value}`}</text>
+        </g>
+      ))}
     </svg>
   )
 }
