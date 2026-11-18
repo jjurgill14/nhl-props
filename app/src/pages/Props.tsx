@@ -41,6 +41,8 @@ export interface PropsTarget {
   players: number[]
   stat?: StatKey
   line?: number
+  /** Order players best-first (L10 hit rate at the line) once their logs have loaded. */
+  sort?: 'best'
 }
 
 interface Props {
@@ -61,6 +63,16 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   const setAllLines = (l: number) => {
     setLine(l)
     setLines({})
+    // clicking a line re-ranks the tiles: best hit rate at that line first
+    onChange({ ...target, line: l, sort: 'best' })
+  }
+  const [dragId, setDragId] = useState<number | null>(null)
+  const moveTo = (from: number, to: number) => {
+    if (from === to) return
+    const ids = target.players.filter((x) => x !== from)
+    const at = ids.indexOf(to)
+    ids.splice(at + (target.players.indexOf(from) < target.players.indexOf(to) ? 1 : 0), 0, from)
+    onChange({ ...target, players: ids })
   }
   const [venue, setVenue] = useState<'all' | 'home' | 'away'>('all')
 
@@ -74,6 +86,18 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
   }, [target.players, logs])
 
   const statDef = STATS.find((s) => s.key === stat)!
+  useEffect(() => {
+    if (target.sort !== 'best') return
+    const loaded = target.players.map((id) => logs[id]).filter((p): p is PlayerLog => !!p && p !== 'error')
+    if (loaded.length < target.players.length) return
+    const l = target.line ?? line
+    const score = (p: PlayerLog) => {
+      const last = p.log.slice(-10)
+      return last.length ? last.filter((r) => r[stat] > l).length / last.length + last.length / 1000 : -1
+    }
+    const ordered = [...loaded].sort((a, b) => score(b) - score(a)).map((p) => p.id)
+    onChange({ ...target, players: ordered, sort: undefined })
+  }, [target, logs, stat, line, onChange])
   useEffect(() => {
     if (!statDef.lines.includes(line)) setAllLines(statDef.lines[0])
   }, [stat, statDef, line])
@@ -164,7 +188,27 @@ export function PropsPage({ board, target, onChange, searchFocus }: Props) {
           {players.map((p, pi) => {
             const t = teamOf(p.team)
             return (
-              <div className={`pr-card${pair ? ' compact' : ''}`} key={p.id} style={{ ['--team-accent' as string]: t?.color ?? '#69cbd1' }}>
+              <div
+                className={`pr-card${pair ? ' compact' : ''}${dragId === p.id ? ' dragging' : ''}`}
+                key={p.id}
+                style={{ ['--team-accent' as string]: t?.color ?? '#69cbd1' }}
+                draggable={pair}
+                title={pair ? 'Drag to reorder' : undefined}
+                onDragStart={(e) => {
+                  setDragId(p.id)
+                  e.dataTransfer.effectAllowed = 'move'
+                }}
+                onDragOver={(e) => {
+                  if (dragId != null && dragId !== p.id) e.preventDefault()
+                }}
+                onDrop={(e) => {
+                  e.preventDefault()
+                  if (dragId != null) moveTo(dragId, p.id)
+                  setDragId(null)
+                }}
+                onDragEnd={() => setDragId(null)}
+              >
+                {pair && <span className="pr-grip" aria-hidden="true">⋮⋮</span>}
                 {pair && (
                   <span className="pr-key" title={`${p.name}'s bars`}>
                     <Swatch idx={pi} />
