@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T23:41:42.936787+00:00",
+ "generated_utc": "2026-11-19T23:46:52.662314+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1066,8 +1066,8 @@
     "goalie_source": "Zach Dooley",
     "sv": "0.884",
     "gaa": "3.26",
-    "lineup_as_of": "2026-11-19T19:21:26.365Z",
-    "lineup_checked": "2026-11-19T21:09:40.470134+00:00",
+    "lineup_as_of": "2026-11-19T23:40:46.911Z",
+    "lineup_checked": "2026-11-19T23:46:45.438802+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
     "gf_rk": 26,
@@ -1087,6 +1087,21 @@
       "at": "2026-11-19T21:09:40.472185+00:00",
       "kind": "move",
       "text": "Scott Laughton: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:46:45.441780+00:00",
+      "kind": "move",
+      "text": "Andre Lee: L4\u2192L1"
+     },
+     {
+      "at": "2026-11-19T23:46:45.441780+00:00",
+      "kind": "move",
+      "text": "Alex Turcotte: L1\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:46:45.441780+00:00",
+      "kind": "move",
+      "text": "Scott Laughton: L3\u2192L4"
      }
     ],
     "rates": {
@@ -1754,47 +1769,47 @@
    "lineup": {
     "away": {
      "team": "LAK",
-     "as_of": "2026-11-19T19:21:26.365Z",
-     "checked": "2026-11-19T21:09:40.470134+00:00",
+     "as_of": "2026-11-19T23:40:46.911Z",
+     "checked": "2026-11-19T23:46:45.438802+00:00",
      "stale": false,
      "source": "Zach Dooley",
-     "updated_dfo": "2026-11-19T19:21:26.365Z",
+     "updated_dfo": "2026-11-19T23:40:46.911Z",
      "forwards": [
       [
        {
-        "name": "Alex Turcotte",
-        "jersey": 15,
+        "name": "Andre Lee",
+        "jersey": 47,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481532,
-        "dfo_id": 30420,
+        "player_id": 8481732,
+        "dfo_id": 30215,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "G",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 6,
-         "p": 1,
+         "a": 2,
+         "g": 2,
+         "gp": 17,
+         "p": 4,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4806
+         "sog": 17,
+         "toi_s": 11121
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3871
+         "sog": 7,
+         "toi_s": 3413
         },
-        "l5_point_games": 0,
-        "gp": 6,
+        "l5_point_games": 1,
+        "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1994,39 +2009,39 @@
       ],
       [
        {
-        "name": "Scott Laughton",
-        "jersey": 21,
+        "name": "Alex Turcotte",
+        "jersey": 15,
         "pos": "LW",
         "slot": null,
-        "player_id": 8476872,
-        "dfo_id": 2018,
+        "player_id": 8481532,
+        "dfo_id": 30420,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 19,
-         "p": 6,
-         "ppp": 0,
-         "sog": 24,
-         "toi_s": 15585
-        },
-        "last5": {
          "a": 1,
          "g": 0,
-         "gp": 5,
+         "gp": 6,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3432
+         "sog": 3,
+         "toi_s": 4806
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 3871
+        },
+        "l5_point_games": 0,
+        "gp": 6,
         "move": {
-         "ev": 1,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -2110,37 +2125,37 @@
       ],
       [
        {
-        "name": "Andre Lee",
-        "jersey": 47,
+        "name": "Scott Laughton",
+        "jersey": 21,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481732,
-        "dfo_id": 30215,
+        "player_id": 8476872,
+        "dfo_id": 2018,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "G",
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 2,
+         "a": 4,
          "g": 2,
-         "gp": 17,
-         "p": 4,
+         "gp": 19,
+         "p": 6,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 11121
+         "sog": 24,
+         "toi_s": 15585
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 1,
+         "g": 0,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3413
+         "sog": 6,
+         "toi_s": 3432
         },
         "l5_point_games": 1,
-        "gp": 17,
+        "gp": 19,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -3162,7 +3177,7 @@
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -3283,12 +3298,12 @@
        "rating": 75.02746990116675
       },
       "f3": {
-       "rank": 23,
-       "rating": 72.7868494361362
+       "rank": 21,
+       "rating": 72.90883259242077
       },
       "f4": {
-       "rank": 28,
-       "rating": 70.8289477596359
+       "rank": 23,
+       "rating": 71.6859154416015
       },
       "g": {
        "rank": 13,
@@ -16526,8 +16541,8 @@
     "goalie_source": "Eric Engels",
     "sv": "0.852",
     "gaa": "3.93",
-    "lineup_as_of": "2026-11-19T21:52:14.045Z",
-    "lineup_checked": "2026-11-19T21:55:06.901293+00:00",
+    "lineup_as_of": "2026-11-19T23:46:02.526Z",
+    "lineup_checked": "2026-11-19T23:46:46.077998+00:00",
     "lineup_stale": false,
     "ga_rk": 18,
     "gf_rk": 13,
@@ -16552,6 +16567,16 @@
       "at": "2026-11-19T21:55:06.903393+00:00",
       "kind": "move",
       "text": "Brett Berard: L4\u2192L3, PP-\u2192PP2"
+     },
+     {
+      "at": "2026-11-19T23:46:46.080796+00:00",
+      "kind": "move",
+      "text": "Owen Beck: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:46:46.080796+00:00",
+      "kind": "move",
+      "text": "Brett Berard: L3\u2192L4"
      }
     ],
     "rates": {
@@ -17297,11 +17322,11 @@
    "lineup": {
     "away": {
      "team": "MTL",
-     "as_of": "2026-11-19T21:52:14.045Z",
-     "checked": "2026-11-19T21:55:06.901293+00:00",
+     "as_of": "2026-11-19T23:46:02.526Z",
+     "checked": "2026-11-19T23:46:46.077998+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-19T21:52:14.045Z",
+     "source": "Patrick Friolet",
+     "updated_dfo": "2026-11-19T23:46:02.526Z",
      "forwards": [
       [
        {
@@ -17421,34 +17446,34 @@
       ],
       [
        {
-        "name": "Juraj Slafkovsky",
-        "jersey": 20,
+        "name": "Alex Newhook",
+        "jersey": 15,
         "pos": "LW",
         "slot": null,
-        "player_id": 8483515,
-        "dfo_id": 35721,
+        "player_id": 8481618,
+        "dfo_id": 30425,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 12,
-         "g": 2,
+         "a": 5,
+         "g": 6,
          "gp": 22,
-         "p": 14,
-         "ppp": 5,
-         "sog": 51,
-         "toi_s": 24190
+         "p": 11,
+         "ppp": 1,
+         "sog": 27,
+         "toi_s": 21393
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 1,
+         "g": 1,
          "gp": 5,
          "p": 2,
-         "ppp": 1,
+         "ppp": 0,
          "sog": 10,
-         "toi_s": 5697
+         "toi_s": 4697
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -17497,34 +17522,34 @@
         }
        },
        {
-        "name": "Alex Newhook",
-        "jersey": 15,
+        "name": "Juraj Slafkovsky",
+        "jersey": 20,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481618,
-        "dfo_id": 30425,
+        "player_id": 8483515,
+        "dfo_id": 35721,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
-        "bias": "G",
+        "bias": "A",
         "season": {
-         "a": 5,
-         "g": 6,
+         "a": 12,
+         "g": 2,
          "gp": 22,
-         "p": 11,
-         "ppp": 1,
-         "sog": 27,
-         "toi_s": 21393
+         "p": 14,
+         "ppp": 5,
+         "sog": 51,
+         "toi_s": 24190
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
          "p": 2,
-         "ppp": 0,
+         "ppp": 1,
          "sog": 10,
-         "toi_s": 4697
+         "toi_s": 5697
         },
         "l5_point_games": 2,
         "gp": 22,
@@ -17537,25 +17562,25 @@
       ],
       [
        {
-        "name": "Brett Berard",
-        "jersey": 37,
+        "name": "Kirby Dach",
+        "jersey": 77,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482132,
-        "dfo_id": 30810,
+        "player_id": 8481523,
+        "dfo_id": 29585,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 1,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 442
+         "a": 5,
+         "g": 2,
+         "gp": 20,
+         "p": 7,
+         "ppp": 1,
+         "sog": 18,
+         "toi_s": 14042
         },
         "last5": {
          "a": 0,
@@ -17563,14 +17588,14 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3038
+         "sog": 6,
+         "toi_s": 4166
         },
-        "l5_point_games": 0,
-        "gp": 1,
+        "l5_point_games": 1,
+        "gp": 20,
         "move": {
-         "ev": 1,
-         "pp": 1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        },
@@ -17613,39 +17638,39 @@
         }
        },
        {
-        "name": "Kirby Dach",
-        "jersey": 77,
+        "name": "Owen Beck",
+        "jersey": 62,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481523,
-        "dfo_id": 29585,
+        "player_id": 8483424,
+        "dfo_id": 33212,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 20,
-         "p": 7,
-         "ppp": 1,
-         "sog": 18,
-         "toi_s": 14042
-        },
-        "last5": {
-         "a": 0,
+         "a": 2,
          "g": 1,
-         "gp": 5,
-         "p": 1,
+         "gp": 8,
+         "p": 3,
          "ppp": 0,
          "sog": 6,
-         "toi_s": 4166
+         "toi_s": 4230
         },
-        "l5_point_games": 1,
-        "gp": 20,
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 2720
+        },
+        "l5_point_games": 2,
+        "gp": 8,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -17729,40 +17754,40 @@
         }
        },
        {
-        "name": "Owen Beck",
-        "jersey": 62,
+        "name": "Brett Berard",
+        "jersey": 37,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483424,
-        "dfo_id": 33212,
+        "player_id": 8482132,
+        "dfo_id": 30810,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 8,
-         "p": 3,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4230
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
+         "a": 0,
+         "g": 0,
+         "gp": 1,
+         "p": 0,
          "ppp": 0,
          "sog": 2,
-         "toi_s": 2720
+         "toi_s": 442
         },
-        "l5_point_games": 2,
-        "gp": 8,
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3038
+        },
+        "l5_point_games": 0,
+        "gp": 1,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -18007,53 +18032,10 @@
      "goalies": [
       [
        {
-        "name": "Jacob Fowler",
-        "jersey": 32,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8484170,
-        "dfo_id": 38444,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 12,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "10-2-2",
-        "sv_pct": "0.924",
-        "starts": 14
-       }
-      ],
-      [
-       {
         "name": "Jakub Dobes",
         "jersey": 75,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8482487,
         "dfo_id": 31895,
         "gtd": false,
@@ -18089,6 +18071,49 @@
         "record": "2-3-2",
         "sv_pct": "0.840",
         "starts": 7
+       }
+      ],
+      [
+       {
+        "name": "Jacob Fowler",
+        "jersey": 32,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8484170,
+        "dfo_id": 38444,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 12,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "10-2-2",
+        "sv_pct": "0.924",
+        "starts": 14
        }
       ]
      ],
@@ -18395,7 +18420,7 @@
         "l5_point_games": 0,
         "gp": 1,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 1,
          "new": false
         }
@@ -18838,15 +18863,15 @@
        "rating": 0
       },
       "f1": {
-       "rank": 34,
+       "rank": 33,
        "rating": 72.61254463393041
       },
       "f2": {
-       "rank": 35,
+       "rank": 36,
        "rating": 0
       },
       "f3": {
-       "rank": 17,
+       "rank": 18,
        "rating": 73.31329128075751
       },
       "f4": {
