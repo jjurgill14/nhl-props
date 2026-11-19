@@ -183,12 +183,14 @@ export function LateStrip({ game }: { game: Game }) {
   return (
     <div className={`late-strip${big.length ? ' hot' : ''}`} title={items.map((c) => `${c.team}: ${c.text}`).join('\n')}>
       <b>LATE CHANGE</b>
-      {show.map((c, i) => (
-        <span key={i}>
-          <i>{c.team}</i> {c.text}
-        </span>
-      ))}
-      {items.length > show.length && <span className="more">+{items.length - show.length}</span>}
+      <ul>
+        {show.map((c, i) => (
+          <li key={i}>
+            <i>{c.team}</i> {c.text}
+          </li>
+        ))}
+        {items.length > show.length && <li className="more">+{items.length - show.length} more — hover for all</li>}
+      </ul>
     </div>
   )
 }

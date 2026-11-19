@@ -461,3 +461,7 @@ button:disabled{cursor:default;opacity:.55}
 .pr-card[draggable=true]{cursor:grab}.pr-card.dragging{opacity:.4;cursor:grabbing}
 .pr-grip{position:relative;z-index:1;color:#5f7b8c;font-size:14px;letter-spacing:-3px;margin-right:-4px;user-select:none}
 .late-strip{border-bottom:0;border-top:1px solid rgba(240,120,40,.35);margin-top:auto}.late-strip.hot{border-top-color:rgba(220,50,50,.45)}
+.late-strip{display:block;padding:7px 14px 8px}
+.late-strip b{display:block;text-align:center;margin-bottom:4px}
+.late-strip ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.late-strip li{line-height:1.3}.late-strip li.more{opacity:.6;font-style:italic}
