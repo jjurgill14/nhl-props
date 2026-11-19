@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T21:45:55.562079+00:00",
+ "generated_utc": "2026-11-19T21:55:11.018769+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -16490,13 +16490,34 @@
     "goalie_source": "Eric Engels",
     "sv": "0.852",
     "gaa": "3.93",
-    "lineup_as_of": "2026-11-19T15:06:24.956Z",
-    "lineup_checked": "2026-11-19T21:09:41.306668+00:00",
+    "lineup_as_of": "2026-11-19T21:52:14.045Z",
+    "lineup_checked": "2026-11-19T21:55:06.901293+00:00",
     "lineup_stale": false,
     "ga_rk": 18,
     "gf_rk": 13,
     "ppga_rk": 12,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T21:55:06.903393+00:00",
+      "kind": "in",
+      "text": "IN: Florian Xhekaj \u2192 L4"
+     },
+     {
+      "at": "2026-11-19T21:55:06.903393+00:00",
+      "kind": "out",
+      "text": "OUT: Zack Bolduc (was L3) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-19T21:55:06.903393+00:00",
+      "kind": "move",
+      "text": "Alexandre Texier: PP2\u2192PP1"
+     },
+     {
+      "at": "2026-11-19T21:55:06.903393+00:00",
+      "kind": "move",
+      "text": "Brett Berard: L4\u2192L3, PP-\u2192PP2"
+     }
+    ],
     "rates": {
      "gp": 22,
      "pp_gp": 22,
@@ -16966,6 +16987,21 @@
        8480762
       ],
       "sneaky": true
+     },
+     {
+      "selection": "Florian Xhekaj \u00b7 1+ assist",
+      "prob": 0.171,
+      "fair": "+486",
+      "need": "+521",
+      "rationale": "L4 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 2 of 9 season \u00b7 B2B",
+      "player": "Florian Xhekaj",
+      "team": "MTL",
+      "pp": null,
+      "line": 4,
+      "players": [
+       8484403
+      ],
+      "sneaky": true
      }
     ],
     "sneaky_goal": [
@@ -17187,6 +17223,22 @@
        8480018,
        8481540
       ]
+     },
+     {
+      "selection": "Suzuki + Texier \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.071,
+      "fair": "+1306",
+      "need": "+1390",
+      "rationale": "Both scored 0 of 1 games together \u00b7 independent 8% \u00b7 new pair",
+      "team": "MTL",
+      "line": 1,
+      "read": "new pair",
+      "both": 0,
+      "n": 1,
+      "players": [
+       8480018,
+       8480074
+      ]
      }
     ],
     "btts2": [
@@ -17203,11 +17255,11 @@
    "lineup": {
     "away": {
      "team": "MTL",
-     "as_of": "2026-11-19T15:06:24.956Z",
-     "checked": "2026-11-19T21:09:41.306668+00:00",
+     "as_of": "2026-11-19T21:52:14.045Z",
+     "checked": "2026-11-19T21:55:06.901293+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-18)",
-     "updated_dfo": "2026-11-19T15:06:24.956Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-19T21:52:14.045Z",
      "forwards": [
       [
        {
@@ -17295,7 +17347,7 @@
         "dfo_id": 4759,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": null,
         "season": {
@@ -17320,7 +17372,7 @@
         "gp": 22,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -17443,40 +17495,40 @@
       ],
       [
        {
-        "name": "Zack Bolduc",
-        "jersey": 76,
+        "name": "Brett Berard",
+        "jersey": 37,
         "pos": "LW",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 31240,
-        "gtd": true,
+        "player_id": 8482132,
+        "dfo_id": 30810,
+        "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 6,
-         "gp": 22,
-         "p": 9,
-         "ppp": 3,
-         "sog": 34,
-         "toi_s": 19084
+         "a": 0,
+         "g": 0,
+         "gp": 1,
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 442
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4707
+         "sog": 5,
+         "toi_s": 3038
         },
         "l5_point_games": 0,
-        "gp": 0,
+        "gp": 1,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
@@ -17559,41 +17611,41 @@
       ],
       [
        {
-        "name": "Brett Berard",
-        "jersey": 37,
+        "name": "Florian Xhekaj",
+        "jersey": 63,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482132,
-        "dfo_id": 30810,
+        "player_id": 8484403,
+        "dfo_id": 37772,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 1,
-         "p": 0,
+         "a": 2,
+         "g": 1,
+         "gp": 9,
+         "p": 3,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 442
+         "sog": 11,
+         "toi_s": 4291
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3038
+         "sog": 6,
+         "toi_s": 2383
         },
-        "l5_point_games": 0,
-        "gp": 1,
+        "l5_point_games": 2,
+        "gp": 9,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -18077,40 +18129,40 @@
         }
        },
        {
-        "name": "Zack Bolduc",
-        "jersey": 76,
+        "name": "Alexandre Texier",
+        "jersey": 85,
         "pos": null,
         "slot": 3,
-        "player_id": null,
-        "dfo_id": 31240,
-        "gtd": true,
+        "player_id": 8480074,
+        "dfo_id": 4759,
+        "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 3,
-         "g": 6,
+         "g": 2,
          "gp": 22,
-         "p": 9,
-         "ppp": 3,
-         "sog": 34,
-         "toi_s": 19084
+         "p": 5,
+         "ppp": 1,
+         "sog": 39,
+         "toi_s": 18186
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4707
+         "sog": 13,
+         "toi_s": 4630
         },
         "l5_point_games": 0,
-        "gp": 0,
+        "gp": 22,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -18269,40 +18321,40 @@
         }
        },
        {
-        "name": "Alexandre Texier",
-        "jersey": 85,
+        "name": "Brett Berard",
+        "jersey": 37,
         "pos": null,
         "slot": 3,
-        "player_id": 8480074,
-        "dfo_id": 4759,
+        "player_id": 8482132,
+        "dfo_id": 30810,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 2,
-         "gp": 22,
-         "p": 5,
-         "ppp": 1,
-         "sog": 39,
-         "toi_s": 18186
+         "a": 0,
+         "g": 0,
+         "gp": 1,
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 442
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 13,
-         "toi_s": 4630
+         "sog": 5,
+         "toi_s": 3038
         },
         "l5_point_games": 0,
-        "gp": 22,
+        "gp": 1,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
@@ -18587,7 +18639,7 @@
         "dfo_id": 4759,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": null,
         "season": {
@@ -18612,7 +18664,7 @@
         "gp": 22,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },

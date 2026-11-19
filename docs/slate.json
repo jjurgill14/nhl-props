@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_utc": "2026-11-19T21:40:03.065904+00:00",
+ "generated_utc": "2026-11-19T21:55:10.501893+00:00",
  "games": [
   {
    "game_id": 2026020347,
@@ -15653,8 +15653,8 @@
      "ppga_rk": 12,
      "l5_gf": 2.2,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-19T15:06:24.956Z",
-     "lineup_checked": "2026-11-19T21:09:41.306668+00:00",
+     "lineup_as_of": "2026-11-19T21:52:14.045Z",
+     "lineup_checked": "2026-11-19T21:55:06.901293+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -15700,12 +15700,12 @@
        "Alex Newhook"
       ],
       "3": [
-       "Zack Bolduc",
+       "Brett Berard",
        "Phillip Danault",
        "Kirby Dach"
       ],
       "4": [
-       "Brett Berard",
+       "Florian Xhekaj",
        "Oliver Kapanen",
        "Owen Beck"
       ]
@@ -15713,14 +15713,14 @@
      "pp1": [
       "Juraj Slafkovsky",
       "Nick Suzuki",
-      "Zack Bolduc",
+      "Alexandre Texier",
       "Cole Caufield",
       "Lane Hutson"
      ],
      "pp2": [
       "Kirby Dach",
       "Oliver Kapanen",
-      "Alexandre Texier",
+      "Brett Berard",
       "Noah Dobson",
       "Alex Newhook"
      ],
@@ -15934,7 +15934,7 @@
         {
          "name": "Alexandre Texier",
          "jersey": 85,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
          "both": 0,
          "either": 1
@@ -16044,118 +16044,8 @@
         {
          "name": "Alexandre Texier",
          "jersey": 85,
-         "pp": 2,
+         "pp": 1,
          "n": 1,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Zack Bolduc",
-       "jersey": 76,
-       "team": "MTL",
-       "opp": "CAR",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 0,
-         "k10": 0,
-         "n10": 0,
-         "p": 0.390096,
-         "p_hot": 0.390096,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 0,
-         "k10": 0,
-         "n10": 0,
-         "p": 0.202272,
-         "p_hot": 0.202272,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 0,
-         "k10": 0,
-         "n10": 0,
-         "p": 0.281736,
-         "p_hot": 0.281736,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": true,
-       "role": "pp1",
-       "bias": null,
-       "gp": 0,
-       "pt_games": 0,
-       "l5": [
-        0,
-        0
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        0
-       ],
-       "away_split": [
-        0,
-        0
-       ],
-       "l5_venue": [
-        0,
-        0
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 0.0,
-       "p": 0.39,
-       "fair": "+156",
-       "min": "+172",
-       "p2": 0.131,
-       "fair2": "+663",
-       "min2": "+709",
-       "adj": [
-        [
-         "opp",
-         0.84
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Phillip Danault",
-         "jersey": 24,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Kirby Dach",
-         "jersey": 77,
-         "pp": 2,
-         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -16474,12 +16364,12 @@
        },
        "partners": [
         {
-         "name": "Brett Berard",
-         "jersey": 65,
+         "name": "Florian Xhekaj",
+         "jersey": 63,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 3,
+         "both": 2,
+         "either": 2
         },
         {
          "name": "Oliver Kapanen",
@@ -16584,9 +16474,9 @@
        },
        "partners": [
         {
-         "name": "Zack Bolduc",
-         "jersey": 76,
-         "pp": 1,
+         "name": "Brett Berard",
+         "jersey": 65,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -16700,6 +16590,116 @@
          "n": 1,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Florian Xhekaj",
+       "jersey": 63,
+       "team": "MTL",
+       "opp": "CAR",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 3,
+         "k5": 2,
+         "n5": 5,
+         "k10": 3,
+         "n10": 9,
+         "p": 0.2124705882352941,
+         "p_hot": 0.22985454545454542,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 9,
+         "p": 0.08328847058823528,
+         "p_hot": 0.06435927272727272,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 2,
+         "n5": 5,
+         "k10": 2,
+         "n10": 9,
+         "p": 0.13598117647058822,
+         "p_hot": 0.17074909090909088,
+         "heater": true
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 9,
+       "pt_games": 3,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        2,
+        5
+       ],
+       "away_split": [
+        1,
+        4
+       ],
+       "l5_venue": [
+        1,
+        4
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 7.9,
+       "p": 0.212,
+       "fair": "+371",
+       "min": "+399",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.84
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Oliver Kapanen",
+         "jersey": null,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Owen Beck",
+         "jersey": null,
+         "pp": null,
+         "n": 3,
+         "both": 2,
+         "either": 2
         }
        ]
       },
@@ -16906,9 +16906,9 @@
        },
        "partners": [
         {
-         "name": "Zack Bolduc",
-         "jersey": 76,
-         "pp": 1,
+         "name": "Brett Berard",
+         "jersey": 65,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -16918,6 +16918,116 @@
          "jersey": 24,
          "pp": null,
          "n": 3,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Alexandre Texier",
+       "jersey": 85,
+       "team": "MTL",
+       "opp": "CAR",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": 1,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.20034559999999998,
+         "p_hot": 0.16709426086956522,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.10209919999999999,
+         "p_hot": 0.10176417391304346,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.12328959999999999,
+         "p_hot": 0.09799513043478261,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 22,
+       "pt_games": 4,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 2,
+       "two_games": 1,
+       "home_split": [
+        3,
+        11
+       ],
+       "away_split": [
+        1,
+        11
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 2.7,
+       "toi": 15.4,
+       "p": 0.2,
+       "fair": "+399",
+       "min": "+429",
+       "p2": 0.057,
+       "fair2": "+1661",
+       "min2": "+1767",
+       "adj": [
+        [
+         "opp",
+         0.84
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Cole Caufield",
+         "jersey": 13,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Nick Suzuki",
+         "jersey": 14,
+         "pp": 1,
+         "n": 1,
          "both": 0,
          "either": 1
         }
@@ -17128,124 +17238,14 @@
        ]
       },
       {
-       "name": "Alexandre Texier",
-       "jersey": 85,
-       "team": "MTL",
-       "opp": "CAR",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1618176,
-         "p_hot": 0.11684034782608695,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.08476159999999999,
-         "p_hot": 0.07914991304347825,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.09439359999999998,
-         "p_hot": 0.060304695652173904,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 22,
-       "pt_games": 4,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 2,
-       "two_games": 1,
-       "home_split": [
-        3,
-        11
-       ],
-       "away_split": [
-        1,
-        11
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 2.7,
-       "toi": 15.4,
-       "p": 0.162,
-       "fair": "+518",
-       "min": "+555",
-       "p2": 0.036,
-       "fair2": "+2692",
-       "min2": "+2859",
-       "adj": [
-        [
-         "opp",
-         0.84
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Cole Caufield",
-         "jersey": 13,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Nick Suzuki",
-         "jersey": 14,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
        "name": "Brett Berard",
        "jersey": 65,
        "team": "MTL",
        "opp": "CAR",
        "section": "F",
        "home": false,
-       "line": 4,
-       "pp": null,
+       "line": 3,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -17324,24 +17324,24 @@
         ]
        ],
        "move": {
-        "ev": 0,
-        "pp": 0,
+        "ev": 1,
+        "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Oliver Kapanen",
-         "jersey": null,
-         "pp": 2,
-         "n": 1,
+         "name": "Phillip Danault",
+         "jersey": 24,
+         "pp": null,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Owen Beck",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
+         "name": "Kirby Dach",
+         "jersey": 77,
+         "pp": 2,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -17440,12 +17440,12 @@
        },
        "partners": [
         {
-         "name": "Brett Berard",
-         "jersey": 65,
+         "name": "Florian Xhekaj",
+         "jersey": 63,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
+         "n": 2,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Owen Beck",
