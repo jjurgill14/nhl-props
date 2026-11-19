@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T23:52:00.435033+00:00",
+ "generated_utc": "2026-11-19T23:57:08.729658+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1066,8 +1066,8 @@
     "goalie_source": "Zach Dooley",
     "sv": "0.884",
     "gaa": "3.26",
-    "lineup_as_of": "2026-11-19T19:21:26.365Z",
-    "lineup_checked": "2026-11-19T23:51:55.107893+00:00",
+    "lineup_as_of": "2026-11-19T23:40:46.911Z",
+    "lineup_checked": "2026-11-19T23:57:03.027377+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
     "gf_rk": 26,
@@ -1117,6 +1117,21 @@
       "at": "2026-11-19T23:51:55.111631+00:00",
       "kind": "move",
       "text": "Andre Lee: L1\u2192L4"
+     },
+     {
+      "at": "2026-11-19T23:57:03.030603+00:00",
+      "kind": "move",
+      "text": "Andre Lee: L4\u2192L1"
+     },
+     {
+      "at": "2026-11-19T23:57:03.030603+00:00",
+      "kind": "move",
+      "text": "Alex Turcotte: L1\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:57:03.030603+00:00",
+      "kind": "move",
+      "text": "Scott Laughton: L3\u2192L4"
      }
     ],
     "rates": {
@@ -1784,47 +1799,47 @@
    "lineup": {
     "away": {
      "team": "LAK",
-     "as_of": "2026-11-19T19:21:26.365Z",
-     "checked": "2026-11-19T23:51:55.107893+00:00",
+     "as_of": "2026-11-19T23:40:46.911Z",
+     "checked": "2026-11-19T23:57:03.027377+00:00",
      "stale": false,
      "source": "Zach Dooley",
-     "updated_dfo": "2026-11-19T19:21:26.365Z",
+     "updated_dfo": "2026-11-19T23:40:46.911Z",
      "forwards": [
       [
        {
-        "name": "Alex Turcotte",
-        "jersey": 15,
+        "name": "Andre Lee",
+        "jersey": 47,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481532,
-        "dfo_id": 30420,
+        "player_id": 8481732,
+        "dfo_id": 30215,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "G",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 6,
-         "p": 1,
+         "a": 2,
+         "g": 2,
+         "gp": 17,
+         "p": 4,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4806
+         "sog": 17,
+         "toi_s": 11121
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3871
+         "sog": 7,
+         "toi_s": 3413
         },
-        "l5_point_games": 0,
-        "gp": 6,
+        "l5_point_games": 1,
+        "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -2024,39 +2039,39 @@
       ],
       [
        {
-        "name": "Scott Laughton",
-        "jersey": 21,
+        "name": "Alex Turcotte",
+        "jersey": 15,
         "pos": "LW",
         "slot": null,
-        "player_id": 8476872,
-        "dfo_id": 2018,
+        "player_id": 8481532,
+        "dfo_id": 30420,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 19,
-         "p": 6,
-         "ppp": 0,
-         "sog": 24,
-         "toi_s": 15585
-        },
-        "last5": {
          "a": 1,
          "g": 0,
-         "gp": 5,
+         "gp": 6,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3432
+         "sog": 3,
+         "toi_s": 4806
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 3871
+        },
+        "l5_point_games": 0,
+        "gp": 6,
         "move": {
-         "ev": 1,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -2140,37 +2155,37 @@
       ],
       [
        {
-        "name": "Andre Lee",
-        "jersey": 47,
+        "name": "Scott Laughton",
+        "jersey": 21,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481732,
-        "dfo_id": 30215,
+        "player_id": 8476872,
+        "dfo_id": 2018,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "G",
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 2,
+         "a": 4,
          "g": 2,
-         "gp": 17,
-         "p": 4,
+         "gp": 19,
+         "p": 6,
          "ppp": 0,
-         "sog": 17,
-         "toi_s": 11121
+         "sog": 24,
+         "toi_s": 15585
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 1,
+         "g": 0,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3413
+         "sog": 6,
+         "toi_s": 3432
         },
         "l5_point_games": 1,
-        "gp": 17,
+        "gp": 19,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -3192,7 +3207,7 @@
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -3313,12 +3328,12 @@
        "rating": 75.02746990116675
       },
       "f3": {
-       "rank": 23,
-       "rating": 72.7868494361362
+       "rank": 21,
+       "rating": 72.90883259242077
       },
       "f4": {
-       "rank": 28,
-       "rating": 70.8289477596359
+       "rank": 23,
+       "rating": 71.6859154416015
       },
       "g": {
        "rank": 13,
