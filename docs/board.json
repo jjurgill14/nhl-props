@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T00:05:47.721829+00:00",
+ "generated_utc": "2026-11-19T00:10:53.501657+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1061,18 +1061,64 @@
     "record": "13-7-1",
     "b2b": true,
     "goalie": "Jeremy Swayman",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Swayman will start Wednesday in Detroit.",
+    "goalie_source": "Jim McBride",
     "sv": "0.906",
     "gaa": "2.6",
-    "lineup_as_of": "2026-11-18T11:51:24.206Z",
-    "lineup_checked": "2026-11-18T14:51:30.633382+00:00",
+    "lineup_as_of": "2026-11-19T00:09:13.660Z",
+    "lineup_checked": "2026-11-19T00:10:50.154407+00:00",
     "lineup_stale": false,
     "ga_rk": 28,
     "gf_rk": 8,
     "ppga_rk": 16,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "goalie",
+      "text": "G: Jeremy Swayman confirmed"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "in",
+      "text": "IN: Matthew Poitras \u2192 L3"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "out",
+      "text": "OUT: Michael Eyssimont (was L2)"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "move",
+      "text": "Morgan Geekie: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "move",
+      "text": "Elias Lindholm: L3\u2192L1"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "move",
+      "text": "Casey Mittelstadt: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "move",
+      "text": "Pavel Zacha: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "move",
+      "text": "JJ Peterka: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-19T00:10:50.156528+00:00",
+      "kind": "move",
+      "text": "Fraser Minten: L2\u2192L3"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
@@ -1116,13 +1162,24 @@
     "goalie_source": "Helene St. James",
     "sv": "0.937",
     "gaa": "1.69",
-    "lineup_as_of": "2026-11-17T16:48:53.542Z",
-    "lineup_checked": "2026-11-18T21:39:38.178332+00:00",
+    "lineup_as_of": "2026-11-19T00:07:44.414Z",
+    "lineup_checked": "2026-11-19T00:10:50.298996+00:00",
     "lineup_stale": false,
     "ga_rk": 20,
     "gf_rk": 27,
     "ppga_rk": 8,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T00:10:50.301299+00:00",
+      "kind": "in",
+      "text": "IN: Jacob Bernard-Docker \u2192 L3"
+     },
+     {
+      "at": "2026-11-19T00:10:50.301299+00:00",
+      "kind": "out",
+      "text": "OUT: Albert Johansson (was L3) \u2192 IR"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
@@ -1157,7 +1214,7 @@
      "away": "-285",
      "home": "+230",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-17T16:48:53.542Z"
+     "as_of": "2026-11-19T00:07:44.414Z"
     },
     "total": {
      "line": 5.5,
@@ -1203,6 +1260,21 @@
    "lenses": {
     "point": [
      {
+      "selection": "Elias Lindholm \u00b7 1+ point",
+      "prob": 0.524,
+      "fair": "-110",
+      "need": "+102",
+      "rationale": "Point in 14 of 21 this season \u00b7 3 of L5 \u00b7 3 of L5 away \u00b7 B2B",
+      "player": "Elias Lindholm",
+      "team": "BOS",
+      "pp": 1,
+      "line": 1,
+      "bias": "A",
+      "players": [
+       8477496
+      ]
+     },
+     {
       "selection": "David Pastrnak \u00b7 1+ point",
       "prob": 0.524,
       "fair": "-110",
@@ -1215,21 +1287,6 @@
       "bias": "A",
       "players": [
        8477956
-      ]
-     },
-     {
-      "selection": "Elias Lindholm \u00b7 1+ point",
-      "prob": 0.524,
-      "fair": "-110",
-      "need": "+102",
-      "rationale": "Point in 14 of 21 this season \u00b7 3 of L5 \u00b7 3 of L5 away \u00b7 B2B",
-      "player": "Elias Lindholm",
-      "team": "BOS",
-      "pp": 1,
-      "line": 3,
-      "bias": "A",
-      "players": [
-       8477496
       ]
      },
      {
@@ -1256,7 +1313,7 @@
       "player": "Pavel Zacha",
       "team": "BOS",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": null,
       "players": [
        8478401
@@ -1271,7 +1328,7 @@
       "player": "Morgan Geekie",
       "team": "BOS",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": null,
       "players": [
        8479987
@@ -1359,7 +1416,7 @@
       "player": "Elias Lindholm",
       "team": "BOS",
       "pp": 1,
-      "line": 3,
+      "line": 1,
       "players": [
        8477496
       ]
@@ -1373,7 +1430,7 @@
       "player": "Morgan Geekie",
       "team": "BOS",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8479987
       ]
@@ -1409,6 +1466,20 @@
       ]
      },
      {
+      "selection": "Elias Lindholm \u00b7 1+ goal",
+      "prob": 0.264,
+      "fair": "+279",
+      "need": "+301",
+      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5 \u00b7 B2B",
+      "player": "Elias Lindholm",
+      "team": "BOS",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8477496
+      ]
+     },
+     {
       "selection": "David Pastrnak \u00b7 1+ goal",
       "prob": 0.264,
       "fair": "+279",
@@ -1420,20 +1491,6 @@
       "line": 1,
       "players": [
        8477956
-      ]
-     },
-     {
-      "selection": "Elias Lindholm \u00b7 1+ goal",
-      "prob": 0.264,
-      "fair": "+279",
-      "need": "+301",
-      "rationale": "Goal in 7 of 21 this season \u00b7 2 of L5 \u00b7 B2B",
-      "player": "Elias Lindholm",
-      "team": "BOS",
-      "pp": 1,
-      "line": 3,
-      "players": [
-       8477496
       ]
      },
      {
@@ -1465,7 +1522,23 @@
       ]
      }
     ],
-    "sneaky_point": [],
+    "sneaky_point": [
+     {
+      "selection": "Fraser Minten \u00b7 1+ point",
+      "prob": 0.324,
+      "fair": "+208",
+      "need": "+227",
+      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 8 of 21 season \u00b7 B2B",
+      "player": "Fraser Minten",
+      "team": "BOS",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8483489
+      ],
+      "sneaky": true
+     }
+    ],
     "sneaky_assist": [
      {
       "selection": "Carter Mazur \u00b7 1+ assist",
@@ -1498,38 +1571,38 @@
       "sneaky": true
      }
     ],
-    "sneaky_goal": [],
+    "sneaky_goal": [
+     {
+      "selection": "Fraser Minten \u00b7 1+ goal",
+      "prob": 0.215,
+      "fair": "+366",
+      "need": "+393",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 6 of 21 season \u00b7 B2B",
+      "player": "Fraser Minten",
+      "team": "BOS",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8483489
+      ],
+      "sneaky": true
+     }
+    ],
     "pair": [
      {
-      "selection": "Pastrnak + Zacha \u00b7 both 1+ point",
-      "prob": 0.54,
-      "fair": "-118",
-      "need": "-104",
-      "rationale": "Both scored 11 of 17 games together \u00b7 independent 24% \u00b7 correlated",
+      "selection": "Pastrnak + Geekie \u00b7 both 1+ point",
+      "prob": 0.414,
+      "fair": "+142",
+      "need": "+156",
+      "rationale": "Both scored 4 of 7 games together \u00b7 independent 23% \u00b7 correlated",
       "team": "BOS",
       "line": 1,
       "read": "correlated",
-      "both": 11,
-      "n": 17,
+      "both": 4,
+      "n": 7,
       "players": [
        8477956,
-       8478401
-      ]
-     },
-     {
-      "selection": "Pastrnak + Peterka \u00b7 both 1+ point",
-      "prob": 0.373,
-      "fair": "+168",
-      "need": "+184",
-      "rationale": "Both scored 6 of 13 games together \u00b7 independent 18% \u00b7 correlated",
-      "team": "BOS",
-      "line": 1,
-      "read": "correlated",
-      "both": 6,
-      "n": 13,
-      "players": [
-       8477956,
-       8482175
+       8479987
       ]
      },
      {
@@ -1549,22 +1622,6 @@
       ]
      },
      {
-      "selection": "Lindholm + Mittelstadt \u00b7 both 1+ point",
-      "prob": 0.337,
-      "fair": "+197",
-      "need": "+214",
-      "rationale": "Both scored 6 of 15 games together \u00b7 independent 18% \u00b7 correlated",
-      "team": "BOS",
-      "line": 3,
-      "read": "correlated",
-      "both": 6,
-      "n": 15,
-      "players": [
-       8477496,
-       8479999
-      ]
-     },
-     {
       "selection": "DeBrincat + Finnie \u00b7 both 1+ point",
       "prob": 0.322,
       "fair": "+210",
@@ -1578,6 +1635,38 @@
       "players": [
        8479337,
        8484471
+      ]
+     },
+     {
+      "selection": "Lindholm + Pastrnak \u00b7 both 1+ point",
+      "prob": 0.294,
+      "fair": "+240",
+      "need": "+260",
+      "rationale": "Both scored 1 of 3 games together \u00b7 independent 27% \u00b7 new pair",
+      "team": "BOS",
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 3,
+      "players": [
+       8477496,
+       8477956
+      ]
+     },
+     {
+      "selection": "Zacha + Peterka \u00b7 both 1+ point",
+      "prob": 0.232,
+      "fair": "+331",
+      "need": "+357",
+      "rationale": "Both scored 3 of 11 games together \u00b7 independent 16% \u00b7 correlated",
+      "team": "BOS",
+      "line": 2,
+      "read": "correlated",
+      "both": 3,
+      "n": 11,
+      "players": [
+       8478401,
+       8482175
       ]
      }
     ],
@@ -1647,7 +1736,7 @@
       "player": "Pavel Zacha",
       "team": "BOS",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8478401
       ]
@@ -1655,19 +1744,19 @@
     ],
     "pp1": [
      {
-      "selection": "Pastrnak + Zacha \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.54,
-      "fair": "-118",
-      "need": "-104",
-      "rationale": "Both scored 11 of 17 games together \u00b7 independent 24% \u00b7 correlated",
+      "selection": "Pastrnak + Geekie \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.414,
+      "fair": "+142",
+      "need": "+156",
+      "rationale": "Both scored 4 of 7 games together \u00b7 independent 23% \u00b7 correlated",
       "team": "BOS",
       "line": 1,
       "read": "correlated",
-      "both": 11,
-      "n": 17,
+      "both": 4,
+      "n": 7,
       "players": [
        8477956,
-       8478401
+       8479987
       ]
      },
      {
@@ -1685,6 +1774,38 @@
        8479337,
        8484471
       ]
+     },
+     {
+      "selection": "Lindholm + Pastrnak \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.294,
+      "fair": "+240",
+      "need": "+260",
+      "rationale": "Both scored 1 of 3 games together \u00b7 independent 27% \u00b7 new pair",
+      "team": "BOS",
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 3,
+      "players": [
+       8477496,
+       8477956
+      ]
+     },
+     {
+      "selection": "Lindholm + Geekie \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.197,
+      "fair": "+408",
+      "need": "+439",
+      "rationale": "Both scored 0 of 1 games together \u00b7 independent 23% \u00b7 new pair",
+      "team": "BOS",
+      "line": 1,
+      "read": "new pair",
+      "both": 0,
+      "n": 1,
+      "players": [
+       8477496,
+       8479987
+      ]
      }
     ],
     "btts2": [
@@ -1701,58 +1822,20 @@
    "lineup": {
     "away": {
      "team": "BOS",
-     "as_of": "2026-11-18T11:51:24.206Z",
-     "checked": "2026-11-18T14:51:30.633382+00:00",
+     "as_of": "2026-11-19T00:09:13.660Z",
+     "checked": "2026-11-19T00:10:50.154407+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-17)",
-     "updated_dfo": "2026-11-18T11:51:24.206Z",
+     "source": "Jim McBride",
+     "updated_dfo": "2026-11-19T00:09:13.660Z",
      "forwards": [
       [
        {
-        "name": "JJ Peterka",
-        "jersey": 10,
+        "name": "Morgan Geekie",
+        "jersey": 39,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482175,
-        "dfo_id": 31777,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 9,
-         "g": 5,
-         "gp": 21,
-         "p": 14,
-         "ppp": 1,
-         "sog": 45,
-         "toi_s": 22159
-        },
-        "last5": {
-         "a": 2,
-         "g": 1,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 15,
-         "toi_s": 5264
-        },
-        "l5_point_games": 2,
-        "gp": 20,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Pavel Zacha",
-        "jersey": 18,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8478401,
-        "dfo_id": 2481,
+        "player_id": 8479987,
+        "dfo_id": 28001,
         "gtd": false,
         "injury": null,
         "pp": 1,
@@ -1761,25 +1844,63 @@
         "season": {
          "a": 10,
          "g": 5,
-         "gp": 20,
+         "gp": 21,
          "p": 15,
          "ppp": 7,
-         "sog": 34,
-         "toi_s": 23123
+         "sog": 32,
+         "toi_s": 20802
         },
         "last5": {
-         "a": 3,
+         "a": 2,
          "g": 2,
          "gp": 5,
-         "p": 5,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 5853
+         "p": 4,
+         "ppp": 2,
+         "sog": 10,
+         "toi_s": 4451
         },
         "l5_point_games": 3,
-        "gp": 20,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Elias Lindholm",
+        "jersey": 28,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8477496,
+        "dfo_id": 2133,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 10,
+         "g": 7,
+         "gp": 21,
+         "p": 17,
+         "ppp": 4,
+         "sog": 37,
+         "toi_s": 21616
+        },
+        "last5": {
+         "a": 2,
+         "g": 2,
+         "gp": 5,
+         "p": 4,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 5101
+        },
+        "l5_point_games": 3,
+        "gp": 21,
+        "move": {
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -1825,37 +1946,153 @@
       ],
       [
        {
-        "name": "Michael Eyssimont",
-        "jersey": 81,
+        "name": "Casey Mittelstadt",
+        "jersey": 11,
         "pos": "LW",
         "slot": null,
-        "player_id": 8479591,
-        "dfo_id": 4693,
+        "player_id": 8479999,
+        "dfo_id": 2782,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 4,
-         "p": 1,
+         "a": 5,
+         "g": 7,
+         "gp": 21,
+         "p": 12,
+         "ppp": 1,
+         "sog": 29,
+         "toi_s": 18168
+        },
+        "last5": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 2257
+         "sog": 5,
+         "toi_s": 4439
+        },
+        "l5_point_games": 2,
+        "gp": 21,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Pavel Zacha",
+        "jersey": 18,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8478401,
+        "dfo_id": 2481,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 10,
+         "g": 5,
+         "gp": 20,
+         "p": 15,
+         "ppp": 7,
+         "sog": 34,
+         "toi_s": 23123
+        },
+        "last5": {
+         "a": 3,
+         "g": 2,
+         "gp": 5,
+         "p": 5,
+         "ppp": 1,
+         "sog": 9,
+         "toi_s": 5853
+        },
+        "l5_point_games": 3,
+        "gp": 20,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "JJ Peterka",
+        "jersey": 10,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8482175,
+        "dfo_id": 31777,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 9,
+         "g": 5,
+         "gp": 21,
+         "p": 14,
+         "ppp": 1,
+         "sog": 45,
+         "toi_s": 22159
+        },
+        "last5": {
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 15,
+         "toi_s": 5264
+        },
+        "l5_point_games": 2,
+        "gp": 20,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Marat Khusnutdinov",
+        "jersey": 92,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8482177,
+        "dfo_id": 31738,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 3,
+         "gp": 21,
+         "p": 6,
+         "ppp": 0,
+         "sog": 21,
+         "toi_s": 17632
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 13,
-         "toi_s": 3201
+         "sog": 6,
+         "toi_s": 4378
         },
-        "l5_point_games": 1,
-        "gp": 4,
+        "l5_point_games": 0,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -1895,147 +2132,31 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Morgan Geekie",
-        "jersey": 39,
+        "name": "Matthew Poitras",
+        "jersey": 51,
         "pos": "RW",
         "slot": null,
-        "player_id": 8479987,
-        "dfo_id": 28001,
+        "player_id": 8483505,
+        "dfo_id": 33196,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": null,
-        "bias": null,
-        "season": {
-         "a": 10,
-         "g": 5,
-         "gp": 21,
-         "p": 15,
-         "ppp": 7,
-         "sog": 32,
-         "toi_s": 20802
-        },
-        "last5": {
-         "a": 2,
-         "g": 2,
-         "gp": 5,
-         "p": 4,
-         "ppp": 2,
-         "sog": 10,
-         "toi_s": 4451
-        },
-        "l5_point_games": 3,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Casey Mittelstadt",
-        "jersey": 11,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8479999,
-        "dfo_id": 2782,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 5,
-         "g": 7,
-         "gp": 21,
-         "p": 12,
-         "ppp": 1,
-         "sog": 29,
-         "toi_s": 18168
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4439
-        },
-        "l5_point_games": 2,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Elias Lindholm",
-        "jersey": 28,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8477496,
-        "dfo_id": 2133,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 10,
-         "g": 7,
-         "gp": 21,
-         "p": 17,
-         "ppp": 4,
-         "sog": 37,
-         "toi_s": 21616
-        },
-        "last5": {
-         "a": 2,
-         "g": 2,
-         "gp": 5,
-         "p": 4,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 5101
-        },
-        "l5_point_games": 3,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Marat Khusnutdinov",
-        "jersey": 92,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8482177,
-        "dfo_id": 31738,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": null,
-        "season": {
          "a": 3,
-         "g": 3,
-         "gp": 21,
-         "p": 6,
+         "g": 4,
+         "gp": 15,
+         "p": 7,
          "ppp": 0,
-         "sog": 21,
-         "toi_s": 17632
+         "sog": 18,
+         "toi_s": 8551
         },
         "last5": {
          "a": 0,
@@ -2043,15 +2164,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 4378
+         "sog": 5,
+         "toi_s": 2400
         },
         "l5_point_games": 0,
-        "gp": 21,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -2531,7 +2652,7 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -2569,7 +2690,7 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -2607,7 +2728,7 @@
         "l5_point_games": 3,
         "gp": 20,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -2761,7 +2882,7 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -2799,7 +2920,7 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -2837,7 +2958,7 @@
         "l5_point_games": 2,
         "gp": 20,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -2917,7 +3038,7 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -3071,7 +3192,7 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -3205,11 +3326,11 @@
        "rating": 75.78035786891445
       },
       "d2": {
-       "rank": 32,
+       "rank": 33,
        "rating": 72.03061750223051
       },
       "d3": {
-       "rank": 19,
+       "rank": 18,
        "rating": 71.48052823746632
       },
       "d4": {
@@ -3218,18 +3339,18 @@
       },
       "f1": {
        "rank": 8,
-       "rating": 77.8958849289513
+       "rating": 78.2962797890848
       },
       "f2": {
-       "rank": 17,
-       "rating": 74.50263346171931
+       "rank": 32,
+       "rating": 71.08664527042191
       },
       "f3": {
-       "rank": 15,
-       "rating": 73.38386329423815
+       "rank": 36,
+       "rating": 0
       },
       "f4": {
-       "rank": 27,
+       "rank": 28,
        "rating": 70.6999633216279
       },
       "g": {
@@ -3256,11 +3377,11 @@
     },
     "home": {
      "team": "DET",
-     "as_of": "2026-11-17T16:48:53.542Z",
-     "checked": "2026-11-18T21:39:38.178332+00:00",
+     "as_of": "2026-11-19T00:07:44.414Z",
+     "checked": "2026-11-19T00:10:50.298996+00:00",
      "stale": false,
      "source": "Ansar Khan",
-     "updated_dfo": "2026-11-17T16:48:53.542Z",
+     "updated_dfo": "2026-11-19T00:07:44.414Z",
      "forwards": [
       [
        {
@@ -3302,47 +3423,9 @@
         }
        },
        {
-        "name": "Marco Kasper",
-        "jersey": 92,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8483464,
-        "dfo_id": 36364,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 4,
-         "p": 1,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 3580
-        },
-        "last5": {
-         "a": 2,
-         "g": 1,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 4506
-        },
-        "l5_point_games": 1,
-        "gp": 4,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Emmitt Finnie",
         "jersey": 58,
-        "pos": "RW",
+        "pos": "C",
         "slot": null,
         "player_id": 8484471,
         "dfo_id": 33612,
@@ -3371,6 +3454,44 @@
         },
         "l5_point_games": 0,
         "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Marco Kasper",
+        "jersey": 92,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8483464,
+        "dfo_id": 36364,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 1,
+         "gp": 4,
+         "p": 1,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 3580
+        },
+        "last5": {
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 4506
+        },
+        "l5_point_games": 1,
+        "gp": 4,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -3924,37 +4045,37 @@
         }
        },
        {
-        "name": "Albert Johansson",
-        "jersey": 20,
+        "name": "Jacob Bernard-Docker",
+        "jersey": 24,
         "pos": "RD",
         "slot": null,
-        "player_id": 8481607,
-        "dfo_id": 30661,
-        "gtd": true,
+        "player_id": null,
+        "dfo_id": 4819,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 0,
          "g": 0,
-         "gp": 11,
-         "p": 1,
+         "gp": 0,
+         "p": 0,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 10348
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4479
+         "sog": 2,
+         "toi_s": 4954
         },
-        "l5_point_games": 1,
-        "gp": 11,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,

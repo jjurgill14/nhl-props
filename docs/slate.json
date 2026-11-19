@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_utc": "2026-11-19T00:05:47.179111+00:00",
+ "generated_utc": "2026-11-19T00:10:52.929242+00:00",
  "games": [
   {
    "game_id": 2026020344,
@@ -17,9 +17,9 @@
      "home": false,
      "b2b": true,
      "goalie": "Jeremy Swayman",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Swayman will start Wednesday in Detroit.",
+     "goalie_source": "Jim McBride",
      "sv": "0.906",
      "gaa": "2.6",
      "ml": "-285",
@@ -34,8 +34,8 @@
      "ppga_rk": 16,
      "l5_gf": 2.8,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-18T11:51:24.206Z",
-     "lineup_checked": "2026-11-18T14:51:30.633382+00:00",
+     "lineup_as_of": "2026-11-19T00:09:13.660Z",
+     "lineup_checked": "2026-11-19T00:10:50.154407+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -46,19 +46,19 @@
      ],
      "lines": {
       "1": [
-       "JJ Peterka",
-       "Pavel Zacha",
+       "Morgan Geekie",
+       "Elias Lindholm",
        "David Pastrnak"
       ],
       "2": [
-       "Michael Eyssimont",
-       "Fraser Minten",
-       "Morgan Geekie"
+       "Casey Mittelstadt",
+       "Pavel Zacha",
+       "JJ Peterka"
       ],
       "3": [
-       "Casey Mittelstadt",
-       "Elias Lindholm",
-       "Marat Khusnutdinov"
+       "Marat Khusnutdinov",
+       "Fraser Minten",
+       "Matthew Poitras"
       ],
       "4": [
        "Tanner Jeannot",
@@ -81,6 +81,116 @@
       "Mason Lohrei"
      ],
      "players": [
+      {
+       "name": "Elias Lindholm",
+       "jersey": 28,
+       "team": "BOS",
+       "opp": "DET",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": 1,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 14,
+         "k5": 3,
+         "n5": 5,
+         "k10": 7,
+         "n10": 10,
+         "p": 0.5236544783092325,
+         "p_hot": 0.5160984235624123,
+         "heater": false
+        },
+        "goals": {
+         "k": 7,
+         "k5": 2,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.26411393993325916,
+         "p_hot": 0.26093244319775594,
+         "heater": true
+        },
+        "assists": {
+         "k": 8,
+         "k5": 1,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.3178514082313682,
+         "p_hot": 0.2926479887798037,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 21,
+       "pt_games": 14,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 8,
+       "goal_games": 7,
+       "two_games": 3,
+       "home_split": [
+        9,
+        12
+       ],
+       "away_split": [
+        5,
+        9
+       ],
+       "l5_venue": [
+        3,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 3.5,
+       "toi": 17.0,
+       "p": 0.524,
+       "fair": "-110",
+       "min": "+102",
+       "p2": 0.119,
+       "fair2": "+739",
+       "min2": "+789",
+       "adj": [
+        [
+         "opp",
+         0.9638709677419355
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Morgan Geekie",
+         "jersey": 39,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "David Pastrnak",
+         "jersey": 88,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
       {
        "name": "David Pastrnak",
        "jersey": 88,
@@ -174,130 +284,20 @@
        },
        "partners": [
         {
-         "name": "JJ Peterka",
-         "jersey": 10,
-         "pp": 2,
-         "n": 13,
-         "both": 6,
-         "either": 9
-        },
-        {
-         "name": "Pavel Zacha",
-         "jersey": 18,
+         "name": "Morgan Geekie",
+         "jersey": 39,
          "pp": 1,
-         "n": 17,
-         "both": 11,
-         "either": 12
-        }
-       ]
-      },
-      {
-       "name": "Elias Lindholm",
-       "jersey": 28,
-       "team": "BOS",
-       "opp": "DET",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 14,
-         "k5": 3,
-         "n5": 5,
-         "k10": 7,
-         "n10": 10,
-         "p": 0.5236544783092325,
-         "p_hot": 0.5160984235624123,
-         "heater": false
-        },
-        "goals": {
-         "k": 7,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.26411393993325916,
-         "p_hot": 0.26093244319775594,
-         "heater": true
-        },
-        "assists": {
-         "k": 8,
-         "k5": 1,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.3178514082313682,
-         "p_hot": 0.2926479887798037,
-         "heater": false
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 21,
-       "pt_games": 14,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 8,
-       "goal_games": 7,
-       "two_games": 3,
-       "home_split": [
-        9,
-        12
-       ],
-       "away_split": [
-        5,
-        9
-       ],
-       "l5_venue": [
-        3,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 3.5,
-       "toi": 17.0,
-       "p": 0.524,
-       "fair": "-110",
-       "min": "+102",
-       "p2": 0.119,
-       "fair2": "+739",
-       "min2": "+789",
-       "adj": [
-        [
-         "opp",
-         0.9638709677419355
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Casey Mittelstadt",
-         "jersey": 11,
-         "pp": 2,
-         "n": 15,
-         "both": 6,
-         "either": 14
+         "n": 7,
+         "both": 4,
+         "either": 5
         },
         {
-         "name": "Marat Khusnutdinov",
-         "jersey": 92,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
+         "name": "Elias Lindholm",
+         "jersey": 28,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -308,7 +308,7 @@
        "opp": "DET",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -388,11 +388,19 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
+        {
+         "name": "Casey Mittelstadt",
+         "jersey": 11,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 0
+        },
         {
          "name": "JJ Peterka",
          "jersey": 10,
@@ -400,14 +408,6 @@
          "n": 11,
          "both": 3,
          "either": 7
-        },
-        {
-         "name": "David Pastrnak",
-         "jersey": 88,
-         "pp": 1,
-         "n": 17,
-         "both": 11,
-         "either": 12
         }
        ]
       },
@@ -418,7 +418,7 @@
        "opp": "DET",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -453,7 +453,7 @@
          "heater": true
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -498,26 +498,136 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Michael Eyssimont",
-         "jersey": 81,
-         "pp": null,
-         "n": 2,
+         "name": "Elias Lindholm",
+         "jersey": 28,
+         "pp": 1,
+         "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Fraser Minten",
-         "jersey": 93,
-         "pp": 2,
-         "n": 11,
+         "name": "David Pastrnak",
+         "jersey": 88,
+         "pp": 1,
+         "n": 7,
          "both": 4,
-         "either": 6
+         "either": 5
+        }
+       ]
+      },
+      {
+       "name": "Casey Mittelstadt",
+       "jersey": 11,
+       "team": "BOS",
+       "opp": "DET",
+       "section": "F",
+       "home": false,
+       "line": 2,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 10,
+         "k5": 2,
+         "n5": 5,
+         "k10": 5,
+         "n10": 10,
+         "p": 0.3635854238042269,
+         "p_hot": 0.3503126171107995,
+         "heater": false
+        },
+        "goals": {
+         "k": 6,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.21494987319243603,
+         "p_hot": 0.19894296774193546,
+         "heater": false
+        },
+        "assists": {
+         "k": 5,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.197799617352614,
+         "p_hot": 0.21335912482468442,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 21,
+       "pt_games": 10,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 6,
+       "two_games": 2,
+       "home_split": [
+        7,
+        12
+       ],
+       "away_split": [
+        3,
+        9
+       ],
+       "l5_venue": [
+        2,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 1.9,
+       "toi": 14.8,
+       "p": 0.364,
+       "fair": "+175",
+       "min": "+192",
+       "p2": 0.068,
+       "fair2": "+1361",
+       "min2": "+1449",
+       "adj": [
+        [
+         "opp",
+         0.9638709677419355
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Pavel Zacha",
+         "jersey": 18,
+         "pp": 1,
+         "n": 3,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "JJ Peterka",
+         "jersey": 10,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -528,7 +638,7 @@
        "opp": "DET",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -563,7 +673,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "A",
@@ -608,11 +718,19 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
+        {
+         "name": "Casey Mittelstadt",
+         "jersey": 11,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
         {
          "name": "Pavel Zacha",
          "jersey": 18,
@@ -620,124 +738,6 @@
          "n": 11,
          "both": 3,
          "either": 7
-        },
-        {
-         "name": "David Pastrnak",
-         "jersey": 88,
-         "pp": 1,
-         "n": 13,
-         "both": 6,
-         "either": 9
-        }
-       ]
-      },
-      {
-       "name": "Casey Mittelstadt",
-       "jersey": 11,
-       "team": "BOS",
-       "opp": "DET",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 10,
-         "k5": 2,
-         "n5": 5,
-         "k10": 5,
-         "n10": 10,
-         "p": 0.34300511679644047,
-         "p_hot": 0.32436353436185134,
-         "heater": false
-        },
-        "goals": {
-         "k": 6,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.19894296774193546,
-         "p_hot": 0.17876034782608693,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.17721931034482757,
-         "p_hot": 0.1874100420757363,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 21,
-       "pt_games": 10,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 6,
-       "two_games": 2,
-       "home_split": [
-        7,
-        12
-       ],
-       "away_split": [
-        3,
-        9
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.9,
-       "toi": 14.8,
-       "p": 0.343,
-       "fair": "+192",
-       "min": "+209",
-       "p2": 0.06,
-       "fair2": "+1563",
-       "min2": "+1662",
-       "adj": [
-        [
-         "opp",
-         0.9638709677419355
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Elias Lindholm",
-         "jersey": 28,
-         "pp": 1,
-         "n": 15,
-         "both": 6,
-         "either": 14
-        },
-        {
-         "name": "Marat Khusnutdinov",
-         "jersey": 92,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 2
         }
        ]
       },
@@ -844,15 +844,129 @@
        ]
       },
       {
+       "name": "Matthew Poitras",
+       "jersey": 51,
+       "team": "BOS",
+       "opp": "DET",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 6,
+         "k5": 0,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.31715545582047683,
+         "p_hot": 0.198222159887798,
+         "heater": false
+        },
+        "goals": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.19663638260869565,
+         "p_hot": 0.07770308667601683,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.16650661430575034,
+         "p_hot": 0.12686218232819074,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 15,
+       "pt_games": 6,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 4,
+       "two_games": 1,
+       "home_split": [
+        2,
+        9
+       ],
+       "away_split": [
+        4,
+        6
+       ],
+       "l5_venue": [
+        3,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.9,
+       "toi": 8.0,
+       "p": 0.317,
+       "fair": "+215",
+       "min": "+234",
+       "p2": 0.047,
+       "fair2": "+2007",
+       "min2": "+2133",
+       "adj": [
+        [
+         "opp",
+         0.9638709677419355
+        ],
+        [
+         "venue",
+         1.1
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Marat Khusnutdinov",
+         "jersey": 92,
+         "pp": 2,
+         "n": 1,
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Fraser Minten",
+         "jersey": 93,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Fraser Minten",
        "jersey": 93,
        "team": "BOS",
        "opp": "DET",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 2,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 8,
@@ -860,8 +974,8 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.3064179043381535,
-         "p_hot": 0.3503126171107995,
+         "p": 0.28583759733036707,
+         "p_hot": 0.32436353436185134,
          "heater": true
         },
         "goals": {
@@ -870,8 +984,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.21494987319243603,
-         "p_hot": 0.2349833604488078,
+         "p": 0.19894296774193546,
+         "p_hot": 0.21480074053295933,
          "heater": true
         },
         "assists": {
@@ -880,14 +994,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.197799617352614,
-         "p_hot": 0.17731873211781204,
+         "p": 0.17721931034482757,
+         "p_hot": 0.15136964936886393,
          "heater": false
         }
        },
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "G",
        "gp": 21,
        "pt_games": 8,
@@ -913,12 +1027,12 @@
        "l5_venue_two": 0,
        "pp_toi": 1.7,
        "toi": 15.7,
-       "p": 0.306,
-       "fair": "+226",
-       "min": "+246",
-       "p2": 0.12,
-       "fair2": "+731",
-       "min2": "+781",
+       "p": 0.286,
+       "fair": "+250",
+       "min": "+271",
+       "p2": 0.112,
+       "fair2": "+793",
+       "min2": "+846",
        "adj": [
         [
          "opp",
@@ -930,136 +1044,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Michael Eyssimont",
-         "jersey": 81,
-         "pp": null,
-         "n": 4,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Morgan Geekie",
-         "jersey": 39,
-         "pp": 1,
-         "n": 11,
-         "both": 4,
-         "either": 6
-        }
-       ]
-      },
-      {
-       "name": "Michael Eyssimont",
-       "jersey": 81,
-       "team": "BOS",
-       "opp": "DET",
-       "section": "F",
-       "home": false,
-       "line": 2,
-       "pp": null,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 1,
-         "n5": 4,
-         "k10": 1,
-         "n10": 4,
-         "p": 0.256968,
-         "p_hot": 0.24453406451612905,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 4,
-         "k10": 1,
-         "n10": 4,
-         "p": 0.17407509677419353,
-         "p_hot": 0.1823643870967742,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 4,
-         "k10": 0,
-         "n10": 4,
-         "p": 0.1326286451612903,
-         "p_hot": 0.09947148387096773,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 4,
-       "pt_games": 1,
-       "l5": [
-        1,
-        4
-       ],
-       "ast_games": 0,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        1,
-        4
-       ],
-       "away_split": [
-        0,
-        0
-       ],
-       "l5_venue": [
-        0,
-        0
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.1,
-       "toi": 9.4,
-       "p": 0.257,
-       "fair": "+289",
-       "min": "+313",
-       "p2": 0.04,
-       "fair2": "+2394",
-       "min2": "+2544",
-       "adj": [
-        [
-         "opp",
-         0.9638709677419355
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Fraser Minten",
-         "jersey": 93,
+         "name": "Marat Khusnutdinov",
+         "jersey": 92,
          "pp": 2,
-         "n": 4,
-         "both": 1,
-         "either": 2
+         "n": 16,
+         "both": 4,
+         "either": 5
         },
         {
-         "name": "Morgan Geekie",
-         "jersey": 39,
-         "pp": 1,
-         "n": 2,
+         "name": "Matthew Poitras",
+         "jersey": 51,
+         "pp": null,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -1419,7 +1423,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -1470,19 +1474,19 @@
        },
        "partners": [
         {
-         "name": "Casey Mittelstadt",
-         "jersey": 11,
+         "name": "Fraser Minten",
+         "jersey": 93,
          "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 2
+         "n": 16,
+         "both": 4,
+         "either": 5
         },
         {
-         "name": "Elias Lindholm",
-         "jersey": 28,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
+         "name": "Matthew Poitras",
+         "jersey": 51,
+         "pp": null,
+         "n": 1,
+         "both": 1,
          "either": 1
         }
        ]
@@ -2038,8 +2042,8 @@
      "ppga_rk": 8,
      "l5_gf": 1.8,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-17T16:48:53.542Z",
-     "lineup_checked": "2026-11-18T21:39:38.178332+00:00",
+     "lineup_as_of": "2026-11-19T00:07:44.414Z",
+     "lineup_checked": "2026-11-19T00:10:50.298996+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -2066,8 +2070,8 @@
      "lines": {
       "1": [
        "Alex DeBrincat",
-       "Marco Kasper",
-       "Emmitt Finnie"
+       "Emmitt Finnie",
+       "Marco Kasper"
       ],
       "2": [
        "Michael Brandsegg-Nyg\u00e5rd",
@@ -2393,20 +2397,20 @@
        },
        "partners": [
         {
-         "name": "Marco Kasper",
-         "jersey": null,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
          "name": "Emmitt Finnie",
          "jersey": null,
          "pp": 1,
          "n": 19,
          "both": 7,
          "either": 10
+        },
+        {
+         "name": "Marco Kasper",
+         "jersey": null,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -2452,7 +2456,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -3088,7 +3092,7 @@
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -3349,6 +3353,104 @@
        ]
       },
       {
+       "name": "Jacob Bernard-Docker",
+       "jersey": 24,
+       "team": "DET",
+       "opp": "BOS",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.2026967741935484,
+         "p_hot": 0.2026967741935484,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.05287741935483871,
+         "p_hot": 0.05287741935483871,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.15863225806451614,
+         "p_hot": 0.15863225806451614,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.203,
+       "fair": "+393",
+       "min": "+423",
+       "p2": 0.026,
+       "fair2": "+3682",
+       "min2": "+3909",
+       "adj": [
+        [
+         "opp",
+         0.8812903225806452
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Andreas Englund",
+         "jersey": 24,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Michael Rasmussen",
        "jersey": 27,
        "team": "DET",
@@ -3449,104 +3551,6 @@
          "jersey": 55,
          "pp": null,
          "n": 7,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Albert Johansson",
-       "jersey": 20,
-       "team": "DET",
-       "opp": "BOS",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.13172971137521222,
-         "p_hot": 0.14713716690042075,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.022264176570458406,
-         "p_hot": 0.018392145862552594,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.11317623089983021,
-         "p_hot": 0.13181037868162693,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": true,
-       "role": "d",
-       "bias": null,
-       "gp": 11,
-       "pt_games": 1,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        7
-       ],
-       "away_split": [
-        1,
-        4
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.2,
-       "toi": 14.9,
-       "p": 0.132,
-       "fair": "+659",
-       "min": "+705",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.8812903225806452
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Andreas Englund",
-         "jersey": 24,
-         "pp": null,
-         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -3845,10 +3849,10 @@
        },
        "partners": [
         {
-         "name": "Albert Johansson",
-         "jersey": 20,
+         "name": "Jacob Bernard-Docker",
+         "jersey": 24,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
