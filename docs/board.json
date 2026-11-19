@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T21:55:11.018769+00:00",
+ "generated_utc": "2026-11-19T22:10:21.340199+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -28185,13 +28185,69 @@
     "goalie_source": "Dave Maetzold",
     "sv": "0.907",
     "gaa": "2.67",
-    "lineup_as_of": "2026-11-18T12:12:41.271Z",
-    "lineup_checked": "2026-11-19T09:39:59.362031+00:00",
+    "lineup_as_of": "2026-11-19T21:59:55.811Z",
+    "lineup_checked": "2026-11-19T22:10:15.372887+00:00",
     "lineup_stale": false,
     "ga_rk": 14,
     "gf_rk": 32,
     "ppga_rk": 14,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "in",
+      "text": "IN: Ryan Lomberg \u2192 L2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "in",
+      "text": "IN: Isac Lundestrom (was IR) \u2192 L4"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "out",
+      "text": "OUT: Dmitri Voronkov (was L1)"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "out",
+      "text": "OUT: Dante Fabbro (was L3)"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Matthew Knies: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Luca Del Bel Belluz: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Kent Johnson: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Adam Fantilli: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Valeri Nichushkin: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Cole Sillinger: PP-\u2192PP2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.375006+00:00",
+      "kind": "move",
+      "text": "Jake Christiansen: L4\u2192L3"
+     }
+    ],
     "rates": {
      "gp": 19,
      "pp_gp": 19,
@@ -28236,7 +28292,7 @@
     "sv": "0.884",
     "gaa": "3.51",
     "lineup_as_of": "2026-11-18T17:33:51.733Z",
-    "lineup_checked": "2026-11-19T09:39:59.504291+00:00",
+    "lineup_checked": "2026-11-19T22:10:15.490257+00:00",
     "lineup_stale": false,
     "ga_rk": 2,
     "gf_rk": 30,
@@ -28330,7 +28386,7 @@
       "player": "Kent Johnson",
       "team": "CBJ",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": "A",
       "players": [
        8482660
@@ -28405,7 +28461,7 @@
       "player": "Valeri Nichushkin",
       "team": "CBJ",
       "pp": 2,
-      "line": 1,
+      "line": 2,
       "bias": "A",
       "players": [
        8477501
@@ -28436,7 +28492,7 @@
       "player": "Kent Johnson",
       "team": "CBJ",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8482660
       ]
@@ -28478,7 +28534,7 @@
       "player": "Valeri Nichushkin",
       "team": "CBJ",
       "pp": 2,
-      "line": 1,
+      "line": 2,
       "players": [
        8477501
       ]
@@ -28508,7 +28564,7 @@
       "player": "Kent Johnson",
       "team": "CBJ",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8482660
       ]
@@ -28550,7 +28606,7 @@
       "player": "Adam Fantilli",
       "team": "CBJ",
       "pp": 2,
-      "line": 1,
+      "line": 2,
       "players": [
        8484166
       ]
@@ -28564,7 +28620,7 @@
       "player": "Matthew Knies",
       "team": "CBJ",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8482720
       ]
@@ -28626,7 +28682,7 @@
       "need": "+112",
       "rationale": "Both scored 2 of 2 games together \u00b7 independent 33% \u00b7 new pair",
       "team": "CBJ",
-      "line": 2,
+      "line": 1,
       "read": "new pair",
       "both": 2,
       "n": 2,
@@ -28642,29 +28698,13 @@
       "need": "+166",
       "rationale": "Both scored 6 of 15 games together \u00b7 independent 40% \u00b7 independent",
       "team": "CBJ",
-      "line": 2,
+      "line": 1,
       "read": "independent",
       "both": 6,
       "n": 15,
       "players": [
        8482660,
        8482720
-      ]
-     },
-     {
-      "selection": "Nichushkin + Voronkov \u00b7 both 1+ point",
-      "prob": 0.38,
-      "fair": "+163",
-      "need": "+179",
-      "rationale": "Both scored 4 of 7 games together \u00b7 independent 16% \u00b7 correlated",
-      "team": "CBJ",
-      "line": 1,
-      "read": "correlated",
-      "both": 4,
-      "n": 7,
-      "players": [
-       8477501,
-       8481716
       ]
      },
      {
@@ -28690,13 +28730,29 @@
       "need": "+209",
       "rationale": "Both scored 3 of 6 games together \u00b7 independent 19% \u00b7 correlated",
       "team": "CBJ",
-      "line": 1,
+      "line": 2,
       "read": "correlated",
       "both": 3,
       "n": 6,
       "players": [
        8477501,
        8484166
+      ]
+     },
+     {
+      "selection": "Coyle + Sillinger \u00b7 both 1+ point",
+      "prob": 0.29,
+      "fair": "+245",
+      "need": "+266",
+      "rationale": "Both scored 5 of 15 games together \u00b7 independent 18% \u00b7 correlated",
+      "team": "CBJ",
+      "line": 3,
+      "read": "correlated",
+      "both": 5,
+      "n": 15,
+      "players": [
+       8475745,
+       8482705
       ]
      }
     ],
@@ -28724,7 +28780,7 @@
       "player": "Kent Johnson",
       "team": "CBJ",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8482660
       ]
@@ -28780,7 +28836,7 @@
       "need": "+112",
       "rationale": "Both scored 2 of 2 games together \u00b7 independent 33% \u00b7 new pair",
       "team": "CBJ",
-      "line": 2,
+      "line": 1,
       "read": "new pair",
       "both": 2,
       "n": 2,
@@ -28796,7 +28852,7 @@
       "need": "+166",
       "rationale": "Both scored 6 of 15 games together \u00b7 independent 40% \u00b7 independent",
       "team": "CBJ",
-      "line": 2,
+      "line": 1,
       "read": "independent",
       "both": 6,
       "n": 15,
@@ -28828,7 +28884,7 @@
       "need": "+291",
       "rationale": "Both scored 1 of 2 games together \u00b7 independent 19% \u00b7 new pair",
       "team": "CBJ",
-      "line": 2,
+      "line": 1,
       "read": "new pair",
       "both": 1,
       "n": 2,
@@ -28852,128 +28908,12 @@
    "lineup": {
     "away": {
      "team": "CBJ",
-     "as_of": "2026-11-18T12:12:41.271Z",
-     "checked": "2026-11-19T09:39:59.362031+00:00",
+     "as_of": "2026-11-19T21:59:55.811Z",
+     "checked": "2026-11-19T22:10:15.372887+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-17)",
-     "updated_dfo": "2026-11-18T12:12:41.271Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-19T21:59:55.811Z",
      "forwards": [
-      [
-       {
-        "name": "Dmitri Voronkov",
-        "jersey": 10,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8481716,
-        "dfo_id": 31266,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 14,
-         "p": 4,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 8809
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 3378
-        },
-        "l5_point_games": 2,
-        "gp": 14,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Adam Fantilli",
-        "jersey": 19,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8484166,
-        "dfo_id": 33179,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 2,
-         "g": 5,
-         "gp": 19,
-         "p": 7,
-         "ppp": 1,
-         "sog": 53,
-         "toi_s": 23195
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 5589
-        },
-        "l5_point_games": 1,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Valeri Nichushkin",
-        "jersey": 43,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8477501,
-        "dfo_id": 2142,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 8,
-         "g": 2,
-         "gp": 19,
-         "p": 10,
-         "ppp": 2,
-         "sog": 26,
-         "toi_s": 19677
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 5772
-        },
-        "l5_point_games": 2,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
       [
        {
         "name": "Matthew Knies",
@@ -29008,7 +28948,7 @@
         "l5_point_games": 3,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -29046,7 +28986,7 @@
         "l5_point_games": 2,
         "gp": 10,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -29084,7 +29024,123 @@
         "l5_point_games": 4,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Ryan Lomberg",
+        "jersey": 94,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8479066,
+        "dfo_id": 3905,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 17,
+         "p": 0,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 8341
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 1956
+        },
+        "l5_point_games": 0,
+        "gp": 17,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Adam Fantilli",
+        "jersey": 19,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8484166,
+        "dfo_id": 33179,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 2,
+         "g": 5,
+         "gp": 19,
+         "p": 7,
+         "ppp": 1,
+         "sog": 53,
+         "toi_s": 23195
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 5589
+        },
+        "l5_point_games": 1,
+        "gp": 19,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Valeri Nichushkin",
+        "jersey": 43,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8477501,
+        "dfo_id": 2142,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 8,
+         "g": 2,
+         "gp": 19,
+         "p": 10,
+         "ppp": 2,
+         "sog": 26,
+         "toi_s": 19677
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 5772
+        },
+        "l5_point_games": 2,
+        "gp": 19,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -29100,7 +29156,7 @@
         "dfo_id": 34454,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -29125,7 +29181,7 @@
         "gp": 19,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -29207,6 +29263,44 @@
        }
       ],
       [
+       {
+        "name": "Isac Lundestrom",
+        "jersey": 21,
+        "pos": "LW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 4804,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 3853
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
        {
         "name": "Jack Williams",
         "jersey": 92,
@@ -29444,25 +29538,25 @@
       ],
       [
        {
-        "name": "Dante Fabbro",
-        "jersey": 15,
+        "name": "Jake Christiansen",
+        "jersey": 2,
         "pos": "LD",
         "slot": null,
-        "player_id": 8479371,
-        "dfo_id": 2651,
+        "player_id": 8481161,
+        "dfo_id": 25394,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": null,
+        "pk": 1,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 10,
-         "p": 0,
+         "a": 2,
+         "g": 2,
+         "gp": 17,
+         "p": 4,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 8521
+         "sog": 20,
+         "toi_s": 14761
         },
         "last5": {
          "a": 0,
@@ -29470,15 +29564,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4323
+         "sog": 12,
+         "toi_s": 4737
         },
         "l5_point_games": 0,
-        "gp": 10,
+        "gp": 17,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -29491,7 +29585,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 1,
@@ -29644,7 +29738,7 @@
         "l5_point_games": 3,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -29682,7 +29776,7 @@
         "l5_point_games": 2,
         "gp": 10,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -29796,7 +29890,7 @@
         "l5_point_games": 4,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -29836,7 +29930,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -29874,46 +29968,46 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Dmitri Voronkov",
-        "jersey": 10,
+        "name": "Cole Sillinger",
+        "jersey": 4,
         "pos": null,
         "slot": 3,
-        "player_id": 8481716,
-        "dfo_id": 31266,
+        "player_id": 8482705,
+        "dfo_id": 34454,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 14,
-         "p": 4,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 8809
+         "a": 5,
+         "g": 4,
+         "gp": 19,
+         "p": 9,
+         "ppp": 0,
+         "sog": 31,
+         "toi_s": 18156
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3378
+         "sog": 9,
+         "toi_s": 4969
         },
-        "l5_point_games": 2,
-        "gp": 14,
+        "l5_point_games": 1,
+        "gp": 19,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -30068,7 +30162,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -30160,7 +30254,7 @@
         "dfo_id": 34454,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -30185,7 +30279,7 @@
         "gp": 19,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -30228,25 +30322,25 @@
         }
        },
        {
-        "name": "Dante Fabbro",
-        "jersey": 15,
+        "name": "Erik Gudbranson",
+        "jersey": 44,
         "pos": null,
         "slot": 3,
-        "player_id": 8479371,
-        "dfo_id": 2651,
+        "player_id": 8475790,
+        "dfo_id": 1710,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 1,
          "g": 0,
-         "gp": 10,
-         "p": 0,
+         "gp": 14,
+         "p": 1,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 8521
+         "sog": 10,
+         "toi_s": 12652
         },
         "last5": {
          "a": 0,
@@ -30254,11 +30348,11 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4323
+         "sog": 4,
+         "toi_s": 3742
         },
         "l5_point_games": 0,
-        "gp": 10,
+        "gp": 14,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -30307,11 +30401,6 @@
      ],
      "injuries": [
       {
-       "player": "Isac Lundestrom",
-       "status": "IR",
-       "news": "Lundestrom (achilies) has been activated from IR and is available vs. Chicago on Thursday."
-      },
-      {
        "player": "Conor Garland",
        "status": "IR",
        "news": "Garland (upper-body) has been placed on IR retroactive to November 6th."
@@ -30332,28 +30421,28 @@
        "rating": 76.25482574893691
       },
       "d3": {
-       "rank": 24,
-       "rating": 71.0270154283297
+       "rank": 22,
+       "rating": 71.33908973299322
       },
       "d4": {
        "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 32,
-       "rating": 72.93559010814131
-      },
-      "f2": {
-       "rank": 35,
+       "rank": 41,
        "rating": 0
       },
+      "f2": {
+       "rank": 27,
+       "rating": 72.38246676527356
+      },
       "f3": {
-       "rank": 13,
+       "rank": 14,
        "rating": 73.5827944292604
       },
       "f4": {
-       "rank": 31,
-       "rating": 0
+       "rank": 27,
+       "rating": 71.17828872821381
       },
       "g": {
        "rank": 25,
@@ -30380,7 +30469,7 @@
     "home": {
      "team": "CHI",
      "as_of": "2026-11-18T17:33:51.733Z",
-     "checked": "2026-11-19T09:39:59.504291+00:00",
+     "checked": "2026-11-19T22:10:15.490257+00:00",
      "stale": false,
      "source": "Charlie Roumeliotis",
      "updated_dfo": "2026-11-18T17:33:51.733Z",
@@ -31879,7 +31968,7 @@
       {
        "player": "Connor Bedard",
        "status": "OUT",
-       "news": "Bedard is expected to miss some time, as he determines the severity of his shoulder injury."
+       "news": "Bedard (shoulder) will not travel on the upcoming road trip and is without a timeline to return."
       }
      ],
      "unit_ratings": {
@@ -31888,7 +31977,7 @@
        "rating": 0
       },
       "d2": {
-       "rank": 22,
+       "rank": 20,
        "rating": 73.20062632226701
       },
       "d3": {
@@ -31908,7 +31997,7 @@
        "rating": 80.0821788843248
       },
       "f3": {
-       "rank": 8,
+       "rank": 9,
        "rating": 74.2436810222408
       },
       "f4": {
@@ -31959,13 +32048,49 @@
     "goalie_source": "Joe Smith",
     "sv": "0.924",
     "gaa": "1.99",
-    "lineup_as_of": "2026-11-18T15:02:46.911Z",
-    "lineup_checked": "2026-11-19T09:39:59.851037+00:00",
+    "lineup_as_of": "2026-11-19T18:10:18.002Z",
+    "lineup_checked": "2026-11-19T22:10:15.600376+00:00",
     "lineup_stale": false,
     "ga_rk": 31,
     "gf_rk": 7,
     "ppga_rk": 21,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "in",
+      "text": "IN: Nico Sturm \u2192 L3"
+     },
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "out",
+      "text": "OUT: Yakov Trenin (was L2) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "move",
+      "text": "Blake Coleman: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "move",
+      "text": "Michael McCarron: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "move",
+      "text": "Bobby Brink: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "move",
+      "text": "Danila Yurov: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-19T22:10:15.602349+00:00",
+      "kind": "move",
+      "text": "Maxim Shabanov: L2\u2192L3"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -32164,7 +32289,7 @@
       "player": "Maxim Shabanov",
       "team": "MIN",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "bias": "G",
       "players": [
        8485702
@@ -32258,17 +32383,17 @@
       ]
      },
      {
-      "selection": "Jonas Brodin \u00b7 1+ assist",
-      "prob": 0.325,
-      "fair": "+208",
-      "need": "+226",
+      "selection": "Bobby Brink \u00b7 1+ assist",
+      "prob": 0.341,
+      "fair": "+193",
+      "need": "+210",
       "rationale": "Assist in 8 of 23 this season \u00b7 1 of L5",
-      "player": "Jonas Brodin",
+      "player": "Bobby Brink",
       "team": "MIN",
-      "pp": null,
+      "pp": 2,
       "line": 2,
       "players": [
-       8476463
+       8481553
       ]
      }
     ],
@@ -32296,23 +32421,9 @@
       "player": "Maxim Shabanov",
       "team": "MIN",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "players": [
        8485702
-      ]
-     },
-     {
-      "selection": "Danila Yurov \u00b7 1+ goal",
-      "prob": 0.328,
-      "fair": "+205",
-      "need": "+223",
-      "rationale": "Goal in 8 of 23 this season \u00b7 2 of L5",
-      "player": "Danila Yurov",
-      "team": "MIN",
-      "pp": 2,
-      "line": 2,
-      "players": [
-       8483525
       ]
      },
      {
@@ -32344,6 +32455,20 @@
       ]
      },
      {
+      "selection": "Danila Yurov \u00b7 1+ goal",
+      "prob": 0.308,
+      "fair": "+224",
+      "need": "+244",
+      "rationale": "Goal in 8 of 23 this season \u00b7 2 of L5",
+      "player": "Danila Yurov",
+      "team": "MIN",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8483525
+      ]
+     },
+     {
       "selection": "Quinn Hughes \u00b7 1+ goal",
       "prob": 0.282,
       "fair": "+254",
@@ -32359,21 +32484,6 @@
      }
     ],
     "sneaky_point": [
-     {
-      "selection": "Blake Coleman \u00b7 1+ point",
-      "prob": 0.557,
-      "fair": "-126",
-      "need": "-111",
-      "rationale": "L3 \u00b7 PP2 \u00b7 4 of L5 \u00b7 6 of L10 \u00b7 10 of 23 season",
-      "player": "Blake Coleman",
-      "team": "MIN",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8476399
-      ],
-      "sneaky": true
-     },
      {
       "selection": "Yegor Sharangovich \u00b7 1+ point",
       "prob": 0.333,
@@ -32391,21 +32501,6 @@
      }
     ],
     "sneaky_assist": [
-     {
-      "selection": "Blake Coleman \u00b7 1+ assist",
-      "prob": 0.334,
-      "fair": "+199",
-      "need": "+217",
-      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 4 of L10 \u00b7 5 of 23 season",
-      "player": "Blake Coleman",
-      "team": "MIN",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8476399
-      ],
-      "sneaky": true
-     },
      {
       "selection": "Yegor Sharangovich \u00b7 1+ assist",
       "prob": 0.266,
@@ -32469,17 +32564,17 @@
     ],
     "sneaky_goal": [
      {
-      "selection": "Blake Coleman \u00b7 1+ goal",
+      "selection": "Danila Yurov \u00b7 1+ goal",
       "prob": 0.323,
       "fair": "+210",
       "need": "+228",
-      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 6 of 23 season",
-      "player": "Blake Coleman",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 4 of L10 \u00b7 8 of 23 season",
+      "player": "Danila Yurov",
       "team": "MIN",
       "pp": 2,
       "line": 3,
       "players": [
-       8476399
+       8483525
       ],
       "sneaky": true
      }
@@ -32718,11 +32813,11 @@
    "lineup": {
     "away": {
      "team": "MIN",
-     "as_of": "2026-11-18T15:02:46.911Z",
-     "checked": "2026-11-19T09:39:59.851037+00:00",
+     "as_of": "2026-11-19T18:10:18.002Z",
+     "checked": "2026-11-19T22:10:15.600376+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-17)",
-     "updated_dfo": "2026-11-18T15:02:46.911Z",
+     "source": "Joe Smith",
+     "updated_dfo": "2026-11-19T18:10:18.002Z",
      "forwards": [
       [
        {
@@ -32842,122 +32937,6 @@
       ],
       [
        {
-        "name": "Yakov Trenin",
-        "jersey": 13,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8478508,
-        "dfo_id": 3775,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 0,
-         "gp": 23,
-         "p": 4,
-         "ppp": 0,
-         "sog": 23,
-         "toi_s": 18017
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 3746
-        },
-        "l5_point_games": 2,
-        "gp": 23,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Danila Yurov",
-        "jersey": 22,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8483525,
-        "dfo_id": 36363,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 2,
-         "g": 9,
-         "gp": 23,
-         "p": 11,
-         "ppp": 3,
-         "sog": 36,
-         "toi_s": 20811
-        },
-        "last5": {
-         "a": 1,
-         "g": 3,
-         "gp": 5,
-         "p": 4,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 4950
-        },
-        "l5_point_games": 2,
-        "gp": 23,
-        "move": {
-         "ev": 0,
-         "pp": 1,
-         "new": false
-        }
-       },
-       {
-        "name": "Maxim Shabanov",
-        "jersey": 49,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8485702,
-        "dfo_id": 38466,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 5,
-         "g": 9,
-         "gp": 22,
-         "p": 14,
-         "ppp": 9,
-         "sog": 34,
-         "toi_s": 19711
-        },
-        "last5": {
-         "a": 0,
-         "g": 3,
-         "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 4208
-        },
-        "l5_point_games": 2,
-        "gp": 22,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Blake Coleman",
         "jersey": 20,
         "pos": "LW",
@@ -32990,7 +32969,7 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33028,7 +33007,7 @@
         "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33066,7 +33045,123 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Nico Sturm",
+        "jersey": 78,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8481477,
+        "dfo_id": 27037,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 0,
+         "gp": 13,
+         "p": 2,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 8229
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 3176
+        },
+        "l5_point_games": 1,
+        "gp": 13,
+        "move": {
          "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Danila Yurov",
+        "jersey": 22,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8483525,
+        "dfo_id": 36363,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 2,
+         "g": 9,
+         "gp": 23,
+         "p": 11,
+         "ppp": 3,
+         "sog": 36,
+         "toi_s": 20811
+        },
+        "last5": {
+         "a": 1,
+         "g": 3,
+         "gp": 5,
+         "p": 4,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4950
+        },
+        "l5_point_games": 2,
+        "gp": 23,
+        "move": {
+         "ev": -1,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
+        "name": "Maxim Shabanov",
+        "jersey": 49,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8485702,
+        "dfo_id": 38466,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 5,
+         "g": 9,
+         "gp": 22,
+         "p": 14,
+         "ppp": 9,
+         "sog": 34,
+         "toi_s": 19711
+        },
+        "last5": {
+         "a": 0,
+         "g": 3,
+         "gp": 5,
+         "p": 3,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 4208
+        },
+        "l5_point_games": 2,
+        "gp": 22,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -33548,7 +33643,7 @@
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -33740,7 +33835,7 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33816,7 +33911,7 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33854,7 +33949,7 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 1,
          "new": false
         }
@@ -33934,7 +34029,7 @@
         "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -33972,7 +34067,7 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -34094,41 +34189,41 @@
         }
        },
        {
-        "name": "Yakov Trenin",
-        "jersey": 13,
+        "name": "Nico Sturm",
+        "jersey": 78,
         "pos": null,
         "slot": 2,
-        "player_id": 8478508,
-        "dfo_id": 3775,
+        "player_id": 8481477,
+        "dfo_id": 27037,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 4,
-         "g": 0,
-         "gp": 23,
-         "p": 4,
-         "ppp": 0,
-         "sog": 23,
-         "toi_s": 18017
-        },
-        "last5": {
          "a": 2,
          "g": 0,
-         "gp": 5,
+         "gp": 13,
          "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3746
+         "sog": 6,
+         "toi_s": 8229
         },
-        "l5_point_games": 2,
-        "gp": 23,
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 3176
+        },
+        "l5_point_games": 1,
+        "gp": 13,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -34218,7 +34313,12 @@
       {
        "player": "Filip Gustavsson",
        "status": "IR",
-       "news": "Gustavsson (hip) is hopeful to be medically cleared on Tuesday."
+       "news": "Gustavsson (hip) has been assigned to Iowa (AHL) for a conditioning assignment."
+      },
+      {
+       "player": "Yakov Trenin",
+       "status": "DTD",
+       "news": "Trenin (personal) will be out vs. Calgary on Thursday."
       }
      ],
      "unit_ratings": {
@@ -34227,7 +34327,7 @@
        "rating": 75.66983706046227
       },
       "d2": {
-       "rank": 15,
+       "rank": 14,
        "rating": 73.65198042712801
       },
       "d3": {
@@ -34243,15 +34343,15 @@
        "rating": 71.5629880288299
       },
       "f2": {
-       "rank": 27,
-       "rating": 72.09561466905461
-      },
-      "f3": {
-       "rank": 33,
+       "rank": 31,
        "rating": 70.47323920959235
       },
-      "f4": {
+      "f3": {
        "rank": 19,
+       "rating": 73.14393553000451
+      },
+      "f4": {
+       "rank": 21,
        "rating": 71.79707571203647
       },
       "g": {

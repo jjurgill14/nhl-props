@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_utc": "2026-11-19T21:55:10.501893+00:00",
+ "generated_utc": "2026-11-19T22:10:20.769611+00:00",
  "games": [
   {
    "game_id": 2026020347,
@@ -27414,15 +27414,10 @@
      "ppga_rk": 14,
      "l5_gf": 1.6,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-18T12:12:41.271Z",
-     "lineup_checked": "2026-11-19T09:39:59.362031+00:00",
+     "lineup_as_of": "2026-11-19T21:59:55.811Z",
+     "lineup_checked": "2026-11-19T22:10:15.372887+00:00",
      "lineup_stale": false,
      "out": [
-      {
-       "player": "Isac Lundestrom",
-       "status": "IR",
-       "news": "Lundestrom (achilies) has been activated from IR and is available vs. Chicago on Thursday."
-      },
       {
        "player": "Conor Garland",
        "status": "IR",
@@ -27436,14 +27431,14 @@
      ],
      "lines": {
       "1": [
-       "Dmitri Voronkov",
-       "Adam Fantilli",
-       "Valeri Nichushkin"
-      ],
-      "2": [
        "Matthew Knies",
        "Luca Del Bel Belluz",
        "Kent Johnson"
+      ],
+      "2": [
+       "Ryan Lomberg",
+       "Adam Fantilli",
+       "Valeri Nichushkin"
       ],
       "3": [
        "Cole Sillinger",
@@ -27451,6 +27446,7 @@
        "Mathieu Olivier"
       ],
       "4": [
+       "Isac Lundestrom",
        "Jack Williams",
        "Steven Lorentz"
       ]
@@ -27465,7 +27461,7 @@
      "pp2": [
       "Valeri Nichushkin",
       "Adam Fantilli",
-      "Dmitri Voronkov",
+      "Cole Sillinger",
       "Denton Mateychuk",
       "Ivan Provorov"
      ],
@@ -27477,7 +27473,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -27553,7 +27549,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -27769,7 +27765,7 @@
         {
          "name": "Cole Sillinger",
          "jersey": 4,
-         "pp": null,
+         "pp": 2,
          "n": 15,
          "both": 5,
          "either": 8
@@ -27791,7 +27787,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -27867,18 +27863,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Dmitri Voronkov",
-         "jersey": 10,
-         "pp": 2,
-         "n": 7,
-         "both": 4,
-         "either": 5
+         "name": "Ryan Lomberg",
+         "jersey": 94,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Adam Fantilli",
@@ -27897,7 +27893,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -27973,7 +27969,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -28003,7 +27999,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -28079,7 +28075,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -28207,7 +28203,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -28283,18 +28279,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Dmitri Voronkov",
-         "jersey": 10,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
+         "name": "Ryan Lomberg",
+         "jersey": 94,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Valeri Nichushkin",
@@ -28314,7 +28310,7 @@
        "section": "F",
        "home": false,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -28394,7 +28390,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -28413,116 +28409,6 @@
          "n": 15,
          "both": 3,
          "either": 7
-        }
-       ]
-      },
-      {
-       "name": "Dmitri Voronkov",
-       "jersey": 10,
-       "team": "CBJ",
-       "opp": "CHI",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.31605677419354844,
-         "p_hot": 0.34730255259467047,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.11852129032258066,
-         "p_hot": 0.1583555680224404,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.23139870967741938,
-         "p_hot": 0.22133789621318375,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 14,
-       "pt_games": 4,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        4,
-        10
-       ],
-       "away_split": [
-        0,
-        4
-       ],
-       "l5_venue": [
-        0,
-        4
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.4,
-       "toi": 11.3,
-       "p": 0.316,
-       "fair": "+216",
-       "min": "+235",
-       "p2": 0.03,
-       "fair2": "+3222",
-       "min2": "+3422",
-       "adj": [
-        [
-         "opp",
-         1.1496774193548387
-        ],
-        [
-         "venue",
-         0.9
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Adam Fantilli",
-         "jersey": 19,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Valeri Nichushkin",
-         "jersey": 43,
-         "pp": 2,
-         "n": 7,
-         "both": 4,
-         "either": 5
         }
        ]
       },
@@ -28621,6 +28507,112 @@
          "n": 17,
          "both": 4,
          "either": 13
+        }
+       ]
+      },
+      {
+       "name": "Isac Lundestrom",
+       "jersey": 21,
+       "team": "CBJ",
+       "opp": "CHI",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.2874193548387097,
+         "p_hot": 0.2874193548387097,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.13796129032258064,
+         "p_hot": 0.13796129032258064,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.1724516129032258,
+         "p_hot": 0.1724516129032258,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.287,
+       "fair": "+248",
+       "min": "+269",
+       "p2": 0.046,
+       "fair2": "+2075",
+       "min2": "+2205",
+       "adj": [
+        [
+         "opp",
+         1.1496774193548387
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Jack Williams",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Steven Lorentz",
+         "jersey": 18,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -28729,7 +28721,7 @@
        "opp": "CHI",
        "section": "D",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -28809,7 +28801,16 @@
         "pp": 0,
         "new": true
        },
-       "partners": []
+       "partners": [
+        {
+         "name": "Erik Gudbranson",
+         "jersey": 44,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        }
+       ]
       },
       {
        "name": "Mathieu Olivier",
@@ -28902,7 +28903,7 @@
         {
          "name": "Cole Sillinger",
          "jersey": 4,
-         "pp": null,
+         "pp": 2,
          "n": 15,
          "both": 3,
          "either": 7
@@ -29006,6 +29007,14 @@
        },
        "partners": [
         {
+         "name": "Isac Lundestrom",
+         "jersey": 21,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Steven Lorentz",
          "jersey": 18,
          "pp": null,
@@ -29103,6 +29112,14 @@
         "new": false
        },
        "partners": [
+        {
+         "name": "Isac Lundestrom",
+         "jersey": 21,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
         {
          "name": "Jack Williams",
          "jersey": null,
@@ -29202,25 +29219,25 @@
        },
        "partners": [
         {
-         "name": "Dante Fabbro",
-         "jersey": 15,
+         "name": "Jake Christiansen",
+         "jersey": 2,
          "pp": null,
-         "n": 3,
+         "n": 1,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
       {
-       "name": "Dante Fabbro",
-       "jersey": 15,
+       "name": "Ryan Lomberg",
+       "jersey": 94,
        "team": "CBJ",
        "opp": "CHI",
-       "section": "D",
+       "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": null,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 0,
@@ -29228,8 +29245,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.1175225806451613,
-         "p_hot": 0.0919741935483871,
+         "p": 0.12508490322580645,
+         "p_hot": 0.13596185133239833,
          "heater": false
         },
         "goals": {
@@ -29238,8 +29255,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.03065806451612903,
-         "p_hot": 0.023993267882187936,
+         "p": 0.0699003870967742,
+         "p_hot": 0.07597868162692846,
          "heater": false
         },
         "assists": {
@@ -29248,16 +29265,16 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.0919741935483871,
-         "p_hot": 0.0719798036465638,
+         "p": 0.0882952258064516,
+         "p_hot": 0.09597307152875174,
          "heater": false
         }
        },
-       "pos": "LD",
+       "pos": "LW",
        "gtd": false,
-       "role": "d",
+       "role": "top6",
        "bias": null,
-       "gp": 10,
+       "gp": 17,
        "pt_games": 0,
        "l5": [
         0,
@@ -29268,7 +29285,7 @@
        "two_games": 0,
        "home_split": [
         0,
-        5
+        12
        ],
        "away_split": [
         0,
@@ -29280,13 +29297,13 @@
        ],
        "l5_venue_two": 0,
        "pp_toi": 0.0,
-       "toi": 14.4,
-       "p": 0.118,
-       "fair": "+751",
-       "min": "+802",
-       "p2": 0.015,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "toi": 6.5,
+       "p": 0.125,
+       "fair": "+699",
+       "min": "+747",
+       "p2": 0.029,
+       "fair2": "+3298",
+       "min2": "+3502",
        "adj": [
         [
          "opp",
@@ -29294,16 +29311,24 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Erik Gudbranson",
-         "jersey": 44,
-         "pp": null,
-         "n": 3,
+         "name": "Adam Fantilli",
+         "jersey": 19,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Valeri Nichushkin",
+         "jersey": 43,
+         "pp": 2,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -29335,7 +29360,7 @@
      "l5_gf": 3.2,
      "l5_ga": 4.4,
      "lineup_as_of": "2026-11-18T17:33:51.733Z",
-     "lineup_checked": "2026-11-19T09:39:59.504291+00:00",
+     "lineup_checked": "2026-11-19T22:10:15.490257+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -29346,7 +29371,7 @@
       {
        "player": "Connor Bedard",
        "status": "OUT",
-       "news": "Bedard is expected to miss some time, as he determines the severity of his shoulder injury."
+       "news": "Bedard (shoulder) will not travel on the upcoming road trip and is without a timeline to return."
       }
      ],
      "lines": {
@@ -31282,8 +31307,8 @@
      "ppga_rk": 21,
      "l5_gf": 4.6,
      "l5_ga": 2.4,
-     "lineup_as_of": "2026-11-18T15:02:46.911Z",
-     "lineup_checked": "2026-11-19T09:39:59.851037+00:00",
+     "lineup_as_of": "2026-11-19T18:10:18.002Z",
+     "lineup_checked": "2026-11-19T22:10:15.600376+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -31294,7 +31319,12 @@
       {
        "player": "Filip Gustavsson",
        "status": "IR",
-       "news": "Gustavsson (hip) is hopeful to be medically cleared on Tuesday."
+       "news": "Gustavsson (hip) has been assigned to Iowa (AHL) for a conditioning assignment."
+      },
+      {
+       "player": "Yakov Trenin",
+       "status": "DTD",
+       "news": "Trenin (personal) will be out vs. Calgary on Thursday."
       }
      ],
      "lines": {
@@ -31304,14 +31334,14 @@
        "Matt Boldy"
       ],
       "2": [
-       "Yakov Trenin",
-       "Danila Yurov",
-       "Maxim Shabanov"
-      ],
-      "3": [
        "Blake Coleman",
        "Michael McCarron",
        "Bobby Brink"
+      ],
+      "3": [
+       "Nico Sturm",
+       "Danila Yurov",
+       "Maxim Shabanov"
       ],
       "4": [
        "Marcus Foligno",
@@ -31757,7 +31787,7 @@
        "opp": "CGY",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -31833,18 +31863,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Yakov Trenin",
-         "jersey": 13,
+         "name": "Nico Sturm",
+         "jersey": 78,
          "pp": null,
-         "n": 15,
-         "both": 3,
-         "either": 9
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Danila Yurov",
@@ -31863,9 +31893,9 @@
        "opp": "CGY",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 10,
@@ -31873,8 +31903,8 @@
          "n5": 5,
          "k10": 6,
          "n10": 10,
-         "p": 0.4130697190426639,
-         "p_hot": 0.5567461430575035,
+         "p": 0.43785390218522374,
+         "p_hot": 0.5901509116409538,
          "heater": true
         },
         "goals": {
@@ -31883,8 +31913,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.23958043704474508,
-         "p_hot": 0.32291276297335203,
+         "p": 0.2588570239334027,
+         "p_hot": 0.3488942496493689,
          "heater": true
         },
         "assists": {
@@ -31893,14 +31923,14 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.2134193548387097,
-         "p_hot": 0.3340476858345021,
+         "p": 0.23820353798126953,
+         "p_hot": 0.3674524544179523,
          "heater": true
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 23,
        "pt_games": 10,
@@ -31926,12 +31956,12 @@
        "l5_venue_two": 1,
        "pp_toi": 2.1,
        "toi": 16.7,
-       "p": 0.413,
-       "fair": "+142",
-       "min": "+157",
-       "p2": 0.08,
-       "fair2": "+1152",
-       "min2": "+1227",
+       "p": 0.438,
+       "fair": "+128",
+       "min": "+142",
+       "p2": 0.091,
+       "fair2": "+1000",
+       "min2": "+1066",
        "adj": [
         [
          "opp",
@@ -31939,7 +31969,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -31969,9 +31999,9 @@
        "opp": "CGY",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 10,
@@ -31979,8 +32009,8 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.4130697190426639,
-         "p_hot": 0.371164095371669,
+         "p": 0.43785390218522374,
+         "p_hot": 0.40456886395511926,
          "heater": false
         },
         "goals": {
@@ -31989,8 +32019,8 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.10189053069719044,
-         "p_hot": 0.13733071528751753,
+         "p": 0.12116711758584808,
+         "p_hot": 0.16331220196353435,
          "heater": false
         },
         "assists": {
@@ -31999,14 +32029,14 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.31668678459937566,
-         "p_hot": 0.24125666199158485,
+         "p": 0.3414709677419355,
+         "p_hot": 0.27466143057503506,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 23,
        "pt_games": 10,
@@ -32032,12 +32062,12 @@
        "l5_venue_two": 1,
        "pp_toi": 1.5,
        "toi": 14.0,
-       "p": 0.413,
-       "fair": "+142",
-       "min": "+157",
-       "p2": 0.045,
-       "fair2": "+2101",
-       "min2": "+2233",
+       "p": 0.438,
+       "fair": "+128",
+       "min": "+142",
+       "p2": 0.056,
+       "fair2": "+1671",
+       "min2": "+1778",
        "adj": [
         [
          "opp",
@@ -32045,7 +32075,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -32062,6 +32092,112 @@
          "name": "Michael McCarron",
          "jersey": 47,
          "pp": null,
+         "n": 11,
+         "both": 3,
+         "either": 6
+        }
+       ]
+      },
+      {
+       "name": "Michael McCarron",
+       "jersey": 47,
+       "team": "MIN",
+       "opp": "CGY",
+       "section": "F",
+       "home": false,
+       "line": 2,
+       "pp": null,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 9,
+         "k5": 1,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.41687913978494623,
+         "p_hot": 0.35817335203366063,
+         "heater": false
+        },
+        "goals": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.1963458064516129,
+         "p_hot": 0.2561032258064516,
+         "heater": false
+        },
+        "assists": {
+         "k": 5,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.2461436559139785,
+         "p_hot": 0.1354748948106592,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "top6",
+       "bias": "G",
+       "gp": 22,
+       "pt_games": 9,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 4,
+       "two_games": 0,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        7,
+        15
+       ],
+       "l5_venue": [
+        3,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.4,
+       "toi": 15.7,
+       "p": 0.417,
+       "fair": "+140",
+       "min": "+154",
+       "p2": 0.023,
+       "fair2": "+4293",
+       "min2": "+4556",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Blake Coleman",
+         "jersey": 20,
+         "pp": 2,
+         "n": 11,
+         "both": 3,
+         "either": 7
+        },
+        {
+         "name": "Bobby Brink",
+         "jersey": 10,
+         "pp": 2,
          "n": 11,
          "both": 3,
          "either": 6
@@ -32167,218 +32303,6 @@
        ]
       },
       {
-       "name": "Danila Yurov",
-       "jersey": 22,
-       "team": "MIN",
-       "opp": "CGY",
-       "section": "F",
-       "home": false,
-       "line": 2,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 9,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.4034314255983351,
-         "p_hot": 0.40456886395511926,
-         "heater": false
-        },
-        "goals": {
-         "k": 8,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.32770197710718,
-         "p_hot": 0.3488942496493689,
-         "heater": true
-        },
-        "assists": {
-         "k": 2,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.13493610822060353,
-         "p_hot": 0.18187040673211782,
-         "heater": false
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 23,
-       "pt_games": 9,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 8,
-       "two_games": 2,
-       "home_split": [
-        3,
-        8
-       ],
-       "away_split": [
-        6,
-        15
-       ],
-       "l5_venue": [
-        4,
-        5
-       ],
-       "l5_venue_two": 2,
-       "pp_toi": 1.7,
-       "toi": 16.5,
-       "p": 0.403,
-       "fair": "+148",
-       "min": "+163",
-       "p2": 0.091,
-       "fair2": "+1000",
-       "min2": "+1066",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Yakov Trenin",
-         "jersey": 13,
-         "pp": null,
-         "n": 16,
-         "both": 3,
-         "either": 7
-        },
-        {
-         "name": "Maxim Shabanov",
-         "jersey": 49,
-         "pp": 1,
-         "n": 19,
-         "both": 4,
-         "either": 13
-        }
-       ]
-      },
-      {
-       "name": "Michael McCarron",
-       "jersey": 47,
-       "team": "MIN",
-       "opp": "CGY",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 9,
-         "k5": 1,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.39126881720430107,
-         "p_hot": 0.3247685834502104,
-         "heater": false
-        },
-        "goals": {
-         "k": 4,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.17642666666666668,
-         "p_hot": 0.2301217391304348,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.22053333333333333,
-         "p_hot": 0.10207012622720898,
-         "heater": false
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 22,
-       "pt_games": 9,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 4,
-       "two_games": 0,
-       "home_split": [
-        2,
-        7
-       ],
-       "away_split": [
-        7,
-        15
-       ],
-       "l5_venue": [
-        3,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.4,
-       "toi": 15.7,
-       "p": 0.391,
-       "fair": "+156",
-       "min": "+171",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Blake Coleman",
-         "jersey": 20,
-         "pp": 2,
-         "n": 11,
-         "both": 3,
-         "either": 7
-        },
-        {
-         "name": "Bobby Brink",
-         "jersey": 10,
-         "pp": 2,
-         "n": 11,
-         "both": 3,
-         "either": 6
-        }
-       ]
-      },
-      {
        "name": "Jared Spurgeon",
        "jersey": 46,
        "team": "MIN",
@@ -32473,6 +32397,112 @@
          "n": 10,
          "both": 6,
          "either": 10
+        }
+       ]
+      },
+      {
+       "name": "Danila Yurov",
+       "jersey": 22,
+       "team": "MIN",
+       "opp": "CGY",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 9,
+         "k5": 2,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.37864724245577525,
+         "p_hot": 0.371164095371669,
+         "heater": false
+        },
+        "goals": {
+         "k": 8,
+         "k5": 2,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.3084253902185224,
+         "p_hot": 0.32291276297335203,
+         "heater": true
+        },
+        "assists": {
+         "k": 2,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.11015192507804371,
+         "p_hot": 0.14846563814866762,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": "G",
+       "gp": 23,
+       "pt_games": 9,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 8,
+       "two_games": 2,
+       "home_split": [
+        3,
+        8
+       ],
+       "away_split": [
+        6,
+        15
+       ],
+       "l5_venue": [
+        4,
+        5
+       ],
+       "l5_venue_two": 2,
+       "pp_toi": 1.7,
+       "toi": 16.5,
+       "p": 0.379,
+       "fair": "+164",
+       "min": "+180",
+       "p2": 0.08,
+       "fair2": "+1152",
+       "min2": "+1227",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Nico Sturm",
+         "jersey": 78,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Maxim Shabanov",
+         "jersey": 49,
+         "pp": 1,
+         "n": 19,
+         "both": 4,
+         "either": 13
         }
        ]
       },
@@ -32787,24 +32817,24 @@
        ]
       },
       {
-       "name": "Yakov Trenin",
-       "jersey": 13,
+       "name": "Nico Sturm",
+       "jersey": 78,
        "team": "MIN",
        "opp": "CGY",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": null,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
-         "k": 4,
-         "k5": 2,
+         "k": 2,
+         "k5": 1,
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.2313190426638918,
-         "p_hot": 0.311777840112202,
+         "p": 0.20325652841781874,
+         "p_hot": 0.23197755960729313,
          "heater": false
         },
         "goals": {
@@ -32813,55 +32843,55 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.052322164412070764,
-         "p_hot": 0.0705211781206171,
+         "p": 0.0487815668202765,
+         "p_hot": 0.04453969144460028,
          "heater": false
         },
         "assists": {
-         "k": 4,
-         "k5": 2,
+         "k": 2,
+         "k5": 1,
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.20378106139438087,
-         "p_hot": 0.27466143057503506,
-         "heater": true
+         "p": 0.162605222734255,
+         "p_hot": 0.19486115007012622,
+         "heater": false
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
-       "gp": 23,
-       "pt_games": 4,
+       "gp": 13,
+       "pt_games": 2,
        "l5": [
-        2,
+        1,
         5
        ],
-       "ast_games": 4,
+       "ast_games": 2,
        "goal_games": 0,
        "two_games": 0,
        "home_split": [
-        3,
-        8
+        0,
+        4
        ],
        "away_split": [
-        1,
-        15
+        2,
+        9
        ],
        "l5_venue": [
         1,
         5
        ],
        "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 12.5,
-       "p": 0.231,
-       "fair": "+332",
-       "min": "+358",
-       "p2": 0.022,
-       "fair2": "+4439",
-       "min2": "+4712",
+       "pp_toi": 0.1,
+       "toi": 10.6,
+       "p": 0.203,
+       "fair": "+392",
+       "min": "+422",
+       "p2": 0.016,
+       "fair2": "+4900",
+       "min2": "+4900",
        "adj": [
         [
          "opp",
@@ -32871,24 +32901,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
          "name": "Danila Yurov",
          "jersey": 22,
          "pp": 2,
-         "n": 16,
-         "both": 3,
-         "either": 7
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Maxim Shabanov",
          "jersey": 49,
          "pp": 1,
-         "n": 15,
-         "both": 3,
-         "either": 9
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
