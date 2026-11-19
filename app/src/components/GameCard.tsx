@@ -212,7 +212,6 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }
         }
       }}
     >
-      <LateStrip game={game} />
       <div className="card-head">
         <span className={`gstate ${gameState(game.status, game.start_utc).cls}`}>{gameState(game.status, game.start_utc).label}</span>
         <span className="head-center">
@@ -251,6 +250,7 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }
           })}
         </div>
       </div>
+      <LateStrip game={game} />
       <div className="card-foot">
         <span className="foot-note">{markets.moneyline.provider?.toUpperCase() ?? 'NO ODDS'} · LINEUP {home.lineup_stale ? 'STALE' : 'CURRENT'}</span>
         <span className="foot-actions">
