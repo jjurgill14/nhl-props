@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_utc": "2026-11-19T00:15:57.317817+00:00",
+ "generated_utc": "2026-11-19T00:21:02.959985+00:00",
  "games": [
   {
    "game_id": 2026020344,
@@ -3988,7 +3988,7 @@
      "goalie_source": "Eric Engels",
      "sv": "0.921",
      "gaa": "2.34",
-     "ml": "-180",
+     "ml": "-175",
      "gp": 21,
      "gf": 3.1904761904761907,
      "gf_rk": 13,
@@ -4000,8 +4000,8 @@
      "ppga_rk": 11,
      "l5_gf": 2.4,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-18T12:16:41.673Z",
-     "lineup_checked": "2026-11-18T14:51:30.884197+00:00",
+     "lineup_as_of": "2026-11-19T00:16:29.073Z",
+     "lineup_checked": "2026-11-19T00:21:00.340070+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4028,32 +4028,27 @@
        "player": "Mike Matheson",
        "status": "OUT",
        "news": "Matheson (lower-body) is expected to be out for 2-3 weeks."
-      },
-      {
-       "player": "Alexandre Texier",
-       "status": "DTD",
-       "news": "Texier (illness) missed practice on Tuesday."
       }
      ],
      "lines": {
       "1": [
        "Cole Caufield",
        "Nick Suzuki",
-       "Juraj Slafkovsky"
-      ],
-      "2": [
-       "Zack Bolduc",
-       "Phillip Danault",
        "Alexandre Texier"
       ],
+      "2": [
+       "Juraj Slafkovsky",
+       "Jake Evans",
+       "Alex Newhook"
+      ],
       "3": [
-       "Alex Newhook",
-       "Oliver Kapanen",
+       "Zack Bolduc",
+       "Phillip Danault",
        "Kirby Dach"
       ],
       "4": [
-       "Florian Xhekaj",
-       "Jake Evans",
+       "Brett Berard",
+       "Oliver Kapanen",
        "Owen Beck"
       ]
      },
@@ -4079,7 +4074,7 @@
        "opp": "NJD",
        "section": "D",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -4155,18 +4150,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Noah Dobson",
-         "jersey": 8,
-         "pp": 2,
-         "n": 17,
-         "both": 6,
-         "either": 11
+         "name": "Alexandre Carrier",
+         "jersey": 45,
+         "pp": null,
+         "n": 3,
+         "both": 0,
+         "either": 3
         }
        ]
       },
@@ -4267,9 +4262,9 @@
          "either": 12
         },
         {
-         "name": "Juraj Slafkovsky",
-         "jersey": 20,
-         "pp": 1,
+         "name": "Alexandre Texier",
+         "jersey": 85,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -4377,9 +4372,9 @@
          "either": 12
         },
         {
-         "name": "Juraj Slafkovsky",
-         "jersey": 20,
-         "pp": 1,
+         "name": "Alexandre Texier",
+         "jersey": 85,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -4393,7 +4388,7 @@
        "opp": "NJD",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -4469,7 +4464,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -4483,8 +4478,8 @@
          "either": 0
         },
         {
-         "name": "Alexandre Texier",
-         "jersey": 85,
+         "name": "Kirby Dach",
+         "jersey": 77,
          "pp": 2,
          "n": 0,
          "both": 0,
@@ -4499,7 +4494,7 @@
        "opp": "NJD",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -4534,7 +4529,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
@@ -4579,23 +4574,23 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Cole Caufield",
-         "jersey": 13,
-         "pp": 1,
+         "name": "Jake Evans",
+         "jersey": 71,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Nick Suzuki",
-         "jersey": 14,
-         "pp": 1,
+         "name": "Alex Newhook",
+         "jersey": 15,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -4603,14 +4598,14 @@
        ]
       },
       {
-       "name": "Phillip Danault",
-       "jersey": 24,
+       "name": "Alex Newhook",
+       "jersey": 15,
        "team": "MTL",
        "opp": "NJD",
        "section": "F",
        "home": false,
        "line": 2,
-       "pp": null,
+       "pp": 2,
        "sneaky": false,
        "form": {
         "points": {
@@ -4625,26 +4620,26 @@
         },
         "goals": {
          "k": 3,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.1486220244716351,
-         "p_hot": 0.27031023842917246,
-         "heater": true
-        },
-        "assists": {
-         "k": 5,
-         "k5": 0,
+         "k5": 1,
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.22753637374860955,
-         "p_hot": 0.16251781206171106,
+         "p": 0.1486220244716351,
+         "p_hot": 0.18739298737727908,
+         "heater": false
+        },
+        "assists": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.19465539488320355,
+         "p_hot": 0.20397643758765777,
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "G",
@@ -4654,9 +4649,9 @@
         2,
         5
        ],
-       "ast_games": 5,
+       "ast_games": 4,
        "goal_games": 3,
-       "two_games": 1,
+       "two_games": 3,
        "home_split": [
         3,
         11
@@ -4669,15 +4664,15 @@
         3,
         5
        ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.3,
-       "toi": 17.5,
+       "l5_venue_two": 2,
+       "pp_toi": 2.0,
+       "toi": 15.0,
        "p": 0.32,
        "fair": "+213",
        "min": "+232",
-       "p2": 0.054,
-       "fair2": "+1754",
-       "min2": "+1866",
+       "p2": 0.12,
+       "fair2": "+736",
+       "min2": "+786",
        "adj": [
         [
          "opp",
@@ -4685,26 +4680,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Zack Bolduc",
-         "jersey": 76,
+         "name": "Juraj Slafkovsky",
+         "jersey": 20,
          "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Alexandre Texier",
-         "jersey": 85,
-         "pp": 2,
-         "n": 21,
-         "both": 2,
-         "either": 9
+         "name": "Jake Evans",
+         "jersey": 71,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -4797,32 +4792,32 @@
        },
        "partners": [
         {
-         "name": "Florian Xhekaj",
-         "jersey": 63,
+         "name": "Brett Berard",
+         "jersey": 65,
          "pp": null,
-         "n": 3,
-         "both": 2,
-         "either": 2
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Jake Evans",
-         "jersey": 71,
-         "pp": null,
-         "n": 5,
+         "name": "Oliver Kapanen",
+         "jersey": null,
+         "pp": 2,
+         "n": 2,
          "both": 1,
-         "either": 1
+         "either": 2
         }
        ]
       },
       {
-       "name": "Alex Newhook",
-       "jersey": 15,
+       "name": "Phillip Danault",
+       "jersey": 24,
        "team": "MTL",
        "opp": "NJD",
        "section": "F",
        "home": false,
        "line": 3,
-       "pp": 2,
+       "pp": null,
        "sneaky": true,
        "form": {
         "points": {
@@ -4837,26 +4832,26 @@
         },
         "goals": {
          "k": 3,
-         "k5": 1,
+         "k5": 2,
          "n5": 5,
-         "k10": 2,
+         "k10": 3,
          "n10": 10,
          "p": 0.13020867630700778,
-         "p_hot": 0.16417615708274894,
-         "heater": false
+         "p_hot": 0.24709340813464237,
+         "heater": true
         },
         "assists": {
-         "k": 4,
-         "k5": 1,
+         "k": 5,
+         "k5": 0,
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.17098109010011123,
-         "p_hot": 0.17412622720897614,
+         "p": 0.20386206896551723,
+         "p_hot": 0.13266760168302943,
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "other",
        "bias": "G",
@@ -4866,9 +4861,9 @@
         2,
         5
        ],
-       "ast_games": 4,
+       "ast_games": 5,
        "goal_games": 3,
-       "two_games": 3,
+       "two_games": 1,
        "home_split": [
         3,
         11
@@ -4881,15 +4876,15 @@
         3,
         5
        ],
-       "l5_venue_two": 2,
-       "pp_toi": 2.0,
-       "toi": 15.0,
+       "l5_venue_two": 1,
+       "pp_toi": 0.3,
+       "toi": 17.5,
        "p": 0.296,
        "fair": "+238",
        "min": "+258",
-       "p2": 0.109,
-       "fair2": "+816",
-       "min2": "+871",
+       "p2": 0.043,
+       "fair2": "+2204",
+       "min2": "+2342",
        "adj": [
         [
          "opp",
@@ -4897,26 +4892,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Oliver Kapanen",
-         "jersey": null,
-         "pp": 2,
-         "n": 6,
-         "both": 1,
-         "either": 3
+         "name": "Zack Bolduc",
+         "jersey": 76,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Kirby Dach",
          "jersey": 77,
          "pp": 2,
-         "n": 7,
-         "both": 3,
-         "either": 4
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -5009,12 +5004,12 @@
        },
        "partners": [
         {
-         "name": "Lane Hutson",
-         "jersey": 48,
-         "pp": 1,
-         "n": 17,
-         "both": 6,
-         "either": 11
+         "name": "Kaiden Guhle",
+         "jersey": 21,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5107,126 +5102,20 @@
        },
        "partners": [
         {
-         "name": "Alex Newhook",
-         "jersey": 15,
-         "pp": 2,
-         "n": 7,
-         "both": 3,
-         "either": 4
+         "name": "Zack Bolduc",
+         "jersey": 76,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Oliver Kapanen",
-         "jersey": null,
-         "pp": 2,
-         "n": 8,
-         "both": 1,
-         "either": 3
-        }
-       ]
-      },
-      {
-       "name": "Florian Xhekaj",
-       "jersey": 63,
-       "team": "MTL",
-       "opp": "NJD",
-       "section": "F",
-       "home": false,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 9,
-         "p": 0.28045540796963947,
-         "p_hot": 0.3034017595307918,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 9,
-         "p": 0.10993851992409867,
-         "p_hot": 0.0849524926686217,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 9,
-         "p": 0.17949146110056924,
-         "p_hot": 0.22538416422287388,
-         "heater": true
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 9,
-       "pt_games": 3,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        2,
-        5
-       ],
-       "away_split": [
-        1,
-        4
-       ],
-       "l5_venue": [
-        1,
-        4
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 7.9,
-       "p": 0.28,
-       "fair": "+257",
-       "min": "+278",
-       "p2": 0.018,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9535483870967741
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jake Evans",
-         "jersey": 71,
+         "name": "Phillip Danault",
+         "jersey": 24,
          "pp": null,
-         "n": 5,
+         "n": 2,
          "both": 0,
          "either": 1
-        },
-        {
-         "name": "Owen Beck",
-         "jersey": null,
-         "pp": null,
-         "n": 3,
-         "both": 2,
-         "either": 2
         }
        ]
       },
@@ -5237,7 +5126,7 @@
        "opp": "NJD",
        "section": "D",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -5313,18 +5202,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Alexandre Carrier",
-         "jersey": 45,
-         "pp": null,
-         "n": 13,
-         "both": 2,
-         "either": 5
+         "name": "Noah Dobson",
+         "jersey": 8,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5335,9 +5224,9 @@
        "opp": "NJD",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 2,
        "pp": null,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 5,
@@ -5345,8 +5234,8 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.23016685205784204,
-         "p_hot": 0.2902103786816269,
+         "p": 0.25384115684093433,
+         "p_hot": 0.3200605890603086,
          "heater": false
         },
         "goals": {
@@ -5355,8 +5244,8 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.09732769744160177,
-         "p_hot": 0.12271753155680223,
+         "p": 0.11574104560622914,
+         "p_hot": 0.14593436185133238,
          "heater": false
         },
         "assists": {
@@ -5365,14 +5254,14 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.20386206896551723,
-         "p_hot": 0.25704347826086954,
+         "p": 0.22753637374860955,
+         "p_hot": 0.28689368863955117,
          "heater": false
         }
        },
        "pos": "C",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 21,
        "pt_games": 5,
@@ -5398,12 +5287,118 @@
        "l5_venue_two": 1,
        "pp_toi": 0.1,
        "toi": 15.0,
-       "p": 0.23,
-       "fair": "+334",
-       "min": "+361",
-       "p2": 0.076,
-       "fair2": "+1211",
-       "min2": "+1290",
+       "p": 0.254,
+       "fair": "+294",
+       "min": "+318",
+       "p2": 0.087,
+       "fair2": "+1052",
+       "min2": "+1121",
+       "adj": [
+        [
+         "opp",
+         0.9535483870967741
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Juraj Slafkovsky",
+         "jersey": 20,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Alex Newhook",
+         "jersey": 15,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Brett Berard",
+       "jersey": 65,
+       "team": "MTL",
+       "opp": "NJD",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.23838709677419354,
+         "p_hot": 0.23838709677419354,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.11442580645161289,
+         "p_hot": 0.11442580645161289,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.1430322580645161,
+         "p_hot": 0.1430322580645161,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.238,
+       "fair": "+319",
+       "min": "+345",
+       "p2": 0.038,
+       "fair2": "+2522",
+       "min2": "+2679",
        "adj": [
         [
          "opp",
@@ -5413,24 +5408,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Florian Xhekaj",
-         "jersey": 63,
-         "pp": null,
-         "n": 5,
+         "name": "Oliver Kapanen",
+         "jersey": null,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
          "name": "Owen Beck",
          "jersey": null,
          "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5523,12 +5518,12 @@
        },
        "partners": [
         {
-         "name": "Kaiden Guhle",
-         "jersey": 21,
-         "pp": null,
-         "n": 13,
-         "both": 2,
-         "either": 5
+         "name": "Lane Hutson",
+         "jersey": 48,
+         "pp": 1,
+         "n": 3,
+         "both": 0,
+         "either": 3
         }
        ]
       },
@@ -5539,7 +5534,7 @@
        "opp": "NJD",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -5575,7 +5570,7 @@
         }
        },
        "pos": "RW",
-       "gtd": true,
+       "gtd": false,
        "role": "top6",
        "bias": null,
        "gp": 21,
@@ -5615,26 +5610,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Zack Bolduc",
-         "jersey": 76,
+         "name": "Cole Caufield",
+         "jersey": 13,
          "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Phillip Danault",
-         "jersey": 24,
-         "pp": null,
-         "n": 21,
-         "both": 2,
-         "either": 9
+         "name": "Nick Suzuki",
+         "jersey": 14,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5743,7 +5738,7 @@
        "opp": "NJD",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 4,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -5819,26 +5814,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Alex Newhook",
-         "jersey": 15,
-         "pp": 2,
-         "n": 6,
-         "both": 1,
-         "either": 3
+         "name": "Brett Berard",
+         "jersey": 65,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Kirby Dach",
-         "jersey": 77,
-         "pp": 2,
-         "n": 8,
+         "name": "Owen Beck",
+         "jersey": null,
+         "pp": null,
+         "n": 2,
          "both": 1,
-         "either": 3
+         "either": 2
         }
        ]
       },
@@ -5953,7 +5948,7 @@
      "goalie_source": "Amanda Stein",
      "sv": "0.915",
      "gaa": "2.25",
-     "ml": "150",
+     "ml": "145",
      "gp": 21,
      "gf": 3.761904761904762,
      "gf_rk": 5,
