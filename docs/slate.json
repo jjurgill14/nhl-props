@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_utc": "2026-11-19T23:36:32.874011+00:00",
+ "generated_utc": "2026-11-19T23:41:42.303551+00:00",
  "games": [
   {
    "game_id": 2026020347,
@@ -7831,7 +7831,7 @@
      "goalie_source": "Lou Korac",
      "sv": "0.921",
      "gaa": "2.27",
-     "ml": "-285",
+     "ml": "225",
      "gp": 21,
      "gf": 2.9523809523809526,
      "gf_rk": 22,
@@ -9773,7 +9773,7 @@
      "goalie_source": "Dan Potash",
      "sv": "0.873",
      "gaa": "3.35",
-     "ml": "230",
+     "ml": "-278",
      "gp": 20,
      "gf": 3.0,
      "gf_rk": 19,
@@ -13705,8 +13705,8 @@
      "ppga_rk": 11,
      "l5_gf": 3.0,
      "l5_ga": 4.4,
-     "lineup_as_of": "2026-11-18T11:53:52.406Z",
-     "lineup_checked": "2026-11-19T09:40:00.819916+00:00",
+     "lineup_as_of": "2026-11-19T23:38:38.398Z",
+     "lineup_checked": "2026-11-19T23:41:36.630513+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -13728,18 +13728,18 @@
       ],
       "2": [
        "Ryan Leonard",
-       "Dylan Strome",
+       "Boone Jenner",
        "Tom Wilson"
       ],
       "3": [
-       "Justin Sourdif",
-       "Ilya Protas",
-       "Jordan Kyrou"
+       "Alex Ovechkin",
+       "Dylan Strome",
+       "Anthony Beauvillier"
       ],
       "4": [
-       "Alex Ovechkin",
-       "Boone Jenner",
-       "Anthony Beauvillier"
+       "Jordan Kyrou",
+       "Ilya Protas",
+       "Justin Sourdif"
       ]
      },
      "pp1": [
@@ -13846,12 +13846,12 @@
        },
        "partners": [
         {
-         "name": "Dylan Strome",
-         "jersey": 17,
-         "pp": 1,
-         "n": 5,
-         "both": 2,
-         "either": 4
+         "name": "Boone Jenner",
+         "jersey": 22,
+         "pp": null,
+         "n": 9,
+         "both": 3,
+         "either": 5
         },
         {
          "name": "Tom Wilson",
@@ -13968,7 +13968,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -14044,26 +14044,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Ryan Leonard",
-         "jersey": 9,
-         "pp": 2,
-         "n": 5,
-         "both": 2,
-         "either": 4
-        },
-        {
-         "name": "Tom Wilson",
-         "jersey": 43,
+         "name": "Alex Ovechkin",
+         "jersey": 8,
          "pp": 1,
          "n": 4,
-         "both": 0,
+         "both": 1,
          "either": 3
+        },
+        {
+         "name": "Anthony Beauvillier",
+         "jersey": 72,
+         "pp": null,
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -14074,7 +14074,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -14109,7 +14109,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -14150,19 +14150,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Justin Sourdif",
-         "jersey": 34,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
         {
          "name": "Ilya Protas",
          "jersey": null,
@@ -14170,6 +14162,14 @@
          "n": 5,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Justin Sourdif",
+         "jersey": 34,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -14596,9 +14596,9 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 2,
        "pp": null,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 8,
@@ -14606,8 +14606,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.39904420549581837,
-         "p_hot": 0.28106591865357644,
+         "p": 0.42777538829151734,
+         "p_hot": 0.31479382889200563,
          "heater": false
         },
         "goals": {
@@ -14616,8 +14616,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.2777347670250896,
-         "p_hot": 0.13865918653576437,
+         "p": 0.3000812425328554,
+         "p_hot": 0.16489200561009817,
          "heater": false
         },
         "assists": {
@@ -14626,14 +14626,14 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.1276941457586619,
-         "p_hot": 0.14990182328190743,
+         "p": 0.1564253285543608,
+         "p_hot": 0.1836297335203366,
          "heater": false
         }
        },
        "pos": "C",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "G",
        "gp": 19,
        "pt_games": 8,
@@ -14659,12 +14659,12 @@
        "l5_venue_two": 0,
        "pp_toi": 0.0,
        "toi": 14.8,
-       "p": 0.399,
-       "fair": "+151",
-       "min": "+166",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p": 0.428,
+       "fair": "+134",
+       "min": "+148",
+       "p2": 0.026,
+       "fair2": "+3816",
+       "min2": "+4051",
        "adj": [
         [
          "opp",
@@ -14672,26 +14672,26 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Alex Ovechkin",
-         "jersey": 8,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Ryan Leonard",
+         "jersey": 9,
+         "pp": 2,
+         "n": 9,
+         "both": 3,
+         "either": 5
         },
         {
-         "name": "Anthony Beauvillier",
-         "jersey": 72,
-         "pp": null,
-         "n": 6,
-         "both": 1,
-         "either": 3
+         "name": "Tom Wilson",
+         "jersey": 43,
+         "pp": 1,
+         "n": 4,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -14792,12 +14792,12 @@
          "either": 2
         },
         {
-         "name": "Dylan Strome",
-         "jersey": 17,
-         "pp": 1,
+         "name": "Boone Jenner",
+         "jersey": 22,
+         "pp": null,
          "n": 4,
          "both": 0,
-         "either": 3
+         "either": 2
         }
        ]
       },
@@ -14808,7 +14808,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -14884,18 +14884,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Boone Jenner",
-         "jersey": 22,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Dylan Strome",
+         "jersey": 17,
+         "pp": 1,
+         "n": 4,
+         "both": 1,
+         "either": 3
         },
         {
          "name": "Anthony Beauvillier",
@@ -15012,7 +15012,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -15088,19 +15088,11 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Justin Sourdif",
-         "jersey": 34,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
         {
          "name": "Jordan Kyrou",
          "jersey": 25,
@@ -15108,6 +15100,14 @@
          "n": 5,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Justin Sourdif",
+         "jersey": 34,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -15118,7 +15118,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -15194,7 +15194,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -15208,12 +15208,12 @@
          "either": 4
         },
         {
-         "name": "Boone Jenner",
-         "jersey": 22,
-         "pp": null,
-         "n": 6,
+         "name": "Dylan Strome",
+         "jersey": 17,
+         "pp": 1,
+         "n": 2,
          "both": 1,
-         "either": 3
+         "either": 2
         }
        ]
       },
@@ -15224,7 +15224,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -15259,7 +15259,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": "G",
@@ -15300,19 +15300,11 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Ilya Protas",
-         "jersey": null,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
         {
          "name": "Jordan Kyrou",
          "jersey": 25,
@@ -15320,6 +15312,14 @@
          "n": 1,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Ilya Protas",
+         "jersey": null,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -19631,19 +19631,14 @@
      "ppga_rk": 28,
      "l5_gf": 4.4,
      "l5_ga": 2.4,
-     "lineup_as_of": "2026-11-19T18:09:04.284Z",
-     "lineup_checked": "2026-11-19T21:09:41.607119+00:00",
+     "lineup_as_of": "2026-11-19T23:38:05.665Z",
+     "lineup_checked": "2026-11-19T23:41:36.863192+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Alexander Romanov",
        "status": "IR",
        "news": "Romanov will undergo surgery to repair an ACL tear and miss 6-8 months."
-      },
-      {
-       "player": "Jean-Gabriel Pageau",
-       "status": "DTD",
-       "news": "Pageau (lower-body) is a game-time decision in Winnipeg on Thursday."
       },
       {
        "player": "Logan Stanley",
@@ -19668,9 +19663,9 @@
        "Victor Eklund"
       ],
       "4": [
-       "Anthony Duclair",
+       "Casey Cizikas",
        "Jean-Gabriel Pageau",
-       "Casey Cizikas"
+       "Anthony Duclair"
       ]
      },
      "pp1": [
@@ -20465,7 +20460,7 @@
         }
        },
        "pos": "C",
-       "gtd": true,
+       "gtd": false,
        "role": "other",
        "bias": "A",
        "gp": 17,
@@ -20511,20 +20506,20 @@
        },
        "partners": [
         {
-         "name": "Anthony Duclair",
-         "jersey": 11,
-         "pp": 2,
-         "n": 14,
-         "both": 5,
-         "either": 8
-        },
-        {
          "name": "Casey Cizikas",
          "jersey": 53,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Anthony Duclair",
+         "jersey": 11,
+         "pp": 2,
+         "n": 14,
+         "both": 5,
+         "either": 8
         }
        ]
       },
@@ -20676,7 +20671,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": "G",
@@ -20723,20 +20718,20 @@
        },
        "partners": [
         {
-         "name": "Jean-Gabriel Pageau",
-         "jersey": 44,
-         "pp": null,
-         "n": 14,
-         "both": 5,
-         "either": 8
-        },
-        {
          "name": "Casey Cizikas",
          "jersey": 53,
          "pp": null,
          "n": 3,
          "both": 0,
          "either": 1
+        },
+        {
+         "name": "Jean-Gabriel Pageau",
+         "jersey": 44,
+         "pp": null,
+         "n": 14,
+         "both": 5,
+         "either": 8
         }
        ]
       },
@@ -21488,7 +21483,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -21535,20 +21530,20 @@
        },
        "partners": [
         {
-         "name": "Anthony Duclair",
-         "jersey": 11,
-         "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 1
-        },
-        {
          "name": "Jean-Gabriel Pageau",
          "jersey": 44,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Anthony Duclair",
+         "jersey": 11,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 1
         }
        ]
       }
@@ -41113,19 +41108,14 @@
      "ppga_rk": 2,
      "l5_gf": 1.8,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-15T14:07:37.758Z",
-     "lineup_checked": "2026-11-19T09:40:00.336079+00:00",
+     "lineup_as_of": "2026-11-19T22:01:44.168Z",
+     "lineup_checked": "2026-11-19T23:41:37.660198+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Jared McCann",
        "status": "IR",
        "news": "McCann (lower body) has been placed on IR and will be out for 10 weeks."
-      },
-      {
-       "player": "Jacob Melanson",
-       "status": "IR",
-       "news": "Melanson will be out indefinitely after suffering an upper-body injury."
       },
       {
        "player": "Curtis Douglas",
@@ -41136,23 +41126,23 @@
      "lines": {
       "1": [
        "Bobby McMann",
-       "Matty Beniers",
+       "Berkly Catton",
        "Jordan Eberle"
       ],
       "2": [
        "Kaapo Kakko",
-       "Berkly Catton",
+       "Matty Beniers",
        "Mackie Samoskevich"
       ],
       "3": [
-       "Frederick Gaudreau",
-       "Ben Meyers",
-       "Matthew Wood"
-      ],
-      "4": [
        "Ryan Winterton",
        "Chandler Stephenson",
-       "Jagger Firkus"
+       "Frederick Gaudreau"
+      ],
+      "4": [
+       "Matthew Wood",
+       "Ben Meyers",
+       "Jacob Melanson"
       ]
      },
      "pp1": [
@@ -41267,12 +41257,12 @@
          "either": 10
         },
         {
-         "name": "Matty Beniers",
-         "jersey": 10,
-         "pp": 1,
-         "n": 9,
-         "both": 4,
-         "either": 5
+         "name": "Berkly Catton",
+         "jersey": 27,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -41283,7 +41273,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -41359,7 +41349,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -41373,10 +41363,10 @@
          "either": 0
         },
         {
-         "name": "Jagger Firkus",
-         "jersey": null,
+         "name": "Frederick Gaudreau",
+         "jersey": 89,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -41389,7 +41379,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -41469,26 +41459,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Kaapo Kakko",
-         "jersey": 84,
-         "pp": 2,
-         "n": 15,
-         "both": 6,
-         "either": 11
+         "name": "Bobby McMann",
+         "jersey": 74,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Mackie Samoskevich",
-         "jersey": 11,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
+         "name": "Jordan Eberle",
+         "jersey": 7,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -41581,12 +41571,12 @@
        },
        "partners": [
         {
-         "name": "Berkly Catton",
-         "jersey": 27,
-         "pp": 2,
-         "n": 15,
-         "both": 6,
-         "either": 11
+         "name": "Matty Beniers",
+         "jersey": 10,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Mackie Samoskevich",
@@ -41805,7 +41795,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -41881,26 +41871,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Bobby McMann",
-         "jersey": 74,
-         "pp": 1,
-         "n": 6,
+         "name": "Kaapo Kakko",
+         "jersey": 84,
+         "pp": 2,
+         "n": 3,
          "both": 1,
-         "either": 4
+         "either": 2
         },
         {
-         "name": "Jordan Eberle",
-         "jersey": 7,
-         "pp": 1,
-         "n": 9,
-         "both": 4,
-         "either": 5
+         "name": "Mackie Samoskevich",
+         "jersey": 11,
+         "pp": 2,
+         "n": 7,
+         "both": 1,
+         "either": 4
         }
        ]
       },
@@ -42001,12 +41991,12 @@
          "either": 2
         },
         {
-         "name": "Berkly Catton",
-         "jersey": 27,
-         "pp": 2,
-         "n": 3,
+         "name": "Matty Beniers",
+         "jersey": 10,
+         "pp": 1,
+         "n": 7,
          "both": 1,
-         "either": 2
+         "either": 4
         }
        ]
       },
@@ -42099,12 +42089,12 @@
        },
        "partners": [
         {
-         "name": "Matty Beniers",
-         "jersey": 10,
-         "pp": 1,
-         "n": 6,
-         "both": 1,
-         "either": 4
+         "name": "Berkly Catton",
+         "jersey": 27,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Jordan Eberle",
@@ -42256,7 +42246,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -42303,17 +42293,17 @@
        },
        "partners": [
         {
-         "name": "Ben Meyers",
-         "jersey": 59,
+         "name": "Ryan Winterton",
+         "jersey": 26,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Matthew Wood",
-         "jersey": 71,
-         "pp": 2,
+         "name": "Chandler Stephenson",
+         "jersey": 9,
+         "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
@@ -42327,7 +42317,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -42362,7 +42352,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -42403,19 +42393,11 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Frederick Gaudreau",
-         "jersey": 89,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
         {
          "name": "Ben Meyers",
          "jersey": 59,
@@ -42423,12 +42405,118 @@
          "n": 1,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Jacob Melanson",
+         "jersey": 63,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
       {
-       "name": "Jagger Firkus",
-       "jersey": null,
+       "name": "Joshua Mahura",
+       "jersey": 28,
+       "team": "SEA",
+       "opp": "VAN",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.2668,
+         "p_hot": 0.2668,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.0696,
+         "p_hot": 0.0696,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.20879999999999999,
+         "p_hot": 0.20879999999999999,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.267,
+       "fair": "+275",
+       "min": "+297",
+       "p2": 0.035,
+       "fair2": "+2774",
+       "min2": "+2946",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ryan Lindgren",
+         "jersey": 55,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Jacob Melanson",
+       "jersey": 63,
        "team": "SEA",
        "opp": "VAN",
        "section": "F",
@@ -42469,7 +42557,7 @@
         }
        },
        "pos": "RW",
-       "gtd": false,
+       "gtd": true,
        "role": "other",
        "bias": null,
        "gp": 1,
@@ -42494,8 +42582,8 @@
         0
        ],
        "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 11.6,
+       "pp_toi": 0.1,
+       "toi": 9.5,
        "p": 0.258,
        "fair": "+288",
        "min": "+311",
@@ -42509,24 +42597,24 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Ryan Winterton",
-         "jersey": 26,
-         "pp": null,
+         "name": "Matthew Wood",
+         "jersey": 71,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Chandler Stephenson",
-         "jersey": 9,
-         "pp": 1,
-         "n": 1,
+         "name": "Ben Meyers",
+         "jersey": 59,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -42539,7 +42627,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -42615,24 +42703,24 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Frederick Gaudreau",
-         "jersey": 89,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Matthew Wood",
          "jersey": 71,
          "pp": 2,
          "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Jacob Melanson",
+         "jersey": 63,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -42645,7 +42733,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -42725,7 +42813,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -42739,108 +42827,10 @@
          "either": 0
         },
         {
-         "name": "Jagger Firkus",
-         "jersey": null,
+         "name": "Frederick Gaudreau",
+         "jersey": 89,
          "pp": null,
          "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Cale Fleury",
-       "jersey": 8,
-       "team": "SEA",
-       "opp": "VAN",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 7,
-         "p": 0.21962666666666664,
-         "p_hot": 0.16471999999999998,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 7,
-         "p": 0.03712,
-         "p_hot": 0.02784,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 7,
-         "p": 0.1886933333333333,
-         "p_hot": 0.14151999999999998,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 7,
-       "pt_games": 1,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        3
-       ],
-       "away_split": [
-        0,
-        4
-       ],
-       "l5_venue": [
-        1,
-        3
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 13.3,
-       "p": 0.22,
-       "fair": "+355",
-       "min": "+383",
-       "p2": 0.019,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Ryan Lindgren",
-         "jersey": 55,
-         "pp": null,
-         "n": 2,
          "both": 0,
          "either": 0
         }
@@ -43033,10 +43023,10 @@
        },
        "partners": [
         {
-         "name": "Cale Fleury",
-         "jersey": 8,
+         "name": "Joshua Mahura",
+         "jersey": 28,
          "pp": null,
-         "n": 2,
+         "n": 0,
          "both": 0,
          "either": 0
         }

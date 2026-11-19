@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T23:36:33.474357+00:00",
+ "generated_utc": "2026-11-19T23:41:42.936787+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -8914,8 +8914,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-285",
-     "home": "+230",
+     "away": "+225",
+     "home": "-278",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-18T17:37:30.383Z"
     },
@@ -12694,13 +12694,49 @@
     "goalie_source": "Sammi Silber",
     "sv": "0.885",
     "gaa": "3.23",
-    "lineup_as_of": "2026-11-18T11:53:52.406Z",
-    "lineup_checked": "2026-11-19T09:40:00.819916+00:00",
+    "lineup_as_of": "2026-11-19T23:38:38.398Z",
+    "lineup_checked": "2026-11-19T23:41:36.630513+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
     "gf_rk": 9,
     "ppga_rk": 11,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Boone Jenner: L4\u2192L2"
+     },
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Alex Ovechkin: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Dylan Strome: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Anthony Beauvillier: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Jordan Kyrou: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Ilya Protas: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-19T23:41:36.633858+00:00",
+      "kind": "move",
+      "text": "Justin Sourdif: L3\u2192L4"
+     }
+    ],
     "rates": {
      "gp": 19,
      "pp_gp": 19,
@@ -12735,7 +12771,7 @@
      "away": "-205",
      "home": "+170",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-18T11:53:52.406Z"
+     "as_of": "2026-11-19T23:38:38.398Z"
     },
     "total": {
      "line": 6.5,
@@ -12909,7 +12945,7 @@
       "player": "Dylan Strome",
       "team": "WSH",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "players": [
        8478440
       ]
@@ -12951,7 +12987,7 @@
       "player": "Jordan Kyrou",
       "team": "WSH",
       "pp": 1,
-      "line": 3,
+      "line": 4,
       "players": [
        8479385
       ]
@@ -13030,14 +13066,14 @@
      },
      {
       "selection": "Boone Jenner \u00b7 1+ goal",
-      "prob": 0.278,
-      "fair": "+260",
-      "need": "+282",
+      "prob": 0.3,
+      "fair": "+233",
+      "need": "+253",
       "rationale": "Goal in 6 of 19 this season \u00b7 0 of L5",
       "player": "Boone Jenner",
       "team": "WSH",
       "pp": null,
-      "line": 4,
+      "line": 2,
       "players": [
        8476432
       ]
@@ -13188,22 +13224,6 @@
       ]
      },
      {
-      "selection": "Leonard + Strome \u00b7 both 1+ point",
-      "prob": 0.365,
-      "fair": "+174",
-      "need": "+191",
-      "rationale": "Both scored 2 of 5 games together \u00b7 independent 34% \u00b7 new pair",
-      "team": "WSH",
-      "line": 2,
-      "read": "new pair",
-      "both": 2,
-      "n": 5,
-      "players": [
-       8484186,
-       8478440
-      ]
-     },
-     {
       "selection": "Benson + Kulich \u00b7 both 1+ point",
       "prob": 0.359,
       "fair": "+178",
@@ -13216,6 +13236,22 @@
       "n": 1,
       "players": [
        8484145,
+       8483468
+      ]
+     },
+     {
+      "selection": "Thompson + Kulich \u00b7 both 1+ point",
+      "prob": 0.318,
+      "fair": "+214",
+      "need": "+233",
+      "rationale": "Both scored 1 of 2 games together \u00b7 independent 26% \u00b7 new pair",
+      "team": "BUF",
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 2,
+      "players": [
+       8479420,
        8483468
       ]
      }
@@ -13272,7 +13308,7 @@
       "player": "Dylan Strome",
       "team": "WSH",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "players": [
        8478440
       ]
@@ -13286,7 +13322,7 @@
       "player": "Jordan Kyrou",
       "team": "WSH",
       "pp": 1,
-      "line": 3,
+      "line": 4,
       "players": [
        8479385
       ]
@@ -13310,19 +13346,19 @@
       ]
      },
      {
-      "selection": "Strome + Wilson \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.127,
-      "fair": "+685",
-      "need": "+732",
-      "rationale": "Both scored 0 of 4 games together \u00b7 independent 21% \u00b7 new pair",
+      "selection": "Strome + Ovechkin \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.227,
+      "fair": "+340",
+      "need": "+366",
+      "rationale": "Both scored 1 of 4 games together \u00b7 independent 21% \u00b7 new pair",
       "team": "WSH",
-      "line": 2,
+      "line": 3,
       "read": "new pair",
-      "both": 0,
+      "both": 1,
       "n": 4,
       "players": [
        8478440,
-       8476880
+       8471214
       ]
      }
     ],
@@ -14910,11 +14946,11 @@
     },
     "home": {
      "team": "WSH",
-     "as_of": "2026-11-18T11:53:52.406Z",
-     "checked": "2026-11-19T09:40:00.819916+00:00",
+     "as_of": "2026-11-19T23:38:38.398Z",
+     "checked": "2026-11-19T23:41:36.630513+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-17)",
-     "updated_dfo": "2026-11-18T11:53:52.406Z",
+     "source": "Sammi Silber",
+     "updated_dfo": "2026-11-19T23:38:38.398Z",
      "forwards": [
       [
        {
@@ -15072,39 +15108,39 @@
         }
        },
        {
-        "name": "Dylan Strome",
-        "jersey": 17,
+        "name": "Boone Jenner",
+        "jersey": 22,
         "pos": "C",
         "slot": null,
-        "player_id": 8478440,
-        "dfo_id": 2474,
+        "player_id": 8476432,
+        "dfo_id": 1902,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
+        "pp": null,
+        "pk": 1,
+        "bias": "G",
         "season": {
-         "a": 13,
-         "g": 3,
+         "a": 2,
+         "g": 6,
          "gp": 19,
-         "p": 16,
-         "ppp": 4,
-         "sog": 41,
-         "toi_s": 19793
+         "p": 8,
+         "ppp": 0,
+         "sog": 40,
+         "toi_s": 17792
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 5283
+         "sog": 10,
+         "toi_s": 4455
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -15150,122 +15186,6 @@
       ],
       [
        {
-        "name": "Justin Sourdif",
-        "jersey": 34,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8482088,
-        "dfo_id": 29606,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": "G",
-        "season": {
-         "a": 1,
-         "g": 3,
-         "gp": 17,
-         "p": 4,
-         "ppp": 0,
-         "sog": 16,
-         "toi_s": 14104
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 4306
-        },
-        "l5_point_games": 0,
-        "gp": 17,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Ilya Protas",
-        "jersey": 62,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8484999,
-        "dfo_id": 38137,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 19,
-         "p": 7,
-         "ppp": 2,
-         "sog": 17,
-         "toi_s": 13016
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 6,
-         "toi_s": 3309
-        },
-        "l5_point_games": 1,
-        "gp": 19,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Jordan Kyrou",
-        "jersey": 25,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8479385,
-        "dfo_id": 3867,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 9,
-         "g": 5,
-         "gp": 19,
-         "p": 14,
-         "ppp": 6,
-         "sog": 27,
-         "toi_s": 16557
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4450
-        },
-        "l5_point_games": 0,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Alex Ovechkin",
         "jersey": 8,
         "pos": "LW",
@@ -15298,42 +15218,42 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Boone Jenner",
-        "jersey": 22,
+        "name": "Dylan Strome",
+        "jersey": 17,
         "pos": "C",
         "slot": null,
-        "player_id": 8476432,
-        "dfo_id": 1902,
+        "player_id": 8478440,
+        "dfo_id": 2474,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "G",
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 6,
+         "a": 13,
+         "g": 3,
          "gp": 19,
-         "p": 8,
-         "ppp": 0,
-         "sog": 40,
-         "toi_s": 17792
+         "p": 16,
+         "ppp": 4,
+         "sog": 41,
+         "toi_s": 19793
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 4455
+         "sog": 12,
+         "toi_s": 5283
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 19,
         "move": {
          "ev": -1,
@@ -15374,7 +15294,123 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Jordan Kyrou",
+        "jersey": 25,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8479385,
+        "dfo_id": 3867,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 9,
+         "g": 5,
+         "gp": 19,
+         "p": 14,
+         "ppp": 6,
+         "sog": 27,
+         "toi_s": 16557
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4450
+        },
+        "l5_point_games": 0,
+        "gp": 19,
+        "move": {
          "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Ilya Protas",
+        "jersey": 62,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8484999,
+        "dfo_id": 38137,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 5,
+         "g": 2,
+         "gp": 19,
+         "p": 7,
+         "ppp": 2,
+         "sog": 17,
+         "toi_s": 13016
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 1,
+         "sog": 6,
+         "toi_s": 3309
+        },
+        "l5_point_games": 1,
+        "gp": 19,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Justin Sourdif",
+        "jersey": 34,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8482088,
+        "dfo_id": 29606,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": "G",
+        "season": {
+         "a": 1,
+         "g": 3,
+         "gp": 17,
+         "p": 4,
+         "ppp": 0,
+         "sog": 16,
+         "toi_s": 14104
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 4306
+        },
+        "l5_point_games": 0,
+        "gp": 17,
+        "move": {
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -15778,7 +15814,7 @@
         "l5_point_games": 2,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -15816,7 +15852,7 @@
         "l5_point_games": 0,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -15854,7 +15890,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -15932,7 +15968,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -16126,7 +16162,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": -1,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -16280,7 +16316,7 @@
         "l5_point_games": 0,
         "gp": 17,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -16318,7 +16354,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -16419,7 +16455,7 @@
        "rating": 75.7310075008915
       },
       "d2": {
-       "rank": 27,
+       "rank": 26,
        "rating": 72.58151788250368
       },
       "d3": {
@@ -16435,16 +16471,16 @@
        "rating": 73.96437071633422
       },
       "f2": {
-       "rank": 20,
-       "rating": 73.90958045567875
+       "rank": 27,
+       "rating": 72.2472872493234
       },
       "f3": {
-       "rank": 20,
-       "rating": 72.8600609960102
+       "rank": 3,
+       "rating": 76.1108274280466
       },
       "f4": {
-       "rank": 5,
-       "rating": 75.00263195714302
+       "rank": 14,
+       "rating": 72.8600609960102
       },
       "g": {
        "rank": 21,
@@ -20410,8 +20446,8 @@
     "goalie_source": "Andrew Gross",
     "sv": "0.898",
     "gaa": "2.6",
-    "lineup_as_of": "2026-11-19T18:09:04.284Z",
-    "lineup_checked": "2026-11-19T21:09:41.607119+00:00",
+    "lineup_as_of": "2026-11-19T23:38:05.665Z",
+    "lineup_checked": "2026-11-19T23:41:36.863192+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 12,
@@ -21226,11 +21262,11 @@
    "lineup": {
     "away": {
      "team": "NYI",
-     "as_of": "2026-11-19T18:09:04.284Z",
-     "checked": "2026-11-19T21:09:41.607119+00:00",
+     "as_of": "2026-11-19T23:38:05.665Z",
+     "checked": "2026-11-19T23:41:36.863192+00:00",
      "stale": false,
      "source": "Andrew Gross",
-     "updated_dfo": "2026-11-19T18:09:04.284Z",
+     "updated_dfo": "2026-11-19T23:38:05.665Z",
      "forwards": [
       [
        {
@@ -21582,36 +21618,36 @@
       ],
       [
        {
-        "name": "Anthony Duclair",
-        "jersey": 11,
+        "name": "Casey Cizikas",
+        "jersey": 53,
         "pos": "LW",
         "slot": null,
-        "player_id": 8477407,
-        "dfo_id": 2380,
+        "player_id": 8475231,
+        "dfo_id": 1807,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
+        "pp": null,
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 5,
+         "a": 2,
+         "g": 1,
          "gp": 20,
-         "p": 8,
-         "ppp": 1,
-         "sog": 24,
-         "toi_s": 16395
+         "p": 3,
+         "ppp": 0,
+         "sog": 13,
+         "toi_s": 14505
         },
         "last5": {
-         "a": 1,
-         "g": 2,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 4248
+         "p": 0,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 3801
         },
-        "l5_point_games": 2,
+        "l5_point_games": 0,
         "gp": 20,
         "move": {
          "ev": 0,
@@ -21626,7 +21662,7 @@
         "slot": null,
         "player_id": 8476419,
         "dfo_id": 2057,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -21658,36 +21694,36 @@
         }
        },
        {
-        "name": "Casey Cizikas",
-        "jersey": 53,
+        "name": "Anthony Duclair",
+        "jersey": 11,
         "pos": "RW",
         "slot": null,
-        "player_id": 8475231,
-        "dfo_id": 1807,
+        "player_id": 8477407,
+        "dfo_id": 2380,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 2,
-         "g": 1,
+         "a": 3,
+         "g": 5,
          "gp": 20,
-         "p": 3,
-         "ppp": 0,
-         "sog": 13,
-         "toi_s": 14505
+         "p": 8,
+         "ppp": 1,
+         "sog": 24,
+         "toi_s": 16395
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 1,
+         "g": 2,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 3801
+         "p": 3,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 4248
         },
-        "l5_point_games": 0,
+        "l5_point_games": 2,
         "gp": 20,
         "move": {
          "ev": 0,
@@ -22722,11 +22758,6 @@
        "player": "Alexander Romanov",
        "status": "IR",
        "news": "Romanov will undergo surgery to repair an ACL tear and miss 6-8 months."
-      },
-      {
-       "player": "Jean-Gabriel Pageau",
-       "status": "DTD",
-       "news": "Pageau (lower-body) is a game-time decision in Winnipeg on Thursday."
       },
       {
        "player": "Logan Stanley",
@@ -40000,13 +40031,64 @@
     "goalie_source": "Mike Benton",
     "sv": "0.894",
     "gaa": "3.15",
-    "lineup_as_of": "2026-11-15T14:07:37.758Z",
-    "lineup_checked": "2026-11-19T09:40:00.336079+00:00",
+    "lineup_as_of": "2026-11-19T22:01:44.168Z",
+    "lineup_checked": "2026-11-19T23:41:37.660198+00:00",
     "lineup_stale": false,
     "ga_rk": 5,
     "gf_rk": 14,
     "ppga_rk": 2,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "in",
+      "text": "IN: Jacob Melanson (was IR) \u2192 L4"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "in",
+      "text": "IN: Joshua Mahura \u2192 L3"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "out",
+      "text": "OUT: Jagger Firkus (was L4)"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "out",
+      "text": "OUT: Cale Fleury (was L3)"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "move",
+      "text": "Berkly Catton: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "move",
+      "text": "Matty Beniers: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "move",
+      "text": "Ryan Winterton: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "move",
+      "text": "Chandler Stephenson: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "move",
+      "text": "Matthew Wood: L3\u2192L4"
+     },
+     {
+      "at": "2026-11-19T23:41:37.663144+00:00",
+      "kind": "move",
+      "text": "Ben Meyers: L3\u2192L4"
+     }
+    ],
     "rates": {
      "gp": 18,
      "pp_gp": 18,
@@ -40041,7 +40123,7 @@
      "away": "-180",
      "home": "+150",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-15T14:07:37.758Z"
+     "as_of": "2026-11-19T22:01:44.168Z"
     },
     "total": {
      "line": 6.5,
@@ -40125,7 +40207,7 @@
       "player": "Chandler Stephenson",
       "team": "SEA",
       "pp": 1,
-      "line": 4,
+      "line": 3,
       "bias": "A",
       "players": [
        8476905
@@ -40155,7 +40237,7 @@
       "player": "Berkly Catton",
       "team": "SEA",
       "pp": 2,
-      "line": 2,
+      "line": 1,
       "bias": "A",
       "players": [
        8484800
@@ -40187,7 +40269,7 @@
       "player": "Chandler Stephenson",
       "team": "SEA",
       "pp": 1,
-      "line": 4,
+      "line": 3,
       "players": [
        8476905
       ]
@@ -40301,7 +40383,7 @@
       "player": "Matty Beniers",
       "team": "SEA",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8482665
       ]
@@ -40315,7 +40397,7 @@
       "player": "Berkly Catton",
       "team": "SEA",
       "pp": 2,
-      "line": 2,
+      "line": 1,
       "players": [
        8484800
       ]
@@ -40386,38 +40468,6 @@
       ]
      },
      {
-      "selection": "Eberle + Beniers \u00b7 both 1+ point",
-      "prob": 0.417,
-      "fair": "+140",
-      "need": "+154",
-      "rationale": "Both scored 4 of 9 games together \u00b7 independent 38% \u00b7 correlated",
-      "team": "SEA",
-      "line": 1,
-      "read": "correlated",
-      "both": 4,
-      "n": 9,
-      "players": [
-       8474586,
-       8482665
-      ]
-     },
-     {
-      "selection": "Catton + Kakko \u00b7 both 1+ point",
-      "prob": 0.387,
-      "fair": "+158",
-      "need": "+174",
-      "rationale": "Both scored 6 of 15 games together \u00b7 independent 35% \u00b7 independent",
-      "team": "SEA",
-      "line": 2,
-      "read": "independent",
-      "both": 6,
-      "n": 15,
-      "players": [
-       8484800,
-       8481554
-      ]
-     },
-     {
       "selection": "Lekkerimaki + Pettersson \u00b7 both 1+ point",
       "prob": 0.385,
       "fair": "+160",
@@ -40448,6 +40498,38 @@
        8483476,
        8478498
       ]
+     },
+     {
+      "selection": "Eberle + McMann \u00b7 both 1+ point",
+      "prob": 0.328,
+      "fair": "+205",
+      "need": "+223",
+      "rationale": "Both scored 5 of 15 games together \u00b7 independent 31% \u00b7 independent",
+      "team": "SEA",
+      "line": 1,
+      "read": "independent",
+      "both": 5,
+      "n": 15,
+      "players": [
+       8474586,
+       8482259
+      ]
+     },
+     {
+      "selection": "Kakko + Beniers \u00b7 both 1+ point",
+      "prob": 0.319,
+      "fair": "+213",
+      "need": "+232",
+      "rationale": "Both scored 1 of 3 games together \u00b7 independent 31% \u00b7 new pair",
+      "team": "SEA",
+      "line": 2,
+      "read": "new pair",
+      "both": 1,
+      "n": 3,
+      "players": [
+       8481554,
+       8482665
+      ]
      }
     ],
     "two": [
@@ -40460,7 +40542,7 @@
       "player": "Berkly Catton",
       "team": "SEA",
       "pp": 2,
-      "line": 2,
+      "line": 1,
       "players": [
        8484800
       ]
@@ -40524,22 +40606,6 @@
     ],
     "pp1": [
      {
-      "selection": "Eberle + Beniers \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.417,
-      "fair": "+140",
-      "need": "+154",
-      "rationale": "Both scored 4 of 9 games together \u00b7 independent 38% \u00b7 correlated",
-      "team": "SEA",
-      "line": 1,
-      "read": "correlated",
-      "both": 4,
-      "n": 9,
-      "players": [
-       8474586,
-       8482665
-      ]
-     },
-     {
       "selection": "Lekkerimaki + Pettersson \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.385,
       "fair": "+160",
@@ -40585,6 +40651,22 @@
       "players": [
        8474586,
        8482259
+      ]
+     },
+     {
+      "selection": "Pettersson + DeBrusk \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.136,
+      "fair": "+635",
+      "need": "+679",
+      "rationale": "Both scored 0 of 5 games together \u00b7 independent 25% \u00b7 new pair",
+      "team": "VAN",
+      "line": 1,
+      "read": "new pair",
+      "both": 0,
+      "n": 5,
+      "players": [
+       8483678,
+       8478498
       ]
      }
     ],
@@ -42157,11 +42239,11 @@
     },
     "home": {
      "team": "SEA",
-     "as_of": "2026-11-15T14:07:37.758Z",
-     "checked": "2026-11-19T09:40:00.336079+00:00",
+     "as_of": "2026-11-19T22:01:44.168Z",
+     "checked": "2026-11-19T23:41:37.660198+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-14)",
-     "updated_dfo": "2026-11-15T14:07:37.758Z",
+     "source": "Mike Benton",
+     "updated_dfo": "2026-11-19T22:01:44.168Z",
      "forwards": [
       [
        {
@@ -42203,39 +42285,39 @@
         }
        },
        {
-        "name": "Matty Beniers",
-        "jersey": 10,
+        "name": "Berkly Catton",
+        "jersey": 27,
         "pos": "C",
         "slot": null,
-        "player_id": 8482665,
-        "dfo_id": 30804,
+        "player_id": 8484800,
+        "dfo_id": 36542,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 5,
+         "a": 8,
          "g": 5,
          "gp": 17,
-         "p": 10,
-         "ppp": 3,
-         "sog": 18,
-         "toi_s": 18147
+         "p": 13,
+         "ppp": 2,
+         "sog": 24,
+         "toi_s": 15456
         },
         "last5": {
-         "a": 1,
-         "g": 2,
+         "a": 3,
+         "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 4,
          "ppp": 1,
-         "sog": 7,
-         "toi_s": 5284
+         "sog": 2,
+         "toi_s": 4719
         },
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -42319,39 +42401,39 @@
         }
        },
        {
-        "name": "Berkly Catton",
-        "jersey": 27,
+        "name": "Matty Beniers",
+        "jersey": 10,
         "pos": "C",
         "slot": null,
-        "player_id": 8484800,
-        "dfo_id": 36542,
+        "player_id": 8482665,
+        "dfo_id": 30804,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 8,
+         "a": 5,
          "g": 5,
          "gp": 17,
-         "p": 13,
-         "ppp": 2,
-         "sog": 24,
-         "toi_s": 15456
+         "p": 10,
+         "ppp": 3,
+         "sog": 18,
+         "toi_s": 18147
         },
         "last5": {
-         "a": 3,
-         "g": 1,
+         "a": 1,
+         "g": 2,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 1,
-         "sog": 2,
-         "toi_s": 4719
+         "sog": 7,
+         "toi_s": 5284
         },
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -42397,9 +42479,85 @@
       ],
       [
        {
+        "name": "Ryan Winterton",
+        "jersey": 26,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8482751,
+        "dfo_id": 30837,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 4,
+         "g": 2,
+         "gp": 18,
+         "p": 6,
+         "ppp": 0,
+         "sog": 25,
+         "toi_s": 13940
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 3652
+        },
+        "l5_point_games": 0,
+        "gp": 18,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Chandler Stephenson",
+        "jersey": 9,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8476905,
+        "dfo_id": 2538,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 10,
+         "g": 2,
+         "gp": 17,
+         "p": 12,
+         "ppp": 6,
+         "sog": 13,
+         "toi_s": 17546
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 5153
+        },
+        "l5_point_games": 2,
+        "gp": 18,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Frederick Gaudreau",
         "jersey": 89,
-        "pos": "LW",
+        "pos": "RW",
         "slot": null,
         "player_id": null,
         "dfo_id": 2701,
@@ -42428,6 +42586,46 @@
         },
         "l5_point_games": 0,
         "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Matthew Wood",
+        "jersey": 71,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8484241,
+        "dfo_id": 33571,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 1,
+         "gp": 18,
+         "p": 4,
+         "ppp": 2,
+         "sog": 23,
+         "toi_s": 15291
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4274
+        },
+        "l5_point_games": 1,
+        "gp": 4,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -42467,135 +42665,19 @@
         "l5_point_games": 0,
         "gp": 16,
         "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Matthew Wood",
-        "jersey": 71,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8484241,
-        "dfo_id": 33571,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 18,
-         "p": 4,
-         "ppp": 2,
-         "sog": 23,
-         "toi_s": 15291
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4274
-        },
-        "l5_point_games": 1,
-        "gp": 4,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Ryan Winterton",
-        "jersey": 26,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8482751,
-        "dfo_id": 30837,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 18,
-         "p": 6,
-         "ppp": 0,
-         "sog": 25,
-         "toi_s": 13940
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 3652
-        },
-        "l5_point_games": 0,
-        "gp": 18,
-        "move": {
          "ev": 0,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Chandler Stephenson",
-        "jersey": 9,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476905,
-        "dfo_id": 2538,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 2,
-        "bias": "A",
-        "season": {
-         "a": 10,
-         "g": 2,
-         "gp": 17,
-         "p": 12,
-         "ppp": 6,
-         "sog": 13,
-         "toi_s": 17546
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 5153
-        },
-        "l5_point_games": 2,
-        "gp": 18,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Jagger Firkus",
-        "jersey": 57,
+        "name": "Jacob Melanson",
+        "jersey": 63,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483442,
-        "dfo_id": 31585,
-        "gtd": false,
+        "player_id": 8482874,
+        "dfo_id": 31241,
+        "gtd": true,
         "injury": null,
         "pp": null,
         "pk": null,
@@ -42606,24 +42688,24 @@
          "gp": 1,
          "p": 0,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 698
+         "sog": 1,
+         "toi_s": 571
         },
         "last5": {
-         "a": 0,
-         "g": 2,
+         "a": 2,
+         "g": 0,
          "gp": 5,
          "p": 2,
-         "ppp": 2,
-         "sog": 11,
-         "toi_s": 4373
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 3233
         },
         "l5_point_games": 0,
         "gp": 1,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -42825,41 +42907,41 @@
         }
        },
        {
-        "name": "Cale Fleury",
-        "jersey": 8,
+        "name": "Joshua Mahura",
+        "jersey": 28,
         "pos": "RD",
         "slot": null,
-        "player_id": 8479985,
-        "dfo_id": 26737,
+        "player_id": null,
+        "dfo_id": 3924,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 7,
-         "p": 1,
+         "a": 2,
+         "g": 1,
+         "gp": 14,
+         "p": 3,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 5770
+         "sog": 8,
+         "toi_s": 11581
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3980
+         "sog": 2,
+         "toi_s": 4094
         },
         "l5_point_games": 0,
-        "gp": 7,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        }
       ]
@@ -43025,7 +43107,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -43101,7 +43183,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -43217,7 +43299,7 @@
         "l5_point_games": 3,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -43255,7 +43337,7 @@
         "l5_point_games": 1,
         "gp": 4,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -43411,7 +43493,7 @@
         "l5_point_games": 0,
         "gp": 16,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -43527,7 +43609,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -43565,7 +43647,7 @@
         "l5_point_games": 0,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -43655,11 +43737,6 @@
        "news": "McCann (lower body) has been placed on IR and will be out for 10 weeks."
       },
       {
-       "player": "Jacob Melanson",
-       "status": "IR",
-       "news": "Melanson will be out indefinitely after suffering an upper-body injury."
-      },
-      {
        "player": "Curtis Douglas",
        "status": "IR",
        "news": "Douglas (upper-body) has been placed on IR retroactive to October 30th."
@@ -43667,16 +43744,16 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 22,
+       "rank": 23,
        "rating": 73.58762688481286
       },
       "d2": {
-       "rank": 30,
+       "rank": 29,
        "rating": 72.32837165073951
       },
       "d3": {
-       "rank": 18,
-       "rating": 71.8499149193111
+       "rank": 17,
+       "rating": 71.9971289339558
       },
       "d4": {
        "rank": 6,
@@ -43687,16 +43764,16 @@
        "rating": 74.64048283038701
       },
       "f2": {
-       "rank": 33,
+       "rank": 34,
        "rating": 69.70141560765151
       },
       "f3": {
-       "rank": 35,
-       "rating": 69.4718468856208
+       "rank": 33,
+       "rating": 70.50359733051906
       },
       "f4": {
-       "rank": 24,
-       "rating": 71.5353477754173
+       "rank": 34,
+       "rating": 0
       },
       "g": {
        "rank": 9,
