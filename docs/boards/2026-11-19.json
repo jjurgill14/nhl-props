@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-20T00:38:06.537215+00:00",
+ "generated_utc": "2026-11-20T00:43:14.495885+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -28507,8 +28507,8 @@
     "goalie_source": "Vinnie Parise",
     "sv": "0.884",
     "gaa": "3.51",
-    "lineup_as_of": "2026-11-20T00:37:57.813Z",
-    "lineup_checked": "2026-11-20T00:38:02.725870+00:00",
+    "lineup_as_of": "2026-11-18T17:33:51.733Z",
+    "lineup_checked": "2026-11-20T00:43:09.275630+00:00",
     "lineup_stale": false,
     "ga_rk": 2,
     "gf_rk": 30,
@@ -28533,6 +28533,21 @@
       "at": "2026-11-20T00:38:02.729903+00:00",
       "kind": "move",
       "text": "Cole Smith: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-20T00:43:09.279791+00:00",
+      "kind": "in",
+      "text": "IN: Jordan Greenway \u2192 L3"
+     },
+     {
+      "at": "2026-11-20T00:43:09.279791+00:00",
+      "kind": "out",
+      "text": "OUT: Dillon Boucher (was L4)"
+     },
+     {
+      "at": "2026-11-20T00:43:09.279791+00:00",
+      "kind": "move",
+      "text": "Cole Smith: L3\u2192L4"
      }
     ],
     "rates": {
@@ -28569,7 +28584,7 @@
      "away": "+160",
      "home": "-192",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-20T00:37:57.813Z"
+     "as_of": "2026-11-18T17:33:51.733Z"
     },
     "total": {
      "line": 5.5,
@@ -30705,11 +30720,11 @@
     },
     "home": {
      "team": "CHI",
-     "as_of": "2026-11-20T00:37:57.813Z",
-     "checked": "2026-11-20T00:38:02.725870+00:00",
+     "as_of": "2026-11-18T17:33:51.733Z",
+     "checked": "2026-11-20T00:43:09.275630+00:00",
      "stale": false,
-     "source": "Ben Pope",
-     "updated_dfo": "2026-11-20T00:37:57.813Z",
+     "source": "Charlie Roumeliotis",
+     "updated_dfo": "2026-11-18T17:33:51.733Z",
      "forwards": [
       [
        {
@@ -30945,41 +30960,41 @@
       ],
       [
        {
-        "name": "Cole Smith",
-        "jersey": 22,
+        "name": "Jordan Greenway",
+        "jersey": 12,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482062,
-        "dfo_id": 32926,
+        "player_id": 8478413,
+        "dfo_id": 4644,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
+         "a": 0,
          "g": 1,
-         "gp": 21,
-         "p": 4,
-         "ppp": 0,
-         "sog": 23,
-         "toi_s": 17397
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
+         "gp": 17,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4309
+         "sog": 20,
+         "toi_s": 13346
         },
-        "l5_point_games": 1,
-        "gp": 21,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 3674
+        },
+        "l5_point_games": 0,
+        "gp": 17,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -31137,41 +31152,41 @@
         }
        },
        {
-        "name": "Dillon Boucher",
-        "jersey": 36,
+        "name": "Cole Smith",
+        "jersey": 22,
         "pos": "RW",
         "slot": null,
-        "player_id": 8485554,
-        "dfo_id": 23668,
+        "player_id": 8482062,
+        "dfo_id": 32926,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 1,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 3,
-         "p": 0,
+         "a": 3,
+         "g": 1,
+         "gp": 21,
+         "p": 4,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 1549
+         "sog": 23,
+         "toi_s": 17397
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
-         "gp": 3,
-         "p": 0,
+         "gp": 5,
+         "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 1549
+         "sog": 5,
+         "toi_s": 4309
         },
-        "l5_point_games": 0,
-        "gp": 3,
+        "l5_point_games": 1,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
-         "new": true
+         "new": false
         }
        }
       ]
@@ -32234,8 +32249,8 @@
        "rating": 80.0821788843248
       },
       "f3": {
-       "rank": 2,
-       "rating": 77.24208550220601
+       "rank": 11,
+       "rating": 74.2436810222408
       },
       "f4": {
        "rank": 7,
@@ -32371,13 +32386,34 @@
     "goalie_source": "Pat Steinberg",
     "sv": "0.878",
     "gaa": "3.45",
-    "lineup_as_of": "2026-11-18T15:06:37.521Z",
-    "lineup_checked": "2026-11-19T09:39:59.434059+00:00",
+    "lineup_as_of": "2026-11-20T00:38:56.308Z",
+    "lineup_checked": "2026-11-20T00:43:09.469084+00:00",
     "lineup_stale": false,
     "ga_rk": 10,
     "gf_rk": 28,
     "ppga_rk": 25,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-20T00:43:09.474705+00:00",
+      "kind": "move",
+      "text": "Jacob Middleton: L3\u2192L1"
+     },
+     {
+      "at": "2026-11-20T00:43:09.474705+00:00",
+      "kind": "move",
+      "text": "Zach Whitecloud: L3\u2192L1"
+     },
+     {
+      "at": "2026-11-20T00:43:09.474705+00:00",
+      "kind": "move",
+      "text": "Yan Kuznetsov: L1\u2192L3"
+     },
+     {
+      "at": "2026-11-20T00:43:09.474705+00:00",
+      "kind": "move",
+      "text": "Zayne Parekh: L1\u2192L3"
+     }
+    ],
     "rates": {
      "gp": 22,
      "pp_gp": 22,
@@ -32412,7 +32448,7 @@
      "away": "+110",
      "home": "-130",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-18T15:06:37.521Z"
+     "as_of": "2026-11-20T00:38:56.308Z"
     },
     "total": {
      "line": 6.5,
@@ -32773,11 +32809,11 @@
       "prob": 0.238,
       "fair": "+320",
       "need": "+345",
-      "rationale": "D1 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 5 of 21 season",
+      "rationale": "D3 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 5 of 21 season",
       "player": "Yan Kuznetsov",
       "team": "CGY",
       "pp": null,
-      "line": 1,
+      "line": 3,
       "players": [
        8482165
       ],
@@ -34615,11 +34651,11 @@
     },
     "home": {
      "team": "CGY",
-     "as_of": "2026-11-18T15:06:37.521Z",
-     "checked": "2026-11-19T09:39:59.434059+00:00",
+     "as_of": "2026-11-20T00:38:56.308Z",
+     "checked": "2026-11-20T00:43:09.469084+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-17)",
-     "updated_dfo": "2026-11-18T15:06:37.521Z",
+     "source": "Ryan Pike",
+     "updated_dfo": "2026-11-20T00:38:56.308Z",
      "forwards": [
       [
        {
@@ -35089,77 +35125,77 @@
      "defense": [
       [
        {
-        "name": "Yan Kuznetsov",
-        "jersey": 37,
+        "name": "Jacob Middleton",
+        "jersey": 55,
         "pos": "LD",
         "slot": null,
-        "player_id": 8482165,
-        "dfo_id": 30745,
+        "player_id": 8478136,
+        "dfo_id": 22822,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "A",
+        "pk": 1,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 0,
-         "gp": 21,
-         "p": 5,
-         "ppp": 0,
-         "sog": 23,
-         "toi_s": 21786
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
+         "a": 1,
+         "g": 1,
+         "gp": 22,
          "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5137
+         "sog": 24,
+         "toi_s": 25049
         },
-        "l5_point_games": 2,
-        "gp": 21,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 6217
+        },
+        "l5_point_games": 0,
+        "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Zayne Parekh",
-        "jersey": 19,
+        "name": "Zach Whitecloud",
+        "jersey": 28,
         "pos": "RD",
         "slot": null,
-        "player_id": 8484768,
-        "dfo_id": 36725,
+        "player_id": 8480727,
+        "dfo_id": 4658,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": null,
+        "pp": null,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 7,
-         "g": 2,
+         "a": 2,
+         "g": 1,
          "gp": 22,
-         "p": 9,
-         "ppp": 5,
-         "sog": 39,
-         "toi_s": 24099
+         "p": 3,
+         "ppp": 0,
+         "sog": 19,
+         "toi_s": 27681
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 5807
+         "sog": 3,
+         "toi_s": 6865
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -35245,77 +35281,77 @@
       ],
       [
        {
-        "name": "Jacob Middleton",
-        "jersey": 55,
+        "name": "Yan Kuznetsov",
+        "jersey": 37,
         "pos": "LD",
         "slot": null,
-        "player_id": 8478136,
-        "dfo_id": 22822,
+        "player_id": 8482165,
+        "dfo_id": 30745,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
-        "bias": null,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 1,
-         "gp": 22,
-         "p": 2,
+         "a": 5,
+         "g": 0,
+         "gp": 21,
+         "p": 5,
          "ppp": 0,
-         "sog": 24,
-         "toi_s": 25049
+         "sog": 23,
+         "toi_s": 21786
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 6217
+         "sog": 5,
+         "toi_s": 5137
         },
-        "l5_point_games": 0,
-        "gp": 22,
+        "l5_point_games": 2,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Zach Whitecloud",
-        "jersey": 28,
+        "name": "Zayne Parekh",
+        "jersey": 19,
         "pos": "RD",
         "slot": null,
-        "player_id": 8480727,
-        "dfo_id": 4658,
+        "player_id": 8484768,
+        "dfo_id": 36725,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
+        "pp": 1,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 2,
-         "g": 1,
+         "a": 7,
+         "g": 2,
          "gp": 22,
-         "p": 3,
-         "ppp": 0,
-         "sog": 19,
-         "toi_s": 27681
+         "p": 9,
+         "ppp": 5,
+         "sog": 39,
+         "toi_s": 24099
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 6865
+         "sog": 12,
+         "toi_s": 5807
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -35597,7 +35633,7 @@
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -35907,7 +35943,7 @@
         "l5_point_games": 0,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -35945,7 +35981,7 @@
         "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -36061,7 +36097,7 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -36120,16 +36156,16 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 34,
-       "rating": 0
+       "rank": 27,
+       "rating": 73.27176076069297
       },
       "d2": {
-       "rank": 31,
+       "rank": 30,
        "rating": 72.07182121271711
       },
       "d3": {
-       "rank": 12,
-       "rating": 73.27176076069297
+       "rank": 27,
+       "rating": 0
       },
       "d4": {
        "rank": 6,
@@ -36140,15 +36176,15 @@
        "rating": 73.97140184442043
       },
       "f2": {
-       "rank": 17,
+       "rank": 14,
        "rating": 74.48852172320261
       },
       "f3": {
-       "rank": 24,
+       "rank": 27,
        "rating": 72.1745098520423
       },
       "f4": {
-       "rank": 31,
+       "rank": 34,
        "rating": 0
       },
       "g": {
