@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_utc": "2026-11-19T23:57:08.129065+00:00",
+ "generated_utc": "2026-11-20T00:02:21.142668+00:00",
  "games": [
   {
    "game_id": 2026020347,
@@ -23508,7 +23508,7 @@
    "start_et": "7:30 PM",
    "away": "EDM",
    "home": "TBL",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Benchmark International Arena",
    "teams": {
     "away": {
@@ -25473,9 +25473,9 @@
      "home": true,
      "b2b": false,
      "goalie": "Andrei Vasilevskiy",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Vasilevskiy led the Lightning onto the ice for warmups.",
+     "goalie_source": "Gabby Shirley",
      "sv": "0.891",
      "gaa": "2.69",
      "ml": "170",
@@ -43069,7 +43069,7 @@
      "l5_gf": 3.0,
      "l5_ga": 3.0,
      "lineup_as_of": "2026-11-18T15:04:59.046Z",
-     "lineup_checked": "2026-11-19T09:39:59.645998+00:00",
+     "lineup_checked": "2026-11-20T00:02:13.566738+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -43115,9 +43115,9 @@
        "Tyler Seguin"
       ],
       "4": [
-       "David Perron",
+       "Joel Kiviranta",
        "Radek Faksa",
-       "Colin Blackwell"
+       "David Perron"
       ]
      },
      "pp1": [
@@ -44176,6 +44176,112 @@
        ]
       },
       {
+       "name": "Joel Kiviranta",
+       "jersey": 94,
+       "team": "DAL",
+       "opp": "VGK",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.20280504908835903,
+         "p_hot": 0.20280504908835903,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.12006058906030855,
+         "p_hot": 0.12006058906030855,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.08923422159887798,
+         "p_hot": 0.08923422159887798,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 15,
+       "pt_games": 3,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 2,
+       "two_games": 0,
+       "home_split": [
+        2,
+        11
+       ],
+       "away_split": [
+        1,
+        4
+       ],
+       "l5_venue": [
+        1,
+        4
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 12.0,
+       "p": 0.203,
+       "fair": "+393",
+       "min": "+423",
+       "p2": 0.013,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9329032258064516
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Radek Faksa",
+         "jersey": 12,
+         "pp": null,
+         "n": 10,
+         "both": 2,
+         "either": 2
+        },
+        {
+         "name": "David Perron",
+         "jersey": 16,
+         "pp": 2,
+         "n": 4,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Sam Steel",
        "jersey": 18,
        "team": "DAL",
@@ -44323,7 +44429,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -44370,20 +44476,20 @@
        },
        "partners": [
         {
+         "name": "Joel Kiviranta",
+         "jersey": 94,
+         "pp": null,
+         "n": 4,
+         "both": 0,
+         "either": 2
+        },
+        {
          "name": "Radek Faksa",
          "jersey": 12,
          "pp": null,
          "n": 7,
          "both": 0,
          "either": 2
-        },
-        {
-         "name": "Colin Blackwell",
-         "jersey": 15,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -44680,126 +44786,20 @@
        },
        "partners": [
         {
+         "name": "Joel Kiviranta",
+         "jersey": 94,
+         "pp": null,
+         "n": 10,
+         "both": 2,
+         "either": 2
+        },
+        {
          "name": "David Perron",
          "jersey": 16,
          "pp": 2,
          "n": 7,
          "both": 0,
          "either": 2
-        },
-        {
-         "name": "Colin Blackwell",
-         "jersey": 15,
-         "pp": null,
-         "n": 10,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Colin Blackwell",
-       "jersey": 15,
-       "team": "DAL",
-       "opp": "VGK",
-       "section": "F",
-       "home": false,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.12168302945301541,
-         "p_hot": 0.12168302945301541,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.03893856942496493,
-         "p_hot": 0.03893856942496493,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.08923422159887798,
-         "p_hot": 0.08923422159887798,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 15,
-       "pt_games": 1,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        8
-       ],
-       "away_split": [
-        0,
-        7
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 9.9,
-       "p": 0.122,
-       "fair": "+722",
-       "min": "+771",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9329032258064516
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "David Perron",
-         "jersey": 16,
-         "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Radek Faksa",
-         "jersey": 12,
-         "pp": null,
-         "n": 10,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -45024,8 +45024,8 @@
      "ppga_rk": 23,
      "l5_gf": 3.4,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-18T15:05:41.850Z",
-     "lineup_checked": "2026-11-19T09:40:00.686206+00:00",
+     "lineup_as_of": "2026-11-19T19:22:07.315Z",
+     "lineup_checked": "2026-11-20T00:02:13.655410+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -45051,9 +45051,9 @@
        "Victor Olofsson"
       ],
       "4": [
-       "Raphael Lavoie",
+       "Braeden Bowman",
        "Nic Dowd",
-       "Braeden Bowman"
+       "Marc Gatcomb"
       ]
      },
      "pp1": [
@@ -46071,7 +46071,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": "G",
@@ -46118,20 +46118,20 @@
        },
        "partners": [
         {
-         "name": "Raphael Lavoie",
-         "jersey": 36,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Nic Dowd",
          "jersey": 26,
          "pp": null,
          "n": 14,
          "both": 1,
          "either": 4
+        },
+        {
+         "name": "Marc Gatcomb",
+         "jersey": 17,
+         "pp": null,
+         "n": 14,
+         "both": 1,
+         "either": 5
         }
        ]
       },
@@ -46430,112 +46430,6 @@
        ]
       },
       {
-       "name": "Raphael Lavoie",
-       "jersey": 36,
-       "team": "VGK",
-       "opp": "DAL",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.20491551459293392,
-         "p_hot": 0.18709677419354837,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.08032688172043011,
-         "p_hot": 0.11076129032258064,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.13114592933947772,
-         "p_hot": 0.08232258064516129,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 13,
-       "pt_games": 3,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        1,
-        8
-       ],
-       "away_split": [
-        2,
-        5
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 8.4,
-       "p": 0.205,
-       "fair": "+388",
-       "min": "+417",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.8606451612903225
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Nic Dowd",
-         "jersey": 26,
-         "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Braeden Bowman",
-         "jersey": 42,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Dylan Coghlan",
        "jersey": 52,
        "team": "VGK",
@@ -46722,20 +46616,20 @@
        },
        "partners": [
         {
-         "name": "Raphael Lavoie",
-         "jersey": 36,
-         "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 1
-        },
-        {
          "name": "Braeden Bowman",
          "jersey": 42,
          "pp": 2,
          "n": 14,
          "both": 1,
          "either": 4
+        },
+        {
+         "name": "Marc Gatcomb",
+         "jersey": 17,
+         "pp": null,
+         "n": 21,
+         "both": 2,
+         "either": 3
         }
        ]
       },
@@ -46834,6 +46728,112 @@
          "n": 4,
          "both": 0,
          "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Marc Gatcomb",
+       "jersey": 17,
+       "team": "VGK",
+       "opp": "DAL",
+       "section": "F",
+       "home": true,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.11870967741935483,
+         "p_hot": 0.07483870967741935,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.05816774193548386,
+         "p_hot": 0.03592258064516129,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.06529032258064517,
+         "p_hot": 0.044903225806451605,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 21,
+       "pt_games": 2,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        1,
+        11
+       ],
+       "away_split": [
+        1,
+        10
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 9.0,
+       "p": 0.119,
+       "fair": "+742",
+       "min": "+793",
+       "p2": 0.009,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8606451612903225
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Braeden Bowman",
+         "jersey": 42,
+         "pp": 2,
+         "n": 14,
+         "both": 1,
+         "either": 5
+        },
+        {
+         "name": "Nic Dowd",
+         "jersey": 26,
+         "pp": null,
+         "n": 21,
+         "both": 2,
+         "either": 3
         }
        ]
       },

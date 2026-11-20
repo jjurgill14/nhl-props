@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-19T23:57:08.729658+00:00",
+ "generated_utc": "2026-11-20T00:02:21.778073+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -24451,7 +24451,7 @@
    "id": "07",
    "game_id": 2026020349,
    "start_utc": "2026-11-20T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Benchmark International Arena",
    "away": {
     "abbr": "EDM",
@@ -24512,9 +24512,9 @@
     "record": "14-5-2",
     "b2b": false,
     "goalie": "Andrei Vasilevskiy",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Vasilevskiy led the Lightning onto the ice for warmups.",
+    "goalie_source": "Gabby Shirley",
     "sv": "0.891",
     "gaa": "2.69",
     "lineup_as_of": "2026-11-18T17:35:19.125Z",
@@ -24523,7 +24523,13 @@
     "ga_rk": 25,
     "gf_rk": 5,
     "ppga_rk": 15,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-20T00:02:12.811005+00:00",
+      "kind": "goalie",
+      "text": "G: Andrei Vasilevskiy confirmed"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
@@ -43859,12 +43865,23 @@
     "sv": "0.901",
     "gaa": "2.22",
     "lineup_as_of": "2026-11-18T15:04:59.046Z",
-    "lineup_checked": "2026-11-19T09:39:59.645998+00:00",
+    "lineup_checked": "2026-11-20T00:02:13.566738+00:00",
     "lineup_stale": false,
     "ga_rk": 30,
     "gf_rk": 24,
     "ppga_rk": 30,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-20T00:02:13.570179+00:00",
+      "kind": "in",
+      "text": "IN: Joel Kiviranta \u2192 L4"
+     },
+     {
+      "at": "2026-11-20T00:02:13.570179+00:00",
+      "kind": "out",
+      "text": "OUT: Colin Blackwell (was L4)"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
@@ -43908,13 +43925,24 @@
     "goalie_source": "Sin Bin Vegas",
     "sv": "0.901",
     "gaa": "2.59",
-    "lineup_as_of": "2026-11-18T15:05:41.850Z",
-    "lineup_checked": "2026-11-19T09:40:00.686206+00:00",
+    "lineup_as_of": "2026-11-19T19:22:07.315Z",
+    "lineup_checked": "2026-11-20T00:02:13.655410+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 11,
     "ppga_rk": 23,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-20T00:02:13.658557+00:00",
+      "kind": "in",
+      "text": "IN: Marc Gatcomb \u2192 L4"
+     },
+     {
+      "at": "2026-11-20T00:02:13.658557+00:00",
+      "kind": "out",
+      "text": "OUT: Raphael Lavoie (was L4)"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -43949,7 +43977,7 @@
      "away": "-245",
      "home": "+200",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-18T15:05:41.850Z"
+     "as_of": "2026-11-19T19:22:07.315Z"
     },
     "total": {
      "line": 5.5,
@@ -44602,7 +44630,7 @@
     "away": {
      "team": "DAL",
      "as_of": "2026-11-18T15:04:59.046Z",
-     "checked": "2026-11-19T09:39:59.645998+00:00",
+     "checked": "2026-11-20T00:02:13.566738+00:00",
      "stale": false,
      "source": "Last Game (2026-11-17)",
      "updated_dfo": "2026-11-18T15:04:59.046Z",
@@ -44957,25 +44985,25 @@
       ],
       [
        {
-        "name": "David Perron",
-        "jersey": 16,
+        "name": "Joel Kiviranta",
+        "jersey": 22,
         "pos": "LW",
         "slot": null,
-        "player_id": 8474102,
-        "dfo_id": 1338,
+        "player_id": 8481641,
+        "dfo_id": 31187,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 8,
-         "p": 1,
+         "a": 1,
+         "g": 2,
+         "gp": 15,
+         "p": 3,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 5162
+         "sog": 15,
+         "toi_s": 10611
         },
         "last5": {
          "a": 0,
@@ -44983,15 +45011,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 3069
+         "sog": 2,
+         "toi_s": 3591
         },
         "l5_point_games": 1,
-        "gp": 8,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -45033,37 +45061,37 @@
         }
        },
        {
-        "name": "Colin Blackwell",
-        "jersey": 15,
+        "name": "David Perron",
+        "jersey": 16,
         "pos": "RW",
         "slot": null,
-        "player_id": 8476278,
-        "dfo_id": 4822,
+        "player_id": 8474102,
+        "dfo_id": 1338,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 15,
+         "a": 0,
+         "g": 1,
+         "gp": 8,
          "p": 1,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 9064
+         "sog": 11,
+         "toi_s": 5162
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2976
+         "sog": 10,
+         "toi_s": 3069
         },
-        "l5_point_games": 0,
-        "gp": 15,
+        "l5_point_games": 1,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -46141,16 +46169,16 @@
        "rating": 75.959013075262
       },
       "f2": {
-       "rank": 14,
+       "rank": 12,
        "rating": 74.77016347987046
       },
       "f3": {
-       "rank": 12,
+       "rank": 13,
        "rating": 73.6507018638786
       },
       "f4": {
-       "rank": 10,
-       "rating": 73.02437637634857
+       "rank": 11,
+       "rating": 73.01252763314524
       },
       "g": {
        "rank": 1,
@@ -46176,11 +46204,11 @@
     },
     "home": {
      "team": "VGK",
-     "as_of": "2026-11-18T15:05:41.850Z",
-     "checked": "2026-11-19T09:40:00.686206+00:00",
+     "as_of": "2026-11-19T19:22:07.315Z",
+     "checked": "2026-11-20T00:02:13.655410+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-17)",
-     "updated_dfo": "2026-11-18T15:05:41.850Z",
+     "source": "@SinBinVegas",
+     "updated_dfo": "2026-11-19T19:22:07.315Z",
      "forwards": [
       [
        {
@@ -46532,25 +46560,25 @@
       ],
       [
        {
-        "name": "Raphael Lavoie",
-        "jersey": 36,
+        "name": "Braeden Bowman",
+        "jersey": 42,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481534,
-        "dfo_id": 27948,
+        "player_id": 8483890,
+        "dfo_id": 30925,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "G",
         "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 13,
-         "p": 3,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 7905
+         "a": 3,
+         "g": 5,
+         "gp": 23,
+         "p": 8,
+         "ppp": 2,
+         "sog": 27,
+         "toi_s": 17800
         },
         "last5": {
          "a": 0,
@@ -46558,11 +46586,11 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2529
+         "sog": 5,
+         "toi_s": 3619
         },
         "l5_point_games": 1,
-        "gp": 13,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -46608,41 +46636,41 @@
         }
        },
        {
-        "name": "Braeden Bowman",
-        "jersey": 42,
+        "name": "Marc Gatcomb",
+        "jersey": 17,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483890,
-        "dfo_id": 30925,
+        "player_id": 8483553,
+        "dfo_id": 37866,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 5,
-         "gp": 23,
-         "p": 8,
-         "ppp": 2,
-         "sog": 27,
-         "toi_s": 17800
+         "a": 1,
+         "g": 1,
+         "gp": 21,
+         "p": 2,
+         "ppp": 0,
+         "sog": 29,
+         "toi_s": 13194
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3619
+         "sog": 4,
+         "toi_s": 2701
         },
-        "l5_point_games": 1,
-        "gp": 23,
+        "l5_point_games": 0,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -47680,7 +47708,7 @@
        "rating": 75.67780830809967
       },
       "d2": {
-       "rank": 25,
+       "rank": 24,
        "rating": 72.67749663832126
       },
       "d3": {
@@ -47696,15 +47724,15 @@
        "rating": 76.19630651119344
       },
       "f2": {
-       "rank": 10,
+       "rank": 8,
        "rating": 76.61314578299421
       },
       "f3": {
-       "rank": 10,
+       "rank": 11,
        "rating": 74.07839154319487
       },
       "f4": {
-       "rank": 20,
+       "rank": 22,
        "rating": 71.77406311806222
       },
       "g": {
