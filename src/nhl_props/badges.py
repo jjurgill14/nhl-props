@@ -35,21 +35,67 @@ def placeholder(p: dict) -> str:
         f'<path fill="{p["ring"]}" d="{_OUTER}"/>'
         f'<rect fill="{p["field"]}" x="35.46" y="35.46" width="964.04" height="964.04" rx="482.02" ry="482.02"/>'
         f'<g clip-path="url(#{p["abbr"]}-disc)">{bands}</g>'
+        f'<g id="{p["abbr"]}-lettering"></g>'
         f'<path fill="{p["ring"]}" d="{_INNER}"/>'
         f"</svg>"
     )
 
 
+def _css_rules(svg: str) -> dict[str, dict[str, str]]:
+    """{'cls-3': {'fill': '#efbf23', 'font-size': '216.08px', ...}} from the <style> block (Illustrator export)."""
+    rules: dict[str, dict[str, str]] = {}
+    for sel, body in re.findall(r"([^{}]+)\{([^}]*)\}", re.search(r"<style>(.*?)</style>", svg, re.S).group(1) if "<style>" in svg else ""):
+        props = dict(kv.split(":", 1) for kv in (x.strip() for x in body.split(";")) if ":" in kv)
+        for cls in sel.split(","):
+            rules.setdefault(cls.strip().lstrip("."), {}).update({k.strip(): v.strip() for k, v in props.items()})
+    return rules
+
+
+def _lettering_spec(svg: str) -> dict[str, str]:
+    """Read where/how big the designer set the number and name, and their colors, before we strip them.
+    Falls back to the Boston-era constants (viewBox 1034.96) when a file has no live text."""
+    vb = float(re.search(r'viewBox="0 0 ([\d.]+)', svg).group(1))
+    rules = _css_rules(svg)
+    texts = re.findall(r'<text class="([^"]+)" transform="translate\(([\d.\-]+) ([\d.\-]+)\)">(.*?)</text>', svg, re.S)
+    spec = {"vb": f"{vb:g}"}
+    if len(texts) >= 2:
+        # the number is the larger font; the name the smaller
+        def size(cls):
+            return float(rules.get(cls, {}).get("font-size", "0").replace("px", "") or 0)
+        texts.sort(key=lambda t: -size(t[0]))
+        (ncls, nx, ny, _), (mcls, mx, my, mbody) = texts[0], texts[1]
+        first_span = re.search(r'<tspan class="([^"]+)"', mbody)
+        sp = rules.get(first_span.group(1), {}).get("letter-spacing", "0em") if first_span else "0em"
+        spec.update({
+            "num_size": f"{size(ncls):g}", "num_base": ny, "num_fill": rules.get(ncls, {}).get("fill", "#fff"),
+            "num_spacing": rules.get(ncls, {}).get("letter-spacing", "0em").replace("em", ""),
+            "name_size": f"{size(mcls):g}", "name_base": my, "name_fill": rules.get(mcls, {}).get("fill", "#fff"),
+            "name_spacing": sp.replace("em", ""), "name_maxw": f"{vb - 2 * float(mx):g}",
+            "stroke": "none",
+        })
+    return spec
+
+
 def _designer(abbr: str, svg: str, fill: str, stroke: str) -> str:
     """Normalise a designer template: strip lettering, namespace ids/classes so many badges can share a page, tag colors."""
     svg = re.sub(r"<\?xml[^>]*\?>\s*", "", svg)
+    spec = _lettering_spec(svg)
     svg = re.sub(r"<text\b.*?</text>", "", svg, flags=re.S)
     svg = re.sub(r'\sdata-name="[^"]*"', "", svg)
     svg = re.sub(r'\bid="([^"]+)"', lambda m: f'id="{abbr}-{m.group(1)}"', svg)
     svg = re.sub(r"url\(#([^)]+)\)", lambda m: f"url(#{abbr}-{m.group(1)})", svg)
     svg = re.sub(r"\.cls-(\d+)", lambda m: f".{abbr}-cls-{m.group(1)}", svg)
     svg = re.sub(r'class="([^"]+)"', lambda m: 'class="' + " ".join(f"{abbr}-{c}" for c in m.group(1).split()) + '"', svg)
-    svg = svg.replace("<svg ", f'<svg data-fill="{fill}" data-stroke="{stroke}" ', 1)
+    # lettering goes right under the inner ring: mark the spot so the app never lands inside a clipped group
+    cx = f"{float(spec['vb']) / 2:g}"
+    rings = list(re.finditer(rf'<path[^>]*\sd="M{re.escape(cx)},', svg))  # outer ring first, inner ring last
+    if rings:
+        at = rings[-1].start()
+        svg = svg[:at] + f'<g id="{abbr}-lettering"></g>' + svg[at:]
+    attrs = " ".join(f'data-{k.replace("_", "-")}="{v}"' for k, v in spec.items())
+    if "stroke" not in spec:
+        attrs += f' data-fill="{fill}" data-stroke="{stroke}"'
+    svg = svg.replace("<svg ", f"<svg {attrs} ", 1)
     svg = re.sub(r"\n\s*", "", svg)
     return svg
 
