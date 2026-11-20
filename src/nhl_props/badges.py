@@ -67,9 +67,9 @@ def _lettering_spec(svg: str) -> dict[str, str]:
         first_span = re.search(r'<tspan class="([^"]+)"', mbody)
         sp = rules.get(first_span.group(1), {}).get("letter-spacing", "0em") if first_span else "0em"
         spec.update({
-            "num_size": f"{size(ncls):g}", "num_base": ny, "num_fill": rules.get(ncls, {}).get("fill", "#fff"),
+            "num_size": f"{size(ncls):g}", "num_base": ny, "num_fill": rules.get(ncls, {}).get("fill", "#000"),
             "num_spacing": rules.get(ncls, {}).get("letter-spacing", "0em").replace("em", ""),
-            "name_size": f"{size(mcls):g}", "name_base": my, "name_fill": rules.get(mcls, {}).get("fill", "#fff"),
+            "name_size": f"{size(mcls):g}", "name_base": my, "name_fill": rules.get(mcls, {}).get("fill", "#000"),
             "name_spacing": sp.replace("em", ""), "name_maxw": f"{vb - 2 * float(mx):g}",
             "stroke": "none",
         })
