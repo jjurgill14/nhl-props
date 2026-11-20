@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_utc": "2026-11-20T00:07:27.328818+00:00",
+ "generated_utc": "2026-11-20T00:12:34.723193+00:00",
  "games": [
   {
    "game_id": 2026020347,
@@ -7817,7 +7817,7 @@
    "start_et": "7:00 PM",
    "away": "STL",
    "home": "PIT",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "PPG Paints Arena",
    "teams": {
     "away": {
@@ -11724,7 +11724,7 @@
    "start_et": "7:00 PM",
    "away": "BUF",
    "home": "WSH",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Capital One Arena",
    "teams": {
     "away": {
@@ -19605,7 +19605,7 @@
    "start_et": "7:00 PM",
    "away": "NYI",
    "home": "WPG",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Canada Life Centre",
    "teams": {
     "away": {
@@ -25490,8 +25490,8 @@
      "ppga_rk": 15,
      "l5_gf": 3.8,
      "l5_ga": 2.4,
-     "lineup_as_of": "2026-11-18T17:35:19.125Z",
-     "lineup_checked": "2026-11-19T21:40:01.632578+00:00",
+     "lineup_as_of": "2026-11-20T00:11:29.654Z",
+     "lineup_checked": "2026-11-20T00:12:31.414639+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -25501,7 +25501,7 @@
       },
       {
        "player": "Brandon Hagel",
-       "status": "DTD",
+       "status": "IR",
        "news": "Hagel (lower-body) has been placed on IR retroactive to November 15th."
       },
       {
@@ -25517,17 +25517,18 @@
        "Nikita Kucherov"
       ],
       "2": [
-       "Ilya Mikheyev",
-       "Anthony Cirelli",
-       "Pontus Holmberg"
-      ],
-      "3": [
        "Yanni Gourde",
        "Sam O'Reilly",
        "Gage Goncalves"
       ],
+      "3": [
+       "Ilya Mikheyev",
+       "Anthony Cirelli",
+       "Pontus Holmberg"
+      ],
       "4": [
        "Jeffrey Viel",
+       "Jansen Harkins",
        "Scott Sabourin"
       ]
      },
@@ -25871,7 +25872,7 @@
        "opp": "EDM",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -26069,112 +26070,6 @@
        ]
       },
       {
-       "name": "Anthony Cirelli",
-       "jersey": 71,
-       "team": "TBL",
-       "opp": "EDM",
-       "section": "F",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 10,
-         "k5": 4,
-         "n5": 5,
-         "k10": 6,
-         "n10": 10,
-         "p": 0.4151856630824373,
-         "p_hot": 0.48739186535764384,
-         "heater": true
-        },
-        "goals": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.2128152927120669,
-         "p_hot": 0.21150967741935484,
-         "heater": false
-        },
-        "assists": {
-         "k": 6,
-         "k5": 3,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.25851182795698924,
-         "p_hot": 0.34178737727910236,
-         "heater": true
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 19,
-       "pt_games": 10,
-       "l5": [
-        4,
-        5
-       ],
-       "ast_games": 6,
-       "goal_games": 5,
-       "two_games": 3,
-       "home_split": [
-        6,
-        9
-       ],
-       "away_split": [
-        4,
-        10
-       ],
-       "l5_venue": [
-        4,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 1.6,
-       "toi": 15.3,
-       "p": 0.415,
-       "fair": "+141",
-       "min": "+155",
-       "p2": 0.119,
-       "fair2": "+742",
-       "min2": "+792",
-       "adj": [
-        [
-         "opp",
-         0.8812903225806452
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ilya Mikheyev",
-         "jersey": 95,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Pontus Holmberg",
-         "jersey": 29,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
-        }
-       ]
-      },
-      {
        "name": "Charle-Edouard D'Astous",
        "jersey": 51,
        "team": "TBL",
@@ -26273,15 +26168,121 @@
        ]
       },
       {
+       "name": "Anthony Cirelli",
+       "jersey": 71,
+       "team": "TBL",
+       "opp": "EDM",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 10,
+         "k5": 4,
+         "n5": 5,
+         "k10": 6,
+         "n10": 10,
+         "p": 0.3916845878136201,
+         "p_hot": 0.4598036465638149,
+         "heater": true
+        },
+        "goals": {
+         "k": 5,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.19453667861409799,
+         "p_hot": 0.1900521739130435,
+         "heater": false
+        },
+        "assists": {
+         "k": 6,
+         "k5": 3,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.23501075268817206,
+         "p_hot": 0.3141991584852735,
+         "heater": true
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 19,
+       "pt_games": 10,
+       "l5": [
+        4,
+        5
+       ],
+       "ast_games": 6,
+       "goal_games": 5,
+       "two_games": 3,
+       "home_split": [
+        6,
+        9
+       ],
+       "away_split": [
+        4,
+        10
+       ],
+       "l5_venue": [
+        4,
+        5
+       ],
+       "l5_venue_two": 1,
+       "pp_toi": 1.6,
+       "toi": 15.3,
+       "p": 0.392,
+       "fair": "+155",
+       "min": "+171",
+       "p2": 0.108,
+       "fair2": "+823",
+       "min2": "+878",
+       "adj": [
+        [
+         "opp",
+         0.8812903225806452
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ilya Mikheyev",
+         "jersey": 95,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Pontus Holmberg",
+         "jersey": 29,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Pontus Holmberg",
        "jersey": 29,
        "team": "TBL",
        "opp": "EDM",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 8,
@@ -26289,8 +26290,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.32577352614015576,
-         "p_hot": 0.25749004207573634,
+         "p": 0.30389321468298114,
+         "p_hot": 0.22990182328190745,
          "heater": false
         },
         "goals": {
@@ -26299,8 +26300,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.19813837597330367,
-         "p_hot": 0.17319270687237026,
+         "p": 0.18112035595105674,
+         "p_hot": 0.15173520336605892,
          "heater": false
         },
         "assists": {
@@ -26309,14 +26310,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.21029410456062292,
-         "p_hot": 0.15020252454417954,
+         "p": 0.1884137931034483,
+         "p_hot": 0.12261430575035064,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 21,
        "pt_games": 8,
@@ -26342,12 +26343,12 @@
        "l5_venue_two": 1,
        "pp_toi": 0.7,
        "toi": 15.9,
-       "p": 0.326,
-       "fair": "+207",
-       "min": "+225",
-       "p2": 0.111,
-       "fair2": "+804",
-       "min2": "+858",
+       "p": 0.304,
+       "fair": "+229",
+       "min": "+249",
+       "p2": 0.101,
+       "fair2": "+891",
+       "min2": "+951",
        "adj": [
         [
          "opp",
@@ -26355,7 +26356,7 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -26375,6 +26376,112 @@
          "n": 3,
          "both": 1,
          "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Yanni Gourde",
+       "jersey": 37,
+       "team": "TBL",
+       "opp": "EDM",
+       "section": "F",
+       "home": true,
+       "line": 2,
+       "pp": null,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 1,
+         "n5": 4,
+         "k10": 1,
+         "n10": 4,
+         "p": 0.2732,
+         "p_hot": 0.2599806451612904,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 1,
+         "n5": 4,
+         "k10": 1,
+         "n10": 4,
+         "p": 0.1850709677419355,
+         "p_hot": 0.19388387096774196,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 4,
+         "k10": 0,
+         "n10": 4,
+         "p": 0.14100645161290323,
+         "p_hot": 0.10575483870967742,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 4,
+       "pt_games": 1,
+       "l5": [
+        1,
+        4
+       ],
+       "ast_games": 0,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        0,
+        2
+       ],
+       "away_split": [
+        1,
+        2
+       ],
+       "l5_venue": [
+        0,
+        2
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.2,
+       "toi": 15.6,
+       "p": 0.273,
+       "fair": "+266",
+       "min": "+288",
+       "p2": 0.047,
+       "fair2": "+2028",
+       "min2": "+2155",
+       "adj": [
+        [
+         "opp",
+         0.8812903225806452
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Sam O'Reilly",
+         "jersey": 23,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Gage Goncalves",
+         "jersey": 93,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -26477,112 +26584,6 @@
        ]
       },
       {
-       "name": "Ilya Mikheyev",
-       "jersey": 95,
-       "team": "TBL",
-       "opp": "EDM",
-       "section": "F",
-       "home": true,
-       "line": 2,
-       "pp": null,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.23460556173526143,
-         "p_hot": 0.2191730715287518,
-         "heater": false
-        },
-        "goals": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.13735973303670743,
-         "p_hot": 0.09655876577840113,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1495154616240267,
-         "p_hot": 0.15020252454417954,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 21,
-       "pt_games": 5,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 3,
-       "two_games": 2,
-       "home_split": [
-        3,
-        10
-       ],
-       "away_split": [
-        2,
-        11
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.0,
-       "toi": 16.3,
-       "p": 0.235,
-       "fair": "+326",
-       "min": "+352",
-       "p2": 0.08,
-       "fair2": "+1146",
-       "min2": "+1221",
-       "adj": [
-        [
-         "opp",
-         0.8812903225806452
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Anthony Cirelli",
-         "jersey": 71,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Pontus Holmberg",
-         "jersey": 29,
-         "pp": 2,
-         "n": 18,
-         "both": 4,
-         "either": 7
-        }
-       ]
-      },
-      {
        "name": "Scott Sabourin",
        "jersey": 46,
        "team": "TBL",
@@ -26673,6 +26674,14 @@
         {
          "name": "Jeffrey Viel",
          "jersey": 28,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Jansen Harkins",
+         "jersey": 24,
          "pp": null,
          "n": 0,
          "both": 0,
@@ -26779,112 +26788,6 @@
        ]
       },
       {
-       "name": "Yanni Gourde",
-       "jersey": 37,
-       "team": "TBL",
-       "opp": "EDM",
-       "section": "F",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 1,
-         "n5": 4,
-         "k10": 1,
-         "n10": 4,
-         "p": 0.2203225806451613,
-         "p_hot": 0.2203225806451613,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 4,
-         "k10": 1,
-         "n10": 4,
-         "p": 0.14394408602150538,
-         "p_hot": 0.16303870967741937,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 4,
-         "k10": 0,
-         "n10": 4,
-         "p": 0.08812903225806451,
-         "p_hot": 0.06609677419354838,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 4,
-       "pt_games": 1,
-       "l5": [
-        1,
-        4
-       ],
-       "ast_games": 0,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        0,
-        2
-       ],
-       "away_split": [
-        1,
-        2
-       ],
-       "l5_venue": [
-        0,
-        2
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.2,
-       "toi": 15.6,
-       "p": 0.22,
-       "fair": "+354",
-       "min": "+381",
-       "p2": 0.024,
-       "fair2": "+4155",
-       "min2": "+4410",
-       "adj": [
-        [
-         "opp",
-         0.8812903225806452
-        ]
-       ],
-       "move": {
-        "ev": -1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Gage Goncalves",
-         "jersey": 93,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Jeffrey Viel",
        "jersey": 28,
        "team": "TBL",
@@ -26973,12 +26876,126 @@
        },
        "partners": [
         {
+         "name": "Jansen Harkins",
+         "jersey": 24,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Scott Sabourin",
          "jersey": 46,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Ilya Mikheyev",
+       "jersey": 95,
+       "team": "TBL",
+       "opp": "EDM",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 5,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.21272525027808678,
+         "p_hot": 0.19158485273492287,
+         "heater": false
+        },
+        "goals": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.12034171301446052,
+         "p_hot": 0.07510126227208977,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.12763515016685206,
+         "p_hot": 0.12261430575035064,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": "G",
+       "gp": 21,
+       "pt_games": 5,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 3,
+       "two_games": 2,
+       "home_split": [
+        3,
+        10
+       ],
+       "away_split": [
+        2,
+        11
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 1,
+       "pp_toi": 0.0,
+       "toi": 16.3,
+       "p": 0.213,
+       "fair": "+370",
+       "min": "+398",
+       "p2": 0.071,
+       "fair2": "+1318",
+       "min2": "+1403",
+       "adj": [
+        [
+         "opp",
+         0.8812903225806452
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Anthony Cirelli",
+         "jersey": 71,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Pontus Holmberg",
+         "jersey": 29,
+         "pp": 2,
+         "n": 18,
+         "both": 4,
+         "either": 7
         }
        ]
       },
@@ -27081,11 +27098,11 @@
        ]
       },
       {
-       "name": "Maxwell Crozier",
+       "name": "Jansen Harkins",
        "jersey": 24,
        "team": "TBL",
        "opp": "EDM",
-       "section": "D",
+       "section": "F",
        "home": true,
        "line": 4,
        "pp": null,
@@ -27094,43 +27111,43 @@
         "points": {
          "k": 0,
          "k5": 0,
-         "n5": 0,
+         "n5": 1,
          "k10": 0,
-         "n10": 0,
-         "p": 0.2026967741935484,
-         "p_hot": 0.2026967741935484,
+         "n10": 1,
+         "p": 0.19584229390681004,
+         "p_hot": 0.17625806451612905,
          "heater": false
         },
         "goals": {
          "k": 0,
          "k5": 0,
-         "n5": 0,
+         "n5": 1,
          "k10": 0,
-         "n10": 0,
-         "p": 0.05287741935483871,
-         "p_hot": 0.05287741935483871,
+         "n10": 1,
+         "p": 0.09400430107526882,
+         "p_hot": 0.08460387096774194,
          "heater": false
         },
         "assists": {
          "k": 0,
          "k5": 0,
-         "n5": 0,
+         "n5": 1,
          "k10": 0,
-         "n10": 0,
-         "p": 0.15863225806451614,
-         "p_hot": 0.15863225806451614,
+         "n10": 1,
+         "p": 0.11750537634408603,
+         "p_hot": 0.10575483870967742,
          "heater": false
         }
        },
-       "pos": "RD",
+       "pos": "C",
        "gtd": false,
-       "role": "d",
+       "role": "other",
        "bias": null,
-       "gp": 0,
+       "gp": 1,
        "pt_games": 0,
        "l5": [
         0,
-        0
+        1
        ],
        "ast_games": 0,
        "goal_games": 0,
@@ -27141,7 +27158,7 @@
        ],
        "away_split": [
         0,
-        0
+        1
        ],
        "l5_venue": [
         0,
@@ -27149,13 +27166,13 @@
        ],
        "l5_venue_two": 0,
        "pp_toi": 0.0,
-       "toi": 0.0,
-       "p": 0.203,
-       "fair": "+393",
-       "min": "+423",
-       "p2": 0.026,
-       "fair2": "+3682",
-       "min2": "+3909",
+       "toi": 10.9,
+       "p": 0.196,
+       "fair": "+411",
+       "min": "+441",
+       "p2": 0.031,
+       "fair2": "+3091",
+       "min2": "+3283",
        "adj": [
         [
          "opp",
@@ -27167,7 +27184,24 @@
         "pp": 0,
         "new": true
        },
-       "partners": []
+       "partners": [
+        {
+         "name": "Jeffrey Viel",
+         "jersey": 28,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Scott Sabourin",
+         "jersey": 46,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
       },
       {
        "name": "Gage Goncalves",
@@ -27176,9 +27210,9 @@
        "opp": "EDM",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 3,
@@ -27186,8 +27220,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.16947890818858563,
-         "p_hot": 0.19158485273492287,
+         "p": 0.19388387096774198,
+         "p_hot": 0.2191730715287518,
          "heater": false
         },
         "goals": {
@@ -27196,8 +27230,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.032539950372208436,
-         "p_hot": 0.03678429172510519,
+         "p": 0.05152158808933003,
+         "p_hot": 0.05824179523141655,
          "heater": false
         },
         "assists": {
@@ -27206,14 +27240,14 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.14236228287841193,
-         "p_hot": 0.16093127629733522,
+         "p": 0.16676724565756826,
+         "p_hot": 0.1885194950911641,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 18,
        "pt_games": 3,
@@ -27239,12 +27273,12 @@
        "l5_venue_two": 0,
        "pp_toi": 1.0,
        "toi": 14.1,
-       "p": 0.169,
-       "fair": "+490",
-       "min": "+525",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p": 0.194,
+       "fair": "+416",
+       "min": "+447",
+       "p2": 0.022,
+       "fair2": "+4510",
+       "min2": "+4786",
        "adj": [
         [
          "opp",
@@ -27252,7 +27286,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },

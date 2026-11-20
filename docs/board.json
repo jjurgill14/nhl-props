@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-20T00:07:27.920690+00:00",
+ "generated_utc": "2026-11-20T00:12:35.387579+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -8855,7 +8855,7 @@
    "id": "03",
    "game_id": 2026020350,
    "start_utc": "2026-11-20T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "PPG Paints Arena",
    "away": {
     "abbr": "STL",
@@ -12673,7 +12673,7 @@
    "id": "04",
    "game_id": 2026020351,
    "start_utc": "2026-11-20T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Capital One Arena",
    "away": {
     "abbr": "BUF",
@@ -20485,7 +20485,7 @@
    "id": "06",
    "game_id": 2026020354,
    "start_utc": "2026-11-20T00:00:00Z",
-   "status": "PRE",
+   "status": "LIVE",
    "venue": "Canada Life Centre",
    "away": {
     "abbr": "NYI",
@@ -24517,8 +24517,8 @@
     "goalie_source": "Gabby Shirley",
     "sv": "0.891",
     "gaa": "2.69",
-    "lineup_as_of": "2026-11-18T17:35:19.125Z",
-    "lineup_checked": "2026-11-19T21:40:01.632578+00:00",
+    "lineup_as_of": "2026-11-20T00:11:29.654Z",
+    "lineup_checked": "2026-11-20T00:12:31.414639+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 5,
@@ -24528,6 +24528,46 @@
       "at": "2026-11-20T00:02:12.811005+00:00",
       "kind": "goalie",
       "text": "G: Andrei Vasilevskiy confirmed"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "in",
+      "text": "IN: Jansen Harkins \u2192 L4"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "out",
+      "text": "OUT: Maxwell Crozier (was L4)"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "move",
+      "text": "Yanni Gourde: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "move",
+      "text": "Sam O'Reilly: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "move",
+      "text": "Gage Goncalves: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "move",
+      "text": "Ilya Mikheyev: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "move",
+      "text": "Anthony Cirelli: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-20T00:12:31.418107+00:00",
+      "kind": "move",
+      "text": "Pontus Holmberg: L2\u2192L3"
      }
     ],
     "rates": {
@@ -24564,7 +24604,7 @@
      "away": "-205",
      "home": "+170",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-18T17:35:19.125Z"
+     "as_of": "2026-11-20T00:11:29.654Z"
     },
     "total": {
      "line": 6.5,
@@ -24889,6 +24929,21 @@
       "sneaky": true
      },
      {
+      "selection": "Anthony Cirelli \u00b7 1+ point",
+      "prob": 0.46,
+      "fair": "+117",
+      "need": "+131",
+      "rationale": "L3 \u00b7 PP2 \u00b7 4 of L5 \u00b7 6 of L10 \u00b7 10 of 19 season",
+      "player": "Anthony Cirelli",
+      "team": "TBL",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8478519
+      ],
+      "sneaky": true
+     },
+     {
       "selection": "Charle-Edouard D'Astous \u00b7 1+ point",
       "prob": 0.415,
       "fair": "+141",
@@ -24917,6 +24972,21 @@
       "line": 1,
       "players": [
        8475218
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Anthony Cirelli \u00b7 1+ assist",
+      "prob": 0.314,
+      "fair": "+218",
+      "need": "+237",
+      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 6 of 19 season",
+      "player": "Anthony Cirelli",
+      "team": "TBL",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8478519
       ],
       "sneaky": true
      },
@@ -26746,11 +26816,11 @@
     },
     "home": {
      "team": "TBL",
-     "as_of": "2026-11-18T17:35:19.125Z",
-     "checked": "2026-11-19T21:40:01.632578+00:00",
+     "as_of": "2026-11-20T00:11:29.654Z",
+     "checked": "2026-11-20T00:12:31.414639+00:00",
      "stale": false,
-     "source": "Benjamin Pierce",
-     "updated_dfo": "2026-11-18T17:35:19.125Z",
+     "source": "Diandra Loux",
+     "updated_dfo": "2026-11-20T00:11:29.654Z",
      "forwards": [
       [
        {
@@ -26870,122 +26940,6 @@
       ],
       [
        {
-        "name": "Ilya Mikheyev",
-        "jersey": 95,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8481624,
-        "dfo_id": 30651,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "G",
-        "season": {
-         "a": 3,
-         "g": 4,
-         "gp": 21,
-         "p": 7,
-         "ppp": 0,
-         "sog": 28,
-         "toi_s": 18962
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4889
-        },
-        "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Anthony Cirelli",
-        "jersey": 71,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8478519,
-        "dfo_id": 3842,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": "A",
-        "season": {
-         "a": 9,
-         "g": 6,
-         "gp": 19,
-         "p": 15,
-         "ppp": 2,
-         "sog": 30,
-         "toi_s": 19383
-        },
-        "last5": {
-         "a": 5,
-         "g": 1,
-         "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 7,
-         "toi_s": 4605
-        },
-        "l5_point_games": 4,
-        "gp": 19,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Pontus Holmberg",
-        "jersey": 29,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8480995,
-        "dfo_id": 29640,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 7,
-         "g": 6,
-         "gp": 21,
-         "p": 13,
-         "ppp": 1,
-         "sog": 32,
-         "toi_s": 18664
-        },
-        "last5": {
-         "a": 0,
-         "g": 2,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4778
-        },
-        "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
         "name": "Yanni Gourde",
         "jersey": 37,
         "pos": "LW",
@@ -27018,7 +26972,7 @@
         "l5_point_games": 1,
         "gp": 4,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -27094,7 +27048,123 @@
         "l5_point_games": 0,
         "gp": 18,
         "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Ilya Mikheyev",
+        "jersey": 95,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8481624,
+        "dfo_id": 30651,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "G",
+        "season": {
+         "a": 3,
+         "g": 4,
+         "gp": 21,
+         "p": 7,
+         "ppp": 0,
+         "sog": 28,
+         "toi_s": 18962
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4889
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Anthony Cirelli",
+        "jersey": 71,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8478519,
+        "dfo_id": 3842,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 9,
+         "g": 6,
+         "gp": 19,
+         "p": 15,
+         "ppp": 2,
+         "sog": 30,
+         "toi_s": 19383
+        },
+        "last5": {
+         "a": 5,
+         "g": 1,
+         "gp": 5,
+         "p": 6,
+         "ppp": 1,
+         "sog": 7,
+         "toi_s": 4605
+        },
+        "l5_point_games": 4,
+        "gp": 19,
+        "move": {
          "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Pontus Holmberg",
+        "jersey": 29,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8480995,
+        "dfo_id": 29640,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 7,
+         "g": 6,
+         "gp": 21,
+         "p": 13,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 18664
+        },
+        "last5": {
+         "a": 0,
+         "g": 2,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4778
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -27137,6 +27207,44 @@
          "ev": 0,
          "pp": 0,
          "new": false
+        }
+       },
+       {
+        "name": "Jansen Harkins",
+        "jersey": 10,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8478424,
+        "dfo_id": 3913,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 1,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 655
+        },
+        "last5": {
+         "a": 0,
+         "g": 2,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 3249
+        },
+        "l5_point_games": 0,
+        "gp": 1,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        },
        {
@@ -27730,7 +27838,7 @@
         "l5_point_games": 0,
         "gp": 18,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -27768,7 +27876,7 @@
         "l5_point_games": 4,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27806,7 +27914,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -27924,7 +28032,7 @@
         "l5_point_games": 1,
         "gp": 4,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -27962,7 +28070,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -28078,7 +28186,7 @@
         "l5_point_games": 4,
         "gp": 19,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -28207,7 +28315,7 @@
       },
       {
        "player": "Brandon Hagel",
-       "status": "DTD",
+       "status": "IR",
        "news": "Hagel (lower-body) has been placed on IR retroactive to November 15th."
       },
       {
@@ -28238,15 +28346,15 @@
        "rating": 79.90820935464193
       },
       "f2": {
-       "rank": 18,
-       "rating": 74.26968499443356
-      },
-      "f3": {
        "rank": 21,
        "rating": 72.8644533597463
       },
+      "f3": {
+       "rank": 10,
+       "rating": 74.26968499443356
+      },
       "f4": {
-       "rank": 24,
+       "rank": 25,
        "rating": 71.63615523893601
       },
       "g": {
