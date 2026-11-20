@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-20T01:34:49.935011+00:00",
+ "generated_utc": "2026-11-20T01:39:57.044536+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -36362,8 +36362,8 @@
     "goalie_source": "Evan Rawal",
     "sv": "0.863",
     "gaa": "3.99",
-    "lineup_as_of": "2026-11-19T21:36:35.130Z",
-    "lineup_checked": "2026-11-19T23:10:43.975844+00:00",
+    "lineup_as_of": "2026-11-20T01:39:40.726Z",
+    "lineup_checked": "2026-11-20T01:39:53.151327+00:00",
     "lineup_stale": false,
     "ga_rk": 17,
     "gf_rk": 3,
@@ -36383,6 +36383,46 @@
       "at": "2026-11-20T01:34:45.432527+00:00",
       "kind": "goalie",
       "text": "G: Scott Wedgewood confirmed"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "in",
+      "text": "IN: Mike Reilly \u2192 L3"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "out",
+      "text": "OUT: Alex Gagne (was L3)"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "move",
+      "text": "Gabriel Landeskog: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "move",
+      "text": "Nicolas Roy: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "move",
+      "text": "Jaden Schwartz: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "move",
+      "text": "Fedor Svechkov: L4\u2192L3"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "move",
+      "text": "T.J. Hughes: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-20T01:39:53.157286+00:00",
+      "kind": "move",
+      "text": "Adam Beckman: L3\u2192L4"
      }
     ],
     "rates": {
@@ -36419,7 +36459,7 @@
      "away": "-205",
      "home": "+170",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-19T21:36:35.130Z"
+     "as_of": "2026-11-20T01:39:40.726Z"
     },
     "total": {
      "line": 6.5,
@@ -36713,17 +36753,17 @@
       ]
      },
      {
-      "selection": "Leo Carlsson \u00b7 1+ goal",
-      "prob": 0.273,
-      "fair": "+266",
-      "need": "+288",
-      "rationale": "Goal in 6 of 22 this season \u00b7 0 of L5",
-      "player": "Leo Carlsson",
-      "team": "ANA",
-      "pp": 1,
-      "line": 1,
+      "selection": "Gabriel Landeskog \u00b7 1+ goal",
+      "prob": 0.278,
+      "fair": "+259",
+      "need": "+281",
+      "rationale": "Goal in 7 of 22 this season \u00b7 2 of L5 \u00b7 B2B",
+      "player": "Gabriel Landeskog",
+      "team": "COL",
+      "pp": 2,
+      "line": 2,
       "players": [
-       8484153
+       8476455
       ]
      }
     ],
@@ -36791,6 +36831,21 @@
       "sneaky": true
      },
      {
+      "selection": "Jaden Schwartz \u00b7 1+ assist",
+      "prob": 0.264,
+      "fair": "+279",
+      "need": "+301",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 6 of 22 season \u00b7 B2B",
+      "player": "Jaden Schwartz",
+      "team": "COL",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8475768
+      ],
+      "sneaky": true
+     },
+     {
       "selection": "Logan O'Connor \u00b7 1+ assist",
       "prob": 0.264,
       "fair": "+279",
@@ -36834,21 +36889,6 @@
       "line": 4,
       "players": [
        8480448
-      ],
-      "sneaky": true
-     },
-     {
-      "selection": "Gabriel Landeskog \u00b7 1+ goal",
-      "prob": 0.254,
-      "fair": "+294",
-      "need": "+317",
-      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 7 of 22 season \u00b7 B2B",
-      "player": "Gabriel Landeskog",
-      "team": "COL",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8476455
       ],
       "sneaky": true
      }
@@ -36919,19 +36959,19 @@
       ]
      },
      {
-      "selection": "Lehkonen + Nelson \u00b7 both 1+ point",
-      "prob": 0.401,
-      "fair": "+149",
-      "need": "+164",
-      "rationale": "Both scored 2 of 3 games together \u00b7 independent 27% \u00b7 new pair",
+      "selection": "Kadri + Landeskog \u00b7 both 1+ point",
+      "prob": 0.432,
+      "fair": "+132",
+      "need": "+146",
+      "rationale": "Both scored 7 of 14 games together \u00b7 independent 27% \u00b7 correlated",
       "team": "COL",
-      "line": 1,
-      "read": "new pair",
-      "both": 2,
-      "n": 3,
+      "line": 2,
+      "read": "correlated",
+      "both": 7,
+      "n": 14,
       "players": [
-       8477476,
-       8475754
+       8475172,
+       8476455
       ]
      }
     ],
@@ -37054,22 +37094,6 @@
       "players": [
        8477476,
        8480039
-      ]
-     },
-     {
-      "selection": "Kadri + Hughes \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.248,
-      "fair": "+304",
-      "need": "+328",
-      "rationale": "Both scored 1 of 4 games together \u00b7 independent 25% \u00b7 new pair",
-      "team": "COL",
-      "line": 2,
-      "read": "new pair",
-      "both": 1,
-      "n": 4,
-      "players": [
-       8475172,
-       8486171
       ]
      }
     ],
@@ -38647,11 +38671,11 @@
     },
     "home": {
      "team": "COL",
-     "as_of": "2026-11-19T21:36:35.130Z",
-     "checked": "2026-11-19T23:10:43.975844+00:00",
+     "as_of": "2026-11-20T01:39:40.726Z",
+     "checked": "2026-11-20T01:39:53.151327+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-19T21:36:35.130Z",
+     "source": "Corey Masisak",
+     "updated_dfo": "2026-11-20T01:39:40.726Z",
      "forwards": [
       [
        {
@@ -38771,39 +38795,39 @@
       ],
       [
        {
-        "name": "Jaden Schwartz",
-        "jersey": 71,
+        "name": "Gabriel Landeskog",
+        "jersey": 92,
         "pos": "LW",
         "slot": null,
-        "player_id": 8475768,
-        "dfo_id": 1864,
+        "player_id": 8476455,
+        "dfo_id": 1763,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "G",
         "season": {
-         "a": 7,
-         "g": 7,
+         "a": 5,
+         "g": 8,
          "gp": 22,
-         "p": 14,
-         "ppp": 2,
-         "sog": 38,
-         "toi_s": 18016
+         "p": 13,
+         "ppp": 3,
+         "sog": 32,
+         "toi_s": 19803
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 0,
+         "g": 3,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 3859
+         "p": 3,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 4500
         },
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -38847,87 +38871,9 @@
         }
        },
        {
-        "name": "T.J. Hughes",
-        "jersey": 13,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8486171,
-        "dfo_id": 38896,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 8,
-         "g": 2,
-         "gp": 22,
-         "p": 10,
-         "ppp": 4,
-         "sog": 50,
-         "toi_s": 19979
-        },
-        "last5": {
-         "a": 4,
-         "g": 0,
-         "gp": 5,
-         "p": 4,
-         "ppp": 3,
-         "sog": 8,
-         "toi_s": 4607
-        },
-        "l5_point_games": 4,
-        "gp": 22,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Adam Beckman",
-        "jersey": null,
-        "pos": "LW",
-        "slot": null,
-        "player_id": null,
-        "dfo_id": 30436,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 0,
-         "p": 0,
-         "ppp": 0,
-         "sog": 0,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 3511
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       },
-       {
         "name": "Nicolas Roy",
         "jersey": 10,
-        "pos": "C",
+        "pos": "RW",
         "slot": null,
         "player_id": 8478462,
         "dfo_id": 3818,
@@ -38957,45 +38903,7 @@
         "l5_point_games": 2,
         "gp": 16,
         "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Gabriel Landeskog",
-        "jersey": 92,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8476455,
-        "dfo_id": 1763,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 5,
-         "g": 8,
-         "gp": 22,
-         "p": 13,
-         "ppp": 3,
-         "sog": 32,
-         "toi_s": 19803
-        },
-        "last5": {
-         "a": 0,
-         "g": 3,
-         "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 4500
-        },
-        "l5_point_games": 2,
-        "gp": 22,
-        "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -39003,39 +38911,39 @@
       ],
       [
        {
-        "name": "Parker Kelly",
-        "jersey": 17,
+        "name": "Jaden Schwartz",
+        "jersey": 71,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480448,
-        "dfo_id": 4600,
+        "player_id": 8475768,
+        "dfo_id": 1864,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "G",
+        "pp": 2,
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 5,
+         "a": 7,
+         "g": 7,
          "gp": 22,
-         "p": 10,
-         "ppp": 0,
-         "sog": 25,
-         "toi_s": 17326
+         "p": 14,
+         "ppp": 2,
+         "sog": 38,
+         "toi_s": 18016
         },
         "last5": {
-         "a": 1,
-         "g": 2,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 4151
+         "sog": 6,
+         "toi_s": 3859
         },
-        "l5_point_games": 3,
+        "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -39071,6 +38979,122 @@
          "toi_s": 3208
         },
         "l5_point_games": 1,
+        "gp": 22,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "T.J. Hughes",
+        "jersey": 13,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8486171,
+        "dfo_id": 38896,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 8,
+         "g": 2,
+         "gp": 22,
+         "p": 10,
+         "ppp": 4,
+         "sog": 50,
+         "toi_s": 19979
+        },
+        "last5": {
+         "a": 4,
+         "g": 0,
+         "gp": 5,
+         "p": 4,
+         "ppp": 3,
+         "sog": 8,
+         "toi_s": 4607
+        },
+        "l5_point_games": 4,
+        "gp": 22,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Adam Beckman",
+        "jersey": null,
+        "pos": "LW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 30436,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 3509
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Parker Kelly",
+        "jersey": 17,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8480448,
+        "dfo_id": 4600,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "G",
+        "season": {
+         "a": 5,
+         "g": 5,
+         "gp": 22,
+         "p": 10,
+         "ppp": 0,
+         "sog": 25,
+         "toi_s": 17326
+        },
+        "last5": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4151
+        },
+        "l5_point_games": 3,
         "gp": 22,
         "move": {
          "ev": 0,
@@ -39139,7 +39163,7 @@
          "p": 19,
          "ppp": 5,
          "sog": 39,
-         "toi_s": 28834
+         "toi_s": 28832
         },
         "last5": {
          "a": 3,
@@ -39177,7 +39201,7 @@
          "p": 9,
          "ppp": 0,
          "sog": 35,
-         "toi_s": 23413
+         "toi_s": 23415
         },
         "last5": {
          "a": 2,
@@ -39277,41 +39301,41 @@
       ],
       [
        {
-        "name": "Alex Gagne",
-        "jersey": 28,
+        "name": "Mike Reilly",
+        "jersey": 6,
         "pos": "LD",
         "slot": null,
-        "player_id": 8482942,
-        "dfo_id": 32036,
+        "player_id": null,
+        "dfo_id": 2469,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 2,
          "g": 0,
-         "gp": 2,
-         "p": 0,
+         "gp": 8,
+         "p": 2,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 1482
+         "sog": 9,
+         "toi_s": 5971
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4595
+         "sog": 6,
+         "toi_s": 3712
         },
         "l5_point_games": 0,
-        "gp": 2,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -39477,7 +39501,7 @@
         "l5_point_games": 4,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -39615,7 +39639,7 @@
          "p": 19,
          "ppp": 5,
          "sog": 39,
-         "toi_s": 28834
+         "toi_s": 28832
         },
         "last5": {
          "a": 3,
@@ -39669,7 +39693,7 @@
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -39707,7 +39731,7 @@
         "l5_point_games": 2,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -39769,7 +39793,7 @@
          "p": 9,
          "ppp": 0,
          "sog": 35,
-         "toi_s": 23413
+         "toi_s": 23415
         },
         "last5": {
          "a": 2,
@@ -39821,7 +39845,7 @@
         "l5_point_games": 2,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -39925,7 +39949,7 @@
          "p": 19,
          "ppp": 5,
          "sog": 39,
-         "toi_s": 28834
+         "toi_s": 28832
         },
         "last5": {
          "a": 3,
@@ -40017,7 +40041,7 @@
         "l5_point_games": 2,
         "gp": 16,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -40117,7 +40141,7 @@
          "p": 9,
          "ppp": 0,
          "sog": 35,
-         "toi_s": 23413
+         "toi_s": 23415
         },
         "last5": {
          "a": 2,
@@ -40175,8 +40199,8 @@
        "rating": 72.5494975547692
       },
       "d3": {
-       "rank": 2,
-       "rating": 77.6586814650292
+       "rank": 3,
+       "rating": 75.0102967553457
       },
       "d4": {
        "rank": 6,
@@ -40187,15 +40211,15 @@
        "rating": 72.44852350278028
       },
       "f2": {
-       "rank": 7,
-       "rating": 76.67752510146376
+       "rank": 8,
+       "rating": 75.87253444062233
       },
       "f3": {
-       "rank": 4,
-       "rating": 75.6323868023919
+       "rank": 3,
+       "rating": 77.0022204858443
       },
       "f4": {
-       "rank": 7,
+       "rank": 6,
        "rating": 73.20738570143291
       },
       "g": {
