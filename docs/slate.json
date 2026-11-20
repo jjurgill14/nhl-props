@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_utc": "2026-11-20T01:39:56.099320+00:00",
+ "generated_utc": "2026-11-20T01:45:05.482161+00:00",
  "games": [
   {
    "game_id": 2026020347,
@@ -35226,8 +35226,8 @@
      "ppga_rk": 6,
      "l5_gf": 4.2,
      "l5_ga": 4.2,
-     "lineup_as_of": "2026-11-19T19:20:49.200Z",
-     "lineup_checked": "2026-11-19T23:10:43.900764+00:00",
+     "lineup_as_of": "2026-11-20T01:41:36.258Z",
+     "lineup_checked": "2026-11-20T01:45:00.775166+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -35889,12 +35889,12 @@
        },
        "partners": [
         {
-         "name": "Tyson Hinds",
-         "jersey": 55,
+         "name": "Stian Solberg",
+         "jersey": null,
          "pp": null,
-         "n": 9,
+         "n": 0,
          "both": 0,
-         "either": 5
+         "either": 0
         }
        ]
       },
@@ -36939,6 +36939,104 @@
        ]
       },
       {
+       "name": "Stian Solberg",
+       "jersey": null,
+       "team": "ANA",
+       "opp": "COL",
+       "section": "D",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.22881290322580647,
+         "p_hot": 0.22881290322580647,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.05969032258064516,
+         "p_hot": 0.05969032258064516,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.17907096774193548,
+         "p_hot": 0.17907096774193548,
+         "heater": false
+        }
+       },
+       "pos": "LD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.229,
+       "fair": "+337",
+       "min": "+363",
+       "p2": 0.03,
+       "fair2": "+3251",
+       "min2": "+3452",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Tristan Luneau",
+         "jersey": 67,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Roger McQueen",
        "jersey": 95,
        "team": "ANA",
@@ -37041,104 +37139,6 @@
          "n": 4,
          "both": 0,
          "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Tyson Hinds",
-       "jersey": 55,
-       "team": "ANA",
-       "opp": "COL",
-       "section": "D",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.11772258064516129,
-         "p_hot": 0.16609481065918652,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.019896774193548388,
-         "p_hot": 0.020761851332398315,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.10114193548387097,
-         "p_hot": 0.14879326788218794,
-         "heater": false
-        }
-       },
-       "pos": "LD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 16,
-       "pt_games": 1,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 1,
-       "home_split": [
-        1,
-        8
-       ],
-       "away_split": [
-        0,
-        8
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 15.1,
-       "p": 0.118,
-       "fair": "+749",
-       "min": "+800",
-       "p2": 0.051,
-       "fair2": "+1846",
-       "min2": "+1962",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Tristan Luneau",
-         "jersey": 67,
-         "pp": 2,
-         "n": 9,
-         "both": 0,
-         "either": 5
         }
        ]
       }

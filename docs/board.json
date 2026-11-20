@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-20T01:39:57.044536+00:00",
+ "generated_utc": "2026-11-20T01:45:06.431286+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -36261,8 +36261,8 @@
     "goalie_source": "Zach Cavanagh",
     "sv": "0.858",
     "gaa": "3.93",
-    "lineup_as_of": "2026-11-19T19:20:49.200Z",
-    "lineup_checked": "2026-11-19T23:10:43.900764+00:00",
+    "lineup_as_of": "2026-11-20T01:41:36.258Z",
+    "lineup_checked": "2026-11-20T01:45:00.775166+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 4,
@@ -36317,6 +36317,16 @@
       "at": "2026-11-19T23:10:43.903092+00:00",
       "kind": "move",
       "text": "Tristan Luneau: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-20T01:45:00.781103+00:00",
+      "kind": "in",
+      "text": "IN: Stian Solberg \u2192 L3"
+     },
+     {
+      "at": "2026-11-20T01:45:00.781103+00:00",
+      "kind": "out",
+      "text": "OUT: Tyson Hinds (was L3)"
      }
     ],
     "rates": {
@@ -37111,11 +37121,11 @@
    "lineup": {
     "away": {
      "team": "ANA",
-     "as_of": "2026-11-19T19:20:49.200Z",
-     "checked": "2026-11-19T23:10:43.900764+00:00",
+     "as_of": "2026-11-20T01:41:36.258Z",
+     "checked": "2026-11-20T01:45:00.775166+00:00",
      "stale": false,
      "source": "Zach Cavanagh",
-     "updated_dfo": "2026-11-19T19:20:49.200Z",
+     "updated_dfo": "2026-11-20T01:41:36.258Z",
      "forwards": [
       [
        {
@@ -37174,7 +37184,7 @@
          "gp": 22,
          "p": 28,
          "ppp": 18,
-         "sog": 40,
+         "sog": 39,
          "toi_s": 26976
         },
         "last5": {
@@ -37368,7 +37378,7 @@
          "gp": 22,
          "p": 9,
          "ppp": 1,
-         "sog": 32,
+         "sog": 31,
          "toi_s": 21352
         },
         "last5": {
@@ -37672,7 +37682,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
          "a": 6,
@@ -37741,41 +37751,41 @@
       ],
       [
        {
-        "name": "Tyson Hinds",
-        "jersey": 55,
+        "name": "Stian Solberg",
+        "jersey": null,
         "pos": "LD",
         "slot": null,
-        "player_id": 8482731,
-        "dfo_id": 31256,
+        "player_id": null,
+        "dfo_id": 38136,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 2,
+         "a": 0,
          "g": 0,
-         "gp": 16,
-         "p": 2,
+         "gp": 0,
+         "p": 0,
          "ppp": 0,
-         "sog": 22,
-         "toi_s": 15098
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
          "sog": 6,
-         "toi_s": 4516
+         "toi_s": 5173
         },
-        "l5_point_games": 1,
-        "gp": 16,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -37964,7 +37974,7 @@
          "gp": 22,
          "p": 28,
          "ppp": 18,
-         "sog": 40,
+         "sog": 39,
          "toi_s": 26976
         },
         "last5": {
@@ -38194,7 +38204,7 @@
          "gp": 22,
          "p": 9,
          "ppp": 1,
-         "sog": 32,
+         "sog": 31,
          "toi_s": 21352
         },
         "last5": {
@@ -38350,7 +38360,7 @@
          "gp": 22,
          "p": 9,
          "ppp": 1,
-         "sog": 32,
+         "sog": 31,
          "toi_s": 21352
         },
         "last5": {
@@ -38525,25 +38535,25 @@
         }
        },
        {
-        "name": "Tyson Hinds",
-        "jersey": 55,
+        "name": "Pavel Mintyukov",
+        "jersey": 98,
         "pos": null,
         "slot": 3,
-        "player_id": 8482731,
-        "dfo_id": 31256,
+        "player_id": 8483490,
+        "dfo_id": 34372,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 0,
-         "gp": 16,
-         "p": 2,
+         "a": 6,
+         "g": 2,
+         "gp": 18,
+         "p": 8,
          "ppp": 0,
-         "sog": 22,
-         "toi_s": 15098
+         "sog": 18,
+         "toi_s": 21097
         },
         "last5": {
          "a": 2,
@@ -38551,11 +38561,11 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 4516
+         "sog": 7,
+         "toi_s": 6183
         },
-        "l5_point_games": 1,
-        "gp": 16,
+        "l5_point_games": 2,
+        "gp": 18,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -38616,7 +38626,7 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 34,
+       "rank": 35,
        "rating": 0
       },
       "d2": {
@@ -38624,7 +38634,7 @@
        "rating": 0
       },
       "d3": {
-       "rank": 28,
+       "rank": 27,
        "rating": 0
       },
       "d4": {
@@ -38636,11 +38646,11 @@
        "rating": 0
       },
       "f2": {
-       "rank": 25,
+       "rank": 24,
        "rating": 72.51395960454711
       },
       "f3": {
-       "rank": 20,
+       "rank": 23,
        "rating": 72.8696828231838
       },
       "f4": {
