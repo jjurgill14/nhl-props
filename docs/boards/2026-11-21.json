@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T23:39:04.393757+00:00",
+ "generated_utc": "2026-11-21T23:44:12.649204+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -35980,8 +35980,8 @@
     "goalie_source": "Lou Korac",
     "sv": "0.843",
     "gaa": "4.55",
-    "lineup_as_of": "2026-11-21T18:01:51.166Z",
-    "lineup_checked": "2026-11-21T21:01:04.183861+00:00",
+    "lineup_as_of": "2026-11-21T23:41:15.043Z",
+    "lineup_checked": "2026-11-21T23:44:07.580217+00:00",
     "lineup_stale": false,
     "ga_rk": 16,
     "gf_rk": 18,
@@ -36001,6 +36001,16 @@
       "at": "2026-11-21T23:38:58.453642+00:00",
       "kind": "goalie",
       "text": "G: Jordan Binnington (Confirmed) replaces Joel Hofer"
+     },
+     {
+      "at": "2026-11-21T23:44:07.587351+00:00",
+      "kind": "move",
+      "text": "Dalibor Dvorsky: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-21T23:44:07.587351+00:00",
+      "kind": "move",
+      "text": "Jonatan Berggren: L2\u2192L3"
      }
     ],
     "rates": {
@@ -36037,7 +36047,7 @@
      "away": "+170",
      "home": "-205",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-21T18:01:51.166Z"
+     "as_of": "2026-11-21T23:41:15.043Z"
     },
     "total": {
      "line": 5.5,
@@ -38270,11 +38280,11 @@
     },
     "home": {
      "team": "STL",
-     "as_of": "2026-11-21T18:01:51.166Z",
-     "checked": "2026-11-21T21:01:04.183861+00:00",
+     "as_of": "2026-11-21T23:41:15.043Z",
+     "checked": "2026-11-21T23:44:07.580217+00:00",
      "stale": false,
-     "source": "St. Louis Blues",
-     "updated_dfo": "2026-11-21T18:01:51.166Z",
+     "source": "Matthew DeFranks",
+     "updated_dfo": "2026-11-21T23:41:15.043Z",
      "forwards": [
       [
        {
@@ -38470,40 +38480,40 @@
         }
        },
        {
-        "name": "Jonatan Berggren",
-        "jersey": 29,
+        "name": "Dalibor Dvorsky",
+        "jersey": 15,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481013,
-        "dfo_id": 29107,
+        "player_id": 8484164,
+        "dfo_id": 35010,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": "G",
         "season": {
-         "a": 4,
-         "g": 3,
-         "gp": 19,
+         "a": 2,
+         "g": 5,
+         "gp": 22,
          "p": 7,
          "ppp": 2,
-         "sog": 31,
-         "toi_s": 16136
+         "sog": 33,
+         "toi_s": 15764
         },
         "last5": {
          "a": 1,
          "g": 1,
          "gp": 5,
          "p": 2,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 3895
+         "ppp": 1,
+         "sog": 8,
+         "toi_s": 3424
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "l5_point_games": 2,
+        "gp": 22,
         "move": {
          "ev": 1,
-         "pp": 1,
+         "pp": 0,
          "new": false
         }
        }
@@ -38548,47 +38558,9 @@
         }
        },
        {
-        "name": "Dalibor Dvorsky",
-        "jersey": 15,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8484164,
-        "dfo_id": 35010,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 2,
-         "g": 5,
-         "gp": 22,
-         "p": 7,
-         "ppp": 2,
-         "sog": 33,
-         "toi_s": 15764
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 3424
-        },
-        "l5_point_games": 2,
-        "gp": 22,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Pavel Buchnevich",
         "jersey": 89,
-        "pos": "RW",
+        "pos": "C",
         "slot": null,
         "player_id": 8477402,
         "dfo_id": 2673,
@@ -38617,6 +38589,44 @@
         },
         "l5_point_games": 2,
         "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
+        "name": "Jonatan Berggren",
+        "jersey": 29,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8481013,
+        "dfo_id": 29107,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 4,
+         "g": 3,
+         "gp": 19,
+         "p": 7,
+         "ppp": 2,
+         "sog": 31,
+         "toi_s": 16136
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 3895
+        },
+        "l5_point_games": 1,
+        "gp": 19,
         "move": {
          "ev": 0,
          "pp": 1,
@@ -38980,53 +38990,10 @@
      "goalies": [
       [
        {
-        "name": "Joel Hofer",
-        "jersey": 30,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8480981,
-        "dfo_id": 28910,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 16,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "9-6-1",
-        "sv_pct": "0.923",
-        "starts": 16
-       }
-      ],
-      [
-       {
         "name": "Jordan Binnington",
         "jersey": 50,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8476412,
         "dfo_id": 1984,
         "gtd": false,
@@ -39062,6 +39029,49 @@
         "record": "2-3-1",
         "sv_pct": "0.841",
         "starts": 6
+       }
+      ],
+      [
+       {
+        "name": "Joel Hofer",
+        "jersey": 30,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8480981,
+        "dfo_id": 28910,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 16,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "9-6-1",
+        "sv_pct": "0.923",
+        "starts": 16
        }
       ]
      ],
@@ -39368,7 +39378,7 @@
         "l5_point_games": 1,
         "gp": 19,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 1,
          "new": false
         }
@@ -39796,11 +39806,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 31,
+       "rank": 32,
        "rating": 72.7230974244413
       },
       "f2": {
-       "rank": 35,
+       "rank": 34,
        "rating": 0
       },
       "f3": {
@@ -39850,9 +39860,9 @@
     "record": "13-6-5",
     "b2b": false,
     "goalie": "Carter Hart",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Hart starts Saturday in Winnipeg.",
+    "goalie_source": "@SinBinVegas",
     "sv": "0.888",
     "gaa": "2.74",
     "lineup_as_of": "2026-11-20T17:21:00.632Z",
@@ -39861,7 +39871,13 @@
     "ga_rk": 24,
     "gf_rk": 11,
     "ppga_rk": 25,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T23:44:07.649844+00:00",
+      "kind": "goalie",
+      "text": "G: Carter Hart confirmed"
+     }
+    ],
     "rates": {
      "gp": 24,
      "pp_gp": 24,

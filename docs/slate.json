@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T23:39:03.384734+00:00",
+ "generated_utc": "2026-11-21T23:44:11.636951+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -37105,8 +37105,8 @@
      "ppga_rk": 28,
      "l5_gf": 3.4,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-21T18:01:51.166Z",
-     "lineup_checked": "2026-11-21T21:01:04.183861+00:00",
+     "lineup_as_of": "2026-11-21T23:41:15.043Z",
+     "lineup_checked": "2026-11-21T23:44:07.580217+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -37134,12 +37134,12 @@
       "2": [
        "Dylan Holloway",
        "Mason McTavish",
-       "Jonatan Berggren"
+       "Dalibor Dvorsky"
       ],
       "3": [
        "Aleksanteri Kaskimaki",
-       "Dalibor Dvorsky",
-       "Pavel Buchnevich"
+       "Pavel Buchnevich",
+       "Jonatan Berggren"
       ],
       "4": [
        "Alexey Toropchenko",
@@ -37471,12 +37471,12 @@
          "either": 2
         },
         {
-         "name": "Jonatan Berggren",
-         "jersey": 29,
+         "name": "Dalibor Dvorsky",
+         "jersey": 15,
          "pp": 2,
-         "n": 0,
+         "n": 1,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -37781,12 +37781,12 @@
          "either": 2
         },
         {
-         "name": "Jonatan Berggren",
-         "jersey": 29,
+         "name": "Dalibor Dvorsky",
+         "jersey": 15,
          "pp": 2,
-         "n": 15,
-         "both": 5,
-         "either": 7
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -37832,7 +37832,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -37887,12 +37887,12 @@
          "either": 2
         },
         {
-         "name": "Dalibor Dvorsky",
-         "jersey": 15,
+         "name": "Jonatan Berggren",
+         "jersey": 29,
          "pp": 2,
-         "n": 14,
-         "both": 0,
-         "either": 6
+         "n": 3,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -37995,8 +37995,8 @@
        ]
       },
       {
-       "name": "Jonatan Berggren",
-       "jersey": 29,
+       "name": "Dalibor Dvorsky",
+       "jersey": 15,
        "team": "STL",
        "opp": "NJD",
        "section": "F",
@@ -38006,119 +38006,13 @@
        "sneaky": false,
        "form": {
         "points": {
-         "k": 6,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.3046270011947432,
-         "p_hot": 0.23457615708274898,
-         "heater": false
-        },
-        "goals": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.15790298685782556,
-         "p_hot": 0.14435455820476858,
-         "heater": false
-        },
-        "assists": {
-         "k": 4,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.20681099163679809,
-         "p_hot": 0.20176830294530154,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 19,
-       "pt_games": 6,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        4,
-        9
-       ],
-       "away_split": [
-        2,
-        10
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.0,
-       "toi": 13.0,
-       "p": 0.305,
-       "fair": "+228",
-       "min": "+248",
-       "p2": 0.057,
-       "fair2": "+1645",
-       "min2": "+1750",
-       "adj": [
-        [
-         "opp",
-         0.9432258064516129
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Dylan Holloway",
-         "jersey": 81,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Mason McTavish",
-         "jersey": 83,
-         "pp": null,
-         "n": 15,
-         "both": 5,
-         "either": 7
-        }
-       ]
-      },
-      {
-       "name": "Dalibor Dvorsky",
-       "jersey": 15,
-       "team": "STL",
-       "opp": "NJD",
-       "section": "F",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
          "k": 7,
          "k5": 2,
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.28296774193548385,
-         "p_hot": 0.32807854137447406,
+         "p": 0.3056051612903226,
+         "p_hot": 0.35760561009817676,
          "heater": false
         },
         "goals": {
@@ -38127,8 +38021,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.18738752688172042,
-         "p_hot": 0.20340869565217393,
+         "p": 0.20499440860215054,
+         "p_hot": 0.2263741935483871,
          "heater": false
         },
         "assists": {
@@ -38137,14 +38031,14 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.10061075268817204,
-         "p_hot": 0.13123141654978962,
+         "p": 0.12324817204301074,
+         "p_hot": 0.1607584852734923,
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "G",
        "gp": 22,
        "pt_games": 7,
@@ -38170,11 +38064,11 @@
        "l5_venue_two": 0,
        "pp_toi": 1.6,
        "toi": 11.4,
-       "p": 0.283,
-       "fair": "+253",
-       "min": "+275",
-       "p2": 0.01,
-       "fair2": "+4900",
+       "p": 0.306,
+       "fair": "+227",
+       "min": "+247",
+       "p2": 0.02,
+       "fair2": "+4870",
        "min2": "+4900",
        "adj": [
         [
@@ -38189,20 +38083,20 @@
        },
        "partners": [
         {
-         "name": "Aleksanteri Kaskimaki",
-         "jersey": null,
-         "pp": null,
+         "name": "Dylan Holloway",
+         "jersey": 81,
+         "pp": 2,
          "n": 1,
          "both": 0,
          "either": 1
         },
         {
-         "name": "Pavel Buchnevich",
-         "jersey": 89,
-         "pp": 1,
-         "n": 14,
+         "name": "Mason McTavish",
+         "jersey": 83,
+         "pp": null,
+         "n": 0,
          "both": 0,
-         "either": 6
+         "either": 0
         }
        ]
       },
@@ -38309,6 +38203,112 @@
          "n": 11,
          "both": 1,
          "either": 4
+        }
+       ]
+      },
+      {
+       "name": "Jonatan Berggren",
+       "jersey": 29,
+       "team": "STL",
+       "opp": "NJD",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 6,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.2794743130227001,
+         "p_hot": 0.20504908835904628,
+         "heater": false
+        },
+        "goals": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.13833978494623655,
+         "p_hot": 0.1213890603085554,
+         "heater": false
+        },
+        "assists": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.1816583034647551,
+         "p_hot": 0.17224123422159887,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 19,
+       "pt_games": 6,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 3,
+       "two_games": 1,
+       "home_split": [
+        4,
+        9
+       ],
+       "away_split": [
+        2,
+        10
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 1,
+       "pp_toi": 0.0,
+       "toi": 13.0,
+       "p": 0.279,
+       "fair": "+258",
+       "min": "+279",
+       "p2": 0.046,
+       "fair2": "+2069",
+       "min2": "+2199",
+       "adj": [
+        [
+         "opp",
+         0.9432258064516129
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Aleksanteri Kaskimaki",
+         "jersey": null,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Pavel Buchnevich",
+         "jersey": 89,
+         "pp": 1,
+         "n": 3,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -38703,20 +38703,20 @@
        },
        "partners": [
         {
-         "name": "Dalibor Dvorsky",
-         "jersey": 15,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        },
-        {
          "name": "Pavel Buchnevich",
          "jersey": 89,
          "pp": 1,
          "n": 3,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Jonatan Berggren",
+         "jersey": 29,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -39041,9 +39041,9 @@
      "home": false,
      "b2b": false,
      "goalie": "Carter Hart",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Hart starts Saturday in Winnipeg.",
+     "goalie_source": "@SinBinVegas",
      "sv": "0.888",
      "gaa": "2.74",
      "ml": "190",
