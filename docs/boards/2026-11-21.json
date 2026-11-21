@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T22:32:24.784885+00:00",
+ "generated_utc": "2026-11-21T22:37:31.917357+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -8736,9 +8736,9 @@
     "record": "9-9-4",
     "b2b": false,
     "goalie": "Alex Lyon",
-    "goalie_status": "Likely",
-    "goalie_news": "Lyon is in the starter's crease at the Sabres' morning skate.",
-    "goalie_source": "Paul Hamilton",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Lyon led the Sabres onto the ice for warmups.",
+    "goalie_source": "George Richards",
     "sv": "0.898",
     "gaa": "3.02",
     "lineup_as_of": "2026-11-20T17:04:03.137Z",
@@ -8747,7 +8747,13 @@
     "ga_rk": 10,
     "gf_rk": 23,
     "ppga_rk": 4,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T22:37:27.051501+00:00",
+      "kind": "goalie",
+      "text": "G: Alex Lyon confirmed"
+     }
+    ],
     "rates": {
      "gp": 22,
      "pp_gp": 22,
@@ -12684,8 +12690,8 @@
     "goalie_source": "Nashville Predators",
     "sv": "0.918",
     "gaa": "2.46",
-    "lineup_as_of": "2026-11-21T21:17:16.703Z",
-    "lineup_checked": "2026-11-21T21:31:28.374709+00:00",
+    "lineup_as_of": "2026-11-21T22:36:36.881Z",
+    "lineup_checked": "2026-11-21T22:37:27.235030+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 21,
@@ -12731,7 +12737,7 @@
      "away": "-218",
      "home": "+180",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-21T21:17:16.703Z"
+     "as_of": "2026-11-21T22:36:36.881Z"
     },
     "total": {
      "line": 6.5,
@@ -14913,11 +14919,11 @@
     },
     "home": {
      "team": "NSH",
-     "as_of": "2026-11-21T21:17:16.703Z",
-     "checked": "2026-11-21T21:31:28.374709+00:00",
+     "as_of": "2026-11-21T22:36:36.881Z",
+     "checked": "2026-11-21T22:37:27.235030+00:00",
      "stale": false,
-     "source": "Alex Daugherty",
-     "updated_dfo": "2026-11-21T21:17:16.703Z",
+     "source": "Nick Kieser",
+     "updated_dfo": "2026-11-21T22:36:36.881Z",
      "forwards": [
       [
        {
@@ -14965,7 +14971,7 @@
         "slot": null,
         "player_id": 8475158,
         "dfo_id": 362,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -15755,7 +15761,7 @@
         "slot": 2,
         "player_id": 8475158,
         "dfo_id": 362,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -16103,7 +16109,7 @@
         "slot": 1,
         "player_id": 8475158,
         "dfo_id": 362,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -16409,11 +16415,6 @@
        "player": "William Trudeau",
        "status": "IR",
        "news": "Trudeau has been placed on IR with an upper-body injury and is considered week-to-week."
-      },
-      {
-       "player": "Ryan O'Reilly",
-       "status": "DTD",
-       "news": "O'Reilly (undisclosed) will be a game-time decision Saturday vs. the Penguins."
       }
      ],
      "unit_ratings": {
