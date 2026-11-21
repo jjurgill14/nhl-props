@@ -47,5 +47,6 @@ jobs:
           git add -A data docs
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "overnight: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
+          # a race with another job is not a failure: keep its data, retry our push next cycle
+          git pull --rebase -X theirs || { git rebase --abort || true; echo "lost a rebase race; next run re-pulls"; exit 0; }
           git push
