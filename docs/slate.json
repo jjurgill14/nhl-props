@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T23:54:25.472790+00:00",
+ "generated_utc": "2026-11-21T23:59:32.480183+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -3901,7 +3901,7 @@
    "start_et": "3:30 PM",
    "away": "CHI",
    "home": "CGY",
-   "state": "FINAL",
+   "state": "OFF",
    "venue": "Scotiabank Saddledome",
    "teams": {
     "away": {
@@ -25393,8 +25393,8 @@
      "ppga_rk": 14,
      "l5_gf": 2.4,
      "l5_ga": 2.4,
-     "lineup_as_of": "2026-11-20T17:08:34.716Z",
-     "lineup_checked": "2026-11-21T21:01:02.935430+00:00",
+     "lineup_as_of": "2026-11-21T23:54:41.721Z",
+     "lineup_checked": "2026-11-21T23:59:29.073876+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -25421,11 +25421,6 @@
        "player": "Mike Matheson",
        "status": "OUT",
        "news": "Matheson (lower-body) is expected to be out for 2-3 weeks."
-      },
-      {
-       "player": "Zack Bolduc",
-       "status": "DTD",
-       "news": "Bolduc (upper-body) will return to the Canadiens lineup on Saturday."
       }
      ],
      "lines": {
@@ -25440,20 +25435,20 @@
        "Juraj Slafkovsky"
       ],
       "3": [
-       "Kirby Dach",
+       "Zack Bolduc",
        "Phillip Danault",
-       "Owen Beck"
+       "Kirby Dach"
       ],
       "4": [
-       "Florian Xhekaj",
+       "Brett Berard",
        "Oliver Kapanen",
-       "Brett Berard"
+       "Owen Beck"
       ]
      },
      "pp1": [
       "Juraj Slafkovsky",
       "Nick Suzuki",
-      "Alexandre Texier",
+      "Zack Bolduc",
       "Cole Caufield",
       "Lane Hutson"
      ],
@@ -25462,7 +25457,7 @@
       "Oliver Kapanen",
       "Alex Newhook",
       "Noah Dobson",
-      "Adam Engstrom"
+      "Alexandre Texier"
      ],
      "players": [
       {
@@ -25564,7 +25559,7 @@
         {
          "name": "Alexandre Texier",
          "jersey": 85,
-         "pp": 1,
+         "pp": 2,
          "n": 2,
          "both": 0,
          "either": 2
@@ -25768,10 +25763,116 @@
         {
          "name": "Alexandre Texier",
          "jersey": 85,
-         "pp": 1,
+         "pp": 2,
          "n": 2,
          "both": 0,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Zack Bolduc",
+       "jersey": 76,
+       "team": "MTL",
+       "opp": "PHI",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": 1,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.5706580645161291,
+         "p_hot": 0.5706580645161291,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.29589677419354843,
+         "p_hot": 0.29589677419354843,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.412141935483871,
+         "p_hot": 0.412141935483871,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.571,
+       "fair": "-133",
+       "min": "-117",
+       "p2": 0.211,
+       "fair2": "+373",
+       "min2": "+402",
+       "adj": [
+        [
+         "opp",
+         1.0567741935483872
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Phillip Danault",
+         "jersey": 24,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Kirby Dach",
+         "jersey": 77,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -26080,20 +26181,20 @@
        },
        "partners": [
         {
+         "name": "Zack Bolduc",
+         "jersey": 76,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Kirby Dach",
          "jersey": 77,
          "pp": 2,
          "n": 4,
          "both": 0,
          "either": 2
-        },
-        {
-         "name": "Owen Beck",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
         }
        ]
       },
@@ -26104,7 +26205,7 @@
        "opp": "PHI",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -26180,26 +26281,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Kirby Dach",
-         "jersey": 77,
-         "pp": 2,
-         "n": 4,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Phillip Danault",
-         "jersey": 24,
+         "name": "Brett Berard",
+         "jersey": 65,
          "pp": null,
          "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
+        },
+        {
+         "name": "Oliver Kapanen",
+         "jersey": null,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 3
         }
        ]
       },
@@ -26408,112 +26509,6 @@
        ]
       },
       {
-       "name": "Florian Xhekaj",
-       "jersey": 63,
-       "team": "MTL",
-       "opp": "PHI",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.2935483870967742,
-         "p_hot": 0.3216269284712483,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.11507096774193548,
-         "p_hot": 0.09005553997194952,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.1878709677419355,
-         "p_hot": 0.23892286115007014,
-         "heater": true
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 10,
-       "pt_games": 3,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        2,
-        5
-       ],
-       "away_split": [
-        1,
-        5
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 7.9,
-       "p": 0.294,
-       "fair": "+241",
-       "min": "+261",
-       "p2": 0.019,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0567741935483872
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Oliver Kapanen",
-         "jersey": null,
-         "pp": 2,
-         "n": 3,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Brett Berard",
-         "jersey": 65,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Kirby Dach",
        "jersey": 77,
        "team": "MTL",
@@ -26555,7 +26550,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -26602,124 +26597,18 @@
        },
        "partners": [
         {
+         "name": "Zack Bolduc",
+         "jersey": 76,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Phillip Danault",
          "jersey": 24,
          "pp": null,
          "n": 4,
-         "both": 0,
-         "either": 2
-        },
-        {
-         "name": "Owen Beck",
-         "jersey": null,
-         "pp": null,
-         "n": 4,
-         "both": 1,
-         "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Alexandre Texier",
-       "jersey": 85,
-       "team": "MTL",
-       "opp": "PHI",
-       "section": "F",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.2836245577523413,
-         "p_hot": 0.2444364656381487,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1445394380853278,
-         "p_hot": 0.14886732117812063,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.1745381893860562,
-         "p_hot": 0.1433537166900421,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 23,
-       "pt_games": 4,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 2,
-       "two_games": 1,
-       "home_split": [
-        3,
-        11
-       ],
-       "away_split": [
-        1,
-        12
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 2.7,
-       "toi": 15.9,
-       "p": 0.284,
-       "fair": "+253",
-       "min": "+274",
-       "p2": 0.089,
-       "fair2": "+1028",
-       "min2": "+1096",
-       "adj": [
-        [
-         "opp",
-         1.0567741935483872
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Cole Caufield",
-         "jersey": 13,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Nick Suzuki",
-         "jersey": 14,
-         "pp": 1,
-         "n": 2,
          "both": 0,
          "either": 2
         }
@@ -26922,6 +26811,112 @@
        ]
       },
       {
+       "name": "Alexandre Texier",
+       "jersey": 85,
+       "team": "MTL",
+       "opp": "PHI",
+       "section": "F",
+       "home": true,
+       "line": 1,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.2290813735691988,
+         "p_hot": 0.1709217391304348,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.11999500520291365,
+         "p_hot": 0.11578569424964938,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.13363080124869928,
+         "p_hot": 0.08821767180925666,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 23,
+       "pt_games": 4,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 2,
+       "two_games": 1,
+       "home_split": [
+        3,
+        11
+       ],
+       "away_split": [
+        1,
+        12
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 2.7,
+       "toi": 15.9,
+       "p": 0.229,
+       "fair": "+337",
+       "min": "+363",
+       "p2": 0.056,
+       "fair2": "+1689",
+       "min2": "+1796",
+       "adj": [
+        [
+         "opp",
+         1.0567741935483872
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": -1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Cole Caufield",
+         "jersey": 13,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
+         "name": "Nick Suzuki",
+         "jersey": 14,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Oliver Kapanen",
        "jersey": null,
        "team": "MTL",
@@ -27010,20 +27005,118 @@
        },
        "partners": [
         {
-         "name": "Florian Xhekaj",
-         "jersey": 63,
-         "pp": null,
-         "n": 3,
-         "both": 1,
-         "either": 2
-        },
-        {
          "name": "Brett Berard",
          "jersey": 65,
          "pp": null,
          "n": 2,
          "both": 0,
          "either": 1
+        },
+        {
+         "name": "Owen Beck",
+         "jersey": null,
+         "pp": null,
+         "n": 3,
+         "both": 1,
+         "either": 3
+        }
+       ]
+      },
+      {
+       "name": "David Reinbacher",
+       "jersey": 64,
+       "team": "MTL",
+       "opp": "PHI",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 1,
+         "k10": 0,
+         "n10": 1,
+         "p": 0.21605161290322583,
+         "p_hot": 0.19444645161290325,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 1,
+         "k10": 0,
+         "n10": 1,
+         "p": 0.056361290322580644,
+         "p_hot": 0.05072516129032258,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 1,
+         "k10": 0,
+         "n10": 1,
+         "p": 0.16908387096774197,
+         "p_hot": 0.15217548387096774,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 1,
+       "pt_games": 0,
+       "l5": [
+        0,
+        1
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        1
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        1
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 9.2,
+       "p": 0.216,
+       "fair": "+363",
+       "min": "+391",
+       "p2": 0.028,
+       "fair2": "+3449",
+       "min2": "+3661",
+       "adj": [
+        [
+         "opp",
+         1.0567741935483872
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Arber Xhekaj",
+         "jersey": 72,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -27069,7 +27162,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -27116,20 +27209,20 @@
        },
        "partners": [
         {
-         "name": "Florian Xhekaj",
-         "jersey": 63,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Oliver Kapanen",
          "jersey": null,
          "pp": 2,
          "n": 2,
          "both": 0,
          "either": 1
+        },
+        {
+         "name": "Owen Beck",
+         "jersey": null,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -27222,110 +27315,12 @@
        },
        "partners": [
         {
-         "name": "Adam Engstrom",
-         "jersey": 42,
-         "pp": 2,
-         "n": 14,
-         "both": 1,
-         "either": 4
-        }
-       ]
-      },
-      {
-       "name": "Adam Engstrom",
-       "jersey": 42,
-       "team": "MTL",
-       "opp": "PHI",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.16908387096774197,
-         "p_hot": 0.17643534361851332,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.06516774193548387,
-         "p_hot": 0.06800112201963535,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.10743870967741936,
-         "p_hot": 0.11210995792426369,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 16,
-       "pt_games": 2,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        1,
-        9
-       ],
-       "away_split": [
-        1,
-        7
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.3,
-       "toi": 11.6,
-       "p": 0.169,
-       "fair": "+491",
-       "min": "+527",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0567741935483872
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Arber Xhekaj",
-         "jersey": 72,
+         "name": "David Reinbacher",
+         "jersey": 64,
          "pp": null,
-         "n": 14,
-         "both": 1,
-         "either": 4
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       }

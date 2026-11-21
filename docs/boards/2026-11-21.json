@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T23:54:26.475754+00:00",
+ "generated_utc": "2026-11-21T23:59:33.572697+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -4891,7 +4891,7 @@
    "id": "02",
    "game_id": 2026020360,
    "start_utc": "2026-11-21T20:30:00Z",
-   "status": "FINAL",
+   "status": "OFF",
    "venue": "Scotiabank Saddledome",
    "away": {
     "abbr": "CHI",
@@ -24373,13 +24373,44 @@
     "goalie_source": "Renaud Lavoie",
     "sv": "0.923",
     "gaa": "2.19",
-    "lineup_as_of": "2026-11-20T17:08:34.716Z",
-    "lineup_checked": "2026-11-21T21:01:02.935430+00:00",
+    "lineup_as_of": "2026-11-21T23:54:41.721Z",
+    "lineup_checked": "2026-11-21T23:59:29.073876+00:00",
     "lineup_stale": false,
     "ga_rk": 20,
     "gf_rk": 16,
     "ppga_rk": 14,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T23:59:29.082401+00:00",
+      "kind": "in",
+      "text": "IN: Zack Bolduc (was DTD) \u2192 L3, PP1"
+     },
+     {
+      "at": "2026-11-21T23:59:29.082401+00:00",
+      "kind": "in",
+      "text": "IN: David Reinbacher \u2192 L3"
+     },
+     {
+      "at": "2026-11-21T23:59:29.082401+00:00",
+      "kind": "out",
+      "text": "OUT: Florian Xhekaj (was L4)"
+     },
+     {
+      "at": "2026-11-21T23:59:29.082401+00:00",
+      "kind": "out",
+      "text": "OUT: Adam Engstrom (was L3)"
+     },
+     {
+      "at": "2026-11-21T23:59:29.082401+00:00",
+      "kind": "move",
+      "text": "Alexandre Texier: PP1\u2192PP2"
+     },
+     {
+      "at": "2026-11-21T23:59:29.082401+00:00",
+      "kind": "move",
+      "text": "Owen Beck: L3\u2192L4"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -24414,7 +24445,7 @@
      "away": "-198",
      "home": "+164",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-20T17:08:34.716Z"
+     "as_of": "2026-11-21T23:54:41.721Z"
     },
     "total": {
      "line": 5.5,
@@ -24505,6 +24536,21 @@
       ]
      },
      {
+      "selection": "Zack Bolduc \u00b7 1+ point",
+      "prob": 0.571,
+      "fair": "-133",
+      "need": "-117",
+      "rationale": "Point in 0 of 0 this season \u00b7 0 of L0",
+      "player": "Zack Bolduc",
+      "team": "MTL",
+      "pp": 1,
+      "line": 3,
+      "bias": null,
+      "players": [
+       null
+      ]
+     },
+     {
       "selection": "Matvei Michkov \u00b7 1+ point",
       "prob": 0.564,
       "fair": "-129",
@@ -24532,21 +24578,6 @@
       "bias": "A",
       "players": [
        8483515
-      ]
-     },
-     {
-      "selection": "Denver Barkey \u00b7 1+ point",
-      "prob": 0.476,
-      "fair": "+110",
-      "need": "+123",
-      "rationale": "Point in 10 of 21 this season \u00b7 2 of L5 \u00b7 2 of L5 away",
-      "player": "Denver Barkey",
-      "team": "PHI",
-      "pp": 1,
-      "line": 2,
-      "bias": null,
-      "players": [
-       8484142
       ]
      }
     ],
@@ -24594,6 +24625,20 @@
       ]
      },
      {
+      "selection": "Zack Bolduc \u00b7 1+ assist",
+      "prob": 0.412,
+      "fair": "+143",
+      "need": "+157",
+      "rationale": "Assist in 0 of 0 this season \u00b7 0 of L0",
+      "player": "Zack Bolduc",
+      "team": "MTL",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       null
+      ]
+     },
+     {
       "selection": "Jamie Drysdale \u00b7 1+ assist",
       "prob": 0.375,
       "fair": "+167",
@@ -24619,20 +24664,6 @@
       "line": 1,
       "players": [
        8481540
-      ]
-     },
-     {
-      "selection": "Denver Barkey \u00b7 1+ assist",
-      "prob": 0.336,
-      "fair": "+197",
-      "need": "+215",
-      "rationale": "Assist in 7 of 21 this season \u00b7 1 of L5",
-      "player": "Denver Barkey",
-      "team": "PHI",
-      "pp": 1,
-      "line": 2,
-      "players": [
-       8484142
       ]
      }
     ],
@@ -24680,6 +24711,20 @@
       ]
      },
      {
+      "selection": "Zack Bolduc \u00b7 1+ goal",
+      "prob": 0.296,
+      "fair": "+238",
+      "need": "+258",
+      "rationale": "Goal in 0 of 0 this season \u00b7 0 of L0",
+      "player": "Zack Bolduc",
+      "team": "MTL",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       null
+      ]
+     },
+     {
       "selection": "Trevor Zegras \u00b7 1+ goal",
       "prob": 0.211,
       "fair": "+373",
@@ -24705,20 +24750,6 @@
       "line": 2,
       "players": [
        8480015
-      ]
-     },
-     {
-      "selection": "Tyson Foerster \u00b7 1+ goal",
-      "prob": 0.196,
-      "fair": "+409",
-      "need": "+440",
-      "rationale": "Goal in 5 of 24 this season \u00b7 2 of L5",
-      "player": "Tyson Foerster",
-      "team": "PHI",
-      "pp": 2,
-      "line": 1,
-      "players": [
-       8482159
       ]
      }
     ],
@@ -24755,21 +24786,6 @@
      }
     ],
     "sneaky_assist": [
-     {
-      "selection": "Florian Xhekaj \u00b7 1+ assist",
-      "prob": 0.239,
-      "fair": "+319",
-      "need": "+344",
-      "rationale": "L4 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 2 of 10 season",
-      "player": "Florian Xhekaj",
-      "team": "MTL",
-      "pp": null,
-      "line": 4,
-      "players": [
-       8484403
-      ],
-      "sneaky": true
-     },
      {
       "selection": "Rasmus Ristolainen \u00b7 1+ assist",
       "prob": 0.238,
@@ -24959,6 +24975,20 @@
       ]
      },
      {
+      "selection": "Zack Bolduc \u00b7 2+ points",
+      "prob": 0.211,
+      "fair": "+374",
+      "need": "+402",
+      "rationale": "2+ in 0 of 0 this season",
+      "player": "Zack Bolduc",
+      "team": "MTL",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       null
+      ]
+     },
+     {
       "selection": "Juraj Slafkovsky \u00b7 2+ points",
       "prob": 0.21,
       "fair": "+376",
@@ -24970,20 +25000,6 @@
       "line": 2,
       "players": [
        8483515
-      ]
-     },
-     {
-      "selection": "Matvei Michkov \u00b7 2+ points",
-      "prob": 0.164,
-      "fair": "+510",
-      "need": "+546",
-      "rationale": "2+ in 4 of 25 this season \u00b7 0 of L5 away",
-      "player": "Matvei Michkov",
-      "team": "PHI",
-      "pp": 1,
-      "line": 3,
-      "players": [
-       8484387
       ]
      }
     ],
@@ -25018,38 +25034,6 @@
       "players": [
        8484142,
        8485406
-      ]
-     },
-     {
-      "selection": "Suzuki + Texier \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.147,
-      "fair": "+580",
-      "need": "+621",
-      "rationale": "Both scored 0 of 2 games together \u00b7 independent 20% \u00b7 new pair",
-      "team": "MTL",
-      "line": 1,
-      "read": "new pair",
-      "both": 0,
-      "n": 2,
-      "players": [
-       8480018,
-       8480074
-      ]
-     },
-     {
-      "selection": "Caufield + Texier \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.126,
-      "fair": "+696",
-      "need": "+743",
-      "rationale": "Both scored 0 of 2 games together \u00b7 independent 17% \u00b7 new pair",
-      "team": "MTL",
-      "line": 1,
-      "read": "new pair",
-      "both": 0,
-      "n": 2,
-      "players": [
-       8481540,
-       8480074
       ]
      }
     ],
@@ -26622,11 +26606,11 @@
     },
     "home": {
      "team": "MTL",
-     "as_of": "2026-11-20T17:08:34.716Z",
-     "checked": "2026-11-21T21:01:02.935430+00:00",
+     "as_of": "2026-11-21T23:54:41.721Z",
+     "checked": "2026-11-21T23:59:29.073876+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-19)",
-     "updated_dfo": "2026-11-20T17:08:34.716Z",
+     "source": "Montreal Canadiens",
+     "updated_dfo": "2026-11-21T23:54:41.721Z",
      "forwards": [
       [
        {
@@ -26714,7 +26698,7 @@
         "dfo_id": 4759,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
@@ -26739,7 +26723,7 @@
         "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -26862,41 +26846,41 @@
       ],
       [
        {
-        "name": "Kirby Dach",
-        "jersey": 77,
+        "name": "Zack Bolduc",
+        "jersey": 76,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481523,
-        "dfo_id": 29585,
+        "player_id": null,
+        "dfo_id": 31240,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 21,
-         "p": 7,
-         "ppp": 1,
-         "sog": 18,
-         "toi_s": 14666
+         "a": 3,
+         "g": 6,
+         "gp": 22,
+         "p": 9,
+         "ppp": 3,
+         "sog": 34,
+         "toi_s": 19084
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 1,
+         "g": 0,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 4064
+         "sog": 4,
+         "toi_s": 4707
         },
-        "l5_point_games": 1,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -26938,25 +26922,25 @@
         }
        },
        {
-        "name": "Owen Beck",
-        "jersey": 62,
+        "name": "Kirby Dach",
+        "jersey": 77,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483424,
-        "dfo_id": 33212,
+        "player_id": 8481523,
+        "dfo_id": 29585,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 9,
-         "p": 3,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 4843
+         "a": 5,
+         "g": 2,
+         "gp": 21,
+         "p": 7,
+         "ppp": 1,
+         "sog": 18,
+         "toi_s": 14666
         },
         "last5": {
          "a": 0,
@@ -26964,11 +26948,11 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 1,
-         "toi_s": 2802
+         "sog": 5,
+         "toi_s": 4064
         },
         "l5_point_games": 1,
-        "gp": 9,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -26978,40 +26962,40 @@
       ],
       [
        {
-        "name": "Florian Xhekaj",
-        "jersey": 63,
+        "name": "Brett Berard",
+        "jersey": 37,
         "pos": "LW",
         "slot": null,
-        "player_id": 8484403,
-        "dfo_id": 37772,
+        "player_id": 8482132,
+        "dfo_id": 30810,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 10,
-         "p": 3,
+         "a": 0,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 4701
+         "sog": 2,
+         "toi_s": 885
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
          "sog": 5,
-         "toi_s": 2379
+         "toi_s": 3034
         },
-        "l5_point_games": 2,
-        "gp": 10,
+        "l5_point_games": 0,
+        "gp": 2,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        },
@@ -27054,25 +27038,25 @@
         }
        },
        {
-        "name": "Brett Berard",
-        "jersey": 37,
+        "name": "Owen Beck",
+        "jersey": 62,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482132,
-        "dfo_id": 30810,
+        "player_id": 8483424,
+        "dfo_id": 33212,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
+         "a": 2,
+         "g": 1,
+         "gp": 9,
+         "p": 3,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 885
+         "sog": 6,
+         "toi_s": 4843
         },
         "last5": {
          "a": 0,
@@ -27080,14 +27064,14 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3034
+         "sog": 1,
+         "toi_s": 2802
         },
-        "l5_point_games": 0,
-        "gp": 2,
+        "l5_point_games": 1,
+        "gp": 9,
         "move": {
-         "ev": 0,
-         "pp": -1,
+         "ev": -1,
+         "pp": 0,
          "new": false
         }
        }
@@ -27290,41 +27274,41 @@
         }
        },
        {
-        "name": "Adam Engstrom",
-        "jersey": 42,
+        "name": "David Reinbacher",
+        "jersey": 64,
         "pos": "RD",
         "slot": null,
-        "player_id": 8483686,
-        "dfo_id": 36434,
+        "player_id": 8484220,
+        "dfo_id": 37747,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 1,
-         "gp": 16,
-         "p": 2,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 10974
-        },
-        "last5": {
          "a": 0,
          "g": 0,
-         "gp": 5,
+         "gp": 1,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3478
+         "sog": 1,
+         "toi_s": 549
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4597
         },
         "l5_point_games": 0,
-        "gp": 16,
+        "gp": 1,
         "move": {
          "ev": 0,
-         "pp": 1,
-         "new": false
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -27496,41 +27480,41 @@
         }
        },
        {
-        "name": "Alexandre Texier",
-        "jersey": 85,
+        "name": "Zack Bolduc",
+        "jersey": 76,
         "pos": null,
         "slot": 3,
-        "player_id": 8480074,
-        "dfo_id": 4759,
+        "player_id": null,
+        "dfo_id": 31240,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
          "a": 3,
-         "g": 2,
-         "gp": 23,
-         "p": 5,
-         "ppp": 1,
-         "sog": 41,
-         "toi_s": 19216
+         "g": 6,
+         "gp": 22,
+         "p": 9,
+         "ppp": 3,
+         "sog": 34,
+         "toi_s": 19084
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 4763
+         "sog": 4,
+         "toi_s": 4707
         },
         "l5_point_games": 0,
-        "gp": 23,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -27764,25 +27748,25 @@
         }
        },
        {
-        "name": "Adam Engstrom",
-        "jersey": 42,
+        "name": "Alexandre Texier",
+        "jersey": 85,
         "pos": null,
         "slot": 5,
-        "player_id": 8483686,
-        "dfo_id": 36434,
+        "player_id": 8480074,
+        "dfo_id": 4759,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 1,
-         "gp": 16,
-         "p": 2,
-         "ppp": 0,
-         "sog": 14,
-         "toi_s": 10974
+         "a": 3,
+         "g": 2,
+         "gp": 23,
+         "p": 5,
+         "ppp": 1,
+         "sog": 41,
+         "toi_s": 19216
         },
         "last5": {
          "a": 0,
@@ -27790,14 +27774,14 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3478
+         "sog": 12,
+         "toi_s": 4763
         },
         "l5_point_games": 0,
-        "gp": 16,
+        "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 1,
+         "pp": -1,
          "new": false
         }
        }
@@ -28006,7 +27990,7 @@
         "dfo_id": 4759,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
@@ -28031,7 +28015,7 @@
         "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        },
@@ -28138,16 +28122,11 @@
        "player": "Mike Matheson",
        "status": "OUT",
        "news": "Matheson (lower-body) is expected to be out for 2-3 weeks."
-      },
-      {
-       "player": "Zack Bolduc",
-       "status": "DTD",
-       "news": "Bolduc (upper-body) will return to the Canadiens lineup on Saturday."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 31,
+       "rank": 32,
        "rating": 71.5857849960372
       },
       "d2": {
@@ -28163,15 +28142,15 @@
        "rating": 0
       },
       "f1": {
-       "rank": 33,
+       "rank": 34,
        "rating": 72.61254463393041
       },
       "f2": {
-       "rank": 35,
+       "rank": 34,
        "rating": 0
       },
       "f3": {
-       "rank": 15,
+       "rank": 14,
        "rating": 73.31329128075751
       },
       "f4": {
