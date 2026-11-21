@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T21:16:24.829884+00:00",
+ "generated_utc": "2026-11-21T21:31:30.945229+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -20,8 +20,8 @@
      "goalie_status": "Confirmed",
      "goalie_news": "Levi led the Oilers onto the ice for warmups.",
      "goalie_source": "Cory Lavalette",
-     "sv": "0.894",
-     "gaa": "2.75",
+     "sv": "0.892",
+     "gaa": "2.83",
      "ml": "-130",
      "gp": 24,
      "gf": 3.8333333333333335,
@@ -1976,8 +1976,8 @@
      "goalie_status": "Confirmed",
      "goalie_news": "Kochetkov led the Hurricanes onto the ice for warmups.",
      "goalie_source": "Cory Lavalette",
-     "sv": "0.91",
-     "gaa": "1.84",
+     "sv": "0.911",
+     "gaa": "1.8",
      "ml": "110",
      "gp": 22,
      "gf": 4.0,
@@ -3914,7 +3914,7 @@
      "goalie_news": "Knight led the Blackhawks onto the ice for warmups.",
      "goalie_source": "Ben Pope",
      "sv": "0.886",
-     "gaa": "3.49",
+     "gaa": "3.48",
      "ml": "-192",
      "gp": 22,
      "gf": 2.4545454545454546,
@@ -5858,8 +5858,8 @@
      "goalie_status": "Confirmed",
      "goalie_news": "Wolf led the Flames onto the ice for warmups.",
      "goalie_source": "Pat Steinberg",
-     "sv": "0.876",
-     "gaa": "3.43",
+     "sv": "0.88",
+     "gaa": "3.35",
      "ml": "160",
      "gp": 23,
      "gf": 2.4782608695652173,
@@ -13687,14 +13687,19 @@
      "ppga_rk": 32,
      "l5_gf": 2.8,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-19T18:09:25.509Z",
-     "lineup_checked": "2026-11-21T13:56:09.739240+00:00",
+     "lineup_as_of": "2026-11-21T21:17:16.703Z",
+     "lineup_checked": "2026-11-21T21:31:28.374709+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "William Trudeau",
        "status": "IR",
        "news": "Trudeau has been placed on IR with an upper-body injury and is considered week-to-week."
+      },
+      {
+       "player": "Ryan O'Reilly",
+       "status": "DTD",
+       "news": "O'Reilly (undisclosed) will be a game-time decision Saturday vs. the Penguins."
       }
      ],
      "lines": {
@@ -14091,7 +14096,7 @@
         }
        },
        "pos": "C",
-       "gtd": false,
+       "gtd": true,
        "role": "pp1",
        "bias": "A",
        "gp": 22,

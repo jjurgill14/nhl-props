@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T21:16:25.907533+00:00",
+ "generated_utc": "2026-11-21T21:31:31.940415+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1064,8 +1064,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Levi led the Oilers onto the ice for warmups.",
     "goalie_source": "Cory Lavalette",
-    "sv": "0.894",
-    "gaa": "2.75",
+    "sv": "0.892",
+    "gaa": "2.83",
     "lineup_as_of": "2026-11-21T04:05:56.868Z",
     "lineup_checked": "2026-11-21T13:56:09.256956+00:00",
     "lineup_stale": false,
@@ -1114,8 +1114,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Kochetkov led the Hurricanes onto the ice for warmups.",
     "goalie_source": "Cory Lavalette",
-    "sv": "0.91",
-    "gaa": "1.84",
+    "sv": "0.911",
+    "gaa": "1.8",
     "lineup_as_of": "2026-11-20T17:09:07.598Z",
     "lineup_checked": "2026-11-21T13:56:08.840333+00:00",
     "lineup_stale": false,
@@ -4906,7 +4906,7 @@
     "goalie_news": "Knight led the Blackhawks onto the ice for warmups.",
     "goalie_source": "Ben Pope",
     "sv": "0.886",
-    "gaa": "3.49",
+    "gaa": "3.48",
     "lineup_as_of": "2026-11-20T17:12:39.531Z",
     "lineup_checked": "2026-11-21T13:56:09.081472+00:00",
     "lineup_stale": false,
@@ -4961,8 +4961,8 @@
     "goalie_status": "Confirmed",
     "goalie_news": "Wolf led the Flames onto the ice for warmups.",
     "goalie_source": "Pat Steinberg",
-    "sv": "0.876",
-    "gaa": "3.43",
+    "sv": "0.88",
+    "gaa": "3.35",
     "lineup_as_of": "2026-11-20T17:16:28.606Z",
     "lineup_checked": "2026-11-21T13:56:08.997740+00:00",
     "lineup_stale": false,
@@ -12684,8 +12684,8 @@
     "goalie_source": "",
     "sv": "0.918",
     "gaa": "2.46",
-    "lineup_as_of": "2026-11-19T18:09:25.509Z",
-    "lineup_checked": "2026-11-21T13:56:09.739240+00:00",
+    "lineup_as_of": "2026-11-21T21:17:16.703Z",
+    "lineup_checked": "2026-11-21T21:31:28.374709+00:00",
     "lineup_stale": false,
     "ga_rk": 23,
     "gf_rk": 21,
@@ -12725,7 +12725,7 @@
      "away": "-218",
      "home": "+180",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-19T18:09:25.509Z"
+     "as_of": "2026-11-21T21:17:16.703Z"
     },
     "total": {
      "line": 6.5,
@@ -14907,11 +14907,11 @@
     },
     "home": {
      "team": "NSH",
-     "as_of": "2026-11-19T18:09:25.509Z",
-     "checked": "2026-11-21T13:56:09.739240+00:00",
+     "as_of": "2026-11-21T21:17:16.703Z",
+     "checked": "2026-11-21T21:31:28.374709+00:00",
      "stale": false,
      "source": "Alex Daugherty",
-     "updated_dfo": "2026-11-19T18:09:25.509Z",
+     "updated_dfo": "2026-11-21T21:17:16.703Z",
      "forwards": [
       [
        {
@@ -14959,7 +14959,7 @@
         "slot": null,
         "player_id": 8475158,
         "dfo_id": 362,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -15749,7 +15749,7 @@
         "slot": 2,
         "player_id": 8475158,
         "dfo_id": 362,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -16097,7 +16097,7 @@
         "slot": 1,
         "player_id": 8475158,
         "dfo_id": 362,
-        "gtd": false,
+        "gtd": true,
         "injury": null,
         "pp": 1,
         "pk": 1,
@@ -16403,6 +16403,11 @@
        "player": "William Trudeau",
        "status": "IR",
        "news": "Trudeau has been placed on IR with an upper-body injury and is considered week-to-week."
+      },
+      {
+       "player": "Ryan O'Reilly",
+       "status": "DTD",
+       "news": "O'Reilly (undisclosed) will be a game-time decision Saturday vs. the Penguins."
       }
      ],
      "unit_ratings": {
@@ -16411,11 +16416,11 @@
        "rating": 79.34439793157011
       },
       "d2": {
-       "rank": 26,
+       "rank": 24,
        "rating": 72.5897779051874
       },
       "d3": {
-       "rank": 11,
+       "rank": 10,
        "rating": 73.40098715290901
       },
       "d4": {
@@ -16423,19 +16428,19 @@
        "rating": 0
       },
       "f1": {
-       "rank": 5,
+       "rank": 6,
        "rating": 79.26043322204985
       },
       "f2": {
-       "rank": 16,
+       "rank": 15,
        "rating": 74.39236704614952
       },
       "f3": {
-       "rank": 18,
+       "rank": 17,
        "rating": 73.16742412007515
       },
       "f4": {
-       "rank": 35,
+       "rank": 33,
        "rating": 0
       },
       "g": {
