@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T23:33:55.430194+00:00",
+ "generated_utc": "2026-11-21T23:39:04.393757+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -28176,8 +28176,8 @@
     "record": "7-11-2",
     "b2b": false,
     "goalie": "Anton Forsberg",
-    "goalie_status": "Likely",
-    "goalie_news": "Forsberg is expected to start Saturday in Ottawa.",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Forsberg led the Kings onto the ice for warmups.",
     "goalie_source": "Zach Dooley",
     "sv": "0.908",
     "gaa": "2.39",
@@ -28187,7 +28187,13 @@
     "ga_rk": 14,
     "gf_rk": 26,
     "ppga_rk": 3,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T23:38:58.077211+00:00",
+      "kind": "goalie",
+      "text": "G: Anton Forsberg confirmed"
+     }
+    ],
     "rates": {
      "gp": 20,
      "pp_gp": 20,
@@ -32065,8 +32071,8 @@
     "record": "10-6-5",
     "b2b": false,
     "goalie": "Ilya Sorokin",
-    "goalie_status": "Likely",
-    "goalie_news": "Sorokin is in the starter's net at the Islanders morning skate.",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Sorokin led the Islanders onto the ice for warmups.",
     "goalie_source": "Andrew Gross",
     "sv": "0.919",
     "gaa": "2.42",
@@ -32091,6 +32097,11 @@
       "at": "2026-11-21T21:01:03.138432+00:00",
       "kind": "move",
       "text": "Adam Pelech: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-21T23:38:58.239533+00:00",
+      "kind": "goalie",
+      "text": "G: Ilya Sorokin confirmed"
      }
     ],
     "rates": {
@@ -35908,9 +35919,9 @@
     "record": "15-7-0",
     "b2b": false,
     "goalie": "Connor Hellebuyck",
-    "goalie_status": "Likely",
-    "goalie_news": "Hellebuyck was the first goalie off the ice at the Devils morning skate.",
-    "goalie_source": "Amanda Stein",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Hellebuyck led the Devils onto the ice for warmups.",
+    "goalie_source": "Lou Korac",
     "sv": "0.912",
     "gaa": "2.36",
     "lineup_as_of": "2026-11-21T04:08:07.187Z",
@@ -35919,7 +35930,13 @@
     "ga_rk": 22,
     "gf_rk": 6,
     "ppga_rk": 12,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T23:38:58.383072+00:00",
+      "kind": "goalie",
+      "text": "G: Connor Hellebuyck confirmed"
+     }
+    ],
     "rates": {
      "gp": 22,
      "pp_gp": 22,
@@ -35957,12 +35974,12 @@
     "color2": "#FCB514",
     "record": "11-9-2",
     "b2b": false,
-    "goalie": "Joel Hofer",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.923",
-    "gaa": "2.26",
+    "goalie": "Jordan Binnington",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Binnington led the Blues onto the ice for warmups.",
+    "goalie_source": "Lou Korac",
+    "sv": "0.843",
+    "gaa": "4.55",
     "lineup_as_of": "2026-11-21T18:01:51.166Z",
     "lineup_checked": "2026-11-21T21:01:04.183861+00:00",
     "lineup_stale": false,
@@ -35979,6 +35996,11 @@
       "at": "2026-11-21T21:01:04.188257+00:00",
       "kind": "out",
       "text": "OUT: Nathan Walker (was L4)"
+     },
+     {
+      "at": "2026-11-21T23:38:58.453642+00:00",
+      "kind": "goalie",
+      "text": "G: Jordan Binnington (Confirmed) replaces Joel Hofer"
      }
     ],
     "rates": {
