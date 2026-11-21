@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T19:55:02.458739+00:00",
+ "generated_utc": "2026-11-21T20:00:09.385572+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -3901,7 +3901,7 @@
    "start_et": "3:30 PM",
    "away": "CHI",
    "home": "CGY",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Scotiabank Saddledome",
    "teams": {
     "away": {
@@ -9770,14 +9770,14 @@
      "ppga_rk": 20,
      "l5_gf": 3.2,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-19T17:53:03.756Z",
-     "lineup_checked": "2026-11-21T13:56:09.353909+00:00",
+     "lineup_as_of": "2026-11-21T15:47:03.596Z",
+     "lineup_checked": "2026-11-21T20:00:05.904639+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Aleksander Barkov",
        "status": "IR",
-       "news": "Barkov (knee) is nearing a return and will be evaluated by doctors on Friday."
+       "news": "Barkov (knee) will not play Saturday vs. the Sabres."
       },
       {
        "player": "Jonah Gadjovich",
@@ -9787,44 +9787,44 @@
       {
        "player": "Brad Marchand",
        "status": "IR",
-       "news": "Marchand (knee) is nearing a return and will be evaluated by doctors on Friday."
+       "news": "Marchand (knee) will not play Saturday vs. the Sabres."
       }
      ],
      "lines": {
       "1": [
-       "Carter Verhaeghe",
-       "Aleksander Barkov",
-       "Sam Reinhart"
-      ],
-      "2": [
        "Brady Tkachuk",
        "Sam Bennett",
        "Matthew Tkachuk"
       ],
-      "3": [
+      "2": [
        "Eetu Luostarinen",
        "Anton Lundell",
-       "Brad Marchand"
+       "Sam Reinhart"
+      ],
+      "3": [
+       "Carter Verhaeghe",
+       "Lars Eller",
+       "Sandis Vilmanis"
       ],
       "4": [
        "Bokondji Imama",
-       "Lars Eller",
+       "Cole Schwindt",
        "Garnet Hathaway"
       ]
      },
      "pp1": [
       "Brady Tkachuk",
-      "Aleksander Barkov",
       "Sam Reinhart",
-      "Seth Jones",
-      "Matthew Tkachuk"
+      "Matthew Tkachuk",
+      "Carter Verhaeghe",
+      "Seth Jones"
      ],
      "pp2": [
+      "Eetu Luostarinen",
       "Sam Bennett",
-      "Anton Lundell",
-      "Brad Marchand",
-      "Carter Verhaeghe",
-      "Aaron Ekblad"
+      "Lars Eller",
+      "Aaron Ekblad",
+      "Anton Lundell"
      ],
      "players": [
       {
@@ -9834,7 +9834,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -9910,7 +9910,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -9940,8 +9940,8 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 1,
-       "pp": 2,
+       "line": 3,
+       "pp": 1,
        "sneaky": false,
        "form": {
         "points": {
@@ -9950,8 +9950,8 @@
          "n5": 5,
          "k10": 7,
          "n10": 10,
-         "p": 0.6330981893860562,
-         "p_hot": 0.6491660028050493,
+         "p": 0.6936817481789803,
+         "p_hot": 0.7308221037868164,
          "heater": false
         },
         "goals": {
@@ -9960,8 +9960,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.28474272632674297,
-         "p_hot": 0.17964342215988782,
+         "p": 0.31200532778355883,
+         "p_hot": 0.21638866760168307,
          "heater": false
         },
         "assists": {
@@ -9970,14 +9970,14 @@
          "n5": 5,
          "k10": 6,
          "n10": 10,
-         "p": 0.4134827887617066,
-         "p_hot": 0.5573028892005611,
+         "p": 0.4589204578563997,
+         "p_hot": 0.6185449649368865,
          "heater": true
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "pp1",
        "bias": "A",
        "gp": 23,
        "pt_games": 14,
@@ -10003,12 +10003,12 @@
        "l5_venue_two": 2,
        "pp_toi": 2.6,
        "toi": 18.5,
-       "p": 0.633,
-       "fair": "-173",
-       "min": "-148",
-       "p2": 0.214,
-       "fair2": "+368",
-       "min2": "+396",
+       "p": 0.694,
+       "fair": "-226",
+       "min": "-189",
+       "p2": 0.25,
+       "fair2": "+300",
+       "min2": "+324",
        "adj": [
         [
          "opp",
@@ -10020,26 +10020,26 @@
         ]
        ],
        "move": {
-        "ev": 1,
-        "pp": -1,
+        "ev": 0,
+        "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Aleksander Barkov",
-         "jersey": 16,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Lars Eller",
+         "jersey": 20,
+         "pp": 2,
+         "n": 10,
+         "both": 4,
+         "either": 6
         },
         {
-         "name": "Sam Reinhart",
-         "jersey": 13,
-         "pp": 1,
-         "n": 17,
-         "both": 10,
-         "either": 15
+         "name": "Sandis Vilmanis",
+         "jersey": 95,
+         "pp": null,
+         "n": 6,
+         "both": 3,
+         "either": 6
         }
        ]
       },
@@ -10142,119 +10142,13 @@
        ]
       },
       {
-       "name": "Sam Reinhart",
-       "jersey": 13,
-       "team": "FLA",
-       "opp": "BUF",
-       "section": "F",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 14,
-         "k5": 4,
-         "n5": 5,
-         "k10": 8,
-         "n10": 10,
-         "p": 0.6306197710718002,
-         "p_hot": 0.7571747545582048,
-         "heater": true
-        },
-        "goals": {
-         "k": 10,
-         "k5": 3,
-         "n5": 5,
-         "k10": 6,
-         "n10": 10,
-         "p": 0.4213311134235172,
-         "p_hot": 0.521485553997195,
-         "heater": true
-        },
-        "assists": {
-         "k": 9,
-         "k5": 2,
-         "n5": 5,
-         "k10": 5,
-         "n10": 10,
-         "p": 0.41720041623309057,
-         "p_hot": 0.4695225806451614,
-         "heater": true
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": null,
-       "gp": 23,
-       "pt_games": 14,
-       "l5": [
-        4,
-        5
-       ],
-       "ast_games": 9,
-       "goal_games": 10,
-       "two_games": 6,
-       "home_split": [
-        6,
-        8
-       ],
-       "away_split": [
-        8,
-        15
-       ],
-       "l5_venue": [
-        4,
-        5
-       ],
-       "l5_venue_two": 2,
-       "pp_toi": 2.8,
-       "toi": 19.4,
-       "p": 0.631,
-       "fair": "-171",
-       "min": "-147",
-       "p2": 0.262,
-       "fair2": "+282",
-       "min2": "+305",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Carter Verhaeghe",
-         "jersey": 23,
-         "pp": 2,
-         "n": 17,
-         "both": 10,
-         "either": 15
-        },
-        {
-         "name": "Aleksander Barkov",
-         "jersey": 16,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Brady Tkachuk",
        "jersey": 8,
        "team": "FLA",
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -10330,7 +10224,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -10354,81 +10248,81 @@
        ]
       },
       {
-       "name": "Aleksander Barkov",
-       "jersey": 16,
+       "name": "Sam Reinhart",
+       "jersey": 13,
        "team": "FLA",
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
         "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.46098580645161297,
-         "p_hot": 0.3841548387096775,
-         "heater": false
+         "k": 14,
+         "k5": 4,
+         "n5": 5,
+         "k10": 8,
+         "n10": 10,
+         "p": 0.6306197710718002,
+         "p_hot": 0.7571747545582048,
+         "heater": true
         },
         "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.23902967741935488,
-         "p_hot": 0.19919139784946238,
-         "heater": false
+         "k": 10,
+         "k5": 3,
+         "n5": 5,
+         "k10": 6,
+         "n10": 10,
+         "p": 0.4213311134235172,
+         "p_hot": 0.521485553997195,
+         "heater": true
         },
         "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.3329341935483871,
-         "p_hot": 0.2774451612903226,
-         "heater": false
+         "k": 9,
+         "k5": 2,
+         "n5": 5,
+         "k10": 5,
+         "n10": 10,
+         "p": 0.41720041623309057,
+         "p_hot": 0.4695225806451614,
+         "heater": true
         }
        },
-       "pos": "C",
-       "gtd": true,
+       "pos": "RW",
+       "gtd": false,
        "role": "pp1",
        "bias": null,
-       "gp": 2,
-       "pt_games": 0,
+       "gp": 23,
+       "pt_games": 14,
        "l5": [
-        0,
-        2
+        4,
+        5
        ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
+       "ast_games": 9,
+       "goal_games": 10,
+       "two_games": 6,
        "home_split": [
-        0,
-        0
+        6,
+        8
        ],
        "away_split": [
-        0,
-        2
+        8,
+        15
        ],
        "l5_venue": [
-        0,
-        0
+        4,
+        5
        ],
-       "l5_venue_two": 0,
-       "pp_toi": 4.7,
-       "toi": 14.9,
-       "p": 0.461,
-       "fair": "+117",
-       "min": "+130",
-       "p2": 0.171,
-       "fair2": "+486",
-       "min2": "+521",
+       "l5_venue_two": 2,
+       "pp_toi": 2.8,
+       "toi": 19.4,
+       "p": 0.631,
+       "fair": "-171",
+       "min": "-147",
+       "p2": 0.262,
+       "fair2": "+282",
+       "min2": "+305",
        "adj": [
         [
          "opp",
@@ -10438,22 +10332,22 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": true
+        "new": false
        },
        "partners": [
         {
-         "name": "Carter Verhaeghe",
-         "jersey": 23,
+         "name": "Eetu Luostarinen",
+         "jersey": 27,
          "pp": 2,
-         "n": 0,
+         "n": 1,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Sam Reinhart",
-         "jersey": 13,
-         "pp": 1,
-         "n": 2,
+         "name": "Anton Lundell",
+         "jersey": 15,
+         "pp": 2,
+         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -10466,8 +10360,8 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 4,
-       "pp": null,
+       "line": 3,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -10542,26 +10436,26 @@
         ]
        ],
        "move": {
-        "ev": -1,
-        "pp": -1,
+        "ev": 0,
+        "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Bokondji Imama",
-         "jersey": 14,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 2
+         "name": "Carter Verhaeghe",
+         "jersey": 23,
+         "pp": 1,
+         "n": 10,
+         "both": 4,
+         "either": 6
         },
         {
-         "name": "Garnet Hathaway",
-         "jersey": 21,
+         "name": "Sandis Vilmanis",
+         "jersey": 95,
          "pp": null,
-         "n": 4,
+         "n": 1,
          "both": 0,
-         "either": 2
+         "either": 0
         }
        ]
       },
@@ -10572,7 +10466,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -10648,7 +10542,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -10668,6 +10562,112 @@
          "n": 20,
          "both": 7,
          "either": 17
+        }
+       ]
+      },
+      {
+       "name": "Anton Lundell",
+       "jersey": 15,
+       "team": "FLA",
+       "opp": "BUF",
+       "section": "F",
+       "home": true,
+       "line": 2,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 7,
+         "k5": 3,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.3457393548387097,
+         "p_hot": 0.4509643758765779,
+         "heater": true
+        },
+        "goals": {
+         "k": 4,
+         "k5": 2,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.1963458064516129,
+         "p_hot": 0.3024987377279102,
+         "heater": true
+        },
+        "assists": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.17500387096774195,
+         "p_hot": 0.18187040673211782,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "top6",
+       "bias": "G",
+       "gp": 22,
+       "pt_games": 7,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 4,
+       "two_games": 3,
+       "home_split": [
+        2,
+        8
+       ],
+       "away_split": [
+        5,
+        14
+       ],
+       "l5_venue": [
+        2,
+        5
+       ],
+       "l5_venue_two": 2,
+       "pp_toi": 0.8,
+       "toi": 16.7,
+       "p": 0.346,
+       "fair": "+189",
+       "min": "+207",
+       "p2": 0.129,
+       "fair2": "+672",
+       "min2": "+719",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Eetu Luostarinen",
+         "jersey": 27,
+         "pp": 2,
+         "n": 20,
+         "both": 3,
+         "either": 6
+        },
+        {
+         "name": "Sam Reinhart",
+         "jersey": 13,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -10770,187 +10770,81 @@
        ]
       },
       {
-       "name": "Anton Lundell",
-       "jersey": 15,
+       "name": "Sandis Vilmanis",
+       "jersey": 95,
        "team": "FLA",
        "opp": "BUF",
        "section": "F",
        "home": true,
        "line": 3,
-       "pp": 2,
+       "pp": null,
        "sneaky": true,
        "form": {
         "points": {
-         "k": 7,
-         "k5": 3,
+         "k": 5,
+         "k5": 1,
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.3201290322580645,
-         "p_hot": 0.4175596072931277,
-         "heater": true
+         "p": 0.2667741935483871,
+         "p_hot": 0.3247685834502104,
+         "heater": false
         },
         "goals": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.11280737327188942,
+         "p_hot": 0.13733071528751753,
+         "heater": false
+        },
+        "assists": {
          "k": 4,
-         "k5": 2,
+         "k5": 1,
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.17642666666666668,
-         "p_hot": 0.27651725105189345,
-         "heater": true
-        },
-        "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1493935483870968,
-         "p_hot": 0.14846563814866762,
+         "p": 0.1981751152073733,
+         "p_hot": 0.24125666199158485,
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
-       "bias": "G",
-       "gp": 22,
-       "pt_games": 7,
+       "bias": null,
+       "gp": 20,
+       "pt_games": 5,
        "l5": [
-        3,
+        1,
         5
        ],
-       "ast_games": 3,
-       "goal_games": 4,
-       "two_games": 3,
+       "ast_games": 4,
+       "goal_games": 2,
+       "two_games": 1,
        "home_split": [
         2,
         8
        ],
        "away_split": [
-        5,
-        14
+        3,
+        12
        ],
        "l5_venue": [
         2,
         5
        ],
-       "l5_venue_two": 2,
-       "pp_toi": 0.8,
-       "toi": 16.7,
-       "p": 0.32,
-       "fair": "+212",
-       "min": "+231",
-       "p2": 0.118,
-       "fair2": "+747",
-       "min2": "+798",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": -1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Eetu Luostarinen",
-         "jersey": 27,
-         "pp": null,
-         "n": 20,
-         "both": 3,
-         "either": 6
-        },
-        {
-         "name": "Brad Marchand",
-         "jersey": 63,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Brad Marchand",
-       "jersey": 63,
-       "team": "FLA",
-       "opp": "BUF",
-       "section": "F",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 1,
-         "n5": 2,
-         "k10": 1,
-         "n10": 2,
-         "p": 0.3201290322580645,
-         "p_hot": 0.3556989247311828,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 2,
-         "k10": 1,
-         "n10": 2,
-         "p": 0.2091509677419355,
-         "p_hot": 0.26321720430107526,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.1280516129032258,
-         "p_hot": 0.10670967741935483,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": true,
-       "role": "other",
-       "bias": null,
-       "gp": 2,
-       "pt_games": 1,
-       "l5": [
-        1,
-        2
-       ],
-       "ast_games": 0,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        0,
-        0
-       ],
-       "away_split": [
-        1,
-        2
-       ],
-       "l5_venue": [
-        0,
-        0
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.3,
-       "toi": 11.4,
-       "p": 0.32,
-       "fair": "+212",
-       "min": "+231",
-       "p2": 0.034,
-       "fair2": "+2829",
-       "min2": "+3004",
+       "l5_venue_two": 1,
+       "pp_toi": 0.0,
+       "toi": 11.5,
+       "p": 0.267,
+       "fair": "+275",
+       "min": "+297",
+       "p2": 0.05,
+       "fair2": "+1888",
+       "min2": "+2007",
        "adj": [
         [
          "opp",
@@ -10960,22 +10854,22 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": true
+        "new": false
        },
        "partners": [
         {
-         "name": "Eetu Luostarinen",
-         "jersey": 27,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Carter Verhaeghe",
+         "jersey": 23,
+         "pp": 1,
+         "n": 6,
+         "both": 3,
+         "either": 6
         },
         {
-         "name": "Anton Lundell",
-         "jersey": 15,
+         "name": "Lars Eller",
+         "jersey": 20,
          "pp": 2,
-         "n": 0,
+         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -10988,9 +10882,9 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
+       "line": 2,
+       "pp": 2,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 3,
@@ -10998,8 +10892,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.17211238293444328,
-         "p_hot": 0.23197755960729313,
+         "p": 0.19689656607700315,
+         "p_hot": 0.26538232819074337,
          "heater": false
         },
         "goals": {
@@ -11008,8 +10902,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.06746805411030177,
-         "p_hot": 0.04453969144460028,
+         "p": 0.08674464099895941,
+         "p_hot": 0.0705211781206171,
          "heater": false
         },
         "assists": {
@@ -11018,14 +10912,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.11015192507804371,
-         "p_hot": 0.19486115007012622,
+         "p": 0.13493610822060353,
+         "p_hot": 0.22826591865357646,
          "heater": false
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 23,
        "pt_games": 3,
@@ -11051,12 +10945,12 @@
        "l5_venue_two": 1,
        "pp_toi": 0.4,
        "toi": 16.1,
-       "p": 0.172,
-       "fair": "+481",
-       "min": "+516",
-       "p2": 0.08,
-       "fair2": "+1152",
-       "min2": "+1227",
+       "p": 0.197,
+       "fair": "+408",
+       "min": "+438",
+       "p2": 0.091,
+       "fair2": "+1000",
+       "min2": "+1066",
        "adj": [
         [
          "opp",
@@ -11064,8 +10958,8 @@
         ]
        ],
        "move": {
-        "ev": -1,
-        "pp": -1,
+        "ev": 0,
+        "pp": 0,
         "new": false
        },
        "partners": [
@@ -11078,10 +10972,10 @@
          "either": 6
         },
         {
-         "name": "Brad Marchand",
-         "jersey": 63,
-         "pp": 2,
-         "n": 0,
+         "name": "Sam Reinhart",
+         "jersey": 13,
+         "pp": 1,
+         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -11227,7 +11121,7 @@
          "heater": false
         }
        },
-       "pos": "RD",
+       "pos": "LD",
        "gtd": false,
        "role": "d",
        "bias": null,
@@ -11274,11 +11168,11 @@
        },
        "partners": [
         {
-         "name": "Uvis Balinskis",
-         "jersey": 26,
+         "name": "Radko Gudas",
+         "jersey": 6,
          "pp": null,
-         "n": 8,
-         "both": 1,
+         "n": 11,
+         "both": 0,
          "either": 1
         }
        ]
@@ -11382,104 +11276,6 @@
        ]
       },
       {
-       "name": "Uvis Balinskis",
-       "jersey": 26,
-       "team": "FLA",
-       "opp": "BUF",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.15152774193548385,
-         "p_hot": 0.1317632538569425,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.025610322580645162,
-         "p_hot": 0.02226984572230014,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1301858064516129,
-         "p_hot": 0.11320504908835906,
-         "heater": false
-        }
-       },
-       "pos": "LD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 12,
-       "pt_games": 1,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        4
-       ],
-       "away_split": [
-        0,
-        8
-       ],
-       "l5_venue": [
-        1,
-        4
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.8,
-       "toi": 14.4,
-       "p": 0.152,
-       "fair": "+560",
-       "min": "+600",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Dmitry Kulikov",
-         "jersey": 7,
-         "pp": null,
-         "n": 8,
-         "both": 1,
-         "either": 1
-        }
-       ]
-      },
-      {
        "name": "Garnet Hathaway",
        "jersey": 21,
        "team": "FLA",
@@ -11576,12 +11372,216 @@
          "either": 1
         },
         {
-         "name": "Lars Eller",
-         "jersey": 20,
+         "name": "Cole Schwindt",
+         "jersey": 79,
          "pp": null,
-         "n": 4,
+         "n": 13,
          "both": 0,
-         "either": 2
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Cole Schwindt",
+       "jersey": 79,
+       "team": "FLA",
+       "opp": "BUF",
+       "section": "F",
+       "home": true,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.09700879765395895,
+         "p_hot": 0.09279102384291725,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.04656422287390029,
+         "p_hot": 0.04453969144460028,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.05820527859237536,
+         "p_hot": 0.05567461430575035,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 14,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        5
+       ],
+       "away_split": [
+        0,
+        9
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 9.9,
+       "p": 0.097,
+       "fair": "+931",
+       "min": "+993",
+       "p2": 0.016,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Bokondji Imama",
+         "jersey": 14,
+         "pp": null,
+         "n": 14,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Garnet Hathaway",
+         "jersey": 21,
+         "pp": null,
+         "n": 13,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Radko Gudas",
+       "jersey": 6,
+       "team": "FLA",
+       "opp": "BUF",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.08536774193548388,
+         "p_hot": 0.08536774193548388,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.02226984572230014,
+         "p_hot": 0.02226984572230014,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.06680953716690041,
+         "p_hot": 0.06680953716690041,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 15,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        4
+       ],
+       "away_split": [
+        0,
+        11
+       ],
+       "l5_venue": [
+        0,
+        4
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 14.4,
+       "p": 0.085,
+       "fair": "+1071",
+       "min": "+1142",
+       "p2": 0.011,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Dmitry Kulikov",
+         "jersey": 7,
+         "pp": null,
+         "n": 11,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -11674,12 +11674,12 @@
        },
        "partners": [
         {
-         "name": "Lars Eller",
-         "jersey": 20,
+         "name": "Cole Schwindt",
+         "jersey": 79,
          "pp": null,
-         "n": 4,
+         "n": 14,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Garnet Hathaway",
@@ -42949,7 +42949,7 @@
      "goalie_source": "Zach Cavanagh",
      "sv": "0.856",
      "gaa": "3.76",
-     "ml": "-180",
+     "ml": "-162",
      "gp": 23,
      "gf": 3.6956521739130435,
      "gf_rk": 5,
@@ -44890,7 +44890,7 @@
      "goalie_source": "Cole Bagley",
      "sv": "0.879",
      "gaa": "3.23",
-     "ml": "150",
+     "ml": "136",
      "gp": 23,
      "gf": 3.347826086956522,
      "gf_rk": 10,

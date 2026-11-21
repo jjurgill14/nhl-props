@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T19:55:03.488166+00:00",
+ "generated_utc": "2026-11-21T20:00:10.393855+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -4891,7 +4891,7 @@
    "id": "02",
    "game_id": 2026020360,
    "start_utc": "2026-11-21T20:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Scotiabank Saddledome",
    "away": {
     "abbr": "CHI",
@@ -8779,13 +8779,84 @@
     "goalie_source": "@FlaPanthers",
     "sv": "0.898",
     "gaa": "2.56",
-    "lineup_as_of": "2026-11-19T17:53:03.756Z",
-    "lineup_checked": "2026-11-21T13:56:09.353909+00:00",
+    "lineup_as_of": "2026-11-21T15:47:03.596Z",
+    "lineup_checked": "2026-11-21T20:00:05.904639+00:00",
     "lineup_stale": false,
     "ga_rk": 18,
     "gf_rk": 15,
     "ppga_rk": 20,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "in",
+      "text": "IN: Sandis Vilmanis \u2192 L3"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "in",
+      "text": "IN: Cole Schwindt \u2192 L4"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "in",
+      "text": "IN: Radko Gudas \u2192 L3"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "out",
+      "text": "OUT: Aleksander Barkov (was L1) \u2192 IR"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "out",
+      "text": "OUT: Brad Marchand (was L3) \u2192 IR"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "out",
+      "text": "OUT: Uvis Balinskis (was L3)"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Brady Tkachuk: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Sam Bennett: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Matthew Tkachuk: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Eetu Luostarinen: L3\u2192L2, PP-\u2192PP2"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Anton Lundell: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Sam Reinhart: L1\u2192L2"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Carter Verhaeghe: L1\u2192L3, PP2\u2192PP1"
+     },
+     {
+      "at": "2026-11-21T20:00:05.907499+00:00",
+      "kind": "move",
+      "text": "Lars Eller: L4\u2192L3, PP-\u2192PP2"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -8820,7 +8891,7 @@
      "away": "-205",
      "home": "+170",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-19T17:53:03.756Z"
+     "as_of": "2026-11-21T15:47:03.596Z"
     },
     "total": {
      "line": 6.5,
@@ -8874,10 +8945,25 @@
       "player": "Matthew Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": "A",
       "players": [
        8479314
+      ]
+     },
+     {
+      "selection": "Carter Verhaeghe \u00b7 1+ point",
+      "prob": 0.694,
+      "fair": "-227",
+      "need": "-190",
+      "rationale": "Point in 14 of 23 this season \u00b7 3 of L5 \u00b7 5 of L5 home",
+      "player": "Carter Verhaeghe",
+      "team": "FLA",
+      "pp": 1,
+      "line": 3,
+      "bias": "A",
+      "players": [
+       8477409
       ]
      },
      {
@@ -8896,21 +8982,6 @@
       ]
      },
      {
-      "selection": "Carter Verhaeghe \u00b7 1+ point",
-      "prob": 0.633,
-      "fair": "-172",
-      "need": "-148",
-      "rationale": "Point in 14 of 23 this season \u00b7 3 of L5 \u00b7 5 of L5 home",
-      "player": "Carter Verhaeghe",
-      "team": "FLA",
-      "pp": 2,
-      "line": 1,
-      "bias": "A",
-      "players": [
-       8477409
-      ]
-     },
-     {
       "selection": "Seth Jones \u00b7 1+ point",
       "prob": 0.633,
       "fair": "-172",
@@ -8926,21 +8997,6 @@
       ]
      },
      {
-      "selection": "Sam Reinhart \u00b7 1+ point",
-      "prob": 0.631,
-      "fair": "-171",
-      "need": "-147",
-      "rationale": "Point in 14 of 23 this season \u00b7 4 of L5 \u00b7 4 of L5 home",
-      "player": "Sam Reinhart",
-      "team": "FLA",
-      "pp": 1,
-      "line": 1,
-      "bias": null,
-      "players": [
-       8477933
-      ]
-     },
-     {
       "selection": "Brady Tkachuk \u00b7 1+ point",
       "prob": 0.631,
       "fair": "-171",
@@ -8949,10 +9005,25 @@
       "player": "Brady Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": "A",
       "players": [
        8480801
+      ]
+     },
+     {
+      "selection": "Sam Reinhart \u00b7 1+ point",
+      "prob": 0.631,
+      "fair": "-171",
+      "need": "-147",
+      "rationale": "Point in 14 of 23 this season \u00b7 4 of L5 \u00b7 4 of L5 home",
+      "player": "Sam Reinhart",
+      "team": "FLA",
+      "pp": 1,
+      "line": 2,
+      "bias": null,
+      "players": [
+       8477933
       ]
      }
     ],
@@ -8966,7 +9037,7 @@
       "player": "Matthew Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8479314
       ]
@@ -9008,9 +9079,23 @@
       "player": "Brady Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8480801
+      ]
+     },
+     {
+      "selection": "Carter Verhaeghe \u00b7 1+ assist",
+      "prob": 0.459,
+      "fair": "+118",
+      "need": "+131",
+      "rationale": "Assist in 9 of 23 this season \u00b7 3 of L5",
+      "player": "Carter Verhaeghe",
+      "team": "FLA",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8477409
       ]
      },
      {
@@ -9025,20 +9110,6 @@
       "line": 1,
       "players": [
        8480839
-      ]
-     },
-     {
-      "selection": "Sam Reinhart \u00b7 1+ assist",
-      "prob": 0.417,
-      "fair": "+140",
-      "need": "+154",
-      "rationale": "Assist in 9 of 23 this season \u00b7 2 of L5",
-      "player": "Sam Reinhart",
-      "team": "FLA",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8477933
       ]
      }
     ],
@@ -9066,7 +9137,7 @@
       "player": "Sam Reinhart",
       "team": "FLA",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8477933
       ]
@@ -9087,14 +9158,14 @@
      },
      {
       "selection": "Carter Verhaeghe \u00b7 1+ goal",
-      "prob": 0.285,
-      "fair": "+251",
-      "need": "+272",
+      "prob": 0.312,
+      "fair": "+221",
+      "need": "+240",
       "rationale": "Goal in 6 of 23 this season \u00b7 0 of L5",
       "player": "Carter Verhaeghe",
       "team": "FLA",
-      "pp": 2,
-      "line": 1,
+      "pp": 1,
+      "line": 3,
       "players": [
        8477409
       ]
@@ -9108,7 +9179,7 @@
       "player": "Matthew Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8479314
       ]
@@ -9122,29 +9193,13 @@
       "player": "Brady Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8480801
       ]
      }
     ],
-    "sneaky_point": [
-     {
-      "selection": "Anton Lundell \u00b7 1+ point",
-      "prob": 0.418,
-      "fair": "+139",
-      "need": "+154",
-      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 7 of 22 season",
-      "player": "Anton Lundell",
-      "team": "FLA",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8482113
-      ],
-      "sneaky": true
-     }
-    ],
+    "sneaky_point": [],
     "sneaky_assist": [
      {
       "selection": "Tyson Kozak \u00b7 1+ assist",
@@ -9194,30 +9249,15 @@
     ],
     "sneaky_goal": [
      {
-      "selection": "Anton Lundell \u00b7 1+ goal",
-      "prob": 0.277,
-      "fair": "+262",
-      "need": "+283",
-      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 22 season",
-      "player": "Anton Lundell",
-      "team": "FLA",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8482113
-      ],
-      "sneaky": true
-     },
-     {
       "selection": "Lars Eller \u00b7 1+ goal",
       "prob": 0.23,
       "fair": "+335",
       "need": "+361",
-      "rationale": "L4 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 23 season",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 23 season",
       "player": "Lars Eller",
       "team": "FLA",
-      "pp": null,
-      "line": 4,
+      "pp": 2,
+      "line": 3,
       "players": [
        8474189
       ],
@@ -9232,7 +9272,7 @@
       "need": "-208",
       "rationale": "Both scored 14 of 18 games together \u00b7 independent 53% \u00b7 correlated",
       "team": "FLA",
-      "line": 2,
+      "line": 1,
       "read": "correlated",
       "both": 14,
       "n": 18,
@@ -9258,22 +9298,6 @@
       ]
      },
      {
-      "selection": "Verhaeghe + Reinhart \u00b7 both 1+ point",
-      "prob": 0.539,
-      "fair": "-117",
-      "need": "-103",
-      "rationale": "Both scored 10 of 17 games together \u00b7 independent 40% \u00b7 correlated",
-      "team": "FLA",
-      "line": 1,
-      "read": "correlated",
-      "both": 10,
-      "n": 17,
-      "players": [
-       8477409,
-       8477933
-      ]
-     },
-     {
       "selection": "Quinn + Ostlund \u00b7 both 1+ point",
       "prob": 0.386,
       "fair": "+159",
@@ -9290,13 +9314,29 @@
       ]
      },
      {
+      "selection": "Verhaeghe + Eller \u00b7 both 1+ point",
+      "prob": 0.357,
+      "fair": "+180",
+      "need": "+197",
+      "rationale": "Both scored 4 of 10 games together \u00b7 independent 29% \u00b7 correlated",
+      "team": "FLA",
+      "line": 3,
+      "read": "correlated",
+      "both": 4,
+      "n": 10,
+      "players": [
+       8477409,
+       8474189
+      ]
+     },
+     {
       "selection": "Tkachuk + Bennett \u00b7 both 1+ point",
       "prob": 0.347,
       "fair": "+188",
       "need": "+205",
       "rationale": "Both scored 7 of 20 games together \u00b7 independent 34% \u00b7 independent",
       "team": "FLA",
-      "line": 2,
+      "line": 1,
       "read": "independent",
       "both": 7,
       "n": 20,
@@ -9308,20 +9348,6 @@
     ],
     "two": [
      {
-      "selection": "Sam Reinhart \u00b7 2+ points",
-      "prob": 0.262,
-      "fair": "+282",
-      "need": "+305",
-      "rationale": "2+ in 6 of 23 this season \u00b7 2 of L5 home",
-      "player": "Sam Reinhart",
-      "team": "FLA",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8477933
-      ]
-     },
-     {
       "selection": "Brady Tkachuk \u00b7 2+ points",
       "prob": 0.262,
       "fair": "+282",
@@ -9330,9 +9356,37 @@
       "player": "Brady Tkachuk",
       "team": "FLA",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8480801
+      ]
+     },
+     {
+      "selection": "Sam Reinhart \u00b7 2+ points",
+      "prob": 0.262,
+      "fair": "+282",
+      "need": "+305",
+      "rationale": "2+ in 6 of 23 this season \u00b7 2 of L5 home",
+      "player": "Sam Reinhart",
+      "team": "FLA",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8477933
+      ]
+     },
+     {
+      "selection": "Carter Verhaeghe \u00b7 2+ points",
+      "prob": 0.25,
+      "fair": "+300",
+      "need": "+324",
+      "rationale": "2+ in 5 of 23 this season \u00b7 2 of L5 home",
+      "player": "Carter Verhaeghe",
+      "team": "FLA",
+      "pp": 1,
+      "line": 3,
+      "players": [
+       8477409
       ]
      },
      {
@@ -9362,20 +9416,6 @@
       "players": [
        8482097
       ]
-     },
-     {
-      "selection": "Matthew Tkachuk \u00b7 2+ points",
-      "prob": 0.227,
-      "fair": "+341",
-      "need": "+367",
-      "rationale": "2+ in 5 of 23 this season \u00b7 1 of L5 home",
-      "player": "Matthew Tkachuk",
-      "team": "FLA",
-      "pp": 1,
-      "line": 2,
-      "players": [
-       8479314
-      ]
      }
     ],
     "pp1": [
@@ -9386,7 +9426,7 @@
       "need": "-208",
       "rationale": "Both scored 14 of 18 games together \u00b7 independent 53% \u00b7 correlated",
       "team": "FLA",
-      "line": 2,
+      "line": 1,
       "read": "correlated",
       "both": 14,
       "n": 18,
@@ -9409,22 +9449,6 @@
       "players": [
        8479420,
        8484145
-      ]
-     },
-     {
-      "selection": "Reinhart + Barkov \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.218,
-      "fair": "+358",
-      "need": "+386",
-      "rationale": "Both scored 0 of 2 games together \u00b7 independent 29% \u00b7 new pair",
-      "team": "FLA",
-      "line": 1,
-      "read": "new pair",
-      "both": 0,
-      "n": 2,
-      "players": [
-       8477933,
-       8477493
       ]
      }
     ],
@@ -11007,128 +11031,12 @@
     },
     "home": {
      "team": "FLA",
-     "as_of": "2026-11-19T17:53:03.756Z",
-     "checked": "2026-11-21T13:56:09.353909+00:00",
+     "as_of": "2026-11-21T15:47:03.596Z",
+     "checked": "2026-11-21T20:00:05.904639+00:00",
      "stale": false,
-     "source": "Jameson Olive",
-     "updated_dfo": "2026-11-19T17:53:03.756Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-21T15:47:03.596Z",
      "forwards": [
-      [
-       {
-        "name": "Carter Verhaeghe",
-        "jersey": 23,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8477409,
-        "dfo_id": 2818,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 10,
-         "gp": 23,
-         "p": 21,
-         "ppp": 7,
-         "sog": 50,
-         "toi_s": 25412
-        },
-        "last5": {
-         "a": 5,
-         "g": 0,
-         "gp": 5,
-         "p": 5,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 5549
-        },
-        "l5_point_games": 3,
-        "gp": 23,
-        "move": {
-         "ev": 1,
-         "pp": -1,
-         "new": false
-        }
-       },
-       {
-        "name": "Aleksander Barkov",
-        "jersey": 16,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8477493,
-        "dfo_id": 2132,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 1787
-        },
-        "last5": {
-         "a": 4,
-         "g": 2,
-         "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 5022
-        },
-        "l5_point_games": 0,
-        "gp": 2,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       },
-       {
-        "name": "Sam Reinhart",
-        "jersey": 13,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8477933,
-        "dfo_id": 2364,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 10,
-         "g": 12,
-         "gp": 23,
-         "p": 22,
-         "ppp": 10,
-         "sog": 72,
-         "toi_s": 27675
-        },
-        "last5": {
-         "a": 2,
-         "g": 3,
-         "gp": 5,
-         "p": 5,
-         "ppp": 2,
-         "sog": 15,
-         "toi_s": 5832
-        },
-        "l5_point_games": 4,
-        "gp": 23,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
       [
        {
         "name": "Brady Tkachuk",
@@ -11163,7 +11071,7 @@
         "l5_point_games": 3,
         "gp": 23,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -11201,7 +11109,7 @@
         "l5_point_games": 3,
         "gp": 23,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -11239,7 +11147,7 @@
         "l5_point_games": 5,
         "gp": 23,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -11255,7 +11163,7 @@
         "dfo_id": 28129,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
         "bias": "A",
         "season": {
@@ -11279,8 +11187,8 @@
         "l5_point_games": 1,
         "gp": 23,
         "move": {
-         "ev": -1,
-         "pp": -1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        },
@@ -11317,47 +11225,163 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Brad Marchand",
-        "jersey": 63,
+        "name": "Sam Reinhart",
+        "jersey": 13,
         "pos": "RW",
         "slot": null,
-        "player_id": 8473419,
-        "dfo_id": 124,
-        "gtd": true,
+        "player_id": 8477933,
+        "dfo_id": 2364,
+        "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
+        "pp": 1,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 2,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 1366
+         "a": 10,
+         "g": 12,
+         "gp": 23,
+         "p": 22,
+         "ppp": 10,
+         "sog": 72,
+         "toi_s": 27675
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 2,
+         "g": 3,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 3690
+         "p": 5,
+         "ppp": 2,
+         "sog": 15,
+         "toi_s": 5832
         },
-        "l5_point_games": 1,
-        "gp": 2,
+        "l5_point_games": 4,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Carter Verhaeghe",
+        "jersey": 23,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8477409,
+        "dfo_id": 2818,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 11,
+         "g": 10,
+         "gp": 23,
+         "p": 21,
+         "ppp": 7,
+         "sog": 50,
+         "toi_s": 25412
+        },
+        "last5": {
+         "a": 5,
+         "g": 0,
+         "gp": 5,
+         "p": 5,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5549
+        },
+        "l5_point_games": 3,
+        "gp": 23,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Lars Eller",
+        "jersey": 20,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8474189,
+        "dfo_id": 840,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 7,
+         "g": 3,
+         "gp": 23,
+         "p": 10,
+         "ppp": 1,
+         "sog": 26,
+         "toi_s": 22148
+        },
+        "last5": {
+         "a": 0,
+         "g": 2,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4948
+        },
+        "l5_point_games": 2,
+        "gp": 23,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Sandis Vilmanis",
+        "jersey": 95,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8483771,
+        "dfo_id": 36428,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 5,
+         "g": 3,
+         "gp": 20,
+         "p": 8,
+         "ppp": 0,
+         "sog": 24,
+         "toi_s": 15353
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 2,
+         "toi_s": 3444
+        },
+        "l5_point_games": 1,
+        "gp": 20,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
         }
        }
       ],
@@ -11401,40 +11425,40 @@
         }
        },
        {
-        "name": "Lars Eller",
-        "jersey": 20,
+        "name": "Cole Schwindt",
+        "jersey": 79,
         "pos": "C",
         "slot": null,
-        "player_id": 8474189,
-        "dfo_id": 840,
+        "player_id": 8481655,
+        "dfo_id": 29210,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 7,
-         "g": 3,
-         "gp": 23,
-         "p": 10,
-         "ppp": 1,
-         "sog": 26,
-         "toi_s": 22148
+         "a": 0,
+         "g": 0,
+         "gp": 14,
+         "p": 0,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 7281
         },
         "last5": {
          "a": 0,
-         "g": 2,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 4948
+         "sog": 2,
+         "toi_s": 2956
         },
-        "l5_point_games": 2,
-        "gp": 23,
+        "l5_point_games": 0,
+        "gp": 14,
         "move": {
-         "ev": -1,
-         "pp": -1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        },
@@ -11606,7 +11630,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
          "a": 20,
@@ -11637,54 +11661,16 @@
       ],
       [
        {
-        "name": "Uvis Balinskis",
-        "jersey": 26,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8484304,
-        "dfo_id": 37929,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 12,
-         "p": 1,
-         "ppp": 0,
-         "sog": 10,
-         "toi_s": 10366
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 4329
-        },
-        "l5_point_games": 0,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Dmitry Kulikov",
         "jersey": 7,
-        "pos": "RD",
+        "pos": "LD",
         "slot": null,
         "player_id": 8475179,
         "dfo_id": 593,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
          "a": 2,
@@ -11711,59 +11697,54 @@
          "pp": 0,
          "new": false
         }
-       }
-      ]
-     ],
-     "goalies": [
-      [
+       },
        {
-        "name": "Akira Schmid",
-        "jersey": 40,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8481033,
-        "dfo_id": 29148,
+        "name": "Radko Gudas",
+        "jersey": 6,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8475462,
+        "dfo_id": 1366,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": null,
-         "g": null,
-         "gp": 11,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
+         "a": 0,
+         "g": 0,
+         "gp": 15,
+         "p": 0,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 12621
         },
         "last5": {
-         "a": null,
-         "g": null,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
+         "p": 0,
+         "ppp": 0,
+         "sog": 9,
+         "toi_s": 4322
         },
         "l5_point_games": 0,
-        "gp": 0,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
-        },
-        "record": "6-3-2",
-        "sv_pct": "0.885",
-        "starts": 10
+         "new": true
+        }
        }
-      ],
+      ]
+     ],
+     "goalies": [
       [
        {
         "name": "Jacob Markstrom",
         "jersey": 25,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8474593,
         "dfo_id": 594,
         "gtd": false,
@@ -11799,6 +11780,49 @@
         "record": "5-4-1",
         "sv_pct": "0.891",
         "starts": 11
+       }
+      ],
+      [
+       {
+        "name": "Akira Schmid",
+        "jersey": 40,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8481033,
+        "dfo_id": 29148,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 11,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "6-3-2",
+        "sv_pct": "0.885",
+        "starts": 10
        }
       ]
      ],
@@ -11837,54 +11861,16 @@
         "l5_point_games": 3,
         "gp": 23,
         "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Aleksander Barkov",
-        "jersey": 16,
-        "pos": null,
-        "slot": 2,
-        "player_id": 8477493,
-        "dfo_id": 2132,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 1787
-        },
-        "last5": {
-         "a": 4,
-         "g": 2,
-         "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 5022
-        },
-        "l5_point_games": 0,
-        "gp": 2,
-        "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
         "name": "Sam Reinhart",
         "jersey": 13,
         "pos": null,
-        "slot": 3,
+        "slot": 2,
         "player_id": 8477933,
         "dfo_id": 2364,
         "gtd": false,
@@ -11913,44 +11899,6 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Seth Jones",
-        "jersey": 3,
-        "pos": null,
-        "slot": 4,
-        "player_id": 8477495,
-        "dfo_id": 2137,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 20,
-         "g": 3,
-         "gp": 23,
-         "p": 23,
-         "ppp": 14,
-         "sog": 54,
-         "toi_s": 33855
-        },
-        "last5": {
-         "a": 3,
-         "g": 0,
-         "gp": 5,
-         "p": 3,
-         "ppp": 2,
-         "sog": 9,
-         "toi_s": 6911
-        },
-        "l5_point_games": 3,
-        "gp": 23,
-        "move": {
          "ev": 0,
          "pp": 0,
          "new": false
@@ -11960,7 +11908,7 @@
         "name": "Matthew Tkachuk",
         "jersey": 19,
         "pos": null,
-        "slot": 5,
+        "slot": 3,
         "player_id": 8479314,
         "dfo_id": 2635,
         "gtd": false,
@@ -11989,7 +11937,83 @@
         "l5_point_games": 5,
         "gp": 23,
         "move": {
-         "ev": -1,
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Carter Verhaeghe",
+        "jersey": 23,
+        "pos": null,
+        "slot": 4,
+        "player_id": 8477409,
+        "dfo_id": 2818,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 11,
+         "g": 10,
+         "gp": 23,
+         "p": 21,
+         "ppp": 7,
+         "sog": 50,
+         "toi_s": 25412
+        },
+        "last5": {
+         "a": 5,
+         "g": 0,
+         "gp": 5,
+         "p": 5,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5549
+        },
+        "l5_point_games": 3,
+        "gp": 23,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Seth Jones",
+        "jersey": 3,
+        "pos": null,
+        "slot": 5,
+        "player_id": 8477495,
+        "dfo_id": 2137,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 2,
+        "bias": "A",
+        "season": {
+         "a": 20,
+         "g": 3,
+         "gp": 23,
+         "p": 23,
+         "ppp": 14,
+         "sog": 54,
+         "toi_s": 33855
+        },
+        "last5": {
+         "a": 3,
+         "g": 0,
+         "gp": 5,
+         "p": 3,
+         "ppp": 2,
+         "sog": 9,
+         "toi_s": 6911
+        },
+        "l5_point_games": 3,
+        "gp": 23,
+        "move": {
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -11997,10 +12021,48 @@
       ],
       [
        {
+        "name": "Eetu Luostarinen",
+        "jersey": 27,
+        "pos": null,
+        "slot": 1,
+        "player_id": 8480185,
+        "dfo_id": 28129,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 3,
+         "g": 2,
+         "gp": 23,
+         "p": 5,
+         "ppp": 1,
+         "sog": 23,
+         "toi_s": 22115
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 4839
+        },
+        "l5_point_games": 1,
+        "gp": 23,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Sam Bennett",
         "jersey": 9,
         "pos": null,
-        "slot": 1,
+        "slot": 2,
         "player_id": 8477935,
         "dfo_id": 2366,
         "gtd": false,
@@ -12029,122 +12091,46 @@
         "l5_point_games": 3,
         "gp": 23,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Anton Lundell",
-        "jersey": 15,
+        "name": "Lars Eller",
+        "jersey": 20,
         "pos": null,
-        "slot": 2,
-        "player_id": 8482113,
-        "dfo_id": 33026,
+        "slot": 3,
+        "player_id": 8474189,
+        "dfo_id": 840,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 1,
-        "bias": "G",
-        "season": {
-         "a": 4,
-         "g": 7,
-         "gp": 22,
-         "p": 11,
-         "ppp": 1,
-         "sog": 58,
-         "toi_s": 22970
-        },
-        "last5": {
-         "a": 2,
-         "g": 3,
-         "gp": 5,
-         "p": 5,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 4999
-        },
-        "l5_point_games": 3,
-        "gp": 22,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Brad Marchand",
-        "jersey": 63,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8473419,
-        "dfo_id": 124,
-        "gtd": true,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 2,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 1366
+         "a": 7,
+         "g": 3,
+         "gp": 23,
+         "p": 10,
+         "ppp": 1,
+         "sog": 26,
+         "toi_s": 22148
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 2,
          "gp": 5,
          "p": 2,
-         "ppp": 1,
-         "sog": 8,
-         "toi_s": 3690
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4948
         },
-        "l5_point_games": 1,
-        "gp": 2,
+        "l5_point_games": 2,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
-        }
-       },
-       {
-        "name": "Carter Verhaeghe",
-        "jersey": 23,
-        "pos": null,
-        "slot": 4,
-        "player_id": 8477409,
-        "dfo_id": 2818,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 10,
-         "gp": 23,
-         "p": 21,
-         "ppp": 7,
-         "sog": 50,
-         "toi_s": 25412
-        },
-        "last5": {
-         "a": 5,
-         "g": 0,
-         "gp": 5,
-         "p": 5,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 5549
-        },
-        "l5_point_games": 3,
-        "gp": 23,
-        "move": {
-         "ev": 1,
-         "pp": -1,
          "new": false
         }
        },
@@ -12152,7 +12138,7 @@
         "name": "Aaron Ekblad",
         "jersey": 5,
         "pos": null,
-        "slot": 5,
+        "slot": 4,
         "player_id": 8477932,
         "dfo_id": 2363,
         "gtd": false,
@@ -12180,6 +12166,44 @@
         },
         "l5_point_games": 2,
         "gp": 21,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Anton Lundell",
+        "jersey": 15,
+        "pos": null,
+        "slot": 5,
+        "player_id": 8482113,
+        "dfo_id": 33026,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": "G",
+        "season": {
+         "a": 4,
+         "g": 7,
+         "gp": 22,
+         "p": 11,
+         "ppp": 1,
+         "sog": 58,
+         "toi_s": 22970
+        },
+        "last5": {
+         "a": 2,
+         "g": 3,
+         "gp": 5,
+         "p": 5,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 4999
+        },
+        "l5_point_games": 3,
+        "gp": 22,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -12223,7 +12247,7 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -12237,7 +12261,7 @@
         "dfo_id": 28129,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
         "bias": "A",
         "season": {
@@ -12261,8 +12285,8 @@
         "l5_point_games": 1,
         "gp": 23,
         "move": {
-         "ev": -1,
-         "pp": -1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        },
@@ -12345,41 +12369,41 @@
       ],
       [
        {
-        "name": "Aleksander Barkov",
-        "jersey": 16,
+        "name": "Lars Eller",
+        "jersey": 20,
         "pos": null,
         "slot": 1,
-        "player_id": 8477493,
-        "dfo_id": 2132,
-        "gtd": true,
+        "player_id": 8474189,
+        "dfo_id": 840,
+        "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
-         "ppp": 0,
-         "sog": 2,
-         "toi_s": 1787
+         "a": 7,
+         "g": 3,
+         "gp": 23,
+         "p": 10,
+         "ppp": 1,
+         "sog": 26,
+         "toi_s": 22148
         },
         "last5": {
-         "a": 4,
+         "a": 0,
          "g": 2,
          "gp": 5,
-         "p": 6,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 5022
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4948
         },
-        "l5_point_games": 0,
-        "gp": 2,
+        "l5_point_games": 2,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -12415,7 +12439,7 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -12459,37 +12483,37 @@
         }
        },
        {
-        "name": "Dmitry Kulikov",
-        "jersey": 7,
+        "name": "Seth Jones",
+        "jersey": 3,
         "pos": null,
         "slot": 4,
-        "player_id": 8475179,
-        "dfo_id": 593,
+        "player_id": 8477495,
+        "dfo_id": 2137,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 22,
-         "p": 3,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 19975
+         "a": 20,
+         "g": 3,
+         "gp": 23,
+         "p": 23,
+         "ppp": 14,
+         "sog": 54,
+         "toi_s": 33855
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4744
+         "p": 3,
+         "ppp": 2,
+         "sog": 9,
+         "toi_s": 6911
         },
-        "l5_point_games": 1,
-        "gp": 22,
+        "l5_point_games": 3,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -12502,7 +12526,7 @@
       {
        "player": "Aleksander Barkov",
        "status": "IR",
-       "news": "Barkov (knee) is nearing a return and will be evaluated by doctors on Friday."
+       "news": "Barkov (knee) will not play Saturday vs. the Sabres."
       },
       {
        "player": "Jonah Gadjovich",
@@ -12512,21 +12536,21 @@
       {
        "player": "Brad Marchand",
        "status": "IR",
-       "news": "Marchand (knee) is nearing a return and will be evaluated by doctors on Friday."
+       "news": "Marchand (knee) will not play Saturday vs. the Sabres."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 29,
+       "rank": 28,
        "rating": 72.3756190275277
       },
       "d2": {
-       "rank": 7,
+       "rank": 6,
        "rating": 76.1602925958252
       },
       "d3": {
-       "rank": 17,
-       "rating": 71.94551807159101
+       "rank": 18,
+       "rating": 71.55288681387601
       },
       "d4": {
        "rank": 6,
@@ -12534,19 +12558,19 @@
       },
       "f1": {
        "rank": 25,
-       "rating": 74.28714158862064
-      },
-      "f2": {
-       "rank": 18,
        "rating": 74.18367923076147
       },
+      "f2": {
+       "rank": 12,
+       "rating": 74.55289337937371
+      },
       "f3": {
-       "rank": 1,
-       "rating": 81.20930156645521
+       "rank": 20,
+       "rating": 72.53918820955285
       },
       "f4": {
-       "rank": 15,
-       "rating": 72.80470327081446
+       "rank": 14,
+       "rating": 72.433162696142
       },
       "g": {
        "rank": 5,
@@ -43502,8 +43526,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-180",
-     "home": "+150",
+     "away": "-162",
+     "home": "+136",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-21T04:05:12.668Z"
     },
