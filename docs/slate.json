@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T23:44:11.636951+00:00",
+ "generated_utc": "2026-11-21T23:49:19.480616+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -15634,8 +15634,8 @@
      "ppga_rk": 10,
      "l5_gf": 2.8,
      "l5_ga": 5.0,
-     "lineup_as_of": "2026-11-21T04:06:52.599Z",
-     "lineup_checked": "2026-11-21T13:56:10.727298+00:00",
+     "lineup_as_of": "2026-11-21T23:45:50.011Z",
+     "lineup_checked": "2026-11-21T23:49:15.123099+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -15647,11 +15647,6 @@
        "player": "Vincent Desharnais",
        "status": "IR",
        "news": "Desharnais (appendectomy surgery) returned to practice in a full contact jersey on Friday."
-      },
-      {
-       "player": "Cole Hutson",
-       "status": "DTD",
-       "news": "Hutson (maintenance) missed practice on Friday."
       }
      ],
      "lines": {
@@ -15661,19 +15656,19 @@
        "Alex Tuch"
       ],
       "2": [
-       "Ryan Leonard",
-       "Boone Jenner",
-       "Tom Wilson"
-      ],
-      "3": [
        "Alex Ovechkin",
        "Dylan Strome",
-       "Anthony Beauvillier"
+       "Ryan Leonard"
+      ],
+      "3": [
+       "Jordan Kyrou",
+       "Ilya Protas",
+       "Justin Sourdif"
       ],
       "4": [
-       "Justin Sourdif",
-       "Ilya Protas",
-       "Jordan Kyrou"
+       "Ivan Miroshnichenko",
+       "Boone Jenner",
+       "Tom Wilson"
       ]
      },
      "pp1": [
@@ -15733,7 +15728,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": "G",
@@ -15780,20 +15775,20 @@
        },
        "partners": [
         {
-         "name": "Boone Jenner",
-         "jersey": 22,
-         "pp": null,
-         "n": 9,
-         "both": 3,
-         "either": 5
-        },
-        {
-         "name": "Tom Wilson",
-         "jersey": 43,
+         "name": "Alex Ovechkin",
+         "jersey": 8,
          "pp": 1,
          "n": 2,
          "both": 1,
-         "either": 2
+         "either": 1
+        },
+        {
+         "name": "Dylan Strome",
+         "jersey": 17,
+         "pp": 1,
+         "n": 6,
+         "both": 2,
+         "either": 5
         }
        ]
       },
@@ -15902,7 +15897,7 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -15978,7 +15973,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -15992,12 +15987,12 @@
          "either": 4
         },
         {
-         "name": "Anthony Beauvillier",
-         "jersey": 72,
-         "pp": null,
-         "n": 2,
-         "both": 1,
-         "either": 2
+         "name": "Ryan Leonard",
+         "jersey": 9,
+         "pp": 2,
+         "n": 6,
+         "both": 2,
+         "either": 5
         }
        ]
       },
@@ -16260,7 +16255,7 @@
         }
        },
        "pos": "LD",
-       "gtd": true,
+       "gtd": false,
        "role": "d",
        "bias": "A",
        "gp": 20,
@@ -16428,7 +16423,7 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -16463,7 +16458,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -16508,19 +16503,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Justin Sourdif",
-         "jersey": 34,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        },
         {
          "name": "Ilya Protas",
          "jersey": null,
@@ -16528,6 +16515,14 @@
          "n": 6,
          "both": 0,
          "either": 3
+        },
+        {
+         "name": "Justin Sourdif",
+         "jersey": 34,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -16538,9 +16533,9 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 4,
        "pp": null,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 9,
@@ -16548,8 +16543,8 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.36456221198156685,
-         "p_hot": 0.33021037868162695,
+         "p": 0.3421658986175115,
+         "p_hot": 0.302945301542777,
          "heater": false
         },
         "goals": {
@@ -16558,8 +16553,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.2650230414746544,
-         "p_hot": 0.2090322580645161,
+         "p": 0.24760368663594473,
+         "p_hot": 0.18782608695652173,
          "heater": false
         },
         "assists": {
@@ -16568,14 +16563,14 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.12193548387096773,
-         "p_hot": 0.14844319775596074,
+         "p": 0.09953917050691245,
+         "p_hot": 0.12117812061711081,
          "heater": false
         }
        },
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "G",
        "gp": 20,
        "pt_games": 9,
@@ -16601,10 +16596,10 @@
        "l5_venue_two": 0,
        "pp_toi": 0.0,
        "toi": 15.3,
-       "p": 0.365,
-       "fair": "+174",
-       "min": "+191",
-       "p2": 0.02,
+       "p": 0.342,
+       "fair": "+192",
+       "min": "+210",
+       "p2": 0.01,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -16614,18 +16609,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Ryan Leonard",
-         "jersey": 9,
-         "pp": 2,
-         "n": 9,
-         "both": 3,
-         "either": 5
+         "name": "Ivan Miroshnichenko",
+         "jersey": 63,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Tom Wilson",
@@ -16644,7 +16639,7 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -16720,7 +16715,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -16734,12 +16729,12 @@
          "either": 4
         },
         {
-         "name": "Anthony Beauvillier",
-         "jersey": 72,
-         "pp": null,
-         "n": 10,
-         "both": 0,
-         "either": 4
+         "name": "Ryan Leonard",
+         "jersey": 9,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -16848,7 +16843,7 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 4,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -16924,18 +16919,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Ryan Leonard",
-         "jersey": 9,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 2
+         "name": "Ivan Miroshnichenko",
+         "jersey": 63,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Boone Jenner",
@@ -17052,7 +17047,7 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -17132,19 +17127,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Justin Sourdif",
-         "jersey": 34,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 2
-        },
         {
          "name": "Jordan Kyrou",
          "jersey": 25,
@@ -17152,6 +17139,120 @@
          "n": 6,
          "both": 0,
          "either": 3
+        },
+        {
+         "name": "Justin Sourdif",
+         "jersey": 34,
+         "pp": null,
+         "n": 3,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Ivan Miroshnichenko",
+       "jersey": 63,
+       "team": "WSH",
+       "opp": "BOS",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 1,
+         "n5": 3,
+         "k10": 1,
+         "n10": 3,
+         "p": 0.23753665689149558,
+         "p_hot": 0.24884792626728108,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 1,
+         "n5": 3,
+         "k10": 1,
+         "n10": 3,
+         "p": 0.15519061583577715,
+         "p_hot": 0.18414746543778804,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 3,
+         "k10": 0,
+         "n10": 3,
+         "p": 0.09501466275659824,
+         "p_hot": 0.07465437788018434,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 3,
+       "pt_games": 1,
+       "l5": [
+        1,
+        3
+       ],
+       "ast_games": 0,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        1,
+        3
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 1.2,
+       "toi": 11.1,
+       "p": 0.238,
+       "fair": "+321",
+       "min": "+346",
+       "p2": 0.025,
+       "fair2": "+3847",
+       "min2": "+4084",
+       "adj": [
+        [
+         "opp",
+         0.8709677419354839
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Boone Jenner",
+         "jersey": 22,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tom Wilson",
+         "jersey": 43,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -17162,7 +17263,7 @@
        "opp": "BOS",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -17197,7 +17298,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -17238,19 +17339,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
-        {
-         "name": "Ilya Protas",
-         "jersey": null,
-         "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 2
-        },
         {
          "name": "Jordan Kyrou",
          "jersey": 25,
@@ -17258,115 +17351,13 @@
          "n": 2,
          "both": 0,
          "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Anthony Beauvillier",
-       "jersey": 72,
-       "team": "WSH",
-       "opp": "BOS",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.19596774193548389,
-         "p_hot": 0.2044880785413745,
-         "heater": false
         },
-        "goals": {
-         "k": 2,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.08286635944700461,
-         "p_hot": 0.10088078541374475,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.11758064516129033,
-         "p_hot": 0.10906030855539973,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 20,
-       "pt_games": 5,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        0,
-        7
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 12.3,
-       "p": 0.196,
-       "fair": "+410",
-       "min": "+441",
-       "p2": 0.009,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.8709677419354839
-        ],
-        [
-         "venue",
-         0.9
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
         {
-         "name": "Alex Ovechkin",
-         "jersey": 8,
-         "pp": 1,
-         "n": 10,
+         "name": "Ilya Protas",
+         "jersey": null,
+         "pp": 2,
+         "n": 3,
          "both": 0,
-         "either": 4
-        },
-        {
-         "name": "Dylan Strome",
-         "jersey": 17,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
          "either": 2
         }
        ]
@@ -33210,8 +33201,8 @@
      "ppga_rk": 9,
      "l5_gf": 1.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-21T04:04:50.229Z",
-     "lineup_checked": "2026-11-21T13:56:09.163236+00:00",
+     "lineup_as_of": "2026-11-21T23:47:05.704Z",
+     "lineup_checked": "2026-11-21T23:49:15.750903+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -33233,12 +33224,12 @@
      "lines": {
       "1": [
        "Alex DeBrincat",
-       "Emmitt Finnie",
+       "Andrew Copp",
        "Lucas Raymond"
       ],
       "2": [
        "Marco Kasper",
-       "Andrew Copp",
+       "Emmitt Finnie",
        "Viktor Arvidsson"
       ],
       "3": [
@@ -33364,12 +33355,12 @@
          "either": 1
         },
         {
-         "name": "Emmitt Finnie",
-         "jersey": null,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Andrew Copp",
+         "jersey": 18,
+         "pp": 2,
+         "n": 12,
+         "both": 6,
+         "either": 9
         }
        ]
       },
@@ -33462,12 +33453,12 @@
        },
        "partners": [
         {
-         "name": "Anton Johansson",
-         "jersey": 42,
+         "name": "Ben Chiarot",
+         "jersey": 8,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 14,
+         "both": 1,
+         "either": 6
         }
        ]
       },
@@ -33560,12 +33551,12 @@
        },
        "partners": [
         {
-         "name": "Emmitt Finnie",
-         "jersey": null,
-         "pp": 1,
-         "n": 20,
-         "both": 7,
-         "either": 10
+         "name": "Andrew Copp",
+         "jersey": 18,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 1
         },
         {
          "name": "Lucas Raymond",
@@ -33584,7 +33575,7 @@
        "opp": "NYI",
        "section": "F",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -33660,26 +33651,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Alex DeBrincat",
-         "jersey": 93,
-         "pp": 1,
-         "n": 20,
-         "both": 7,
-         "either": 10
+         "name": "Marco Kasper",
+         "jersey": null,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 1
         },
         {
-         "name": "Lucas Raymond",
-         "jersey": 23,
+         "name": "Viktor Arvidsson",
+         "jersey": 33,
          "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 11,
+         "both": 4,
+         "either": 5
         }
        ]
       },
@@ -33780,12 +33771,12 @@
          "either": 0
         },
         {
-         "name": "Andrew Copp",
-         "jersey": 18,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Emmitt Finnie",
+         "jersey": null,
+         "pp": 1,
+         "n": 11,
+         "both": 4,
+         "either": 5
         }
        ]
       },
@@ -33796,7 +33787,7 @@
        "opp": "NYI",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -33872,26 +33863,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Marco Kasper",
-         "jersey": null,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Alex DeBrincat",
+         "jersey": 93,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 1
         },
         {
-         "name": "Viktor Arvidsson",
-         "jersey": 33,
+         "name": "Lucas Raymond",
+         "jersey": 23,
          "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 12,
+         "both": 6,
+         "either": 9
         }
        ]
       },
@@ -34302,12 +34293,12 @@
        },
        "partners": [
         {
-         "name": "Ben Chiarot",
-         "jersey": 8,
+         "name": "Albert Johansson",
+         "jersey": 20,
          "pp": null,
-         "n": 4,
+         "n": 2,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -34400,12 +34391,12 @@
        },
        "partners": [
         {
-         "name": "Andrew Copp",
-         "jersey": 18,
-         "pp": 2,
-         "n": 0,
+         "name": "Emmitt Finnie",
+         "jersey": null,
+         "pp": 1,
+         "n": 3,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
          "name": "Viktor Arvidsson",
@@ -34424,7 +34415,7 @@
        "opp": "NYI",
        "section": "D",
        "home": true,
-       "line": 1,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -34459,7 +34450,7 @@
          "heater": false
         }
        },
-       "pos": "LD",
+       "pos": "RD",
        "gtd": false,
        "role": "d",
        "bias": null,
@@ -34500,18 +34491,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Moritz Seider",
-         "jersey": 53,
-         "pp": 1,
-         "n": 1,
+         "name": "Andreas Englund",
+         "jersey": 24,
+         "pp": null,
+         "n": 13,
          "both": 0,
-         "either": 0
+         "either": 4
         }
        ]
       },
@@ -34628,7 +34619,7 @@
        "opp": "NYI",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -34663,7 +34654,7 @@
          "heater": false
         }
        },
-       "pos": "RD",
+       "pos": "LD",
        "gtd": false,
        "role": "d",
        "bias": null,
@@ -34710,10 +34701,10 @@
        },
        "partners": [
         {
-         "name": "Andreas Englund",
-         "jersey": 24,
-         "pp": null,
-         "n": 1,
+         "name": "Justin Faulk",
+         "jersey": 72,
+         "pp": 2,
+         "n": 2,
          "both": 0,
          "either": 0
         }
@@ -34832,7 +34823,7 @@
        "opp": "NYI",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -34908,18 +34899,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Justin Faulk",
-         "jersey": 72,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 1
+         "name": "Moritz Seider",
+         "jersey": 53,
+         "pp": 1,
+         "n": 14,
+         "both": 1,
+         "either": 6
         }
        ]
       },
@@ -35118,12 +35109,12 @@
        },
        "partners": [
         {
-         "name": "Albert Johansson",
-         "jersey": 20,
+         "name": "Anton Johansson",
+         "jersey": 42,
          "pp": null,
-         "n": 1,
+         "n": 13,
          "both": 0,
-         "either": 0
+         "either": 4
         }
        ]
       }
@@ -39046,7 +39037,7 @@
      "goalie_source": "@SinBinVegas",
      "sv": "0.888",
      "gaa": "2.74",
-     "ml": "190",
+     "ml": "180",
      "gp": 24,
      "gf": 3.2916666666666665,
      "gf_rk": 11,
@@ -40986,7 +40977,7 @@
      "goalie_source": "Ken Wiebe",
      "sv": "0.883",
      "gaa": "3.29",
-     "ml": "-230",
+     "ml": "-218",
      "gp": 23,
      "gf": 3.0434782608695654,
      "gf_rk": 19,
@@ -40998,8 +40989,8 @@
      "ppga_rk": 11,
      "l5_gf": 4.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-21T16:42:14.721Z",
-     "lineup_checked": "2026-11-21T21:01:04.302247+00:00",
+     "lineup_as_of": "2026-11-21T23:44:27.759Z",
+     "lineup_checked": "2026-11-21T23:49:16.000143+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -41035,9 +41026,9 @@
        "Viggo Bj\u00f6rck"
       ],
       "4": [
-       "Tyrel Bauer",
+       "Alex Iafallo",
        "Danny Zhilkin",
-       "Alex Iafallo"
+       "Tyrel Bauer"
       ]
      },
      "pp1": [
@@ -42145,7 +42136,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": "A",
@@ -42192,18 +42183,18 @@
        },
        "partners": [
         {
-         "name": "Tyrel Bauer",
-         "jersey": 77,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Danny Zhilkin",
          "jersey": null,
          "pp": null,
          "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Tyrel Bauer",
+         "jersey": 77,
+         "pp": null,
+         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -42396,17 +42387,17 @@
        },
        "partners": [
         {
-         "name": "Tyrel Bauer",
-         "jersey": 77,
-         "pp": null,
+         "name": "Alex Iafallo",
+         "jersey": 9,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Alex Iafallo",
-         "jersey": 9,
-         "pp": 2,
+         "name": "Tyrel Bauer",
+         "jersey": 77,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
@@ -42660,7 +42651,7 @@
         }
        },
        "pos": "RD",
-       "gtd": true,
+       "gtd": false,
        "role": "d",
        "bias": null,
        "gp": 6,
@@ -42855,7 +42846,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -42902,18 +42893,18 @@
        },
        "partners": [
         {
-         "name": "Danny Zhilkin",
-         "jersey": null,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Alex Iafallo",
          "jersey": 9,
          "pp": 2,
          "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Danny Zhilkin",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
