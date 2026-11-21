@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T22:57:58.001845+00:00",
+ "generated_utc": "2026-11-21T23:03:16.983464+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -4891,7 +4891,7 @@
    "id": "02",
    "game_id": 2026020360,
    "start_utc": "2026-11-21T20:30:00Z",
-   "status": "LIVE",
+   "status": "CRIT",
    "venue": "Scotiabank Saddledome",
    "away": {
     "abbr": "CHI",
@@ -36012,8 +36012,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+185",
-     "home": "-225",
+     "away": "+170",
+     "home": "-205",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-21T18:01:51.166Z"
     },
@@ -43661,13 +43661,54 @@
     "goalie_source": "Zach Cavanagh",
     "sv": "0.856",
     "gaa": "3.76",
-    "lineup_as_of": "2026-11-20T17:17:26.139Z",
-    "lineup_checked": "2026-11-21T13:56:08.480229+00:00",
+    "lineup_as_of": "2026-11-21T18:50:36.768Z",
+    "lineup_checked": "2026-11-21T23:03:02.107780+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 5,
     "ppga_rk": 6,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "in",
+      "text": "IN: Sam Colangelo \u2192 L1"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "in",
+      "text": "IN: Drew Helleson \u2192 L2"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "out",
+      "text": "OUT: Beckett Sennecke (was L2) \u2192 IR"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "out",
+      "text": "OUT: Noah Warren (was L2)"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "move",
+      "text": "Alex Killorn: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "move",
+      "text": "Judd Caulfield: L1\u2192L2, PP2\u2192PP1"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "move",
+      "text": "Jeff Malott: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-21T23:03:02.114352+00:00",
+      "kind": "move",
+      "text": "Frank Vatrano: PP-\u2192PP2"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -43990,20 +44031,6 @@
       ]
      },
      {
-      "selection": "Beckett Sennecke \u00b7 1+ goal",
-      "prob": 0.392,
-      "fair": "+155",
-      "need": "+170",
-      "rationale": "Goal in 9 of 22 this season \u00b7 1 of L5",
-      "player": "Beckett Sennecke",
-      "team": "ANA",
-      "pp": 1,
-      "line": 2,
-      "players": [
-       8484762
-      ]
-     },
-     {
       "selection": "Mikael Granlund \u00b7 1+ goal",
       "prob": 0.357,
       "fair": "+180",
@@ -44058,6 +44085,20 @@
       "players": [
        8479977
       ]
+     },
+     {
+      "selection": "Vincent Trocheck \u00b7 1+ goal",
+      "prob": 0.266,
+      "fair": "+276",
+      "need": "+298",
+      "rationale": "Goal in 5 of 23 this season \u00b7 2 of L5",
+      "player": "Vincent Trocheck",
+      "team": "UTA",
+      "pp": 1,
+      "line": 1,
+      "players": [
+       8476389
+      ]
      }
     ],
     "sneaky_point": [],
@@ -44074,6 +44115,21 @@
       "line": 2,
       "players": [
        8483490
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Drew Helleson \u00b7 1+ assist",
+      "prob": 0.293,
+      "fair": "+241",
+      "need": "+262",
+      "rationale": "D2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 3 of 15 season",
+      "player": "Drew Helleson",
+      "team": "ANA",
+      "pp": null,
+      "line": 2,
+      "players": [
+       8481563
       ],
       "sneaky": true
      }
@@ -44128,22 +44184,6 @@
       ]
      },
      {
-      "selection": "Granlund + Sennecke \u00b7 both 1+ point",
-      "prob": 0.553,
-      "fair": "-124",
-      "need": "-109",
-      "rationale": "Both scored 10 of 17 games together \u00b7 independent 45% \u00b7 correlated",
-      "team": "ANA",
-      "line": 2,
-      "read": "correlated",
-      "both": 10,
-      "n": 17,
-      "players": [
-       8475798,
-       8484762
-      ]
-     },
-     {
       "selection": "Gauthier + Carlsson \u00b7 both 1+ point",
       "prob": 0.54,
       "fair": "-117",
@@ -44188,6 +44228,22 @@
       "n": 14,
       "players": [
        8483431,
+       8476389
+      ]
+     },
+     {
+      "selection": "Keller + Trocheck \u00b7 both 1+ point",
+      "prob": 0.429,
+      "fair": "+133",
+      "need": "+147",
+      "rationale": "Both scored 4 of 10 games together \u00b7 independent 48% \u00b7 independent",
+      "team": "UTA",
+      "line": 1,
+      "read": "independent",
+      "both": 4,
+      "n": 10,
+      "players": [
+       8479343,
        8476389
       ]
      }
@@ -44282,22 +44338,6 @@
       ]
      },
      {
-      "selection": "Granlund + Sennecke \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.553,
-      "fair": "-124",
-      "need": "-109",
-      "rationale": "Both scored 10 of 17 games together \u00b7 independent 45% \u00b7 correlated",
-      "team": "ANA",
-      "line": 2,
-      "read": "correlated",
-      "both": 10,
-      "n": 17,
-      "players": [
-       8475798,
-       8484762
-      ]
-     },
-     {
       "selection": "Gauthier + Carlsson \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.54,
       "fair": "-117",
@@ -44328,6 +44368,22 @@
        8483431,
        8476389
       ]
+     },
+     {
+      "selection": "Keller + Trocheck \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.429,
+      "fair": "+133",
+      "need": "+147",
+      "rationale": "Both scored 4 of 10 games together \u00b7 independent 48% \u00b7 independent",
+      "team": "UTA",
+      "line": 1,
+      "read": "independent",
+      "both": 4,
+      "n": 10,
+      "players": [
+       8479343,
+       8476389
+      ]
      }
     ],
     "btts2": [
@@ -44344,11 +44400,11 @@
    "lineup": {
     "away": {
      "team": "ANA",
-     "as_of": "2026-11-20T17:17:26.139Z",
-     "checked": "2026-11-21T13:56:08.480229+00:00",
+     "as_of": "2026-11-21T18:50:36.768Z",
+     "checked": "2026-11-21T23:03:02.107780+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-19)",
-     "updated_dfo": "2026-11-20T17:17:26.139Z",
+     "source": "Zach Cavanagh",
+     "updated_dfo": "2026-11-21T18:50:36.768Z",
      "forwards": [
       [
        {
@@ -44428,79 +44484,79 @@
         }
        },
        {
-        "name": "Judd Caulfield",
-        "jersey": 28,
+        "name": "Sam Colangelo",
+        "jersey": 12,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481538,
-        "dfo_id": 30440,
+        "player_id": 8482118,
+        "dfo_id": 32857,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 2,
+        "pp": null,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 21,
-         "p": 11,
-         "ppp": 3,
-         "sog": 23,
-         "toi_s": 17845
+         "a": 4,
+         "g": 1,
+         "gp": 16,
+         "p": 5,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 10210
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4950
+         "sog": 6,
+         "toi_s": 2636
         },
-        "l5_point_games": 2,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 16,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
       [
        {
-        "name": "Jeff Malott",
-        "jersey": 39,
+        "name": "Alex Killorn",
+        "jersey": 17,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482408,
-        "dfo_id": 34555,
+        "player_id": 8473986,
+        "dfo_id": 1877,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": "A",
         "season": {
-         "a": 3,
-         "g": 4,
-         "gp": 22,
-         "p": 7,
-         "ppp": 0,
-         "sog": 33,
-         "toi_s": 13825
+         "a": 6,
+         "g": 3,
+         "gp": 23,
+         "p": 9,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 22433
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 3,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 3651
+         "sog": 8,
+         "toi_s": 4670
         },
-        "l5_point_games": 1,
-        "gp": 22,
+        "l5_point_games": 2,
+        "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -44544,79 +44600,79 @@
         }
        },
        {
-        "name": "Beckett Sennecke",
-        "jersey": 45,
+        "name": "Judd Caulfield",
+        "jersey": 28,
         "pos": "RW",
         "slot": null,
-        "player_id": 8484762,
-        "dfo_id": 36637,
+        "player_id": 8481538,
+        "dfo_id": 30440,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
-         "a": 14,
-         "g": 12,
-         "gp": 22,
-         "p": 26,
-         "ppp": 11,
-         "sog": 53,
-         "toi_s": 26756
+         "a": 7,
+         "g": 4,
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 23,
+         "toi_s": 17845
         },
         "last5": {
-         "a": 3,
-         "g": 2,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 5,
+         "p": 2,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 5830
+         "sog": 3,
+         "toi_s": 4950
         },
-        "l5_point_games": 3,
-        "gp": 22,
+        "l5_point_games": 2,
+        "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        }
       ],
       [
        {
-        "name": "Alex Killorn",
-        "jersey": 17,
+        "name": "Jeff Malott",
+        "jersey": 39,
         "pos": "LW",
         "slot": null,
-        "player_id": 8473986,
-        "dfo_id": 1877,
+        "player_id": 8482408,
+        "dfo_id": 34555,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "A",
+        "pp": null,
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 6,
-         "g": 3,
-         "gp": 23,
-         "p": 9,
-         "ppp": 1,
-         "sog": 32,
-         "toi_s": 22433
+         "a": 3,
+         "g": 4,
+         "gp": 22,
+         "p": 7,
+         "ppp": 0,
+         "sog": 33,
+         "toi_s": 13825
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 1,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4670
+         "sog": 10,
+         "toi_s": 3651
         },
-        "l5_point_games": 2,
-        "gp": 23,
+        "l5_point_games": 1,
+        "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -44784,7 +44840,7 @@
         "dfo_id": 2545,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": "G",
         "season": {
@@ -44809,7 +44865,7 @@
         "gp": 10,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -44934,41 +44990,41 @@
         }
        },
        {
-        "name": "Noah Warren",
-        "jersey": 47,
+        "name": "Drew Helleson",
+        "jersey": 14,
         "pos": "RD",
         "slot": null,
-        "player_id": 8483521,
-        "dfo_id": 34076,
+        "player_id": 8481563,
+        "dfo_id": 30429,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 6,
+         "a": 3,
          "g": 0,
-         "gp": 23,
-         "p": 6,
+         "gp": 15,
+         "p": 3,
          "ppp": 0,
          "sog": 15,
-         "toi_s": 21460
+         "toi_s": 17115
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3921
+         "sog": 6,
+         "toi_s": 5324
         },
-        "l5_point_games": 1,
-        "gp": 23,
+        "l5_point_games": 2,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -45054,53 +45110,10 @@
      "goalies": [
       [
        {
-        "name": "Lukas Dostal",
-        "jersey": 1,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8480843,
-        "dfo_id": 29143,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 13,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "4-6-1",
-        "sv_pct": "0.857",
-        "starts": 12
-       }
-      ],
-      [
-       {
         "name": "Ville Husso",
         "jersey": 33,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8478024,
         "dfo_id": 3837,
         "gtd": false,
@@ -45137,45 +45150,88 @@
         "sv_pct": "0.857",
         "starts": 6
        }
+      ],
+      [
+       {
+        "name": "Lukas Dostal",
+        "jersey": 1,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8480843,
+        "dfo_id": 29143,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 13,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "4-6-1",
+        "sv_pct": "0.857",
+        "starts": 12
+       }
       ]
      ],
      "pp": [
       [
        {
-        "name": "Beckett Sennecke",
-        "jersey": 45,
+        "name": "Judd Caulfield",
+        "jersey": 28,
         "pos": null,
         "slot": 1,
-        "player_id": 8484762,
-        "dfo_id": 36637,
+        "player_id": 8481538,
+        "dfo_id": 30440,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
+        "pk": 2,
         "bias": "A",
         "season": {
-         "a": 14,
-         "g": 12,
-         "gp": 22,
-         "p": 26,
-         "ppp": 11,
-         "sog": 53,
-         "toi_s": 26756
+         "a": 7,
+         "g": 4,
+         "gp": 21,
+         "p": 11,
+         "ppp": 3,
+         "sog": 23,
+         "toi_s": 17845
         },
         "last5": {
-         "a": 3,
-         "g": 2,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 5,
+         "p": 2,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 5830
+         "sog": 3,
+         "toi_s": 4950
         },
-        "l5_point_games": 3,
-        "gp": 22,
+        "l5_point_games": 2,
+        "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        },
@@ -45334,39 +45390,39 @@
       ],
       [
        {
-        "name": "Judd Caulfield",
-        "jersey": 28,
+        "name": "Alex Killorn",
+        "jersey": 17,
         "pos": null,
         "slot": 1,
-        "player_id": 8481538,
-        "dfo_id": 30440,
+        "player_id": 8473986,
+        "dfo_id": 1877,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 21,
-         "p": 11,
-         "ppp": 3,
-         "sog": 23,
-         "toi_s": 17845
+         "a": 6,
+         "g": 3,
+         "gp": 23,
+         "p": 9,
+         "ppp": 1,
+         "sog": 32,
+         "toi_s": 22433
         },
         "last5": {
          "a": 2,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 3,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4950
+         "sog": 8,
+         "toi_s": 4670
         },
         "l5_point_games": 2,
-        "gp": 21,
+        "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -45410,40 +45466,40 @@
         }
        },
        {
-        "name": "Alex Killorn",
-        "jersey": 17,
+        "name": "Frank Vatrano",
+        "jersey": 77,
         "pos": null,
         "slot": 3,
-        "player_id": 8473986,
-        "dfo_id": 1877,
+        "player_id": 8478366,
+        "dfo_id": 2545,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 1,
-        "bias": "A",
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 6,
-         "g": 3,
-         "gp": 23,
-         "p": 9,
-         "ppp": 1,
-         "sog": 32,
-         "toi_s": 22433
-        },
-        "last5": {
-         "a": 2,
-         "g": 1,
-         "gp": 5,
+         "a": 1,
+         "g": 2,
+         "gp": 10,
          "p": 3,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4670
+         "sog": 10,
+         "toi_s": 6740
         },
-        "l5_point_games": 2,
-        "gp": 23,
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3096
+        },
+        "l5_point_games": 1,
+        "gp": 10,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -45598,7 +45654,7 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -45728,7 +45784,7 @@
         "dfo_id": 30440,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -45752,8 +45808,8 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        },
@@ -45796,41 +45852,41 @@
         }
        },
        {
-        "name": "Noah Warren",
-        "jersey": 47,
+        "name": "Drew Helleson",
+        "jersey": 14,
         "pos": null,
         "slot": 4,
-        "player_id": 8483521,
-        "dfo_id": 34076,
+        "player_id": 8481563,
+        "dfo_id": 30429,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 6,
+         "a": 3,
          "g": 0,
-         "gp": 23,
-         "p": 6,
+         "gp": 15,
+         "p": 3,
          "ppp": 0,
          "sog": 15,
-         "toi_s": 21460
+         "toi_s": 17115
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3921
+         "sog": 6,
+         "toi_s": 5324
         },
-        "l5_point_games": 1,
-        "gp": 23,
+        "l5_point_games": 2,
+        "gp": 15,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -45845,19 +45901,24 @@
        "player": "A.J. Greer",
        "status": "IR",
        "news": "Greer has been placed on IR with an upper-body injury."
+      },
+      {
+       "player": "Beckett Sennecke",
+       "status": "IR",
+       "news": "The Ducks have placed Beckett Sennecke (upper-body) on IR."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 35,
+       "rank": 34,
        "rating": 0
       },
       "d2": {
-       "rank": 37,
+       "rank": 34,
        "rating": 0
       },
       "d3": {
-       "rank": 28,
+       "rank": 29,
        "rating": 0
       },
       "d4": {
@@ -45865,19 +45926,19 @@
        "rating": 0
       },
       "f1": {
-       "rank": 40,
+       "rank": 41,
        "rating": 0
       },
       "f2": {
-       "rank": 26,
-       "rating": 72.51395960454711
+       "rank": 18,
+       "rating": 73.62896874124655
       },
       "f3": {
-       "rank": 21,
-       "rating": 72.8696828231838
+       "rank": 31,
+       "rating": 70.9953877684216
       },
       "f4": {
-       "rank": 17,
+       "rank": 15,
        "rating": 72.42018116594211
       },
       "g": {

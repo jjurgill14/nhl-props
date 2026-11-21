@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T22:57:56.968786+00:00",
+ "generated_utc": "2026-11-21T23:03:15.918711+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -3901,7 +3901,7 @@
    "start_et": "3:30 PM",
    "away": "CHI",
    "home": "CGY",
-   "state": "LIVE",
+   "state": "CRIT",
    "venue": "Scotiabank Saddledome",
    "teams": {
     "away": {
@@ -35151,7 +35151,7 @@
      "goalie_source": "Amanda Stein",
      "sv": "0.912",
      "gaa": "2.36",
-     "ml": "185",
+     "ml": "170",
      "gp": 22,
      "gf": 3.6818181818181817,
      "gf_rk": 6,
@@ -37093,7 +37093,7 @@
      "goalie_source": "",
      "sv": "0.923",
      "gaa": "2.26",
-     "ml": "-225",
+     "ml": "-205",
      "gp": 22,
      "gf": 3.0454545454545454,
      "gf_rk": 18,
@@ -42955,8 +42955,8 @@
      "ppga_rk": 6,
      "l5_gf": 3.2,
      "l5_ga": 4.6,
-     "lineup_as_of": "2026-11-20T17:17:26.139Z",
-     "lineup_checked": "2026-11-21T13:56:08.480229+00:00",
+     "lineup_as_of": "2026-11-21T18:50:36.768Z",
+     "lineup_checked": "2026-11-21T23:03:02.107780+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -42968,21 +42968,26 @@
        "player": "A.J. Greer",
        "status": "IR",
        "news": "Greer has been placed on IR with an upper-body injury."
+      },
+      {
+       "player": "Beckett Sennecke",
+       "status": "IR",
+       "news": "The Ducks have placed Beckett Sennecke (upper-body) on IR."
       }
      ],
      "lines": {
       "1": [
        "Cutter Gauthier",
        "Leo Carlsson",
-       "Judd Caulfield"
+       "Sam Colangelo"
       ],
       "2": [
-       "Jeff Malott",
+       "Alex Killorn",
        "Mikael Granlund",
-       "Beckett Sennecke"
+       "Judd Caulfield"
       ],
       "3": [
-       "Alex Killorn",
+       "Jeff Malott",
        "Tim Washe",
        "Troy Terry"
       ],
@@ -42993,16 +42998,16 @@
       ]
      },
      "pp1": [
-      "Beckett Sennecke",
+      "Judd Caulfield",
       "Leo Carlsson",
       "Mikael Granlund",
       "Jackson Lacombe",
       "Cutter Gauthier"
      ],
      "pp2": [
-      "Judd Caulfield",
-      "Roger McQueen",
       "Alex Killorn",
+      "Roger McQueen",
+      "Frank Vatrano",
       "Troy Terry",
       "Tristan Luneau"
      ],
@@ -43202,12 +43207,12 @@
          "either": 9
         },
         {
-         "name": "Judd Caulfield",
-         "jersey": 28,
-         "pp": 2,
-         "n": 4,
-         "both": 3,
-         "either": 4
+         "name": "Sam Colangelo",
+         "jersey": 12,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -43300,126 +43305,20 @@
        },
        "partners": [
         {
-         "name": "Jeff Malott",
-         "jersey": 39,
-         "pp": null,
-         "n": 4,
+         "name": "Alex Killorn",
+         "jersey": 17,
+         "pp": 2,
+         "n": 2,
          "both": 1,
          "either": 2
         },
         {
-         "name": "Beckett Sennecke",
-         "jersey": 45,
+         "name": "Judd Caulfield",
+         "jersey": 28,
          "pp": 1,
-         "n": 17,
-         "both": 10,
-         "either": 13
-        }
-       ]
-      },
-      {
-       "name": "Beckett Sennecke",
-       "jersey": 45,
-       "team": "ANA",
-       "opp": "UTA",
-       "section": "F",
-       "home": false,
-       "line": 2,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 15,
-         "k5": 3,
-         "n5": 5,
-         "k10": 7,
-         "n10": 10,
-         "p": 0.6739148387096774,
-         "p_hot": 0.651529873772791,
-         "heater": false
-        },
-        "goals": {
-         "k": 9,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.3920705376344086,
-         "p_hot": 0.28390687237026646,
-         "heater": false
-        },
-        "assists": {
-         "k": 9,
-         "k5": 3,
-         "n5": 5,
-         "k10": 7,
-         "n10": 10,
-         "p": 0.4227664516129032,
-         "p_hot": 0.5969323983169706,
-         "heater": true
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 22,
-       "pt_games": 15,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 9,
-       "goal_games": 9,
-       "two_games": 7,
-       "home_split": [
-        9,
-        11
-       ],
-       "away_split": [
-        6,
-        11
-       ],
-       "l5_venue": [
-        4,
-        5
-       ],
-       "l5_venue_two": 3,
-       "pp_toi": 4.0,
-       "toi": 19.4,
-       "p": 0.674,
-       "fair": "-207",
-       "min": "-175",
-       "p2": 0.3,
-       "fair2": "+233",
-       "min2": "+253",
-       "adj": [
-        [
-         "opp",
-         1.0464516129032257
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jeff Malott",
-         "jersey": 39,
-         "pp": null,
-         "n": 3,
-         "both": 2,
-         "either": 3
-        },
-        {
-         "name": "Mikael Granlund",
-         "jersey": 64,
-         "pp": 1,
-         "n": 17,
-         "both": 10,
-         "either": 13
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -43520,12 +43419,118 @@
          "either": 9
         },
         {
-         "name": "Judd Caulfield",
-         "jersey": 28,
+         "name": "Sam Colangelo",
+         "jersey": 12,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 2
+        }
+       ]
+      },
+      {
+       "name": "Judd Caulfield",
+       "jersey": 28,
+       "team": "ANA",
+       "opp": "UTA",
+       "section": "F",
+       "home": false,
+       "line": 2,
+       "pp": 1,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 8,
+         "k5": 2,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.4445615127919911,
+         "p_hot": 0.46953828892005606,
+         "heater": false
+        },
+        "goals": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.1890829810901001,
+         "p_hot": 0.14741318373071527,
+         "heater": false
+        },
+        "assists": {
+         "k": 7,
+         "k5": 2,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.36517552836484984,
+         "p_hot": 0.4149408134642356,
+         "heater": true
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 21,
+       "pt_games": 8,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 7,
+       "goal_games": 3,
+       "two_games": 2,
+       "home_split": [
+        4,
+        11
+       ],
+       "away_split": [
+        4,
+        10
+       ],
+       "l5_venue": [
+        2,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 1.5,
+       "toi": 16.5,
+       "p": 0.445,
+       "fair": "+125",
+       "min": "+138",
+       "p2": 0.13,
+       "fair2": "+670",
+       "min2": "+716",
+       "adj": [
+        [
+         "opp",
+         1.0464516129032257
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Alex Killorn",
+         "jersey": 17,
          "pp": 2,
-         "n": 12,
-         "both": 4,
-         "either": 9
+         "n": 7,
+         "both": 0,
+         "either": 4
+        },
+        {
+         "name": "Mikael Granlund",
+         "jersey": 64,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -43624,112 +43629,6 @@
          "n": 1,
          "both": 0,
          "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Judd Caulfield",
-       "jersey": 28,
-       "team": "ANA",
-       "opp": "UTA",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 8,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.38682625139043386,
-         "p_hot": 0.39674165497896213,
-         "heater": false
-        },
-        "goals": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1631021134593993,
-         "p_hot": 0.114654698457223,
-         "heater": false
-        },
-        "assists": {
-         "k": 7,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.3218740823136818,
-         "p_hot": 0.3603433380084151,
-         "heater": true
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 21,
-       "pt_games": 8,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 7,
-       "goal_games": 3,
-       "two_games": 2,
-       "home_split": [
-        4,
-        11
-       ],
-       "away_split": [
-        4,
-        10
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.5,
-       "toi": 16.5,
-       "p": 0.387,
-       "fair": "+159",
-       "min": "+174",
-       "p2": 0.095,
-       "fair2": "+950",
-       "min2": "+1013",
-       "adj": [
-        [
-         "opp",
-         1.0464516129032257
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Cutter Gauthier",
-         "jersey": 61,
-         "pp": 1,
-         "n": 4,
-         "both": 3,
-         "either": 4
-        },
-        {
-         "name": "Leo Carlsson",
-         "jersey": 91,
-         "pp": 1,
-         "n": 12,
-         "both": 4,
-         "either": 9
         }
        ]
       },
@@ -43838,9 +43737,9 @@
        "opp": "UTA",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 8,
@@ -43848,8 +43747,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.33756503642039537,
-         "p_hot": 0.3184852734922861,
+         "p": 0.3618697190426639,
+         "p_hot": 0.35124375876577846,
          "heater": false
         },
         "goals": {
@@ -43858,8 +43757,8 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.1336757544224766,
-         "p_hot": 0.13467377279102383,
+         "p": 0.1525793964620187,
+         "p_hot": 0.1601525946704067,
          "heater": false
         },
         "assists": {
@@ -43868,14 +43767,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.20929032258064517,
-         "p_hot": 0.19109116409537166,
+         "p": 0.23359500520291362,
+         "p_hot": 0.22384964936886395,
          "heater": false
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 23,
        "pt_games": 8,
@@ -43901,12 +43800,12 @@
        "l5_venue_two": 0,
        "pp_toi": 0.6,
        "toi": 15.6,
-       "p": 0.338,
-       "fair": "+196",
-       "min": "+214",
-       "p2": 0.045,
-       "fair2": "+2144",
-       "min2": "+2279",
+       "p": 0.362,
+       "fair": "+176",
+       "min": "+193",
+       "p2": 0.055,
+       "fair2": "+1706",
+       "min2": "+1815",
        "adj": [
         [
          "opp",
@@ -43914,26 +43813,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Tim Washe",
-         "jersey": null,
-         "pp": null,
-         "n": 4,
-         "both": 2,
+         "name": "Mikael Granlund",
+         "jersey": 64,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
          "either": 2
         },
         {
-         "name": "Troy Terry",
-         "jersey": 19,
-         "pp": 2,
-         "n": 1,
+         "name": "Judd Caulfield",
+         "jersey": 28,
+         "pp": 1,
+         "n": 7,
          "both": 0,
-         "either": 0
+         "either": 4
         }
        ]
       },
@@ -44026,12 +43925,12 @@
        },
        "partners": [
         {
-         "name": "Alex Killorn",
-         "jersey": 17,
-         "pp": 2,
+         "name": "Jeff Malott",
+         "jersey": 39,
+         "pp": null,
          "n": 1,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
          "name": "Tim Washe",
@@ -44051,7 +43950,7 @@
        "section": "F",
        "home": false,
        "line": 4,
-       "pp": null,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -44131,7 +44030,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -44242,12 +44141,12 @@
        },
        "partners": [
         {
-         "name": "Alex Killorn",
-         "jersey": 17,
-         "pp": 2,
-         "n": 4,
+         "name": "Jeff Malott",
+         "jersey": 39,
+         "pp": null,
+         "n": 9,
          "both": 2,
-         "either": 2
+         "either": 3
         },
         {
          "name": "Troy Terry",
@@ -44348,12 +44247,118 @@
        },
        "partners": [
         {
-         "name": "Noah Warren",
-         "jersey": 47,
+         "name": "Drew Helleson",
+         "jersey": 14,
          "pp": null,
-         "n": 7,
-         "both": 1,
-         "either": 3
+         "n": 1,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Sam Colangelo",
+       "jersey": 12,
+       "team": "ANA",
+       "opp": "UTA",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": null,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.29300645161290323,
+         "p_hot": 0.2147500701262272,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.1098774193548387,
+         "p_hot": 0.06915680224403926,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.21452258064516128,
+         "p_hot": 0.17835175315568022,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": "A",
+       "gp": 16,
+       "pt_games": 4,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 1,
+       "two_games": 1,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        2,
+        9
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 8.8,
+       "p": 0.293,
+       "fair": "+241",
+       "min": "+262",
+       "p2": 0.072,
+       "fair2": "+1298",
+       "min2": "+1382",
+       "adj": [
+        [
+         "opp",
+         1.0464516129032257
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Cutter Gauthier",
+         "jersey": 61,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Leo Carlsson",
+         "jersey": 91,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -44456,7 +44461,7 @@
         {
          "name": "Frank Vatrano",
          "jersey": 77,
-         "pp": null,
+         "pp": 2,
          "n": 2,
          "both": 0,
          "either": 0
@@ -44470,9 +44475,9 @@
        "opp": "UTA",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": null,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 5,
@@ -44480,8 +44485,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.26928688172043014,
-         "p_hot": 0.26024796633941094,
+         "p": 0.24417204301075268,
+         "p_hot": 0.22748948106591863,
          "heater": false
         },
         "goals": {
@@ -44490,8 +44495,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.19254709677419354,
-         "p_hot": 0.20565049088359044,
+         "p": 0.17301333333333332,
+         "p_hot": 0.18017166900420756,
          "heater": false
         },
         "assists": {
@@ -44500,14 +44505,14 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.13673634408602148,
-         "p_hot": 0.08735596072931275,
+         "p": 0.11162150537634409,
+         "p_hot": 0.05459747545582047,
          "heater": false
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 22,
        "pt_games": 5,
@@ -44533,12 +44538,12 @@
        "l5_venue_two": 0,
        "pp_toi": 0.0,
        "toi": 12.2,
-       "p": 0.269,
-       "fair": "+271",
-       "min": "+294",
-       "p2": 0.092,
-       "fair2": "+986",
-       "min2": "+1051",
+       "p": 0.244,
+       "fair": "+310",
+       "min": "+334",
+       "p2": 0.081,
+       "fair2": "+1136",
+       "min2": "+1210",
        "adj": [
         [
          "opp",
@@ -44546,32 +44551,32 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Mikael Granlund",
-         "jersey": 64,
-         "pp": 1,
-         "n": 4,
-         "both": 1,
-         "either": 2
-        },
-        {
-         "name": "Beckett Sennecke",
-         "jersey": 45,
-         "pp": 1,
-         "n": 3,
+         "name": "Tim Washe",
+         "jersey": null,
+         "pp": null,
+         "n": 9,
          "both": 2,
          "either": 3
+        },
+        {
+         "name": "Troy Terry",
+         "jersey": 19,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 1
         }
        ]
       },
       {
-       "name": "Noah Warren",
-       "jersey": 47,
+       "name": "Drew Helleson",
+       "jersey": 14,
        "team": "ANA",
        "opp": "UTA",
        "section": "D",
@@ -44581,13 +44586,13 @@
        "sneaky": true,
        "form": {
         "points": {
-         "k": 6,
-         "k5": 1,
+         "k": 3,
+         "k5": 2,
          "n5": 5,
-         "k10": 2,
+         "k10": 3,
          "n10": 10,
-         "p": 0.26465098855359,
-         "p_hot": 0.22020981767180922,
+         "p": 0.22020981767180922,
+         "p_hot": 0.31120561009817665,
          "heater": false
         },
         "goals": {
@@ -44596,53 +44601,53 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.016203121748178978,
+         "p": 0.021838990182328186,
          "p_hot": 0.021838990182328186,
          "heater": false
         },
         "assists": {
-         "k": 6,
-         "k5": 1,
+         "k": 3,
+         "k5": 2,
          "n5": 5,
-         "k10": 2,
+         "k10": 3,
          "n10": 10,
-         "p": 0.2511483870967742,
-         "p_hot": 0.2020106591865357,
-         "heater": false
+         "p": 0.2020106591865357,
+         "p_hot": 0.2930064516129032,
+         "heater": true
         }
        },
        "pos": "RD",
        "gtd": false,
        "role": "d",
-       "bias": null,
-       "gp": 23,
-       "pt_games": 6,
+       "bias": "A",
+       "gp": 15,
+       "pt_games": 3,
        "l5": [
-        1,
+        2,
         5
        ],
-       "ast_games": 6,
+       "ast_games": 3,
        "goal_games": 0,
        "two_games": 0,
        "home_split": [
-        3,
-        11
+        2,
+        8
        ],
        "away_split": [
-        3,
-        12
+        1,
+        7
        ],
        "l5_venue": [
-        0,
+        1,
         5
        ],
        "l5_venue_two": 0,
        "pp_toi": 0.0,
-       "toi": 13.1,
-       "p": 0.265,
-       "fair": "+278",
-       "min": "+301",
-       "p2": 0.008,
+       "toi": 17.7,
+       "p": 0.22,
+       "fair": "+354",
+       "min": "+381",
+       "p2": 0.011,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -44654,16 +44659,16 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
          "name": "Pavel Mintyukov",
          "jersey": 34,
          "pp": null,
-         "n": 7,
-         "both": 1,
-         "either": 3
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -44864,7 +44869,7 @@
         {
          "name": "Frank Vatrano",
          "jersey": 77,
-         "pp": null,
+         "pp": 2,
          "n": 5,
          "both": 0,
          "either": 1
