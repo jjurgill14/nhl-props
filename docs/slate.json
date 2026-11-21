@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-21T22:37:30.888159+00:00",
+ "generated_utc": "2026-11-21T22:42:37.933366+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -9770,8 +9770,8 @@
      "ppga_rk": 20,
      "l5_gf": 3.2,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-21T15:47:03.596Z",
-     "lineup_checked": "2026-11-21T20:00:05.904639+00:00",
+     "lineup_as_of": "2026-11-21T22:38:10.650Z",
+     "lineup_checked": "2026-11-21T22:42:34.297602+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -9793,17 +9793,17 @@
      "lines": {
       "1": [
        "Brady Tkachuk",
-       "Sam Bennett",
+       "Anton Lundell",
        "Matthew Tkachuk"
       ],
       "2": [
-       "Eetu Luostarinen",
-       "Anton Lundell",
-       "Sam Reinhart"
+       "Carter Verhaeghe",
+       "Sam Reinhart",
+       "Lars Eller"
       ],
       "3": [
-       "Carter Verhaeghe",
-       "Lars Eller",
+       "Eetu Luostarinen",
+       "Sam Bennett",
        "Sandis Vilmanis"
       ],
       "4": [
@@ -9924,12 +9924,12 @@
          "either": 16
         },
         {
-         "name": "Sam Bennett",
-         "jersey": 9,
+         "name": "Anton Lundell",
+         "jersey": 15,
          "pp": 2,
-         "n": 20,
-         "both": 7,
-         "either": 17
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -9940,7 +9940,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -10020,25 +10020,25 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
+        {
+         "name": "Sam Reinhart",
+         "jersey": 13,
+         "pp": 1,
+         "n": 17,
+         "both": 10,
+         "either": 15
+        },
         {
          "name": "Lars Eller",
          "jersey": 20,
          "pp": 2,
          "n": 10,
          "both": 4,
-         "either": 6
-        },
-        {
-         "name": "Sandis Vilmanis",
-         "jersey": 95,
-         "pp": null,
-         "n": 6,
-         "both": 3,
          "either": 6
         }
        ]
@@ -10230,12 +10230,12 @@
        },
        "partners": [
         {
-         "name": "Sam Bennett",
-         "jersey": 9,
+         "name": "Anton Lundell",
+         "jersey": 15,
          "pp": 2,
-         "n": 16,
-         "both": 4,
-         "either": 14
+         "n": 2,
+         "both": 1,
+         "either": 1
         },
         {
          "name": "Matthew Tkachuk",
@@ -10289,7 +10289,7 @@
          "heater": true
         }
        },
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -10336,20 +10336,20 @@
        },
        "partners": [
         {
-         "name": "Eetu Luostarinen",
-         "jersey": 27,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Carter Verhaeghe",
+         "jersey": 23,
+         "pp": 1,
+         "n": 17,
+         "both": 10,
+         "either": 15
         },
         {
-         "name": "Anton Lundell",
-         "jersey": 15,
+         "name": "Lars Eller",
+         "jersey": 20,
          "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 11,
+         "both": 4,
+         "either": 7
         }
        ]
       },
@@ -10360,9 +10360,9 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 10,
@@ -10370,8 +10370,8 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.4130697190426639,
-         "p_hot": 0.371164095371669,
+         "p": 0.43785390218522374,
+         "p_hot": 0.40456886395511926,
          "heater": false
         },
         "goals": {
@@ -10380,8 +10380,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.1363130072840791,
-         "p_hot": 0.2301217391304348,
+         "p": 0.1555895941727367,
+         "p_hot": 0.2561032258064516,
          "heater": true
         },
         "assists": {
@@ -10390,14 +10390,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.282264308012487,
-         "p_hot": 0.14846563814866762,
+         "p": 0.30704849115504684,
+         "p_hot": 0.18187040673211782,
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": null,
        "gp": 23,
        "pt_games": 10,
@@ -10423,12 +10423,12 @@
        "l5_venue_two": 0,
        "pp_toi": 0.4,
        "toi": 16.5,
-       "p": 0.413,
-       "fair": "+142",
-       "min": "+157",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "p": 0.438,
+       "fair": "+128",
+       "min": "+142",
+       "p2": 0.022,
+       "fair2": "+4439",
+       "min2": "+4712",
        "adj": [
         [
          "opp",
@@ -10436,7 +10436,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -10450,12 +10450,12 @@
          "either": 6
         },
         {
-         "name": "Sandis Vilmanis",
-         "jersey": 95,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Sam Reinhart",
+         "jersey": 13,
+         "pp": 1,
+         "n": 11,
+         "both": 4,
+         "either": 7
         }
        ]
       },
@@ -10466,9 +10466,9 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 1,
+       "line": 3,
        "pp": 2,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 9,
@@ -10476,8 +10476,8 @@
          "n5": 5,
          "k10": 5,
          "n10": 10,
-         "p": 0.4034314255983351,
-         "p_hot": 0.4973598877980365,
+         "p": 0.37864724245577525,
+         "p_hot": 0.46395511921458626,
          "heater": true
         },
         "goals": {
@@ -10486,8 +10486,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.19001207075962537,
-         "p_hot": 0.2561032258064516,
+         "p": 0.17073548387096776,
+         "p_hot": 0.2301217391304348,
          "heater": false
         },
         "assists": {
@@ -10496,14 +10496,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.23820353798126953,
-         "p_hot": 0.27466143057503506,
+         "p": 0.2134193548387097,
+         "p_hot": 0.24125666199158485,
          "heater": true
         }
        },
        "pos": "C",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "G",
        "gp": 23,
        "pt_games": 9,
@@ -10529,12 +10529,12 @@
        "l5_venue_two": 0,
        "pp_toi": 0.6,
        "toi": 16.0,
-       "p": 0.403,
-       "fair": "+148",
-       "min": "+163",
-       "p2": 0.091,
-       "fair2": "+1000",
-       "min2": "+1066",
+       "p": 0.379,
+       "fair": "+164",
+       "min": "+180",
+       "p2": 0.08,
+       "fair2": "+1152",
+       "min2": "+1227",
        "adj": [
         [
          "opp",
@@ -10542,26 +10542,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Brady Tkachuk",
-         "jersey": 8,
-         "pp": 1,
-         "n": 16,
-         "both": 4,
-         "either": 14
+         "name": "Eetu Luostarinen",
+         "jersey": 27,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
         },
         {
-         "name": "Matthew Tkachuk",
-         "jersey": 19,
-         "pp": 1,
-         "n": 20,
-         "both": 7,
-         "either": 17
+         "name": "Sandis Vilmanis",
+         "jersey": 95,
+         "pp": null,
+         "n": 2,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -10572,7 +10572,7 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -10648,26 +10648,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Eetu Luostarinen",
-         "jersey": 27,
-         "pp": 2,
-         "n": 20,
-         "both": 3,
-         "either": 6
+         "name": "Brady Tkachuk",
+         "jersey": 8,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 1
         },
         {
-         "name": "Sam Reinhart",
-         "jersey": 13,
+         "name": "Matthew Tkachuk",
+         "jersey": 19,
          "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -10858,20 +10858,20 @@
        },
        "partners": [
         {
-         "name": "Carter Verhaeghe",
-         "jersey": 23,
-         "pp": 1,
-         "n": 6,
-         "both": 3,
-         "either": 6
+         "name": "Eetu Luostarinen",
+         "jersey": 27,
+         "pp": 2,
+         "n": 13,
+         "both": 0,
+         "either": 3
         },
         {
-         "name": "Lars Eller",
-         "jersey": 20,
+         "name": "Sam Bennett",
+         "jersey": 9,
          "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "n": 2,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -10882,9 +10882,9 @@
        "opp": "BUF",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 2,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 3,
@@ -10892,8 +10892,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.19689656607700315,
-         "p_hot": 0.26538232819074337,
+         "p": 0.17211238293444328,
+         "p_hot": 0.23197755960729313,
          "heater": false
         },
         "goals": {
@@ -10902,8 +10902,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.08674464099895941,
-         "p_hot": 0.0705211781206171,
+         "p": 0.06746805411030177,
+         "p_hot": 0.04453969144460028,
          "heater": false
         },
         "assists": {
@@ -10912,14 +10912,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.13493610822060353,
-         "p_hot": 0.22826591865357646,
+         "p": 0.11015192507804371,
+         "p_hot": 0.19486115007012622,
          "heater": false
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": "A",
        "gp": 23,
        "pt_games": 3,
@@ -10945,12 +10945,12 @@
        "l5_venue_two": 1,
        "pp_toi": 0.4,
        "toi": 16.1,
-       "p": 0.197,
-       "fair": "+408",
-       "min": "+438",
-       "p2": 0.091,
-       "fair2": "+1000",
-       "min2": "+1066",
+       "p": 0.172,
+       "fair": "+481",
+       "min": "+516",
+       "p2": 0.08,
+       "fair2": "+1152",
+       "min2": "+1227",
        "adj": [
         [
          "opp",
@@ -10958,26 +10958,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Anton Lundell",
-         "jersey": 15,
+         "name": "Sam Bennett",
+         "jersey": 9,
          "pp": 2,
-         "n": 20,
-         "both": 3,
-         "either": 6
+         "n": 2,
+         "both": 0,
+         "either": 1
         },
         {
-         "name": "Sam Reinhart",
-         "jersey": 13,
-         "pp": 1,
-         "n": 1,
+         "name": "Sandis Vilmanis",
+         "jersey": 95,
+         "pp": null,
+         "n": 13,
          "both": 0,
-         "either": 0
+         "either": 3
         }
        ]
       },

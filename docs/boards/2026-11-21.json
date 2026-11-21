@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-21T22:37:31.917357+00:00",
+ "generated_utc": "2026-11-21T22:42:38.982853+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -8797,8 +8797,8 @@
     "goalie_source": "@FlaPanthers",
     "sv": "0.898",
     "gaa": "2.56",
-    "lineup_as_of": "2026-11-21T15:47:03.596Z",
-    "lineup_checked": "2026-11-21T20:00:05.904639+00:00",
+    "lineup_as_of": "2026-11-21T22:38:10.650Z",
+    "lineup_checked": "2026-11-21T22:42:34.297602+00:00",
     "lineup_stale": false,
     "ga_rk": 18,
     "gf_rk": 15,
@@ -8873,6 +8873,31 @@
       "at": "2026-11-21T20:00:05.907499+00:00",
       "kind": "move",
       "text": "Lars Eller: L4\u2192L3, PP-\u2192PP2"
+     },
+     {
+      "at": "2026-11-21T22:42:34.303702+00:00",
+      "kind": "move",
+      "text": "Anton Lundell: L2\u2192L1"
+     },
+     {
+      "at": "2026-11-21T22:42:34.303702+00:00",
+      "kind": "move",
+      "text": "Carter Verhaeghe: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-21T22:42:34.303702+00:00",
+      "kind": "move",
+      "text": "Lars Eller: L3\u2192L2"
+     },
+     {
+      "at": "2026-11-21T22:42:34.303702+00:00",
+      "kind": "move",
+      "text": "Eetu Luostarinen: L2\u2192L3"
+     },
+     {
+      "at": "2026-11-21T22:42:34.303702+00:00",
+      "kind": "move",
+      "text": "Sam Bennett: L1\u2192L3"
      }
     ],
     "rates": {
@@ -8909,7 +8934,7 @@
      "away": "-205",
      "home": "+170",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-21T15:47:03.596Z"
+     "as_of": "2026-11-21T22:38:10.650Z"
     },
     "total": {
      "line": 6.5,
@@ -8978,7 +9003,7 @@
       "player": "Carter Verhaeghe",
       "team": "FLA",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "bias": "A",
       "players": [
        8477409
@@ -9111,7 +9136,7 @@
       "player": "Carter Verhaeghe",
       "team": "FLA",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "players": [
        8477409
       ]
@@ -9183,7 +9208,7 @@
       "player": "Carter Verhaeghe",
       "team": "FLA",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "players": [
        8477409
       ]
@@ -9217,7 +9242,23 @@
       ]
      }
     ],
-    "sneaky_point": [],
+    "sneaky_point": [
+     {
+      "selection": "Sam Bennett \u00b7 1+ point",
+      "prob": 0.464,
+      "fair": "+116",
+      "need": "+128",
+      "rationale": "L3 \u00b7 PP2 \u00b7 3 of L5 \u00b7 5 of L10 \u00b7 9 of 23 season",
+      "player": "Sam Bennett",
+      "team": "FLA",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8477935
+      ],
+      "sneaky": true
+     }
+    ],
     "sneaky_assist": [
      {
       "selection": "Tyson Kozak \u00b7 1+ assist",
@@ -9250,6 +9291,21 @@
       "sneaky": true
      },
      {
+      "selection": "Sam Bennett \u00b7 1+ assist",
+      "prob": 0.241,
+      "fair": "+314",
+      "need": "+339",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 5 of 23 season",
+      "player": "Sam Bennett",
+      "team": "FLA",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8477935
+      ],
+      "sneaky": true
+     },
+     {
       "selection": "Josh Norris \u00b7 1+ assist",
       "prob": 0.223,
       "fair": "+349",
@@ -9265,23 +9321,7 @@
       "sneaky": true
      }
     ],
-    "sneaky_goal": [
-     {
-      "selection": "Lars Eller \u00b7 1+ goal",
-      "prob": 0.23,
-      "fair": "+335",
-      "need": "+361",
-      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 23 season",
-      "player": "Lars Eller",
-      "team": "FLA",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8474189
-      ],
-      "sneaky": true
-     }
-    ],
+    "sneaky_goal": [],
     "pair": [
      {
       "selection": "Tkachuk + Tkachuk \u00b7 both 1+ point",
@@ -9316,6 +9356,22 @@
       ]
      },
      {
+      "selection": "Verhaeghe + Reinhart \u00b7 both 1+ point",
+      "prob": 0.549,
+      "fair": "-122",
+      "need": "-107",
+      "rationale": "Both scored 10 of 17 games together \u00b7 independent 44% \u00b7 correlated",
+      "team": "FLA",
+      "line": 2,
+      "read": "correlated",
+      "both": 10,
+      "n": 17,
+      "players": [
+       8477409,
+       8477933
+      ]
+     },
+     {
       "selection": "Quinn + Ostlund \u00b7 both 1+ point",
       "prob": 0.386,
       "fair": "+159",
@@ -9333,34 +9389,18 @@
      },
      {
       "selection": "Verhaeghe + Eller \u00b7 both 1+ point",
-      "prob": 0.357,
-      "fair": "+180",
-      "need": "+197",
-      "rationale": "Both scored 4 of 10 games together \u00b7 independent 29% \u00b7 correlated",
+      "prob": 0.364,
+      "fair": "+175",
+      "need": "+191",
+      "rationale": "Both scored 4 of 10 games together \u00b7 independent 30% \u00b7 correlated",
       "team": "FLA",
-      "line": 3,
+      "line": 2,
       "read": "correlated",
       "both": 4,
       "n": 10,
       "players": [
        8477409,
        8474189
-      ]
-     },
-     {
-      "selection": "Tkachuk + Bennett \u00b7 both 1+ point",
-      "prob": 0.347,
-      "fair": "+188",
-      "need": "+205",
-      "rationale": "Both scored 7 of 20 games together \u00b7 independent 34% \u00b7 independent",
-      "team": "FLA",
-      "line": 1,
-      "read": "independent",
-      "both": 7,
-      "n": 20,
-      "players": [
-       8479314,
-       8477935
       ]
      }
     ],
@@ -9402,7 +9442,7 @@
       "player": "Carter Verhaeghe",
       "team": "FLA",
       "pp": 1,
-      "line": 3,
+      "line": 2,
       "players": [
        8477409
       ]
@@ -9467,6 +9507,22 @@
       "players": [
        8479420,
        8484145
+      ]
+     },
+     {
+      "selection": "Verhaeghe + Reinhart \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.549,
+      "fair": "-122",
+      "need": "-107",
+      "rationale": "Both scored 10 of 17 games together \u00b7 independent 44% \u00b7 correlated",
+      "team": "FLA",
+      "line": 2,
+      "read": "correlated",
+      "both": 10,
+      "n": 17,
+      "players": [
+       8477409,
+       8477933
       ]
      }
     ],
@@ -11049,11 +11105,11 @@
     },
     "home": {
      "team": "FLA",
-     "as_of": "2026-11-21T15:47:03.596Z",
-     "checked": "2026-11-21T20:00:05.904639+00:00",
+     "as_of": "2026-11-21T22:38:10.650Z",
+     "checked": "2026-11-21T22:42:34.297602+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-21T15:47:03.596Z",
+     "source": "Jameson Olive",
+     "updated_dfo": "2026-11-21T22:38:10.650Z",
      "forwards": [
       [
        {
@@ -11095,39 +11151,39 @@
         }
        },
        {
-        "name": "Sam Bennett",
-        "jersey": 9,
+        "name": "Anton Lundell",
+        "jersey": 15,
         "pos": "C",
         "slot": null,
-        "player_id": 8477935,
-        "dfo_id": 2366,
+        "player_id": 8482113,
+        "dfo_id": 33026,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
+        "pk": 1,
         "bias": "G",
         "season": {
-         "a": 5,
+         "a": 4,
          "g": 7,
-         "gp": 23,
-         "p": 12,
+         "gp": 22,
+         "p": 11,
          "ppp": 1,
-         "sog": 57,
-         "toi_s": 23858
+         "sog": 58,
+         "toi_s": 22970
         },
         "last5": {
          "a": 2,
-         "g": 2,
+         "g": 3,
          "gp": 5,
-         "p": 4,
+         "p": 5,
          "ppp": 1,
-         "sog": 11,
-         "toi_s": 4792
+         "sog": 10,
+         "toi_s": 4999
         },
         "l5_point_games": 3,
-        "gp": 23,
+        "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -11173,77 +11229,39 @@
       ],
       [
        {
-        "name": "Eetu Luostarinen",
-        "jersey": 27,
+        "name": "Carter Verhaeghe",
+        "jersey": 23,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480185,
-        "dfo_id": 28129,
+        "player_id": 8477409,
+        "dfo_id": 2818,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 1,
+        "pp": 1,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 3,
-         "g": 2,
+         "a": 11,
+         "g": 10,
          "gp": 23,
-         "p": 5,
-         "ppp": 1,
-         "sog": 23,
-         "toi_s": 22115
+         "p": 21,
+         "ppp": 7,
+         "sog": 50,
+         "toi_s": 25412
         },
         "last5": {
-         "a": 1,
+         "a": 5,
          "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 4839
-        },
-        "l5_point_games": 1,
-        "gp": 23,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Anton Lundell",
-        "jersey": 15,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8482113,
-        "dfo_id": 33026,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": "G",
-        "season": {
-         "a": 4,
-         "g": 7,
-         "gp": 22,
-         "p": 11,
-         "ppp": 1,
-         "sog": 58,
-         "toi_s": 22970
-        },
-        "last5": {
-         "a": 2,
-         "g": 3,
-         "gp": 5,
          "p": 5,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 4999
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 5549
         },
         "l5_point_games": 3,
-        "gp": 22,
+        "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -11251,7 +11269,7 @@
        {
         "name": "Sam Reinhart",
         "jersey": 13,
-        "pos": "RW",
+        "pos": "C",
         "slot": null,
         "player_id": 8477933,
         "dfo_id": 2364,
@@ -11285,51 +11303,11 @@
          "pp": 0,
          "new": false
         }
-       }
-      ],
-      [
-       {
-        "name": "Carter Verhaeghe",
-        "jersey": 23,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8477409,
-        "dfo_id": 2818,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 10,
-         "gp": 23,
-         "p": 21,
-         "ppp": 7,
-         "sog": 50,
-         "toi_s": 25412
-        },
-        "last5": {
-         "a": 5,
-         "g": 0,
-         "gp": 5,
-         "p": 5,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 5549
-        },
-        "l5_point_games": 3,
-        "gp": 23,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
        },
        {
         "name": "Lars Eller",
         "jersey": 20,
-        "pos": "C",
+        "pos": "RW",
         "slot": null,
         "player_id": 8474189,
         "dfo_id": 840,
@@ -11359,7 +11337,85 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Eetu Luostarinen",
+        "jersey": 27,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8480185,
+        "dfo_id": 28129,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 3,
+         "g": 2,
+         "gp": 23,
+         "p": 5,
+         "ppp": 1,
+         "sog": 23,
+         "toi_s": 22115
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 4839
+        },
+        "l5_point_games": 1,
+        "gp": 23,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Sam Bennett",
+        "jersey": 9,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8477935,
+        "dfo_id": 2366,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 5,
+         "g": 7,
+         "gp": 23,
+         "p": 12,
+         "ppp": 1,
+         "sog": 57,
+         "toi_s": 23858
+        },
+        "last5": {
+         "a": 2,
+         "g": 2,
+         "gp": 5,
+         "p": 4,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 4792
+        },
+        "l5_point_games": 3,
+        "gp": 23,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -11993,7 +12049,7 @@
         "l5_point_games": 3,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -12071,7 +12127,7 @@
         "l5_point_games": 1,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -12109,7 +12165,7 @@
         "l5_point_games": 3,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -12147,7 +12203,7 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -12223,7 +12279,7 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -12265,7 +12321,7 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -12303,7 +12359,7 @@
         "l5_point_games": 1,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -12419,7 +12475,7 @@
         "l5_point_games": 2,
         "gp": 23,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -12575,16 +12631,16 @@
        "rating": 0
       },
       "f1": {
-       "rank": 25,
-       "rating": 74.18367923076147
+       "rank": 16,
+       "rating": 76.49250292062115
       },
       "f2": {
-       "rank": 12,
-       "rating": 74.55289337937371
+       "rank": 19,
+       "rating": 73.2104232661598
       },
       "f3": {
-       "rank": 20,
-       "rating": 72.53918820955285
+       "rank": 34,
+       "rating": 69.56603185104211
       },
       "f4": {
        "rank": 14,
