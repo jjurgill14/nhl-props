@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-22T22:01:29.073024+00:00",
+ "generated_utc": "2026-11-22T22:06:36.022004+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -12701,13 +12701,13 @@
     "record": "7-13-2",
     "b2b": true,
     "goalie": "Arturs Silovs",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Silovs will start Sunday in Dallas.",
+    "goalie_source": "@king_jemison",
     "sv": "0.873",
     "gaa": "3.41",
     "lineup_as_of": "2026-11-22T18:33:14.477Z",
-    "lineup_checked": "2026-11-22T21:10:21.331225+00:00",
+    "lineup_checked": "2026-11-22T22:06:32.165770+00:00",
     "lineup_stale": false,
     "ga_rk": 5,
     "gf_rk": 22,
@@ -12722,6 +12722,16 @@
       "at": "2026-11-22T21:10:21.333893+00:00",
       "kind": "out",
       "text": "OUT: Spencer Stastney (was L3)"
+     },
+     {
+      "at": "2026-11-22T22:06:32.168866+00:00",
+      "kind": "in",
+      "text": "IN: Spencer Stastney \u2192 L3"
+     },
+     {
+      "at": "2026-11-22T22:06:32.168866+00:00",
+      "kind": "out",
+      "text": "OUT: Declan Carlile (was L3) \u2192 DTD"
      }
     ],
     "rates": {
@@ -13424,7 +13434,7 @@
     "away": {
      "team": "PIT",
      "as_of": "2026-11-22T18:33:14.477Z",
-     "checked": "2026-11-22T21:10:21.331225+00:00",
+     "checked": "2026-11-22T22:06:32.165770+00:00",
      "stale": false,
      "source": "Last Game (2026-11-22)",
      "updated_dfo": "2026-11-22T18:33:14.477Z",
@@ -14022,7 +14032,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 1,
@@ -14053,41 +14063,41 @@
       ],
       [
        {
-        "name": "Declan Carlile",
-        "jersey": 72,
+        "name": "Spencer Stastney",
+        "jersey": 24,
         "pos": "LD",
         "slot": null,
-        "player_id": 8483398,
-        "dfo_id": 30124,
+        "player_id": 8481056,
+        "dfo_id": 28862,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 3,
-         "g": 3,
-         "gp": 21,
-         "p": 6,
+         "g": 0,
+         "gp": 16,
+         "p": 3,
          "ppp": 0,
-         "sog": 28,
-         "toi_s": 23213
+         "sog": 15,
+         "toi_s": 16781
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 5203
+         "sog": 0,
+         "toi_s": 5366
         },
-        "l5_point_games": 1,
-        "gp": 21,
+        "l5_point_games": 0,
+        "gp": 16,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -14683,25 +14693,25 @@
         }
        },
        {
-        "name": "Declan Carlile",
-        "jersey": 72,
+        "name": "Trevor van Riemsdyk",
+        "jersey": 57,
         "pos": null,
         "slot": 3,
-        "player_id": 8483398,
-        "dfo_id": 30124,
+        "player_id": 8477845,
+        "dfo_id": 2383,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 3,
-         "gp": 21,
-         "p": 6,
+         "a": 1,
+         "g": 0,
+         "gp": 7,
+         "p": 1,
          "ppp": 0,
-         "sog": 28,
-         "toi_s": 23213
+         "sog": 3,
+         "toi_s": 7967
         },
         "last5": {
          "a": 1,
@@ -14709,15 +14719,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 5203
+         "sog": 2,
+         "toi_s": 5637
         },
         "l5_point_games": 1,
-        "gp": 21,
+        "gp": 7,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -14837,37 +14847,37 @@
         }
        },
        {
-        "name": "Trevor van Riemsdyk",
-        "jersey": 57,
+        "name": "Spencer Stastney",
+        "jersey": 24,
         "pos": null,
         "slot": 3,
-        "player_id": 8477845,
-        "dfo_id": 2383,
+        "player_id": 8481056,
+        "dfo_id": 28862,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
+         "a": 3,
          "g": 0,
-         "gp": 7,
-         "p": 1,
+         "gp": 16,
+         "p": 3,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 7967
+         "sog": 15,
+         "toi_s": 16781
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 5637
+         "sog": 0,
+         "toi_s": 5366
         },
-        "l5_point_games": 1,
-        "gp": 7,
+        "l5_point_games": 0,
+        "gp": 16,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -14939,6 +14949,11 @@
        "player": "Evgeni Malkin",
        "status": "DTD",
        "news": "Malkin (upper-body) is considered day-to-day and will not travel with the team this weekend."
+      },
+      {
+       "player": "Declan Carlile",
+       "status": "DTD",
+       "news": "Carlile (lower-body) is day-to-day and will not play Sunday in Dallas."
       }
      ],
      "unit_ratings": {

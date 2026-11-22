@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_utc": "2026-11-22T22:01:28.196787+00:00",
+ "generated_utc": "2026-11-22T22:06:35.141476+00:00",
  "games": [
   {
    "game_id": 2026020373,
@@ -11995,9 +11995,9 @@
      "home": false,
      "b2b": true,
      "goalie": "Arturs Silovs",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Silovs will start Sunday in Dallas.",
+     "goalie_source": "@king_jemison",
      "sv": "0.873",
      "gaa": "3.41",
      "ml": "-130",
@@ -12013,7 +12013,7 @@
      "l5_gf": 2.0,
      "l5_ga": 4.0,
      "lineup_as_of": "2026-11-22T18:33:14.477Z",
-     "lineup_checked": "2026-11-22T21:10:21.331225+00:00",
+     "lineup_checked": "2026-11-22T22:06:32.165770+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -12040,6 +12040,11 @@
        "player": "Evgeni Malkin",
        "status": "DTD",
        "news": "Malkin (upper-body) is considered day-to-day and will not travel with the team this weekend."
+      },
+      {
+       "player": "Declan Carlile",
+       "status": "DTD",
+       "news": "Carlile (lower-body) is day-to-day and will not play Sunday in Dallas."
       }
      ],
      "lines": {
@@ -13142,12 +13147,12 @@
        },
        "partners": [
         {
-         "name": "Declan Carlile",
-         "jersey": 72,
+         "name": "Spencer Stastney",
+         "jersey": 24,
          "pp": null,
-         "n": 8,
-         "both": 1,
-         "either": 3
+         "n": 4,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -13258,108 +13263,6 @@
          "n": 10,
          "both": 3,
          "either": 6
-        }
-       ]
-      },
-      {
-       "name": "Declan Carlile",
-       "jersey": 72,
-       "team": "PIT",
-       "opp": "DAL",
-       "section": "D",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1745744516129032,
-         "p_hot": 0.12357367741935482,
-         "heater": false
-        },
-        "goals": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.08881858064516128,
-         "p_hot": 0.015446709677419353,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.11332025806451611,
-         "p_hot": 0.1107014193548387,
-         "heater": false
-        }
-       },
-       "pos": "LD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 21,
-       "pt_games": 5,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        2,
-        9
-       ],
-       "away_split": [
-        3,
-        12
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 17.3,
-       "p": 0.175,
-       "fair": "+473",
-       "min": "+507",
-       "p2": 0.029,
-       "fair2": "+3384",
-       "min2": "+3593",
-       "adj": [
-        [
-         "opp",
-         0.8606451612903225
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Kris Letang",
-         "jersey": 58,
-         "pp": 2,
-         "n": 8,
-         "both": 1,
-         "either": 3
         }
        ]
       },
@@ -13690,6 +13593,108 @@
          "n": 2,
          "both": 0,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Spencer Stastney",
+       "jersey": 24,
+       "team": "PIT",
+       "opp": "DAL",
+       "section": "D",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.14926455913978492,
+         "p_hot": 0.09139303225806451,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.014803096774193548,
+         "p_hot": 0.015446709677419353,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.1369286451612903,
+         "p_hot": 0.07852077419354839,
+         "heater": false
+        }
+       },
+       "pos": "LD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 16,
+       "pt_games": 3,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        2,
+        8
+       ],
+       "away_split": [
+        1,
+        8
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 17.9,
+       "p": 0.149,
+       "fair": "+570",
+       "min": "+610",
+       "p2": 0.007,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8606451612903225
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Kris Letang",
+         "jersey": 58,
+         "pp": 2,
+         "n": 4,
+         "both": 0,
+         "either": 0
         }
        ]
       },
