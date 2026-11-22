@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-22T02:46:27.707420+00:00",
+ "generated_utc": "2026-11-22T02:51:34.852307+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -15608,7 +15608,7 @@
    "start_et": "7:00 PM",
    "away": "WSH",
    "home": "BOS",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "TD Garden",
    "teams": {
     "away": {
@@ -19500,7 +19500,7 @@
    "start_et": "7:00 PM",
    "away": "CBJ",
    "home": "TOR",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "Scotiabank Arena",
    "teams": {
     "away": {
@@ -27334,7 +27334,7 @@
    "start_et": "7:00 PM",
    "away": "LAK",
    "home": "OTT",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "Canadian Tire Centre",
    "teams": {
     "away": {
@@ -46867,8 +46867,8 @@
      "ppga_rk": 21,
      "l5_gf": 4.8,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-21T19:43:08.843Z",
-     "lineup_checked": "2026-11-22T00:04:36.997868+00:00",
+     "lineup_as_of": "2026-11-22T02:50:00.514Z",
+     "lineup_checked": "2026-11-22T02:51:31.145074+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -46894,14 +46894,14 @@
        "Bobby Brink"
       ],
       "3": [
-       "Yakov Trenin",
+       "Maxim Shabanov",
        "Danila Yurov",
-       "Maxim Shabanov"
+       "Yakov Trenin"
       ],
       "4": [
-       "Marcus Foligno",
+       "Nick Foligno",
        "Ryan Hartman",
-       "Nick Foligno"
+       "Marcus Foligno"
       ]
      },
      "pp1": [
@@ -47244,7 +47244,7 @@
        "opp": "VAN",
        "section": "D",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -47320,18 +47320,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Matt Kiersted",
-         "jersey": 26,
+         "name": "Jonas Brodin",
+         "jersey": 25,
          "pp": null,
-         "n": 0,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -47377,7 +47377,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -47424,20 +47424,20 @@
        },
        "partners": [
         {
-         "name": "Yakov Trenin",
-         "jersey": 13,
-         "pp": null,
-         "n": 15,
-         "both": 3,
-         "either": 9
-        },
-        {
          "name": "Danila Yurov",
          "jersey": 22,
          "pp": 2,
          "n": 20,
          "both": 4,
          "either": 13
+        },
+        {
+         "name": "Yakov Trenin",
+         "jersey": 13,
+         "pp": null,
+         "n": 15,
+         "both": 3,
+         "either": 9
         }
        ]
       },
@@ -47660,7 +47660,7 @@
        "opp": "VAN",
        "section": "D",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -47736,18 +47736,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jonas Brodin",
-         "jersey": 25,
+         "name": "Matt Kiersted",
+         "jersey": 26,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -47946,20 +47946,20 @@
        },
        "partners": [
         {
-         "name": "Yakov Trenin",
-         "jersey": 13,
-         "pp": null,
-         "n": 16,
-         "both": 3,
-         "either": 7
-        },
-        {
          "name": "Maxim Shabanov",
          "jersey": 49,
          "pp": 1,
          "n": 20,
          "both": 4,
          "either": 13
+        },
+        {
+         "name": "Yakov Trenin",
+         "jersey": 13,
+         "pp": null,
+         "n": 16,
+         "both": 3,
+         "either": 7
         }
        ]
       },
@@ -48052,10 +48052,10 @@
        },
        "partners": [
         {
-         "name": "Jared Spurgeon",
-         "jersey": 46,
-         "pp": null,
-         "n": 1,
+         "name": "Brock Faber",
+         "jersey": 7,
+         "pp": 1,
+         "n": 2,
          "both": 0,
          "either": 1
         }
@@ -48103,7 +48103,7 @@
          "heater": true
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": "A",
@@ -48150,20 +48150,20 @@
        },
        "partners": [
         {
-         "name": "Marcus Foligno",
-         "jersey": 17,
-         "pp": null,
-         "n": 8,
-         "both": 1,
-         "either": 3
-        },
-        {
          "name": "Ryan Hartman",
          "jersey": 38,
          "pp": 2,
          "n": 4,
          "both": 0,
          "either": 2
+        },
+        {
+         "name": "Marcus Foligno",
+         "jersey": 17,
+         "pp": null,
+         "n": 8,
+         "both": 1,
+         "either": 3
         }
        ]
       },
@@ -48256,18 +48256,18 @@
        },
        "partners": [
         {
-         "name": "Marcus Foligno",
-         "jersey": 17,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 2
-        },
-        {
          "name": "Nick Foligno",
          "jersey": 17,
          "pp": null,
          "n": 4,
+         "both": 0,
+         "either": 2
+        },
+        {
+         "name": "Marcus Foligno",
+         "jersey": 17,
+         "pp": null,
+         "n": 5,
          "both": 0,
          "either": 2
         }
@@ -48315,7 +48315,7 @@
          "heater": true
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -48362,20 +48362,20 @@
        },
        "partners": [
         {
-         "name": "Danila Yurov",
-         "jersey": 22,
-         "pp": 2,
-         "n": 16,
-         "both": 3,
-         "either": 7
-        },
-        {
          "name": "Maxim Shabanov",
          "jersey": 49,
          "pp": 1,
          "n": 15,
          "both": 3,
          "either": 9
+        },
+        {
+         "name": "Danila Yurov",
+         "jersey": 22,
+         "pp": 2,
+         "n": 16,
+         "both": 3,
+         "either": 7
         }
        ]
       },
@@ -48421,7 +48421,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -48468,20 +48468,20 @@
        },
        "partners": [
         {
-         "name": "Ryan Hartman",
-         "jersey": 38,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
-         "either": 2
-        },
-        {
          "name": "Nick Foligno",
          "jersey": 17,
          "pp": null,
          "n": 8,
          "both": 1,
          "either": 3
+        },
+        {
+         "name": "Ryan Hartman",
+         "jersey": 38,
+         "pp": 2,
+         "n": 5,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -48770,9 +48770,9 @@
        },
        "partners": [
         {
-         "name": "Brock Faber",
-         "jersey": 7,
-         "pp": 1,
+         "name": "Jared Spurgeon",
+         "jersey": 46,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
@@ -48804,8 +48804,8 @@
      "ppga_rk": 1,
      "l5_gf": 2.4,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-21T17:57:19.747Z",
-     "lineup_checked": "2026-11-22T00:04:37.075803+00:00",
+     "lineup_as_of": "2026-11-22T02:48:51.701Z",
+     "lineup_checked": "2026-11-22T02:51:31.207210+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -49895,12 +49895,12 @@
        },
        "partners": [
         {
-         "name": "Cameron Crotty",
-         "jersey": 5,
+         "name": "Luke Schenn",
+         "jersey": 2,
          "pp": null,
-         "n": 4,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -50419,6 +50419,104 @@
        ]
       },
       {
+       "name": "Luke Schenn",
+       "jersey": 2,
+       "team": "VAN",
+       "opp": "MIN",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.16128,
+         "p_hot": 0.10372173913043478,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.02016,
+         "p_hot": 0.017530434782608694,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.14447999999999997,
+         "p_hot": 0.08911304347826086,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 12,
+       "pt_games": 2,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        2,
+        7
+       ],
+       "away_split": [
+        0,
+        5
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 11.9,
+       "p": 0.161,
+       "fair": "+520",
+       "min": "+557",
+       "p2": 0.01,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.84
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Jamie Oleksiak",
+         "jersey": 4,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Arshdeep Bains",
        "jersey": null,
        "team": "VAN",
@@ -50619,104 +50717,6 @@
          "n": 0,
          "both": 0,
          "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Cameron Crotty",
-       "jersey": 5,
-       "team": "VAN",
-       "opp": "MIN",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 4,
-         "k10": 0,
-         "n10": 4,
-         "p": 0.1288,
-         "p_hot": 0.0966,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 4,
-         "k10": 0,
-         "n10": 4,
-         "p": 0.0336,
-         "p_hot": 0.025199999999999997,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 4,
-         "k10": 0,
-         "n10": 4,
-         "p": 0.10079999999999999,
-         "p_hot": 0.0756,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 4,
-       "pt_games": 0,
-       "l5": [
-        0,
-        4
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        1
-       ],
-       "away_split": [
-        0,
-        3
-       ],
-       "l5_venue": [
-        0,
-        1
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 8.9,
-       "p": 0.129,
-       "fair": "+676",
-       "min": "+723",
-       "p2": 0.017,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.84
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jamie Oleksiak",
-         "jersey": 4,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 1
         }
        ]
       }
@@ -52705,8 +52705,8 @@
      "ppga_rk": 7,
      "l5_gf": 3.0,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-21T04:01:23.249Z",
-     "lineup_checked": "2026-11-21T13:56:10.182873+00:00",
+     "lineup_as_of": "2026-11-22T02:47:18.322Z",
+     "lineup_checked": "2026-11-22T02:51:31.342424+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -53193,7 +53193,7 @@
        "opp": "SEA",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -53269,7 +53269,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 1,
         "new": false
        },
@@ -53503,7 +53503,7 @@
        "opp": "SEA",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -53579,7 +53579,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -53809,7 +53809,7 @@
        "opp": "SEA",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -54119,7 +54119,7 @@
        "opp": "SEA",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -54195,7 +54195,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": -1,
         "new": false
        },

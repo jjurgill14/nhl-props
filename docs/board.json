@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-22T02:46:28.806070+00:00",
+ "generated_utc": "2026-11-22T02:51:35.979867+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -16438,7 +16438,7 @@
    "id": "05",
    "game_id": 2026020363,
    "start_utc": "2026-11-22T00:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "TD Garden",
    "away": {
     "abbr": "WSH",
@@ -20267,7 +20267,7 @@
    "id": "06",
    "game_id": 2026020364,
    "start_utc": "2026-11-22T00:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "Scotiabank Arena",
    "away": {
     "abbr": "CBJ",
@@ -27978,7 +27978,7 @@
    "id": "08",
    "game_id": 2026020366,
    "start_utc": "2026-11-22T00:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "Canadian Tire Centre",
    "away": {
     "abbr": "LAK",
@@ -47382,8 +47382,8 @@
     "goalie_source": "Joe Smith",
     "sv": "0.926",
     "gaa": "1.94",
-    "lineup_as_of": "2026-11-21T19:43:08.843Z",
-    "lineup_checked": "2026-11-22T00:04:36.997868+00:00",
+    "lineup_as_of": "2026-11-22T02:50:00.514Z",
+    "lineup_checked": "2026-11-22T02:51:31.145074+00:00",
     "lineup_stale": false,
     "ga_rk": 32,
     "gf_rk": 7,
@@ -47458,8 +47458,8 @@
     "goalie_source": "Thomas Drance",
     "sv": "0.889",
     "gaa": "3.53",
-    "lineup_as_of": "2026-11-21T17:57:19.747Z",
-    "lineup_checked": "2026-11-22T00:04:37.075803+00:00",
+    "lineup_as_of": "2026-11-22T02:48:51.701Z",
+    "lineup_checked": "2026-11-22T02:51:31.207210+00:00",
     "lineup_stale": false,
     "ga_rk": 1,
     "gf_rk": 25,
@@ -47499,6 +47499,16 @@
       "at": "2026-11-22T00:04:37.075803+00:00",
       "kind": "move",
       "text": "Marco Rossi: L3\u2192L2, PP2\u2192PP1"
+     },
+     {
+      "at": "2026-11-22T02:51:31.220806+00:00",
+      "kind": "in",
+      "text": "IN: Luke Schenn \u2192 L3"
+     },
+     {
+      "at": "2026-11-22T02:51:31.220806+00:00",
+      "kind": "out",
+      "text": "OUT: Cameron Crotty (was L3)"
      }
     ],
     "rates": {
@@ -47535,7 +47545,7 @@
      "away": "-122",
      "home": "+102",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-21T17:57:19.747Z"
+     "as_of": "2026-11-22T02:48:51.701Z"
     },
     "total": {
      "line": 6.5,
@@ -47634,7 +47644,7 @@
       "player": "Brock Faber",
       "team": "MIN",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": null,
       "players": [
        8482122
@@ -47723,7 +47733,7 @@
       "player": "Brock Faber",
       "team": "MIN",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8482122
       ]
@@ -48127,11 +48137,11 @@
    "lineup": {
     "away": {
      "team": "MIN",
-     "as_of": "2026-11-21T19:43:08.843Z",
-     "checked": "2026-11-22T00:04:36.997868+00:00",
+     "as_of": "2026-11-22T02:50:00.514Z",
+     "checked": "2026-11-22T02:51:31.145074+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-21T19:43:08.843Z",
+     "source": "Joe Smith",
+     "updated_dfo": "2026-11-22T02:50:00.514Z",
      "forwards": [
       [
        {
@@ -48367,41 +48377,41 @@
       ],
       [
        {
-        "name": "Yakov Trenin",
-        "jersey": 13,
+        "name": "Maxim Shabanov",
+        "jersey": 49,
         "pos": "LW",
         "slot": null,
-        "player_id": 8478508,
-        "dfo_id": 3775,
+        "player_id": 8485702,
+        "dfo_id": 38466,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 4,
-         "g": 0,
+         "a": 5,
+         "g": 9,
          "gp": 23,
-         "p": 4,
-         "ppp": 0,
-         "sog": 23,
-         "toi_s": 18017
+         "p": 14,
+         "ppp": 9,
+         "sog": 35,
+         "toi_s": 20600
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3746
+         "sog": 8,
+         "toi_s": 4298
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -48443,77 +48453,77 @@
         }
        },
        {
-        "name": "Maxim Shabanov",
-        "jersey": 49,
+        "name": "Yakov Trenin",
+        "jersey": 13,
         "pos": "RW",
         "slot": null,
-        "player_id": 8485702,
-        "dfo_id": 38466,
+        "player_id": 8478508,
+        "dfo_id": 3775,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "G",
+        "pp": null,
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 5,
-         "g": 9,
+         "a": 4,
+         "g": 0,
          "gp": 23,
-         "p": 14,
-         "ppp": 9,
-         "sog": 35,
-         "toi_s": 20600
+         "p": 4,
+         "ppp": 0,
+         "sog": 23,
+         "toi_s": 18017
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4298
+         "sog": 5,
+         "toi_s": 3746
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
       [
        {
-        "name": "Marcus Foligno",
-        "jersey": 17,
+        "name": "Nick Foligno",
+        "jersey": 71,
         "pos": "LW",
         "slot": null,
-        "player_id": 8475220,
-        "dfo_id": 1689,
+        "player_id": 8473422,
+        "dfo_id": 1081,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
+         "a": 2,
          "g": 1,
-         "gp": 10,
-         "p": 1,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 6404
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
+         "gp": 9,
+         "p": 3,
          "ppp": 0,
          "sog": 3,
-         "toi_s": 3048
+         "toi_s": 5575
         },
-        "l5_point_games": 1,
-        "gp": 10,
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 3299
+        },
+        "l5_point_games": 2,
+        "gp": 9,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -48559,37 +48569,37 @@
         }
        },
        {
-        "name": "Nick Foligno",
-        "jersey": 71,
+        "name": "Marcus Foligno",
+        "jersey": 17,
         "pos": "RW",
         "slot": null,
-        "player_id": 8473422,
-        "dfo_id": 1081,
+        "player_id": 8475220,
+        "dfo_id": 1689,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 2,
+         "a": 0,
          "g": 1,
-         "gp": 9,
-         "p": 3,
+         "gp": 10,
+         "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5575
+         "sog": 7,
+         "toi_s": 6404
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 0,
-         "toi_s": 3299
+         "sog": 3,
+         "toi_s": 3048
         },
-        "l5_point_games": 2,
-        "gp": 9,
+        "l5_point_games": 1,
+        "gp": 10,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -48639,40 +48649,40 @@
         }
        },
        {
-        "name": "Jared Spurgeon",
-        "jersey": 46,
+        "name": "Brock Faber",
+        "jersey": 7,
         "pos": "RD",
         "slot": null,
-        "player_id": 8474716,
-        "dfo_id": 1557,
+        "player_id": 8482122,
+        "dfo_id": 30792,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 7,
+         "a": 1,
          "g": 1,
-         "gp": 15,
-         "p": 8,
-         "ppp": 1,
-         "sog": 19,
-         "toi_s": 17988
+         "gp": 3,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4386
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 1,
+         "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
          "sog": 6,
-         "toi_s": 5662
+         "toi_s": 7179
         },
         "l5_point_games": 2,
-        "gp": 15,
+        "gp": 3,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        }
@@ -48717,40 +48727,40 @@
         }
        },
        {
-        "name": "Brock Faber",
-        "jersey": 7,
+        "name": "Jared Spurgeon",
+        "jersey": 46,
         "pos": "RD",
         "slot": null,
-        "player_id": 8482122,
-        "dfo_id": 30792,
+        "player_id": 8474716,
+        "dfo_id": 1557,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
+         "a": 7,
          "g": 1,
-         "gp": 3,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4386
+         "gp": 15,
+         "p": 8,
+         "ppp": 1,
+         "sog": 19,
+         "toi_s": 17988
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 3,
          "ppp": 0,
          "sog": 6,
-         "toi_s": 7179
+         "toi_s": 5662
         },
         "l5_point_games": 2,
-        "gp": 3,
+        "gp": 15,
         "move": {
-         "ev": 0,
-         "pp": 1,
+         "ev": -1,
+         "pp": 0,
          "new": false
         }
        }
@@ -49071,7 +49081,7 @@
         "l5_point_games": 2,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -49573,7 +49583,7 @@
         "l5_point_games": 2,
         "gp": 15,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -49611,7 +49621,7 @@
         "l5_point_games": 2,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -49632,15 +49642,15 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 14,
-       "rating": 74.8906446403745
+       "rank": 22,
+       "rating": 73.65198042712801
       },
       "d2": {
-       "rank": 34,
-       "rating": 0
+       "rank": 7,
+       "rating": 76.12930885362101
       },
       "d3": {
-       "rank": 20,
+       "rank": 19,
        "rating": 71.4469042877604
       },
       "d4": {
@@ -49687,11 +49697,11 @@
     },
     "home": {
      "team": "VAN",
-     "as_of": "2026-11-21T17:57:19.747Z",
-     "checked": "2026-11-22T00:04:37.075803+00:00",
+     "as_of": "2026-11-22T02:48:51.701Z",
+     "checked": "2026-11-22T02:51:31.207210+00:00",
      "stale": false,
      "source": "Brendan Batchelor",
-     "updated_dfo": "2026-11-21T17:57:19.747Z",
+     "updated_dfo": "2026-11-22T02:48:51.701Z",
      "forwards": [
       [
        {
@@ -50355,25 +50365,25 @@
         }
        },
        {
-        "name": "Cameron Crotty",
-        "jersey": 51,
+        "name": "Luke Schenn",
+        "jersey": 2,
         "pos": "RD",
         "slot": null,
-        "player_id": 8480075,
-        "dfo_id": 28075,
+        "player_id": 8474568,
+        "dfo_id": 1442,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 2,
          "g": 0,
-         "gp": 7,
-         "p": 0,
+         "gp": 12,
+         "p": 2,
          "ppp": 0,
-         "sog": 1,
-         "toi_s": 4143
+         "sog": 6,
+         "toi_s": 9009
         },
         "last5": {
          "a": 0,
@@ -50382,14 +50392,14 @@
          "p": 0,
          "ppp": 0,
          "sog": 1,
-         "toi_s": 2836
+         "toi_s": 3575
         },
         "l5_point_games": 0,
-        "gp": 4,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -51139,25 +51149,25 @@
         }
        },
        {
-        "name": "Cameron Crotty",
-        "jersey": 51,
+        "name": "Luke Schenn",
+        "jersey": 2,
         "pos": null,
         "slot": 4,
-        "player_id": 8480075,
-        "dfo_id": 28075,
+        "player_id": 8474568,
+        "dfo_id": 1442,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 2,
          "g": 0,
-         "gp": 7,
-         "p": 0,
+         "gp": 12,
+         "p": 2,
          "ppp": 0,
-         "sog": 1,
-         "toi_s": 4143
+         "sog": 6,
+         "toi_s": 9009
         },
         "last5": {
          "a": 0,
@@ -51166,14 +51176,14 @@
          "p": 0,
          "ppp": 0,
          "sog": 1,
-         "toi_s": 2836
+         "toi_s": 3575
         },
         "l5_point_games": 0,
-        "gp": 4,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -51196,12 +51206,12 @@
        "rating": 71.1851359118453
       },
       "d2": {
-       "rank": 34,
+       "rank": 35,
        "rating": 0
       },
       "d3": {
-       "rank": 21,
-       "rating": 71.40584302949271
+       "rank": 25,
+       "rating": 70.38304955902446
       },
       "d4": {
        "rank": 6,
@@ -51317,8 +51327,8 @@
     "goalie_source": "Curtis Pashelka",
     "sv": "0.902",
     "gaa": "3.07",
-    "lineup_as_of": "2026-11-21T04:01:23.249Z",
-    "lineup_checked": "2026-11-21T13:56:10.182873+00:00",
+    "lineup_as_of": "2026-11-22T02:47:18.322Z",
+    "lineup_checked": "2026-11-22T02:51:31.342424+00:00",
     "lineup_stale": false,
     "ga_rk": 8,
     "gf_rk": 27,
@@ -51358,7 +51368,7 @@
      "away": "-258",
      "home": "+210",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-21T04:01:23.249Z"
+     "as_of": "2026-11-22T02:47:18.322Z"
     },
     "total": {
      "line": 6.5,
@@ -53540,11 +53550,11 @@
     },
     "home": {
      "team": "SJS",
-     "as_of": "2026-11-21T04:01:23.249Z",
-     "checked": "2026-11-21T13:56:10.182873+00:00",
+     "as_of": "2026-11-22T02:47:18.322Z",
+     "checked": "2026-11-22T02:51:31.342424+00:00",
      "stale": false,
-     "source": "Sheng Peng",
-     "updated_dfo": "2026-11-21T04:01:23.249Z",
+     "source": "Curtis Pashelka",
+     "updated_dfo": "2026-11-22T02:47:18.322Z",
      "forwards": [
       [
        {
@@ -54092,6 +54102,84 @@
       ],
       [
        {
+        "name": "Dmitry Orlov",
+        "jersey": 9,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8475200,
+        "dfo_id": 1572,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 11,
+         "g": 3,
+         "gp": 24,
+         "p": 14,
+         "ppp": 8,
+         "sog": 23,
+         "toi_s": 25000
+        },
+        "last5": {
+         "a": 4,
+         "g": 1,
+         "gp": 5,
+         "p": 5,
+         "ppp": 2,
+         "sog": 6,
+         "toi_s": 5216
+        },
+        "l5_point_games": 2,
+        "gp": 24,
+        "move": {
+         "ev": 1,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
+        "name": "Jacob Trouba",
+        "jersey": 65,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8476885,
+        "dfo_id": 2099,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 9,
+         "g": 2,
+         "gp": 24,
+         "p": 11,
+         "ppp": 3,
+         "sog": 38,
+         "toi_s": 31814
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 6647
+        },
+        "l5_point_games": 1,
+        "gp": 24,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
         "name": "Nolan Allan",
         "jersey": 5,
         "pos": "LD",
@@ -54162,86 +54250,8 @@
         "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
-         "pp": -1,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Dmitry Orlov",
-        "jersey": 9,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8475200,
-        "dfo_id": 1572,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 3,
-         "gp": 24,
-         "p": 14,
-         "ppp": 8,
-         "sog": 23,
-         "toi_s": 25000
-        },
-        "last5": {
-         "a": 4,
-         "g": 1,
-         "gp": 5,
-         "p": 5,
-         "ppp": 2,
-         "sog": 6,
-         "toi_s": 5216
-        },
-        "l5_point_games": 2,
-        "gp": 24,
-        "move": {
-         "ev": 0,
-         "pp": 1,
-         "new": false
-        }
-       },
-       {
-        "name": "Jacob Trouba",
-        "jersey": 65,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8476885,
-        "dfo_id": 2099,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "A",
-        "season": {
-         "a": 9,
-         "g": 2,
-         "gp": 24,
-         "p": 11,
-         "ppp": 3,
-         "sog": 38,
-         "toi_s": 31814
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 6647
-        },
-        "l5_point_games": 1,
-        "gp": 24,
-        "move": {
          "ev": -1,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        }
@@ -54522,7 +54532,7 @@
         "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -54870,7 +54880,7 @@
         "l5_point_games": 1,
         "gp": 24,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -54986,7 +54996,7 @@
         "l5_point_games": 1,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": -1,
          "new": false
         }
@@ -55050,35 +55060,35 @@
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 18,
+       "rank": 17,
        "rating": 74.06476112866682
       },
       "d2": {
-       "rank": 37,
-       "rating": 0
+       "rank": 23,
+       "rating": 72.89454885282483
       },
       "d3": {
-       "rank": 12,
-       "rating": 72.89454885282483
+       "rank": 28,
+       "rating": 0
       },
       "d4": {
        "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 40,
+       "rank": 41,
        "rating": 0
       },
       "f2": {
-       "rank": 23,
+       "rank": 24,
        "rating": 72.80624706470401
       },
       "f3": {
-       "rank": 31,
+       "rank": 28,
        "rating": 71.76330165875282
       },
       "f4": {
-       "rank": 31,
+       "rank": 30,
        "rating": 70.6967731079804
       },
       "g": {
