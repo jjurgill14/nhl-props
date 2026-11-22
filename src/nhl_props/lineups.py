@@ -136,6 +136,17 @@ def latest(abbrev: str, date: str) -> dict | None:
     return read_json(files[-1]) if files else None
 
 
+def latest_consistent(abbrev: str, date: str) -> dict | None:
+    """Most recent snapshot today whose chart agrees with its own injury list (see alerts.consistent)."""
+    from .alerts import consistent
+    d = LINEUP_DIR / date / abbrev
+    for f in sorted(d.glob("*.json"), reverse=True) if d.exists() else []:
+        s = read_json(f)
+        if consistent(s):
+            return s
+    return None
+
+
 def snapshot_team(abbrev: str, date: str) -> tuple[str, bool]:
     """Fetch+parse one team; write a snapshot only if changed. Returns (status, changed)."""
     html = fetch_html(abbrev)

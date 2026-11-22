@@ -34,11 +34,31 @@ def _pos(snap: dict, player: str) -> str:
     return ""
 
 
+UNAVAILABLE = {"OUT", "IR", "LTIR"}  # a player with one of these statuses cannot be in the lineup, whatever DFO's chart says
+
+
+def consistent(snap: dict | None) -> bool:
+    """False when DFO's chart contradicts its own injury list (an unavailable player placed on a line)."""
+    if not snap:
+        return False
+    inj = _injury_map(snap)
+    return not any(inj.get(p, "") in UNAVAILABLE for p in slots(snap))
+
+
+def _usable(snap: dict) -> dict[str, dict]:
+    """Lineup slots, minus anyone DFO's own injury list says is out. DFO sometimes publishes a 'when healthy'
+    chart (FLA 11/21: Barkov on L1 while on IR); that is not a lineup change and must not alert."""
+    inj = _injury_map(snap)
+    return {p: s for p, s in slots(snap).items() if inj.get(p, "") not in UNAVAILABLE}
+
+
 def diff_snapshots(prev: dict | None, cur: dict | None) -> list[dict]:
-    """Structural changes only (who dresses, which line/PP unit, injury status) — not news-text edits."""
-    if not prev or not cur:
-        return []
-    a, b = slots(prev), slots(cur)
+    """Structural changes only (who dresses, which line/PP unit, injury status) — not news-text edits.
+    Every change carries 'big': True when it should reach the phone / card (dress or scratch, goalie,
+    a move onto or off L1–L2 or PP1); the rest is logged for the record."""
+    if not prev or not cur or not consistent(prev) or not consistent(cur):
+        return []  # a correction of a bad chart is not a lineup change
+    a, b = _usable(prev), _usable(cur)
     ia, ib = _injury_map(prev), _injury_map(cur)
     out: list[dict] = []
     for p in b:
@@ -48,11 +68,11 @@ def diff_snapshots(prev: dict | None, cur: dict | None) -> list[dict]:
             if s["pp"]:
                 where += f", PP{s['pp']}"
             was = f" (was {ia[p]})" if ia.get(p) else ""
-            out.append({"kind": "in", "player": p, "text": f"IN: {p}{was} → {where}"})
+            out.append({"kind": "in", "player": p, "big": True, "text": f"IN: {p}{was} → {where}"})
     for p in a:
         if p not in b:
             now = f" → {ib[p]}" if ib.get(p) else ""
-            out.append({"kind": "out", "player": p, "text": f"OUT: {p} (was L{a[p]['ev']}){now}"})
+            out.append({"kind": "out", "player": p, "big": True, "text": f"OUT: {p} (was L{a[p]['ev']}){now}"})
     for p in b:
         if p in a:
             ea, eb = a[p]["ev"], b[p]["ev"]
@@ -63,7 +83,8 @@ def diff_snapshots(prev: dict | None, cur: dict | None) -> list[dict]:
             if pa != pb:
                 bits.append(f"PP{pa or '-'}→PP{pb or '-'}")
             if bits:
-                out.append({"kind": "move", "player": p, "text": f"{p}: " + ", ".join(bits)})
+                big = bool(pa != pb and 1 in (pa, pb))  # PP1 on/off is news; line shuffles are not
+                out.append({"kind": "move", "player": p, "big": big, "text": f"{p}: " + ", ".join(bits)})
     for p, st in ib.items():
         if p in a or p in b:
             continue  # covered above
@@ -79,9 +100,9 @@ def diff_goalies(date: str, team: str) -> list[dict]:
         return []
     a, b = rows[-2], rows[-1]
     if a.get("goalie") != b.get("goalie"):
-        return [{"kind": "goalie", "player": b.get("goalie"), "text": f"G: {b.get('goalie')} ({b.get('status')}) replaces {a.get('goalie')}"}]
+        return [{"kind": "goalie", "player": b.get("goalie"), "big": True, "text": f"G: {b.get('goalie')} ({b.get('status')}) replaces {a.get('goalie')}"}]
     if a.get("status") != b.get("status") and b.get("status") == "Confirmed":
-        return [{"kind": "goalie", "player": b.get("goalie"), "text": f"G: {b.get('goalie')} confirmed"}]
+        return [{"kind": "goalie", "player": b.get("goalie"), "big": False, "text": f"G: {b.get('goalie')} confirmed"}]
     return []
 
 

@@ -61,7 +61,7 @@ def evening(date: str) -> None:
     for g in soon:
         for side in ("away", "home"):
             t, o = g[side], g["home" if side == "away" else "away"]
-            prev = lineups.latest(t, date)
+            prev = lineups.latest_consistent(t, date)
             try:
                 status, changed = lineups.snapshot_team(t, date)
             except Exception as e:

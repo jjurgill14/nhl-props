@@ -226,7 +226,8 @@ def build(date: str | None = None) -> Path:
     odds = manual_odds(date)
     late = {}
     for a_ in alerts.load(date):
-        late.setdefault(a_["team"], []).append({"at": a_["at"], "kind": a_["kind"], "text": a_["text"]})
+        if a_.get("big"):
+            late.setdefault(a_["team"], []).append({"at": a_["at"], "kind": a_["kind"], "text": a_["text"]})
     out_games = []
     for i, g in enumerate(slate["games"], 1):
         def team(side):
