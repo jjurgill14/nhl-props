@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-22T21:35:59.391005+00:00",
+ "generated_utc": "2026-11-22T21:41:06.301928+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -4901,13 +4901,34 @@
     "goalie_source": "Paul Hamilton",
     "sv": "0.873",
     "gaa": "3.47",
-    "lineup_as_of": "2026-11-22T18:27:06.792Z",
-    "lineup_checked": "2026-11-22T19:39:35.749265+00:00",
+    "lineup_as_of": "2026-11-22T21:38:04.316Z",
+    "lineup_checked": "2026-11-22T21:41:02.057478+00:00",
     "lineup_stale": false,
     "ga_rk": 10,
     "gf_rk": 23,
     "ppga_rk": 5,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-22T21:41:02.060385+00:00",
+      "kind": "in",
+      "text": "IN: Ryan McLeod \u2192 L4"
+     },
+     {
+      "at": "2026-11-22T21:41:02.060385+00:00",
+      "kind": "in",
+      "text": "IN: Louis Crevier \u2192 L3"
+     },
+     {
+      "at": "2026-11-22T21:41:02.060385+00:00",
+      "kind": "out",
+      "text": "OUT: Tyson Kozak (was L4)"
+     },
+     {
+      "at": "2026-11-22T21:41:02.060385+00:00",
+      "kind": "out",
+      "text": "OUT: Zach Metsa (was L3)"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -4951,8 +4972,8 @@
     "goalie_source": "Benjamin Pierce",
     "sv": "0.899",
     "gaa": "2.56",
-    "lineup_as_of": "2026-11-21T17:25:14.113Z",
-    "lineup_checked": "2026-11-22T09:39:54.455251+00:00",
+    "lineup_as_of": "2026-11-22T21:36:47.662Z",
+    "lineup_checked": "2026-11-22T21:41:02.150875+00:00",
     "lineup_stale": false,
     "ga_rk": 27,
     "gf_rk": 5,
@@ -4998,7 +5019,7 @@
      "away": "-142",
      "home": "+120",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-21T17:25:14.113Z"
+     "as_of": "2026-11-22T21:36:47.662Z"
     },
     "total": {
      "line": null,
@@ -5345,21 +5366,6 @@
        8478519
       ],
       "sneaky": true
-     },
-     {
-      "selection": "Tyson Kozak \u00b7 1+ assist",
-      "prob": 0.207,
-      "fair": "+384",
-      "need": "+413",
-      "rationale": "L4 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 3 of 15 season \u00b7 B2B",
-      "player": "Tyson Kozak",
-      "team": "BUF",
-      "pp": null,
-      "line": 4,
-      "players": [
-       8482896
-      ],
-      "sneaky": true
      }
     ],
     "sneaky_goal": [],
@@ -5597,11 +5603,11 @@
    "lineup": {
     "away": {
      "team": "BUF",
-     "as_of": "2026-11-22T18:27:06.792Z",
-     "checked": "2026-11-22T19:39:35.749265+00:00",
+     "as_of": "2026-11-22T21:38:04.316Z",
+     "checked": "2026-11-22T21:41:02.057478+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-22)",
-     "updated_dfo": "2026-11-22T18:27:06.792Z",
+     "source": "Rachel Lenzi",
+     "updated_dfo": "2026-11-22T21:38:04.316Z",
      "forwards": [
       [
        {
@@ -5991,41 +5997,41 @@
         }
        },
        {
-        "name": "Tyson Kozak",
-        "jersey": 48,
+        "name": "Ryan McLeod",
+        "jersey": 71,
         "pos": "C",
         "slot": null,
-        "player_id": 8482896,
-        "dfo_id": 32822,
+        "player_id": 8480802,
+        "dfo_id": 4810,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
          "a": 3,
          "g": 1,
-         "gp": 15,
+         "gp": 19,
          "p": 4,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 9823
+         "ppp": 1,
+         "sog": 16,
+         "toi_s": 16893
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
+         "p": 1,
+         "ppp": 1,
          "sog": 3,
-         "toi_s": 3089
+         "toi_s": 4242
         },
-        "l5_point_games": 2,
-        "gp": 15,
+        "l5_point_games": 1,
+        "gp": 19,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -6038,7 +6044,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 2,
@@ -6265,41 +6271,41 @@
         }
        },
        {
-        "name": "Zach Metsa",
-        "jersey": 73,
+        "name": "Louis Crevier",
+        "jersey": 46,
         "pos": "RD",
         "slot": null,
-        "player_id": 8484305,
-        "dfo_id": 28387,
+        "player_id": 8481806,
+        "dfo_id": 29897,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 0,
-         "gp": 19,
-         "p": 3,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 14273
-        },
-        "last5": {
          "a": 1,
          "g": 0,
-         "gp": 5,
+         "gp": 17,
          "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3945
+         "sog": 16,
+         "toi_s": 12589
         },
-        "l5_point_games": 1,
-        "gp": 19,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2877
+        },
+        "l5_point_games": 0,
+        "gp": 17,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -6781,37 +6787,37 @@
      "pk": [
       [
        {
-        "name": "Tyson Kozak",
-        "jersey": 48,
+        "name": "Sam Carrick",
+        "jersey": 10,
         "pos": null,
         "slot": 1,
-        "player_id": 8482896,
-        "dfo_id": 32822,
+        "player_id": 8475842,
+        "dfo_id": 1914,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 15,
-         "p": 4,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 9823
-        },
-        "last5": {
          "a": 2,
          "g": 0,
-         "gp": 5,
+         "gp": 12,
          "p": 2,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 3089
+         "sog": 10,
+         "toi_s": 6171
         },
-        "l5_point_games": 2,
-        "gp": 15,
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2896
+        },
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -7115,7 +7121,7 @@
        "rating": 73.04800009122891
       },
       "d3": {
-       "rank": 28,
+       "rank": 29,
        "rating": 0
       },
       "d4": {
@@ -7162,11 +7168,11 @@
     },
     "home": {
      "team": "TBL",
-     "as_of": "2026-11-21T17:25:14.113Z",
-     "checked": "2026-11-22T09:39:54.455251+00:00",
+     "as_of": "2026-11-22T21:36:47.662Z",
+     "checked": "2026-11-22T21:41:02.150875+00:00",
      "stale": false,
      "source": "Benjamin Pierce",
-     "updated_dfo": "2026-11-21T17:25:14.113Z",
+     "updated_dfo": "2026-11-22T21:36:47.662Z",
      "forwards": [
       [
        {
@@ -7872,53 +7878,10 @@
      "goalies": [
       [
        {
-        "name": "Andrei Vasilevskiy",
-        "jersey": 88,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8476883,
-        "dfo_id": 2413,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 17,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "11-5-1",
-        "sv_pct": "0.894",
-        "starts": 17
-       }
-      ],
-      [
-       {
         "name": "Dennis Hildeby",
         "jersey": 35,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8483710,
         "dfo_id": 36477,
         "gtd": false,
@@ -7954,6 +7917,49 @@
         "record": "4-0-1",
         "sv_pct": "0.899",
         "starts": 5
+       }
+      ],
+      [
+       {
+        "name": "Andrei Vasilevskiy",
+        "jersey": 88,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8476883,
+        "dfo_id": 2413,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 17,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "11-5-1",
+        "sv_pct": "0.894",
+        "starts": 17
        }
       ]
      ],
@@ -8688,7 +8694,7 @@
        "rating": 0
       },
       "f1": {
-       "rank": 5,
+       "rank": 4,
        "rating": 79.90820935464193
       },
       "f2": {
@@ -8700,7 +8706,7 @@
        "rating": 74.26968499443356
       },
       "f4": {
-       "rank": 24,
+       "rank": 22,
        "rating": 71.63615523893601
       },
       "g": {

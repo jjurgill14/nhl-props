@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_utc": "2026-11-22T21:35:58.498725+00:00",
+ "generated_utc": "2026-11-22T21:41:05.407528+00:00",
  "games": [
   {
    "game_id": 2026020373,
@@ -3987,8 +3987,8 @@
      "ppga_rk": 5,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-22T18:27:06.792Z",
-     "lineup_checked": "2026-11-22T19:39:35.749265+00:00",
+     "lineup_as_of": "2026-11-22T21:38:04.316Z",
+     "lineup_checked": "2026-11-22T21:41:02.057478+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -4025,7 +4025,7 @@
       ],
       "4": [
        "Beck Malenstyn",
-       "Tyson Kozak",
+       "Ryan McLeod",
        "Sam Carrick"
       ]
      },
@@ -5125,116 +5125,6 @@
        ]
       },
       {
-       "name": "Tyson Kozak",
-       "jersey": 48,
-       "team": "BUF",
-       "opp": "TBL",
-       "section": "F",
-       "home": false,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.20003141654978962,
-         "p_hot": 0.23336998597475458,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.06534359607293128,
-         "p_hot": 0.03200502664796634,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.14002199158485273,
-         "p_hot": 0.2066991304347826,
-         "heater": true
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": "A",
-       "gp": 15,
-       "pt_games": 4,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        1,
-        6
-       ],
-       "away_split": [
-        3,
-        9
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 10.3,
-       "p": 0.2,
-       "fair": "+400",
-       "min": "+430",
-       "p2": 0.01,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.8916129032258064
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Beck Malenstyn",
-         "jersey": 29,
-         "pp": null,
-         "n": 15,
-         "both": 2,
-         "either": 4
-        },
-        {
-         "name": "Sam Carrick",
-         "jersey": 39,
-         "pp": null,
-         "n": 9,
-         "both": 2,
-         "either": 3
-        }
-       ]
-      },
-      {
        "name": "Olen Zellweger",
        "jersey": 8,
        "team": "BUF",
@@ -5327,12 +5217,12 @@
        },
        "partners": [
         {
-         "name": "Zach Metsa",
-         "jersey": 73,
+         "name": "Louis Crevier",
+         "jersey": 46,
          "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 1
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5447,6 +5337,116 @@
        ]
       },
       {
+       "name": "Ryan McLeod",
+       "jersey": 71,
+       "team": "BUF",
+       "opp": "TBL",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.17039713261648745,
+         "p_hot": 0.16669284712482468,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.0556630633213859,
+         "p_hot": 0.03200502664796634,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.11927799283154122,
+         "p_hot": 0.14002199158485273,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 19,
+       "pt_games": 4,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        2,
+        8
+       ],
+       "away_split": [
+        2,
+        11
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 1.1,
+       "toi": 14.1,
+       "p": 0.17,
+       "fair": "+487",
+       "min": "+522",
+       "p2": 0.008,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8916129032258064
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Beck Malenstyn",
+         "jersey": 29,
+         "pp": null,
+         "n": 3,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Sam Carrick",
+         "jersey": 39,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Sam Carrick",
        "jersey": 39,
        "team": "BUF",
@@ -5547,12 +5547,12 @@
          "either": 3
         },
         {
-         "name": "Tyson Kozak",
-         "jersey": 48,
+         "name": "Ryan McLeod",
+         "jersey": 71,
          "pp": null,
-         "n": 9,
-         "both": 2,
-         "either": 3
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5663,108 +5663,6 @@
          "n": 3,
          "both": 1,
          "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Zach Metsa",
-       "jersey": 73,
-       "team": "BUF",
-       "opp": "TBL",
-       "section": "D",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.13745368697729987,
-         "p_hot": 0.12802010659186536,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.013631770609318996,
-         "p_hot": 0.01600251332398317,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.1260938781362007,
-         "p_hot": 0.11468467882187938,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 19,
-       "pt_games": 3,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        10
-       ],
-       "away_split": [
-        2,
-        9
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 13.2,
-       "p": 0.137,
-       "fair": "+628",
-       "min": "+671",
-       "p2": 0.006,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.8916129032258064
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Olen Zellweger",
-         "jersey": 8,
-         "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 1
         }
        ]
       },
@@ -5963,12 +5861,12 @@
        },
        "partners": [
         {
-         "name": "Tyson Kozak",
-         "jersey": 48,
+         "name": "Ryan McLeod",
+         "jersey": 71,
          "pp": null,
-         "n": 15,
-         "both": 2,
-         "either": 4
+         "n": 3,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Sam Carrick",
@@ -5977,6 +5875,108 @@
          "n": 12,
          "both": 1,
          "either": 3
+        }
+       ]
+      },
+      {
+       "name": "Louis Crevier",
+       "jersey": 46,
+       "team": "BUF",
+       "opp": "TBL",
+       "section": "D",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.08710701419354838,
+         "p_hot": 0.061342967741935484,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.014722312258064515,
+         "p_hot": 0.01600251332398317,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.07483842064516129,
+         "p_hot": 0.0480075399719495,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 17,
+       "pt_games": 1,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        7
+       ],
+       "away_split": [
+        0,
+        10
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 9.6,
+       "p": 0.087,
+       "fair": "+1048",
+       "min": "+1117",
+       "p2": 0.007,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8916129032258064
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Olen Zellweger",
+         "jersey": 8,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       }
@@ -6005,8 +6005,8 @@
      "ppga_rk": 19,
      "l5_gf": 3.8,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-21T17:25:14.113Z",
-     "lineup_checked": "2026-11-22T09:39:54.455251+00:00",
+     "lineup_as_of": "2026-11-22T21:36:47.662Z",
+     "lineup_checked": "2026-11-22T21:41:02.150875+00:00",
      "lineup_stale": false,
      "out": [
       {
