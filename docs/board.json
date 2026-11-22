@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-22T02:51:35.979867+00:00",
+ "generated_utc": "2026-11-22T02:56:41.486579+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -47542,8 +47542,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-122",
-     "home": "+102",
+     "away": "-130",
+     "home": "+110",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-22T02:48:51.701Z"
     },
@@ -51277,8 +51277,8 @@
     "goalie_source": "Max Miller",
     "sv": "0.897",
     "gaa": "2.92",
-    "lineup_as_of": "2026-11-21T04:00:11.673Z",
-    "lineup_checked": "2026-11-22T00:04:37.140790+00:00",
+    "lineup_as_of": "2026-11-22T02:52:31.803Z",
+    "lineup_checked": "2026-11-22T02:56:38.488065+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 12,
@@ -52006,11 +52006,11 @@
    "lineup": {
     "away": {
      "team": "SEA",
-     "as_of": "2026-11-21T04:00:11.673Z",
-     "checked": "2026-11-22T00:04:37.140790+00:00",
+     "as_of": "2026-11-22T02:52:31.803Z",
+     "checked": "2026-11-22T02:56:38.488065+00:00",
      "stale": false,
-     "source": "@sound_hockey",
-     "updated_dfo": "2026-11-21T04:00:11.673Z",
+     "source": "Seattle Kraken",
+     "updated_dfo": "2026-11-22T02:52:31.803Z",
      "forwards": [
       [
        {
@@ -52246,47 +52246,9 @@
       ],
       [
        {
-        "name": "Frederick Gaudreau",
-        "jersey": 89,
-        "pos": "LW",
-        "slot": null,
-        "player_id": null,
-        "dfo_id": 2701,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 8,
-         "gp": 19,
-         "p": 12,
-         "ppp": 0,
-         "sog": 21,
-         "toi_s": 18010
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 4977
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Chandler Stephenson",
         "jersey": 9,
-        "pos": "C",
+        "pos": "LW",
         "slot": null,
         "player_id": 8476905,
         "dfo_id": 2538,
@@ -52315,6 +52277,44 @@
         },
         "l5_point_games": 1,
         "gp": 19,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Frederick Gaudreau",
+        "jersey": 89,
+        "pos": "C",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 2701,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 4,
+         "g": 8,
+         "gp": 19,
+         "p": 12,
+         "ppp": 0,
+         "sog": 21,
+         "toi_s": 18010
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4977
+        },
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -52362,47 +52362,9 @@
       ],
       [
        {
-        "name": "Matthew Wood",
-        "jersey": 71,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8484241,
-        "dfo_id": 33571,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 4,
-         "g": 1,
-         "gp": 19,
-         "p": 5,
-         "ppp": 3,
-         "sog": 25,
-         "toi_s": 15685
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 3888
-        },
-        "l5_point_games": 2,
-        "gp": 5,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Ben Meyers",
         "jersey": 59,
-        "pos": "C",
+        "pos": "LW",
         "slot": null,
         "player_id": 8483570,
         "dfo_id": 30084,
@@ -52431,6 +52393,44 @@
         },
         "l5_point_games": 0,
         "gp": 17,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Matthew Wood",
+        "jersey": 71,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8484241,
+        "dfo_id": 33571,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 4,
+         "g": 1,
+         "gp": 19,
+         "p": 5,
+         "ppp": 3,
+         "sog": 25,
+         "toi_s": 15685
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 5,
+         "toi_s": 3888
+        },
+        "l5_point_games": 2,
+        "gp": 5,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -53515,11 +53515,11 @@
        "rating": 73.58762688481286
       },
       "d2": {
-       "rank": 27,
+       "rank": 29,
        "rating": 72.32837165073951
       },
       "d3": {
-       "rank": 16,
+       "rank": 15,
        "rating": 71.9971289339558
       },
       "d4": {
