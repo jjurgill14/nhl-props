@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-22T13:49:48.195217+00:00",
+ "generated_utc": "2026-11-22T19:39:38.382370+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1050,7 +1050,7 @@
    "id": "01",
    "game_id": 2026020373,
    "start_utc": "2026-11-22T17:30:00Z",
-   "status": "FUT",
+   "status": "LIVE",
    "venue": "Madison Square Garden",
    "away": {
     "abbr": "CAR",
@@ -1061,11 +1061,11 @@
     "record": "17-3-3",
     "b2b": true,
     "goalie": "Brandon Bussi",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.872",
-    "gaa": "2.95",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Bussi will start Sunday in New York.",
+    "goalie_source": "Walt Ruff",
+    "sv": "0.879",
+    "gaa": "2.86",
     "lineup_as_of": "2026-11-21T17:39:12.041Z",
     "lineup_checked": "2026-11-22T13:49:44.988065+00:00",
     "lineup_stale": false,
@@ -1111,11 +1111,11 @@
     "record": "13-8-1",
     "b2b": false,
     "goalie": "Dylan Garand",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.91",
-    "gaa": "2.37",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Garand led the Rangers onto the ice for warmups.",
+    "goalie_source": "Mollie Walker",
+    "sv": "0.909",
+    "gaa": "2.41",
     "lineup_as_of": "2026-11-21T17:24:05.460Z",
     "lineup_checked": "2026-11-22T09:39:54.247510+00:00",
     "lineup_stale": false,
@@ -4901,8 +4901,8 @@
     "goalie_source": "",
     "sv": "0.873",
     "gaa": "3.47",
-    "lineup_as_of": "2026-11-21T22:39:00.410Z",
-    "lineup_checked": "2026-11-22T13:49:44.913930+00:00",
+    "lineup_as_of": "2026-11-22T18:27:06.792Z",
+    "lineup_checked": "2026-11-22T19:39:35.749265+00:00",
     "lineup_stale": false,
     "ga_rk": 10,
     "gf_rk": 23,
@@ -4989,8 +4989,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-148",
-     "home": "+124",
+     "away": "-142",
+     "home": "+120",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-21T17:25:14.113Z"
     },
@@ -5591,11 +5591,11 @@
    "lineup": {
     "away": {
      "team": "BUF",
-     "as_of": "2026-11-21T22:39:00.410Z",
-     "checked": "2026-11-22T13:49:44.913930+00:00",
+     "as_of": "2026-11-22T18:27:06.792Z",
+     "checked": "2026-11-22T19:39:35.749265+00:00",
      "stale": false,
-     "source": "Rachel Lenzi",
-     "updated_dfo": "2026-11-21T22:39:00.410Z",
+     "source": "Last Game (2026-11-22)",
+     "updated_dfo": "2026-11-22T18:27:06.792Z",
      "forwards": [
       [
        {
@@ -6074,7 +6074,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": 2,
         "bias": "A",
         "season": {
          "a": 10,
@@ -6112,7 +6112,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 2,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 10,
@@ -6152,7 +6152,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
+        "pk": 1,
         "bias": "A",
         "season": {
          "a": 14,
@@ -6190,7 +6190,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 1,
@@ -6230,7 +6230,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 1,
         "bias": null,
         "season": {
          "a": 4,
@@ -6550,7 +6550,7 @@
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 2,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 10,
@@ -6581,10 +6581,48 @@
       ],
       [
        {
+        "name": "Jason Zucker",
+        "jersey": 17,
+        "pos": null,
+        "slot": 1,
+        "player_id": 8475722,
+        "dfo_id": 1898,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 2,
+         "gp": 14,
+         "p": 2,
+         "ppp": 1,
+         "sog": 20,
+         "toi_s": 9972
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 3155
+        },
+        "l5_point_games": 0,
+        "gp": 14,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
         "name": "Noah Ostlund",
         "jersey": 86,
         "pos": null,
-        "slot": 1,
+        "slot": 2,
         "player_id": 8483500,
         "dfo_id": 36383,
         "gtd": false,
@@ -6622,7 +6660,7 @@
         "name": "Jiri Kulich",
         "jersey": 20,
         "pos": null,
-        "slot": 2,
+        "slot": 3,
         "player_id": 8483468,
         "dfo_id": 36381,
         "gtd": false,
@@ -6657,44 +6695,6 @@
         }
        },
        {
-        "name": "Jason Zucker",
-        "jersey": 17,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8475722,
-        "dfo_id": 1898,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 2,
-         "gp": 14,
-         "p": 2,
-         "ppp": 1,
-         "sog": 20,
-         "toi_s": 9972
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 3155
-        },
-        "l5_point_games": 0,
-        "gp": 14,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Owen Power",
         "jersey": 25,
         "pos": null,
@@ -6704,7 +6704,7 @@
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
+        "pk": 1,
         "bias": "A",
         "season": {
          "a": 14,
@@ -6851,37 +6851,37 @@
         }
        },
        {
-        "name": "Mattias Samuelsson",
-        "jersey": 23,
+        "name": "Olen Zellweger",
+        "jersey": 8,
         "pos": null,
         "slot": 3,
-        "player_id": 8480807,
-        "dfo_id": 28792,
+        "player_id": 8482803,
+        "dfo_id": 34623,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 10,
+         "a": 4,
          "g": 3,
-         "gp": 23,
-         "p": 13,
+         "gp": 22,
+         "p": 7,
          "ppp": 0,
-         "sog": 30,
-         "toi_s": 32266
+         "sog": 36,
+         "toi_s": 24508
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 6789
+         "toi_s": 4450
         },
-        "l5_point_games": 2,
-        "gp": 23,
+        "l5_point_games": 1,
+        "gp": 22,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -6889,37 +6889,37 @@
         }
        },
        {
-        "name": "Conor Timmins",
-        "jersey": 21,
+        "name": "Owen Power",
+        "jersey": 25,
         "pos": null,
         "slot": 4,
-        "player_id": 8479982,
-        "dfo_id": 2797,
+        "player_id": 8482671,
+        "dfo_id": 30051,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 8,
-         "p": 1,
+         "a": 14,
+         "g": 3,
+         "gp": 23,
+         "p": 17,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 8428
+         "sog": 26,
+         "toi_s": 34804
         },
         "last5": {
-         "a": 0,
-         "g": 0,
+         "a": 2,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 3,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 5663
+         "sog": 2,
+         "toi_s": 6901
         },
-        "l5_point_games": 0,
-        "gp": 8,
+        "l5_point_games": 2,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -7005,37 +7005,37 @@
         }
        },
        {
-        "name": "Rasmus Dahlin",
-        "jersey": 26,
+        "name": "Mattias Samuelsson",
+        "jersey": 23,
         "pos": null,
         "slot": 3,
-        "player_id": 8480839,
-        "dfo_id": 4786,
+        "player_id": 8480807,
+        "dfo_id": 28792,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": null,
         "pk": 2,
         "bias": "A",
         "season": {
          "a": 10,
-         "g": 4,
-         "gp": 20,
-         "p": 14,
-         "ppp": 7,
-         "sog": 55,
-         "toi_s": 29678
+         "g": 3,
+         "gp": 23,
+         "p": 13,
+         "ppp": 0,
+         "sog": 30,
+         "toi_s": 32266
         },
         "last5": {
-         "a": 3,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 4,
-         "ppp": 2,
-         "sog": 11,
-         "toi_s": 7639
+         "p": 2,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 6789
         },
-        "l5_point_games": 3,
-        "gp": 20,
+        "l5_point_games": 2,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -7043,37 +7043,37 @@
         }
        },
        {
-        "name": "Owen Power",
-        "jersey": 25,
+        "name": "Conor Timmins",
+        "jersey": 21,
         "pos": null,
         "slot": 4,
-        "player_id": 8482671,
-        "dfo_id": 30051,
+        "player_id": 8479982,
+        "dfo_id": 2797,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 14,
-         "g": 3,
-         "gp": 23,
-         "p": 17,
+         "a": 1,
+         "g": 0,
+         "gp": 8,
+         "p": 1,
          "ppp": 0,
-         "sog": 26,
-         "toi_s": 34804
+         "sog": 7,
+         "toi_s": 8428
         },
         "last5": {
-         "a": 2,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 0,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 6901
+         "sog": 4,
+         "toi_s": 5663
         },
-        "l5_point_games": 2,
-        "gp": 23,
+        "l5_point_games": 0,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -8829,8 +8829,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-290",
-     "home": "+235",
+     "away": "-258",
+     "home": "+210",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-21T23:41:15.043Z"
     },
@@ -12682,9 +12682,9 @@
     "record": "14-6-2",
     "b2b": false,
     "goalie": "Jake Oettinger",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Oettinger will start Saturday vs. the Penguins.",
+    "goalie_source": "Bruce Garrioch",
     "sv": "0.901",
     "gaa": "2.25",
     "lineup_as_of": "2026-11-21T17:57:55.805Z",
@@ -12725,8 +12725,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-135",
-     "home": "+114",
+     "away": "-130",
+     "home": "+110",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-21T17:57:55.805Z"
     },
@@ -16601,8 +16601,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "+225",
-     "home": "-278",
+     "away": "+215",
+     "home": "-265",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-22T02:48:51.701Z"
     },
