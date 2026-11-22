@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_utc": "2026-11-22T09:39:32.642486+00:00",
+ "generated_utc": "2026-11-22T09:39:55.883429+00:00",
  "games": [
   {
    "game_id": 2026020373,
@@ -16,13 +16,13 @@
      "opp": "NYR",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Pyotr Kochetkov",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.911",
+     "gaa": "1.8",
+     "ml": "164",
      "gp": 23,
      "gf": 4.130434782608695,
      "gf_rk": 1,
@@ -34,9 +34,9 @@
      "ppga_rk": 27,
      "l5_gf": 5.2,
      "l5_ga": 2.0,
-     "lineup_as_of": "2026-11-20T17:09:07.598Z",
-     "lineup_checked": "2026-11-21T13:56:08.840333+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T17:39:12.041Z",
+     "lineup_checked": "2026-11-22T09:39:53.934244+00:00",
+     "lineup_stale": false,
      "out": [],
      "lines": {
       "1": [
@@ -2014,13 +2014,13 @@
      "opp": "CAR",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Dylan Garand",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.91",
+     "gaa": "2.37",
+     "ml": "-198",
      "gp": 22,
      "gf": 3.0,
      "gf_rk": 20,
@@ -2032,9 +2032,9 @@
      "ppga_rk": 31,
      "l5_gf": 3.2,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-17T00:09:45.315Z",
-     "lineup_checked": "2026-11-17T00:12:06.839808+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T17:24:05.460Z",
+     "lineup_checked": "2026-11-22T09:39:54.247510+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Igor Shesterkin",
@@ -2059,12 +2059,17 @@
       {
        "player": "Alberts Smits",
        "status": "IR",
-       "news": "Smits is week-to-week with an upper-body injury."
+       "news": "\u0160mits (upper-body) will miss 2-to-3 months."
       },
       {
        "player": "Pavel Dorofeyev",
-       "status": "DTD",
-       "news": "Dorofeyev (undisclosed) will not play Monday vs. Montreal."
+       "status": "IR",
+       "news": "The Rangers have placed Pavel Dorofeyev (lower-body) on IR."
+      },
+      {
+       "player": "Oliver Bjorkstrand",
+       "status": "OUT",
+       "news": "Bjorkstrand (upper-body) will miss 2-to-3 months."
       }
      ],
      "lines": {
@@ -2081,18 +2086,17 @@
       "3": [
        "Eeli Tolvanen",
        "Noah Laba",
-       "Oliver Bjorkstrand"
+       "Jaroslav Chmelar"
       ],
       "4": [
-       "Jaroslav Chmelar",
        "Glenn Gawdin",
-       "Matt Rempe"
+       "Taylor Raddysh"
       ]
      },
      "pp1": [
       "Alexis Lafreni\u00e8re",
-      "Gabriel Perreault",
       "J.T. Miller",
+      "Gabriel Perreault",
       "Mika Zibanejad",
       "Adam Fox"
      ],
@@ -2100,7 +2104,8 @@
       "Eeli Tolvanen",
       "Tye Kartye",
       "Will Cuylle",
-      "Oliver Bjorkstrand"
+      "Sean Durzi",
+      "Scott Morrow"
      ],
      "players": [
       {
@@ -2736,112 +2741,6 @@
        ]
       },
       {
-       "name": "Oliver Bjorkstrand",
-       "jersey": 28,
-       "team": "NYR",
-       "opp": "CAR",
-       "section": "F",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 9,
-         "k5": 2,
-         "n5": 5,
-         "k10": 5,
-         "n10": 10,
-         "p": 0.3117849462365591,
-         "p_hot": 0.3327349228611501,
-         "heater": false
-        },
-        "goals": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.16893075268817204,
-         "p_hot": 0.14640336605890603,
-         "heater": false
-        },
-        "assists": {
-         "k": 4,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.14738924731182795,
-         "p_hot": 0.1922468443197756,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 22,
-       "pt_games": 9,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 5,
-       "two_games": 2,
-       "home_split": [
-        5,
-        11
-       ],
-       "away_split": [
-        4,
-        11
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 2.1,
-       "toi": 12.4,
-       "p": 0.312,
-       "fair": "+221",
-       "min": "+240",
-       "p2": 0.066,
-       "fair2": "+1421",
-       "min2": "+1512",
-       "adj": [
-        [
-         "opp",
-         0.8503225806451613
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Eeli Tolvanen",
-         "jersey": 17,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Noah Laba",
-         "jersey": 42,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 2
-        }
-       ]
-      },
-      {
        "name": "Will Cuylle",
        "jersey": 50,
        "team": "NYR",
@@ -2948,6 +2847,108 @@
        ]
       },
       {
+       "name": "Sean Durzi",
+       "jersey": 5,
+       "team": "NYR",
+       "opp": "CAR",
+       "section": "D",
+       "home": true,
+       "line": 2,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 5,
+         "k5": 2,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.2908103225806452,
+         "p_hot": 0.3188339971949509,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.10544000000000002,
+         "p_hot": 0.10085565217391305,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.1887716129032258,
+         "p_hot": 0.22123175315568022,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": true,
+       "role": "d",
+       "bias": "A",
+       "gp": 14,
+       "pt_games": 5,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 2,
+       "two_games": 0,
+       "home_split": [
+        4,
+        7
+       ],
+       "away_split": [
+        1,
+        7
+       ],
+       "l5_venue": [
+        4,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.9,
+       "toi": 18.1,
+       "p": 0.291,
+       "fair": "+244",
+       "min": "+264",
+       "p2": 0.01,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8503225806451613
+        ],
+        [
+         "venue",
+         1.1
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Marcus Pettersson",
+         "jersey": 26,
+         "pp": null,
+         "n": 13,
+         "both": 1,
+         "either": 4
+        }
+       ]
+      },
+      {
        "name": "Glenn Gawdin",
        "jersey": null,
        "team": "NYR",
@@ -3036,18 +3037,10 @@
        },
        "partners": [
         {
-         "name": "Jaroslav Chmelar",
-         "jersey": 49,
+         "name": "Taylor Raddysh",
+         "jersey": 14,
          "pp": null,
-         "n": 3,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Matt Rempe",
-         "jersey": 73,
-         "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -3060,8 +3053,8 @@
        "opp": "CAR",
        "section": "D",
        "home": true,
-       "line": 3,
-       "pp": null,
+       "line": 4,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -3140,20 +3133,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
-        "pp": 0,
+        "ev": -1,
+        "pp": 1,
         "new": false
        },
-       "partners": [
-        {
-         "name": "Matthew Robertson",
-         "jersey": 29,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 1
-        }
-       ]
+       "partners": []
       },
       {
        "name": "Eeli Tolvanen",
@@ -3252,12 +3236,12 @@
          "either": 5
         },
         {
-         "name": "Oliver Bjorkstrand",
-         "jersey": 28,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "name": "Jaroslav Chmelar",
+         "jersey": 49,
+         "pp": null,
+         "n": 3,
+         "both": 0,
+         "either": 2
         }
        ]
       },
@@ -3358,12 +3342,12 @@
          "either": 5
         },
         {
-         "name": "Oliver Bjorkstrand",
-         "jersey": 28,
-         "pp": 2,
-         "n": 4,
-         "both": 0,
-         "either": 2
+         "name": "Jaroslav Chmelar",
+         "jersey": 49,
+         "pp": null,
+         "n": 3,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -3466,13 +3450,111 @@
        ]
       },
       {
+       "name": "Taylor Raddysh",
+       "jersey": 14,
+       "team": "NYR",
+       "opp": "CAR",
+       "section": "F",
+       "home": true,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 6,
+         "p": 0.18221198156682028,
+         "p_hot": 0.17901528013582343,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 6,
+         "p": 0.058307834101382496,
+         "p_hot": 0.042963667232597626,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 6,
+         "p": 0.13362211981566824,
+         "p_hot": 0.14321222410865875,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 6,
+       "pt_games": 1,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        3
+       ],
+       "away_split": [
+        0,
+        3
+       ],
+       "l5_venue": [
+        1,
+        3
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 7.6,
+       "p": 0.182,
+       "fair": "+449",
+       "min": "+482",
+       "p2": 0.019,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.8503225806451613
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Glenn Gawdin",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Jaroslav Chmelar",
        "jersey": 49,
        "team": "NYR",
        "opp": "CAR",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -3507,7 +3589,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": "G",
@@ -3552,25 +3634,25 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Glenn Gawdin",
-         "jersey": null,
+         "name": "Eeli Tolvanen",
+         "jersey": 17,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 2
+        },
+        {
+         "name": "Noah Laba",
+         "jersey": 42,
          "pp": null,
          "n": 3,
          "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Matt Rempe",
-         "jersey": 73,
-         "pp": null,
-         "n": 4,
-         "both": 0,
          "either": 1
         }
        ]
@@ -3664,118 +3746,12 @@
        },
        "partners": [
         {
-         "name": "Braden Schneider",
-         "jersey": 4,
-         "pp": null,
-         "n": 9,
-         "both": 0,
-         "either": 3
-        }
-       ]
-      },
-      {
-       "name": "Matt Rempe",
-       "jersey": 73,
-       "team": "NYR",
-       "opp": "CAR",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 6,
-         "p": 0.12147465437788019,
-         "p_hot": 0.08950764006791172,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 6,
-         "p": 0.058307834101382496,
-         "p_hot": 0.042963667232597626,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 6,
-         "p": 0.07288479262672812,
-         "p_hot": 0.05370458404074703,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 6,
-       "pt_games": 0,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        4
-       ],
-       "away_split": [
-        0,
-        2
-       ],
-       "l5_venue": [
-        0,
-        4
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 6.3,
-       "p": 0.121,
-       "fair": "+723",
-       "min": "+773",
-       "p2": 0.019,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.8503225806451613
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jaroslav Chmelar",
-         "jersey": 49,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Glenn Gawdin",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Sean Durzi",
+         "jersey": 5,
+         "pp": 2,
+         "n": 13,
+         "both": 1,
+         "either": 4
         }
        ]
       },
@@ -3868,12 +3844,12 @@
        },
        "partners": [
         {
-         "name": "Scott Morrow",
-         "jersey": 60,
+         "name": "Braden Schneider",
+         "jersey": 4,
          "pp": null,
-         "n": 5,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -3884,7 +3860,7 @@
        "opp": "CAR",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -3960,18 +3936,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Marcus Pettersson",
-         "jersey": 26,
+         "name": "Matthew Robertson",
+         "jersey": 29,
          "pp": null,
-         "n": 9,
+         "n": 0,
          "both": 0,
-         "either": 3
+         "either": 0
         }
        ]
       }
@@ -3993,13 +3969,13 @@
      "opp": "TBL",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Alex Lyon",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.89",
+     "gaa": "3.29",
+     "ml": "-148",
      "gp": 23,
      "gf": 2.9130434782608696,
      "gf_rk": 23,
@@ -4011,9 +3987,9 @@
      "ppga_rk": 5,
      "l5_gf": 2.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-20T17:04:03.137Z",
-     "lineup_checked": "2026-11-21T13:56:08.760625+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T22:39:00.410Z",
+     "lineup_checked": "2026-11-22T09:39:53.874678+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Matt Grzelcyk",
@@ -6011,13 +5987,13 @@
      "opp": "BUF",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Andrei Vasilevskiy",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.895",
+     "gaa": "2.59",
+     "ml": "124",
      "gp": 22,
      "gf": 3.727272727272727,
      "gf_rk": 5,
@@ -6029,14 +6005,14 @@
      "ppga_rk": 19,
      "l5_gf": 3.8,
      "l5_ga": 1.8,
-     "lineup_as_of": "2026-11-20T00:11:29.654Z",
-     "lineup_checked": "2026-11-20T00:12:31.414639+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T17:25:14.113Z",
+     "lineup_checked": "2026-11-22T09:39:54.455251+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Conor Geekie",
        "status": "IR",
-       "news": "Geekie (undisclosed) has been placed on IR."
+       "news": "Geekie is out indefinitely with an upper-body injury."
       },
       {
        "player": "Brandon Hagel",
@@ -6079,7 +6055,7 @@
       "John Carlson"
      ],
      "pp2": [
-      "Gage Goncalves",
+      "Ilya Mikheyev",
       "Anthony Cirelli",
       "Pontus Holmberg",
       "Victor Hedman",
@@ -6601,7 +6577,7 @@
         {
          "name": "Gage Goncalves",
          "jersey": 93,
-         "pp": 2,
+         "pp": null,
          "n": 4,
          "both": 0,
          "either": 1
@@ -6797,7 +6773,7 @@
         {
          "name": "Ilya Mikheyev",
          "jersey": 95,
-         "pp": null,
+         "pp": 2,
          "n": 2,
          "both": 0,
          "either": 2
@@ -6903,7 +6879,7 @@
         {
          "name": "Ilya Mikheyev",
          "jersey": 95,
-         "pp": null,
+         "pp": 2,
          "n": 19,
          "both": 4,
          "either": 8
@@ -7115,7 +7091,7 @@
         {
          "name": "Gage Goncalves",
          "jersey": 93,
-         "pp": 2,
+         "pp": null,
          "n": 3,
          "both": 0,
          "either": 0
@@ -7228,7 +7204,7 @@
        "section": "F",
        "home": true,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -7304,7 +7280,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -7644,7 +7620,7 @@
        "section": "F",
        "home": true,
        "line": 2,
-       "pp": 2,
+       "pp": null,
        "sneaky": false,
        "form": {
         "points": {
@@ -7720,7 +7696,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": -1,
         "new": false
        },
        "partners": [
@@ -7964,13 +7940,13 @@
      "opp": "STL",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Tristan Jarry",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.909",
+     "gaa": "2.45",
+     "ml": "220",
      "gp": 25,
      "gf": 3.84,
      "gf_rk": 3,
@@ -7982,9 +7958,9 @@
      "ppga_rk": 14,
      "l5_gf": 3.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-21T04:05:56.868Z",
-     "lineup_checked": "2026-11-21T13:56:09.256956+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T17:39:44.056Z",
+     "lineup_checked": "2026-11-22T09:39:54.143066+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Alec Regula",
@@ -8014,19 +7990,19 @@
      ],
      "lines": {
       "1": [
-       "Filip Hallander",
+       "Vasily Podkolzin",
        "Connor McDavid",
-       "Kasperi Kapanen"
+       "Leon Draisaitl"
       ],
       "2": [
-       "Vasily Podkolzin",
-       "Leon Draisaitl",
-       "Mathieu Joseph"
+       "Kasperi Kapanen",
+       "Colton Dach",
+       "Zach Hyman"
       ],
       "3": [
-       "Colton Dach",
+       "Filip Hallander",
        "Jason Dickinson",
-       "Zach Hyman"
+       "Mathieu Joseph"
       ],
       "4": [
        "Alex Formenton",
@@ -8142,20 +8118,20 @@
        },
        "partners": [
         {
-         "name": "Filip Hallander",
-         "jersey": 19,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Vasily Podkolzin",
+         "jersey": 92,
+         "pp": 1,
+         "n": 20,
+         "both": 12,
+         "either": 20
         },
         {
-         "name": "Kasperi Kapanen",
-         "jersey": 42,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Leon Draisaitl",
+         "jersey": 29,
+         "pp": 1,
+         "n": 22,
+         "both": 20,
+         "either": 22
         }
        ]
       },
@@ -8166,7 +8142,7 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -8201,7 +8177,7 @@
          "heater": true
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -8246,7 +8222,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -8260,12 +8236,12 @@
          "either": 23
         },
         {
-         "name": "Mathieu Joseph",
-         "jersey": 21,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Connor McDavid",
+         "jersey": 97,
+         "pp": 1,
+         "n": 22,
+         "both": 20,
+         "either": 22
         }
        ]
       },
@@ -8378,7 +8354,7 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -8458,11 +8434,19 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
+        {
+         "name": "Connor McDavid",
+         "jersey": 97,
+         "pp": 1,
+         "n": 20,
+         "both": 12,
+         "either": 20
+        },
         {
          "name": "Leon Draisaitl",
          "jersey": 29,
@@ -8470,14 +8454,6 @@
          "n": 24,
          "both": 13,
          "either": 23
-        },
-        {
-         "name": "Mathieu Joseph",
-         "jersey": 21,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -8488,7 +8464,7 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -8568,11 +8544,19 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
+        {
+         "name": "Kasperi Kapanen",
+         "jersey": 42,
+         "pp": 2,
+         "n": 7,
+         "both": 1,
+         "either": 2
+        },
         {
          "name": "Colton Dach",
          "jersey": 34,
@@ -8580,14 +8564,6 @@
          "n": 7,
          "both": 1,
          "either": 5
-        },
-        {
-         "name": "Jason Dickinson",
-         "jersey": 16,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -8700,7 +8676,7 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -8735,7 +8711,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": "A",
@@ -8780,26 +8756,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Filip Hallander",
-         "jersey": 19,
+         "name": "Colton Dach",
+         "jersey": 34,
          "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
+         "n": 11,
+         "both": 1,
+         "either": 7
         },
         {
-         "name": "Connor McDavid",
-         "jersey": 97,
+         "name": "Zach Hyman",
+         "jersey": 18,
          "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 7,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -8810,9 +8786,9 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": null,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 9,
@@ -8820,8 +8796,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.30385388856304985,
-         "p_hot": 0.21277437307152877,
+         "p": 0.2851870967741935,
+         "p_hot": 0.18599158485273493,
          "heater": false
         },
         "goals": {
@@ -8830,8 +8806,8 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.14311207038123167,
-         "p_hot": 0.13093807573632538,
+         "p": 0.12859345454545454,
+         "p_hot": 0.11010701823281907,
          "heater": false
         },
         "assists": {
@@ -8840,14 +8816,14 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.17940860997067448,
-         "p_hot": 0.1086190855539972,
+         "p": 0.1607418181818182,
+         "p_hot": 0.08183629733520337,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 25,
        "pt_games": 9,
@@ -8873,10 +8849,10 @@
        "l5_venue_two": 0,
        "pp_toi": 0.0,
        "toi": 10.6,
-       "p": 0.304,
-       "fair": "+229",
-       "min": "+249",
-       "p2": 0.015,
+       "p": 0.285,
+       "fair": "+251",
+       "min": "+272",
+       "p2": 0.008,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -8890,26 +8866,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Vasily Podkolzin",
-         "jersey": 92,
-         "pp": 1,
-         "n": 0,
+         "name": "Filip Hallander",
+         "jersey": 19,
+         "pp": 2,
+         "n": 1,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
-         "name": "Leon Draisaitl",
-         "jersey": 29,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Jason Dickinson",
+         "jersey": 16,
+         "pp": null,
+         "n": 8,
+         "both": 3,
+         "either": 4
         }
        ]
       },
@@ -9006,20 +8982,20 @@
        },
        "partners": [
         {
-         "name": "Colton Dach",
-         "jersey": 34,
+         "name": "Filip Hallander",
+         "jersey": 19,
          "pp": 2,
-         "n": 1,
+         "n": 6,
          "both": 0,
-         "either": 0
+         "either": 2
         },
         {
-         "name": "Zach Hyman",
-         "jersey": 18,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Mathieu Joseph",
+         "jersey": 21,
+         "pp": null,
+         "n": 8,
+         "both": 3,
+         "either": 4
         }
        ]
       },
@@ -9132,9 +9108,9 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 4,
@@ -9142,8 +9118,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.1901247311827957,
-         "p_hot": 0.2231899018232819,
+         "p": 0.2129396989247312,
+         "p_hot": 0.24997269004207576,
          "heater": false
         },
         "goals": {
@@ -9152,8 +9128,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.12548232258064515,
-         "p_hot": 0.14730533520336606,
+         "p": 0.1432272974910394,
+         "p_hot": 0.16813639270687236,
          "heater": false
         },
         "assists": {
@@ -9162,14 +9138,14 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.10139985663082438,
-         "p_hot": 0.08183629733520337,
+         "p": 0.12421482437275987,
+         "p_hot": 0.1086190855539972,
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "G",
        "gp": 19,
        "pt_games": 4,
@@ -9195,12 +9171,12 @@
        "l5_venue_two": 0,
        "pp_toi": 0.7,
        "toi": 13.1,
-       "p": 0.19,
-       "fair": "+426",
-       "min": "+458",
-       "p2": 0.067,
-       "fair2": "+1400",
-       "min2": "+1490",
+       "p": 0.213,
+       "fair": "+370",
+       "min": "+398",
+       "p2": 0.076,
+       "fair2": "+1218",
+       "min2": "+1297",
        "adj": [
         [
          "opp",
@@ -9212,18 +9188,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jason Dickinson",
-         "jersey": 16,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Kasperi Kapanen",
+         "jersey": 42,
+         "pp": 2,
+         "n": 11,
+         "both": 1,
+         "either": 7
         },
         {
          "name": "Zach Hyman",
@@ -9660,116 +9636,6 @@
        ]
       },
       {
-       "name": "Filip Hallander",
-       "jersey": 19,
-       "team": "EDM",
-       "opp": "STL",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.11081555760368665,
-         "p_hot": 0.10117942215988782,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.06192634101382488,
-         "p_hot": 0.05654144179523141,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.07822274654377881,
-         "p_hot": 0.0714207685834502,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 13,
-       "pt_games": 0,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        4
-       ],
-       "away_split": [
-        0,
-        9
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.7,
-       "toi": 10.9,
-       "p": 0.111,
-       "fair": "+802",
-       "min": "+857",
-       "p2": 0.024,
-       "fair2": "+4129",
-       "min2": "+4382",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Connor McDavid",
-         "jersey": 97,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Kasperi Kapanen",
-         "jersey": 42,
-         "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Trent Frederic",
        "jersey": 10,
        "team": "EDM",
@@ -9874,6 +9740,116 @@
          "jersey": 43,
          "pp": null,
          "n": 7,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Filip Hallander",
+       "jersey": 19,
+       "team": "EDM",
+       "opp": "STL",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.08148202764976958,
+         "p_hot": 0.07439663394109397,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.039111373271889405,
+         "p_hot": 0.0357103842917251,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.04888921658986175,
+         "p_hot": 0.04463798036465638,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 13,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        4
+       ],
+       "away_split": [
+        0,
+        9
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.7,
+       "toi": 10.9,
+       "p": 0.081,
+       "fair": "+1127",
+       "min": "+1201",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Jason Dickinson",
+         "jersey": 16,
+         "pp": null,
+         "n": 6,
+         "both": 0,
+         "either": 2
+        },
+        {
+         "name": "Mathieu Joseph",
+         "jersey": 21,
+         "pp": null,
+         "n": 1,
          "both": 0,
          "either": 1
         }
@@ -9988,13 +9964,13 @@
      "opp": "EDM",
      "home": true,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Jordan Binnington",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.847",
+     "gaa": "4.76",
+     "ml": "-270",
      "gp": 23,
      "gf": 3.3043478260869565,
      "gf_rk": 12,
@@ -10007,8 +9983,8 @@
      "l5_gf": 4.6,
      "l5_ga": 3.6,
      "lineup_as_of": "2026-11-21T23:41:15.043Z",
-     "lineup_checked": "2026-11-21T23:44:07.580217+00:00",
-     "lineup_stale": true,
+     "lineup_checked": "2026-11-22T09:39:54.384865+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Dillon Dube",
@@ -12013,13 +11989,13 @@
      "opp": "DAL",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Sergei Murashov",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.89",
+     "gaa": "3.35",
+     "ml": "-142",
      "gp": 22,
      "gf": 2.9545454545454546,
      "gf_rk": 22,
@@ -12031,9 +12007,9 @@
      "ppga_rk": 26,
      "l5_gf": 2.0,
      "l5_ga": 4.0,
-     "lineup_as_of": "2026-11-21T04:02:00.675Z",
-     "lineup_checked": "2026-11-21T13:56:10.033067+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T22:35:56.610Z",
+     "lineup_checked": "2026-11-22T09:39:54.308247+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Ryan Graves",
@@ -14041,13 +14017,13 @@
      "opp": "PIT",
      "home": true,
      "b2b": false,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Jake Oettinger",
+     "goalie_status": "",
+     "goalie_news": "",
+     "goalie_source": "",
+     "sv": "0.901",
+     "gaa": "2.25",
+     "ml": "120",
      "gp": 22,
      "gf": 2.8181818181818183,
      "gf_rk": 24,
@@ -14059,9 +14035,9 @@
      "ppga_rk": 30,
      "l5_gf": 2.8,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-18T15:04:59.046Z",
-     "lineup_checked": "2026-11-20T00:02:13.566738+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T17:57:55.805Z",
+     "lineup_checked": "2026-11-22T09:39:54.062896+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Matt Duchene",
@@ -14091,12 +14067,12 @@
      ],
      "lines": {
       "1": [
-       "Jason Robertson",
+       "Jamie Benn",
        "Wyatt Johnston",
        "Mikko Rantanen"
       ],
       "2": [
-       "Jamie Benn",
+       "Jason Robertson",
        "Roope Hintz",
        "Arttu Hyry"
       ],
@@ -14215,12 +14191,12 @@
        },
        "partners": [
         {
-         "name": "Jason Robertson",
-         "jersey": 21,
-         "pp": 1,
-         "n": 7,
-         "both": 3,
-         "either": 6
+         "name": "Jamie Benn",
+         "jersey": 14,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Wyatt Johnston",
@@ -14239,7 +14215,7 @@
        "opp": "PIT",
        "section": "F",
        "home": true,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -14315,26 +14291,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Wyatt Johnston",
-         "jersey": 53,
+         "name": "Roope Hintz",
+         "jersey": 24,
          "pp": 1,
-         "n": 6,
-         "both": 5,
-         "either": 6
+         "n": 18,
+         "both": 10,
+         "either": 12
         },
         {
-         "name": "Mikko Rantanen",
-         "jersey": 96,
-         "pp": 1,
-         "n": 7,
-         "both": 3,
-         "either": 6
+         "name": "Arttu Hyry",
+         "jersey": 25,
+         "pp": null,
+         "n": 3,
+         "both": 2,
+         "either": 2
         }
        ]
       },
@@ -14427,12 +14403,12 @@
        },
        "partners": [
         {
-         "name": "Jason Robertson",
-         "jersey": 21,
-         "pp": 1,
-         "n": 6,
-         "both": 5,
-         "either": 6
+         "name": "Jamie Benn",
+         "jersey": 14,
+         "pp": 2,
+         "n": 3,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Mikko Rantanen",
@@ -14631,12 +14607,12 @@
        },
        "partners": [
         {
-         "name": "Jamie Benn",
-         "jersey": 14,
-         "pp": 2,
-         "n": 4,
-         "both": 1,
-         "either": 3
+         "name": "Jason Robertson",
+         "jersey": 21,
+         "pp": 1,
+         "n": 18,
+         "both": 10,
+         "either": 12
         },
         {
          "name": "Arttu Hyry",
@@ -14753,7 +14729,7 @@
        "opp": "PIT",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -14829,26 +14805,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Roope Hintz",
-         "jersey": 24,
+         "name": "Wyatt Johnston",
+         "jersey": 53,
          "pp": 1,
-         "n": 4,
+         "n": 3,
          "both": 1,
-         "either": 3
+         "either": 2
         },
         {
-         "name": "Arttu Hyry",
-         "jersey": 25,
-         "pp": null,
-         "n": 11,
+         "name": "Mikko Rantanen",
+         "jersey": 96,
+         "pp": 1,
+         "n": 3,
          "both": 1,
-         "either": 3
+         "either": 2
         }
        ]
       },
@@ -15039,12 +15015,12 @@
        },
        "partners": [
         {
-         "name": "Jamie Benn",
-         "jersey": 14,
-         "pp": 2,
-         "n": 11,
-         "both": 1,
-         "either": 3
+         "name": "Jason Robertson",
+         "jersey": 21,
+         "pp": 1,
+         "n": 3,
+         "both": 2,
+         "either": 2
         },
         {
          "name": "Roope Hintz",
@@ -16004,13 +15980,13 @@
      "opp": "VAN",
      "home": false,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Drew Commesso",
+     "goalie_status": "Likely",
+     "goalie_news": "Commesso will likely start Sunday in Vancouver.",
+     "goalie_source": "Mark Lazerus",
+     "sv": "0.0",
+     "gaa": "0.0",
+     "ml": "225",
      "gp": 23,
      "gf": 2.5217391304347827,
      "gf_rk": 29,
@@ -16022,9 +15998,9 @@
      "ppga_rk": 17,
      "l5_gf": 3.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-20T17:12:39.531Z",
-     "lineup_checked": "2026-11-21T13:56:09.081472+00:00",
-     "lineup_stale": true,
+     "lineup_as_of": "2026-11-21T20:44:43.109Z",
+     "lineup_checked": "2026-11-22T09:39:53.993672+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Bowen Byram",
@@ -16034,14 +16010,14 @@
       {
        "player": "Connor Bedard",
        "status": "OUT",
-       "news": "Bedard (shoulder) will not travel on the upcoming road trip and is without a timeline to return."
+       "news": "Bedard will undergo shoulder surgery and is out indefinitely."
       }
      ],
      "lines": {
       "1": [
-       "Tyler Bertuzzi",
-       "Anton Frondell",
-       "Ryan Donato"
+       "Ryan Donato",
+       "Roman Kantserov",
+       "Tyler Bertuzzi"
       ],
       "2": [
        "Oliver Moore",
@@ -16050,13 +16026,13 @@
       ],
       "3": [
        "Cole Smith",
-       "Ryan Greene",
+       "Anton Frondell",
        "Teuvo Teravainen"
       ],
       "4": [
        "Andrew Mangiapane",
-       "Dillon Boucher",
-       "Roman Kantserov"
+       "Ryan Greene",
+       "Dillon Boucher"
       ]
      },
      "pp1": [
@@ -16191,7 +16167,7 @@
        "opp": "VAN",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -16226,7 +16202,7 @@
          "heater": true
         }
        },
-       "pos": "RW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -16271,26 +16247,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Andrew Mangiapane",
-         "jersey": 88,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Ryan Donato",
+         "jersey": 8,
+         "pp": 2,
+         "n": 2,
+         "both": 2,
+         "either": 2
         },
         {
-         "name": "Dillon Boucher",
-         "jersey": 36,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Tyler Bertuzzi",
+         "jersey": 59,
+         "pp": 1,
+         "n": 10,
+         "both": 1,
+         "either": 8
         }
        ]
       },
@@ -16548,7 +16524,7 @@
          "heater": true
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -16599,130 +16575,20 @@
        },
        "partners": [
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
-         "pp": 2,
-         "n": 15,
-         "both": 4,
-         "either": 5
-        },
-        {
          "name": "Ryan Donato",
          "jersey": 8,
          "pp": 2,
          "n": 3,
          "both": 1,
          "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Anton Frondell",
-       "jersey": 16,
-       "team": "CHI",
-       "opp": "VAN",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 7,
-         "k5": 3,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.312795870967742,
-         "p_hot": 0.4215944347826087,
-         "heater": true
         },
-        "goals": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.14545651612903224,
-         "p_hot": 0.1960500869565217,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.22269006451612902,
-         "p_hot": 0.2567735652173913,
-         "heater": true
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 23,
-       "pt_games": 7,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 4,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        2,
-        10
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.3,
-       "toi": 14.2,
-       "p": 0.313,
-       "fair": "+220",
-       "min": "+239",
-       "p2": 0.135,
-       "fair2": "+638",
-       "min2": "+683",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
         {
-         "name": "Tyler Bertuzzi",
-         "jersey": 59,
+         "name": "Roman Kantserov",
+         "jersey": 80,
          "pp": 1,
-         "n": 15,
-         "both": 4,
-         "either": 5
-        },
-        {
-         "name": "Ryan Donato",
-         "jersey": 8,
-         "pp": 2,
-         "n": 5,
+         "n": 10,
          "both": 1,
-         "either": 2
+         "either": 8
         }
        ]
       },
@@ -16768,7 +16634,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -16819,20 +16685,20 @@
        },
        "partners": [
         {
+         "name": "Roman Kantserov",
+         "jersey": 80,
+         "pp": 1,
+         "n": 2,
+         "both": 2,
+         "either": 2
+        },
+        {
          "name": "Tyler Bertuzzi",
          "jersey": 59,
          "pp": 1,
          "n": 3,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Anton Frondell",
-         "jersey": 16,
-         "pp": 2,
-         "n": 5,
-         "both": 1,
-         "either": 2
         }
        ]
       },
@@ -16943,6 +16809,116 @@
          "n": 8,
          "both": 2,
          "either": 7
+        }
+       ]
+      },
+      {
+       "name": "Anton Frondell",
+       "jersey": 16,
+       "team": "CHI",
+       "opp": "VAN",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 7,
+         "k5": 3,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.2896258064516129,
+         "p_hot": 0.39036521739130436,
+         "heater": true
+        },
+        "goals": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.12743535483870969,
+         "p_hot": 0.1717606956521739,
+         "heater": false
+        },
+        "assists": {
+         "k": 5,
+         "k5": 2,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.19952,
+         "p_hot": 0.22554434782608693,
+         "heater": true
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": "G",
+       "gp": 23,
+       "pt_games": 7,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 3,
+       "two_games": 4,
+       "home_split": [
+        5,
+        13
+       ],
+       "away_split": [
+        2,
+        10
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 1,
+       "pp_toi": 0.3,
+       "toi": 14.2,
+       "p": 0.29,
+       "fair": "+245",
+       "min": "+266",
+       "p2": 0.126,
+       "fair2": "+693",
+       "min2": "+741",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Cole Smith",
+         "jersey": 22,
+         "pp": null,
+         "n": 2,
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Teuvo Teravainen",
+         "jersey": 86,
+         "pp": 2,
+         "n": 11,
+         "both": 4,
+         "either": 5
         }
        ]
       },
@@ -17149,12 +17125,12 @@
          "either": 1
         },
         {
-         "name": "Ryan Greene",
-         "jersey": 20,
+         "name": "Anton Frondell",
+         "jersey": 16,
          "pp": 2,
-         "n": 2,
-         "both": 0,
-         "either": 0
+         "n": 11,
+         "both": 4,
+         "either": 5
         }
        ]
       },
@@ -17251,12 +17227,12 @@
        },
        "partners": [
         {
-         "name": "Ryan Greene",
-         "jersey": 20,
+         "name": "Anton Frondell",
+         "jersey": 16,
          "pp": 2,
-         "n": 17,
+         "n": 2,
          "both": 1,
-         "either": 6
+         "either": 1
         },
         {
          "name": "Teuvo Teravainen",
@@ -17361,18 +17337,18 @@
        },
        "partners": [
         {
+         "name": "Ryan Greene",
+         "jersey": 20,
+         "pp": 2,
+         "n": 4,
+         "both": 1,
+         "either": 1
+        },
+        {
          "name": "Dillon Boucher",
          "jersey": 36,
          "pp": null,
          "n": 1,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Roman Kantserov",
-         "jersey": 80,
-         "pp": 1,
-         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -17491,7 +17467,7 @@
        "opp": "VAN",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 4,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -17571,24 +17547,24 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Cole Smith",
-         "jersey": 22,
+         "name": "Andrew Mangiapane",
+         "jersey": 88,
          "pp": null,
-         "n": 17,
+         "n": 4,
          "both": 1,
-         "either": 6
+         "either": 1
         },
         {
-         "name": "Teuvo Teravainen",
-         "jersey": 86,
-         "pp": 2,
-         "n": 2,
+         "name": "Dillon Boucher",
+         "jersey": 36,
+         "pp": null,
+         "n": 3,
          "both": 0,
          "either": 0
         }
@@ -17840,7 +17816,7 @@
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -17899,10 +17875,10 @@
          "either": 0
         },
         {
-         "name": "Roman Kantserov",
-         "jersey": 80,
-         "pp": 1,
-         "n": 0,
+         "name": "Ryan Greene",
+         "jersey": 20,
+         "pp": 2,
+         "n": 3,
          "both": 0,
          "either": 0
         }
@@ -18017,13 +17993,13 @@
      "opp": "CHI",
      "home": true,
      "b2b": true,
-     "goalie": null,
-     "goalie_status": null,
-     "goalie_news": null,
-     "goalie_source": null,
-     "sv": null,
-     "gaa": null,
-     "ml": null,
+     "goalie": "Nikita Tolopilo",
+     "goalie_status": "Likely",
+     "goalie_news": "Tolopilo will likely start Sunday vs. the Blackhawks.",
+     "goalie_source": "Jeff Paterson",
+     "sv": "0.946",
+     "gaa": "2.0",
+     "ml": "-278",
      "gp": 25,
      "gf": 2.8,
      "gf_rk": 25,
@@ -18036,8 +18012,8 @@
      "l5_gf": 2.8,
      "l5_ga": 3.6,
      "lineup_as_of": "2026-11-22T02:48:51.701Z",
-     "lineup_checked": "2026-11-22T02:51:31.207210+00:00",
-     "lineup_stale": true,
+     "lineup_checked": "2026-11-22T09:39:54.513161+00:00",
+     "lineup_stale": false,
      "out": [
       {
        "player": "Thatcher Demko",
