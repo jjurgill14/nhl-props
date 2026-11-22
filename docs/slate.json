@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_utc": "2026-11-22T01:35:00.762496+00:00",
+ "generated_utc": "2026-11-22T01:40:08.076684+00:00",
  "games": [
   {
    "game_id": 2026020359,
@@ -7794,7 +7794,7 @@
    "start_et": "6:00 PM",
    "away": "BUF",
    "home": "FLA",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "Amerant Bank Arena",
    "teams": {
     "away": {
@@ -11701,7 +11701,7 @@
    "start_et": "6:00 PM",
    "away": "PIT",
    "home": "NSH",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "Bridgestone Arena",
    "teams": {
     "away": {
@@ -42929,7 +42929,7 @@
      "goalie_source": "Zach Cavanagh",
      "sv": "0.856",
      "gaa": "3.76",
-     "ml": "-162",
+     "ml": "-175",
      "gp": 23,
      "gf": 3.6956521739130435,
      "gf_rk": 5,
@@ -42941,8 +42941,8 @@
      "ppga_rk": 6,
      "l5_gf": 3.2,
      "l5_ga": 4.6,
-     "lineup_as_of": "2026-11-21T18:50:36.768Z",
-     "lineup_checked": "2026-11-21T23:03:02.107780+00:00",
+     "lineup_as_of": "2026-11-22T01:37:52.058Z",
+     "lineup_checked": "2026-11-22T01:40:04.278420+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -42965,7 +42965,7 @@
       "1": [
        "Cutter Gauthier",
        "Leo Carlsson",
-       "Sam Colangelo"
+       "Nico Myatovic"
       ],
       "2": [
        "Alex Killorn",
@@ -42993,7 +42993,7 @@
      "pp2": [
       "Alex Killorn",
       "Roger McQueen",
-      "Frank Vatrano",
+      "Nico Myatovic",
       "Troy Terry",
       "Tristan Luneau"
      ],
@@ -43193,9 +43193,9 @@
          "either": 9
         },
         {
-         "name": "Sam Colangelo",
-         "jersey": 12,
-         "pp": null,
+         "name": "Nico Myatovic",
+         "jersey": 48,
+         "pp": 2,
          "n": 0,
          "both": 0,
          "either": 0
@@ -43405,12 +43405,12 @@
          "either": 9
         },
         {
-         "name": "Sam Colangelo",
-         "jersey": 12,
-         "pp": null,
-         "n": 2,
+         "name": "Nico Myatovic",
+         "jersey": 48,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         }
        ]
       },
@@ -43936,7 +43936,7 @@
        "section": "F",
        "home": false,
        "line": 4,
-       "pp": 2,
+       "pp": null,
        "sneaky": true,
        "form": {
         "points": {
@@ -44016,7 +44016,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 1,
+        "pp": 0,
         "new": false
        },
        "partners": [
@@ -44243,112 +44243,6 @@
        ]
       },
       {
-       "name": "Sam Colangelo",
-       "jersey": 12,
-       "team": "ANA",
-       "opp": "UTA",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": null,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.29300645161290323,
-         "p_hot": 0.2147500701262272,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.1098774193548387,
-         "p_hot": 0.06915680224403926,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.21452258064516128,
-         "p_hot": 0.17835175315568022,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "A",
-       "gp": 16,
-       "pt_games": 4,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 1,
-       "two_games": 1,
-       "home_split": [
-        2,
-        7
-       ],
-       "away_split": [
-        2,
-        9
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 8.8,
-       "p": 0.293,
-       "fair": "+241",
-       "min": "+262",
-       "p2": 0.072,
-       "fair2": "+1298",
-       "min2": "+1382",
-       "adj": [
-        [
-         "opp",
-         1.0464516129032257
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Cutter Gauthier",
-         "jersey": 61,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Leo Carlsson",
-         "jersey": 91,
-         "pp": 1,
-         "n": 2,
-         "both": 0,
-         "either": 2
-        }
-       ]
-      },
-      {
        "name": "Nikita Nesterenko",
        "jersey": 13,
        "team": "ANA",
@@ -44447,7 +44341,7 @@
         {
          "name": "Frank Vatrano",
          "jersey": 77,
-         "pp": 2,
+         "pp": null,
          "n": 2,
          "both": 0,
          "either": 0
@@ -44557,6 +44451,112 @@
          "n": 1,
          "both": 0,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Nico Myatovic",
+       "jersey": 48,
+       "team": "ANA",
+       "opp": "UTA",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 4,
+         "k10": 0,
+         "n10": 4,
+         "p": 0.2371956989247312,
+         "p_hot": 0.17789677419354838,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 4,
+         "k10": 0,
+         "n10": 4,
+         "p": 0.1325505376344086,
+         "p_hot": 0.09941290322580645,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 4,
+         "k10": 0,
+         "n10": 4,
+         "p": 0.16743225806451612,
+         "p_hot": 0.1255741935483871,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 4,
+       "pt_games": 0,
+       "l5": [
+        0,
+        4
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        1
+       ],
+       "away_split": [
+        0,
+        3
+       ],
+       "l5_venue": [
+        0,
+        3
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.1,
+       "toi": 9.9,
+       "p": 0.237,
+       "fair": "+322",
+       "min": "+347",
+       "p2": 0.056,
+       "fair2": "+1692",
+       "min2": "+1799",
+       "adj": [
+        [
+         "opp",
+         1.0464516129032257
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Cutter Gauthier",
+         "jersey": 61,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Leo Carlsson",
+         "jersey": 91,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -44855,7 +44855,7 @@
         {
          "name": "Frank Vatrano",
          "jersey": 77,
-         "pp": 2,
+         "pp": null,
          "n": 5,
          "both": 0,
          "either": 1
@@ -44875,7 +44875,7 @@
      "goalie_source": "Cole Bagley",
      "sv": "0.879",
      "gaa": "3.23",
-     "ml": "136",
+     "ml": "145",
      "gp": 23,
      "gf": 3.347826086956522,
      "gf_rk": 10,
@@ -44887,8 +44887,8 @@
      "ppga_rk": 5,
      "l5_gf": 2.8,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-21T04:05:12.668Z",
-     "lineup_checked": "2026-11-21T13:56:10.421721+00:00",
+     "lineup_as_of": "2026-11-22T01:35:12.622Z",
+     "lineup_checked": "2026-11-22T01:40:04.351559+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -44915,13 +44915,18 @@
        "player": "Artem Duda",
        "status": "DTD",
        "news": "Duda (lower-body) will not play Monday vs. the Canucks."
+      },
+      {
+       "player": "Clayton Keller",
+       "status": "DTD",
+       "news": "Keller (illness) will not play Saturday vs. the Ducks."
       }
      ],
      "lines": {
       "1": [
        "Logan Cooley",
        "Vincent Trocheck",
-       "Clayton Keller"
+       "Daniil But"
       ],
       "2": [
        "Anders Lee",
@@ -44934,132 +44939,26 @@
        "Lawson Crouse"
       ],
       "4": [
-       "Liam O'Brien",
+       "Ben McCartney",
        "Kevin Stenlund",
-       "Daniil But"
+       "Liam O'Brien"
       ]
      },
      "pp1": [
       "Kailer Yamamoto",
       "Vincent Trocheck",
-      "Logan Cooley",
+      "Barrett Hayton",
       "Mikhail Sergachev",
-      "Clayton Keller"
+      "Logan Cooley"
      ],
      "pp2": [
       "Anders Lee",
       "Lawson Crouse",
-      "Barrett Hayton",
+      "Daniil But",
       "Zac Jones",
       "Michael Carcone"
      ],
      "players": [
-      {
-       "name": "Clayton Keller",
-       "jersey": 9,
-       "team": "UTA",
-       "opp": "ANA",
-       "section": "F",
-       "home": true,
-       "line": 1,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 19,
-         "k5": 4,
-         "n5": 5,
-         "k10": 9,
-         "n10": 10,
-         "p": 0.85,
-         "p_hot": 0.85,
-         "heater": false
-        },
-        "goals": {
-         "k": 4,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.22934110301768992,
-         "p_hot": 0.16050042075736326,
-         "heater": false
-        },
-        "assists": {
-         "k": 18,
-         "k5": 4,
-         "n5": 5,
-         "k10": 9,
-         "n10": 10,
-         "p": 0.7762314255983351,
-         "p_hot": 0.7985391304347826,
-         "heater": true
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 23,
-       "pt_games": 19,
-       "l5": [
-        4,
-        5
-       ],
-       "ast_games": 18,
-       "goal_games": 4,
-       "two_games": 9,
-       "home_split": [
-        7,
-        10
-       ],
-       "away_split": [
-        12,
-        13
-       ],
-       "l5_venue": [
-        3,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 4.6,
-       "toi": 21.9,
-       "p": 0.85,
-       "fair": "-567",
-       "min": "-405",
-       "p2": 0.39,
-       "fair2": "+157",
-       "min2": "+172",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Logan Cooley",
-         "jersey": 92,
-         "pp": 1,
-         "n": 2,
-         "both": 2,
-         "either": 2
-        },
-        {
-         "name": "Vincent Trocheck",
-         "jersey": 16,
-         "pp": 1,
-         "n": 10,
-         "both": 4,
-         "either": 8
-        }
-       ]
-      },
       {
        "name": "Logan Cooley",
        "jersey": 92,
@@ -45157,12 +45056,12 @@
          "either": 11
         },
         {
-         "name": "Clayton Keller",
-         "jersey": 9,
-         "pp": 1,
-         "n": 2,
-         "both": 2,
-         "either": 2
+         "name": "Daniil But",
+         "jersey": 50,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -45363,7 +45262,113 @@
         {
          "name": "Barrett Hayton",
          "jersey": 27,
+         "pp": 1,
+         "n": 13,
+         "both": 7,
+         "either": 9
+        }
+       ]
+      },
+      {
+       "name": "Barrett Hayton",
+       "jersey": 27,
+       "team": "UTA",
+       "opp": "ANA",
+       "section": "F",
+       "home": true,
+       "line": 2,
+       "pp": 1,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 12,
+         "k5": 3,
+         "n5": 5,
+         "k10": 5,
+         "n10": 10,
+         "p": 0.5998151925078045,
+         "p_hot": 0.6102978962131839,
+         "heater": true
+        },
+        "goals": {
+         "k": 4,
+         "k5": 2,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.22934110301768992,
+         "p_hot": 0.3586490883590463,
+         "heater": true
+        },
+        "assists": {
+         "k": 8,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.40869760665972954,
+         "p_hot": 0.30316746143057505,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "G",
+       "gp": 23,
+       "pt_games": 12,
+       "l5": [
+        3,
+        5
+       ],
+       "ast_games": 8,
+       "goal_games": 4,
+       "two_games": 1,
+       "home_split": [
+        6,
+        10
+       ],
+       "away_split": [
+        6,
+        13
+       ],
+       "l5_venue": [
+        3,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 2.7,
+       "toi": 15.9,
+       "p": 0.6,
+       "fair": "-150",
+       "min": "-130",
+       "p2": 0.096,
+       "fair2": "+946",
+       "min2": "+1009",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Anders Lee",
+         "jersey": 72,
          "pp": 2,
+         "n": 16,
+         "both": 4,
+         "either": 10
+        },
+        {
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 1,
          "n": 13,
          "both": 7,
          "either": 9
@@ -45467,118 +45472,12 @@
          "either": 11
         },
         {
-         "name": "Clayton Keller",
-         "jersey": 9,
-         "pp": 1,
-         "n": 10,
-         "both": 4,
-         "either": 8
-        }
-       ]
-      },
-      {
-       "name": "Barrett Hayton",
-       "jersey": 27,
-       "team": "UTA",
-       "opp": "ANA",
-       "section": "F",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 12,
-         "k5": 3,
-         "n5": 5,
-         "k10": 5,
-         "n10": 10,
-         "p": 0.5410097814776275,
-         "p_hot": 0.5310384291725105,
-         "heater": true
-        },
-        "goals": {
-         "k": 4,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.20287866805411028,
-         "p_hot": 0.3229823281907433,
-         "heater": true
-        },
-        "assists": {
-         "k": 8,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.3645935483870968,
-         "p_hot": 0.24372286115007014,
-         "heater": false
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 23,
-       "pt_games": 12,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 8,
-       "goal_games": 4,
-       "two_games": 1,
-       "home_split": [
-        6,
-        10
-       ],
-       "away_split": [
-        6,
-        13
-       ],
-       "l5_venue": [
-        3,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 2.7,
-       "toi": 15.9,
-       "p": 0.541,
-       "fair": "-118",
-       "min": "-104",
-       "p2": 0.06,
-       "fair2": "+1559",
-       "min2": "+1659",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": -1,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Anders Lee",
-         "jersey": 72,
+         "name": "Daniil But",
+         "jersey": 50,
          "pp": 2,
-         "n": 16,
-         "both": 4,
-         "either": 10
-        },
-        {
-         "name": "Kailer Yamamoto",
-         "jersey": 56,
-         "pp": 1,
-         "n": 13,
-         "both": 7,
-         "either": 9
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -45673,7 +45572,7 @@
         {
          "name": "Barrett Hayton",
          "jersey": 27,
-         "pp": 2,
+         "pp": 1,
          "n": 16,
          "both": 4,
          "either": 10
@@ -45787,6 +45686,116 @@
        ]
       },
       {
+       "name": "Daniil But",
+       "jersey": 50,
+       "team": "UTA",
+       "opp": "ANA",
+       "section": "F",
+       "home": true,
+       "line": 1,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.3239273449131514,
+         "p_hot": 0.25719697054698465,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.1696762282878412,
+         "p_hot": 0.0828261430575035,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.18895761786600498,
+         "p_hot": 0.21360426367461433,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 18,
+       "pt_games": 4,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 2,
+       "two_games": 0,
+       "home_split": [
+        4,
+        9
+       ],
+       "away_split": [
+        0,
+        9
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.4,
+       "toi": 9.3,
+       "p": 0.324,
+       "fair": "+209",
+       "min": "+227",
+       "p2": 0.031,
+       "fair2": "+3141",
+       "min2": "+3336",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ],
+        [
+         "venue",
+         1.1
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Logan Cooley",
+         "jersey": 92,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Vincent Trocheck",
+         "jersey": 16,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Lawson Crouse",
        "jersey": 67,
        "team": "UTA",
@@ -45888,116 +45897,6 @@
          "pp": null,
          "n": 10,
          "both": 1,
-         "either": 5
-        }
-       ]
-      },
-      {
-       "name": "Daniil But",
-       "jersey": 50,
-       "team": "UTA",
-       "opp": "ANA",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.28922084367245665,
-         "p_hot": 0.21796353436185134,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.14268228287841192,
-         "p_hot": 0.05231124824684432,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.15425111662531021,
-         "p_hot": 0.1743708274894811,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 18,
-       "pt_games": 4,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        4,
-        9
-       ],
-       "away_split": [
-        0,
-        9
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.4,
-       "toi": 9.3,
-       "p": 0.289,
-       "fair": "+246",
-       "min": "+267",
-       "p2": 0.015,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ],
-        [
-         "venue",
-         1.1
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Liam O'Brien",
-         "jersey": 38,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Kevin Stenlund",
-         "jersey": 82,
-         "pp": null,
-         "n": 15,
-         "both": 4,
          "either": 5
         }
        ]
@@ -46291,20 +46190,20 @@
        },
        "partners": [
         {
+         "name": "Ben McCartney",
+         "jersey": null,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Liam O'Brien",
          "jersey": 38,
          "pp": null,
          "n": 9,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Daniil But",
-         "jersey": 50,
-         "pp": null,
-         "n": 15,
-         "both": 4,
-         "either": 5
         }
        ]
       },
@@ -46623,6 +46522,112 @@
        ]
       },
       {
+       "name": "Ben McCartney",
+       "jersey": null,
+       "team": "UTA",
+       "opp": "ANA",
+       "section": "F",
+       "home": true,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 2,
+         "k10": 0,
+         "n10": 2,
+         "p": 0.2278709677419355,
+         "p_hot": 0.18989247311827956,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 2,
+         "k10": 0,
+         "n10": 2,
+         "p": 0.10937806451612904,
+         "p_hot": 0.0911483870967742,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 2,
+         "k10": 0,
+         "n10": 2,
+         "p": 0.1367225806451613,
+         "p_hot": 0.11393548387096773,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 2,
+       "pt_games": 0,
+       "l5": [
+        0,
+        2
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        2
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        2
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 6.2,
+       "p": 0.228,
+       "fair": "+339",
+       "min": "+365",
+       "p2": 0.036,
+       "fair2": "+2643",
+       "min2": "+2807",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Kevin Stenlund",
+         "jersey": 82,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Liam O'Brien",
+         "jersey": 38,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Liam O'Brien",
        "jersey": 38,
        "team": "UTA",
@@ -46664,7 +46669,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -46711,19 +46716,19 @@
        },
        "partners": [
         {
+         "name": "Ben McCartney",
+         "jersey": null,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
+        },
+        {
          "name": "Kevin Stenlund",
          "jersey": 82,
          "pp": null,
          "n": 9,
          "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Daniil But",
-         "jersey": 50,
-         "pp": null,
-         "n": 2,
-         "both": 0,
          "either": 1
         }
        ]
