@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_utc": "2026-11-22T22:31:52.747914+00:00",
+ "generated_utc": "2026-11-22T22:46:59.575069+00:00",
  "games": [
   {
    "game_id": 2026020373,
@@ -7958,8 +7958,8 @@
      "ppga_rk": 14,
      "l5_gf": 3.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-22T20:25:56.843Z",
-     "lineup_checked": "2026-11-22T21:10:21.152314+00:00",
+     "lineup_as_of": "2026-11-22T22:43:33.610Z",
+     "lineup_checked": "2026-11-22T22:46:56.388127+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -7990,14 +7990,14 @@
       {
        "player": "Zach Hyman",
        "status": "DTD",
-       "news": "Hyman left Saturday's game with a migraine and is questionable to play Sunday."
+       "news": "Hyman (migraine) will not play Sunday in St. Louis."
       }
      ],
      "lines": {
       "1": [
        "Colton Dach",
        "Connor McDavid",
-       "Zach Hyman"
+       "Filip Hallander"
       ],
       "2": [
        "Vasily Podkolzin",
@@ -8005,18 +8005,18 @@
        "Kasperi Kapanen"
       ],
       "3": [
-       "Filip Hallander",
+       "Trent Frederic",
        "Jason Dickinson",
-       "Trent Frederic"
+       "Mathieu Joseph"
       ],
       "4": [
        "Alex Formenton",
        "Owen Michaels",
-       "Mathieu Joseph"
+       "Max Jones"
       ]
      },
      "pp1": [
-      "Zach Hyman",
+      "Kasperi Kapanen",
       "Vasily Podkolzin",
       "Leon Draisaitl",
       "Connor McDavid",
@@ -8025,7 +8025,7 @@
      "pp2": [
       "Trent Frederic",
       "Colton Dach",
-      "Kasperi Kapanen",
+      "Filip Hallander",
       "Mattias Ekholm",
       "Ryan Shea"
      ],
@@ -8131,12 +8131,12 @@
          "either": 1
         },
         {
-         "name": "Zach Hyman",
-         "jersey": 18,
-         "pp": 1,
-         "n": 4,
-         "both": 2,
-         "either": 3
+         "name": "Filip Hallander",
+         "jersey": 19,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -8243,7 +8243,7 @@
         {
          "name": "Kasperi Kapanen",
          "jersey": 42,
-         "pp": 2,
+         "pp": 1,
          "n": 3,
          "both": 1,
          "either": 2
@@ -8455,119 +8455,9 @@
         {
          "name": "Kasperi Kapanen",
          "jersey": 42,
-         "pp": 2,
+         "pp": 1,
          "n": 3,
          "both": 1,
-         "either": 3
-        }
-       ]
-      },
-      {
-       "name": "Zach Hyman",
-       "jersey": 18,
-       "team": "EDM",
-       "opp": "STL",
-       "section": "F",
-       "home": false,
-       "line": 1,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 5,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.3624468739002933,
-         "p_hot": 0.3838866311360449,
-         "heater": false
-        },
-        "goals": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.20377914369501468,
-         "p_hot": 0.1949191809256662,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.1991124457478006,
-         "p_hot": 0.22765369985974757,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": true,
-       "role": "pp1",
-       "bias": "G",
-       "gp": 14,
-       "pt_games": 5,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 3,
-       "two_games": 1,
-       "home_split": [
-        2,
-        8
-       ],
-       "away_split": [
-        3,
-        6
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 2.8,
-       "toi": 15.7,
-       "p": 0.362,
-       "fair": "+176",
-       "min": "+192",
-       "p2": 0.092,
-       "fair2": "+990",
-       "min2": "+1056",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Colton Dach",
-         "jersey": 34,
-         "pp": 2,
-         "n": 7,
-         "both": 1,
-         "either": 5
-        },
-        {
-         "name": "Connor McDavid",
-         "jersey": 97,
-         "pp": 1,
-         "n": 4,
-         "both": 2,
          "either": 3
         }
        ]
@@ -8682,7 +8572,7 @@
        "section": "F",
        "home": false,
        "line": 2,
-       "pp": 2,
+       "pp": 1,
        "sneaky": false,
        "form": {
         "points": {
@@ -8691,8 +8581,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.30385388856304985,
-         "p_hot": 0.24997269004207576,
+         "p": 0.34533564809384165,
+         "p_hot": 0.3094899971949509,
          "heater": false
         },
         "goals": {
@@ -8701,8 +8591,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.1949642697947214,
-         "p_hot": 0.16813639270687236,
+         "p": 0.21363106158357772,
+         "p_hot": 0.1949191809256662,
          "heater": false
         },
         "assists": {
@@ -8711,14 +8601,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.17940860997067448,
-         "p_hot": 0.18301571949509116,
+         "p": 0.21051992961876836,
+         "p_hot": 0.22765369985974757,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "pp1",
        "bias": "A",
        "gp": 25,
        "pt_games": 9,
@@ -8744,12 +8634,12 @@
        "l5_venue_two": 1,
        "pp_toi": 2.3,
        "toi": 17.9,
-       "p": 0.304,
-       "fair": "+229",
-       "min": "+249",
-       "p2": 0.086,
-       "fair2": "+1068",
-       "min2": "+1138",
+       "p": 0.345,
+       "fair": "+190",
+       "min": "+207",
+       "p2": 0.108,
+       "fair2": "+825",
+       "min2": "+880",
        "adj": [
         [
          "opp",
@@ -8762,7 +8652,7 @@
        ],
        "move": {
         "ev": -1,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -8791,7 +8681,7 @@
        "opp": "STL",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -8877,20 +8767,20 @@
        },
        "partners": [
         {
-         "name": "Alex Formenton",
-         "jersey": 26,
-         "pp": null,
-         "n": 23,
-         "both": 3,
-         "either": 9
+         "name": "Trent Frederic",
+         "jersey": 10,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Owen Michaels",
-         "jersey": 43,
+         "name": "Jason Dickinson",
+         "jersey": 16,
          "pp": null,
-         "n": 16,
+         "n": 8,
          "both": 3,
-         "either": 6
+         "either": 4
         }
        ]
       },
@@ -8987,20 +8877,20 @@
        },
        "partners": [
         {
-         "name": "Filip Hallander",
-         "jersey": 19,
-         "pp": null,
-         "n": 6,
-         "both": 0,
-         "either": 2
-        },
-        {
          "name": "Trent Frederic",
          "jersey": 10,
          "pp": 2,
          "n": 6,
          "both": 0,
          "either": 1
+        },
+        {
+         "name": "Mathieu Joseph",
+         "jersey": 21,
+         "pp": null,
+         "n": 8,
+         "both": 3,
+         "either": 4
         }
        ]
       },
@@ -9207,12 +9097,12 @@
          "either": 1
         },
         {
-         "name": "Zach Hyman",
-         "jersey": 18,
-         "pp": 1,
-         "n": 7,
-         "both": 1,
-         "either": 5
+         "name": "Filip Hallander",
+         "jersey": 19,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -9317,12 +9207,12 @@
          "either": 6
         },
         {
-         "name": "Mathieu Joseph",
-         "jersey": 21,
+         "name": "Max Jones",
+         "jersey": 46,
          "pp": null,
-         "n": 23,
-         "both": 3,
-         "either": 9
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -9427,12 +9317,12 @@
          "either": 6
         },
         {
-         "name": "Mathieu Joseph",
-         "jersey": 21,
+         "name": "Max Jones",
+         "jersey": 46,
          "pp": null,
-         "n": 16,
-         "both": 3,
-         "either": 6
+         "n": 4,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -9641,6 +9531,226 @@
        ]
       },
       {
+       "name": "Filip Hallander",
+       "jersey": 19,
+       "team": "EDM",
+       "opp": "STL",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.11081555760368665,
+         "p_hot": 0.10117942215988782,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.06192634101382488,
+         "p_hot": 0.05654144179523141,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.07822274654377881,
+         "p_hot": 0.0714207685834502,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 13,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        4
+       ],
+       "away_split": [
+        0,
+        9
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.7,
+       "toi": 10.9,
+       "p": 0.111,
+       "fair": "+802",
+       "min": "+857",
+       "p2": 0.024,
+       "fair2": "+4129",
+       "min2": "+4382",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Colton Dach",
+         "jersey": 34,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Connor McDavid",
+         "jersey": 97,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Max Jones",
+       "jersey": 46,
+       "team": "EDM",
+       "opp": "STL",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.09506236559139784,
+         "p_hot": 0.07439663394109397,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.04562993548387097,
+         "p_hot": 0.0357103842917251,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.05703741935483871,
+         "p_hot": 0.04463798036465638,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 10,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        7
+       ],
+       "away_split": [
+        0,
+        3
+       ],
+       "l5_venue": [
+        0,
+        3
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 7.1,
+       "p": 0.095,
+       "fair": "+952",
+       "min": "+1015",
+       "p2": 0.014,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Alex Formenton",
+         "jersey": 26,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Owen Michaels",
+         "jersey": 43,
+         "pp": null,
+         "n": 4,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Trent Frederic",
        "jersey": 10,
        "team": "EDM",
@@ -9682,7 +9792,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -9733,128 +9843,18 @@
        },
        "partners": [
         {
-         "name": "Filip Hallander",
-         "jersey": 19,
-         "pp": null,
-         "n": 7,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Jason Dickinson",
          "jersey": 16,
          "pp": null,
          "n": 6,
          "both": 0,
          "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Filip Hallander",
-       "jersey": 19,
-       "team": "EDM",
-       "opp": "STL",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.08148202764976958,
-         "p_hot": 0.07439663394109397,
-         "heater": false
         },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.039111373271889405,
-         "p_hot": 0.0357103842917251,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.04888921658986175,
-         "p_hot": 0.04463798036465638,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 13,
-       "pt_games": 0,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        4
-       ],
-       "away_split": [
-        0,
-        9
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.7,
-       "toi": 10.9,
-       "p": 0.081,
-       "fair": "+1127",
-       "min": "+1201",
-       "p2": 0.012,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": -1,
-        "pp": -1,
-        "new": false
-       },
-       "partners": [
         {
-         "name": "Jason Dickinson",
-         "jersey": 16,
+         "name": "Mathieu Joseph",
+         "jersey": 21,
          "pp": null,
-         "n": 6,
-         "both": 0,
-         "either": 2
-        },
-        {
-         "name": "Trent Frederic",
-         "jersey": 10,
-         "pp": 2,
-         "n": 7,
+         "n": 0,
          "both": 0,
          "either": 0
         }

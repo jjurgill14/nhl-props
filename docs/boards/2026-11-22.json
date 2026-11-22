@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-22T22:31:53.641411+00:00",
+ "generated_utc": "2026-11-22T22:47:00.453480+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -8753,8 +8753,8 @@
     "goalie_source": "Edmonton Oilers",
     "sv": "0.909",
     "gaa": "2.45",
-    "lineup_as_of": "2026-11-22T20:25:56.843Z",
-    "lineup_checked": "2026-11-22T21:10:21.152314+00:00",
+    "lineup_as_of": "2026-11-22T22:43:33.610Z",
+    "lineup_checked": "2026-11-22T22:46:56.388127+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 3,
@@ -8769,6 +8769,21 @@
       "at": "2026-11-22T21:10:21.154955+00:00",
       "kind": "out",
       "text": "OUT: Ty Emberson (was L3)"
+     },
+     {
+      "at": "2026-11-22T22:46:56.391457+00:00",
+      "kind": "in",
+      "text": "IN: Max Jones \u2192 L4"
+     },
+     {
+      "at": "2026-11-22T22:46:56.391457+00:00",
+      "kind": "out",
+      "text": "OUT: Zach Hyman (was L1) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-22T22:46:56.391457+00:00",
+      "kind": "move",
+      "text": "Kasperi Kapanen: PP2\u2192PP1"
      }
     ],
     "rates": {
@@ -9541,11 +9556,11 @@
    "lineup": {
     "away": {
      "team": "EDM",
-     "as_of": "2026-11-22T20:25:56.843Z",
-     "checked": "2026-11-22T21:10:21.152314+00:00",
+     "as_of": "2026-11-22T22:43:33.610Z",
+     "checked": "2026-11-22T22:46:56.388127+00:00",
      "stale": false,
-     "source": "Edmonton Oilers",
-     "updated_dfo": "2026-11-22T20:25:56.843Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-22T22:43:33.610Z",
      "forwards": [
       [
        {
@@ -9625,39 +9640,39 @@
         }
        },
        {
-        "name": "Zach Hyman",
-        "jersey": 18,
+        "name": "Filip Hallander",
+        "jersey": 19,
         "pos": "RW",
         "slot": null,
-        "player_id": 8475786,
-        "dfo_id": 2468,
-        "gtd": true,
+        "player_id": 8480842,
+        "dfo_id": 29096,
+        "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "G",
+        "bias": null,
         "season": {
          "a": 2,
-         "g": 4,
-         "gp": 14,
-         "p": 6,
-         "ppp": 3,
-         "sog": 24,
-         "toi_s": 14475
+         "g": 1,
+         "gp": 15,
+         "p": 3,
+         "ppp": 0,
+         "sog": 14,
+         "toi_s": 9404
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
+         "p": 0,
+         "ppp": 0,
          "sog": 5,
-         "toi_s": 4709
+         "toi_s": 3268
         },
-        "l5_point_games": 2,
-        "gp": 14,
+        "l5_point_games": 0,
+        "gp": 13,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -9749,7 +9764,7 @@
         "dfo_id": 2385,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -9774,32 +9789,32 @@
         "gp": 25,
         "move": {
          "ev": -1,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
       ],
       [
        {
-        "name": "Filip Hallander",
-        "jersey": 19,
+        "name": "Trent Frederic",
+        "jersey": 10,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480842,
-        "dfo_id": 29096,
+        "player_id": 8479365,
+        "dfo_id": 2662,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 2,
+         "a": 0,
          "g": 1,
-         "gp": 15,
-         "p": 3,
+         "gp": 22,
+         "p": 1,
          "ppp": 0,
-         "sog": 14,
-         "toi_s": 9404
+         "sog": 20,
+         "toi_s": 12674
         },
         "last5": {
          "a": 0,
@@ -9807,14 +9822,14 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3268
+         "sog": 4,
+         "toi_s": 3303
         },
         "l5_point_games": 0,
-        "gp": 13,
+        "gp": 22,
         "move": {
-         "ev": -1,
-         "pp": -1,
+         "ev": 1,
+         "pp": 0,
          "new": false
         }
        },
@@ -9857,39 +9872,39 @@
         }
        },
        {
-        "name": "Trent Frederic",
-        "jersey": 10,
+        "name": "Mathieu Joseph",
+        "jersey": 21,
         "pos": "RW",
         "slot": null,
-        "player_id": 8479365,
-        "dfo_id": 2662,
+        "player_id": 8478472,
+        "dfo_id": 3891,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
+        "pp": null,
+        "pk": 1,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 22,
-         "p": 1,
+         "a": 5,
+         "g": 4,
+         "gp": 25,
+         "p": 9,
          "ppp": 0,
-         "sog": 20,
-         "toi_s": 12674
+         "sog": 21,
+         "toi_s": 18939
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3303
+         "sog": 5,
+         "toi_s": 3191
         },
-        "l5_point_games": 0,
-        "gp": 22,
+        "l5_point_games": 1,
+        "gp": 25,
         "move": {
-         "ev": 1,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -9973,41 +9988,41 @@
         }
        },
        {
-        "name": "Mathieu Joseph",
-        "jersey": 21,
+        "name": "Max Jones",
+        "jersey": 46,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478472,
-        "dfo_id": 3891,
+        "player_id": 8479368,
+        "dfo_id": 2657,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 4,
-         "gp": 25,
-         "p": 9,
+         "a": 0,
+         "g": 0,
+         "gp": 10,
+         "p": 0,
          "ppp": 0,
-         "sog": 21,
-         "toi_s": 18939
+         "sog": 6,
+         "toi_s": 5261
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 3191
+         "sog": 1,
+         "toi_s": 2123
         },
-        "l5_point_games": 1,
-        "gp": 25,
+        "l5_point_games": 0,
+        "gp": 10,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -10339,40 +10354,40 @@
      "pp": [
       [
        {
-        "name": "Zach Hyman",
-        "jersey": 18,
+        "name": "Kasperi Kapanen",
+        "jersey": 42,
         "pos": null,
         "slot": 1,
-        "player_id": 8475786,
-        "dfo_id": 2468,
-        "gtd": true,
+        "player_id": 8477953,
+        "dfo_id": 2385,
+        "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": "G",
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 14,
-         "p": 6,
-         "ppp": 3,
-         "sog": 24,
-         "toi_s": 14475
+         "a": 7,
+         "g": 6,
+         "gp": 25,
+         "p": 13,
+         "ppp": 7,
+         "sog": 32,
+         "toi_s": 27182
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 1,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 5,
-         "toi_s": 4709
+         "p": 3,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 5366
         },
-        "l5_point_games": 2,
-        "gp": 14,
+        "l5_point_games": 1,
+        "gp": 25,
         "move": {
-         "ev": 1,
-         "pp": 0,
+         "ev": -1,
+         "pp": 1,
          "new": false
         }
        },
@@ -10607,39 +10622,39 @@
         }
        },
        {
-        "name": "Kasperi Kapanen",
-        "jersey": 42,
+        "name": "Filip Hallander",
+        "jersey": 19,
         "pos": null,
         "slot": 3,
-        "player_id": 8477953,
-        "dfo_id": 2385,
+        "player_id": 8480842,
+        "dfo_id": 29096,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
-        "bias": "A",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 7,
-         "g": 6,
-         "gp": 25,
-         "p": 13,
-         "ppp": 7,
-         "sog": 32,
-         "toi_s": 27182
-        },
-        "last5": {
          "a": 2,
          "g": 1,
-         "gp": 5,
+         "gp": 15,
          "p": 3,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5366
+         "sog": 14,
+         "toi_s": 9404
         },
-        "l5_point_games": 1,
-        "gp": 25,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3268
+        },
+        "l5_point_games": 0,
+        "gp": 13,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -10925,7 +10940,7 @@
         "dfo_id": 2385,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -10950,7 +10965,7 @@
         "gp": 25,
         "move": {
          "ev": -1,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -11061,7 +11076,7 @@
       {
        "player": "Zach Hyman",
        "status": "DTD",
-       "news": "Hyman left Saturday's game with a migraine and is questionable to play Sunday."
+       "news": "Hyman (migraine) will not play Sunday in St. Louis."
       }
      ],
      "unit_ratings": {
@@ -11082,20 +11097,20 @@
        "rating": 0
       },
       "f1": {
-       "rank": 6,
-       "rating": 78.61757513760561
+       "rank": 4,
+       "rating": 82.67021648768771
       },
       "f2": {
        "rank": 4,
        "rating": 78.80032241372734
       },
       "f3": {
-       "rank": 30,
-       "rating": 71.10530331717337
+       "rank": 31,
+       "rating": 70.64151610180159
       },
       "f4": {
-       "rank": 23,
-       "rating": 71.28214988005341
+       "rank": 24,
+       "rating": 71.19970685754936
       },
       "g": {
        "rank": 18,
