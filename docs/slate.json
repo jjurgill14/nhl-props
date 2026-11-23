@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_utc": "2026-11-23T00:38:59.623619+00:00",
+ "generated_utc": "2026-11-23T00:44:06.057380+00:00",
  "games": [
   {
    "game_id": 2026020373,
@@ -16008,8 +16008,8 @@
      "ppga_rk": 17,
      "l5_gf": 3.8,
      "l5_ga": 3.2,
-     "lineup_as_of": "2026-11-21T20:44:43.109Z",
-     "lineup_checked": "2026-11-22T22:01:26.398581+00:00",
+     "lineup_as_of": "2026-11-23T00:39:06.297Z",
+     "lineup_checked": "2026-11-23T00:44:03.191372+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -16021,6 +16021,16 @@
        "player": "Connor Bedard",
        "status": "OUT",
        "news": "The Blackhawks have placed Connor Bedard (shoulder surgery) on IR."
+      },
+      {
+       "player": "Anton Frondell",
+       "status": "DTD",
+       "news": "Frondell (undisclosed) will not play Sunday in Vancouver."
+      },
+      {
+       "player": "Wyatt Kaiser",
+       "status": "OUT",
+       "news": "Kaiser has been suspended for three games for an illegal check to the head against Calgary\u2019s Martin Pospisil."
       }
      ],
      "lines": {
@@ -16035,14 +16045,14 @@
        "Patrick Kane"
       ],
       "3": [
-       "Cole Smith",
-       "Anton Frondell",
+       "Andrew Mangiapane",
+       "Ryan Greene",
        "Teuvo Teravainen"
       ],
       "4": [
-       "Andrew Mangiapane",
-       "Ryan Greene",
-       "Dillon Boucher"
+       "Cole Smith",
+       "Dominic Toninato",
+       "Jordan Greenway"
       ]
      },
      "pp1": [
@@ -16053,11 +16063,11 @@
       "Patrick Kane"
      ],
      "pp2": [
-      "Ryan Greene",
-      "Anton Frondell",
       "Ryan Donato",
+      "Ryan Greene",
+      "Teuvo Teravainen",
       "Artyom Levshunov",
-      "Teuvo Teravainen"
+      "Kevin Korchinski"
      ],
      "players": [
       {
@@ -16823,218 +16833,6 @@
        ]
       },
       {
-       "name": "Anton Frondell",
-       "jersey": 16,
-       "team": "CHI",
-       "opp": "VAN",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 7,
-         "k5": 3,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.2896258064516129,
-         "p_hot": 0.39036521739130436,
-         "heater": true
-        },
-        "goals": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.12743535483870969,
-         "p_hot": 0.1717606956521739,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.19952,
-         "p_hot": 0.22554434782608693,
-         "heater": true
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 23,
-       "pt_games": 7,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 4,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        2,
-        10
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.3,
-       "toi": 14.2,
-       "p": 0.29,
-       "fair": "+245",
-       "min": "+266",
-       "p2": 0.126,
-       "fair2": "+693",
-       "min2": "+741",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": -1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Cole Smith",
-         "jersey": 22,
-         "pp": null,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Teuvo Teravainen",
-         "jersey": 86,
-         "pp": 2,
-         "n": 11,
-         "both": 4,
-         "either": 5
-        }
-       ]
-      },
-      {
-       "name": "Wyatt Kaiser",
-       "jersey": null,
-       "team": "CHI",
-       "opp": "VAN",
-       "section": "D",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 7,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.28447690322580643,
-         "p_hot": 0.20992973913043475,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.07980799999999999,
-         "p_hot": 0.06419339130434783,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.20724335483870965,
-         "p_hot": 0.1492062608695652,
-         "heater": false
-        }
-       },
-       "pos": "LD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 23,
-       "pt_games": 7,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        2,
-        10
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 17.2,
-       "p": 0.284,
-       "fair": "+252",
-       "min": "+273",
-       "p2": 0.007,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ],
-        [
-         "b2b",
-         0.86
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ethan Del Mastro",
-         "jersey": 38,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Teuvo Teravainen",
        "jersey": 86,
        "team": "CHI",
@@ -17127,20 +16925,20 @@
        },
        "partners": [
         {
-         "name": "Cole Smith",
-         "jersey": 22,
+         "name": "Andrew Mangiapane",
+         "jersey": 88,
          "pp": null,
-         "n": 3,
+         "n": 1,
          "both": 0,
-         "either": 1
+         "either": 0
         },
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
+         "name": "Ryan Greene",
+         "jersey": 20,
          "pp": 2,
-         "n": 11,
-         "both": 4,
-         "either": 5
+         "n": 2,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -17151,7 +16949,7 @@
        "opp": "VAN",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 4,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -17231,26 +17029,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "name": "Dominic Toninato",
+         "jersey": 25,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Teuvo Teravainen",
-         "jersey": 86,
-         "pp": 2,
-         "n": 3,
+         "name": "Jordan Greenway",
+         "jersey": 12,
+         "pp": null,
+         "n": 15,
          "both": 0,
-         "either": 1
+         "either": 3
         }
        ]
       },
@@ -17261,7 +17059,7 @@
        "opp": "VAN",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -17341,7 +17139,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -17355,8 +17153,110 @@
          "either": 1
         },
         {
-         "name": "Dillon Boucher",
-         "jersey": 36,
+         "name": "Teuvo Teravainen",
+         "jersey": 86,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Kevin Korchinski",
+       "jersey": 14,
+       "team": "CHI",
+       "opp": "VAN",
+       "section": "D",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 5,
+         "p": 0.21793723076923074,
+         "p_hot": 0.2128213333333333,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 5,
+         "p": 0.03683446153846153,
+         "p_hot": 0.026602666666666663,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 5,
+         "p": 0.18724184615384615,
+         "p_hot": 0.19065244444444443,
+         "heater": false
+        }
+       },
+       "pos": "LD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 5,
+       "pt_games": 1,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        2
+       ],
+       "away_split": [
+        0,
+        3
+       ],
+       "l5_venue": [
+        0,
+        3
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 12.4,
+       "p": 0.218,
+       "fair": "+359",
+       "min": "+386",
+       "p2": 0.017,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Ethan Del Mastro",
+         "jersey": 38,
          "pp": null,
          "n": 1,
          "both": 0,
@@ -17461,10 +17361,10 @@
        },
        "partners": [
         {
-         "name": "Wyatt Kaiser",
-         "jersey": null,
-         "pp": null,
-         "n": 4,
+         "name": "Kevin Korchinski",
+         "jersey": 14,
+         "pp": 2,
+         "n": 1,
          "both": 0,
          "either": 0
         }
@@ -17477,7 +17377,7 @@
        "opp": "VAN",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -17557,7 +17457,7 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
@@ -17571,10 +17471,120 @@
          "either": 1
         },
         {
-         "name": "Dillon Boucher",
-         "jersey": 36,
+         "name": "Teuvo Teravainen",
+         "jersey": 86,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Dominic Toninato",
+       "jersey": 25,
+       "team": "CHI",
+       "opp": "VAN",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 3,
+         "k10": 0,
+         "n10": 3,
+         "p": 0.18138181818181817,
+         "p_hot": 0.1425142857142857,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 3,
+         "k10": 0,
+         "n10": 3,
+         "p": 0.08706327272727271,
+         "p_hot": 0.06840685714285714,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 3,
+         "k10": 0,
+         "n10": 3,
+         "p": 0.1088290909090909,
+         "p_hot": 0.08550857142857142,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 3,
+       "pt_games": 0,
+       "l5": [
+        0,
+        3
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        2
+       ],
+       "away_split": [
+        0,
+        1
+       ],
+       "l5_venue": [
+        0,
+        1
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 8.9,
+       "p": 0.181,
+       "fair": "+451",
+       "min": "+484",
+       "p2": 0.026,
+       "fair2": "+3699",
+       "min2": "+3927",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ],
+        [
+         "b2b",
+         0.86
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Cole Smith",
+         "jersey": 22,
          "pp": null,
-         "n": 3,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Jordan Greenway",
+         "jersey": 12,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -17785,8 +17795,8 @@
        ]
       },
       {
-       "name": "Dillon Boucher",
-       "jersey": 36,
+       "name": "Jordan Greenway",
+       "jersey": 12,
        "team": "CHI",
        "opp": "VAN",
        "section": "F",
@@ -17796,23 +17806,23 @@
        "sneaky": true,
        "form": {
         "points": {
-         "k": 0,
+         "k": 1,
          "k5": 0,
          "n5": 5,
          "k10": 0,
-         "n10": 5,
-         "p": 0.15347692307692307,
-         "p_hot": 0.11084444444444443,
+         "n10": 10,
+         "p": 0.11971199999999999,
+         "p_hot": 0.08674782608695651,
          "heater": false
         },
         "goals": {
-         "k": 0,
+         "k": 1,
          "k5": 0,
          "n5": 5,
          "k10": 0,
-         "n10": 5,
-         "p": 0.07366892307692306,
-         "p_hot": 0.05320533333333333,
+         "n10": 10,
+         "p": 0.07821183999999999,
+         "p_hot": 0.04163895652173912,
          "heater": false
         },
         "assists": {
@@ -17820,9 +17830,9 @@
          "k5": 0,
          "n5": 5,
          "k10": 0,
-         "n10": 5,
-         "p": 0.09208615384615383,
-         "p_hot": 0.06650666666666666,
+         "n10": 10,
+         "p": 0.0478848,
+         "p_hot": 0.052048695652173904,
          "heater": false
         }
        },
@@ -17830,36 +17840,36 @@
        "gtd": false,
        "role": "other",
        "bias": null,
-       "gp": 5,
-       "pt_games": 0,
+       "gp": 17,
+       "pt_games": 1,
        "l5": [
         0,
         5
        ],
        "ast_games": 0,
-       "goal_games": 0,
+       "goal_games": 1,
        "two_games": 0,
        "home_split": [
         0,
-        1
+        9
        ],
        "away_split": [
-        0,
-        4
+        1,
+        8
        ],
        "l5_venue": [
         0,
-        4
+        5
        ],
        "l5_venue_two": 0,
        "pp_toi": 0.0,
-       "toi": 8.4,
-       "p": 0.153,
-       "fair": "+552",
-       "min": "+591",
-       "p2": 0.022,
-       "fair2": "+4390",
-       "min2": "+4659",
+       "toi": 12.2,
+       "p": 0.12,
+       "fair": "+735",
+       "min": "+785",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
        "adj": [
         [
          "opp",
@@ -17873,22 +17883,22 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
-         "name": "Andrew Mangiapane",
-         "jersey": 88,
+         "name": "Cole Smith",
+         "jersey": 22,
          "pp": null,
-         "n": 1,
+         "n": 15,
          "both": 0,
-         "either": 0
+         "either": 3
         },
         {
-         "name": "Ryan Greene",
-         "jersey": 20,
-         "pp": 2,
-         "n": 3,
+         "name": "Dominic Toninato",
+         "jersey": 25,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -18021,8 +18031,8 @@
      "ppga_rk": 1,
      "l5_gf": 2.8,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-22T02:48:51.701Z",
-     "lineup_checked": "2026-11-22T09:39:54.513161+00:00",
+     "lineup_as_of": "2026-11-23T00:42:10.854Z",
+     "lineup_checked": "2026-11-23T00:44:03.292784+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -18956,7 +18966,7 @@
        "opp": "CHI",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -19036,18 +19046,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Luke Schenn",
-         "jersey": 2,
+         "name": "Tom Willander",
+         "jersey": 5,
          "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 10,
+         "both": 1,
+         "either": 4
         }
        ]
       },
@@ -19490,7 +19500,7 @@
        "opp": "CHI",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -19570,14 +19580,14 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Tom Willander",
-         "jersey": 5,
+         "name": "Luke Schenn",
+         "jersey": 2,
          "pp": null,
          "n": 0,
          "both": 0,
@@ -19788,8 +19798,8 @@
        },
        "partners": [
         {
-         "name": "Jamie Oleksiak",
-         "jersey": 4,
+         "name": "Elias Nils Pettersson",
+         "jersey": 25,
          "pp": null,
          "n": 0,
          "both": 0,
@@ -20000,12 +20010,12 @@
        },
        "partners": [
         {
-         "name": "Elias Nils Pettersson",
-         "jersey": 25,
+         "name": "Jamie Oleksiak",
+         "jersey": 4,
          "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 10,
+         "both": 1,
+         "either": 4
         }
        ]
       }
