@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-23T20:54:33.499721+00:00",
+ "generated_utc": "2026-11-23T21:09:46.735449+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1066,13 +1066,39 @@
     "goalie_source": "Dave Maetzold",
     "sv": "0.907",
     "gaa": "2.64",
-    "lineup_as_of": "2026-11-23T15:12:08.395Z",
-    "lineup_checked": "2026-11-23T16:55:56.593717+00:00",
+    "lineup_as_of": "2026-11-23T19:43:29.247Z",
+    "lineup_checked": "2026-11-23T21:09:36.345157+00:00",
     "lineup_stale": false,
     "ga_rk": 15,
     "gf_rk": 32,
     "ppga_rk": 13,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-23T21:09:36.347448+00:00",
+      "kind": "in",
+      "text": "IN: Ryan Lomberg \u2192 L4"
+     },
+     {
+      "at": "2026-11-23T21:09:36.347448+00:00",
+      "kind": "in",
+      "text": "IN: Mikael Pyyhtia \u2192 L4"
+     },
+     {
+      "at": "2026-11-23T21:09:36.347448+00:00",
+      "kind": "in",
+      "text": "IN: Denton Mateychuk \u2192 L3, PP2"
+     },
+     {
+      "at": "2026-11-23T21:09:36.347448+00:00",
+      "kind": "out",
+      "text": "OUT: Dmitri Voronkov (was L4)"
+     },
+     {
+      "at": "2026-11-23T21:09:36.347448+00:00",
+      "kind": "out",
+      "text": "OUT: Erik Gudbranson (was L3)"
+     }
+    ],
     "rates": {
      "gp": 21,
      "pp_gp": 21,
@@ -1516,10 +1542,10 @@
       "prob": 0.426,
       "fair": "+135",
       "need": "+149",
-      "rationale": "D1 \u00b7 PP2 \u00b7 3 of L5 \u00b7 5 of L10 \u00b7 7 of 19 season",
+      "rationale": "D1 \u00b7 3 of L5 \u00b7 5 of L10 \u00b7 7 of 19 season",
       "player": "Damon Severson",
       "team": "CBJ",
-      "pp": 2,
+      "pp": null,
       "line": 1,
       "players": [
        8476923
@@ -1563,10 +1589,10 @@
       "prob": 0.279,
       "fair": "+259",
       "need": "+281",
-      "rationale": "D1 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 5 of 19 season",
+      "rationale": "D1 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 5 of 19 season",
       "player": "Damon Severson",
       "team": "CBJ",
-      "pp": 2,
+      "pp": null,
       "line": 1,
       "players": [
        8476923
@@ -1853,44 +1879,44 @@
    "lineup": {
     "away": {
      "team": "CBJ",
-     "as_of": "2026-11-23T15:12:08.395Z",
-     "checked": "2026-11-23T16:55:56.593717+00:00",
+     "as_of": "2026-11-23T19:43:29.247Z",
+     "checked": "2026-11-23T21:09:36.345157+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-21)",
-     "updated_dfo": "2026-11-23T15:12:08.395Z",
+     "source": "@BlueJacketsNHL",
+     "updated_dfo": "2026-11-23T19:43:29.247Z",
      "forwards": [
       [
        {
-        "name": "Charlie Coyle",
-        "jersey": 3,
+        "name": "Valeri Nichushkin",
+        "jersey": 43,
         "pos": "LW",
         "slot": null,
-        "player_id": 8475745,
-        "dfo_id": 1856,
+        "player_id": 8477501,
+        "dfo_id": 2142,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": 1,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 11,
-         "g": 3,
+         "a": 9,
+         "g": 2,
          "gp": 21,
-         "p": 14,
-         "ppp": 5,
-         "sog": 47,
-         "toi_s": 25156
+         "p": 11,
+         "ppp": 2,
+         "sog": 31,
+         "toi_s": 21773
         },
         "last5": {
-         "a": 1,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 17,
-         "toi_s": 6358
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 5589
         },
-        "l5_point_games": 1,
+        "l5_point_games": 2,
         "gp": 21,
         "move": {
          "ev": 0,
@@ -1937,36 +1963,36 @@
         }
        },
        {
-        "name": "Valeri Nichushkin",
-        "jersey": 43,
+        "name": "Charlie Coyle",
+        "jersey": 3,
         "pos": "RW",
         "slot": null,
-        "player_id": 8477501,
-        "dfo_id": 2142,
+        "player_id": 8475745,
+        "dfo_id": 1856,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 1,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 9,
-         "g": 2,
+         "a": 11,
+         "g": 3,
          "gp": 21,
-         "p": 11,
-         "ppp": 2,
-         "sog": 31,
-         "toi_s": 21773
+         "p": 14,
+         "ppp": 5,
+         "sog": 47,
+         "toi_s": 25156
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 5589
+         "p": 1,
+         "ppp": 1,
+         "sog": 17,
+         "toi_s": 6358
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 21,
         "move": {
          "ev": 0,
@@ -2209,6 +2235,44 @@
       ],
       [
        {
+        "name": "Ryan Lomberg",
+        "jersey": 94,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8479066,
+        "dfo_id": 3905,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 18,
+         "p": 0,
+         "ppp": 0,
+         "sog": 21,
+         "toi_s": 8746
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 1956
+        },
+        "l5_point_games": 0,
+        "gp": 18,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
         "name": "Isac Lundestrom",
         "jersey": 21,
         "pos": "C",
@@ -2247,41 +2311,41 @@
         }
        },
        {
-        "name": "Dmitri Voronkov",
-        "jersey": 10,
+        "name": "Mikael Pyyhtia",
+        "jersey": 82,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481716,
-        "dfo_id": 31266,
+        "player_id": null,
+        "dfo_id": 36330,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 15,
-         "p": 4,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 9104
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3193
+         "sog": 5,
+         "toi_s": 3170
         },
-        "l5_point_games": 2,
-        "gp": 15,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
-         "pp": -1,
-         "new": false
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -2335,7 +2399,7 @@
         "dfo_id": 2038,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
@@ -2360,7 +2424,7 @@
         "gp": 19,
         "move": {
          "ev": 0,
-         "pp": 1,
+         "pp": 0,
          "new": false
         }
        }
@@ -2483,25 +2547,25 @@
         }
        },
        {
-        "name": "Erik Gudbranson",
-        "jersey": 44,
+        "name": "Denton Mateychuk",
+        "jersey": 5,
         "pos": "RD",
         "slot": null,
-        "player_id": 8475790,
-        "dfo_id": 1710,
+        "player_id": 8483485,
+        "dfo_id": 31514,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 16,
-         "p": 1,
+         "a": 3,
+         "g": 4,
+         "gp": 20,
+         "p": 7,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 14157
+         "sog": 33,
+         "toi_s": 26169
         },
         "last5": {
          "a": 0,
@@ -2509,15 +2573,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3254
+         "sog": 6,
+         "toi_s": 5899
         },
         "l5_point_games": 0,
-        "gp": 16,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -2957,41 +3021,41 @@
         }
        },
        {
-        "name": "Damon Severson",
-        "jersey": 78,
+        "name": "Denton Mateychuk",
+        "jersey": 5,
         "pos": null,
         "slot": 5,
-        "player_id": 8476923,
-        "dfo_id": 2038,
+        "player_id": 8483485,
+        "dfo_id": 31514,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 6,
-         "g": 3,
-         "gp": 19,
-         "p": 9,
+         "a": 3,
+         "g": 4,
+         "gp": 20,
+         "p": 7,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 25135
+         "sog": 33,
+         "toi_s": 26169
         },
         "last5": {
-         "a": 2,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 0,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 6334
+         "sog": 6,
+         "toi_s": 5899
         },
-        "l5_point_games": 3,
-        "gp": 19,
+        "l5_point_games": 0,
+        "gp": 20,
         "move": {
          "ev": 0,
-         "pp": 1,
-         "new": false
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -3229,25 +3293,25 @@
         }
        },
        {
-        "name": "Erik Gudbranson",
-        "jersey": 44,
+        "name": "Denton Mateychuk",
+        "jersey": 5,
         "pos": null,
         "slot": 3,
-        "player_id": 8475790,
-        "dfo_id": 1710,
+        "player_id": 8483485,
+        "dfo_id": 31514,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 16,
-         "p": 1,
+         "a": 3,
+         "g": 4,
+         "gp": 20,
+         "p": 7,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 14157
+         "sog": 33,
+         "toi_s": 26169
         },
         "last5": {
          "a": 0,
@@ -3255,15 +3319,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3254
+         "sog": 6,
+         "toi_s": 5899
         },
         "l5_point_games": 0,
-        "gp": 16,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -3324,19 +3388,19 @@
        "rating": 76.1043487950639
       },
       "d2": {
-       "rank": 16,
+       "rank": 17,
        "rating": 73.48488343630154
       },
       "d3": {
-       "rank": 20,
-       "rating": 71.33908973299322
+       "rank": 28,
+       "rating": 0
       },
       "d4": {
        "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 27,
+       "rank": 29,
        "rating": 73.63086323376766
       },
       "f2": {
@@ -3344,12 +3408,12 @@
        "rating": 0
       },
       "f3": {
-       "rank": 18,
+       "rank": 17,
        "rating": 72.8394524991268
       },
       "f4": {
-       "rank": 25,
-       "rating": 71.17828872821381
+       "rank": 24,
+       "rating": 71.50381607530981
       },
       "g": {
        "rank": 25,
@@ -8896,8 +8960,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-125",
-     "home": "+105",
+     "away": "-130",
+     "home": "+110",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-21T17:03:26.436Z"
     },

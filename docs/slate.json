@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_utc": "2026-11-23T20:54:32.788596+00:00",
+ "generated_utc": "2026-11-23T21:09:46.006769+00:00",
  "games": [
   {
    "game_id": 2026020378,
@@ -34,8 +34,8 @@
      "ppga_rk": 13,
      "l5_gf": 2.6,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-23T15:12:08.395Z",
-     "lineup_checked": "2026-11-23T16:55:56.593717+00:00",
+     "lineup_as_of": "2026-11-23T19:43:29.247Z",
+     "lineup_checked": "2026-11-23T21:09:36.345157+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -51,9 +51,9 @@
      ],
      "lines": {
       "1": [
-       "Charlie Coyle",
+       "Valeri Nichushkin",
        "Adam Fantilli",
-       "Valeri Nichushkin"
+       "Charlie Coyle"
       ],
       "2": [
        "Matthew Knies",
@@ -66,8 +66,9 @@
        "Mathieu Olivier"
       ],
       "4": [
+       "Ryan Lomberg",
        "Isac Lundestrom",
-       "Dmitri Voronkov"
+       "Mikael Pyyhtia"
       ]
      },
      "pp1": [
@@ -82,7 +83,7 @@
       "Cole Sillinger",
       "Luca Del Bel Belluz",
       "Ivan Provorov",
-      "Damon Severson"
+      "Denton Mateychuk"
      ],
      "players": [
       {
@@ -180,7 +181,7 @@
         {
          "name": "Damon Severson",
          "jersey": 78,
-         "pp": 2,
+         "pp": null,
          "n": 19,
          "both": 6,
          "either": 15
@@ -335,7 +336,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": null,
@@ -382,20 +383,20 @@
        },
        "partners": [
         {
-         "name": "Adam Fantilli",
-         "jersey": 19,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 2
-        },
-        {
          "name": "Valeri Nichushkin",
          "jersey": 43,
          "pp": 2,
          "n": 2,
          "both": 1,
          "either": 1
+        },
+        {
+         "name": "Adam Fantilli",
+         "jersey": 19,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -547,7 +548,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "top6",
        "bias": "A",
@@ -594,20 +595,20 @@
        },
        "partners": [
         {
-         "name": "Charlie Coyle",
-         "jersey": 3,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
          "name": "Adam Fantilli",
          "jersey": 19,
          "pp": 1,
          "n": 8,
          "both": 4,
          "either": 6
+        },
+        {
+         "name": "Charlie Coyle",
+         "jersey": 3,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 1
         }
        ]
       },
@@ -700,20 +701,20 @@
        },
        "partners": [
         {
-         "name": "Charlie Coyle",
-         "jersey": 3,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 2
-        },
-        {
          "name": "Valeri Nichushkin",
          "jersey": 43,
          "pp": 2,
          "n": 8,
          "both": 4,
          "either": 6
+        },
+        {
+         "name": "Charlie Coyle",
+         "jersey": 3,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -725,7 +726,7 @@
        "section": "D",
        "home": false,
        "line": 1,
-       "pp": 2,
+       "pp": null,
        "sneaky": true,
        "form": {
         "points": {
@@ -801,7 +802,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 1,
+        "pp": 0,
         "new": false
        },
        "partners": [
@@ -812,6 +813,104 @@
          "n": 19,
          "both": 6,
          "either": 15
+        }
+       ]
+      },
+      {
+       "name": "Denton Mateychuk",
+       "jersey": 5,
+       "team": "CBJ",
+       "opp": "NJD",
+       "section": "D",
+       "home": false,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 7,
+         "k5": 0,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.3140847926267281,
+         "p_hot": 0.20934866760168303,
+         "heater": false
+        },
+        "goals": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.1591741935483871,
+         "p_hot": 0.06401570827489482,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.15775299539170506,
+         "p_hot": 0.14879326788218794,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": "A",
+       "gp": 20,
+       "pt_games": 7,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 4,
+       "two_games": 0,
+       "home_split": [
+        4,
+        12
+       ],
+       "away_split": [
+        3,
+        8
+       ],
+       "l5_venue": [
+        2,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.4,
+       "toi": 19.7,
+       "p": 0.314,
+       "fair": "+218",
+       "min": "+237",
+       "p2": 0.009,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Jake Christiansen",
+         "jersey": 2,
+         "pp": null,
+         "n": 8,
+         "both": 2,
+         "either": 5
         }
        ]
       },
@@ -1032,8 +1131,8 @@
        ]
       },
       {
-       "name": "Dmitri Voronkov",
-       "jersey": 10,
+       "name": "Mikael Pyyhtia",
+       "jersey": 82,
        "team": "CBJ",
        "opp": "NJD",
        "section": "F",
@@ -1043,86 +1142,90 @@
        "sneaky": true,
        "form": {
         "points": {
-         "k": 4,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.23357082748948108,
-         "p_hot": 0.27249929873772794,
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.24870967741935485,
+         "p_hot": 0.24870967741935485,
          "heater": false
         },
         "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.07629980364656382,
-         "p_hot": 0.11522827489481066,
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.11938064516129032,
+         "p_hot": 0.11938064516129032,
          "heater": false
         },
         "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.16349957924263675,
-         "p_hot": 0.16349957924263675,
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.1492258064516129,
+         "p_hot": 0.1492258064516129,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
        "role": "other",
-       "bias": "A",
-       "gp": 15,
-       "pt_games": 4,
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
        "l5": [
-        2,
-        5
+        0,
+        0
        ],
-       "ast_games": 3,
-       "goal_games": 1,
+       "ast_games": 0,
+       "goal_games": 0,
        "two_games": 0,
        "home_split": [
-        4,
-        10
+        0,
+        0
        ],
        "away_split": [
         0,
-        5
+        0
        ],
        "l5_venue": [
         0,
-        5
+        0
        ],
        "l5_venue_two": 0,
-       "pp_toi": 0.4,
-       "toi": 10.6,
-       "p": 0.234,
-       "fair": "+328",
-       "min": "+354",
-       "p2": 0.012,
-       "fair2": "+4900",
-       "min2": "+4900",
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.249,
+       "fair": "+302",
+       "min": "+326",
+       "p2": 0.04,
+       "fair2": "+2413",
+       "min2": "+2564",
        "adj": [
         [
          "opp",
          0.9948387096774194
-        ],
-        [
-         "venue",
-         0.9
         ]
        ],
        "move": {
         "ev": 0,
-        "pp": -1,
-        "new": false
+        "pp": 0,
+        "new": true
        },
        "partners": [
+        {
+         "name": "Ryan Lomberg",
+         "jersey": 94,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
         {
          "name": "Isac Lundestrom",
          "jersey": 21,
@@ -1222,12 +1325,12 @@
        },
        "partners": [
         {
-         "name": "Erik Gudbranson",
-         "jersey": 44,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 1
+         "name": "Denton Mateychuk",
+         "jersey": 5,
+         "pp": 2,
+         "n": 8,
+         "both": 2,
+         "either": 5
         }
        ]
       },
@@ -1426,8 +1529,16 @@
        },
        "partners": [
         {
-         "name": "Dmitri Voronkov",
-         "jersey": 10,
+         "name": "Ryan Lomberg",
+         "jersey": 94,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Mikael Pyyhtia",
+         "jersey": 82,
          "pp": null,
          "n": 0,
          "both": 0,
@@ -1644,104 +1755,6 @@
        ]
       },
       {
-       "name": "Erik Gudbranson",
-       "jersey": 44,
-       "team": "CBJ",
-       "opp": "NJD",
-       "section": "D",
-       "home": false,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.11772258064516129,
-         "p_hot": 0.07958709677419355,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.019896774193548388,
-         "p_hot": 0.020761851332398315,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.10114193548387097,
-         "p_hot": 0.062285553997194945,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 16,
-       "pt_games": 1,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        8
-       ],
-       "away_split": [
-        1,
-        8
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 10.8,
-       "p": 0.118,
-       "fair": "+749",
-       "min": "+800",
-       "p2": 0.01,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9948387096774194
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jake Christiansen",
-         "jersey": 2,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
        "name": "Dante Fabbro",
        "jersey": 15,
        "team": "CBJ",
@@ -1834,6 +1847,112 @@
          "jersey": 9,
          "pp": 2,
          "n": 2,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Ryan Lomberg",
+       "jersey": 94,
+       "team": "CBJ",
+       "opp": "NJD",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.07652605459057073,
+         "p_hot": 0.08650771388499298,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.036732506203473944,
+         "p_hot": 0.04152370266479663,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.04591563275434243,
+         "p_hot": 0.051904628330995795,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 18,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        12
+       ],
+       "away_split": [
+        0,
+        6
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 6.5,
+       "p": 0.077,
+       "fair": "+1207",
+       "min": "+1285",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9948387096774194
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Isac Lundestrom",
+         "jersey": 21,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Mikael Pyyhtia",
+         "jersey": 82,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -7704,7 +7823,7 @@
      "goalie_source": "Derek Wills",
      "sv": "0.906",
      "gaa": "2.89",
-     "ml": "-125",
+     "ml": "-130",
      "gp": 24,
      "gf": 2.5,
      "gf_rk": 31,
@@ -9641,7 +9760,7 @@
      "goalie_source": "Andrew Wilimek",
      "sv": "0.937",
      "gaa": "1.47",
-     "ml": "105",
+     "ml": "110",
      "gp": 24,
      "gf": 3.2083333333333335,
      "gf_rk": 14,
