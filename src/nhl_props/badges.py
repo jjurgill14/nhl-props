@@ -107,7 +107,21 @@ def widths() -> dict:
     f = TTFont(FONT)
     cmap, hmtx, upem = f.getBestCmap(), f["hmtx"], f["head"].unitsPerEm
     chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 '-."
-    return {c: round(hmtx[cmap[ord(c)]][0] / upem, 4) for c in chars if ord(c) in cmap}
+    glyf = f["glyf"]
+    out = {c: round(hmtx[cmap[ord(c)]][0] / upem, 4) for c in chars if ord(c) in cmap}
+    # Ink bearings (em units). This font carries all its side-bearing on the right, so text-anchor="middle"
+    # centres the advance box and the ink lands left of centre; the app shifts by (lsb_first - rsb_last)/2.
+    bear = {}
+    for c in chars:
+        if ord(c) not in cmap:
+            continue
+        g = cmap[ord(c)]
+        adv, lsb = hmtx[g]
+        gl = glyf[g]
+        rsb = adv - gl.xMax if gl.numberOfContours else lsb
+        bear[c] = [round(lsb / upem, 4), round(rsb / upem, 4)]
+    out["_bearings"] = bear
+    return out
 
 
 def build() -> list[str]:

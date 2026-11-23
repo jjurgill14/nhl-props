@@ -90,13 +90,25 @@ export function surname(name: string): string {
     .toUpperCase()
 }
 
-function letter(template: string, name: string, number: string, size: number, sp: Spec): string {
+/** Horizontal nudge so the INK is centred, not the advance box. The NHL New Jersey font carries all of its
+ *  side-bearing on the right (lsb 0), so anchor-middle text sits left of centre by half the last glyph's rsb;
+ *  browsers also add trailing letter-spacing after the last glyph, which pulls it left by another spacing/2. */
+export function inkShift(text: string, size: number, spacing: number, bearings?: Record<string, [number, number]>): number {
+  if (!text || !bearings) return 0
+  const first = bearings[text[0]], last = bearings[text[text.length - 1]]
+  if (!first || !last) return 0
+  return ((last[1] - first[0]) / 2) * size + spacing / 2
+}
+
+function letter(template: string, name: string, number: string, size: number, sp: Spec, bearings?: Record<string, [number, number]>): string {
   const cx = sp.vb / 2
+  const numSp = sp.numSpacing * sp.numSize, nameSp = sp.nameSpacing * size
+  const nx = cx + inkShift(number, sp.numSize, numSp, bearings), ny = cx + inkShift(name, size, nameSp, bearings)
   const strokeAttrs = sp.stroke === 'none' ? '' : ` stroke="${sp.stroke}" stroke-linejoin="round" paint-order="stroke"`
   const g =
     `<g font-family="'NHL New Jersey',Impact,'Arial Narrow',sans-serif" text-anchor="middle"${strokeAttrs}>` +
-    `<text x="${cx}" y="${sp.numBase}" fill="${sp.numFill}" font-size="${sp.numSize}" letter-spacing="${(sp.numSpacing * sp.numSize).toFixed(2)}" stroke-width="${sp.numStroke}">${number}</text>` +
-    `<text x="${cx}" y="${sp.nameBase}" fill="${sp.nameFill}" font-size="${size.toFixed(2)}" letter-spacing="${(sp.nameSpacing * size).toFixed(2)}" stroke-width="${sp.nameStroke}">${name}</text>` +
+    `<text x="${nx.toFixed(2)}" y="${sp.numBase}" fill="${sp.numFill}" font-size="${sp.numSize}" letter-spacing="${numSp.toFixed(2)}" stroke-width="${sp.numStroke}">${number}</text>` +
+    `<text x="${ny.toFixed(2)}" y="${sp.nameBase}" fill="${sp.nameFill}" font-size="${size.toFixed(2)}" letter-spacing="${nameSp.toFixed(2)}" stroke-width="${sp.nameStroke}">${name}</text>` +
     `</g>`
   // the build step marks where the lettering goes (just under the inner ring); fall back to before the last path
   const marker = /<g id="[A-Z]{3}-lettering"><\/g>/.exec(template)
@@ -124,7 +136,8 @@ export function Badge({ team, name, number, size = 104, dim = false, fallback = 
       if (!live || !tpl) return
       const last = surname(name)
       const sp = specOf(tpl)
-      setHtml(letter(tpl, last, number == null ? '' : String(number), fitName(last, widths, sp), sp))
+      const bearings = (widths as unknown as { _bearings?: Record<string, [number, number]> })._bearings
+      setHtml(letter(tpl, last, number == null ? '' : String(number), fitName(last, widths, sp), sp, bearings))
     })
     return () => {
       live = false

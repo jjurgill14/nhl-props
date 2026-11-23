@@ -134,7 +134,7 @@ describe('game state badge', () => {
   })
 })
 
-import { fitName, surname } from '../components/Badge'
+import { fitName, inkShift, surname } from '../components/Badge'
 describe('badge lettering', () => {
   const widths = { A: 0.46, B: 0.47, C: 0.45, E: 0.44, H: 0.47, I: 0.18, K: 0.48, L: 0.43, M: 0.48, N: 0.48, O: 0.47, P: 0.45, R: 0.47, S: 0.46, T: 0.45, V: 0.46, Y: 0.46, Z: 0.46, '-': 0.3 }
   it('takes the surname, uppercased, accents stripped', () => {
@@ -146,6 +146,15 @@ describe('badge lettering', () => {
     const long = fitName('NUGENT-HOPKINS', widths)
     expect(long).toBeLessThan(131.39)
     expect(long).toBeGreaterThanOrEqual(40)
+  })
+  it('nudges text right so the ink, not the advance box, is centred', () => {
+    const bearings: Record<string, [number, number]> = { '3': [0, 0.079], C: [0, 0.056], E: [0, 0.046] }
+    // the font has no left bearing: a lone "3" at 216px sits 0.079*216/2 = 8.5 left of centre
+    expect(inkShift('3', 216, 0, bearings)).toBeCloseTo(8.53, 1)
+    // names also get half the trailing letter-spacing back
+    expect(inkShift('CE', 76, 6, bearings)).toBeCloseTo(0.046 * 76 / 2 + 3, 2)
+    expect(inkShift('CE', 76, 6, undefined)).toBe(0)
+    expect(inkShift('', 76, 6, bearings)).toBe(0)
   })
 })
 
