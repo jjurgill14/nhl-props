@@ -1,34 +1,344 @@
 {
-  "_": "Placeholder home-jersey palettes for teams without a designer badge. field = disc, ring = outer+inner ring, stripes = hem bands top->bottom, fill/stroke = lettering. Replaced per team by badges/templates/<ABBR>.svg when the designer delivers it.",
-  "ANA": {"field": "#000000", "ring": "#F95602", "stripes": ["#F95602", "#ffffff", "#F95602"], "fill": "#ffffff", "stroke": "#F95602"},
-  "BUF": {"field": "#003087", "ring": "#FFB81C", "stripes": ["#FFB81C", "#ffffff", "#FFB81C"], "fill": "#ffffff", "stroke": "#FFB81C"},
-  "CGY": {"field": "#C8102E", "ring": "#000000", "stripes": ["#F1BE48", "#000000", "#F1BE48"], "fill": "#ffffff", "stroke": "#000000"},
-  "CAR": {"field": "#CC0000", "ring": "#000000", "stripes": ["#000000", "#ffffff", "#000000"], "fill": "#ffffff", "stroke": "#000000"},
-  "CHI": {"field": "#CF0A2C", "ring": "#000000", "stripes": ["#000000", "#ffffff", "#000000"], "fill": "#ffffff", "stroke": "#000000"},
-  "COL": {"field": "#6F263D", "ring": "#236192", "stripes": ["#236192", "#ffffff", "#236192"], "fill": "#ffffff", "stroke": "#236192"},
-  "CBJ": {"field": "#002654", "ring": "#CE1126", "stripes": ["#CE1126", "#ffffff", "#CE1126"], "fill": "#ffffff", "stroke": "#CE1126"},
-  "DAL": {"field": "#006847", "ring": "#000000", "stripes": ["#000000", "#ffffff", "#000000"], "fill": "#ffffff", "stroke": "#000000"},
-  "DET": {"field": "#CE1126", "ring": "#ffffff", "stripes": ["#ffffff", "#CE1126", "#ffffff"], "fill": "#ffffff", "stroke": "#8A0E1C"},
-  "EDM": {"field": "#041E42", "ring": "#FF4C00", "stripes": ["#FF4C00", "#ffffff", "#FF4C00"], "fill": "#ffffff", "stroke": "#FF4C00"},
-  "FLA": {"field": "#C8102E", "ring": "#041E42", "stripes": ["#041E42", "#B9975B", "#041E42"], "fill": "#ffffff", "stroke": "#041E42"},
-  "LAK": {"field": "#111111", "ring": "#A2AAAD", "stripes": ["#A2AAAD", "#ffffff", "#A2AAAD"], "fill": "#ffffff", "stroke": "#A2AAAD"},
-  "MIN": {"field": "#154734", "ring": "#A6192E", "stripes": ["#A6192E", "#DDCBA4", "#A6192E"], "fill": "#ffffff", "stroke": "#A6192E"},
-  "MTL": {"field": "#AF1E2D", "ring": "#192168", "stripes": ["#192168", "#ffffff", "#192168"], "fill": "#ffffff", "stroke": "#192168"},
-  "NSH": {"field": "#FFB81C", "ring": "#041E42", "stripes": ["#041E42", "#ffffff", "#041E42"], "fill": "#041E42", "stroke": "#ffffff"},
-  "NJD": {"field": "#CE1126", "ring": "#000000", "stripes": ["#000000", "#ffffff", "#000000"], "fill": "#ffffff", "stroke": "#000000"},
-  "NYI": {"field": "#00539B", "ring": "#F47D30", "stripes": ["#F47D30", "#ffffff", "#F47D30"], "fill": "#ffffff", "stroke": "#F47D30"},
-  "NYR": {"field": "#0038A8", "ring": "#CE1126", "stripes": ["#CE1126", "#ffffff", "#CE1126"], "fill": "#ffffff", "stroke": "#CE1126"},
-  "OTT": {"field": "#000000", "ring": "#DA1A32", "stripes": ["#DA1A32", "#ffffff", "#DA1A32"], "fill": "#ffffff", "stroke": "#DA1A32"},
-  "PIT": {"field": "#000000", "ring": "#FCB514", "stripes": ["#FCB514", "#ffffff", "#FCB514"], "fill": "#ffffff", "stroke": "#FCB514"},
-  "SJS": {"field": "#006D75", "ring": "#000000", "stripes": ["#000000", "#ffffff", "#000000"], "fill": "#ffffff", "stroke": "#000000"},
-  "SEA": {"field": "#001628", "ring": "#99D9D9", "stripes": ["#99D9D9", "#E9072B", "#99D9D9"], "fill": "#99D9D9", "stroke": "#ffffff"},
-  "STL": {"field": "#002F87", "ring": "#FCB514", "stripes": ["#FCB514", "#ffffff", "#FCB514"], "fill": "#ffffff", "stroke": "#FCB514"},
-  "TBL": {"field": "#002868", "ring": "#ffffff", "stripes": ["#ffffff", "#002868", "#ffffff"], "fill": "#ffffff", "stroke": "#001A4D"},
-  "TOR": {"field": "#00205B", "ring": "#ffffff", "stripes": ["#ffffff", "#00205B", "#ffffff"], "fill": "#ffffff", "stroke": "#001137"},
-  "UTA": {"field": "#010101", "ring": "#6CACE4", "stripes": ["#6CACE4", "#ffffff", "#6CACE4"], "fill": "#ffffff", "stroke": "#6CACE4"},
-  "VAN": {"field": "#00205B", "ring": "#00843D", "stripes": ["#00843D", "#ffffff", "#00843D"], "fill": "#ffffff", "stroke": "#00843D"},
-  "VGK": {"field": "#333F42", "ring": "#B4975A", "stripes": ["#B4975A", "#C8102E", "#B4975A"], "fill": "#ffffff", "stroke": "#B4975A"},
-  "WSH": {"field": "#C8102E", "ring": "#041E42", "stripes": ["#041E42", "#ffffff", "#041E42"], "fill": "#ffffff", "stroke": "#041E42"},
-  "WPG": {"field": "#041E42", "ring": "#AC162C", "stripes": ["#ffffff", "#AC162C", "#ffffff"], "fill": "#ffffff", "stroke": "#AC162C"},
-  "PHI": {"field": "#F74902", "ring": "#000000", "stripes": ["#000000", "#ffffff", "#000000"], "fill": "#ffffff", "stroke": "#000000"}
+ "_": "Placeholder home-jersey palettes for teams without a designer badge. field = disc, ring = outer+inner ring, stripes = hem bands top->bottom, fill/stroke = lettering. Replaced per team by badges/templates/<ABBR>.svg when the designer delivers it.",
+ "ANA": {
+  "field": "#000000",
+  "ring": "#F95602",
+  "stripes": [
+   "#F95602",
+   "#ffffff",
+   "#F95602"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#F95602"
+ },
+ "BUF": {
+  "field": "#003087",
+  "ring": "#FFB81C",
+  "stripes": [
+   "#FFB81C",
+   "#ffffff",
+   "#FFB81C"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#003087"
+ },
+ "CGY": {
+  "field": "#C8102E",
+  "ring": "#000000",
+  "stripes": [
+   "#F1BE48",
+   "#000000",
+   "#F1BE48"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ },
+ "CAR": {
+  "field": "#CC0000",
+  "ring": "#000000",
+  "stripes": [
+   "#000000",
+   "#ffffff",
+   "#000000"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ },
+ "CHI": {
+  "field": "#CF0A2C",
+  "ring": "#000000",
+  "stripes": [
+   "#000000",
+   "#ffffff",
+   "#000000"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ },
+ "COL": {
+  "field": "#6F263D",
+  "ring": "#236192",
+  "stripes": [
+   "#236192",
+   "#ffffff",
+   "#236192"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#236192"
+ },
+ "CBJ": {
+  "field": "#002654",
+  "ring": "#CE1126",
+  "stripes": [
+   "#CE1126",
+   "#ffffff",
+   "#CE1126"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#CE1126"
+ },
+ "DAL": {
+  "field": "#006847",
+  "ring": "#000000",
+  "stripes": [
+   "#000000",
+   "#ffffff",
+   "#000000"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ },
+ "DET": {
+  "field": "#CE1126",
+  "ring": "#ffffff",
+  "stripes": [
+   "#ffffff",
+   "#CE1126",
+   "#ffffff"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#8A0E1C"
+ },
+ "EDM": {
+  "field": "#041E42",
+  "ring": "#FF4C00",
+  "stripes": [
+   "#FF4C00",
+   "#ffffff",
+   "#FF4C00"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#FF4C00"
+ },
+ "FLA": {
+  "field": "#C8102E",
+  "ring": "#041E42",
+  "stripes": [
+   "#041E42",
+   "#B9975B",
+   "#041E42"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#041E42"
+ },
+ "LAK": {
+  "field": "#111111",
+  "ring": "#A2AAAD",
+  "stripes": [
+   "#A2AAAD",
+   "#ffffff",
+   "#A2AAAD"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#A2AAAD"
+ },
+ "MIN": {
+  "field": "#154734",
+  "ring": "#A6192E",
+  "stripes": [
+   "#A6192E",
+   "#DDCBA4",
+   "#A6192E"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#A6192E"
+ },
+ "MTL": {
+  "field": "#AF1E2D",
+  "ring": "#192168",
+  "stripes": [
+   "#192168",
+   "#ffffff",
+   "#192168"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#192168"
+ },
+ "NSH": {
+  "field": "#FFB81C",
+  "ring": "#041E42",
+  "stripes": [
+   "#041E42",
+   "#ffffff",
+   "#041E42"
+  ],
+  "fill": "#041E42",
+  "stroke": "#ffffff"
+ },
+ "NJD": {
+  "field": "#CE1126",
+  "ring": "#000000",
+  "stripes": [
+   "#000000",
+   "#ffffff",
+   "#000000"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ },
+ "NYI": {
+  "field": "#00539B",
+  "ring": "#F47D30",
+  "stripes": [
+   "#F47D30",
+   "#ffffff",
+   "#F47D30"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#F47D30"
+ },
+ "NYR": {
+  "field": "#0038A8",
+  "ring": "#CE1126",
+  "stripes": [
+   "#CE1126",
+   "#ffffff",
+   "#CE1126"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#CE1126"
+ },
+ "OTT": {
+  "field": "#000000",
+  "ring": "#DA1A32",
+  "stripes": [
+   "#DA1A32",
+   "#ffffff",
+   "#DA1A32"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#DA1A32"
+ },
+ "PIT": {
+  "field": "#000000",
+  "ring": "#FCB514",
+  "stripes": [
+   "#FCB514",
+   "#ffffff",
+   "#FCB514"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#FCB514"
+ },
+ "SJS": {
+  "field": "#006D75",
+  "ring": "#000000",
+  "stripes": [
+   "#000000",
+   "#ffffff",
+   "#000000"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ },
+ "SEA": {
+  "field": "#001628",
+  "ring": "#99D9D9",
+  "stripes": [
+   "#99D9D9",
+   "#E9072B",
+   "#99D9D9"
+  ],
+  "fill": "#99D9D9",
+  "stroke": "#ffffff"
+ },
+ "STL": {
+  "field": "#002F87",
+  "ring": "#FCB514",
+  "stripes": [
+   "#FCB514",
+   "#ffffff",
+   "#FCB514"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#041E42"
+ },
+ "TBL": {
+  "field": "#002868",
+  "ring": "#ffffff",
+  "stripes": [
+   "#ffffff",
+   "#002868",
+   "#ffffff"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#001A4D"
+ },
+ "TOR": {
+  "field": "#00205B",
+  "ring": "#ffffff",
+  "stripes": [
+   "#ffffff",
+   "#00205B",
+   "#ffffff"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#001137"
+ },
+ "UTA": {
+  "field": "#010101",
+  "ring": "#6CACE4",
+  "stripes": [
+   "#6CACE4",
+   "#ffffff",
+   "#6CACE4"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#6CACE4"
+ },
+ "VAN": {
+  "field": "#00205B",
+  "ring": "#00843D",
+  "stripes": [
+   "#00843D",
+   "#ffffff",
+   "#00843D"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#00843D"
+ },
+ "VGK": {
+  "field": "#333F42",
+  "ring": "#B4975A",
+  "stripes": [
+   "#B4975A",
+   "#C8102E",
+   "#B4975A"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#B4975A"
+ },
+ "WSH": {
+  "field": "#C8102E",
+  "ring": "#041E42",
+  "stripes": [
+   "#041E42",
+   "#ffffff",
+   "#041E42"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#041E42"
+ },
+ "WPG": {
+  "field": "#041E42",
+  "ring": "#AC162C",
+  "stripes": [
+   "#ffffff",
+   "#AC162C",
+   "#ffffff"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#AC162C"
+ },
+ "PHI": {
+  "field": "#F74902",
+  "ring": "#000000",
+  "stripes": [
+   "#000000",
+   "#ffffff",
+   "#000000"
+  ],
+  "fill": "#ffffff",
+  "stroke": "#000000"
+ }
 }

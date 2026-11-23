@@ -71,7 +71,6 @@ def _lettering_spec(svg: str) -> dict[str, str]:
             "num_spacing": rules.get(ncls, {}).get("letter-spacing", "0em").replace("em", ""),
             "name_size": f"{size(mcls):g}", "name_base": my, "name_fill": rules.get(mcls, {}).get("fill", "#000"),
             "name_spacing": sp.replace("em", ""), "name_maxw": f"{vb - 2 * float(mx):g}",
-            "stroke": "none",
         })
     return spec
 
@@ -92,9 +91,11 @@ def _designer(abbr: str, svg: str, fill: str, stroke: str) -> str:
     if rings:
         at = rings[-1].start()
         svg = svg[:at] + f'<g id="{abbr}-lettering"></g>' + svg[at:]
+    # the designer ships his lettering without outlines (we asked him to); the app draws them in the palette color
+    spec["stroke"] = stroke
     attrs = " ".join(f'data-{k.replace("_", "-")}="{v}"' for k, v in spec.items())
-    if "stroke" not in spec:
-        attrs += f' data-fill="{fill}" data-stroke="{stroke}"'
+    if "num_fill" not in spec:
+        attrs += f' data-fill="{fill}"'
     svg = svg.replace("<svg ", f"<svg {attrs} ", 1)
     svg = re.sub(r"\n\s*", "", svg)
     return svg
