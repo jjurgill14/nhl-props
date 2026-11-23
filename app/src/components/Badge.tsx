@@ -48,7 +48,7 @@ export function loadTemplate(abbr: string): Promise<string | null> {
 }
 
 /** Lettering geometry: the designer's file carries its own (data-* on the root); placeholders use Boston's. */
-interface Spec { vb: number; numSize: number; numBase: number; numFill: string; numSpacing: number; nameSize: number; nameBase: number; nameFill: string; nameSpacing: number; nameMaxW: number; stroke: string; numStroke: number; nameStroke: number }
+interface Spec { vb: number; numSize: number; numBase: number; numFill: string; numSpacing: number; nameSize: number; nameBase: number; nameFill: string; nameSpacing: number; nameMaxW: number; stroke: string; numStrokeColor?: string; numStroke: number; nameStroke: number }
 export function specOf(template: string): Spec {
   const attr = (k: string) => new RegExp(`\\sdata-${k}="([^"]*)"`).exec(template)?.[1]
   const num = (k: string, d: number) => { const v = attr(k); return v == null || v === '' ? d : Number(v) }
@@ -60,7 +60,7 @@ export function specOf(template: string): Spec {
     numSize: num('num-size', NUM.size * k), numBase: num('num-base', NUM.base * k), numFill: attr('num-fill') ?? fill, numSpacing: num('num-spacing', NUM.spacing),
     nameSize: num('name-size', NAME.size * k), nameBase: num('name-base', NAME.base * k), nameFill: attr('name-fill') ?? fill, nameSpacing: num('name-spacing', NAME.spacing),
     nameMaxW: num('name-maxw', NAME.maxW * k),
-    stroke: attr('stroke') ?? '#000', numStroke: NUM.stroke * k, nameStroke: NAME.stroke * k,
+    stroke: attr('stroke') ?? '#000', numStrokeColor: attr('num-stroke') ?? undefined, numStroke: NUM.stroke * k, nameStroke: NAME.stroke * k,
   }
 }
 
@@ -107,7 +107,7 @@ function letter(template: string, name: string, number: string, size: number, sp
   const strokeAttrs = sp.stroke === 'none' ? '' : ` stroke="${sp.stroke}" stroke-linejoin="round" paint-order="stroke"`
   const g =
     `<g font-family="'NHL New Jersey',Impact,'Arial Narrow',sans-serif" text-anchor="middle"${strokeAttrs}>` +
-    `<text x="${nx.toFixed(2)}" y="${sp.numBase}" fill="${sp.numFill}" font-size="${sp.numSize}" letter-spacing="${numSp.toFixed(2)}" stroke-width="${sp.numStroke}">${number}</text>` +
+    `<text x="${nx.toFixed(2)}" y="${sp.numBase}" fill="${sp.numFill}" font-size="${sp.numSize}" letter-spacing="${numSp.toFixed(2)}" stroke-width="${sp.numStroke}"${sp.numStrokeColor && sp.stroke !== 'none' ? ` stroke="${sp.numStrokeColor}"` : ''}>${number}</text>` +
     `<text x="${ny.toFixed(2)}" y="${sp.nameBase}" fill="${sp.nameFill}" font-size="${size.toFixed(2)}" letter-spacing="${nameSp.toFixed(2)}" stroke-width="${sp.nameStroke}">${name}</text>` +
     `</g>`
   // the build step marks where the lettering goes (just under the inner ring); fall back to before the last path

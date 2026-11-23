@@ -75,7 +75,7 @@ def _lettering_spec(svg: str) -> dict[str, str]:
     return spec
 
 
-def _designer(abbr: str, svg: str, fill: str, stroke: str) -> str:
+def _designer(abbr: str, svg: str, fill: str, stroke: str, num_stroke: str | None = None) -> str:
     """Normalise a designer template: strip lettering, namespace ids/classes so many badges can share a page, tag colors."""
     svg = re.sub(r"<\?xml[^>]*\?>\s*", "", svg)
     spec = _lettering_spec(svg)
@@ -93,6 +93,8 @@ def _designer(abbr: str, svg: str, fill: str, stroke: str) -> str:
         svg = svg[:at] + f'<g id="{abbr}-lettering"></g>' + svg[at:]
     # the designer ships his lettering without outlines (we asked him to); the app draws them in the palette color
     spec["stroke"] = stroke
+    if num_stroke:
+        spec["num_stroke"] = num_stroke  # number outlined in its own color (NSH/PIT: white on a dark-filled number)
     attrs = " ".join(f'data-{k.replace("_", "-")}="{v}"' for k, v in spec.items())
     if "num_fill" not in spec:
         attrs += f' data-fill="{fill}"'
@@ -137,7 +139,7 @@ def build() -> list[str]:
     for abbr in sorted(set(palette) | set(designer)):
         if abbr in designer:
             fill, stroke = letters.get(abbr) or (palette[abbr]["fill"], palette[abbr]["stroke"])
-            svg = _designer(abbr, designer[abbr].read_text(), fill, stroke)
+            svg = _designer(abbr, designer[abbr].read_text(), fill, stroke, palette.get(abbr, {}).get("num_stroke"))
         else:
             svg = placeholder({**palette[abbr], "abbr": abbr})
         (OUT / f"{abbr}.svg").write_text(svg)
