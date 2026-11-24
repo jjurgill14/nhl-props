@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-24T00:12:11.481361+00:00",
+ "generated_utc": "2026-11-24T00:17:22.745483+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -5085,8 +5085,8 @@
     "goalie_source": "Renaud Lavoie",
     "sv": "0.864",
     "gaa": "3.6",
-    "lineup_as_of": "2026-11-23T02:21:19.723Z",
-    "lineup_checked": "2026-11-23T21:39:54.565805+00:00",
+    "lineup_as_of": "2026-11-24T00:12:51.549Z",
+    "lineup_checked": "2026-11-24T00:17:14.054463+00:00",
     "lineup_stale": false,
     "ga_rk": 20,
     "gf_rk": 17,
@@ -5126,7 +5126,7 @@
      "away": "-192",
      "home": "+160",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-23T02:21:19.723Z"
+     "as_of": "2026-11-24T00:12:51.549Z"
     },
     "total": {
      "line": 6.5,
@@ -5328,7 +5328,7 @@
       "player": "Juraj Slafkovsky",
       "team": "MTL",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8483515
       ]
@@ -7298,11 +7298,11 @@
     },
     "home": {
      "team": "MTL",
-     "as_of": "2026-11-23T02:21:19.723Z",
-     "checked": "2026-11-23T21:39:54.565805+00:00",
+     "as_of": "2026-11-24T00:12:51.549Z",
+     "checked": "2026-11-24T00:17:14.054463+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-23T02:21:19.723Z",
+     "source": "Marco D'Amico",
+     "updated_dfo": "2026-11-24T00:12:51.549Z",
      "forwards": [
       [
        {
@@ -7382,39 +7382,39 @@
         }
        },
        {
-        "name": "Alexandre Texier",
-        "jersey": 85,
+        "name": "Juraj Slafkovsky",
+        "jersey": 20,
         "pos": "RW",
         "slot": null,
-        "player_id": 8480074,
-        "dfo_id": 4759,
+        "player_id": 8483515,
+        "dfo_id": 35721,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 2,
-        "bias": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 3,
+         "a": 12,
          "g": 2,
          "gp": 24,
-         "p": 5,
-         "ppp": 1,
-         "sog": 45,
-         "toi_s": 20254
+         "p": 14,
+         "ppp": 5,
+         "sog": 54,
+         "toi_s": 26543
         },
         "last5": {
-         "a": 0,
+         "a": 2,
          "g": 0,
          "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 4913
+         "p": 2,
+         "ppp": 1,
+         "sog": 9,
+         "toi_s": 5795
         },
-        "l5_point_games": 0,
+        "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7498,39 +7498,39 @@
         }
        },
        {
-        "name": "Juraj Slafkovsky",
-        "jersey": 20,
+        "name": "Alexandre Texier",
+        "jersey": 85,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483515,
-        "dfo_id": 35721,
+        "player_id": 8480074,
+        "dfo_id": 4759,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
+        "pp": 2,
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 12,
+         "a": 3,
          "g": 2,
          "gp": 24,
-         "p": 14,
-         "ppp": 5,
-         "sog": 54,
-         "toi_s": 26543
+         "p": 5,
+         "ppp": 1,
+         "sog": 45,
+         "toi_s": 20254
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 9,
-         "toi_s": 5795
+         "p": 0,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 4913
         },
-        "l5_point_games": 2,
+        "l5_point_games": 0,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -7614,25 +7614,25 @@
         }
        },
        {
-        "name": "Oliver Kapanen",
-        "jersey": 91,
+        "name": "Jake Evans",
+        "jersey": 71,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482775,
-        "dfo_id": 34678,
+        "player_id": 8478133,
+        "dfo_id": 4708,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
+        "pp": null,
+        "pk": 1,
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 17,
-         "p": 4,
+         "a": 6,
+         "g": 4,
+         "gp": 24,
+         "p": 10,
          "ppp": 0,
-         "sog": 20,
-         "toi_s": 11461
+         "sog": 21,
+         "toi_s": 22899
         },
         "last5": {
          "a": 1,
@@ -7640,13 +7640,13 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 2757
+         "sog": 6,
+         "toi_s": 5282
         },
         "l5_point_games": 2,
-        "gp": 17,
+        "gp": 24,
         "move": {
-         "ev": 1,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -7692,25 +7692,25 @@
         }
        },
        {
-        "name": "Jake Evans",
-        "jersey": 71,
+        "name": "Oliver Kapanen",
+        "jersey": 91,
         "pos": "C",
         "slot": null,
-        "player_id": 8478133,
-        "dfo_id": 4708,
+        "player_id": 8482775,
+        "dfo_id": 34678,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 6,
-         "g": 4,
-         "gp": 24,
-         "p": 10,
+         "a": 2,
+         "g": 2,
+         "gp": 17,
+         "p": 4,
          "ppp": 0,
-         "sog": 21,
-         "toi_s": 22899
+         "sog": 20,
+         "toi_s": 11461
         },
         "last5": {
          "a": 1,
@@ -7718,13 +7718,13 @@
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 5282
+         "sog": 4,
+         "toi_s": 2757
         },
         "l5_point_games": 2,
-        "gp": 24,
+        "gp": 17,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8128,7 +8128,7 @@
         "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -8320,7 +8320,7 @@
         "l5_point_games": 0,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -8358,7 +8358,7 @@
         "l5_point_games": 2,
         "gp": 17,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -8706,7 +8706,7 @@
         "l5_point_games": 0,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -8829,12 +8829,12 @@
        "rating": 0
       },
       "f1": {
-       "rank": 35,
-       "rating": 72.61254463393041
+       "rank": 41,
+       "rating": 0
       },
       "f2": {
-       "rank": 10,
-       "rating": 76.43950170343481
+       "rank": 16,
+       "rating": 74.52602316868261
       },
       "f3": {
        "rank": 5,
@@ -8888,8 +8888,8 @@
     "goalie_source": "Derek Wills",
     "sv": "0.906",
     "gaa": "2.89",
-    "lineup_as_of": "2026-11-23T17:37:22.351Z",
-    "lineup_checked": "2026-11-23T21:39:54.634108+00:00",
+    "lineup_as_of": "2026-11-24T00:15:59.636Z",
+    "lineup_checked": "2026-11-24T00:17:14.138039+00:00",
     "lineup_stale": false,
     "ga_rk": 7,
     "gf_rk": 31,
@@ -9292,7 +9292,7 @@
       "player": "Morgan Frost",
       "team": "CGY",
       "pp": 1,
-      "line": 3,
+      "line": 1,
       "players": [
        8480028
       ]
@@ -9311,6 +9311,21 @@
       "line": 2,
       "players": [
        8483495
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Mikael Backlund \u00b7 1+ point",
+      "prob": 0.332,
+      "fair": "+202",
+      "need": "+220",
+      "rationale": "L3 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 8 of 22 season",
+      "player": "Mikael Backlund",
+      "team": "CGY",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8474150
       ],
       "sneaky": true
      }
@@ -9332,17 +9347,17 @@
       "sneaky": true
      },
      {
-      "selection": "Adam Klapka \u00b7 1+ assist",
-      "prob": 0.257,
-      "fair": "+289",
-      "need": "+312",
-      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 5 of 24 season",
-      "player": "Adam Klapka",
+      "selection": "Mikael Backlund \u00b7 1+ assist",
+      "prob": 0.216,
+      "fair": "+364",
+      "need": "+392",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 5 of 22 season",
+      "player": "Mikael Backlund",
       "team": "CGY",
-      "pp": 2,
+      "pp": null,
       "line": 3,
       "players": [
-       8483609
+       8474150
       ],
       "sneaky": true
      }
@@ -9610,6 +9625,22 @@
        8480208,
        8481596
       ]
+     },
+     {
+      "selection": "Frost + Coronato \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.244,
+      "fair": "+310",
+      "need": "+335",
+      "rationale": "Both scored 2 of 7 games together \u00b7 independent 20% \u00b7 correlated",
+      "team": "CGY",
+      "line": 1,
+      "read": "correlated",
+      "both": 2,
+      "n": 7,
+      "players": [
+       8480028,
+       8482679
+      ]
      }
     ],
     "btts2": [
@@ -9626,11 +9657,11 @@
    "lineup": {
     "away": {
      "team": "CGY",
-     "as_of": "2026-11-23T17:37:22.351Z",
-     "checked": "2026-11-23T21:39:54.634108+00:00",
+     "as_of": "2026-11-24T00:15:59.636Z",
+     "checked": "2026-11-24T00:17:14.138039+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-23T17:37:22.351Z",
+     "source": "Derek Wills",
+     "updated_dfo": "2026-11-24T00:15:59.636Z",
      "forwards": [
       [
        {
@@ -9672,39 +9703,39 @@
         }
        },
        {
-        "name": "Mikael Backlund",
-        "jersey": 11,
+        "name": "Morgan Frost",
+        "jersey": 16,
         "pos": "C",
         "slot": null,
-        "player_id": 8474150,
-        "dfo_id": 193,
+        "player_id": 8480028,
+        "dfo_id": 2814,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
+        "pp": 1,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 5,
-         "g": 3,
-         "gp": 22,
-         "p": 8,
-         "ppp": 0,
-         "sog": 56,
-         "toi_s": 24527
+         "a": 9,
+         "g": 5,
+         "gp": 24,
+         "p": 14,
+         "ppp": 6,
+         "sog": 35,
+         "toi_s": 21899
         },
         "last5": {
-         "a": 2,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 2,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 5812
+         "sog": 4,
+         "toi_s": 4490
         },
-        "l5_point_games": 3,
-        "gp": 22,
+        "l5_point_games": 2,
+        "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -9826,122 +9857,6 @@
         }
        },
        {
-        "name": "Aydar Suniev",
-        "jersey": 61,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8484234,
-        "dfo_id": 34016,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 4,
-         "gp": 21,
-         "p": 7,
-         "ppp": 1,
-         "sog": 33,
-         "toi_s": 16180
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 3599
-        },
-        "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Yegor Sharangovich",
-        "jersey": 17,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8481068,
-        "dfo_id": 29637,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 6,
-         "g": 5,
-         "gp": 24,
-         "p": 11,
-         "ppp": 2,
-         "sog": 37,
-         "toi_s": 23308
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
-         "ppp": 1,
-         "sog": 11,
-         "toi_s": 4903
-        },
-        "l5_point_games": 2,
-        "gp": 24,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Morgan Frost",
-        "jersey": 16,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8480028,
-        "dfo_id": 2814,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 9,
-         "g": 5,
-         "gp": 24,
-         "p": 14,
-         "ppp": 6,
-         "sog": 35,
-         "toi_s": 21899
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4490
-        },
-        "l5_point_games": 2,
-        "gp": 24,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Adam Klapka",
         "jersey": 43,
         "pos": "RW",
@@ -9970,6 +9885,106 @@
          "ppp": 1,
          "sog": 3,
          "toi_s": 3934
+        },
+        "l5_point_games": 2,
+        "gp": 24,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Sam Morton",
+        "jersey": 45,
+        "pos": "LW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 38092,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {},
+        "last5": {},
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       },
+       {
+        "name": "Mikael Backlund",
+        "jersey": 11,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8474150,
+        "dfo_id": 193,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 3,
+         "gp": 22,
+         "p": 8,
+         "ppp": 0,
+         "sog": 56,
+         "toi_s": 24527
+        },
+        "last5": {
+         "a": 2,
+         "g": 1,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 5812
+        },
+        "l5_point_games": 3,
+        "gp": 22,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Yegor Sharangovich",
+        "jersey": 17,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8481068,
+        "dfo_id": 29637,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 1,
+        "bias": null,
+        "season": {
+         "a": 6,
+         "g": 5,
+         "gp": 24,
+         "p": 11,
+         "ppp": 2,
+         "sog": 37,
+         "toi_s": 23308
+        },
+        "last5": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
+         "ppp": 1,
+         "sog": 11,
+         "toi_s": 4903
         },
         "l5_point_games": 2,
         "gp": 24,
@@ -10058,25 +10073,41 @@
         }
        },
        {
-        "name": "Sam Morton",
-        "jersey": 45,
+        "name": "Aydar Suniev",
+        "jersey": 61,
         "pos": "RW",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 38092,
+        "player_id": 8484234,
+        "dfo_id": 34016,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
-        "season": {},
-        "last5": {},
-        "l5_point_games": 0,
-        "gp": 0,
+        "season": {
+         "a": 3,
+         "g": 4,
+         "gp": 21,
+         "p": 7,
+         "ppp": 1,
+         "sog": 33,
+         "toi_s": 16180
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 3599
+        },
+        "l5_point_games": 1,
+        "gp": 21,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        }
       ]
@@ -10478,7 +10509,7 @@
         "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -10632,7 +10663,7 @@
         "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -10708,7 +10739,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -10826,7 +10857,7 @@
         "l5_point_games": 3,
         "gp": 22,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -11136,16 +11167,16 @@
        "rating": 0
       },
       "f1": {
-       "rank": 27,
-       "rating": 73.97140184442043
+       "rank": 36,
+       "rating": 72.29413833916806
       },
       "f2": {
        "rank": 17,
        "rating": 74.48852172320261
       },
       "f3": {
-       "rank": 20,
-       "rating": 72.1745098520423
+       "rank": 6,
+       "rating": 75.52903686254702
       },
       "f4": {
        "rank": 33,
@@ -12765,13 +12796,24 @@
     "goalie_source": "Luke Fox",
     "sv": "0.902",
     "gaa": "2.83",
-    "lineup_as_of": "2026-11-22T19:16:47.352Z",
-    "lineup_checked": "2026-11-23T21:39:54.805675+00:00",
+    "lineup_as_of": "2026-11-24T00:16:38.410Z",
+    "lineup_checked": "2026-11-24T00:17:14.433677+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 18,
     "ppga_rk": 24,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-24T00:17:14.437122+00:00",
+      "kind": "in",
+      "text": "IN: Ryan Tverberg \u2192 L2"
+     },
+     {
+      "at": "2026-11-24T00:17:14.437122+00:00",
+      "kind": "out",
+      "text": "OUT: Jack Roslovic (was L1) \u2192 DTD"
+     }
+    ],
     "rates": {
      "gp": 25,
      "pp_gp": 25,
@@ -13185,11 +13227,11 @@
       "prob": 0.349,
       "fair": "+187",
       "need": "+204",
-      "rationale": "L3 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 5 of 24 season",
+      "rationale": "L4 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 5 of 24 season",
       "player": "Teddy Blueger",
       "team": "TOR",
       "pp": null,
-      "line": 3,
+      "line": 4,
       "players": [
        8476927
       ],
@@ -13279,11 +13321,11 @@
       "prob": 0.231,
       "fair": "+333",
       "need": "+359",
-      "rationale": "L3 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 24 season",
+      "rationale": "L4 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 24 season",
       "player": "Teddy Blueger",
       "team": "TOR",
       "pp": null,
-      "line": 3,
+      "line": 4,
       "players": [
        8476927
       ],
@@ -13291,22 +13333,6 @@
      }
     ],
     "pair": [
-     {
-      "selection": "Matthews + Roslovic \u00b7 both 1+ point",
-      "prob": 0.564,
-      "fair": "-130",
-      "need": "-114",
-      "rationale": "Both scored 13 of 21 games together \u00b7 independent 37% \u00b7 correlated",
-      "team": "TOR",
-      "line": 1,
-      "read": "correlated",
-      "both": 13,
-      "n": 21,
-      "players": [
-       8479318,
-       8478458
-      ]
-     },
      {
       "selection": "Horvat + Holmstrom \u00b7 both 1+ point",
       "prob": 0.521,
@@ -13321,22 +13347,6 @@
       "players": [
        8477500,
        8481601
-      ]
-     },
-     {
-      "selection": "Roslovic + Cowan \u00b7 both 1+ point",
-      "prob": 0.395,
-      "fair": "+153",
-      "need": "+168",
-      "rationale": "Both scored 6 of 13 games together \u00b7 independent 25% \u00b7 correlated",
-      "team": "TOR",
-      "line": 1,
-      "read": "correlated",
-      "both": 6,
-      "n": 13,
-      "players": [
-       8478458,
-       8484158
       ]
      },
      {
@@ -13369,6 +13379,38 @@
       "players": [
        8475170,
        8485388
+      ]
+     },
+     {
+      "selection": "Holmstrom + Palmieri \u00b7 both 1+ point",
+      "prob": 0.241,
+      "fair": "+316",
+      "need": "+341",
+      "rationale": "Both scored 4 of 15 games together \u00b7 independent 18% \u00b7 correlated",
+      "team": "NYI",
+      "line": 1,
+      "read": "correlated",
+      "both": 4,
+      "n": 15,
+      "players": [
+       8481601,
+       8475151
+      ]
+     },
+     {
+      "selection": "Horvat + Palmieri \u00b7 both 1+ point",
+      "prob": 0.239,
+      "fair": "+319",
+      "need": "+344",
+      "rationale": "Both scored 5 of 21 games together \u00b7 independent 24% \u00b7 independent",
+      "team": "NYI",
+      "line": 1,
+      "read": "independent",
+      "both": 5,
+      "n": 21,
+      "players": [
+       8477500,
+       8475151
       ]
      }
     ],
@@ -13492,47 +13534,47 @@
    "lineup": {
     "away": {
      "team": "TOR",
-     "as_of": "2026-11-22T19:16:47.352Z",
-     "checked": "2026-11-23T21:39:54.805675+00:00",
+     "as_of": "2026-11-24T00:16:38.410Z",
+     "checked": "2026-11-24T00:17:14.433677+00:00",
      "stale": false,
-     "source": "Terry Koshan",
-     "updated_dfo": "2026-11-22T19:16:47.352Z",
+     "source": "Mark Masters",
+     "updated_dfo": "2026-11-24T00:16:38.410Z",
      "forwards": [
       [
        {
-        "name": "Easton Cowan",
-        "jersey": 53,
+        "name": "Nick Paul",
+        "jersey": 20,
         "pos": "LW",
         "slot": null,
-        "player_id": 8484158,
-        "dfo_id": 35106,
+        "player_id": 8477426,
+        "dfo_id": 2357,
         "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 2,
-        "bias": "G",
+        "bias": null,
         "season": {
-         "a": 9,
-         "g": 8,
+         "a": 5,
+         "g": 2,
          "gp": 25,
-         "p": 17,
-         "ppp": 1,
-         "sog": 49,
-         "toi_s": 25064
+         "p": 7,
+         "ppp": 0,
+         "sog": 29,
+         "toi_s": 23989
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
          "sog": 8,
-         "toi_s": 6084
+         "toi_s": 4502
         },
-        "l5_point_games": 1,
-        "gp": 25,
+        "l5_point_games": 0,
+        "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -13576,37 +13618,37 @@
         }
        },
        {
-        "name": "Jack Roslovic",
-        "jersey": 96,
+        "name": "Easton Cowan",
+        "jersey": 53,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478458,
-        "dfo_id": 2499,
-        "gtd": true,
+        "player_id": 8484158,
+        "dfo_id": 35106,
+        "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "G",
         "season": {
-         "a": 14,
-         "g": 9,
-         "gp": 24,
-         "p": 23,
-         "ppp": 2,
-         "sog": 61,
-         "toi_s": 25093
+         "a": 9,
+         "g": 8,
+         "gp": 25,
+         "p": 17,
+         "ppp": 1,
+         "sog": 49,
+         "toi_s": 25064
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 3,
+         "p": 1,
          "ppp": 0,
-         "sog": 10,
-         "toi_s": 5638
+         "sog": 8,
+         "toi_s": 6084
         },
-        "l5_point_games": 3,
-        "gp": 23,
+        "l5_point_games": 1,
+        "gp": 25,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -13692,25 +13734,25 @@
         }
        },
        {
-        "name": "Nick Paul",
-        "jersey": 20,
+        "name": "Ryan Tverberg",
+        "jersey": 77,
         "pos": "RW",
         "slot": null,
-        "player_id": 8477426,
-        "dfo_id": 2357,
+        "player_id": 8482525,
+        "dfo_id": 32967,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": 2,
+        "pp": null,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 2,
-         "gp": 25,
-         "p": 7,
+         "a": 0,
+         "g": 0,
+         "gp": 6,
+         "p": 0,
          "ppp": 0,
-         "sog": 29,
-         "toi_s": 23989
+         "sog": 3,
+         "toi_s": 4346
         },
         "last5": {
          "a": 0,
@@ -13718,13 +13760,13 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4502
+         "sog": 1,
+         "toi_s": 3415
         },
         "l5_point_games": 0,
-        "gp": 24,
+        "gp": 6,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -13770,41 +13812,41 @@
         }
        },
        {
-        "name": "Teddy Blueger",
-        "jersey": 73,
+        "name": "Aatu Raty",
+        "jersey": 54,
         "pos": "C",
         "slot": null,
-        "player_id": 8476927,
-        "dfo_id": 3798,
+        "player_id": null,
+        "dfo_id": 34668,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
-        "bias": "G",
+        "pk": null,
+        "bias": null,
         "season": {
-         "a": 3,
-         "g": 4,
-         "gp": 25,
-         "p": 7,
-         "ppp": 0,
-         "sog": 27,
-         "toi_s": 19716
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
+         "a": 0,
+         "g": 1,
+         "gp": 4,
+         "p": 1,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 3817
+         "toi_s": 2439
         },
-        "l5_point_games": 3,
-        "gp": 24,
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 3408
+        },
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -13886,41 +13928,41 @@
         }
        },
        {
-        "name": "Aatu Raty",
-        "jersey": 54,
+        "name": "Teddy Blueger",
+        "jersey": 73,
         "pos": "C",
         "slot": null,
-        "player_id": null,
-        "dfo_id": 34668,
+        "player_id": 8476927,
+        "dfo_id": 3798,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
-        "bias": null,
+        "pk": 1,
+        "bias": "G",
         "season": {
-         "a": 0,
-         "g": 1,
-         "gp": 4,
-         "p": 1,
+         "a": 3,
+         "g": 4,
+         "gp": 25,
+         "p": 7,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 2439
+         "sog": 27,
+         "toi_s": 19716
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 1,
+         "g": 2,
          "gp": 5,
-         "p": 1,
+         "p": 3,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3408
+         "sog": 4,
+         "toi_s": 3817
         },
-        "l5_point_games": 0,
-        "gp": 0,
+        "l5_point_games": 3,
+        "gp": 24,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -14052,7 +14094,7 @@
         "dfo_id": 1172,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -14552,7 +14594,7 @@
         "l5_point_games": 0,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -14634,41 +14676,41 @@
         }
        },
        {
-        "name": "Jack Roslovic",
-        "jersey": 96,
+        "name": "Oliver Ekman-Larsson",
+        "jersey": 95,
         "pos": null,
         "slot": 5,
-        "player_id": 8478458,
-        "dfo_id": 2499,
-        "gtd": true,
+        "player_id": 8475171,
+        "dfo_id": 1172,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 14,
-         "g": 9,
+         "a": 1,
+         "g": 0,
          "gp": 24,
-         "p": 23,
-         "ppp": 2,
-         "sog": 61,
-         "toi_s": 25093
+         "p": 1,
+         "ppp": 0,
+         "sog": 24,
+         "toi_s": 26665
         },
         "last5": {
-         "a": 3,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 0,
          "ppp": 0,
          "sog": 10,
-         "toi_s": 5638
+         "toi_s": 6104
         },
-        "l5_point_games": 3,
-        "gp": 23,
+        "l5_point_games": 0,
+        "gp": 24,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -14708,7 +14750,7 @@
         "l5_point_games": 3,
         "gp": 24,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -14862,7 +14904,7 @@
         "l5_point_games": 0,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -15022,7 +15064,7 @@
       {
        "player": "Jack Roslovic",
        "status": "DTD",
-       "news": "Roslovic (upper-body) is a game-time decision vs. the Islanders on Monday."
+       "news": "Roslovic (undisclosed) will not play on Monday."
       }
      ],
      "unit_ratings": {
@@ -15043,12 +15085,12 @@
        "rating": 0
       },
       "f1": {
-       "rank": 12,
-       "rating": 76.87026378419155
+       "rank": 13,
+       "rating": 76.75170537639794
       },
       "f2": {
-       "rank": 19,
-       "rating": 74.38770886198076
+       "rank": 7,
+       "rating": 77.5737318345852
       },
       "f3": {
        "rank": 2,
@@ -16738,9 +16780,9 @@
     "record": "11-9-4",
     "b2b": false,
     "goalie": "Stuart Skinner",
-    "goalie_status": "Likely",
-    "goalie_news": "Skinner is expected to start on Monday vs. Utah.",
-    "goalie_source": "Mitchell Clinton ",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Skinner will start Monday vs. the Mammoth.",
+    "goalie_source": "@SportsTalkWPG",
     "sv": "0.883",
     "gaa": "3.32",
     "lineup_as_of": "2026-11-23T16:19:20.531Z",
