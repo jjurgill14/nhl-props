@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-24T21:54:33.493150+00:00",
+ "generated_utc": "2026-11-24T22:09:49.416444+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1116,8 +1116,8 @@
     "goalie_source": "Edmonton OIlers",
     "sv": "0.892",
     "gaa": "2.83",
-    "lineup_as_of": "2026-11-24T13:12:32.298Z",
-    "lineup_checked": "2026-11-24T16:45:17.134095+00:00",
+    "lineup_as_of": "2026-11-24T17:06:42.333Z",
+    "lineup_checked": "2026-11-24T22:09:35.974408+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 3,
@@ -1157,7 +1157,7 @@
      "away": "+210",
      "home": "-258",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T13:12:32.298Z"
+     "as_of": "2026-11-24T17:06:42.333Z"
     },
     "total": {
      "line": null,
@@ -1203,7 +1203,7 @@
       "player": "Leon Draisaitl",
       "team": "EDM",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": null,
       "players": [
        8477934
@@ -1322,7 +1322,7 @@
       "player": "Leon Draisaitl",
       "team": "EDM",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8477934
       ]
@@ -1350,7 +1350,7 @@
       "player": "Ryan Nugent-Hopkins",
       "team": "EDM",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8476454
       ]
@@ -1366,7 +1366,7 @@
       "player": "Leon Draisaitl",
       "team": "EDM",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8477934
       ]
@@ -1408,7 +1408,7 @@
       "player": "Vasily Podkolzin",
       "team": "EDM",
       "pp": 2,
-      "line": 1,
+      "line": 2,
       "players": [
        8481617
       ]
@@ -1475,40 +1475,24 @@
       "sneaky": true
      }
     ],
-    "sneaky_goal": [],
+    "sneaky_goal": [
+     {
+      "selection": "Colton Dach \u00b7 1+ goal",
+      "prob": 0.244,
+      "fair": "+309",
+      "need": "+334",
+      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 20 season",
+      "player": "Colton Dach",
+      "team": "EDM",
+      "pp": 2,
+      "line": 3,
+      "players": [
+       8482703
+      ],
+      "sneaky": true
+     }
+    ],
     "pair": [
-     {
-      "selection": "McDavid + Draisaitl \u00b7 both 1+ point",
-      "prob": 0.846,
-      "fair": "-551",
-      "need": "-396",
-      "rationale": "Both scored 20 of 22 games together \u00b7 independent 62% \u00b7 correlated",
-      "team": "EDM",
-      "line": 1,
-      "read": "correlated",
-      "both": 20,
-      "n": 22,
-      "players": [
-       8478402,
-       8477934
-      ]
-     },
-     {
-      "selection": "McDavid + Podkolzin \u00b7 both 1+ point",
-      "prob": 0.559,
-      "fair": "-127",
-      "need": "-112",
-      "rationale": "Both scored 12 of 20 games together \u00b7 independent 42% \u00b7 correlated",
-      "team": "EDM",
-      "line": 1,
-      "read": "correlated",
-      "both": 12,
-      "n": 20,
-      "players": [
-       8478402,
-       8481617
-      ]
-     },
      {
       "selection": "Draisaitl + Podkolzin \u00b7 both 1+ point",
       "prob": 0.528,
@@ -1516,7 +1500,7 @@
       "need": "+101",
       "rationale": "Both scored 14 of 25 games together \u00b7 independent 39% \u00b7 correlated",
       "team": "EDM",
-      "line": 1,
+      "line": 2,
       "read": "correlated",
       "both": 14,
       "n": 25,
@@ -1556,6 +1540,38 @@
        8478403,
        8475913
       ]
+     },
+     {
+      "selection": "McDavid + Nugent-Hopkins \u00b7 both 1+ point",
+      "prob": 0.482,
+      "fair": "+107",
+      "need": "+120",
+      "rationale": "Both scored 1 of 1 games together \u00b7 independent 40% \u00b7 new pair",
+      "team": "EDM",
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 1,
+      "players": [
+       8478402,
+       8476454
+      ]
+     },
+     {
+      "selection": "Hertl + Barbashev \u00b7 both 1+ point",
+      "prob": 0.441,
+      "fair": "+127",
+      "need": "+140",
+      "rationale": "Both scored 4 of 6 games together \u00b7 independent 22% \u00b7 correlated",
+      "team": "VGK",
+      "line": 3,
+      "read": "correlated",
+      "both": 4,
+      "n": 6,
+      "players": [
+       8476881,
+       8477964
+      ]
      }
     ],
     "two": [
@@ -1582,7 +1598,7 @@
       "player": "Leon Draisaitl",
       "team": "EDM",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8477934
       ]
@@ -1610,7 +1626,7 @@
       "player": "Ryan Nugent-Hopkins",
       "team": "EDM",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8476454
       ]
@@ -1631,22 +1647,6 @@
      }
     ],
     "pp1": [
-     {
-      "selection": "McDavid + Draisaitl \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.846,
-      "fair": "-551",
-      "need": "-396",
-      "rationale": "Both scored 20 of 22 games together \u00b7 independent 62% \u00b7 correlated",
-      "team": "EDM",
-      "line": 1,
-      "read": "correlated",
-      "both": 20,
-      "n": 22,
-      "players": [
-       8478402,
-       8477934
-      ]
-     },
      {
       "selection": "Olofsson + Hertl \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.502,
@@ -1680,18 +1680,34 @@
       ]
      },
      {
-      "selection": "Nugent-Hopkins + Kapanen \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.385,
-      "fair": "+160",
-      "need": "+175",
-      "rationale": "Both scored 5 of 10 games together \u00b7 independent 19% \u00b7 correlated",
+      "selection": "McDavid + Nugent-Hopkins \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.482,
+      "fair": "+107",
+      "need": "+120",
+      "rationale": "Both scored 1 of 1 games together \u00b7 independent 40% \u00b7 new pair",
       "team": "EDM",
-      "line": 2,
-      "read": "correlated",
-      "both": 5,
-      "n": 10,
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 1,
       "players": [
-       8476454,
+       8478402,
+       8476454
+      ]
+     },
+     {
+      "selection": "McDavid + Kapanen \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.42,
+      "fair": "+138",
+      "need": "+153",
+      "rationale": "Both scored 1 of 1 games together \u00b7 independent 32% \u00b7 new pair",
+      "team": "EDM",
+      "line": 1,
+      "read": "new pair",
+      "both": 1,
+      "n": 1,
+      "players": [
+       8478402,
        8477953
       ]
      }
@@ -3265,49 +3281,49 @@
     },
     "home": {
      "team": "EDM",
-     "as_of": "2026-11-24T13:12:32.298Z",
-     "checked": "2026-11-24T16:45:17.134095+00:00",
+     "as_of": "2026-11-24T17:06:42.333Z",
+     "checked": "2026-11-24T22:09:35.974408+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-24T13:12:32.298Z",
+     "source": "Bob Stauffer",
+     "updated_dfo": "2026-11-24T17:06:42.333Z",
      "forwards": [
       [
        {
-        "name": "Vasily Podkolzin",
-        "jersey": 92,
+        "name": "Ryan Nugent-Hopkins",
+        "jersey": 93,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481617,
-        "dfo_id": 30606,
+        "player_id": 8476454,
+        "dfo_id": 1733,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 9,
-         "g": 13,
-         "gp": 26,
-         "p": 22,
-         "ppp": 8,
-         "sog": 51,
-         "toi_s": 28028
+         "a": 7,
+         "g": 4,
+         "gp": 12,
+         "p": 11,
+         "ppp": 7,
+         "sog": 19,
+         "toi_s": 13098
         },
         "last5": {
-         "a": 3,
-         "g": 4,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 7,
+         "p": 2,
          "ppp": 2,
-         "sog": 9,
-         "toi_s": 5887
+         "sog": 4,
+         "toi_s": 4747
         },
-        "l5_point_games": 5,
-        "gp": 26,
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
-         "ev": 1,
-         "pp": -1,
-         "new": false
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        },
        {
@@ -3349,122 +3365,6 @@
         }
        },
        {
-        "name": "Leon Draisaitl",
-        "jersey": 29,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8477934,
-        "dfo_id": 2365,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 24,
-         "g": 23,
-         "gp": 26,
-         "p": 47,
-         "ppp": 16,
-         "sog": 98,
-         "toi_s": 34332
-        },
-        "last5": {
-         "a": 4,
-         "g": 5,
-         "gp": 5,
-         "p": 9,
-         "ppp": 4,
-         "sog": 16,
-         "toi_s": 6754
-        },
-        "l5_point_games": 4,
-        "gp": 26,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Colton Dach",
-        "jersey": 34,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8482703,
-        "dfo_id": 32903,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 2,
-         "g": 5,
-         "gp": 20,
-         "p": 7,
-         "ppp": 1,
-         "sog": 34,
-         "toi_s": 16807
-        },
-        "last5": {
-         "a": 0,
-         "g": 2,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 3965
-        },
-        "l5_point_games": 2,
-        "gp": 20,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Ryan Nugent-Hopkins",
-        "jersey": 93,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476454,
-        "dfo_id": 1733,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 12,
-         "p": 11,
-         "ppp": 7,
-         "sog": 19,
-         "toi_s": 13098
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 4,
-         "toi_s": 4747
-        },
-        "l5_point_games": 1,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
-       },
-       {
         "name": "Kasperi Kapanen",
         "jersey": 42,
         "pos": "RW",
@@ -3497,7 +3397,123 @@
         "l5_point_games": 2,
         "gp": 26,
         "move": {
-         "ev": -1,
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Vasily Podkolzin",
+        "jersey": 92,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8481617,
+        "dfo_id": 30606,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 9,
+         "g": 13,
+         "gp": 26,
+         "p": 22,
+         "ppp": 8,
+         "sog": 51,
+         "toi_s": 28028
+        },
+        "last5": {
+         "a": 3,
+         "g": 4,
+         "gp": 5,
+         "p": 7,
+         "ppp": 2,
+         "sog": 9,
+         "toi_s": 5887
+        },
+        "l5_point_games": 5,
+        "gp": 26,
+        "move": {
+         "ev": 0,
+         "pp": -1,
+         "new": false
+        }
+       },
+       {
+        "name": "Leon Draisaitl",
+        "jersey": 29,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8477934,
+        "dfo_id": 2365,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 24,
+         "g": 23,
+         "gp": 26,
+         "p": 47,
+         "ppp": 16,
+         "sog": 98,
+         "toi_s": 34332
+        },
+        "last5": {
+         "a": 4,
+         "g": 5,
+         "gp": 5,
+         "p": 9,
+         "ppp": 4,
+         "sog": 16,
+         "toi_s": 6754
+        },
+        "l5_point_games": 4,
+        "gp": 26,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Mathieu Joseph",
+        "jersey": 21,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8478472,
+        "dfo_id": 3891,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "A",
+        "season": {
+         "a": 6,
+         "g": 4,
+         "gp": 26,
+         "p": 10,
+         "ppp": 0,
+         "sog": 22,
+         "toi_s": 19928
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 3659
+        },
+        "l5_point_games": 2,
+        "gp": 26,
+        "move": {
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -3581,39 +3597,39 @@
         }
        },
        {
-        "name": "Mathieu Joseph",
-        "jersey": 21,
+        "name": "Colton Dach",
+        "jersey": 34,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478472,
-        "dfo_id": 3891,
+        "player_id": 8482703,
+        "dfo_id": 32903,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "A",
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
         "season": {
-         "a": 6,
-         "g": 4,
-         "gp": 26,
-         "p": 10,
-         "ppp": 0,
-         "sog": 22,
-         "toi_s": 19928
+         "a": 2,
+         "g": 5,
+         "gp": 20,
+         "p": 7,
+         "ppp": 1,
+         "sog": 34,
+         "toi_s": 16807
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 2,
          "gp": 5,
          "p": 2,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3659
+         "sog": 5,
+         "toi_s": 3965
         },
         "l5_point_games": 2,
-        "gp": 26,
+        "gp": 20,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -4095,7 +4111,7 @@
         "l5_point_games": 2,
         "gp": 26,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -4107,7 +4123,7 @@
         "slot": 2,
         "player_id": 8476454,
         "dfo_id": 1733,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -4171,7 +4187,7 @@
         "l5_point_games": 4,
         "gp": 26,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -4287,7 +4303,7 @@
         "l5_point_games": 5,
         "gp": 26,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": -1,
          "new": false
         }
@@ -4325,7 +4341,7 @@
         "l5_point_games": 2,
         "gp": 20,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -4519,7 +4535,7 @@
         "l5_point_games": 2,
         "gp": 26,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -4673,7 +4689,7 @@
         "l5_point_games": 2,
         "gp": 26,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -4778,11 +4794,6 @@
        "news": "Savoie (undisclosed) has been placed on LTIR."
       },
       {
-       "player": "Ryan Nugent-Hopkins",
-       "status": "DTD",
-       "news": "Nugent-Hopkins (undisclosed) is cleared to play and will most likely return to the lineup on Tuesday."
-      },
-      {
        "player": "Zach Hyman",
        "status": "DTD",
        "news": "Hyman (migraine) will not play Sunday in St. Louis."
@@ -4798,7 +4809,7 @@
        "rating": 72.51196628833281
       },
       "d3": {
-       "rank": 11,
+       "rank": 10,
        "rating": 73.1340477966181
       },
       "d4": {
@@ -4806,19 +4817,19 @@
        "rating": 0
       },
       "f1": {
-       "rank": 2,
-       "rating": 84.3760359183493
+       "rank": 10,
+       "rating": 77.1961476580927
       },
       "f2": {
-       "rank": 17,
-       "rating": 74.4591132432952
+       "rank": 7,
+       "rating": 77.89789851003445
       },
       "f3": {
-       "rank": 30,
-       "rating": 70.10095046670502
+       "rank": 31,
+       "rating": 70.487959262352
       },
       "f4": {
-       "rank": 15,
+       "rank": 14,
        "rating": 72.28650273052176
       },
       "g": {
