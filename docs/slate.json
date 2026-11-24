@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_utc": "2026-11-23T23:56:43.712196+00:00",
+ "generated_utc": "2026-11-24T00:01:53.790250+00:00",
  "games": [
   {
    "game_id": 2026020378,
@@ -22,7 +22,7 @@
      "goalie_source": "Dave Maetzold",
      "sv": "0.907",
      "gaa": "2.64",
-     "ml": "-148",
+     "ml": "-155",
      "gp": 21,
      "gf": 2.4761904761904763,
      "gf_rk": 32,
@@ -1971,7 +1971,7 @@
      "goalie_source": "Mike Morreale",
      "sv": "0.897",
      "gaa": "2.8",
-     "ml": "124",
+     "ml": "130",
      "gp": 23,
      "gf": 3.782608695652174,
      "gf_rk": 4,
@@ -3910,7 +3910,7 @@
    "start_et": "7:30 PM",
    "away": "LAK",
    "home": "MTL",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Centre Bell",
    "teams": {
     "away": {
@@ -7814,7 +7814,7 @@
    "start_et": "7:30 PM",
    "away": "CGY",
    "home": "OTT",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Canadian Tire Centre",
    "teams": {
     "away": {
@@ -11714,7 +11714,7 @@
    "start_et": "7:30 PM",
    "away": "TOR",
    "home": "NYI",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "UBS Arena",
    "teams": {
     "away": {
@@ -15645,7 +15645,7 @@
    "start_et": "7:30 PM",
    "away": "UTA",
    "home": "WPG",
-   "state": "FUT",
+   "state": "PRE",
    "venue": "Canada Life Centre",
    "teams": {
     "away": {
@@ -23496,7 +23496,7 @@
      "l5_gf": 5.0,
      "l5_ga": 2.2,
      "lineup_as_of": "2026-11-23T15:18:13.262Z",
-     "lineup_checked": "2026-11-23T16:55:56.915863+00:00",
+     "lineup_checked": "2026-11-24T00:01:48.693200+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -23507,7 +23507,7 @@
       {
        "player": "Quinn Hughes",
        "status": "DTD",
-       "news": "Hughes (upper-body) will miss the final two games of the Wild's road-trip."
+       "news": "Hughes (upper-body) has been placed on IR."
       }
      ],
      "lines": {
@@ -25432,8 +25432,8 @@
      "ppga_rk": 6,
      "l5_gf": 3.4,
      "l5_ga": 3.4,
-     "lineup_as_of": "2026-11-23T15:19:44.447Z",
-     "lineup_checked": "2026-11-23T16:55:57.576365+00:00",
+     "lineup_as_of": "2026-11-23T18:38:43.218Z",
+     "lineup_checked": "2026-11-24T00:01:48.783138+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -25448,8 +25448,13 @@
       },
       {
        "player": "Kiefer Sherwood",
-       "status": "OUT",
+       "status": "IR",
        "news": "Sherwood is considered week-to-week with an upper-body injury."
+      },
+      {
+       "player": "Jacob Trouba",
+       "status": "DTD",
+       "news": "Trouba (lower-body) is out vs. Minnesota on Monday and will miss the remainder of the week."
       }
      ],
      "lines": {
@@ -25920,7 +25925,7 @@
        "opp": "MIN",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -25996,18 +26001,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Jacob Trouba",
-         "jersey": 65,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
+         "name": "Eric Pohlkamp",
+         "jersey": null,
+         "pp": 2,
+         "n": 8,
+         "both": 2,
+         "either": 5
         }
        ]
       },
@@ -26224,104 +26229,6 @@
        ]
       },
       {
-       "name": "Jacob Trouba",
-       "jersey": 65,
-       "team": "SJS",
-       "opp": "MIN",
-       "section": "D",
-       "home": true,
-       "line": 2,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 9,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.27592727272727274,
-         "p_hot": 0.17676521739130432,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.06312727272727273,
-         "p_hot": 0.017530434782608694,
-         "heater": false
-        },
-        "assists": {
-         "k": 8,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.24029090909090908,
-         "p_hot": 0.1621565217391304,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 25,
-       "pt_games": 9,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 8,
-       "goal_games": 2,
-       "two_games": 2,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        4,
-        12
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.4,
-       "toi": 22.0,
-       "p": 0.276,
-       "fair": "+262",
-       "min": "+284",
-       "p2": 0.057,
-       "fair2": "+1654",
-       "min2": "+1759",
-       "adj": [
-        [
-         "opp",
-         0.84
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Dmitry Orlov",
-         "jersey": 9,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        }
-       ]
-      },
-      {
        "name": "Alexander Wennberg",
        "jersey": 21,
        "team": "SJS",
@@ -26438,7 +26345,7 @@
        "opp": "MIN",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -26514,7 +26421,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -26536,7 +26443,7 @@
        "opp": "MIN",
        "section": "D",
        "home": true,
-       "line": 1,
+       "line": 3,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -26612,18 +26519,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Darnell Nurse",
-         "jersey": 25,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Dmitry Orlov",
+         "jersey": 9,
+         "pp": 1,
+         "n": 8,
+         "both": 2,
+         "either": 5
         }
        ]
       },
@@ -26846,7 +26753,7 @@
        "opp": "MIN",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -26922,7 +26829,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -26934,6 +26841,104 @@
          "n": 1,
          "both": 0,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Michael Kesselring",
+       "jersey": 7,
+       "team": "SJS",
+       "opp": "MIN",
+       "section": "D",
+       "home": true,
+       "line": 1,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.1533,
+         "p_hot": 0.14024347826086955,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.012599999999999998,
+         "p_hot": 0.017530434782608694,
+         "heater": false
+        },
+        "assists": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.14279999999999998,
+         "p_hot": 0.12563478260869565,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 24,
+       "pt_games": 4,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 4,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        2,
+        12
+       ],
+       "away_split": [
+        2,
+        12
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.1,
+       "toi": 18.3,
+       "p": 0.153,
+       "fair": "+552",
+       "min": "+591",
+       "p2": 0.006,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.84
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Darnell Nurse",
+         "jersey": 25,
+         "pp": null,
+         "n": 22,
+         "both": 0,
+         "either": 6
         }
        ]
       },
@@ -27132,12 +27137,12 @@
        },
        "partners": [
         {
-         "name": "Eric Pohlkamp",
-         "jersey": null,
-         "pp": 2,
-         "n": 1,
+         "name": "Michael Kesselring",
+         "jersey": 7,
+         "pp": null,
+         "n": 22,
          "both": 0,
-         "either": 0
+         "either": 6
         }
        ]
       },

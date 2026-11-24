@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-23T23:56:44.462561+00:00",
+ "generated_utc": "2026-11-24T00:01:54.558111+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1180,8 +1180,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-148",
-     "home": "+124",
+     "away": "-155",
+     "home": "+130",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-23T16:20:53.225Z"
     },
@@ -5008,7 +5008,7 @@
    "id": "02",
    "game_id": 2026020379,
    "start_utc": "2026-11-24T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Centre Bell",
    "away": {
     "abbr": "LAK",
@@ -8872,7 +8872,7 @@
    "id": "03",
    "game_id": 2026020380,
    "start_utc": "2026-11-24T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Canadian Tire Centre",
    "away": {
     "abbr": "CGY",
@@ -12749,7 +12749,7 @@
    "id": "04",
    "game_id": 2026020381,
    "start_utc": "2026-11-24T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "UBS Arena",
    "away": {
     "abbr": "TOR",
@@ -16646,7 +16646,7 @@
    "id": "05",
    "game_id": 2026020382,
    "start_utc": "2026-11-24T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Canada Life Centre",
    "away": {
     "abbr": "UTA",
@@ -24470,7 +24470,7 @@
     "sv": "0.0",
     "gaa": "0.0",
     "lineup_as_of": "2026-11-23T15:18:13.262Z",
-    "lineup_checked": "2026-11-23T16:55:56.915863+00:00",
+    "lineup_checked": "2026-11-24T00:01:48.693200+00:00",
     "lineup_stale": false,
     "ga_rk": 32,
     "gf_rk": 7,
@@ -24519,13 +24519,24 @@
     "goalie_source": "Max Miller",
     "sv": "0.888",
     "gaa": "3.29",
-    "lineup_as_of": "2026-11-23T15:19:44.447Z",
-    "lineup_checked": "2026-11-23T16:55:57.576365+00:00",
+    "lineup_as_of": "2026-11-23T18:38:43.218Z",
+    "lineup_checked": "2026-11-24T00:01:48.783138+00:00",
     "lineup_stale": false,
     "ga_rk": 8,
     "gf_rk": 28,
     "ppga_rk": 6,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-24T00:01:48.786206+00:00",
+      "kind": "in",
+      "text": "IN: Michael Kesselring \u2192 L1"
+     },
+     {
+      "at": "2026-11-24T00:01:48.786206+00:00",
+      "kind": "out",
+      "text": "OUT: Jacob Trouba (was L2) \u2192 DTD"
+     }
+    ],
     "rates": {
      "gp": 25,
      "pp_gp": 25,
@@ -24560,7 +24571,7 @@
      "away": "+136",
      "home": "-162",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-23T15:19:44.447Z"
+     "as_of": "2026-11-23T18:38:43.218Z"
     },
     "total": {
      "line": 6.5,
@@ -25289,7 +25300,7 @@
     "away": {
      "team": "MIN",
      "as_of": "2026-11-23T15:18:13.262Z",
-     "checked": "2026-11-23T16:55:56.915863+00:00",
+     "checked": "2026-11-24T00:01:48.693200+00:00",
      "stale": false,
      "source": "Last Game (2026-11-21)",
      "updated_dfo": "2026-11-23T15:18:13.262Z",
@@ -25998,12 +26009,12 @@
      "goalies": [
       [
        {
-        "name": "Jesper Wallstedt",
-        "jersey": 30,
+        "name": "Filip Gustavsson",
+        "jersey": 32,
         "pos": "G",
         "slot": 1,
-        "player_id": 8482661,
-        "dfo_id": 31763,
+        "player_id": null,
+        "dfo_id": 4565,
         "gtd": false,
         "injury": null,
         "pp": null,
@@ -26012,7 +26023,7 @@
         "season": {
          "a": null,
          "g": null,
-         "gp": 22,
+         "gp": 0,
          "p": null,
          "ppp": null,
          "sog": null,
@@ -26034,9 +26045,9 @@
          "pp": 0,
          "new": false
         },
-        "record": "16-2-4",
-        "sv_pct": "0.923",
-        "starts": 22
+        "record": null,
+        "sv_pct": null,
+        "starts": 0
        }
       ],
       [
@@ -26788,12 +26799,12 @@
       {
        "player": "Quinn Hughes",
        "status": "DTD",
-       "news": "Hughes (upper-body) will miss the final two games of the Wild's road-trip."
+       "news": "Hughes (upper-body) has been placed on IR."
       }
      ],
      "unit_ratings": {
       "d1": {
-       "rank": 22,
+       "rank": 23,
        "rating": 73.65198042712801
       },
       "d2": {
@@ -26801,7 +26812,7 @@
        "rating": 76.12930885362101
       },
       "d3": {
-       "rank": 19,
+       "rank": 20,
        "rating": 71.4469042877604
       },
       "d4": {
@@ -26809,7 +26820,7 @@
        "rating": 0
       },
       "f1": {
-       "rank": 37,
+       "rank": 38,
        "rating": 71.5629880288299
       },
       "f2": {
@@ -26817,11 +26828,11 @@
        "rating": 70.47323920959235
       },
       "f3": {
-       "rank": 22,
+       "rank": 21,
        "rating": 72.09561466905461
       },
       "f4": {
-       "rank": 20,
+       "rank": 19,
        "rating": 71.79707571203647
       },
       "g": {
@@ -26848,11 +26859,11 @@
     },
     "home": {
      "team": "SJS",
-     "as_of": "2026-11-23T15:19:44.447Z",
-     "checked": "2026-11-23T16:55:57.576365+00:00",
+     "as_of": "2026-11-23T18:38:43.218Z",
+     "checked": "2026-11-24T00:01:48.783138+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-21)",
-     "updated_dfo": "2026-11-23T15:19:44.447Z",
+     "source": "Curtis Pashelka",
+     "updated_dfo": "2026-11-23T18:38:43.218Z",
      "forwards": [
       [
        {
@@ -27360,39 +27371,117 @@
         }
        },
        {
-        "name": "Eric Pohlkamp",
-        "jersey": 48,
+        "name": "Michael Kesselring",
+        "jersey": 7,
         "pos": "RD",
         "slot": null,
-        "player_id": 8484421,
-        "dfo_id": 33798,
+        "player_id": 8480891,
+        "dfo_id": 29644,
         "gtd": false,
         "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
+        "pp": null,
+        "pk": 1,
+        "bias": null,
         "season": {
-         "a": 2,
-         "g": 1,
-         "gp": 9,
-         "p": 3,
+         "a": 4,
+         "g": 0,
+         "gp": 24,
+         "p": 4,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 8655
+         "sog": 31,
+         "toi_s": 27218
         },
         "last5": {
-         "a": 0,
-         "g": 1,
+         "a": 1,
+         "g": 0,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4822
+         "sog": 10,
+         "toi_s": 5478
         },
         "l5_point_games": 1,
-        "gp": 9,
+        "gp": 24,
         "move": {
          "ev": 0,
+         "pp": 0,
+         "new": true
+        }
+       }
+      ],
+      [
+       {
+        "name": "Nolan Allan",
+        "jersey": 5,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8482700,
+        "dfo_id": 32541,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": "G",
+        "season": {
+         "a": 1,
+         "g": 3,
+         "gp": 11,
+         "p": 4,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 10050
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 4057
+        },
+        "l5_point_games": 2,
+        "gp": 11,
+        "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Sam Dickinson",
+        "jersey": 6,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8484806,
+        "dfo_id": 37090,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 1,
+         "gp": 23,
+         "p": 4,
+         "ppp": 0,
+         "sog": 18,
+         "toi_s": 26316
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 6257
+        },
+        "l5_point_games": 1,
+        "gp": 23,
+        "move": {
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -27432,123 +27521,45 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Jacob Trouba",
-        "jersey": 65,
+        "name": "Eric Pohlkamp",
+        "jersey": 48,
         "pos": "RD",
         "slot": null,
-        "player_id": 8476885,
-        "dfo_id": 2099,
+        "player_id": 8484421,
+        "dfo_id": 33798,
         "gtd": false,
         "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
         "season": {
-         "a": 9,
-         "g": 2,
-         "gp": 25,
-         "p": 11,
-         "ppp": 3,
-         "sog": 41,
-         "toi_s": 33159
+         "a": 2,
+         "g": 1,
+         "gp": 9,
+         "p": 3,
+         "ppp": 0,
+         "sog": 12,
+         "toi_s": 8655
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 6590
+         "sog": 8,
+         "toi_s": 4822
         },
         "l5_point_games": 1,
-        "gp": 25,
+        "gp": 9,
         "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Nolan Allan",
-        "jersey": 5,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8482700,
-        "dfo_id": 32541,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": "G",
-        "season": {
-         "a": 1,
-         "g": 3,
-         "gp": 11,
-         "p": 4,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 10050
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 4057
-        },
-        "l5_point_games": 2,
-        "gp": 11,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Sam Dickinson",
-        "jersey": 6,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8484806,
-        "dfo_id": 37090,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 23,
-         "p": 4,
-         "ppp": 0,
-         "sog": 18,
-         "toi_s": 26316
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 6257
-        },
-        "l5_point_games": 1,
-        "gp": 23,
-        "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27830,7 +27841,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -27984,7 +27995,7 @@
         "l5_point_games": 1,
         "gp": 9,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -28146,25 +28157,25 @@
         }
        },
        {
-        "name": "Jacob Trouba",
-        "jersey": 65,
+        "name": "Michael Kesselring",
+        "jersey": 7,
         "pos": null,
         "slot": 4,
-        "player_id": 8476885,
-        "dfo_id": 2099,
+        "player_id": 8480891,
+        "dfo_id": 29644,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 9,
-         "g": 2,
-         "gp": 25,
-         "p": 11,
-         "ppp": 3,
-         "sog": 41,
-         "toi_s": 33159
+         "a": 4,
+         "g": 0,
+         "gp": 24,
+         "p": 4,
+         "ppp": 0,
+         "sog": 31,
+         "toi_s": 27218
         },
         "last5": {
          "a": 1,
@@ -28172,15 +28183,15 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 11,
-         "toi_s": 6590
+         "sog": 10,
+         "toi_s": 5478
         },
         "l5_point_games": 1,
-        "gp": 25,
+        "gp": 24,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -28262,48 +28273,10 @@
         }
        },
        {
-        "name": "Sam Dickinson",
-        "jersey": 6,
-        "pos": null,
-        "slot": 3,
-        "player_id": 8484806,
-        "dfo_id": 37090,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 23,
-         "p": 4,
-         "ppp": 0,
-         "sog": 18,
-         "toi_s": 26316
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 6257
-        },
-        "l5_point_games": 1,
-        "gp": 23,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Nolan Allan",
         "jersey": 5,
         "pos": null,
-        "slot": 4,
+        "slot": 3,
         "player_id": 8482700,
         "dfo_id": 32541,
         "gtd": false,
@@ -28332,7 +28305,45 @@
         "l5_point_games": 2,
         "gp": 11,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Sam Dickinson",
+        "jersey": 6,
+        "pos": null,
+        "slot": 4,
+        "player_id": 8484806,
+        "dfo_id": 37090,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 1,
+         "gp": 23,
+         "p": 4,
+         "ppp": 0,
+         "sog": 18,
+         "toi_s": 26316
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 6257
+        },
+        "l5_point_games": 1,
+        "gp": 23,
+        "move": {
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -28352,8 +28363,13 @@
       },
       {
        "player": "Kiefer Sherwood",
-       "status": "OUT",
+       "status": "IR",
        "news": "Sherwood is considered week-to-week with an upper-body injury."
+      },
+      {
+       "player": "Jacob Trouba",
+       "status": "DTD",
+       "news": "Trouba (lower-body) is out vs. Minnesota on Monday and will miss the remainder of the week."
       }
      ],
      "unit_ratings": {
@@ -28362,19 +28378,19 @@
        "rating": 74.06476112866682
       },
       "d2": {
-       "rank": 24,
-       "rating": 72.89454885282483
+       "rank": 37,
+       "rating": 0
       },
       "d3": {
-       "rank": 28,
-       "rating": 0
+       "rank": 12,
+       "rating": 73.09793157004562
       },
       "d4": {
        "rank": 6,
        "rating": 0
       },
       "f1": {
-       "rank": 41,
+       "rank": 42,
        "rating": 0
       },
       "f2": {
@@ -28382,7 +28398,7 @@
        "rating": 72.80624706470401
       },
       "f3": {
-       "rank": 26,
+       "rank": 24,
        "rating": 71.76330165875282
       },
       "f4": {
