@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_utc": "2026-11-24T00:17:21.975366+00:00",
+ "generated_utc": "2026-11-24T00:22:29.396332+00:00",
  "games": [
   {
    "game_id": 2026020378,
@@ -3936,24 +3936,14 @@
      "ppga_rk": 3,
      "l5_gf": 2.4,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-23T17:42:45.791Z",
-     "lineup_checked": "2026-11-23T22:25:23.005809+00:00",
+     "lineup_as_of": "2026-11-24T00:18:01.150Z",
+     "lineup_checked": "2026-11-24T00:22:25.413010+00:00",
      "lineup_stale": false,
      "out": [
       {
        "player": "Erik Gustafsson",
        "status": "IR",
        "news": "Gustafsson (hand) has been placed on IR and will be out for the 2-4 weeks."
-      },
-      {
-       "player": "Trevor Moore",
-       "status": "DTD",
-       "news": "Moore (undisclosed) is a game-time decision in Montreal on Monday."
-      },
-      {
-       "player": "Joel Edmundson",
-       "status": "DTD",
-       "news": "Edmundson (undisclosed) will be a game-time decision in Montreal on Monday."
       }
      ],
      "lines": {
@@ -3974,7 +3964,7 @@
       ],
       "4": [
        "Andre Lee",
-       "Scott Laughton",
+       "Alex Turcotte",
        "Corey Perry"
       ]
      },
@@ -4106,7 +4096,7 @@
        "opp": "MTL",
        "section": "D",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -4182,18 +4172,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Joel Edmundson",
-         "jersey": 6,
+         "name": "Brian Dumoulin",
+         "jersey": 2,
          "pp": null,
-         "n": 4,
+         "n": 2,
          "both": 0,
-         "either": 1
+         "either": 2
         }
        ]
       },
@@ -4982,7 +4972,7 @@
         }
        },
        "pos": "LW",
-       "gtd": true,
+       "gtd": false,
        "role": "other",
        "bias": null,
        "gp": 19,
@@ -5046,8 +5036,8 @@
        ]
       },
       {
-       "name": "Scott Laughton",
-       "jersey": 21,
+       "name": "Alex Turcotte",
+       "jersey": 15,
        "team": "LAK",
        "opp": "MTL",
        "section": "F",
@@ -5057,33 +5047,33 @@
        "sneaky": true,
        "form": {
         "points": {
-         "k": 6,
+         "k": 2,
          "k5": 1,
          "n5": 5,
          "k10": 2,
-         "n10": 10,
-         "p": 0.26589543937708565,
-         "p_hot": 0.20953716690042076,
+         "n10": 8,
+         "p": 0.24096774193548387,
+         "p_hot": 0.22949308755760367,
          "heater": false
         },
         "goals": {
-         "k": 2,
-         "k5": 0,
+         "k": 1,
+         "k5": 1,
          "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.09838131256952168,
-         "p_hot": 0.04023113604488078,
+         "k10": 1,
+         "n10": 8,
+         "p": 0.1180741935483871,
+         "p_hot": 0.13585990783410137,
          "heater": false
         },
         "assists": {
-         "k": 4,
-         "k5": 1,
+         "k": 1,
+         "k5": 0,
          "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.17283203559510568,
-         "p_hot": 0.17601122019635343,
+         "k10": 1,
+         "n10": 8,
+         "p": 0.13253225806451613,
+         "p_hot": 0.10097695852534562,
          "heater": false
         }
        },
@@ -5091,34 +5081,34 @@
        "gtd": false,
        "role": "other",
        "bias": null,
-       "gp": 21,
-       "pt_games": 6,
+       "gp": 8,
+       "pt_games": 2,
        "l5": [
         1,
         5
        ],
-       "ast_games": 4,
-       "goal_games": 2,
+       "ast_games": 1,
+       "goal_games": 1,
        "two_games": 0,
        "home_split": [
-        2,
-        10
+        0,
+        3
        ],
        "away_split": [
-        4,
-        11
+        2,
+        5
        ],
        "l5_venue": [
         2,
         5
        ],
        "l5_venue_two": 0,
-       "pp_toi": 0.1,
-       "toi": 11.7,
-       "p": 0.266,
-       "fair": "+276",
-       "min": "+299",
-       "p2": 0.011,
+       "pp_toi": 0.0,
+       "toi": 12.3,
+       "p": 0.241,
+       "fair": "+315",
+       "min": "+340",
+       "p2": 0.019,
        "fair2": "+4900",
        "min2": "+4900",
        "adj": [
@@ -5128,7 +5118,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
@@ -5137,17 +5127,17 @@
          "name": "Andre Lee",
          "jersey": null,
          "pp": null,
-         "n": 9,
-         "both": 2,
-         "either": 3
+         "n": 1,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Corey Perry",
          "jersey": 90,
          "pp": 2,
-         "n": 6,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -5158,7 +5148,7 @@
        "opp": "MTL",
        "section": "D",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -5338,12 +5328,12 @@
        },
        "partners": [
         {
-         "name": "Scott Laughton",
-         "jersey": 21,
+         "name": "Alex Turcotte",
+         "jersey": 15,
          "pp": null,
-         "n": 9,
-         "both": 2,
-         "either": 3
+         "n": 1,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Corey Perry",
@@ -5362,7 +5352,7 @@
        "opp": "MTL",
        "section": "D",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -5438,7 +5428,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -5460,7 +5450,7 @@
        "opp": "MTL",
        "section": "D",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -5536,18 +5526,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Cody Ceci",
-         "jersey": 44,
-         "pp": null,
-         "n": 1,
+         "name": "Brandt Clarke",
+         "jersey": 92,
+         "pp": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 2
         }
        ]
       },
@@ -5648,12 +5638,12 @@
          "either": 2
         },
         {
-         "name": "Scott Laughton",
-         "jersey": 21,
+         "name": "Alex Turcotte",
+         "jersey": 15,
          "pp": null,
-         "n": 6,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -5664,7 +5654,7 @@
        "opp": "MTL",
        "section": "D",
        "home": false,
-       "line": 1,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -5700,7 +5690,7 @@
         }
        },
        "pos": "LD",
-       "gtd": true,
+       "gtd": false,
        "role": "d",
        "bias": null,
        "gp": 21,
@@ -5740,16 +5730,16 @@
         ]
        ],
        "move": {
-        "ev": 1,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Brandt Clarke",
-         "jersey": 92,
-         "pp": 1,
-         "n": 4,
+         "name": "Cody Ceci",
+         "jersey": 44,
+         "pp": null,
+         "n": 3,
          "both": 0,
          "either": 1
         }
@@ -5844,12 +5834,12 @@
        },
        "partners": [
         {
-         "name": "Brian Dumoulin",
-         "jersey": 2,
+         "name": "Joel Edmundson",
+         "jersey": 6,
          "pp": null,
-         "n": 1,
+         "n": 3,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       }

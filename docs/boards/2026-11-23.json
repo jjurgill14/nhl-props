@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-24T00:17:22.745483+00:00",
+ "generated_utc": "2026-11-24T00:22:30.109833+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -5024,8 +5024,8 @@
     "goalie_source": "Zach Dooley",
     "sv": "0.885",
     "gaa": "3.22",
-    "lineup_as_of": "2026-11-23T17:42:45.791Z",
-    "lineup_checked": "2026-11-23T22:25:23.005809+00:00",
+    "lineup_as_of": "2026-11-24T00:18:01.150Z",
+    "lineup_checked": "2026-11-24T00:22:25.413010+00:00",
     "lineup_stale": false,
     "ga_rk": 13,
     "gf_rk": 26,
@@ -5040,6 +5040,16 @@
       "at": "2026-11-23T21:39:54.505297+00:00",
       "kind": "out",
       "text": "OUT: Samuel Helenius (was L4)"
+     },
+     {
+      "at": "2026-11-24T00:22:25.416259+00:00",
+      "kind": "in",
+      "text": "IN: Alex Turcotte \u2192 L4"
+     },
+     {
+      "at": "2026-11-24T00:22:25.416259+00:00",
+      "kind": "out",
+      "text": "OUT: Scott Laughton (was L4)"
      }
     ],
     "rates": {
@@ -5255,7 +5265,7 @@
       "player": "Brandt Clarke",
       "team": "LAK",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": "A",
       "players": [
        8482730
@@ -5286,7 +5296,7 @@
       "player": "Brandt Clarke",
       "team": "LAK",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8482730
       ]
@@ -5487,11 +5497,11 @@
       "prob": 0.228,
       "fair": "+339",
       "need": "+365",
-      "rationale": "D1 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 21 season",
+      "rationale": "D3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 21 season",
       "player": "Joel Edmundson",
       "team": "LAK",
       "pp": null,
-      "line": 1,
+      "line": 3,
       "players": [
        8476441
       ],
@@ -5733,11 +5743,11 @@
    "lineup": {
     "away": {
      "team": "LAK",
-     "as_of": "2026-11-23T17:42:45.791Z",
-     "checked": "2026-11-23T22:25:23.005809+00:00",
+     "as_of": "2026-11-24T00:18:01.150Z",
+     "checked": "2026-11-24T00:22:25.413010+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-23T17:42:45.791Z",
+     "source": "Zach Dooley",
+     "updated_dfo": "2026-11-24T00:18:01.150Z",
      "forwards": [
       [
        {
@@ -5979,7 +5989,7 @@
         "slot": null,
         "player_id": 8479675,
         "dfo_id": 2878,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
@@ -6127,39 +6137,39 @@
         }
        },
        {
-        "name": "Scott Laughton",
-        "jersey": 21,
+        "name": "Alex Turcotte",
+        "jersey": 15,
         "pos": "C",
         "slot": null,
-        "player_id": 8476872,
-        "dfo_id": 2018,
+        "player_id": 8481532,
+        "dfo_id": 30420,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 4,
-         "g": 2,
-         "gp": 21,
-         "p": 6,
+         "a": 1,
+         "g": 1,
+         "gp": 8,
+         "p": 2,
          "ppp": 0,
-         "sog": 25,
-         "toi_s": 17095
+         "sog": 8,
+         "toi_s": 6224
         },
         "last5": {
-         "a": 1,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 3503
+         "sog": 7,
+         "toi_s": 3685
         },
         "l5_point_games": 1,
-        "gp": 21,
+        "gp": 8,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -6205,84 +6215,6 @@
       ]
      ],
      "defense": [
-      [
-       {
-        "name": "Joel Edmundson",
-        "jersey": 6,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8476441,
-        "dfo_id": 2532,
-        "gtd": true,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 3,
-         "g": 1,
-         "gp": 21,
-         "p": 4,
-         "ppp": 0,
-         "sog": 20,
-         "toi_s": 21768
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 5356
-        },
-        "l5_point_games": 2,
-        "gp": 21,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Brandt Clarke",
-        "jersey": 92,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8482730,
-        "dfo_id": 30833,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 11,
-         "g": 3,
-         "gp": 21,
-         "p": 14,
-         "ppp": 4,
-         "sog": 32,
-         "toi_s": 25065
-        },
-        "last5": {
-         "a": 3,
-         "g": 0,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 6545
-        },
-        "l5_point_games": 3,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 1,
-         "new": false
-        }
-       }
-      ],
       [
        {
         "name": "Mikey Anderson",
@@ -6355,7 +6287,7 @@
         "l5_point_games": 1,
         "gp": 20,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -6395,7 +6327,85 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Brandt Clarke",
+        "jersey": 92,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8482730,
+        "dfo_id": 30833,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 11,
+         "g": 3,
+         "gp": 21,
+         "p": 14,
+         "ppp": 4,
+         "sog": 32,
+         "toi_s": 25065
+        },
+        "last5": {
+         "a": 3,
+         "g": 0,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 6545
+        },
+        "l5_point_games": 3,
+        "gp": 21,
+        "move": {
+         "ev": -1,
+         "pp": 1,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Joel Edmundson",
+        "jersey": 6,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8476441,
+        "dfo_id": 2532,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 1,
+         "gp": 21,
+         "p": 4,
+         "ppp": 0,
+         "sog": 20,
+         "toi_s": 21768
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 5356
+        },
+        "l5_point_games": 2,
+        "gp": 21,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -6715,7 +6725,7 @@
         "l5_point_games": 3,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 1,
          "new": false
         }
@@ -6907,7 +6917,7 @@
         "l5_point_games": 1,
         "gp": 20,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7063,7 +7073,7 @@
         "l5_point_games": 1,
         "gp": 20,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7115,7 +7125,7 @@
         "slot": 2,
         "player_id": 8479675,
         "dfo_id": 2878,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
@@ -7153,7 +7163,7 @@
         "slot": 3,
         "player_id": 8476441,
         "dfo_id": 2532,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
@@ -7179,7 +7189,7 @@
         "l5_point_games": 2,
         "gp": 21,
         "move": {
-         "ev": 1,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -7217,7 +7227,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -7229,30 +7239,20 @@
        "player": "Erik Gustafsson",
        "status": "IR",
        "news": "Gustafsson (hand) has been placed on IR and will be out for the 2-4 weeks."
-      },
-      {
-       "player": "Trevor Moore",
-       "status": "DTD",
-       "news": "Moore (undisclosed) is a game-time decision in Montreal on Monday."
-      },
-      {
-       "player": "Joel Edmundson",
-       "status": "DTD",
-       "news": "Edmundson (undisclosed) will be a game-time decision in Montreal on Monday."
       }
      ],
      "unit_ratings": {
       "d1": {
        "rank": 21,
-       "rating": 73.7557004795135
+       "rating": 73.7584246421038
       },
       "d2": {
        "rank": 14,
-       "rating": 73.7584246421038
+       "rating": 73.8823101159445
       },
       "d3": {
        "rank": 15,
-       "rating": 72.33107622422456
+       "rating": 72.26777140600905
       },
       "d4": {
        "rank": 6,
@@ -7271,8 +7271,8 @@
        "rating": 71.73977015218512
       },
       "f4": {
-       "rank": 21,
-       "rating": 71.6859154416015
+       "rank": 26,
+       "rating": 70.8289477596359
       },
       "g": {
        "rank": 13,
