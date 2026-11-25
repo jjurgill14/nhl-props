@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T21:25:13.376095+00:00",
+ "generated_utc": "2026-11-25T21:40:22.986942+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -32354,7 +32354,7 @@
     "sv": "0.889",
     "gaa": "3.48",
     "lineup_as_of": "2026-11-24T19:37:57.568Z",
-    "lineup_checked": "2026-11-25T16:23:20.373185+00:00",
+    "lineup_checked": "2026-11-25T21:40:16.997790+00:00",
     "lineup_stale": false,
     "ga_rk": 1,
     "gf_rk": 24,
@@ -32403,13 +32403,24 @@
     "goalie_source": "Max Bultman",
     "sv": "0.927",
     "gaa": "1.98",
-    "lineup_as_of": "2026-11-24T16:21:01.176Z",
-    "lineup_checked": "2026-11-25T16:23:18.718468+00:00",
+    "lineup_as_of": "2026-11-25T16:50:09.999Z",
+    "lineup_checked": "2026-11-25T21:40:17.079364+00:00",
     "lineup_stale": false,
     "ga_rk": 18,
     "gf_rk": 30,
     "ppga_rk": 10,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-25T21:40:17.082928+00:00",
+      "kind": "in",
+      "text": "IN: Mason Appleton \u2192 L4"
+     },
+     {
+      "at": "2026-11-25T21:40:17.082928+00:00",
+      "kind": "out",
+      "text": "OUT: Carter Mazur (was L4)"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -32444,7 +32455,7 @@
      "away": "-130",
      "home": "+110",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T16:21:01.176Z"
+     "as_of": "2026-11-25T16:50:09.999Z"
     },
     "total": {
      "line": 6.5,
@@ -33022,7 +33033,7 @@
     "away": {
      "team": "VAN",
      "as_of": "2026-11-24T19:37:57.568Z",
-     "checked": "2026-11-25T16:23:20.373185+00:00",
+     "checked": "2026-11-25T21:40:16.997790+00:00",
      "stale": false,
      "source": "Thomas Drance",
      "updated_dfo": "2026-11-24T19:37:57.568Z",
@@ -34521,7 +34532,7 @@
       {
        "player": "Elias Pettersson",
        "status": "DTD",
-       "news": "Pettersson (upper-body) will not play on Saturday."
+       "news": "Pettersson (upper-body) has returned to Vancouver and is expected to miss the remainder of their road trip."
       }
      ],
      "unit_ratings": {
@@ -34542,11 +34553,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 34,
+       "rank": 35,
        "rating": 72.70859182398098
       },
       "f2": {
-       "rank": 35,
+       "rank": 33,
        "rating": 0
       },
       "f3": {
@@ -34554,7 +34565,7 @@
        "rating": 0
       },
       "f4": {
-       "rank": 33,
+       "rank": 32,
        "rating": 0
       },
       "g": {
@@ -34581,11 +34592,11 @@
     },
     "home": {
      "team": "DET",
-     "as_of": "2026-11-24T16:21:01.176Z",
-     "checked": "2026-11-25T16:23:18.718468+00:00",
+     "as_of": "2026-11-25T16:50:09.999Z",
+     "checked": "2026-11-25T21:40:17.079364+00:00",
      "stale": false,
      "source": "Ansar Khan",
-     "updated_dfo": "2026-11-24T16:21:01.176Z",
+     "updated_dfo": "2026-11-25T16:50:09.999Z",
      "forwards": [
       [
        {
@@ -34937,41 +34948,41 @@
       ],
       [
        {
-        "name": "Carter Mazur",
-        "jersey": 34,
+        "name": "Mason Appleton",
+        "jersey": 22,
         "pos": "LW",
         "slot": null,
-        "player_id": 8482802,
-        "dfo_id": 34532,
+        "player_id": 8478891,
+        "dfo_id": 4582,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 4,
-         "g": 1,
-         "gp": 16,
-         "p": 5,
-         "ppp": 0,
-         "sog": 13,
-         "toi_s": 9290
-        },
-        "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3666
+         "sog": 5,
+         "toi_s": 3144
         },
-        "l5_point_games": 1,
-        "gp": 16,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3144
+        },
+        "l5_point_games": 0,
+        "gp": 5,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
@@ -36095,11 +36106,11 @@
        "rating": 73.8052771511446
       },
       "d2": {
-       "rank": 14,
+       "rank": 13,
        "rating": 74.1070848100615
       },
       "d3": {
-       "rank": 24,
+       "rank": 25,
        "rating": 70.730371124859
       },
       "d4": {
@@ -36107,11 +36118,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 26,
+       "rank": 27,
        "rating": 73.84913563266721
       },
       "f2": {
-       "rank": 20,
+       "rank": 18,
        "rating": 73.51940912756152
       },
       "f3": {
@@ -36119,8 +36130,8 @@
        "rating": 71.694260863777
       },
       "f4": {
-       "rank": 20,
-       "rating": 71.720631128833
+       "rank": 24,
+       "rating": 70.99697229794991
       },
       "g": {
        "rank": 14,
