@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T23:47:21.911309+00:00",
+ "generated_utc": "2026-11-25T23:52:31.272229+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -8866,8 +8866,8 @@
     "goalie_source": "Gabby Shirley",
     "sv": "0.895",
     "gaa": "2.59",
-    "lineup_as_of": "2026-11-24T17:18:50.518Z",
-    "lineup_checked": "2026-11-25T23:36:55.903803+00:00",
+    "lineup_as_of": "2026-11-25T23:49:07.000Z",
+    "lineup_checked": "2026-11-25T23:52:24.755886+00:00",
     "lineup_stale": false,
     "ga_rk": 24,
     "gf_rk": 6,
@@ -8907,7 +8907,7 @@
      "away": "+210",
      "home": "-258",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T17:18:50.518Z"
+     "as_of": "2026-11-25T23:49:07.000Z"
     },
     "total": {
      "line": 6.5,
@@ -9232,21 +9232,6 @@
       "sneaky": true
      },
      {
-      "selection": "Erik Cernak \u00b7 1+ point",
-      "prob": 0.401,
-      "fair": "+150",
-      "need": "+164",
-      "rationale": "D3 \u00b7 3 of L5 \u00b7 6 of L10 \u00b7 7 of 20 season",
-      "player": "Erik Cernak",
-      "team": "TBL",
-      "pp": null,
-      "line": 3,
-      "players": [
-       8478416
-      ],
-      "sneaky": true
-     },
-     {
       "selection": "Sean Walker \u00b7 1+ point",
       "prob": 0.395,
       "fair": "+153",
@@ -9263,21 +9248,6 @@
      }
     ],
     "sneaky_assist": [
-     {
-      "selection": "Erik Cernak \u00b7 1+ assist",
-      "prob": 0.386,
-      "fair": "+159",
-      "need": "+175",
-      "rationale": "D3 \u00b7 3 of L5 \u00b7 6 of L10 \u00b7 7 of 20 season",
-      "player": "Erik Cernak",
-      "team": "TBL",
-      "pp": null,
-      "line": 3,
-      "players": [
-       8478416
-      ],
-      "sneaky": true
-     },
      {
       "selection": "Eric Robinson \u00b7 1+ assist",
       "prob": 0.249,
@@ -11103,11 +11073,11 @@
     },
     "home": {
      "team": "TBL",
-     "as_of": "2026-11-24T17:18:50.518Z",
-     "checked": "2026-11-25T23:36:55.903803+00:00",
+     "as_of": "2026-11-25T23:49:07.000Z",
+     "checked": "2026-11-25T23:52:24.755886+00:00",
      "stale": false,
      "source": "Diandra Loux",
-     "updated_dfo": "2026-11-24T17:18:50.518Z",
+     "updated_dfo": "2026-11-25T23:49:07.000Z",
      "forwards": [
       [
        {
@@ -11117,7 +11087,7 @@
         "slot": null,
         "player_id": 8479542,
         "dfo_id": 27046,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 2,
@@ -11387,7 +11357,7 @@
         "slot": null,
         "player_id": 8476878,
         "dfo_id": 1953,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
@@ -11535,25 +11505,25 @@
         }
        },
        {
-        "name": "Scott Sabourin",
-        "jersey": 49,
+        "name": "Gage Goncalves",
+        "jersey": 93,
         "pos": "RW",
         "slot": null,
-        "player_id": 8477149,
-        "dfo_id": 2171,
+        "player_id": 8482201,
+        "dfo_id": 32521,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 1,
+         "a": 3,
          "g": 1,
-         "gp": 9,
-         "p": 2,
-         "ppp": 0,
-         "sog": 5,
-         "toi_s": 5111
+         "gp": 20,
+         "p": 4,
+         "ppp": 1,
+         "sog": 18,
+         "toi_s": 17866
         },
         "last5": {
          "a": 0,
@@ -11561,13 +11531,13 @@
          "gp": 5,
          "p": 1,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2975
+         "sog": 5,
+         "toi_s": 3969
         },
         "l5_point_games": 1,
-        "gp": 9,
+        "gp": 20,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -11655,53 +11625,15 @@
       ],
       [
        {
-        "name": "Victor Hedman",
-        "jersey": 77,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8475167,
-        "dfo_id": 1369,
-        "gtd": true,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 22,
-         "p": 6,
-         "ppp": 1,
-         "sog": 22,
-         "toi_s": 21026
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 3,
-         "toi_s": 5519
-        },
-        "l5_point_games": 0,
-        "gp": 22,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "J.J. Moser",
         "jersey": 90,
-        "pos": "RD",
+        "pos": "LD",
         "slot": null,
         "player_id": 8482655,
         "dfo_id": 34680,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
         "bias": null,
         "season": {
@@ -11726,8 +11658,46 @@
         "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
+        }
+       },
+       {
+        "name": "Maxwell Crozier",
+        "jersey": 24,
+        "pos": "RD",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 28863,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 3,
+         "g": 0,
+         "gp": 12,
+         "p": 3,
+         "ppp": 0,
+         "sog": 21,
+         "toi_s": 12267
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 5146
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        }
       ],
@@ -11742,7 +11712,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": 1,
         "bias": "G",
         "season": {
          "a": 3,
@@ -11771,41 +11741,41 @@
         }
        },
        {
-        "name": "Erik Cernak",
-        "jersey": 81,
+        "name": "Emil Lilleberg",
+        "jersey": 78,
         "pos": "RD",
         "slot": null,
-        "player_id": 8478416,
-        "dfo_id": 2749,
-        "gtd": true,
+        "player_id": 8482929,
+        "dfo_id": 37940,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 9,
+         "a": 0,
          "g": 0,
-         "gp": 20,
-         "p": 9,
+         "gp": 8,
+         "p": 0,
          "ppp": 0,
-         "sog": 23,
-         "toi_s": 22075
+         "sog": 2,
+         "toi_s": 5956
         },
         "last5": {
-         "a": 4,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 4,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5187
+         "sog": 0,
+         "toi_s": 3750
         },
-        "l5_point_games": 3,
-        "gp": 20,
+        "l5_point_games": 0,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -12099,7 +12069,7 @@
         "slot": 1,
         "player_id": 8479542,
         "dfo_id": 27046,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 2,
@@ -12245,25 +12215,25 @@
         }
        },
        {
-        "name": "Victor Hedman",
-        "jersey": 77,
+        "name": "J.J. Moser",
+        "jersey": 90,
         "pos": null,
         "slot": 5,
-        "player_id": 8475167,
-        "dfo_id": 1369,
-        "gtd": true,
+        "player_id": 8482655,
+        "dfo_id": 34680,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 1,
         "bias": null,
         "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 22,
-         "p": 6,
-         "ppp": 1,
-         "sog": 22,
-         "toi_s": 21026
+         "a": 1,
+         "g": 0,
+         "gp": 23,
+         "p": 1,
+         "ppp": 0,
+         "sog": 24,
+         "toi_s": 25414
         },
         "last5": {
          "a": 0,
@@ -12271,14 +12241,14 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5519
+         "sog": 6,
+         "toi_s": 5873
         },
         "l5_point_games": 0,
-        "gp": 22,
+        "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -12293,7 +12263,7 @@
         "slot": 1,
         "player_id": 8476878,
         "dfo_id": 1953,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 1,
@@ -12363,37 +12333,37 @@
         }
        },
        {
-        "name": "Victor Hedman",
-        "jersey": 77,
+        "name": "Ryan McDonagh",
+        "jersey": 27,
         "pos": null,
         "slot": 3,
-        "player_id": 8475167,
-        "dfo_id": 1369,
-        "gtd": true,
+        "player_id": 8474151,
+        "dfo_id": 1048,
+        "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": 1,
-        "bias": null,
+        "bias": "G",
         "season": {
-         "a": 2,
-         "g": 4,
-         "gp": 22,
-         "p": 6,
-         "ppp": 1,
-         "sog": 22,
-         "toi_s": 21026
+         "a": 3,
+         "g": 2,
+         "gp": 23,
+         "p": 5,
+         "ppp": 0,
+         "sog": 16,
+         "toi_s": 23786
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 0,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
          "sog": 3,
-         "toi_s": 5519
+         "toi_s": 5650
         },
-        "l5_point_games": 0,
-        "gp": 22,
+        "l5_point_games": 1,
+        "gp": 23,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -12409,7 +12379,7 @@
         "dfo_id": 34680,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 1,
         "bias": null,
         "season": {
@@ -12434,7 +12404,7 @@
         "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -12485,7 +12455,7 @@
         "slot": 2,
         "player_id": 8479542,
         "dfo_id": 27046,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 2,
         "pk": 2,
@@ -12517,79 +12487,79 @@
         }
        },
        {
-        "name": "Ryan McDonagh",
-        "jersey": 27,
+        "name": "Maxwell Crozier",
+        "jersey": 24,
         "pos": null,
         "slot": 3,
-        "player_id": 8474151,
-        "dfo_id": 1048,
+        "player_id": null,
+        "dfo_id": 28863,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "G",
+        "bias": null,
         "season": {
          "a": 3,
-         "g": 2,
-         "gp": 23,
-         "p": 5,
+         "g": 0,
+         "gp": 12,
+         "p": 3,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 23786
+         "sog": 21,
+         "toi_s": 12267
         },
         "last5": {
-         "a": 1,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5650
+         "sog": 8,
+         "toi_s": 5146
         },
-        "l5_point_games": 1,
-        "gp": 23,
+        "l5_point_games": 0,
+        "gp": 0,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        },
        {
-        "name": "Erik Cernak",
-        "jersey": 81,
+        "name": "Emil Lilleberg",
+        "jersey": 78,
         "pos": null,
         "slot": 4,
-        "player_id": 8478416,
-        "dfo_id": 2749,
-        "gtd": true,
+        "player_id": 8482929,
+        "dfo_id": 37940,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 9,
+         "a": 0,
          "g": 0,
-         "gp": 20,
-         "p": 9,
+         "gp": 8,
+         "p": 0,
          "ppp": 0,
-         "sog": 23,
-         "toi_s": 22075
+         "sog": 2,
+         "toi_s": 5956
         },
         "last5": {
-         "a": 4,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 4,
+         "p": 0,
          "ppp": 0,
-         "sog": 5,
-         "toi_s": 5187
+         "sog": 0,
+         "toi_s": 3750
         },
-        "l5_point_games": 3,
-        "gp": 20,
+        "l5_point_games": 0,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -12601,19 +12571,9 @@
        "news": "Geekie underwent shoulder surgery on Monday and is expected to be out for 4-to-5 months."
       },
       {
-       "player": "Brandon Hagel",
-       "status": "IR",
-       "news": "Hagel (lower-body) was activated off IR and will be a game-time decision vs. Carolina on Wednesday."
-      },
-      {
-       "player": "Zemgus Girgensons",
-       "status": "DTD",
-       "news": "Girgensons (upper-body) will be a game-time decision vs. Carolina on Wednesday."
-      },
-      {
        "player": "Erik Cernak",
        "status": "DTD",
-       "news": "Cernak (illness) will be a game-time decision vs. Carolina on Wednesday."
+       "news": "Cernak (illness) is out vs. Carolina on Wednesday."
       },
       {
        "player": "Victor Hedman",
@@ -12627,12 +12587,12 @@
        "rating": 77.1718582585227
       },
       "d2": {
-       "rank": 1,
-       "rating": 79.5198978490266
+       "rank": 36,
+       "rating": 0
       },
       "d3": {
        "rank": 7,
-       "rating": 73.65837410877525
+       "rating": 73.9001316032933
       },
       "d4": {
        "rank": 6,
@@ -12647,12 +12607,12 @@
        "rating": 78.5169542622693
       },
       "f3": {
-       "rank": 23,
+       "rank": 22,
        "rating": 72.25861434426167
       },
       "f4": {
-       "rank": 19,
-       "rating": 71.63615523893601
+       "rank": 31,
+       "rating": 0
       },
       "g": {
        "rank": 2,
@@ -16557,7 +16517,7 @@
     "sv": "0.92",
     "gaa": "2.35",
     "lineup_as_of": "2026-11-25T18:54:08.321Z",
-    "lineup_checked": "2026-11-25T21:09:47.975561+00:00",
+    "lineup_checked": "2026-11-25T23:52:24.960815+00:00",
     "lineup_stale": false,
     "ga_rk": 16,
     "gf_rk": 11,
@@ -17013,11 +16973,11 @@
       "prob": 0.459,
       "fair": "+118",
       "need": "+131",
-      "rationale": "D2 \u00b7 4 of L5 \u00b7 6 of L10 \u00b7 10 of 21 season",
+      "rationale": "D3 \u00b7 4 of L5 \u00b7 6 of L10 \u00b7 10 of 21 season",
       "player": "Justin Barron",
       "team": "STL",
       "pp": null,
-      "line": 2,
+      "line": 3,
       "players": [
        8482111
       ],
@@ -17120,11 +17080,11 @@
       "prob": 0.327,
       "fair": "+206",
       "need": "+224",
-      "rationale": "D2 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 8 of 21 season",
+      "rationale": "D3 \u00b7 3 of L5 \u00b7 4 of L10 \u00b7 8 of 21 season",
       "player": "Justin Barron",
       "team": "STL",
       "pp": null,
-      "line": 2,
+      "line": 3,
       "players": [
        8482111
       ],
@@ -17443,7 +17403,7 @@
     "away": {
      "team": "STL",
      "as_of": "2026-11-25T18:54:08.321Z",
-     "checked": "2026-11-25T21:09:47.975561+00:00",
+     "checked": "2026-11-25T23:52:24.960815+00:00",
      "stale": false,
      "source": "Lou Korac",
      "updated_dfo": "2026-11-25T18:54:08.321Z",
@@ -17994,39 +17954,39 @@
       ],
       [
        {
-        "name": "Justin Barron",
-        "jersey": 72,
+        "name": "Cam Fowler",
+        "jersey": 17,
         "pos": "LD",
         "slot": null,
-        "player_id": 8482111,
-        "dfo_id": 29338,
+        "player_id": 8475764,
+        "dfo_id": 16,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 4,
-         "gp": 21,
-         "p": 15,
-         "ppp": 0,
-         "sog": 31,
-         "toi_s": 21145
+         "a": 6,
+         "g": 0,
+         "gp": 24,
+         "p": 6,
+         "ppp": 1,
+         "sog": 24,
+         "toi_s": 29631
         },
         "last5": {
-         "a": 4,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 5,
+         "p": 2,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 5165
+         "sog": 2,
+         "toi_s": 5687
         },
-        "l5_point_games": 4,
-        "gp": 21,
+        "l5_point_games": 2,
+        "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -18072,39 +18032,39 @@
       ],
       [
        {
-        "name": "Cam Fowler",
-        "jersey": 17,
+        "name": "Justin Barron",
+        "jersey": 72,
         "pos": "LD",
         "slot": null,
-        "player_id": 8475764,
-        "dfo_id": 16,
+        "player_id": 8482111,
+        "dfo_id": 29338,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": 2,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 6,
-         "g": 0,
-         "gp": 24,
-         "p": 6,
-         "ppp": 1,
-         "sog": 24,
-         "toi_s": 29631
+         "a": 11,
+         "g": 4,
+         "gp": 21,
+         "p": 15,
+         "ppp": 0,
+         "sog": 31,
+         "toi_s": 21145
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 4,
+         "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 5,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 5687
+         "sog": 6,
+         "toi_s": 5165
         },
-        "l5_point_games": 2,
-        "gp": 24,
+        "l5_point_games": 4,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -18578,7 +18538,7 @@
         "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -18888,7 +18848,7 @@
         "l5_point_games": 2,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -18926,7 +18886,7 @@
         "l5_point_games": 4,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -18971,12 +18931,12 @@
        "rating": 0
       },
       "d2": {
-       "rank": 4,
-       "rating": 76.91731080984862
+       "rank": 7,
+       "rating": 75.75315402752527
       },
       "d3": {
-       "rank": 4,
-       "rating": 74.58899724520191
+       "rank": 27,
+       "rating": 0
       },
       "d4": {
        "rank": 6,
@@ -18987,15 +18947,15 @@
        "rating": 72.7230974244413
       },
       "f2": {
-       "rank": 33,
-       "rating": 0
-      },
-      "f3": {
        "rank": 34,
        "rating": 0
       },
+      "f3": {
+       "rank": 33,
+       "rating": 0
+      },
       "f4": {
-       "rank": 29,
+       "rank": 28,
        "rating": 70.17852757681266
       },
       "g": {
@@ -20635,8 +20595,8 @@
     "goalie_source": "Dan Potash",
     "sv": "0.878",
     "gaa": "3.25",
-    "lineup_as_of": "2026-11-24T16:55:46.006Z",
-    "lineup_checked": "2026-11-25T21:09:48.157326+00:00",
+    "lineup_as_of": "2026-11-25T23:47:52.571Z",
+    "lineup_checked": "2026-11-25T23:52:25.148287+00:00",
     "lineup_stale": false,
     "ga_rk": 6,
     "gf_rk": 23,
@@ -20676,7 +20636,7 @@
      "away": "-185",
      "home": "+154",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T16:55:46.006Z"
+     "as_of": "2026-11-25T23:47:52.571Z"
     },
     "total": {
      "line": 5.5,
@@ -22868,11 +22828,11 @@
     },
     "home": {
      "team": "PIT",
-     "as_of": "2026-11-24T16:55:46.006Z",
-     "checked": "2026-11-25T21:09:48.157326+00:00",
+     "as_of": "2026-11-25T23:47:52.571Z",
+     "checked": "2026-11-25T23:52:25.148287+00:00",
      "stale": false,
-     "source": "@PensInsideScoop",
-     "updated_dfo": "2026-11-24T16:55:46.006Z",
+     "source": "@penguins",
+     "updated_dfo": "2026-11-25T23:47:52.571Z",
      "forwards": [
       [
        {
@@ -22882,7 +22842,7 @@
         "slot": null,
         "player_id": 8471215,
         "dfo_id": 1236,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -23068,40 +23028,40 @@
         }
        },
        {
-        "name": "Justin Brazeau",
-        "jersey": 16,
+        "name": "Avery Hayes",
+        "jersey": 85,
         "pos": "RW",
         "slot": null,
-        "player_id": 8479638,
-        "dfo_id": 28622,
+        "player_id": 8482993,
+        "dfo_id": 29767,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
          "a": 0,
-         "g": 1,
-         "gp": 8,
-         "p": 1,
+         "g": 0,
+         "gp": 3,
+         "p": 0,
          "ppp": 0,
-         "sog": 9,
-         "toi_s": 4929
+         "sog": 8,
+         "toi_s": 2115
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 0,
+         "p": 1,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3040
+         "sog": 12,
+         "toi_s": 3949
         },
         "l5_point_games": 0,
-        "gp": 8,
+        "gp": 3,
         "move": {
-         "ev": 1,
-         "pp": 1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        }
@@ -23300,40 +23260,40 @@
         }
        },
        {
-        "name": "Avery Hayes",
-        "jersey": 85,
+        "name": "Justin Brazeau",
+        "jersey": 16,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482993,
-        "dfo_id": 29767,
+        "player_id": 8479638,
+        "dfo_id": 28622,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
          "a": 0,
-         "g": 0,
-         "gp": 3,
-         "p": 0,
+         "g": 1,
+         "gp": 8,
+         "p": 1,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 2115
+         "sog": 9,
+         "toi_s": 4929
         },
         "last5": {
          "a": 0,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 1,
+         "p": 0,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 3949
+         "sog": 4,
+         "toi_s": 3040
         },
         "l5_point_games": 0,
-        "gp": 3,
+        "gp": 8,
         "move": {
-         "ev": -1,
-         "pp": 0,
+         "ev": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -23710,7 +23670,7 @@
         "slot": 2,
         "player_id": 8471215,
         "dfo_id": 1236,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
@@ -23890,7 +23850,7 @@
         "l5_point_games": 0,
         "gp": 8,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 1,
          "new": false
         }
@@ -24379,16 +24339,6 @@
        "player": "Nicholas Robertson",
        "status": "IR",
        "news": "Robertson (lower-body) has been placed on IR and will be re-evaluated in two weeks."
-      },
-      {
-       "player": "Evgeni Malkin",
-       "status": "DTD",
-       "news": "Malkin (upper-body) is available and expected to return vs. Calgary on Wednesday."
-      },
-      {
-       "player": "Declan Carlile",
-       "status": "DTD",
-       "news": "Carlile (lower-body) is available and expected to return vs. Calgary on Wednesday."
       }
      ],
      "unit_ratings": {
@@ -24413,11 +24363,11 @@
        "rating": 78.87505064574059
       },
       "f2": {
-       "rank": 33,
+       "rank": 34,
        "rating": 0
       },
       "f3": {
-       "rank": 34,
+       "rank": 33,
        "rating": 0
       },
       "f4": {
