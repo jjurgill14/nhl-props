@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_utc": "2026-11-25T21:55:28.464595+00:00",
+ "generated_utc": "2026-11-25T22:10:38.481882+00:00",
  "games": [
   {
    "game_id": 2026020386,
@@ -37107,8 +37107,8 @@
      "ppga_rk": 30,
      "l5_gf": 2.4,
      "l5_ga": 1.4,
-     "lineup_as_of": "2026-11-24T17:33:30.044Z",
-     "lineup_checked": "2026-11-25T16:23:18.542534+00:00",
+     "lineup_as_of": "2026-11-25T16:42:46.632Z",
+     "lineup_checked": "2026-11-25T22:10:33.621975+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -37134,7 +37134,7 @@
       {
        "player": "Tyler Myers",
        "status": "DTD",
-       "news": "Myers (upper-body) is a possibility to return vs. Nashville on Wednesday."
+       "news": "Myers (upper-body) will return vs. Nashville on Wednesday."
       }
      ],
      "lines": {
@@ -38782,7 +38782,7 @@
          "heater": false
         }
        },
-       "pos": "RD",
+       "pos": "LD",
        "gtd": false,
        "role": "d",
        "bias": null,
@@ -38829,10 +38829,108 @@
        },
        "partners": [
         {
-         "name": "Trey Taylor",
-         "jersey": 27,
+         "name": "Tyler Myers",
+         "jersey": 57,
          "pp": null,
-         "n": 5,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Tyler Myers",
+       "jersey": 57,
+       "team": "DAL",
+       "opp": "NSH",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.12510967741935483,
+         "p_hot": 0.15230743338008412,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.015638709677419354,
+         "p_hot": 0.019038429172510515,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.11207741935483871,
+         "p_hot": 0.13644207573632539,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": true,
+       "role": "d",
+       "bias": null,
+       "gp": 20,
+       "pt_games": 2,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        13
+       ],
+       "away_split": [
+        1,
+        7
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.1,
+       "toi": 18.0,
+       "p": 0.125,
+       "fair": "+699",
+       "min": "+747",
+       "p2": 0.008,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.912258064516129
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Kyle Burroughs",
+         "jersey": 28,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -38933,104 +39031,6 @@
          "n": 11,
          "both": 0,
          "either": 8
-        }
-       ]
-      },
-      {
-       "name": "Trey Taylor",
-       "jersey": 27,
-       "team": "DAL",
-       "opp": "NSH",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 9,
-         "p": 0.09873851992409868,
-         "p_hot": 0.07629794721407625,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 9,
-         "p": 0.025757874762808348,
-         "p_hot": 0.01990381231671554,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 9,
-         "p": 0.07727362428842505,
-         "p_hot": 0.05971143695014662,
-         "heater": false
-        }
-       },
-       "pos": "LD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 9,
-       "pt_games": 0,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        6
-       ],
-       "away_split": [
-        0,
-        3
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 9.7,
-       "p": 0.099,
-       "fair": "+913",
-       "min": "+974",
-       "p2": 0.013,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.912258064516129
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Kyle Burroughs",
-         "jersey": 28,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 0
         }
        ]
       }

@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T21:55:29.527536+00:00",
+ "generated_utc": "2026-11-25T22:10:39.574279+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -36227,13 +36227,24 @@
     "goalie_source": "Bruce LeVine",
     "sv": "0.909",
     "gaa": "2.13",
-    "lineup_as_of": "2026-11-24T17:33:30.044Z",
-    "lineup_checked": "2026-11-25T16:23:18.542534+00:00",
+    "lineup_as_of": "2026-11-25T16:42:46.632Z",
+    "lineup_checked": "2026-11-25T22:10:33.621975+00:00",
     "lineup_stale": false,
     "ga_rk": 30,
     "gf_rk": 25,
     "ppga_rk": 30,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-25T22:10:33.625721+00:00",
+      "kind": "in",
+      "text": "IN: Tyler Myers (was DTD) \u2192 L3"
+     },
+     {
+      "at": "2026-11-25T22:10:33.625721+00:00",
+      "kind": "out",
+      "text": "OUT: Trey Taylor (was L3)"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -36268,7 +36279,7 @@
      "away": "-198",
      "home": "+164",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T17:33:30.044Z"
+     "as_of": "2026-11-25T16:42:46.632Z"
     },
     "total": {
      "line": 5.5,
@@ -38445,11 +38456,11 @@
     },
     "home": {
      "team": "DAL",
-     "as_of": "2026-11-24T17:33:30.044Z",
-     "checked": "2026-11-25T16:23:18.542534+00:00",
+     "as_of": "2026-11-25T16:42:46.632Z",
+     "checked": "2026-11-25T22:10:33.621975+00:00",
      "stale": false,
      "source": "Robert Tiffin",
-     "updated_dfo": "2026-11-24T17:33:30.044Z",
+     "updated_dfo": "2026-11-25T16:42:46.632Z",
      "forwards": [
       [
        {
@@ -39044,7 +39055,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": "A",
         "season": {
          "a": 7,
@@ -39075,47 +39086,9 @@
       ],
       [
        {
-        "name": "Trey Taylor",
-        "jersey": 27,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8485468,
-        "dfo_id": 31852,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 9,
-         "p": 0,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 5823
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 2907
-        },
-        "l5_point_games": 0,
-        "gp": 9,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Kyle Burroughs",
         "jersey": 28,
-        "pos": "RD",
+        "pos": "LD",
         "slot": null,
         "player_id": 8477335,
         "dfo_id": 3758,
@@ -39148,6 +39121,44 @@
          "ev": 0,
          "pp": 0,
          "new": false
+        }
+       },
+       {
+        "name": "Tyler Myers",
+        "jersey": 57,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8474574,
+        "dfo_id": 176,
+        "gtd": true,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 0,
+         "gp": 20,
+         "p": 2,
+         "ppp": 0,
+         "sog": 13,
+         "toi_s": 19596
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 5413
+        },
+        "l5_point_games": 0,
+        "gp": 20,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        }
       ]
@@ -39897,41 +39908,41 @@
         }
        },
        {
-        "name": "Nils Lundkvist",
-        "jersey": 5,
+        "name": "Tyler Myers",
+        "jersey": 57,
         "pos": null,
         "slot": 4,
-        "player_id": 8480878,
-        "dfo_id": 4821,
-        "gtd": false,
+        "player_id": 8474574,
+        "dfo_id": 176,
+        "gtd": true,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 7,
-         "g": 1,
-         "gp": 23,
-         "p": 8,
+         "a": 2,
+         "g": 0,
+         "gp": 20,
+         "p": 2,
          "ppp": 0,
-         "sog": 19,
-         "toi_s": 25781
+         "sog": 13,
+         "toi_s": 19596
         },
         "last5": {
-         "a": 2,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 3,
+         "p": 0,
          "ppp": 0,
-         "sog": 6,
-         "toi_s": 6280
+         "sog": 4,
+         "toi_s": 5413
         },
-        "l5_point_games": 3,
-        "gp": 23,
+        "l5_point_games": 0,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -39960,7 +39971,7 @@
       {
        "player": "Tyler Myers",
        "status": "DTD",
-       "news": "Myers (upper-body) is a possibility to return vs. Nashville on Wednesday."
+       "news": "Myers (upper-body) will return vs. Nashville on Wednesday."
       }
      ],
      "unit_ratings": {
@@ -39973,8 +39984,8 @@
        "rating": 0
       },
       "d3": {
-       "rank": 29,
-       "rating": 0
+       "rank": 13,
+       "rating": 72.5573099107805
       },
       "d4": {
        "rank": 6,
@@ -39985,7 +39996,7 @@
        "rating": 74.4442067714292
       },
       "f2": {
-       "rank": 23,
+       "rank": 21,
        "rating": 73.16649060258571
       },
       "f3": {
@@ -39993,7 +40004,7 @@
        "rating": 76.1303229605744
       },
       "f4": {
-       "rank": 8,
+       "rank": 6,
        "rating": 73.01252763314524
       },
       "g": {
