@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_utc": "2026-11-25T23:42:11.522089+00:00",
+ "generated_utc": "2026-11-25T23:47:20.874293+00:00",
  "games": [
   {
    "game_id": 2026020386,
@@ -17613,8 +17613,8 @@
      "ppga_rk": 29,
      "l5_gf": 3.8,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-24T17:13:31.851Z",
-     "lineup_checked": "2026-11-25T16:23:19.382428+00:00",
+     "lineup_as_of": "2026-11-25T23:45:02.071Z",
+     "lineup_checked": "2026-11-25T23:47:15.844636+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -17631,11 +17631,6 @@
        "player": "Kyle Palmieri",
        "status": "DTD",
        "news": "Palmieri (lower-body) has been placed on IR."
-      },
-      {
-       "player": "Logan Stanley",
-       "status": "DTD",
-       "news": "Stanley (maintenance) missed practice on Tuesday."
       }
      ],
      "lines": {
@@ -17651,8 +17646,7 @@
       ],
       "3": [
        "Anthony Duclair",
-       "Jean-Gabriel Pageau",
-       "Mitchell Chaffee"
+       "Jean-Gabriel Pageau"
       ],
       "4": [
        "Ondrej Palat",
@@ -18708,14 +18702,6 @@
          "n": 15,
          "both": 5,
          "either": 9
-        },
-        {
-         "name": "Mitchell Chaffee",
-         "jersey": 41,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -18814,14 +18800,6 @@
          "n": 15,
          "both": 5,
          "either": 9
-        },
-        {
-         "name": "Mitchell Chaffee",
-         "jersey": 41,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
         }
        ]
       },
@@ -18918,12 +18896,12 @@
        },
        "partners": [
         {
-         "name": "Scott Mayfield",
-         "jersey": 24,
+         "name": "Logan Stanley",
+         "jersey": 8,
          "pp": null,
-         "n": 2,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -19132,112 +19110,6 @@
        ]
       },
       {
-       "name": "Mitchell Chaffee",
-       "jersey": 41,
-       "team": "NYI",
-       "opp": "STL",
-       "section": "F",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.25129032258064515,
-         "p_hot": 0.3059186535764376,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.14876387096774193,
-         "p_hot": 0.1730625525946704,
-         "heater": false
-        },
-        "assists": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.11056774193548388,
-         "p_hot": 0.13984852734922862,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": "G",
-       "gp": 12,
-       "pt_games": 3,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 1,
-       "goal_games": 2,
-       "two_games": 0,
-       "home_split": [
-        1,
-        6
-       ],
-       "away_split": [
-        2,
-        6
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.1,
-       "toi": 10.4,
-       "p": 0.251,
-       "fair": "+298",
-       "min": "+322",
-       "p2": 0.016,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0051612903225806
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Anthony Duclair",
-         "jersey": 11,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 1
-        },
-        {
-         "name": "Jean-Gabriel Pageau",
-         "jersey": 44,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Casey Cizikas",
        "jersey": 53,
        "team": "NYI",
@@ -19344,6 +19216,104 @@
        ]
       },
       {
+       "name": "Logan Stanley",
+       "jersey": 8,
+       "team": "NYI",
+       "opp": "STL",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.1677579532814238,
+         "p_hot": 0.08041290322580645,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.016637152391546162,
+         "p_hot": 0.02097727910238429,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.153893659621802,
+         "p_hot": 0.06293183730715286,
+         "heater": false
+        }
+       },
+       "pos": "LD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 21,
+       "pt_games": 3,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 0,
+       "two_games": 2,
+       "home_split": [
+        3,
+        10
+       ],
+       "away_split": [
+        0,
+        11
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 19.7,
+       "p": 0.168,
+       "fair": "+496",
+       "min": "+532",
+       "p2": 0.078,
+       "fair2": "+1188",
+       "min2": "+1265",
+       "adj": [
+        [
+         "opp",
+         1.0051612903225806
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Matthew Kessel",
+         "jersey": 4,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Adam Pelech",
        "jersey": 3,
        "team": "NYI",
@@ -19440,104 +19410,6 @@
          "either": 4
         }
        ]
-      },
-      {
-       "name": "Scott Mayfield",
-       "jersey": 24,
-       "team": "NYI",
-       "opp": "STL",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 6,
-         "p": 0.1321069124423963,
-         "p_hot": 0.09734193548387096,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 6,
-         "p": 0.034462672811059906,
-         "p_hot": 0.025393548387096773,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 6,
-         "p": 0.10338801843317971,
-         "p_hot": 0.0761806451612903,
-         "heater": false
-        }
-       },
-       "pos": "LD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 6,
-       "pt_games": 0,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        4
-       ],
-       "away_split": [
-        0,
-        2
-       ],
-       "l5_venue": [
-        0,
-        4
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 12.3,
-       "p": 0.132,
-       "fair": "+657",
-       "min": "+702",
-       "p2": 0.017,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.0051612903225806
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Matthew Kessel",
-         "jersey": 4,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 1
-        }
-       ]
       }
      ]
     }
@@ -19575,8 +19447,8 @@
      "ppga_rk": 23,
      "l5_gf": 2.2,
      "l5_ga": 3.6,
-     "lineup_as_of": "2026-11-25T16:47:37.171Z",
-     "lineup_checked": "2026-11-25T21:09:48.095038+00:00",
+     "lineup_as_of": "2026-11-25T23:45:42.220Z",
+     "lineup_checked": "2026-11-25T23:47:15.903760+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -19602,19 +19474,19 @@
      ],
      "lines": {
       "1": [
-       "Joel Farabee",
+       "Yegor Sharangovich",
        "Mikael Backlund",
        "Matt Coronato"
       ],
       "2": [
+       "Joel Farabee",
+       "Ryan Strome",
+       "Adam Klapka"
+      ],
+      "3": [
        "Matvei Gridin",
        "Jonathan Castagna",
        "Aydar Suniev"
-      ],
-      "3": [
-       "Yegor Sharangovich",
-       "Ryan Strome",
-       "Adam Klapka"
       ],
       "4": [
        "Brennan Othmann",
@@ -19644,7 +19516,7 @@
        "opp": "PIT",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -19720,26 +19592,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Mikael Backlund",
-         "jersey": 11,
-         "pp": 2,
-         "n": 22,
-         "both": 6,
-         "either": 14
+         "name": "Ryan Strome",
+         "jersey": 16,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Matt Coronato",
-         "jersey": 27,
-         "pp": 1,
-         "n": 18,
-         "both": 8,
-         "either": 10
+         "name": "Adam Klapka",
+         "jersey": 43,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -19832,12 +19704,12 @@
        },
        "partners": [
         {
-         "name": "Joel Farabee",
-         "jersey": 86,
-         "pp": 1,
-         "n": 18,
-         "both": 8,
-         "either": 10
+         "name": "Yegor Sharangovich",
+         "jersey": 17,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
         },
         {
          "name": "Mikael Backlund",
@@ -19850,119 +19722,13 @@
        ]
       },
       {
-       "name": "Matvei Gridin",
-       "jersey": 92,
-       "team": "CGY",
-       "opp": "PIT",
-       "section": "F",
-       "home": false,
-       "line": 2,
-       "pp": 1,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 10,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.48097282502443794,
-         "p_hot": 0.49732847124824686,
-         "heater": false
-        },
-        "goals": {
-         "k": 5,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.24317341153470184,
-         "p_hot": 0.15613800841514727,
-         "heater": false
-        },
-        "assists": {
-         "k": 8,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.3734928641251222,
-         "p_hot": 0.3913088359046284,
-         "heater": true
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "pp1",
-       "bias": "A",
-       "gp": 25,
-       "pt_games": 10,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 8,
-       "goal_games": 5,
-       "two_games": 3,
-       "home_split": [
-        6,
-        13
-       ],
-       "away_split": [
-        4,
-        12
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 2.8,
-       "toi": 17.5,
-       "p": 0.481,
-       "fair": "+108",
-       "min": "+120",
-       "p2": 0.155,
-       "fair2": "+547",
-       "min2": "+586",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jonathan Castagna",
-         "jersey": 38,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Aydar Suniev",
-         "jersey": 61,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Ryan Strome",
        "jersey": 16,
        "team": "CGY",
        "opp": "PIT",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -20038,24 +19804,130 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Yegor Sharangovich",
-         "jersey": 17,
-         "pp": 2,
-         "n": 2,
-         "both": 1,
-         "either": 1
+         "name": "Joel Farabee",
+         "jersey": 86,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Adam Klapka",
          "jersey": 43,
          "pp": 2,
          "n": 1,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Matvei Gridin",
+       "jersey": 92,
+       "team": "CGY",
+       "opp": "PIT",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": 1,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 10,
+         "k5": 2,
+         "n5": 5,
+         "k10": 4,
+         "n10": 10,
+         "p": 0.48097282502443794,
+         "p_hot": 0.49732847124824686,
+         "heater": false
+        },
+        "goals": {
+         "k": 5,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.24317341153470184,
+         "p_hot": 0.15613800841514727,
+         "heater": false
+        },
+        "assists": {
+         "k": 8,
+         "k5": 2,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.3734928641251222,
+         "p_hot": 0.3913088359046284,
+         "heater": true
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "pp1",
+       "bias": "A",
+       "gp": 25,
+       "pt_games": 10,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 8,
+       "goal_games": 5,
+       "two_games": 3,
+       "home_split": [
+        6,
+        13
+       ],
+       "away_split": [
+        4,
+        12
+       ],
+       "l5_venue": [
+        2,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 2.8,
+       "toi": 17.5,
+       "p": 0.481,
+       "fair": "+108",
+       "min": "+120",
+       "p2": 0.155,
+       "fair2": "+547",
+       "min2": "+586",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ]
+       ],
+       "move": {
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Jonathan Castagna",
+         "jersey": 38,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Aydar Suniev",
+         "jersey": 61,
+         "pp": 2,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -20160,6 +20032,112 @@
        ]
       },
       {
+       "name": "Yegor Sharangovich",
+       "jersey": 17,
+       "team": "CGY",
+       "opp": "PIT",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 9,
+         "k5": 1,
+         "n5": 5,
+         "k10": 5,
+         "n10": 10,
+         "p": 0.3936453567937439,
+         "p_hot": 0.4202232819074334,
+         "heater": false
+        },
+        "goals": {
+         "k": 5,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.2189904203323558,
+         "p_hot": 0.26601290322580645,
+         "heater": false
+        },
+        "assists": {
+         "k": 5,
+         "k5": 0,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.23242541544477027,
+         "p_hot": 0.2370984572230014,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 25,
+       "pt_games": 9,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 5,
+       "goal_games": 5,
+       "two_games": 2,
+       "home_split": [
+        6,
+        13
+       ],
+       "away_split": [
+        3,
+        12
+       ],
+       "l5_venue": [
+        2,
+        5
+       ],
+       "l5_venue_two": 1,
+       "pp_toi": 1.6,
+       "toi": 17.6,
+       "p": 0.394,
+       "fair": "+154",
+       "min": "+169",
+       "p2": 0.089,
+       "fair2": "+1028",
+       "min2": "+1095",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Mikael Backlund",
+         "jersey": 11,
+         "pp": 2,
+         "n": 5,
+         "both": 2,
+         "either": 2
+        },
+        {
+         "name": "Matt Coronato",
+         "jersey": 27,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
        "name": "Mikael Backlund",
        "jersey": 11,
        "team": "CGY",
@@ -20248,12 +20226,12 @@
        },
        "partners": [
         {
-         "name": "Joel Farabee",
-         "jersey": 86,
-         "pp": 1,
-         "n": 22,
-         "both": 6,
-         "either": 14
+         "name": "Yegor Sharangovich",
+         "jersey": 17,
+         "pp": 2,
+         "n": 5,
+         "both": 2,
+         "either": 2
         },
         {
          "name": "Matt Coronato",
@@ -20262,112 +20240,6 @@
          "n": 15,
          "both": 3,
          "either": 8
-        }
-       ]
-      },
-      {
-       "name": "Yegor Sharangovich",
-       "jersey": 17,
-       "team": "CGY",
-       "opp": "PIT",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 9,
-         "k5": 1,
-         "n5": 5,
-         "k10": 5,
-         "n10": 10,
-         "p": 0.36946236559139783,
-         "p_hot": 0.3855259467040673,
-         "heater": false
-        },
-        "goals": {
-         "k": 5,
-         "k5": 1,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.20018142717497556,
-         "p_hot": 0.23902608695652175,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 0,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.20824242424242426,
-         "p_hot": 0.20240112201963534,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 25,
-       "pt_games": 9,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 5,
-       "two_games": 2,
-       "home_split": [
-        6,
-        13
-       ],
-       "away_split": [
-        3,
-        12
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 1.6,
-       "toi": 17.6,
-       "p": 0.369,
-       "fair": "+171",
-       "min": "+187",
-       "p2": 0.078,
-       "fair2": "+1183",
-       "min2": "+1260",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ryan Strome",
-         "jersey": 16,
-         "pp": 1,
-         "n": 2,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Adam Klapka",
-         "jersey": 43,
-         "pp": 2,
-         "n": 5,
-         "both": 0,
-         "either": 4
         }
        ]
       },
@@ -20476,9 +20348,9 @@
        "opp": "PIT",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 8,
@@ -20486,8 +20358,8 @@
          "n5": 5,
          "k10": 3,
          "n10": 10,
-         "p": 0.3358748778103617,
-         "p_hot": 0.33733520336605893,
+         "p": 0.36005786901270775,
+         "p_hot": 0.37203253856942503,
          "heater": false
         },
         "goals": {
@@ -20496,8 +20368,8 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.1665939393939394,
-         "p_hot": 0.0944538569424965,
+         "p": 0.18540293255131965,
+         "p_hot": 0.1214406732117812,
          "heater": false
         },
         "assists": {
@@ -20506,14 +20378,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.20824242424242426,
-         "p_hot": 0.2505918653576438,
+         "p": 0.23242541544477027,
+         "p_hot": 0.2852892005610098,
          "heater": true
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 25,
        "pt_games": 8,
@@ -20539,12 +20411,12 @@
        "l5_venue_two": 0,
        "pp_toi": 1.7,
        "toi": 12.9,
-       "p": 0.336,
-       "fair": "+198",
-       "min": "+216",
-       "p2": 0.044,
-       "fair2": "+2156",
-       "min2": "+2291",
+       "p": 0.36,
+       "fair": "+178",
+       "min": "+194",
+       "p2": 0.055,
+       "fair2": "+1715",
+       "min2": "+1824",
        "adj": [
         [
          "opp",
@@ -20552,18 +20424,18 @@
         ]
        ],
        "move": {
-        "ev": -1,
+        "ev": 0,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Yegor Sharangovich",
-         "jersey": 17,
-         "pp": 2,
-         "n": 5,
+         "name": "Joel Farabee",
+         "jersey": 86,
+         "pp": 1,
+         "n": 0,
          "both": 0,
-         "either": 4
+         "either": 0
         },
         {
          "name": "Ryan Strome",
@@ -20582,9 +20454,9 @@
        "opp": "PIT",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 3,
        "pp": 2,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 6,
@@ -20592,8 +20464,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.32217118279569895,
-         "p_hot": 0.27565105189340816,
+         "p": 0.29556989247311827,
+         "p_hot": 0.24095371669004206,
          "heater": false
         },
         "goals": {
@@ -20602,8 +20474,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.2039432258064516,
-         "p_hot": 0.07324992987377278,
+         "p": 0.18325333333333332,
+         "p_hot": 0.04626311360448807,
          "heater": false
         },
         "assists": {
@@ -20612,14 +20484,14 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.18177548387096776,
-         "p_hot": 0.2370984572230014,
+         "p": 0.1551741935483871,
+         "p_hot": 0.20240112201963534,
          "heater": false
         }
        },
        "pos": "RW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 22,
        "pt_games": 6,
@@ -20645,12 +20517,12 @@
        "l5_venue_two": 0,
        "pp_toi": 1.7,
        "toi": 12.3,
-       "p": 0.322,
-       "fair": "+210",
-       "min": "+229",
-       "p2": 0.061,
-       "fair2": "+1550",
-       "min2": "+1649",
+       "p": 0.296,
+       "fair": "+238",
+       "min": "+259",
+       "p2": 0.049,
+       "fair2": "+1950",
+       "min2": "+2074",
        "adj": [
         [
          "opp",
@@ -20788,112 +20660,6 @@
        ]
       },
       {
-       "name": "Jonathan Castagna",
-       "jersey": 38,
-       "team": "CGY",
-       "opp": "PIT",
-       "section": "F",
-       "home": false,
-       "line": 2,
-       "pp": null,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.24827870967741938,
-         "p_hot": 0.3238417952314166,
-         "heater": false
-        },
-        "goals": {
-         "k": 2,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.13005075268817204,
-         "p_hot": 0.26601290322580645,
-         "heater": true
-        },
-        "assists": {
-         "k": 2,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.14482924731182795,
-         "p_hot": 0.09252622720897614,
-         "heater": false
-        }
-       },
-       "pos": "C",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 22,
-       "pt_games": 4,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 2,
-       "two_games": 2,
-       "home_split": [
-        2,
-        12
-       ],
-       "away_split": [
-        2,
-        10
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.0,
-       "toi": 12.8,
-       "p": 0.248,
-       "fair": "+303",
-       "min": "+327",
-       "p2": 0.098,
-       "fair2": "+925",
-       "min2": "+987",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Matvei Gridin",
-         "jersey": 92,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Aydar Suniev",
-         "jersey": 61,
-         "pp": 2,
-         "n": 7,
-         "both": 1,
-         "either": 3
-        }
-       ]
-      },
-      {
        "name": "Yan Kuznetsov",
        "jersey": 37,
        "team": "CGY",
@@ -20988,6 +20754,112 @@
          "n": 17,
          "both": 4,
          "either": 8
+        }
+       ]
+      },
+      {
+       "name": "Jonathan Castagna",
+       "jersey": 38,
+       "team": "CGY",
+       "opp": "PIT",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 2,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.22167741935483873,
+         "p_hot": 0.2891444600280505,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 2,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.10936086021505377,
+         "p_hot": 0.23902608695652175,
+         "heater": true
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.11822795698924732,
+         "p_hot": 0.057828892005610096,
+         "heater": false
+        }
+       },
+       "pos": "C",
+       "gtd": false,
+       "role": "other",
+       "bias": "G",
+       "gp": 22,
+       "pt_games": 4,
+       "l5": [
+        2,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 2,
+       "two_games": 2,
+       "home_split": [
+        2,
+        12
+       ],
+       "away_split": [
+        2,
+        10
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 1,
+       "pp_toi": 0.0,
+       "toi": 12.8,
+       "p": 0.222,
+       "fair": "+351",
+       "min": "+378",
+       "p2": 0.086,
+       "fair2": "+1067",
+       "min2": "+1137",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Matvei Gridin",
+         "jersey": 92,
+         "pp": 1,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Aydar Suniev",
+         "jersey": 61,
+         "pp": 2,
+         "n": 7,
+         "both": 1,
+         "either": 3
         }
        ]
       },

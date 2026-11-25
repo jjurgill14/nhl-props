@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T23:42:12.592301+00:00",
+ "generated_utc": "2026-11-25T23:47:21.911309+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -16642,13 +16642,29 @@
     "goalie_source": "Stefen Rosner",
     "sv": "0.917",
     "gaa": "2.43",
-    "lineup_as_of": "2026-11-24T17:13:31.851Z",
-    "lineup_checked": "2026-11-25T16:23:19.382428+00:00",
+    "lineup_as_of": "2026-11-25T23:45:02.071Z",
+    "lineup_checked": "2026-11-25T23:47:15.844636+00:00",
     "lineup_stale": false,
     "ga_rk": 27,
     "gf_rk": 17,
     "ppga_rk": 29,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-25T23:47:15.849617+00:00",
+      "kind": "in",
+      "text": "IN: Logan Stanley (was DTD) \u2192 L3"
+     },
+     {
+      "at": "2026-11-25T23:47:15.849617+00:00",
+      "kind": "out",
+      "text": "OUT: Mitchell Chaffee (was L3)"
+     },
+     {
+      "at": "2026-11-25T23:47:15.849617+00:00",
+      "kind": "out",
+      "text": "OUT: Scott Mayfield (was L3)"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -16683,7 +16699,7 @@
      "away": "-238",
      "home": "+195",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T17:13:31.851Z"
+     "as_of": "2026-11-25T23:45:02.071Z"
     },
     "total": {
      "line": 5.5,
@@ -19006,11 +19022,11 @@
     },
     "home": {
      "team": "NYI",
-     "as_of": "2026-11-24T17:13:31.851Z",
-     "checked": "2026-11-25T16:23:19.382428+00:00",
+     "as_of": "2026-11-25T23:45:02.071Z",
+     "checked": "2026-11-25T23:47:15.844636+00:00",
      "stale": false,
      "source": "Stefen Rosner",
-     "updated_dfo": "2026-11-24T17:13:31.851Z",
+     "updated_dfo": "2026-11-25T23:45:02.071Z",
      "forwards": [
       [
        {
@@ -19320,44 +19336,6 @@
          "pp": 1,
          "new": false
         }
-       },
-       {
-        "name": "Mitchell Chaffee",
-        "jersey": 26,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8482070,
-        "dfo_id": 32923,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 1,
-         "g": 2,
-         "gp": 12,
-         "p": 3,
-         "ppp": 0,
-         "sog": 12,
-         "toi_s": 7110
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 3114
-        },
-        "l5_point_games": 2,
-        "gp": 12,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": true
-        }
        }
       ],
       [
@@ -19636,25 +19614,25 @@
       ],
       [
        {
-        "name": "Scott Mayfield",
-        "jersey": 24,
+        "name": "Logan Stanley",
+        "jersey": 8,
         "pos": "LD",
         "slot": null,
-        "player_id": 8476429,
-        "dfo_id": 2350,
+        "player_id": 8479378,
+        "dfo_id": 2652,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 5,
          "g": 0,
-         "gp": 6,
-         "p": 0,
+         "gp": 21,
+         "p": 5,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4441
+         "sog": 13,
+         "toi_s": 26341
         },
         "last5": {
          "a": 0,
@@ -19662,15 +19640,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3689
+         "sog": 6,
+         "toi_s": 5922
         },
         "l5_point_games": 0,
-        "gp": 6,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -20458,25 +20436,25 @@
         }
        },
        {
-        "name": "Scott Mayfield",
-        "jersey": 24,
+        "name": "Logan Stanley",
+        "jersey": 8,
         "pos": null,
         "slot": 4,
-        "player_id": 8476429,
-        "dfo_id": 2350,
+        "player_id": 8479378,
+        "dfo_id": 2652,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 5,
          "g": 0,
-         "gp": 6,
-         "p": 0,
+         "gp": 21,
+         "p": 5,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4441
+         "sog": 13,
+         "toi_s": 26341
         },
         "last5": {
          "a": 0,
@@ -20484,15 +20462,15 @@
          "gp": 5,
          "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3689
+         "sog": 6,
+         "toi_s": 5922
         },
         "l5_point_games": 0,
-        "gp": 6,
+        "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
-         "new": true
+         "new": false
         }
        }
       ]
@@ -20512,11 +20490,6 @@
        "player": "Kyle Palmieri",
        "status": "DTD",
        "news": "Palmieri (lower-body) has been placed on IR."
-      },
-      {
-       "player": "Logan Stanley",
-       "status": "DTD",
-       "news": "Stanley (maintenance) missed practice on Tuesday."
       }
      ],
      "unit_ratings": {
@@ -20525,12 +20498,12 @@
        "rating": 72.89063066486271
       },
       "d2": {
-       "rank": 13,
+       "rank": 12,
        "rating": 74.33246143595146
       },
       "d3": {
-       "rank": 16,
-       "rating": 72.0879255448988
+       "rank": 28,
+       "rating": 0
       },
       "d4": {
        "rank": 6,
@@ -20545,11 +20518,11 @@
        "rating": 76.62900944860871
       },
       "f3": {
-       "rank": 16,
+       "rank": 17,
        "rating": 73.39084679822476
       },
       "f4": {
-       "rank": 21,
+       "rank": 18,
        "rating": 71.67736052227797
       },
       "g": {
@@ -20596,8 +20569,8 @@
     "goalie_source": "Derek Wills",
     "sv": "0.877",
     "gaa": "3.45",
-    "lineup_as_of": "2026-11-25T16:47:37.171Z",
-    "lineup_checked": "2026-11-25T21:09:48.095038+00:00",
+    "lineup_as_of": "2026-11-25T23:45:42.220Z",
+    "lineup_checked": "2026-11-25T23:47:15.903760+00:00",
     "lineup_stale": false,
     "ga_rk": 9,
     "gf_rk": 32,
@@ -20757,7 +20730,7 @@
       "player": "Joel Farabee",
       "team": "CGY",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": null,
       "players": [
        8480797
@@ -20863,7 +20836,7 @@
       "player": "Joel Farabee",
       "team": "CGY",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8480797
       ]
@@ -20905,7 +20878,7 @@
       "player": "Matvei Gridin",
       "team": "CGY",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "players": [
        8484860
       ]
@@ -20963,7 +20936,7 @@
       "player": "Joel Farabee",
       "team": "CGY",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8480797
       ]
@@ -21005,7 +20978,7 @@
       "player": "Matvei Gridin",
       "team": "CGY",
       "pp": 1,
-      "line": 2,
+      "line": 3,
       "players": [
        8484860
       ]
@@ -21058,24 +21031,24 @@
        8471724
       ],
       "sneaky": true
-     },
-     {
-      "selection": "Adam Klapka \u00b7 1+ assist",
-      "prob": 0.251,
-      "fair": "+299",
-      "need": "+323",
-      "rationale": "L3 \u00b7 PP2 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 5 of 25 season",
-      "player": "Adam Klapka",
-      "team": "CGY",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8483609
-      ],
-      "sneaky": true
      }
     ],
     "sneaky_goal": [
+     {
+      "selection": "Jonathan Castagna \u00b7 1+ goal",
+      "prob": 0.239,
+      "fair": "+318",
+      "need": "+343",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 2 of 22 season",
+      "player": "Jonathan Castagna",
+      "team": "CGY",
+      "pp": null,
+      "line": 3,
+      "players": [
+       8484154
+      ],
+      "sneaky": true
+     },
      {
       "selection": "Simon Nemec \u00b7 1+ goal",
       "prob": 0.216,
@@ -21141,22 +21114,6 @@
       ]
      },
      {
-      "selection": "Farabee + Coronato \u00b7 both 1+ point",
-      "prob": 0.417,
-      "fair": "+140",
-      "need": "+154",
-      "rationale": "Both scored 8 of 18 games together \u00b7 independent 33% \u00b7 correlated",
-      "team": "CGY",
-      "line": 1,
-      "read": "correlated",
-      "both": 8,
-      "n": 18,
-      "players": [
-       8480797,
-       8482679
-      ]
-     },
-     {
       "selection": "Novak + Kindel \u00b7 both 1+ point",
       "prob": 0.359,
       "fair": "+179",
@@ -21173,19 +21130,35 @@
       ]
      },
      {
-      "selection": "Farabee + Backlund \u00b7 both 1+ point",
-      "prob": 0.268,
-      "fair": "+274",
-      "need": "+296",
-      "rationale": "Both scored 6 of 22 games together \u00b7 independent 25% \u00b7 independent",
+      "selection": "Sharangovich + Backlund \u00b7 both 1+ point",
+      "prob": 0.264,
+      "fair": "+279",
+      "need": "+301",
+      "rationale": "Both scored 2 of 5 games together \u00b7 independent 15% \u00b7 new pair",
       "team": "CGY",
+      "line": 1,
+      "read": "new pair",
+      "both": 2,
+      "n": 5,
+      "players": [
+       8481068,
+       8474150
+      ]
+     },
+     {
+      "selection": "Crosby + Rakell \u00b7 both 1+ point",
+      "prob": 0.262,
+      "fair": "+282",
+      "need": "+305",
+      "rationale": "Both scored 6 of 23 games together \u00b7 independent 26% \u00b7 independent",
+      "team": "PIT",
       "line": 1,
       "read": "independent",
       "both": 6,
-      "n": 22,
+      "n": 23,
       "players": [
-       8480797,
-       8474150
+       8471675,
+       8476483
       ]
      }
     ],
@@ -21295,22 +21268,6 @@
       ]
      },
      {
-      "selection": "Farabee + Coronato \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.417,
-      "fair": "+140",
-      "need": "+154",
-      "rationale": "Both scored 8 of 18 games together \u00b7 independent 33% \u00b7 correlated",
-      "team": "CGY",
-      "line": 1,
-      "read": "correlated",
-      "both": 8,
-      "n": 18,
-      "players": [
-       8480797,
-       8482679
-      ]
-     },
-     {
       "selection": "Crosby + Rakell \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.262,
       "fair": "+282",
@@ -21341,47 +21298,47 @@
    "lineup": {
     "away": {
      "team": "CGY",
-     "as_of": "2026-11-25T16:47:37.171Z",
-     "checked": "2026-11-25T21:09:48.095038+00:00",
+     "as_of": "2026-11-25T23:45:42.220Z",
+     "checked": "2026-11-25T23:47:15.903760+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-25T16:47:37.171Z",
+     "source": "Calgary Flames",
+     "updated_dfo": "2026-11-25T23:45:42.220Z",
      "forwards": [
       [
        {
-        "name": "Joel Farabee",
-        "jersey": 86,
+        "name": "Yegor Sharangovich",
+        "jersey": 17,
         "pos": "LW",
         "slot": null,
-        "player_id": 8480797,
-        "dfo_id": 4799,
+        "player_id": 8481068,
+        "dfo_id": 29637,
         "gtd": false,
         "injury": null,
-        "pp": 1,
-        "pk": 2,
+        "pp": 2,
+        "pk": 1,
         "bias": null,
         "season": {
-         "a": 13,
-         "g": 7,
+         "a": 6,
+         "g": 5,
          "gp": 25,
-         "p": 20,
-         "ppp": 10,
-         "sog": 67,
-         "toi_s": 28773
+         "p": 11,
+         "ppp": 2,
+         "sog": 39,
+         "toi_s": 24741
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 0,
+         "g": 1,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 1,
-         "sog": 13,
-         "toi_s": 5757
+         "sog": 12,
+         "toi_s": 5289
         },
-        "l5_point_games": 2,
+        "l5_point_games": 1,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -21465,6 +21422,122 @@
       ],
       [
        {
+        "name": "Joel Farabee",
+        "jersey": 86,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8480797,
+        "dfo_id": 4799,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 13,
+         "g": 7,
+         "gp": 25,
+         "p": 20,
+         "ppp": 10,
+         "sog": 67,
+         "toi_s": 28773
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 13,
+         "toi_s": 5757
+        },
+        "l5_point_games": 2,
+        "gp": 25,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Ryan Strome",
+        "jersey": 22,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8476458,
+        "dfo_id": 1825,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 8,
+         "g": 4,
+         "gp": 25,
+         "p": 12,
+         "ppp": 3,
+         "sog": 48,
+         "toi_s": 21745
+        },
+        "last5": {
+         "a": 4,
+         "g": 1,
+         "gp": 5,
+         "p": 5,
+         "ppp": 2,
+         "sog": 6,
+         "toi_s": 4777
+        },
+        "l5_point_games": 3,
+        "gp": 25,
+        "move": {
+         "ev": 0,
+         "pp": 1,
+         "new": false
+        }
+       },
+       {
+        "name": "Adam Klapka",
+        "jersey": 43,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8483609,
+        "dfo_id": 34398,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 5,
+         "g": 4,
+         "gp": 25,
+         "p": 9,
+         "ppp": 3,
+         "sog": 38,
+         "toi_s": 18295
+        },
+        "last5": {
+         "a": 2,
+         "g": 0,
+         "gp": 5,
+         "p": 2,
+         "ppp": 1,
+         "sog": 7,
+         "toi_s": 3884
+        },
+        "l5_point_games": 2,
+        "gp": 25,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
         "name": "Matvei Gridin",
         "jersey": 92,
         "pos": "LW",
@@ -21497,7 +21570,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -21574,122 +21647,6 @@
         "gp": 22,
         "move": {
          "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Yegor Sharangovich",
-        "jersey": 17,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8481068,
-        "dfo_id": 29637,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": 1,
-        "bias": null,
-        "season": {
-         "a": 6,
-         "g": 5,
-         "gp": 25,
-         "p": 11,
-         "ppp": 2,
-         "sog": 39,
-         "toi_s": 24741
-        },
-        "last5": {
-         "a": 0,
-         "g": 1,
-         "gp": 5,
-         "p": 1,
-         "ppp": 1,
-         "sog": 12,
-         "toi_s": 5289
-        },
-        "l5_point_games": 1,
-        "gp": 25,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Ryan Strome",
-        "jersey": 22,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8476458,
-        "dfo_id": 1825,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 8,
-         "g": 4,
-         "gp": 25,
-         "p": 12,
-         "ppp": 3,
-         "sog": 48,
-         "toi_s": 21745
-        },
-        "last5": {
-         "a": 4,
-         "g": 1,
-         "gp": 5,
-         "p": 5,
-         "ppp": 2,
-         "sog": 6,
-         "toi_s": 4777
-        },
-        "l5_point_games": 3,
-        "gp": 25,
-        "move": {
-         "ev": -1,
-         "pp": 1,
-         "new": false
-        }
-       },
-       {
-        "name": "Adam Klapka",
-        "jersey": 43,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8483609,
-        "dfo_id": 34398,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 5,
-         "g": 4,
-         "gp": 25,
-         "p": 9,
-         "ppp": 3,
-         "sog": 38,
-         "toi_s": 18295
-        },
-        "last5": {
-         "a": 2,
-         "g": 0,
-         "gp": 5,
-         "p": 2,
-         "ppp": 1,
-         "sog": 7,
-         "toi_s": 3884
-        },
-        "l5_point_games": 2,
-        "gp": 25,
-        "move": {
-         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -22051,53 +22008,10 @@
      "goalies": [
       [
        {
-        "name": "Devin Cooley",
-        "jersey": 1,
-        "pos": "G",
-        "slot": 1,
-        "player_id": 8482445,
-        "dfo_id": 32944,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": null,
-         "g": null,
-         "gp": 11,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "last5": {
-         "a": null,
-         "g": null,
-         "gp": 5,
-         "p": null,
-         "ppp": null,
-         "sog": null,
-         "toi_s": 0
-        },
-        "l5_point_games": 0,
-        "gp": 0,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        },
-        "record": "5-6-0",
-        "sv_pct": "0.908",
-        "starts": 11
-       }
-      ],
-      [
-       {
         "name": "Dustin Wolf",
         "jersey": 32,
         "pos": "G",
-        "slot": 2,
+        "slot": 1,
         "player_id": 8481692,
         "dfo_id": 29507,
         "gtd": false,
@@ -22133,6 +22047,49 @@
         "record": "5-6-2",
         "sv_pct": "0.877",
         "starts": 13
+       }
+      ],
+      [
+       {
+        "name": "Devin Cooley",
+        "jersey": 1,
+        "pos": "G",
+        "slot": 2,
+        "player_id": 8482445,
+        "dfo_id": 32944,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": null,
+         "g": null,
+         "gp": 11,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": null,
+         "g": null,
+         "gp": 5,
+         "p": null,
+         "ppp": null,
+         "sog": null,
+         "toi_s": 0
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        },
+        "record": "5-6-0",
+        "sv_pct": "0.908",
+        "starts": 11
        }
       ]
      ],
@@ -22171,7 +22128,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -22209,7 +22166,7 @@
         "l5_point_games": 3,
         "gp": 25,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 1,
          "new": false
         }
@@ -22285,7 +22242,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -22363,7 +22320,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -22515,7 +22472,7 @@
         "l5_point_games": 1,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -22595,7 +22552,7 @@
         "l5_point_games": 1,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -22749,7 +22706,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -22864,7 +22821,7 @@
        "rating": 72.07182121271711
       },
       "d3": {
-       "rank": 29,
+       "rank": 28,
        "rating": 0
       },
       "d4": {
@@ -22872,16 +22829,16 @@
        "rating": 0
       },
       "f1": {
-       "rank": 26,
-       "rating": 73.97140184442043
+       "rank": 18,
+       "rating": 75.52903686254702
       },
       "f2": {
-       "rank": 33,
-       "rating": 0
+       "rank": 20,
+       "rating": 73.45114427474822
       },
       "f3": {
-       "rank": 11,
-       "rating": 74.48852172320261
+       "rank": 33,
+       "rating": 0
       },
       "f4": {
        "rank": 32,
