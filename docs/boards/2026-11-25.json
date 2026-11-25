@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T16:24:54.175674+00:00",
+ "generated_utc": "2026-11-25T16:32:00.770654+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -1060,12 +1060,12 @@
     "color2": "#004C97",
     "record": "12-9-4",
     "b2b": false,
-    "goalie": "Stuart Skinner",
-    "goalie_status": "",
-    "goalie_news": "",
-    "goalie_source": "",
-    "sv": "0.887",
-    "gaa": "3.24",
+    "goalie": "Nico Daws",
+    "goalie_status": "Likely",
+    "goalie_news": "Daws is in the starter's crease at Winnipeg's morning skate.",
+    "goalie_source": "Mitchell Clinton",
+    "sv": "0.891",
+    "gaa": "2.62",
     "lineup_as_of": "2026-11-24T16:35:11.419Z",
     "lineup_checked": "2026-11-25T16:23:20.474706+00:00",
     "lineup_stale": false,
@@ -24464,8 +24464,8 @@
     "goalie_source": "Sammi Silber",
     "sv": "0.879",
     "gaa": "3.42",
-    "lineup_as_of": "2026-11-24T16:56:47.462Z",
-    "lineup_checked": "2026-11-25T16:23:20.564429+00:00",
+    "lineup_as_of": "2026-11-25T16:28:34.051Z",
+    "lineup_checked": "2026-11-25T16:31:57.423708+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 9,
@@ -24505,7 +24505,7 @@
      "away": "-192",
      "home": "+160",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T16:56:47.462Z"
+     "as_of": "2026-11-25T16:28:34.051Z"
     },
     "total": {
      "line": 6.5,
@@ -24892,21 +24892,6 @@
       "sneaky": true
      },
      {
-      "selection": "Jack St. Ivany \u00b7 1+ assist",
-      "prob": 0.296,
-      "fair": "+238",
-      "need": "+258",
-      "rationale": "D3 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 11 season",
-      "player": "Jack St. Ivany",
-      "team": "WSH",
-      "pp": null,
-      "line": 3,
-      "players": [
-       8481030
-      ],
-      "sneaky": true
-     },
-     {
       "selection": "Cam York \u00b7 1+ assist",
       "prob": 0.269,
       "fair": "+271",
@@ -24933,6 +24918,21 @@
       "line": 3,
       "players": [
        8480220
+      ],
+      "sneaky": true
+     },
+     {
+      "selection": "Matt Roy \u00b7 1+ assist",
+      "prob": 0.25,
+      "fair": "+300",
+      "need": "+324",
+      "rationale": "D1 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 15 season",
+      "player": "Matt Roy",
+      "team": "WSH",
+      "pp": null,
+      "line": 1,
+      "players": [
+       8478911
       ],
       "sneaky": true
      }
@@ -26711,11 +26711,11 @@
     },
     "home": {
      "team": "WSH",
-     "as_of": "2026-11-24T16:56:47.462Z",
-     "checked": "2026-11-25T16:23:20.564429+00:00",
+     "as_of": "2026-11-25T16:28:34.051Z",
+     "checked": "2026-11-25T16:31:57.423708+00:00",
      "stale": false,
      "source": "Tom Gulitti",
-     "updated_dfo": "2026-11-24T16:56:47.462Z",
+     "updated_dfo": "2026-11-25T16:28:34.051Z",
      "forwards": [
       [
        {
@@ -27307,7 +27307,7 @@
         "slot": null,
         "player_id": 8479576,
         "dfo_id": 25716,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
@@ -27379,41 +27379,41 @@
         }
        },
        {
-        "name": "Jack St. Ivany",
-        "jersey": 29,
+        "name": "Timothy Liljegren",
+        "jersey": 27,
         "pos": "RD",
         "slot": null,
-        "player_id": 8481030,
-        "dfo_id": 25428,
+        "player_id": 8480043,
+        "dfo_id": 2805,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 6,
+         "a": 0,
          "g": 1,
-         "gp": 15,
-         "p": 7,
+         "gp": 20,
+         "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 12877
+         "sog": 11,
+         "toi_s": 19768
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4483
+         "sog": 5,
+         "toi_s": 4671
         },
-        "l5_point_games": 2,
-        "gp": 11,
+        "l5_point_games": 0,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -28131,7 +28131,7 @@
         "slot": 3,
         "player_id": 8479576,
         "dfo_id": 25716,
-        "gtd": true,
+        "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
@@ -28163,41 +28163,41 @@
         }
        },
        {
-        "name": "Jack St. Ivany",
-        "jersey": 29,
+        "name": "Timothy Liljegren",
+        "jersey": 27,
         "pos": null,
         "slot": 4,
-        "player_id": 8481030,
-        "dfo_id": 25428,
+        "player_id": 8480043,
+        "dfo_id": 2805,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 6,
+         "a": 0,
          "g": 1,
-         "gp": 15,
-         "p": 7,
+         "gp": 20,
+         "p": 1,
          "ppp": 0,
-         "sog": 12,
-         "toi_s": 12877
+         "sog": 11,
+         "toi_s": 19768
         },
         "last5": {
-         "a": 2,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 4483
+         "sog": 5,
+         "toi_s": 4671
         },
-        "l5_point_games": 2,
-        "gp": 11,
+        "l5_point_games": 0,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -28209,13 +28209,8 @@
        "news": "Sandin (ACL Surgery) returned to practice in a full-contact jersey on Tuesday."
       },
       {
-       "player": "Vincent Desharnais",
-       "status": "IR",
-       "news": "Desharnais (appendectomy surgery) returned to practice in a full contact jersey on Friday."
-      },
-      {
        "player": "Jordan Kyrou",
-       "status": "DTD",
+       "status": "OUT",
        "news": "Kyrou is expected to miss at least the next week with an upper-body injury."
       }
      ],
@@ -28229,8 +28224,8 @@
        "rating": 73.2892480374966
       },
       "d3": {
-       "rank": 29,
-       "rating": 0
+       "rank": 18,
+       "rating": 71.87378772751072
       },
       "d4": {
        "rank": 6,

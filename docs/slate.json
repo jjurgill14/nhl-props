@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_utc": "2026-11-25T16:23:22.828287+00:00",
+ "generated_utc": "2026-11-25T16:31:59.674722+00:00",
  "games": [
   {
    "game_id": 2026020386,
@@ -16,12 +16,12 @@
      "opp": "BOS",
      "home": false,
      "b2b": false,
-     "goalie": "Stuart Skinner",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
-     "sv": "0.887",
-     "gaa": "3.24",
+     "goalie": "Nico Daws",
+     "goalie_status": "Likely",
+     "goalie_news": "Daws is in the starter's crease at Winnipeg's morning skate.",
+     "goalie_source": "Mitchell Clinton",
+     "sv": "0.891",
+     "gaa": "2.62",
      "ml": "-185",
      "gp": 25,
      "gf": 3.12,
@@ -25287,8 +25287,8 @@
      "ppga_rk": 8,
      "l5_gf": 3.2,
      "l5_ga": 6.0,
-     "lineup_as_of": "2026-11-24T16:56:47.462Z",
-     "lineup_checked": "2026-11-25T16:23:20.564429+00:00",
+     "lineup_as_of": "2026-11-25T16:28:34.051Z",
+     "lineup_checked": "2026-11-25T16:31:57.423708+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -25297,13 +25297,8 @@
        "news": "Sandin (ACL Surgery) returned to practice in a full-contact jersey on Tuesday."
       },
       {
-       "player": "Vincent Desharnais",
-       "status": "IR",
-       "news": "Desharnais (appendectomy surgery) returned to practice in a full contact jersey on Friday."
-      },
-      {
        "player": "Jordan Kyrou",
-       "status": "DTD",
+       "status": "OUT",
        "news": "Kyrou is expected to miss at least the next week with an upper-body injury."
       }
      ],
@@ -25955,12 +25950,12 @@
        },
        "partners": [
         {
-         "name": "Jack St. Ivany",
-         "jersey": 6,
+         "name": "Timothy Liljegren",
+         "jersey": 37,
          "pp": null,
-         "n": 10,
-         "both": 2,
-         "either": 8
+         "n": 1,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -26385,104 +26380,6 @@
          "n": 0,
          "both": 0,
          "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Jack St. Ivany",
-       "jersey": 6,
-       "team": "WSH",
-       "opp": "PHI",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 5,
-         "k5": 2,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.3804387096774194,
-         "p_hot": 0.3602221598877981,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.08231714770797964,
-         "p_hot": 0.06800112201963535,
-         "heater": false
-        },
-        "assists": {
-         "k": 4,
-         "k5": 2,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.30257113752122244,
-         "p_hot": 0.2958967741935484,
-         "heater": true
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": "A",
-       "gp": 11,
-       "pt_games": 5,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 4,
-       "goal_games": 1,
-       "two_games": 2,
-       "home_split": [
-        2,
-        6
-       ],
-       "away_split": [
-        3,
-        5
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 14.9,
-       "p": 0.38,
-       "fair": "+163",
-       "min": "+179",
-       "p2": 0.125,
-       "fair2": "+703",
-       "min2": "+751",
-       "adj": [
-        [
-         "opp",
-         1.0567741935483872
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Cole Hutson",
-         "jersey": null,
-         "pp": 2,
-         "n": 10,
-         "both": 2,
-         "either": 8
         }
        ]
       },
@@ -26945,7 +26842,7 @@
         }
        },
        "pos": "RD",
-       "gtd": true,
+       "gtd": false,
        "role": "d",
        "bias": "A",
        "gp": 9,
@@ -27201,6 +27098,104 @@
          "n": 0,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Timothy Liljegren",
+       "jersey": 37,
+       "team": "WSH",
+       "opp": "PHI",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.10718709677419355,
+         "p_hot": 0.08454193548387098,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.05585806451612904,
+         "p_hot": 0.022054417952314165,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.0543483870967742,
+         "p_hot": 0.0661632538569425,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 20,
+       "pt_games": 1,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        1,
+        13
+       ],
+       "away_split": [
+        0,
+        7
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 15.6,
+       "p": 0.107,
+       "fair": "+833",
+       "min": "+889",
+       "p2": 0.009,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0567741935483872
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Cole Hutson",
+         "jersey": null,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 1
         }
        ]
       }
