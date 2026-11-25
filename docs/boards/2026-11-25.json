@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T23:37:01.833088+00:00",
+ "generated_utc": "2026-11-25T23:42:12.592301+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -5017,12 +5017,23 @@
     "sv": "0.94",
     "gaa": "1.67",
     "lineup_as_of": "2026-11-24T17:16:52.259Z",
-    "lineup_checked": "2026-11-25T16:23:19.486938+00:00",
+    "lineup_checked": "2026-11-25T23:42:04.739557+00:00",
     "lineup_stale": false,
     "ga_rk": 28,
     "gf_rk": 22,
     "ppga_rk": 31,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-25T23:42:04.744606+00:00",
+      "kind": "in",
+      "text": "IN: Taylor Raddysh \u2192 L4"
+     },
+     {
+      "at": "2026-11-25T23:42:04.744606+00:00",
+      "kind": "out",
+      "text": "OUT: Matt Rempe (was L4)"
+     }
+    ],
     "rates": {
      "gp": 23,
      "pp_gp": 23,
@@ -5636,7 +5647,7 @@
     "away": {
      "team": "NYR",
      "as_of": "2026-11-24T17:16:52.259Z",
-     "checked": "2026-11-25T16:23:19.486938+00:00",
+     "checked": "2026-11-25T23:42:04.739557+00:00",
      "stale": false,
      "source": "Remy Mastey",
      "updated_dfo": "2026-11-24T17:16:52.259Z",
@@ -6067,41 +6078,41 @@
         }
        },
        {
-        "name": "Matt Rempe",
-        "jersey": 73,
+        "name": "Taylor Raddysh",
+        "jersey": 14,
         "pos": "RW",
         "slot": null,
-        "player_id": 8482460,
-        "dfo_id": 32523,
+        "player_id": 8479390,
+        "dfo_id": 3922,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
+         "a": 1,
          "g": 0,
-         "gp": 7,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 3031
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
+         "gp": 6,
+         "p": 1,
          "ppp": 0,
          "sog": 3,
-         "toi_s": 2219
+         "toi_s": 2726
         },
-        "l5_point_games": 0,
-        "gp": 7,
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 3,
+         "toi_s": 2283
+        },
+        "l5_point_games": 1,
+        "gp": 6,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        }
       ]
@@ -7184,11 +7195,11 @@
        "rating": 78.49069970196581
       },
       "f3": {
-       "rank": 18,
+       "rank": 19,
        "rating": 73.17265152625231
       },
       "f4": {
-       "rank": 33,
+       "rank": 32,
        "rating": 0
       },
       "g": {
@@ -8800,8 +8811,8 @@
     "record": "18-3-3",
     "b2b": false,
     "goalie": "Brandon Bussi",
-    "goalie_status": "Likely",
-    "goalie_news": "Bussi is in the starter's crease at Carolina's morning skate on Wednesday.",
+    "goalie_status": "Confirmed",
+    "goalie_news": "Bussi will start in Tampa Bay on Wednesday.",
     "goalie_source": "Walt Ruff",
     "sv": "0.879",
     "gaa": "2.85",
@@ -24551,7 +24562,7 @@
     "sv": "0.879",
     "gaa": "3.42",
     "lineup_as_of": "2026-11-25T16:28:34.051Z",
-    "lineup_checked": "2026-11-25T21:09:48.287488+00:00",
+    "lineup_checked": "2026-11-25T23:42:05.585277+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 9,
@@ -24566,6 +24577,16 @@
       "at": "2026-11-25T21:09:48.290846+00:00",
       "kind": "out",
       "text": "OUT: Vincent Desharnais (was L2) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-25T23:42:05.590058+00:00",
+      "kind": "in",
+      "text": "IN: Anthony Beauvillier \u2192 L3"
+     },
+     {
+      "at": "2026-11-25T23:42:05.590058+00:00",
+      "kind": "out",
+      "text": "OUT: Ethen Frank (was L3)"
      }
     ],
     "rates": {
@@ -26809,7 +26830,7 @@
     "home": {
      "team": "WSH",
      "as_of": "2026-11-25T16:28:34.051Z",
-     "checked": "2026-11-25T21:09:48.287488+00:00",
+     "checked": "2026-11-25T23:42:05.585277+00:00",
      "stale": false,
      "source": "Tom Gulitti",
      "updated_dfo": "2026-11-25T16:28:34.051Z",
@@ -27124,37 +27145,37 @@
         }
        },
        {
-        "name": "Ethen Frank",
-        "jersey": 53,
+        "name": "Anthony Beauvillier",
+        "jersey": 72,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483573,
-        "dfo_id": 27817,
+        "player_id": 8478463,
+        "dfo_id": 2487,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 2,
-         "p": 0,
+         "a": 3,
+         "g": 2,
+         "gp": 20,
+         "p": 5,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 1166
+         "sog": 21,
+         "toi_s": 13990
         },
         "last5": {
          "a": 0,
          "g": 1,
          "gp": 5,
          "p": 1,
-         "ppp": 1,
-         "sog": 7,
-         "toi_s": 3507
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 3685
         },
-        "l5_point_games": 0,
-        "gp": 2,
+        "l5_point_games": 1,
+        "gp": 20,
         "move": {
          "ev": 0,
          "pp": 0,
@@ -28342,8 +28363,8 @@
        "rating": 73.3604217158804
       },
       "f3": {
-       "rank": 1,
-       "rating": 77.9973818482085
+       "rank": 4,
+       "rating": 76.1108274280466
       },
       "f4": {
        "rank": 20,

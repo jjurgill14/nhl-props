@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_utc": "2026-11-25T23:37:00.766476+00:00",
+ "generated_utc": "2026-11-25T23:42:11.522089+00:00",
  "games": [
   {
    "game_id": 2026020386,
@@ -3928,7 +3928,7 @@
      "l5_gf": 2.8,
      "l5_ga": 2.2,
      "lineup_as_of": "2026-11-24T17:16:52.259Z",
-     "lineup_checked": "2026-11-25T16:23:19.486938+00:00",
+     "lineup_checked": "2026-11-25T23:42:04.739557+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -3981,7 +3981,7 @@
       "4": [
        "Glenn Gawdin",
        "Max Sasson",
-       "Matt Rempe"
+       "Taylor Raddysh"
       ]
      },
      "pp1": [
@@ -4932,10 +4932,10 @@
          "either": 0
         },
         {
-         "name": "Matt Rempe",
-         "jersey": 73,
+         "name": "Taylor Raddysh",
+         "jersey": 14,
          "pp": null,
-         "n": 2,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -5360,10 +5360,10 @@
          "either": 0
         },
         {
-         "name": "Matt Rempe",
-         "jersey": 73,
+         "name": "Taylor Raddysh",
+         "jersey": 14,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -5464,6 +5464,112 @@
          "n": 23,
          "both": 5,
          "either": 17
+        }
+       ]
+      },
+      {
+       "name": "Taylor Raddysh",
+       "jersey": 14,
+       "team": "NYR",
+       "opp": "BUF",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 6,
+         "p": 0.22866359447004608,
+         "p_hot": 0.22465195246179964,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 6,
+         "p": 0.07317235023041475,
+         "p_hot": 0.05391646859083192,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 6,
+         "p": 0.16768663594470049,
+         "p_hot": 0.17972156196943972,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 6,
+       "pt_games": 1,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        3
+       ],
+       "away_split": [
+        0,
+        3
+       ],
+       "l5_venue": [
+        0,
+        3
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 7.6,
+       "p": 0.229,
+       "fair": "+337",
+       "min": "+364",
+       "p2": 0.024,
+       "fair2": "+4000",
+       "min2": "+4246",
+       "adj": [
+        [
+         "opp",
+         1.0670967741935484
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Glenn Gawdin",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Max Sasson",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -5664,112 +5770,6 @@
          "n": 14,
          "both": 1,
          "either": 4
-        }
-       ]
-      },
-      {
-       "name": "Matt Rempe",
-       "jersey": 73,
-       "team": "NYR",
-       "opp": "BUF",
-       "section": "F",
-       "home": false,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 7,
-         "p": 0.14227956989247312,
-         "p_hot": 0.10670967741935485,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 7,
-         "p": 0.0682941935483871,
-         "p_hot": 0.051220645161290324,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 7,
-         "p": 0.08536774193548388,
-         "p_hot": 0.0640258064516129,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 7,
-       "pt_games": 0,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        5
-       ],
-       "away_split": [
-        0,
-        2
-       ],
-       "l5_venue": [
-        0,
-        2
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 7.4,
-       "p": 0.142,
-       "fair": "+603",
-       "min": "+645",
-       "p2": 0.023,
-       "fair2": "+4293",
-       "min2": "+4556",
-       "adj": [
-        [
-         "opp",
-         1.0670967741935484
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Glenn Gawdin",
-         "jersey": null,
-         "pp": null,
-         "n": 2,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Max Sasson",
-         "jersey": null,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -7849,8 +7849,8 @@
      "home": false,
      "b2b": false,
      "goalie": "Brandon Bussi",
-     "goalie_status": "Likely",
-     "goalie_news": "Bussi is in the starter's crease at Carolina's morning skate on Wednesday.",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Bussi will start in Tampa Bay on Wednesday.",
      "goalie_source": "Walt Ruff",
      "sv": "0.879",
      "gaa": "2.85",
@@ -25431,7 +25431,7 @@
      "l5_gf": 3.2,
      "l5_ga": 6.0,
      "lineup_as_of": "2026-11-25T16:28:34.051Z",
-     "lineup_checked": "2026-11-25T21:09:48.287488+00:00",
+     "lineup_checked": "2026-11-25T23:42:05.585277+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -25464,7 +25464,7 @@
       "3": [
        "Alex Ovechkin",
        "Dylan Strome",
-       "Ethen Frank"
+       "Anthony Beauvillier"
       ],
       "4": [
        "Boone Jenner",
@@ -25788,12 +25788,12 @@
          "either": 5
         },
         {
-         "name": "Ethen Frank",
-         "jersey": 53,
+         "name": "Anthony Beauvillier",
+         "jersey": 72,
          "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -26416,12 +26416,12 @@
          "either": 5
         },
         {
-         "name": "Ethen Frank",
-         "jersey": 53,
+         "name": "Anthony Beauvillier",
+         "jersey": 72,
          "pp": null,
-         "n": 0,
+         "n": 10,
          "both": 0,
-         "either": 0
+         "either": 4
         }
        ]
       },
@@ -26940,6 +26940,112 @@
        ]
       },
       {
+       "name": "Anthony Beauvillier",
+       "jersey": 72,
+       "team": "WSH",
+       "opp": "PHI",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 5,
+         "k5": 1,
+         "n5": 5,
+         "k10": 3,
+         "n10": 10,
+         "p": 0.2641935483870968,
+         "p_hot": 0.2756802244039271,
+         "heater": false
+        },
+        "goals": {
+         "k": 2,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.11171612903225808,
+         "p_hot": 0.1360022440392707,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.15851612903225806,
+         "p_hot": 0.14702945301542777,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": "A",
+       "gp": 20,
+       "pt_games": 5,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 2,
+       "two_games": 0,
+       "home_split": [
+        5,
+        13
+       ],
+       "away_split": [
+        0,
+        7
+       ],
+       "l5_venue": [
+        3,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 12.3,
+       "p": 0.264,
+       "fair": "+279",
+       "min": "+301",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0567741935483872
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Alex Ovechkin",
+         "jersey": 8,
+         "pp": 1,
+         "n": 10,
+         "both": 0,
+         "either": 4
+        },
+        {
+         "name": "Dylan Strome",
+         "jersey": 17,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        }
+       ]
+      },
+      {
        "name": "Ivan Miroshnichenko",
        "jersey": 63,
        "team": "WSH",
@@ -27140,112 +27246,6 @@
          "n": 10,
          "both": 0,
          "either": 1
-        }
-       ]
-      },
-      {
-       "name": "Ethen Frank",
-       "jersey": 53,
-       "team": "WSH",
-       "opp": "PHI",
-       "section": "F",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.21135483870967745,
-         "p_hot": 0.17612903225806453,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.10145032258064517,
-         "p_hot": 0.08454193548387098,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 2,
-         "k10": 0,
-         "n10": 2,
-         "p": 0.12681290322580646,
-         "p_hot": 0.10567741935483871,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 2,
-       "pt_games": 0,
-       "l5": [
-        0,
-        2
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        1
-       ],
-       "away_split": [
-        0,
-        1
-       ],
-       "l5_venue": [
-        0,
-        1
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.1,
-       "toi": 9.7,
-       "p": 0.211,
-       "fair": "+373",
-       "min": "+402",
-       "p2": 0.034,
-       "fair2": "+2857",
-       "min2": "+3035",
-       "adj": [
-        [
-         "opp",
-         1.0567741935483872
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Alex Ovechkin",
-         "jersey": 8,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Dylan Strome",
-         "jersey": 17,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
