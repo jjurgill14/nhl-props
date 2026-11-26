@@ -146,10 +146,17 @@ function Panel({ board, game, side, sel, onProps }: { board: Board; game: Game; 
           {own ? (
             <StatRow cols={DEF} r={mine} label={`${team.abbr} DEFENSE`} sub={`green = leaky, good for ${opp.abbr}`} />
           ) : (
-            <StatRow cols={DEF} r={theirs} label={`${opp.abbr} DEFENSE`} sub={`${cutLabel(sel, oppSide)} · green = leaky, good for ${team.abbr}`} />
+            <StatRow cols={DEF} r={theirs} label={`${opp.abbr} DEFENSE`} sub={`green = leaky, good for ${team.abbr}`} />
           )}
         </>
       )}
+      <div className="cut-note mu-cut-note" title="What the numbers and ranks in this panel are showing — change it with the toggles above">
+        RANKS:{' '}
+        {sel.venue === 'tonight' && !own
+          ? `${cutLabel(sel, side)} (${team.abbr}) / ${cutLabel(sel, oppSide)} (${opp.abbr})`
+          : `${cutLabel(sel, side)}${sel.venue === 'all' ? ' · ALL GAMES' : ''}`}{' '}
+        · {own ? 'OWN DEFENSE' : "OPPONENT'S DEFENSE"}
+      </div>
       <div className="mu-sec">
         {team.abbr} LEADERS <span>/ {cutLabel(sel, side)} · TOTAL, PER GAME</span>
       </div>
