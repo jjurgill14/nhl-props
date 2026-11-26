@@ -629,3 +629,10 @@ button:disabled{cursor:default;opacity:.55}
 .tr-table2 th{letter-spacing:.8px;text-indent:.8px}
 .tr-table2 td.sorted{text-align:center;padding-left:10px}
 .tr-table2 .xo{margin-left:8px}
+/* contrast: the soft tier uses the same bright text as the outliers everywhere; only the outliers get the filled background */
+.tr-card-row .v.g1{color:#4ade80}.tr-card-row .v.r1{color:#f87171}
+.rk.g1 b{color:#4ade80}.rk.r1 b{color:#f87171}
+.mu-tile.g1 span{color:#4ade80}.mu-tile.r1 span{color:#f87171}
+.mu-res-rk>span.g1{color:#4ade80}.mu-res-rk>span.r1{color:#f87171}
+.pr-rk.g1{color:#4ade80}.pr-rk.r1{color:#f87171}
+.tr-card-h b{min-height:2.5em;display:flex;flex-wrap:wrap;align-items:flex-end;gap:0 4px}

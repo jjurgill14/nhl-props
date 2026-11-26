@@ -36,4 +36,5 @@ function legacyTone(key: RateKey, rk: number | null, view: ColorView): Tone {
   return g > 0 ? 'g1' : g < 0 ? 'r1' : ''
 }
 
-export const TONE_COLOR: Record<Tone, string> = { g2: '#4ade80', g1: '#8fcfa6', '': '#9fb3c1', r1: '#e39a9a', r2: '#f87171' }
+// text color is the same bright green / red for both strengths; the outlier tiers add a filled background where there's room
+export const TONE_COLOR: Record<Tone, string> = { g2: '#4ade80', g1: '#4ade80', '': '#9fb3c1', r1: '#f87171', r2: '#f87171' }
