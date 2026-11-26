@@ -5,6 +5,8 @@ the team's last five AWAY games, not the away games among its last five.
 
 teams   : every team, every cut -> the same six rates and ranks the main board shows (ranks are within the cut),
           plus games played and W-L-OTL in the cut. The season|all cut is identical to board.team_rates.
+results : slate teams only -> every finished game (date, opponent, venue, final score, OT/SO) so the page can
+          show the games behind any cut.
 leaders : slate teams only, every cut -> top players by points, goals, assists and shots on goal over the
           team's games in the cut. Only players whose most recent game was for this team are listed.
 """
@@ -85,4 +87,8 @@ def build(boxes: dict[int, list[dict]], slate_teams: set[str], ids: dict | None 
                 top = sorted(tot.values(), key=lambda d: (-d[k], d["gp"], d["name"]))[:TOP_N]
                 block[k] = [{"id": d["id"], "name": d["name"], "pos": d["pos"], "gp": d["gp"], "v": d[k]} for d in top if d[k] > 0]
             leaders[t][key] = block
-    return {"windows": list(WINDOWS), "venues": list(VENUES), "teams": dict(teams), "leaders": leaders}
+    # every finished game for the slate teams, oldest first; the app applies the window/venue cut itself
+    results = {t: [{"date": g["date"], "game_id": g["game_id"], "opp": g["opp"], "home": g["home"],
+                    "tf": g["tf"], "ta": g["ta"], "ot": g.get("ot", "")}
+                   for g in per_game.get(t, []) if g.get("tf") is not None] for t in sorted(slate_teams)}
+    return {"windows": list(WINDOWS), "venues": list(VENUES), "teams": dict(teams), "leaders": leaders, "results": results}

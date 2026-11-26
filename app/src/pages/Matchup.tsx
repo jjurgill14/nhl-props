@@ -1,7 +1,7 @@
-import type { Board, Game, LeaderBlock, RateBlock, SplitSel, StatKey, TeamSide } from '../data/types'
+import type { Board, Game, LeaderBlock, RateBlock, SplitSel, StatKey, TeamResult, TeamSide } from '../data/types'
 import { LOGO } from '../data/load'
 import { etTime, longDate } from '../data/time'
-import { cutLabel, leadersFor, ratesFor } from '../data/splits'
+import { cutLabel, leadersFor, ratesFor, resultsFor, seasonRecord } from '../data/splits'
 import { chipTone } from '../components/RankStrip'
 import { SplitToggles } from '../components/SplitToggles'
 import { PlayRow, TotalsBar, playFor, propsFor, type PropsOpener } from '../components/GameCard'
@@ -91,7 +91,38 @@ function Leaders({ block, out, onProps }: { block: LeaderBlock | undefined; out:
   )
 }
 
-function TeamHead({ team, side, xg, xgTone }: { team: TeamSide; side: 'away' | 'home'; xg: number | null; xgTone: string }) {
+const SHOWN_RESULTS = 10
+
+function shortDate(d: string): string {
+  const [, m, day] = d.split('-')
+  return `${Number(m)}/${Number(day)}`
+}
+
+/** Same wording as the player props page: "W 4-2", "L 2-3 OT". */
+function scoreLabel(g: TeamResult): string {
+  return `${g.tf > g.ta ? 'W' : 'L'} ${g.tf}-${g.ta}${g.ot && g.ot !== 'REG' ? ' ' + g.ot : ''}`
+}
+
+function Results({ data }: { data: { games: TeamResult[]; total: number } | undefined }) {
+  if (!data) return <div className="mu-empty">Game results aren't in this board (built before they were added).</div>
+  if (!data.games.length) return <div className="mu-empty">No games in this cut yet.</div>
+  const shown = data.games.slice(0, SHOWN_RESULTS)
+  return (
+    <div className="mu-results">
+      {shown.map((g) => (
+        <div key={g.game_id} className={`mu-res ${g.tf > g.ta ? 'win' : 'loss'}`} title={`${g.date} ${g.home ? 'vs' : '@'} ${g.opp}: ${scoreLabel(g)}`}>
+          <span className="d">{shortDate(g.date)}</span>
+          <span className="o">
+            {g.home ? 'vs' : '@'} {g.opp}
+          </span>
+          <b>{scoreLabel(g)}</b>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function TeamHead({ board, team, side, xg, xgTone }: { board: Board; team: TeamSide; side: 'away' | 'home'; xg: number | null; xgTone: string }) {
   const st = team.goalie_status
   const cls = st === 'Confirmed' ? 'ok' : st === 'Likely' || st === 'Expected' ? 'likely' : ''
   return (
@@ -103,13 +134,21 @@ function TeamHead({ team, side, xg, xgTone }: { team: TeamSide; side: 'away' | '
           {team.city} <span>{team.name}</span>
         </h2>
         <div className="mu-rec">
-          {team.record}
-          {team.b2b && <span className="status-badge b2b">B2B</span>}
-          {xg != null && (
-            <span className={`xg ${xgTone}`} title="Market-implied expected goals tonight (vig removed; total split by the moneyline)">
-              xG {xg.toFixed(2)}
-            </span>
-          )}
+          <span className="mu-rec-line">
+            <i>OVERALL</i> {seasonRecord(board, team.abbr, 'all') ?? team.record}
+            {team.b2b && <span className="status-badge b2b">B2B</span>}
+            {xg != null && (
+              <span className={`xg ${xgTone}`} title="Market-implied expected goals tonight (vig removed; total split by the moneyline)">
+                xG {xg.toFixed(2)}
+              </span>
+            )}
+          </span>
+          <span className="mu-rec-line">
+            <i>HOME</i> {seasonRecord(board, team.abbr, 'home') ?? '—'}
+          </span>
+          <span className="mu-rec-line">
+            <i>AWAY</i> {seasonRecord(board, team.abbr, 'away') ?? '—'}
+          </span>
         </div>
         <div className="goalie-line" title={team.goalie_news ?? undefined}>
           🥅 <b>{team.goalie ?? 'TBD'}</b> <span className={cls}>{st ?? 'unconfirmed'}</span>
@@ -157,6 +196,20 @@ function Panel({ board, game, side, sel, onProps }: { board: Board; game: Game; 
           : `${cutLabel(sel, side)}${sel.venue === 'all' ? ' · ALL GAMES' : ''}`}{' '}
         · {own ? 'OWN DEFENSE' : "OPPONENT'S DEFENSE"}
       </div>
+      {(() => {
+        const res = resultsFor(board, team.abbr, side, sel)
+        return (
+          <>
+            <div className="mu-sec">
+              {team.abbr} RESULTS{' '}
+              <span>
+                / {cutLabel(sel, side)} · NEWEST FIRST{res && res.total > SHOWN_RESULTS ? ` · LAST ${SHOWN_RESULTS} OF ${res.total}` : ''}
+              </span>
+            </div>
+            <Results data={res} />
+          </>
+        )
+      })()}
       <div className="mu-sec">
         {team.abbr} LEADERS <span>/ {cutLabel(sel, side)} · TOTAL, PER GAME</span>
       </div>
@@ -212,7 +265,7 @@ export function MatchupPage({ board, gameId, onPick, sel, onSel, onBack, onLineu
       </div>
 
       <section className="mu-hero">
-        <TeamHead team={away} side="away" xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} />
+        <TeamHead board={board} team={away} side="away" xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} />
         <div className="mu-mid">
           <div className="mu-when">
             {longDate(board.date).toUpperCase()} · {etTime(game.start_utc)} ET
@@ -225,7 +278,7 @@ export function MatchupPage({ board, gameId, onPick, sel, onSel, onBack, onLineu
           )}
           <TotalsBar game={game} />
         </div>
-        <TeamHead team={home} side="home" xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} />
+        <TeamHead board={board} team={home} side="home" xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} />
       </section>
 
       <div className="split-bar">

@@ -220,4 +220,8 @@ export interface Splits {
   venues: string[]
   teams: Record<string, Record<string, RateBlock>>
   leaders: Record<string, Record<string, LeaderBlock>>
+  /** Every finished game per slate team, oldest first. */
+  results?: Record<string, TeamResult[]>
 }
+
+export interface TeamResult { date: string; game_id: number; opp: string; home: boolean; tf: number; ta: number; ot: string }

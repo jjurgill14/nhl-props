@@ -150,6 +150,7 @@ def team_games(boxes: dict[int, list[dict]], ginfo: dict[int, dict] | None = Non
             if info.get("away_score") is not None and info.get("home_score") is not None:
                 mine, theirs = (info["home_score"], info["away_score"]) if info.get("home") == t else (info["away_score"], info["home_score"])
                 rec["result"] = "W" if mine > theirs else ("OTL" if info.get("periods", 3) > 3 else "L")
+                rec["tf"], rec["ta"], rec["ot"] = mine, theirs, info.get("last_period_type") or ""
             if t in opps and o in opps:
                 rec["pp_opps"] = opps[t][1]
                 rec["pk_faced"] = opps[o][1]

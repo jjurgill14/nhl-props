@@ -33,7 +33,17 @@ const board: BoardData = {
   mode: 'live', date: '2026-11-07', generated_utc: '2026-11-07T10:00:00Z',
   lenses: { point: 'Point', assist: 'Assist', goal: 'Goal', sneaky_point: 'SP', sneaky_assist: 'SA', sneaky_goal: 'SG', pair: 'Pair', two: '2+', pp1: 'PP1', btts2: 'BTTS' },
   default_slots: ['point', 'pair', 'two'], games: [game], sources: { moneyline: 'Daily Faceoff' },
-  splits: { windows: ['season', 'l10', 'l5'], venues: ['all', 'home', 'away'], teams: { MTL: cuts(1), TOR: cuts(2) }, leaders: { MTL: leaders('Mtl'), TOR: leaders('Tor') } },
+  splits: {
+    windows: ['season', 'l10', 'l5'], venues: ['all', 'home', 'away'], teams: { MTL: cuts(1), TOR: cuts(2) }, leaders: { MTL: leaders('Mtl'), TOR: leaders('Tor') },
+    results: {
+      MTL: [
+        { date: '2026-10-01', game_id: 1, opp: 'BOS', home: true, tf: 4, ta: 2, ot: 'REG' },
+        { date: '2026-10-03', game_id: 2, opp: 'NYR', home: false, tf: 2, ta: 3, ot: 'OT' },
+        { date: '2026-10-05', game_id: 3, opp: 'OTT', home: false, tf: 5, ta: 1, ot: 'REG' },
+      ],
+      TOR: [],
+    },
+  },
 }
 
 function Harness({ onProps }: { onProps?: (t: unknown) => void }) {
@@ -71,6 +81,19 @@ describe('Matchup page', () => {
     await user.click(screen.getByRole('button', { name: 'Tonight' }))
     expect(screen.getByRole('region', { name: 'MTL SEASON · AWAY' })).toBeInTheDocument()
     expect(screen.getByRole('region', { name: 'TOR SEASON · HOME' })).toBeInTheDocument()
+  })
+
+  it('shows overall / home / away records and the games behind the cut, newest first', async () => {
+    const user = userEvent.setup()
+    render(<Harness />)
+    const head = screen.getByRole('heading', { level: 2, name: /Montreal/ }).parentElement!.querySelector('.mu-rec') as HTMLElement
+    expect(within(head).getByText('OVERALL').parentElement).toHaveTextContent('0-0-0') // season|all
+    expect(within(head).getByText('HOME').parentElement).toHaveTextContent('0-1-0') // season|home
+    expect(within(head).getByText('AWAY').parentElement).toHaveTextContent('0-2-0') // season|away
+    const mtl = screen.getByRole('region', { name: 'MTL SEASON' })
+    expect(within(mtl).getAllByText(/^[WL] \d+-\d+/).map((e) => e.textContent)).toEqual(['W 5-1', 'L 2-3 OT', 'W 4-2'])
+    await user.click(screen.getByRole('button', { name: 'Home' }))
+    expect(within(screen.getByRole('region', { name: 'MTL SEASON · HOME' })).getAllByText(/^[WL] \d+-\d+/).map((e) => e.textContent)).toEqual(['W 4-2'])
   })
 
   it('clicking a leader opens his props with the right stat', async () => {

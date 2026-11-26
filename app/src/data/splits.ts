@@ -1,4 +1,4 @@
-import type { Board, LeaderBlock, RateBlock, SplitSel, SplitVenue, SplitWindow, TeamSide } from './types'
+import type { Board, LeaderBlock, RateBlock, SplitSel, SplitVenue, SplitWindow, TeamResult, TeamSide } from './types'
 
 export const DEFAULT_SPLIT: SplitSel = { window: 'season', venue: 'all', defense: 'opp' }
 
@@ -31,4 +31,22 @@ export function cutLabel(sel: SplitSel, side: 'away' | 'home'): string {
   const w = sel.window === 'season' ? 'SEASON' : sel.window.toUpperCase()
   const v = venueFor(sel.venue, side)
   return v === 'all' ? w : `${w} · ${v.toUpperCase()}`
+}
+
+const WINDOW_N: Record<SplitWindow, number | null> = { season: null, l10: 10, l5: 5 }
+
+/** The games behind a team's current cut, newest first. `total` is how many games the cut holds. */
+export function resultsFor(board: Board, abbr: string, side: 'away' | 'home', sel: SplitSel): { games: TeamResult[]; total: number } | undefined {
+  const all = board.splits?.results?.[abbr]
+  if (!all) return undefined
+  const v = venueFor(sel.venue, side)
+  const inVenue = v === 'all' ? all : all.filter((g) => g.home === (v === 'home'))
+  const n = WINDOW_N[sel.window]
+  const cut = n ? inVenue.slice(-n) : inVenue
+  return { games: [...cut].reverse(), total: cut.length }
+}
+
+/** Season record in one venue, e.g. "9-5-0"; undefined on boards without splits. */
+export function seasonRecord(board: Board, abbr: string, venue: 'all' | 'home' | 'away'): string | undefined {
+  return board.splits?.teams[abbr]?.[`season|${venue}`]?.rec
 }
