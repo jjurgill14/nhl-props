@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_utc": "2026-11-26T02:35:58.547816+00:00",
+ "generated_utc": "2026-11-26T02:41:05.986237+00:00",
  "games": [
   {
    "game_id": 2026020386,
@@ -3901,7 +3901,7 @@
    "start_et": "7:00 PM",
    "away": "NYR",
    "home": "BUF",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "KeyBank Center",
    "teams": {
     "away": {
@@ -7840,7 +7840,7 @@
    "start_et": "7:00 PM",
    "away": "CAR",
    "home": "TBL",
-   "state": "CRIT",
+   "state": "FINAL",
    "venue": "Benchmark International Arena",
    "teams": {
     "away": {
@@ -19411,7 +19411,7 @@
    "start_et": "7:00 PM",
    "away": "CGY",
    "home": "PIT",
-   "state": "CRIT",
+   "state": "OVER",
    "venue": "PPG Paints Arena",
    "teams": {
     "away": {
@@ -23324,7 +23324,7 @@
    "start_et": "7:00 PM",
    "away": "PHI",
    "home": "WSH",
-   "state": "LIVE",
+   "state": "CRIT",
    "venue": "Capital One Arena",
    "teams": {
     "away": {
@@ -42808,7 +42808,7 @@
    "start_et": "9:30 PM",
    "away": "MTL",
    "home": "COL",
-   "state": "PRE",
+   "state": "LIVE",
    "venue": "Ball Arena",
    "teams": {
     "away": {
@@ -46744,7 +46744,7 @@
      "l5_gf": 4.4,
      "l5_ga": 3.4,
      "lineup_as_of": "2026-11-25T00:42:28.256Z",
-     "lineup_checked": "2026-11-25T16:23:18.331243+00:00",
+     "lineup_checked": "2026-11-26T02:41:02.729436+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -46761,13 +46761,18 @@
        "player": "Wyatt Kaiser",
        "status": "OUT",
        "news": "Kaiser has been suspended for three games for an illegal check to the head against Calgary\u2019s Martin Pospisil."
+      },
+      {
+       "player": "Tyler Bertuzzi",
+       "status": "DTD",
+       "news": "Bertuzzi (illness) will not play on Wednesday."
       }
      ],
      "lines": {
       "1": [
        "Ryan Donato",
        "Roman Kantserov",
-       "Tyler Bertuzzi"
+       "Anton Frondell"
       ],
       "2": [
        "Oliver Moore",
@@ -46775,8 +46780,8 @@
        "Patrick Kane"
       ],
       "3": [
+       "Andrew Mangiapane",
        "Ryan Greene",
-       "Anton Frondell",
        "Teuvo Teravainen"
       ],
       "4": [
@@ -46786,16 +46791,16 @@
       ]
      },
      "pp1": [
-      "Tyler Bertuzzi",
-      "Frank Nazar",
       "Roman Kantserov",
+      "Frank Nazar",
+      "Anton Frondell",
       "Sam Rinzel",
       "Patrick Kane"
      ],
      "pp2": [
       "Ryan Donato",
-      "Anton Frondell",
       "Oliver Moore",
+      "Ryan Greene",
       "Artyom Levshunov",
       "Teuvo Teravainen"
      ],
@@ -47003,12 +47008,12 @@
          "either": 3
         },
         {
-         "name": "Tyler Bertuzzi",
-         "jersey": 59,
+         "name": "Anton Frondell",
+         "jersey": 16,
          "pp": 1,
-         "n": 11,
-         "both": 2,
-         "either": 9
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -47217,8 +47222,8 @@
        ]
       },
       {
-       "name": "Tyler Bertuzzi",
-       "jersey": 59,
+       "name": "Anton Frondell",
+       "jersey": 16,
        "team": "CHI",
        "opp": "SEA",
        "section": "F",
@@ -47228,70 +47233,70 @@
        "sneaky": false,
        "form": {
         "points": {
-         "k": 9,
-         "k5": 4,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.4570693548387097,
-         "p_hot": 0.5881806451612904,
-         "heater": true
-        },
-        "goals": {
-         "k": 5,
-         "k5": 3,
-         "n5": 5,
-         "k10": 3,
-         "n10": 10,
-         "p": 0.24843709677419357,
-         "p_hot": 0.39339354838709684,
-         "heater": true
-        },
-        "assists": {
          "k": 7,
          "k5": 3,
          "n5": 5,
-         "k10": 3,
+         "k10": 4,
          "n10": 10,
-         "p": 0.3472629032258065,
-         "p_hot": 0.4354064516129033,
+         "p": 0.40097065556711764,
+         "p_hot": 0.5404387096774195,
+         "heater": true
+        },
+        "goals": {
+         "k": 3,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.18560832466181063,
+         "p_hot": 0.2501677419354839,
+         "heater": false
+        },
+        "assists": {
+         "k": 5,
+         "k5": 2,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.28762206035379817,
+         "p_hot": 0.3399225806451613,
          "heater": true
         }
        },
        "pos": "RW",
        "gtd": false,
        "role": "pp1",
-       "bias": null,
-       "gp": 24,
-       "pt_games": 9,
+       "bias": "G",
+       "gp": 23,
+       "pt_games": 7,
        "l5": [
-        4,
+        3,
         5
        ],
-       "ast_games": 7,
-       "goal_games": 5,
-       "two_games": 3,
+       "ast_games": 5,
+       "goal_games": 3,
+       "two_games": 4,
        "home_split": [
         5,
         13
        ],
        "away_split": [
-        4,
-        11
+        2,
+        10
        ],
        "l5_venue": [
-        2,
+        1,
         5
        ],
        "l5_venue_two": 1,
-       "pp_toi": 2.0,
-       "toi": 15.8,
-       "p": 0.457,
-       "fair": "+119",
-       "min": "+132",
-       "p2": 0.158,
-       "fair2": "+534",
-       "min2": "+572",
+       "pp_toi": 0.3,
+       "toi": 14.2,
+       "p": 0.401,
+       "fair": "+149",
+       "min": "+164",
+       "p2": 0.198,
+       "fair2": "+404",
+       "min2": "+434",
        "adj": [
         [
          "opp",
@@ -47301,24 +47306,24 @@
        "move": {
         "ev": 0,
         "pp": 0,
-        "new": false
+        "new": true
        },
        "partners": [
         {
          "name": "Ryan Donato",
          "jersey": 8,
          "pp": 2,
-         "n": 4,
-         "both": 2,
+         "n": 5,
+         "both": 1,
          "either": 2
         },
         {
          "name": "Roman Kantserov",
          "jersey": 80,
          "pp": 1,
-         "n": 11,
-         "both": 2,
-         "either": 9
+         "n": 2,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -47419,118 +47424,12 @@
          "either": 3
         },
         {
-         "name": "Tyler Bertuzzi",
-         "jersey": 59,
+         "name": "Anton Frondell",
+         "jersey": 16,
          "pp": 1,
-         "n": 4,
-         "both": 2,
+         "n": 5,
+         "both": 1,
          "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Anton Frondell",
-       "jersey": 16,
-       "team": "CHI",
-       "opp": "SEA",
-       "section": "F",
-       "home": false,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 7,
-         "k5": 3,
-         "n5": 5,
-         "k10": 4,
-         "n10": 10,
-         "p": 0.318792924037461,
-         "p_hot": 0.4296774193548388,
-         "heater": true
-        },
-        "goals": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.14026888657648284,
-         "p_hot": 0.18905806451612905,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.21961290322580648,
-         "p_hot": 0.24825806451612906,
-         "heater": true
-        }
-       },
-       "pos": "C",
-       "gtd": true,
-       "role": "other",
-       "bias": "G",
-       "gp": 23,
-       "pt_games": 7,
-       "l5": [
-        3,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 3,
-       "two_games": 4,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        2,
-        10
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 1,
-       "pp_toi": 0.3,
-       "toi": 14.2,
-       "p": 0.319,
-       "fair": "+214",
-       "min": "+233",
-       "p2": 0.153,
-       "fair2": "+554",
-       "min2": "+593",
-       "adj": [
-        [
-         "opp",
-         1.0980645161290323
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Ryan Greene",
-         "jersey": 20,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Teuvo Teravainen",
-         "jersey": 86,
-         "pp": 2,
-         "n": 11,
-         "both": 4,
-         "either": 5
         }
        ]
       },
@@ -47729,20 +47628,20 @@
        },
        "partners": [
         {
-         "name": "Ryan Greene",
-         "jersey": 20,
+         "name": "Andrew Mangiapane",
+         "jersey": 88,
          "pp": null,
-         "n": 3,
+         "n": 2,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
+         "name": "Ryan Greene",
+         "jersey": 20,
          "pp": 2,
-         "n": 11,
-         "both": 4,
-         "either": 5
+         "n": 3,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -47959,6 +47858,112 @@
        ]
       },
       {
+       "name": "Andrew Mangiapane",
+       "jersey": 88,
+       "team": "CHI",
+       "opp": "SEA",
+       "section": "F",
+       "home": false,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.23117147707979627,
+         "p_hot": 0.19096774193548388,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.05548115449915111,
+         "p_hot": 0.04583225806451613,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.18493718166383702,
+         "p_hot": 0.15277419354838712,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 11,
+       "pt_games": 2,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        6
+       ],
+       "away_split": [
+        1,
+        5
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 11.4,
+       "p": 0.231,
+       "fair": "+333",
+       "min": "+359",
+       "p2": 0.018,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.0980645161290323
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Ryan Greene",
+         "jersey": 20,
+         "pp": 2,
+         "n": 5,
+         "both": 1,
+         "either": 1
+        },
+        {
+         "name": "Teuvo Teravainen",
+         "jersey": 86,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
        "name": "Kevin Korchinski",
        "jersey": 14,
        "team": "CHI",
@@ -48064,7 +48069,7 @@
        "section": "F",
        "home": false,
        "line": 3,
-       "pp": null,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -48098,7 +48103,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -48140,17 +48145,17 @@
        ],
        "move": {
         "ev": 0,
-        "pp": -1,
+        "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Anton Frondell",
-         "jersey": 16,
-         "pp": 2,
-         "n": 0,
-         "both": 0,
-         "either": 0
+         "name": "Andrew Mangiapane",
+         "jersey": 88,
+         "pp": null,
+         "n": 5,
+         "both": 1,
+         "either": 1
         },
         {
          "name": "Teuvo Teravainen",
