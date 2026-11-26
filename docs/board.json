@@ -1027,7 +1027,7 @@
    "color2": "#DA1A32"
   }
  },
- "generated_utc": "2026-11-25T23:57:38.205906+00:00",
+ "generated_utc": "2026-11-26T00:02:51.903452+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -32265,7 +32265,7 @@
    "id": "09",
    "game_id": 2026020394,
    "start_utc": "2026-11-26T00:30:00Z",
-   "status": "FUT",
+   "status": "PRE",
    "venue": "Little Caesars Arena",
    "away": {
     "abbr": "VAN",
@@ -51774,8 +51774,8 @@
     "goalie_source": "Derek Lee",
     "sv": "0.867",
     "gaa": "3.41",
-    "lineup_as_of": "2026-11-24T16:37:21.405Z",
-    "lineup_checked": "2026-11-25T16:23:17.776772+00:00",
+    "lineup_as_of": "2026-11-25T18:17:34.336Z",
+    "lineup_checked": "2026-11-26T00:02:42.750319+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
     "gf_rk": 8,
@@ -51815,7 +51815,7 @@
      "away": "-218",
      "home": "+180",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-24T16:37:21.405Z"
+     "as_of": "2026-11-25T18:17:34.336Z"
     },
     "total": {
      "line": 6.5,
@@ -53978,11 +53978,11 @@
     },
     "home": {
      "team": "ANA",
-     "as_of": "2026-11-24T16:37:21.405Z",
-     "checked": "2026-11-25T16:23:17.776772+00:00",
+     "as_of": "2026-11-25T18:17:34.336Z",
+     "checked": "2026-11-26T00:02:42.750319+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-23)",
-     "updated_dfo": "2026-11-24T16:37:21.405Z",
+     "source": "Patrick Present",
+     "updated_dfo": "2026-11-25T18:17:34.336Z",
      "forwards": [
       [
        {
@@ -54490,84 +54490,6 @@
         }
        },
        {
-        "name": "Ian Moore",
-        "jersey": 3,
-        "pos": "RD",
-        "slot": null,
-        "player_id": 8482178,
-        "dfo_id": 31897,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 1,
-        "bias": "G",
-        "season": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 5353
-        },
-        "last5": {
-         "a": 1,
-         "g": 2,
-         "gp": 5,
-         "p": 3,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 5353
-        },
-        "l5_point_games": 3,
-        "gp": 5,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Pavel Mintyukov",
-        "jersey": 98,
-        "pos": "LD",
-        "slot": null,
-        "player_id": 8483490,
-        "dfo_id": 34372,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 6,
-         "g": 2,
-         "gp": 21,
-         "p": 8,
-         "ppp": 0,
-         "sog": 21,
-         "toi_s": 24049
-        },
-        "last5": {
-         "a": 1,
-         "g": 0,
-         "gp": 5,
-         "p": 1,
-         "ppp": 0,
-         "sog": 6,
-         "toi_s": 5358
-        },
-        "l5_point_games": 1,
-        "gp": 21,
-        "move": {
-         "ev": 0,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
         "name": "Drew Helleson",
         "jersey": 14,
         "pos": "RD",
@@ -54600,7 +54522,7 @@
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -54640,7 +54562,7 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -54678,7 +54600,85 @@
         "l5_point_games": 0,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Pavel Mintyukov",
+        "jersey": 98,
+        "pos": "LD",
+        "slot": null,
+        "player_id": 8483490,
+        "dfo_id": 34372,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 6,
+         "g": 2,
+         "gp": 21,
+         "p": 8,
+         "ppp": 0,
+         "sog": 21,
+         "toi_s": 24049
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 5358
+        },
+        "l5_point_games": 1,
+        "gp": 21,
+        "move": {
+         "ev": -1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Ian Moore",
+        "jersey": 3,
+        "pos": "RD",
+        "slot": null,
+        "player_id": 8482178,
+        "dfo_id": 31897,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": 1,
+        "bias": "G",
+        "season": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 5353
+        },
+        "last5": {
+         "a": 1,
+         "g": 2,
+         "gp": 5,
+         "p": 3,
+         "ppp": 0,
+         "sog": 11,
+         "toi_s": 5353
+        },
+        "l5_point_games": 3,
+        "gp": 5,
+        "move": {
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -55114,7 +55114,7 @@
         "l5_point_games": 0,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -55152,7 +55152,7 @@
         "l5_point_games": 1,
         "gp": 3,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 1,
          "new": false
         }
@@ -55308,7 +55308,7 @@
         "l5_point_games": 3,
         "gp": 5,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -55424,7 +55424,7 @@
         "l5_point_games": 1,
         "gp": 21,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -55462,7 +55462,7 @@
         "l5_point_games": 1,
         "gp": 17,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -55473,7 +55473,7 @@
       {
        "player": "Ryan Poehling",
        "status": "IR",
-       "news": "Ryan Poehling (sprained MCL) has been placed on IR and is expected to miss the next 6-8 weeks."
+       "news": "Poehling (sprained ACL) is hopeful to return this weekend."
       },
       {
        "player": "A.J. Greer",
@@ -55483,12 +55483,12 @@
       {
        "player": "Beckett Sennecke",
        "status": "IR",
-       "news": "The Ducks have placed Beckett Sennecke (upper-body) on IR."
+       "news": "Sennecke (upper-body) is considered day-to-day."
       },
       {
        "player": "Leo Carlsson",
        "status": "DTD",
-       "news": "Carlsson (upper-body) is out vs. Seattle on Monday."
+       "news": "Carlsson (upper-body) will remain out on Wednesday and is considered day-to-day."
       }
      ],
      "unit_ratings": {
@@ -55509,11 +55509,11 @@
        "rating": 0
       },
       "f1": {
-       "rank": 32,
+       "rank": 33,
        "rating": 72.75110841697156
       },
       "f2": {
-       "rank": 35,
+       "rank": 33,
        "rating": 0
       },
       "f3": {
@@ -55521,7 +55521,7 @@
        "rating": 0
       },
       "f4": {
-       "rank": 13,
+       "rank": 11,
        "rating": 72.42018116594211
       },
       "g": {
