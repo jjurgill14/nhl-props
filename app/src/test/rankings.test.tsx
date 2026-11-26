@@ -67,6 +67,20 @@ describe('Team Rankings page', () => {
     expect(within(body[2]).getByText('2.41').closest('td')).toHaveClass('g2')
   })
 
+  it('xG tonight sorts both ways, with teams not on the slate kept at the bottom', async () => {
+    const user = userEvent.setup()
+    const mk = (xa: number, xh: number) => ({ xg_away: xa, xg_home: xh, xg_tone_away: 'bad', xg_tone_home: 'good' })
+    const withGame = { ...board, games: [{ id: '01', away: { abbr: 'VAN' }, home: { abbr: 'BOS' }, market: mk(2.5, 3.6) }] } as unknown as Board
+    render(<TeamRatesPage board={withGame} />)
+    const names = () => screen.getAllByRole('row').slice(1).map((r) => within(r).getByText(/Team/).textContent!.slice(0, 3))
+    await user.click(screen.getByRole('columnheader', { name: /xG TONIGHT/ }))
+    expect(names()).toEqual(['BOS', 'VAN', 'TOR']) // 3.60, 2.50, then TOR (not playing)
+    expect(screen.getByText('HIGHEST FIRST')).toBeInTheDocument()
+    await user.click(screen.getByRole('columnheader', { name: /xG TONIGHT/ }))
+    expect(names()).toEqual(['VAN', 'BOS', 'TOR'])
+    expect(screen.getByText('LOWEST FIRST')).toBeInTheDocument()
+  })
+
   it('clicking the sorted header reverses it; clicking a card sorts by that column', async () => {
     const user = userEvent.setup()
     render(<TeamRatesPage board={board} />)

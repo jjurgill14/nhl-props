@@ -61,7 +61,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
   const [venue, setVenue] = useState<Venue>('all')
   const [conf, setConf] = useState<'all' | 'East' | 'West'>('all')
   const [div, setDiv] = useState<string>('all')
-  const [sort, setSort] = useState<{ key: Key; dir: Dir }>({ key: 'ga', dir: 'desc' })
+  const [sort, setSort] = useState<{ key: Key | 'xg'; dir: Dir }>({ key: 'ga', dir: 'desc' })
 
   const meta = board.team_rates ?? {}
   const hasSplits = !!board.splits
@@ -90,13 +90,24 @@ export function TeamRatesPage({ board }: { board: Board }) {
     if (vb == null) return -1
     return dir === 'desc' ? vb - va : va - vb
   }
-  const rows = [...shown].sort(sorter(sort.key, sort.dir))
+  // xG tonight only exists for teams on the slate: those sort by it, everyone else stays at the bottom either way
+  const xgSorter = (dir: Dir) => (a: Row, b: Row) => {
+    const va = xg[a.abbr]?.v, vb = xg[b.abbr]?.v
+    if (va == null && vb == null) return a.abbr.localeCompare(b.abbr)
+    if (va == null) return 1
+    if (vb == null) return -1
+    return dir === 'desc' ? vb - va : va - vb
+  }
+  const rows = [...shown].sort(sort.key === 'xg' ? xgSorter(sort.dir) : sorter(sort.key, sort.dir))
+  const xgVals = Object.values(xg).map((x) => x.v)
+  const xgSpan = { lo: Math.min(...xgVals), hi: Math.max(...xgVals) }
+  const xgRank = (v: number) => 1 + xgVals.filter((o) => o > v).length
   // bar length: where the value sits between the league's lowest and highest in this cut
   const span = (key: Key) => {
     const vs = all.map((x) => x.r[key]).filter((v): v is number => v != null)
     return { lo: Math.min(...vs), hi: Math.max(...vs) }
   }
-  const sp = span(sort.key)
+  const sp = sort.key === 'xg' ? xgSpan : span(sort.key)
 
   if (!all.length) return <div className="state-box">No team rates in this board yet.</div>
   const cutText = `${win === 'season' ? 'SEASON' : win.toUpperCase()} · ${venue === 'all' ? 'ALL GAMES' : venue.toUpperCase()}`
@@ -196,7 +207,20 @@ export function TeamRatesPage({ board }: { board: Board }) {
             <th className="num">#</th>
             <th className="team">TEAM</th>
             <th>GP</th>
-            <th title="Market-implied expected goals tonight (vig removed; implied total split by the moneyline). Slate teams only.">xG TONIGHT</th>
+            <th
+              className={`sortable${sort.key === 'xg' ? ' on' : ''}`}
+              aria-sort={sort.key === 'xg' ? (sort.dir === 'desc' ? 'descending' : 'ascending') : 'none'}
+              title="Market-implied expected goals tonight (vig removed; implied total split by the moneyline). Slate teams only. Click to sort; click again to reverse."
+              onClick={() => setSort({ key: 'xg', dir: sort.key === 'xg' && sort.dir === 'desc' ? 'asc' : 'desc' })}
+            >
+              <span className="h">xG TONIGHT {sort.key === 'xg' && (sort.dir === 'desc' ? '↓' : '↑')}</span>
+              {sort.key === 'xg' && (
+                <>
+                  <small>{sort.dir === 'desc' ? 'MOST EXPECTED GOALS TONIGHT' : 'FEWEST EXPECTED GOALS TONIGHT'}</small>
+                  <i>{sort.dir === 'desc' ? 'HIGHEST FIRST' : 'LOWEST FIRST'}</i>
+                </>
+              )}
+            </th>
             {COLS.map((c) => {
               const on = sort.key === c.key
               return (
@@ -233,10 +257,29 @@ export function TeamRatesPage({ board }: { board: Board }) {
                 {tonight.has(x.abbr) && <small>TONIGHT</small>}
               </td>
               <td>{x.r.gp ?? '—'}</td>
-              <td className={`xgcol ${xg[x.abbr]?.tone ?? ''}`}>
-                {xg[x.abbr] ? xg[x.abbr].v.toFixed(2) : ''}
-                {xg[x.abbr] && <small>{xg[x.abbr].opp}</small>}
-              </td>
+              {sort.key === 'xg' ? (
+                // sorted: same pill + bar treatment; colors come from your xG thresholds (green / gray / red)
+                <td className={`sorted ${xg[x.abbr] ? (xg[x.abbr].tone === 'good' ? 'g1' : xg[x.abbr].tone === 'bad' ? 'r1' : 'n') : 'n'}`}>
+                  {xg[x.abbr] ? (
+                    <>
+                      <span className="pill">{xg[x.abbr].v.toFixed(2)}</span>
+                      <span className="bar">
+                        <span style={{ width: `${xgSpan.hi === xgSpan.lo ? 0 : 8 + (92 * (xg[x.abbr].v - xgSpan.lo)) / (xgSpan.hi - xgSpan.lo)}%` }} />
+                      </span>
+                      <span className="ord">
+                        #{xgRank(xg[x.abbr].v)} <small>{xg[x.abbr].opp}</small>
+                      </span>
+                    </>
+                  ) : (
+                    <span className="ord">not playing</span>
+                  )}
+                </td>
+              ) : (
+                <td className={`xgcol ${xg[x.abbr]?.tone ?? ''}`}>
+                  {xg[x.abbr] ? xg[x.abbr].v.toFixed(2) : ''}
+                  {xg[x.abbr] && <small>{xg[x.abbr].opp}</small>}
+                </td>
+              )}
               {COLS.map((c) => {
                 const v = x.r[c.key]
                 const rk = x.r[`${c.key}_rk`]
