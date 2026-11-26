@@ -207,7 +207,6 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups, 
   const rA = board ? ratesFor(board, away, 'away', sel) : away.rates
   const rH = board ? ratesFor(board, home, 'home', sel) : home.rates
   const own = sel.defense === 'own'
-  const cut = sel.window !== 'season' || sel.venue !== 'all' || own
   return (
     <article
       className={`card state-${gameState(game.status, game.start_utc).cls}${game.smash?.flag ? ` smash-card smash-${game.smash.kind}` : ''}`}
@@ -246,11 +245,9 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups, 
         <span className="vs at">@</span>
         <BigTeam team={home} rates={rH} defRates={own ? undefined : rA} xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} side="home" />
       </div>
-      {cut && (
-        <div className="cut-note" title="What the rank chips on this card are showing — change it with the toggles above the slate">
-          RANKS: {sel.venue === 'tonight' ? `${cutLabel(sel, 'away')} / ${cutLabel(sel, 'home')}` : cutLabel(sel, 'away')} · {own ? 'OWN DEFENSE' : "OPPONENT'S DEFENSE"}
-        </div>
-      )}
+      <div className="cut-note" title="What the rank chips on this card are showing — change it with the toggles above the slate">
+        RANKS: {sel.venue === 'tonight' ? `${cutLabel(sel, 'away')} / ${cutLabel(sel, 'home')}` : `${cutLabel(sel, 'away')}${sel.venue === 'all' ? ' · ALL GAMES' : ''}`} · {own ? 'OWN DEFENSE' : "OPPONENT'S DEFENSE"}
+      </div>
       <TotalsBar game={game} />
       <div className="play-section">
         <div className="play-head">
