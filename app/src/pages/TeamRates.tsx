@@ -210,7 +210,6 @@ export function TeamRatesPage({ board }: { board: Board }) {
                   <span className="h">
                     {c.label} {on && (sort.dir === 'desc' ? '↓' : '↑')}
                   </span>
-                  {c.defense && <small className="def">green = {defWord}</small>}
                   {on && (
                     <>
                       <small>{sort.dir === 'desc' ? c.most : c.fewest}</small>

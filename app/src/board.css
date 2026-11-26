@@ -607,3 +607,10 @@ button:disabled{cursor:default;opacity:.55}
 .tr-table2 td.sorted.r1 .pill{color:#e39a9a;border-color:#55292b;background:#1f1416}.tr-table2 td.sorted.r1 .bar span{background:#a86a6a}
 .tr-table2 td.sorted.r2 .pill{color:#f87171;border-color:#9a3535;background:#351414}.tr-table2 td.sorted.r2 .bar span{background:#f87171}
 @media(max-width:1400px){.tr-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.tr-table2 td.sorted .bar{width:70px}}
+/* outliers in the sorted column: a light wash across the whole cell, so strong vs soft reads at a glance */
+.tr-table2 td.sorted.g2{background:linear-gradient(90deg,#1c4a33,#17382b)!important}
+.tr-table2 td.sorted.r2{background:linear-gradient(90deg,#4a1f22,#381a1d)!important}
+.tr-table2 td.sorted.g2 .ord,.tr-table2 td.sorted.r2 .ord{color:#dbe7ee}
+.tr-table2 td.sorted.g2 .bar,.tr-table2 td.sorted.r2 .bar{background:#0c161f66}
+.tr-table2 td.sorted.g1 .pill{color:#7fb596;border-color:#1f4030;background:#0e1b17}
+.tr-table2 td.sorted.r1 .pill{color:#c98f8f;border-color:#46262a;background:#1a1315}

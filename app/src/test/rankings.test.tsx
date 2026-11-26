@@ -60,7 +60,7 @@ describe('Team Rankings page', () => {
     render(<TeamRatesPage board={board} />)
     await user.click(screen.getByRole('button', { name: 'Team Strength View' }))
     expect(screen.getByText('(Stingiest)')).toBeInTheDocument()
-    expect(screen.getAllByText('green = stingy').length).toBe(3)
+    expect(screen.getByText(/TEAM STRENGTH VIEW · ON DEFENSE COLUMNS GREEN = STINGY/)).toBeInTheDocument()
     const body = screen.getAllByRole('row').slice(1)
     expect(within(body[0]).getByText(/VAN Team/)).toBeInTheDocument() // same order
     expect(within(body[0]).getByText('4.41').closest('td')).toHaveClass('r2')
