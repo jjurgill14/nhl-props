@@ -189,7 +189,33 @@ def rank_rates(out: dict[str, dict]) -> dict[str, dict]:
             out[t][key.replace("_pct", "") + "_rk"] = i
         for t in out:
             out[t].setdefault(key.replace("_pct", "") + "_rk", None)
+    # Tiers: how far a team sits from the league average, in that stat's own spread (standard deviations),
+    # among the teams being ranked together. +2 / -2 are the outliers. Sign is the raw direction (+ = higher
+    # number); the app decides whether higher is good. Rank says order; tier says how big the gap is.
+    for key in ("gf", "sf", "ga", "sa", "ppg", "ppga", "pp_pct", "pk_pct"):
+        tk = key.replace("_pct", "") + "_t"
+        vals = [out[t][key] for t in live if out[t].get(key) is not None]
+        mean = sum(vals) / len(vals) if vals else 0.0
+        sd = (sum((v - mean) ** 2 for v in vals) / len(vals)) ** 0.5 if vals else 0.0
+        for t in out:
+            v = out[t].get(key)
+            out[t][tk] = None if v is None or sd == 0 or t not in live else tier_of((v - mean) / sd)
     return out
+
+
+TIER_OUTLIER, TIER_EDGE = 1.5, 0.5  # standard deviations from the league average
+
+
+def tier_of(z: float) -> int:
+    if z >= TIER_OUTLIER:
+        return 2
+    if z >= TIER_EDGE:
+        return 1
+    if z <= -TIER_OUTLIER:
+        return -2
+    if z <= -TIER_EDGE:
+        return -1
+    return 0
 
 
 # ----------------------------------------------------------------------------- line movement

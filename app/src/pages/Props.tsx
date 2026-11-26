@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { Board, GameLogRow, PlayerLog, StatKey } from '../data/types'
 import { LOGO, loadPlayer } from '../data/load'
-import { chipTone } from '../components/RankStrip'
+import { TONE_COLOR, tone, type Tone } from '../data/tiers'
 import { PlayerSearch } from '../components/PlayerSearch'
 
 const STATS: { key: StatKey; label: string; lines: number[] }[] = [
@@ -24,11 +24,11 @@ function scoreLabel(r: GameLogRow): string {
 }
 
 /** opponent's current rank in the stat they ALLOW that matters for this bet type */
-function oppRank(board: Board, opp: string, stat: StatKey): { label: string; rk: number | null; tone: string } {
+function oppRank(board: Board, opp: string, stat: StatKey): { label: string; rk: number | null; tone: Tone } {
   const r = board.team_rates?.[opp]
   if (!r) return { label: '', rk: null, tone: '' }
-  if (stat === 'sog') return { label: 'SA', rk: r.sa_rk, tone: chipTone('sa', r.sa_rk) }
-  return { label: 'GA', rk: r.ga_rk, tone: chipTone('ga', r.ga_rk) }
+  if (stat === 'sog') return { label: 'SA', rk: r.sa_rk, tone: tone('sa', r.sa_t, r.sa_rk) }
+  return { label: 'GA', rk: r.ga_rk, tone: tone('ga', r.ga_t, r.ga_rk) }
 }
 
 interface Series {
@@ -386,7 +386,6 @@ function Chart({ games, series, stat, yMax, board }: { games: GameLogRow[]; seri
   const code = (name: string) => name.split(' ').slice(-1)[0].slice(0, 3).toUpperCase()
   const dy = series.length > 1 ? 14 : 0
   const W = 1200, H = 340 + dy, L = 44, R = 90, T = 28, B = 96 + dy
-  const TONE: Record<string, string> = { hot: '#4ade80', mid: '#f0bd81', cold: '#f87171', '': '#8fb0c0' }
   const iw = W - L - R, ih = H - T - B
   const n = Math.max(1, games.length)
   const slot = iw / n
@@ -449,7 +448,7 @@ function Chart({ games, series, stat, yMax, board }: { games: GameLogRow[]; seri
             <text x={cx} y={T + ih + 20 + dy} fill="#c9d7e0" fontSize="13" textAnchor="middle">{shortDate(g.date)}</text>
             <text x={cx} y={T + ih + 38 + dy} fill="#c9d7e0" fontSize="13" textAnchor="middle">{g.home ? 'vs' : '@'} {g.opp}</text>
             {(() => { const o = oppRank(board, g.opp, stat); return o.rk != null ? (
-              <text x={cx} y={T + ih + 56 + dy} fill={TONE[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
+              <text x={cx} y={T + ih + 56 + dy} fill={TONE_COLOR[o.tone]} fontSize="12" fontWeight="800" textAnchor="middle">{o.label} #{o.rk}</text>
             ) : null })()}
             <text x={cx} y={T + ih + 76 + dy} fill={g.tf != null && g.ta != null && g.tf > g.ta ? '#9de0b6' : '#f87171'} fontSize="12" fontWeight="700" textAnchor="middle">{scoreLabel(g)}</text>
           </g>

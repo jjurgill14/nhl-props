@@ -2,7 +2,7 @@ import type { Board, Game, LeaderBlock, RateBlock, SplitSel, StatKey, TeamResult
 import { LOGO } from '../data/load'
 import { etTime, longDate } from '../data/time'
 import { cutLabel, leadersFor, ratesFor, resultsFor, seasonRecord } from '../data/splits'
-import { chipTone } from '../components/RankStrip'
+import { tone } from '../data/tiers'
 import { SplitToggles } from '../components/SplitToggles'
 import { PlayRow, TotalsBar, playFor, propsFor, type PropsOpener } from '../components/GameCard'
 
@@ -43,7 +43,7 @@ function StatRow({ cols, r, label, sub }: { cols: typeof OFF; r: RateBlock | und
         {cols.map((c) => {
           const rk = r?.[`${c.key}_rk`] ?? null
           return (
-            <div key={c.key} className={`mu-tile ${chipTone(c.key, rk)}`} title={c.title}>
+            <div key={c.key} className={`mu-tile ${tone(c.key, r?.[`${c.key}_t`], rk)}`} title={c.title}>
               <i>{c.label}</i>
               <b>{fmt(c.key, r?.[c.key])}</b>
               <span>{rk == null ? '–' : `#${rk}`}</span>
@@ -131,7 +131,7 @@ function Results({ board, data }: { board: Board; data: { games: TeamResult[]; t
                 {OPP_DEF.map((c) => {
                   const rk = opp[`${c.key}_rk`]
                   return (
-                    <span key={c.key} className={chipTone(c.key, rk)} title={`${g.opp} ${c.what}, season to date`}>
+                    <span key={c.key} className={tone(c.key, opp[`${c.key}_t`], rk)} title={`${g.opp} ${c.what}, season to date`}>
                       <i>{c.label}</i>
                       {rk == null ? '–' : `#${rk}`}
                     </span>

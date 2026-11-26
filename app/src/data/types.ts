@@ -191,6 +191,8 @@ export interface TeamRates {
   pp: number | null; pp_rk: number | null; pp_l5: number | null; pp_opps: number | null
   pk: number | null; pk_rk: number | null; pk_l5: number | null; pk_faced: number | null
   ppg: number; ppg_rk: number | null; ppga: number; ppga_rk: number | null
+  gf_t?: number | null; ga_t?: number | null; sf_t?: number | null; sa_t?: number | null; pp_t?: number | null; pk_t?: number | null
+  ppg_t?: number | null; ppga_t?: number | null
 }
 
 // ---- Splits: window (season / L10 / L5) x venue (all / home / away) ----
@@ -210,6 +212,8 @@ export interface RateBlock {
   sa: number | null; sa_rk: number | null
   pp: number | null; pp_rk: number | null
   pk: number | null; pk_rk: number | null
+  /** Tiers (+2..-2, distance from league average in the stat's own spread). Absent on older boards. */
+  gf_t?: number | null; ga_t?: number | null; sf_t?: number | null; sa_t?: number | null; pp_t?: number | null; pk_t?: number | null
 }
 
 export interface Leader { id: number; name: string; pos: string | null; gp: number; v: number }

@@ -32,11 +32,13 @@ def _fmt(r: dict) -> dict:
         return None if v is None else round(100 * v, 1)
     if not r.get("gp"):
         return {"gp": 0, "rec": "0-0-0", **{k: None for k in ("gf", "ga", "sf", "sa", "pp", "pk")},
-                **{k + "_rk": None for k in ("gf", "ga", "sf", "sa", "pp", "pk")}}
+                **{k + "_rk": None for k in ("gf", "ga", "sf", "sa", "pp", "pk")},
+                **{k + "_t": None for k in ("gf", "ga", "sf", "sa", "pp", "pk")}}
     return {"gp": r["gp"], "rec": f"{r['w']}-{r['l']}-{r['otl']}", "pp_gp": r.get("pp_gp"),
             "gf": round(r["gf"], 2), "gf_rk": r.get("gf_rk"), "ga": round(r["ga"], 2), "ga_rk": r.get("ga_rk"),
             "sf": round(r["sf"], 1), "sf_rk": r.get("sf_rk"), "sa": round(r["sa"], 1), "sa_rk": r.get("sa_rk"),
-            "pp": pct(r.get("pp_pct")), "pp_rk": r.get("pp_rk"), "pk": pct(r.get("pk_pct")), "pk_rk": r.get("pk_rk")}
+            "pp": pct(r.get("pp_pct")), "pp_rk": r.get("pp_rk"), "pk": pct(r.get("pk_pct")), "pk_rk": r.get("pk_rk"),
+            **{k + "_t": r.get(k + "_t") for k in ("gf", "ga", "sf", "sa", "pp", "pk")}}
 
 
 def build(boxes: dict[int, list[dict]], slate_teams: set[str], ids: dict | None = None) -> dict:

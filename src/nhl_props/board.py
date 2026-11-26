@@ -98,6 +98,7 @@ def _rates_block(r: dict, r5: dict) -> dict:
         "pp": pct(r.get("pp_pct")), "pp_rk": r.get("pp_rk"), "pp_l5": pct(r5.get("pp_pct")), "pp_opps": r.get("pp_opps"),
         "pk": pct(r.get("pk_pct")), "pk_rk": r.get("pk_rk"), "pk_l5": pct(r5.get("pk_pct")), "pk_faced": r.get("pk_faced"),
         "ppg": round(r.get("ppg", 0), 2), "ppg_rk": r.get("ppg_rk"), "ppga": round(r.get("ppga", 0), 2), "ppga_rk": r.get("ppga_rk"),
+        **{k + "_t": r.get(k + "_t") for k in ("gf", "ga", "sf", "sa", "pp", "pk", "ppg", "ppga")},
     }
 
 
