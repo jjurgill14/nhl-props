@@ -103,21 +103,45 @@ function scoreLabel(g: TeamResult): string {
   return `${g.tf > g.ta ? 'W' : 'L'} ${g.tf}-${g.ta}${g.ot && g.ot !== 'REG' ? ' ' + g.ot : ''}`
 }
 
-function Results({ data }: { data: { games: TeamResult[]; total: number } | undefined }) {
+const OPP_DEF: { key: 'ga' | 'sa' | 'pk'; label: string; what: string }[] = [
+  { key: 'ga', label: 'GA', what: 'goals allowed (#1 = allows the most)' },
+  { key: 'sa', label: 'SA', what: 'shots allowed (#1 = allows the most)' },
+  { key: 'pk', label: 'PK', what: 'penalty kill (#1 = best kill)' },
+]
+
+/** One tile per game, oldest on the left and the latest on the right. Under each: that opponent's defense ranks
+ *  (season, all games, as of today — not what they were on the night), colored like every other defense chip. */
+function Results({ board, data }: { board: Board; data: { games: TeamResult[]; total: number } | undefined }) {
   if (!data) return <div className="mu-empty">Game results aren't in this board (built before they were added).</div>
   if (!data.games.length) return <div className="mu-empty">No games in this cut yet.</div>
-  const shown = data.games.slice(0, SHOWN_RESULTS)
+  const shown = data.games.slice(-SHOWN_RESULTS)
   return (
     <div className="mu-results">
-      {shown.map((g) => (
-        <div key={g.game_id} className={`mu-res ${g.tf > g.ta ? 'win' : 'loss'}`} title={`${g.date} ${g.home ? 'vs' : '@'} ${g.opp}: ${scoreLabel(g)}`}>
-          <span className="d">{shortDate(g.date)}</span>
-          <span className="o">
-            {g.home ? 'vs' : '@'} {g.opp}
-          </span>
-          <b>{scoreLabel(g)}</b>
-        </div>
-      ))}
+      {shown.map((g) => {
+        const opp = board.team_rates?.[g.opp]
+        return (
+          <div key={g.game_id} className={`mu-res ${g.tf > g.ta ? 'win' : 'loss'}`} title={`${g.date} ${g.home ? 'vs' : '@'} ${g.opp}: ${scoreLabel(g)}`}>
+            <span className="d">{shortDate(g.date)}</span>
+            <span className="o">
+              {g.home ? 'vs' : '@'} {g.opp}
+            </span>
+            <b>{scoreLabel(g)}</b>
+            {opp && (
+              <span className="mu-res-rk" aria-label={`${g.opp} defense ranks`}>
+                {OPP_DEF.map((c) => {
+                  const rk = opp[`${c.key}_rk`]
+                  return (
+                    <span key={c.key} className={chipTone(c.key, rk)} title={`${g.opp} ${c.what}, season to date`}>
+                      <i>{c.label}</i>
+                      {rk == null ? '–' : `#${rk}`}
+                    </span>
+                  )
+                })}
+              </span>
+            )}
+          </div>
+        )
+      })}
     </div>
   )
 }
@@ -203,10 +227,10 @@ function Panel({ board, game, side, sel, onProps }: { board: Board; game: Game; 
             <div className="mu-sec">
               {team.abbr} RESULTS{' '}
               <span>
-                / {cutLabel(sel, side)} · NEWEST FIRST{res && res.total > SHOWN_RESULTS ? ` · LAST ${SHOWN_RESULTS} OF ${res.total}` : ''}
+                / {cutLabel(sel, side)} · LATEST ON THE RIGHT{res && res.total > SHOWN_RESULTS ? ` · LAST ${SHOWN_RESULTS} OF ${res.total}` : ''} · OPP. DEFENSE RANKS BELOW
               </span>
             </div>
-            <Results data={res} />
+            <Results board={board} data={res} />
           </>
         )
       })()}

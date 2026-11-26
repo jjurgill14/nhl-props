@@ -1,6 +1,6 @@
 import type { Board, LeaderBlock, RateBlock, SplitSel, SplitVenue, SplitWindow, TeamResult, TeamSide } from './types'
 
-export const DEFAULT_SPLIT: SplitSel = { window: 'season', venue: 'all', defense: 'opp' }
+export const DEFAULT_SPLIT: SplitSel = { window: 'season', venue: 'tonight', defense: 'opp' }
 
 export const WINDOW_OPTS: { key: SplitWindow; label: string }[] = [
   { key: 'season', label: 'Season' },
@@ -8,10 +8,10 @@ export const WINDOW_OPTS: { key: SplitWindow; label: string }[] = [
   { key: 'l5', label: 'L5' },
 ]
 export const VENUE_OPTS: { key: SplitVenue; label: string; title: string }[] = [
+  { key: 'tonight', label: 'Tonight', title: "Each team in tonight's venue: the away team's road games, the home team's home games" },
   { key: 'all', label: 'All', title: 'All games' },
   { key: 'home', label: 'Home', title: 'Home games only, both teams' },
   { key: 'away', label: 'Away', title: 'Away games only, both teams' },
-  { key: 'tonight', label: 'Tonight', title: "Each team in tonight's venue: the away team's road games, the home team's home games" },
 ]
 
 const venueFor = (venue: SplitVenue, side: 'away' | 'home') => (venue === 'tonight' ? side : venue)
@@ -35,7 +35,7 @@ export function cutLabel(sel: SplitSel, side: 'away' | 'home'): string {
 
 const WINDOW_N: Record<SplitWindow, number | null> = { season: null, l10: 10, l5: 5 }
 
-/** The games behind a team's current cut, newest first. `total` is how many games the cut holds. */
+/** The games behind a team's current cut, oldest first (latest on the right, like the props page). `total` is how many games the cut holds. */
 export function resultsFor(board: Board, abbr: string, side: 'away' | 'home', sel: SplitSel): { games: TeamResult[]; total: number } | undefined {
   const all = board.splits?.results?.[abbr]
   if (!all) return undefined
@@ -43,7 +43,7 @@ export function resultsFor(board: Board, abbr: string, side: 'away' | 'home', se
   const inVenue = v === 'all' ? all : all.filter((g) => g.home === (v === 'home'))
   const n = WINDOW_N[sel.window]
   const cut = n ? inVenue.slice(-n) : inVenue
-  return { games: [...cut].reverse(), total: cut.length }
+  return { games: cut, total: cut.length }
 }
 
 /** Season record in one venue, e.g. "9-5-0"; undefined on boards without splits. */

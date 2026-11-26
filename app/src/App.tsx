@@ -35,6 +35,8 @@ export default function App() {
 
   useEffect(() => load(snapshot), [snapshot, load])
 
+  // boards built before splits existed only carry season / all-games numbers
+  const effSel: SplitSel = state.kind === 'ready' && !state.board.splits ? { ...sel, window: 'season', venue: 'all' } : sel
   const mode = state.kind === 'ready' ? state.board.mode : 'live'
   const statusLabel = state.kind === 'ready' ? (state.board.mode === 'live' ? 'LIVE BOARD' : 'SNAPSHOT') : 'LOADING'
 
@@ -71,7 +73,7 @@ export default function App() {
           board={state.board}
           gameId={gameId}
           onPick={setGameId}
-          sel={sel}
+          sel={effSel}
           onSel={setSel}
           onBack={() => setRoute('slate')}
           onLineups={(id) => {
@@ -97,7 +99,7 @@ export default function App() {
             setRoute('matchup')
             window.scrollTo(0, 0)
           }}
-          sel={sel}
+          sel={effSel}
           onSel={setSel}
         />
       )}

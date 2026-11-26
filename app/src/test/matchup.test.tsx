@@ -4,7 +4,9 @@ import userEvent from '@testing-library/user-event'
 import { useState } from 'react'
 import { Board } from '../pages/Board'
 import { MatchupPage } from '../pages/Matchup'
-import { DEFAULT_SPLIT } from '../data/splits'
+import { DEFAULT_SPLIT, VENUE_OPTS } from '../data/splits'
+
+const ALL: SplitSel = { window: 'season', venue: 'all', defense: 'opp' }
 import type { Board as BoardData, Game, RateBlock, SplitSel, TeamSide } from '../data/types'
 
 const team = (abbr: string, city: string, name: string): TeamSide => ({
@@ -33,6 +35,7 @@ const board: BoardData = {
   mode: 'live', date: '2026-11-07', generated_utc: '2026-11-07T10:00:00Z',
   lenses: { point: 'Point', assist: 'Assist', goal: 'Goal', sneaky_point: 'SP', sneaky_assist: 'SA', sneaky_goal: 'SG', pair: 'Pair', two: '2+', pp1: 'PP1', btts2: 'BTTS' },
   default_slots: ['point', 'pair', 'two'], games: [game], sources: { moneyline: 'Daily Faceoff' },
+  team_rates: { BOS: { ...block(20, 7, '1-1-0'), gf_l5: 3, ga_l5: 3, sf_l5: 30, sa_l5: 30, pp_l5: 20, pk_l5: 80, pp_gp: 5, pp_opps: 3, pk_faced: 3, ppg: 0.6, ppg_rk: 16, ppga: 0.6, ppga_rk: 16, city: 'Boston', name: 'Bruins', color: '#fff', color2: '#000' } as never },
   splits: {
     windows: ['season', 'l10', 'l5'], venues: ['all', 'home', 'away'], teams: { MTL: cuts(1), TOR: cuts(2) }, leaders: { MTL: leaders('Mtl'), TOR: leaders('Tor') },
     results: {
@@ -46,8 +49,8 @@ const board: BoardData = {
   },
 }
 
-function Harness({ onProps }: { onProps?: (t: unknown) => void }) {
-  const [sel, setSel] = useState<SplitSel>(DEFAULT_SPLIT)
+function Harness({ onProps, start = ALL }: { onProps?: (t: unknown) => void; start?: SplitSel }) {
+  const [sel, setSel] = useState<SplitSel>(start)
   return <MatchupPage board={board} gameId="01" onPick={() => {}} sel={sel} onSel={setSel} onBack={() => {}} onProps={onProps} />
 }
 
@@ -75,15 +78,15 @@ describe('Matchup page', () => {
     expect(within(mtl).getByText('Mtl l5 away')).toBeInTheDocument()
   })
 
-  it("'Tonight' puts the away team on its road games and the home team on its home games", async () => {
-    const user = userEvent.setup()
-    render(<Harness />)
-    await user.click(screen.getByRole('button', { name: 'Tonight' }))
+  it("'Tonight' is the default and the first venue option: away team on its road games, home team on its home games", () => {
+    expect(DEFAULT_SPLIT.venue).toBe('tonight')
+    expect(VENUE_OPTS[0].key).toBe('tonight')
+    render(<Harness start={DEFAULT_SPLIT} />)
     expect(screen.getByRole('region', { name: 'MTL SEASON · AWAY' })).toBeInTheDocument()
     expect(screen.getByRole('region', { name: 'TOR SEASON · HOME' })).toBeInTheDocument()
   })
 
-  it('shows overall / home / away records and the games behind the cut, newest first', async () => {
+  it('shows overall / home / away records and the games behind the cut, latest on the right, with the opponent defense ranks under each', async () => {
     const user = userEvent.setup()
     render(<Harness />)
     const head = screen.getByRole('heading', { level: 2, name: /Montreal/ }).parentElement!.querySelector('.mu-rec') as HTMLElement
@@ -91,7 +94,8 @@ describe('Matchup page', () => {
     expect(within(head).getByText('HOME').parentElement).toHaveTextContent('0-1-0') // season|home
     expect(within(head).getByText('AWAY').parentElement).toHaveTextContent('0-2-0') // season|away
     const mtl = screen.getByRole('region', { name: 'MTL SEASON' })
-    expect(within(mtl).getAllByText(/^[WL] \d+-\d+/).map((e) => e.textContent)).toEqual(['W 5-1', 'L 2-3 OT', 'W 4-2'])
+    expect(within(mtl).getAllByText(/^[WL] \d+-\d+/).map((e) => e.textContent)).toEqual(['W 4-2', 'L 2-3 OT', 'W 5-1'])
+    expect(within(within(mtl).getByLabelText('BOS defense ranks')).getByText('#7')).toBeInTheDocument() // BOS season ga_rk from team_rates
     await user.click(screen.getByRole('button', { name: 'Home' }))
     expect(within(screen.getByRole('region', { name: 'MTL SEASON · HOME' })).getAllByText(/^[WL] \d+-\d+/).map((e) => e.textContent)).toEqual(['W 4-2'])
   })
@@ -110,7 +114,7 @@ describe('Board with split toggles', () => {
     const user = userEvent.setup()
     const onMatchup = vi.fn()
     function B() {
-      const [sel, setSel] = useState<SplitSel>(DEFAULT_SPLIT)
+      const [sel, setSel] = useState<SplitSel>(ALL)
       return <Board board={board} onMatchup={onMatchup} sel={sel} onSel={setSel} />
     }
     render(<B />)
