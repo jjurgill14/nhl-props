@@ -614,3 +614,6 @@ button:disabled{cursor:default;opacity:.55}
 .tr-table2 td.sorted.g2 .bar,.tr-table2 td.sorted.r2 .bar{background:#0c161f66}
 .tr-table2 td.sorted.g1 .pill{color:#7fb596;border-color:#1f4030;background:#0e1b17}
 .tr-table2 td.sorted.r1 .pill{color:#c98f8f;border-color:#46262a;background:#1a1315}
+/* soft tier in the sorted column: same pill and bar as the outliers, just without the cell wash */
+.tr-table2 td.sorted.g1 .pill{color:#4ade80;border-color:#2f9a5d;background:#123524}.tr-table2 td.sorted.g1 .bar span{background:#4ade80}
+.tr-table2 td.sorted.r1 .pill{color:#f87171;border-color:#9a3535;background:#351414}.tr-table2 td.sorted.r1 .bar span{background:#f87171}
