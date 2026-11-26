@@ -1,4 +1,5 @@
-import type { Game, LensKey, Play, StatKey, TeamSide } from '../data/types'
+import type { Board, Game, LensKey, Play, RateBlock, SplitSel, StatKey, TeamSide } from '../data/types'
+import { DEFAULT_SPLIT, cutLabel, ratesFor } from '../data/splits'
 
 export type PropsOpener = (t: { players: number[]; stat?: StatKey; line?: number }) => void
 
@@ -24,7 +25,7 @@ export function Crest({ team, small = false }: { team: TeamSide; small?: boolean
   )
 }
 
-function BigTeam({ team, opp, xg, xgTone, side }: { team: TeamSide; opp: TeamSide; xg: number | null; xgTone: string; side: 'away' | 'home' }) {
+function BigTeam({ team, rates, defRates, xg, xgTone, side }: { team: TeamSide; rates: RateBlock | undefined; defRates: RateBlock | undefined; xg: number | null; xgTone: string; side: 'away' | 'home' }) {
   const st = team.goalie_status
   const cls = st === 'Confirmed' ? 'ok' : st === 'Likely' || st === 'Expected' ? 'likely' : ''
   return (
@@ -45,7 +46,7 @@ function BigTeam({ team, opp, xg, xgTone, side }: { team: TeamSide; opp: TeamSid
       <div className="goalie-line" title={team.goalie_news ?? undefined}>
         🥅 <b>{team.goalie ?? 'TBD'}</b> <span className={cls}>{st ?? 'unconfirmed'}</span>
       </div>
-      <RankStrip r={team.rates} opp={opp.rates} compact />
+      <RankStrip r={rates} opp={defRates} compact />
     </div>
   )
 }
@@ -172,6 +173,10 @@ interface Props {
   onOpen: (id: string) => void
   onLineups?: (id: string) => void
   onProps?: PropsOpener
+  /** Opens the full-page matchup view; when absent the card opens the breakdown drawer as before. */
+  onMatchup?: (id: string) => void
+  board?: Board
+  sel?: SplitSel
 }
 
 /** Red strip when Daily Faceoff changed a lineup after the morning pull (who dresses, lines, PP, goalie). */
@@ -195,9 +200,14 @@ export function LateStrip({ game }: { game: Game }) {
   )
 }
 
-export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }: Props) {
+export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups, onMatchup, board, sel = DEFAULT_SPLIT }: Props) {
   const { away, home, markets } = game
-  const label = `Open ${away.abbr} at ${home.abbr} breakdown`
+  const label = onMatchup ? `Open ${away.abbr} at ${home.abbr} matchup` : `Open ${away.abbr} at ${home.abbr} breakdown`
+  const openCard = onMatchup ?? onOpen
+  const rA = board ? ratesFor(board, away, 'away', sel) : away.rates
+  const rH = board ? ratesFor(board, home, 'home', sel) : home.rates
+  const own = sel.defense === 'own'
+  const cut = sel.window !== 'season' || sel.venue !== 'all' || own
   return (
     <article
       className={`card state-${gameState(game.status, game.start_utc).cls}${game.smash?.flag ? ` smash-card smash-${game.smash.kind}` : ''}`}
@@ -205,12 +215,12 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }
       tabIndex={0}
       aria-label={label}
       onClick={(e) => {
-        if (!(e.target as HTMLElement).closest('button, .play-row.clickable')) onOpen(game.id)
+        if (!(e.target as HTMLElement).closest('button, .play-row.clickable')) openCard(game.id)
       }}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault()
-          onOpen(game.id)
+          openCard(game.id)
         }
       }}
     >
@@ -232,10 +242,15 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }
         </span>
       </div>
       <div className="matchup">
-        <BigTeam team={away} opp={home} xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} side="away" />
+        <BigTeam team={away} rates={rA} defRates={own ? undefined : rH} xg={game.market?.xg_away ?? null} xgTone={game.market?.xg_tone_away ?? ''} side="away" />
         <span className="vs at">@</span>
-        <BigTeam team={home} opp={away} xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} side="home" />
+        <BigTeam team={home} rates={rH} defRates={own ? undefined : rA} xg={game.market?.xg_home ?? null} xgTone={game.market?.xg_tone_home ?? ''} side="home" />
       </div>
+      {cut && (
+        <div className="cut-note" title="What the rank chips on this card are showing — change it with the toggles above the slate">
+          RANKS: {sel.venue === 'tonight' ? `${cutLabel(sel, 'away')} / ${cutLabel(sel, 'home')}` : cutLabel(sel, 'away')} · {own ? 'OWN DEFENSE' : "OPPONENT'S DEFENSE"}
+        </div>
+      )}
       <TotalsBar game={game} />
       <div className="play-section">
         <div className="play-head">
@@ -269,9 +284,14 @@ export function GameCard({ game, slots, lensLabels, onOpen, onProps, onLineups }
               LINEUPS ↗
             </button>
           )}
-          <button type="button" onClick={() => onOpen(game.id)}>
-            OPEN BREAKDOWN ↗
+          <button type="button" aria-label={onMatchup ? `Open ${away.abbr} at ${home.abbr} breakdown` : undefined} title="This game's plays in a side panel" onClick={() => onOpen(game.id)}>
+            {onMatchup ? 'PLAYS ↗' : 'OPEN BREAKDOWN ↗'}
           </button>
+          {onMatchup && (
+            <button type="button" title="Full-page matchup view" onClick={() => onMatchup(game.id)}>
+              MATCHUP ↗
+            </button>
+          )}
         </span>
       </div>
     </article>

@@ -1,4 +1,4 @@
-import type { TeamRates } from '../data/types'
+import type { RateBlock } from '../data/types'
 
 // Two rows per team. ONE color rule everywhere: green = good for an OFFENSIVE bet, red = bad.
 //   SHOOTS   (GF, SF, PP) — this team's offense: green means bet THIS team's shooters.
@@ -33,7 +33,7 @@ function fmt(key: K, v: number | null | undefined): string {
   return v.toFixed(2)
 }
 
-function Row({ cols, r, label, hint }: { cols: typeof OFF; r: TeamRates; label: string; hint: string }) {
+function Row({ cols, r, label, hint }: { cols: typeof OFF; r: RateBlock; label: string; hint: string }) {
   return (
     <div className="ranks" title={hint}>
       <span className="ranks-lbl">{label}</span>
@@ -52,7 +52,7 @@ function Row({ cols, r, label, hint }: { cols: typeof OFF; r: TeamRates; label: 
 
 /** Stacked for a bettor: this team's OFFENSE over the OPPONENT's defense — a green/green pair is the smash read.
  *  Pass `opp` (the other team's rates); without it, falls back to this team's own defense row. */
-export function RankStrip({ r, opp, compact = false }: { r: TeamRates | undefined; opp?: TeamRates; compact?: boolean }) {
+export function RankStrip({ r, opp, compact = false }: { r: RateBlock | undefined; opp?: RateBlock; compact?: boolean }) {
   if (!r) return null
   const d = opp ?? r
   return (

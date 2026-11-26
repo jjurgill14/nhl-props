@@ -96,6 +96,8 @@ export interface Board {
   games: Game[]
   sources: Record<string, string>
   team_rates?: Record<string, TeamRates & { city: string; name: string; color: string; color2: string }>
+  /** Team rates and player leaders for every window x venue cut (see nhl_props/splits.py). Absent on older snapshots. */
+  splits?: Splits
   /** Set by the app when a board is loaded as a labeled historical snapshot. */
   snapshot_label?: string
 }
@@ -189,4 +191,33 @@ export interface TeamRates {
   pp: number | null; pp_rk: number | null; pp_l5: number | null; pp_opps: number | null
   pk: number | null; pk_rk: number | null; pk_l5: number | null; pk_faced: number | null
   ppg: number; ppg_rk: number | null; ppga: number; ppga_rk: number | null
+}
+
+// ---- Splits: window (season / L10 / L5) x venue (all / home / away) ----
+export type SplitWindow = 'season' | 'l10' | 'l5'
+/** 'tonight' = each team in the venue it plays tonight (away team's road games, home team's home games). */
+export type SplitVenue = 'all' | 'home' | 'away' | 'tonight'
+export type DefenseView = 'opp' | 'own'
+export interface SplitSel { window: SplitWindow; venue: SplitVenue; defense: DefenseView }
+
+/** The six rates + ranks the rank strip reads. TeamRates (season) satisfies it; so does every split cut. */
+export interface RateBlock {
+  gp: number | null
+  rec?: string
+  gf: number | null; gf_rk: number | null
+  ga: number | null; ga_rk: number | null
+  sf: number | null; sf_rk: number | null
+  sa: number | null; sa_rk: number | null
+  pp: number | null; pp_rk: number | null
+  pk: number | null; pk_rk: number | null
+}
+
+export interface Leader { id: number; name: string; pos: string | null; gp: number; v: number }
+export type LeaderBlock = Record<StatKey, Leader[]>
+
+export interface Splits {
+  windows: string[]
+  venues: string[]
+  teams: Record<string, Record<string, RateBlock>>
+  leaders: Record<string, Record<string, LeaderBlock>>
 }

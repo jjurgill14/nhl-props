@@ -6,8 +6,10 @@ import { Placeholder } from './pages/Placeholder'
 import { Lineups } from './pages/Lineups'
 import { PropsPage, type PropsTarget } from './pages/Props'
 import { TeamRatesPage } from './pages/TeamRates'
+import { MatchupPage } from './pages/Matchup'
+import { DEFAULT_SPLIT } from './data/splits'
 import { loadBoard } from './data/load'
-import type { LoadState } from './data/types'
+import type { LoadState, SplitSel } from './data/types'
 
 const DEMO_SNAPSHOT = '2026-11-06' // a real, graded past slate; labeled as such wherever it shows
 
@@ -17,6 +19,7 @@ export default function App() {
   const [state, setState] = useState<LoadState>({ kind: 'loading' })
   const [gameId, setGameId] = useState<string | null>(null)
   const [propsTarget, setPropsTarget] = useState<PropsTarget>({ players: [] })
+  const [sel, setSel] = useState<SplitSel>(DEFAULT_SPLIT) // window / venue / defense view, shared by the board and the matchup page
   const openProps = (t: PropsTarget) => {
     if (!t.players.length) return
     setPropsTarget(t)
@@ -49,7 +52,7 @@ export default function App() {
 
   return (
     <Shell route={route} onRoute={setRoute} mode={mode} statusLabel={statusLabel}>
-      {route !== 'slate' && route !== 'lineups' && route !== 'props' && route !== 'rates' && route !== 'search' ? (
+      {route !== 'slate' && route !== 'lineups' && route !== 'props' && route !== 'rates' && route !== 'search' && route !== 'matchup' ? (
         <Placeholder route={route} />
       ) : state.kind === 'loading' ? (
         <div className="state-box" style={{ marginTop: 40 }}>
@@ -63,6 +66,20 @@ export default function App() {
         <TeamRatesPage board={state.board} />
       ) : route === 'props' || route === 'search' ? (
         <PropsPage board={state.board} target={route === 'search' ? { players: [] } : propsTarget} onChange={(t) => { setPropsTarget(t); setRoute('props') }} searchFocus={route === 'search'} />
+      ) : route === 'matchup' ? (
+        <MatchupPage
+          board={state.board}
+          gameId={gameId}
+          onPick={setGameId}
+          sel={sel}
+          onSel={setSel}
+          onBack={() => setRoute('slate')}
+          onLineups={(id) => {
+            setGameId(id)
+            setRoute('lineups')
+          }}
+          onProps={openProps}
+        />
       ) : route === 'lineups' ? (
         <Lineups board={state.board} gameId={gameId} onPick={setGameId} onPlayer={(id) => openProps({ players: [id] })} onGroup={(ids) => openProps({ players: ids.slice(0, 3), sort: 'best' })} />
       ) : (
@@ -75,6 +92,13 @@ export default function App() {
             setRoute('lineups')
           }}
           onProps={openProps}
+          onMatchup={(id) => {
+            setGameId(id)
+            setRoute('matchup')
+            window.scrollTo(0, 0)
+          }}
+          sel={sel}
+          onSel={setSel}
         />
       )}
     </Shell>

@@ -13,7 +13,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import alerts, analysis, lineup_view, market, model, results, schedule
+from . import alerts, analysis, lineup_view, market, model, results, schedule, splits
 from .common import read_json
 
 DOCS = results.DATA.parent / "docs"
@@ -268,7 +268,9 @@ def build(date: str | None = None) -> Path:
     team_rates = {t: {**_rates_block(season[t], l5.get(t, {})), **dict(zip(("city", "name", "color", "color2"), TEAM_META.get(t, (t, "", "#888", "#444"))))}
                   for t in season}
     (DOCS / "team_rates.json").write_text(json.dumps({"date": date, "teams": team_rates}, indent=1), encoding="utf-8")
-    board = {"mode": "live", "date": date, "team_rates": team_rates, "generated_utc": datetime.now(timezone.utc).isoformat(),
+    slate_teams = {t for g in out_games for t in (g["away"]["abbr"], g["home"]["abbr"])}
+    board = {"mode": "live", "date": date, "team_rates": team_rates, "splits": splits.build(boxes, slate_teams),
+             "generated_utc": datetime.now(timezone.utc).isoformat(),
              "lenses": LENSES, "default_slots": ["point", "pair", "two"], "games": out_games,
              "sources": {"schedule": "NHL API", "lineups": "Daily Faceoff", "goalies": "Daily Faceoff",
                          "moneyline": "Daily Faceoff", "stats": "NHL API boxscores", "model": "nhl_props.model v1"}}

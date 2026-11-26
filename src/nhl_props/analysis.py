@@ -101,6 +101,26 @@ def team_rates(boxes: dict[int, list[dict]], last_n: int | None = None) -> dict[
         g = read_json(Path(f))
         if g:
             ginfo[int(g["game_id"])] = g
+    per_game = team_games(boxes, ginfo)
+    out = {}
+    for t, gs in per_game.items():
+        gs = gs[-last_n:] if last_n else gs
+        out[t] = rate_block(gs)
+    return rank_rates(out)
+
+
+def team_games(boxes: dict[int, list[dict]], ginfo: dict[int, dict] | None = None) -> dict[str, list[dict]]:
+    """team -> one record per game played, oldest first: goals/shots for and against, PP numbers when the game
+    page had them, home flag, and the result (W / L / OTL from the final score)."""
+    if ginfo is None:
+        import glob as _glob
+        from .common import read_json
+        from . import results as _results
+        ginfo = {}
+        for f in _glob.glob(str(_results.GAMEINFO_DIR / "*.json")):
+            g = read_json(Path(f))
+            if g:
+                ginfo[int(g["game_id"])] = g
     per_game: dict[str, list[dict]] = defaultdict(list)
     for gid in sorted(boxes):
         rows = boxes[gid]
@@ -108,7 +128,9 @@ def team_rates(boxes: dict[int, list[dict]], last_n: int | None = None) -> dict[
         if len(teams) != 2:
             continue
         agg = {t: {"g": 0, "s": 0, "ppg": 0} for t in teams}
+        home = {}
         for r in rows:
+            home.setdefault(r["team"], str(r.get("home")) in ("1", "True", "true"))
             if r.get("pos") == "G":
                 continue
             agg[r["team"]]["g"] += _i(r.get("goals"))
@@ -122,31 +144,46 @@ def team_rates(boxes: dict[int, list[dict]], last_n: int | None = None) -> dict[
         date = rows[0].get("date")
         for t in teams:
             o = teams[1] if t == teams[0] else teams[0]
-            rec = {"date": date, "gf": agg[t]["g"], "sf": agg[t]["s"], "ga": agg[o]["g"], "sa": agg[o]["s"],
-                   "ppg": agg[t]["ppg"], "ppga": agg[o]["ppg"]}
+            rec = {"date": date, "game_id": gid, "opp": o, "home": home.get(t, False),
+                   "gf": agg[t]["g"], "sf": agg[t]["s"], "ga": agg[o]["g"], "sa": agg[o]["s"],
+                   "ppg": agg[t]["ppg"], "ppga": agg[o]["ppg"], "result": None}
+            if info.get("away_score") is not None and info.get("home_score") is not None:
+                mine, theirs = (info["home_score"], info["away_score"]) if info.get("home") == t else (info["away_score"], info["home_score"])
+                rec["result"] = "W" if mine > theirs else ("OTL" if info.get("periods", 3) > 3 else "L")
             if t in opps and o in opps:
                 rec["pp_opps"] = opps[t][1]
                 rec["pk_faced"] = opps[o][1]
             per_game[t].append(rec)
-    out = {}
-    for t, gs in per_game.items():
-        gs = gs[-last_n:] if last_n else gs
-        n = len(gs)
-        st = [g for g in gs if "pp_opps" in g]
-        pp_o = sum(g["pp_opps"] for g in st)
-        pk_f = sum(g["pk_faced"] for g in st)
-        out[t] = {"gp": n, "gf": sum(g["gf"] for g in gs) / n, "sf": sum(g["sf"] for g in gs) / n,
-                  "ga": sum(g["ga"] for g in gs) / n, "sa": sum(g["sa"] for g in gs) / n,
-                  "ppg": sum(g["ppg"] for g in gs) / n, "ppga": sum(g["ppga"] for g in gs) / n,
-                  "pp_gp": len(st),
-                  "pp_pct": (sum(g["ppg"] for g in st) / pp_o) if pp_o else None,
-                  "pk_pct": (1 - sum(g["ppga"] for g in st) / pk_f) if pk_f else None,
-                  "pp_opps": pp_o / len(st) if st else None, "pk_faced": pk_f / len(st) if st else None}
+    return per_game
+
+
+def rate_block(gs: list[dict]) -> dict:
+    """Per-game rates over a list of team-game records (see team_games)."""
+    n = len(gs)
+    if not n:
+        return {"gp": 0}
+    st = [g for g in gs if "pp_opps" in g]
+    pp_o = sum(g["pp_opps"] for g in st)
+    pk_f = sum(g["pk_faced"] for g in st)
+    return {"gp": n, "gf": sum(g["gf"] for g in gs) / n, "sf": sum(g["sf"] for g in gs) / n,
+            "ga": sum(g["ga"] for g in gs) / n, "sa": sum(g["sa"] for g in gs) / n,
+            "ppg": sum(g["ppg"] for g in gs) / n, "ppga": sum(g["ppga"] for g in gs) / n,
+            "pp_gp": len(st),
+            "pp_pct": (sum(g["ppg"] for g in st) / pp_o) if pp_o else None,
+            "pk_pct": (1 - sum(g["ppga"] for g in st) / pk_f) if pk_f else None,
+            "pp_opps": pp_o / len(st) if st else None, "pk_faced": pk_f / len(st) if st else None,
+            "w": sum(1 for g in gs if g.get("result") == "W"), "l": sum(1 for g in gs if g.get("result") == "L"),
+            "otl": sum(1 for g in gs if g.get("result") == "OTL")}
+
+
+def rank_rates(out: dict[str, dict]) -> dict[str, dict]:
+    """Add league ranks in place (1 = most of the raw rate; pp/pk 1 = best). Teams with no games get no rank."""
+    live = [t for t in out if out[t].get("gp")]
     for key in ("gf", "sf", "ga", "sa", "ppg", "ppga"):
-        for i, t in enumerate(sorted(out, key=lambda x: out[x][key], reverse=True), 1):
+        for i, t in enumerate(sorted(live, key=lambda x: out[x][key], reverse=True), 1):
             out[t][key + "_rk"] = i
     for key in ("pp_pct", "pk_pct"):
-        have = [t for t in out if out[t][key] is not None]
+        have = [t for t in live if out[t][key] is not None]
         for i, t in enumerate(sorted(have, key=lambda x: out[x][key], reverse=True), 1):
             out[t][key.replace("_pct", "") + "_rk"] = i
         for t in out:

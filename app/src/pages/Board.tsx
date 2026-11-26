@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react'
-import type { Board as BoardData, Game, LensKey } from '../data/types'
+import type { Board as BoardData, Game, LensKey, SplitSel } from '../data/types'
+import { DEFAULT_SPLIT } from '../data/splits'
+import { SplitToggles } from '../components/SplitToggles'
 import { bucketOrder, etBucket, longDate, etStamp } from '../data/time'
 import { GameCard } from '../components/GameCard'
 import { CompactRow } from '../components/CompactRow'
@@ -18,9 +20,12 @@ interface Props {
   snapshotControls?: React.ReactNode
   onLineups?: (id: string) => void
   onProps?: (t: { players: number[]; stat?: 'g' | 'a' | 'p' | 'sog'; line?: number }) => void
+  onMatchup?: (id: string) => void
+  sel?: SplitSel
+  onSel?: (s: SplitSel) => void
 }
 
-export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
+export function Board({ board, snapshotControls, onLineups, onProps, onMatchup, sel = DEFAULT_SPLIT, onSel }: Props) {
   const [time, setTime] = useState<string>('all')
   const [view, setView] = useState<'cards' | 'list'>('cards')
   const [term, setTerm] = useState('')
@@ -174,6 +179,12 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
             </div>
           </div>
         </div>
+        {onSel && (
+          <div className="split-bar">
+            <SplitToggles sel={sel} onChange={onSel} hasSplits={!!board.splits} />
+            <span className="split-hint">Sets what the rank chips on every card show. Ranks are within the selected cut.</span>
+          </div>
+        )}
         <div className="board-notes">
           <span>{activeTime === 'all' ? 'ALL PUCK DROPS · EASTERN TIME' : `${activeTime} PUCK DROP · EASTERN TIME`}</span>
           <span className="rule" />
@@ -187,7 +198,7 @@ export function Board({ board, snapshotControls, onLineups, onProps }: Props) {
           ) : view === 'cards' ? (
             <div className="game-grid">
               {shown.map((g) => (
-                <GameCard key={g.id} game={g} slots={slots} lensLabels={board.lenses} onOpen={setOpen} onProps={onProps} onLineups={onLineups} />
+                <GameCard key={g.id} game={g} slots={slots} lensLabels={board.lenses} onOpen={setOpen} onProps={onProps} onLineups={onLineups} onMatchup={onMatchup} board={board} sel={sel} />
               ))}
             </div>
           ) : (
