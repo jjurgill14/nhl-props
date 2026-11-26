@@ -73,11 +73,11 @@ export function TeamRatesPage({ board }: { board: Board }) {
         .filter((x) => x.r),
     [meta, board.splits, cut],
   )
-  const tonight = new Set(board.games.flatMap((g) => [g.away.abbr, g.home.abbr]))
-  const xg: Record<string, { v: number; tone: string; opp: string }> = {}
+  // opponent kept as [where, who] so the 'vs' / '@' and the team line up down the column
+  const xg: Record<string, { v: number; tone: string; at: string; opp: string }> = {}
   for (const g of board.games) {
-    if (g.market?.xg_away != null) xg[g.away.abbr] = { v: g.market.xg_away, tone: g.market.xg_tone_away, opp: `@ ${g.home.abbr}` }
-    if (g.market?.xg_home != null) xg[g.home.abbr] = { v: g.market.xg_home, tone: g.market.xg_tone_home, opp: `vs ${g.away.abbr}` }
+    if (g.market?.xg_away != null) xg[g.away.abbr] = { v: g.market.xg_away, tone: g.market.xg_tone_away, at: '@', opp: g.home.abbr }
+    if (g.market?.xg_home != null) xg[g.home.abbr] = { v: g.market.xg_home, tone: g.market.xg_tone_home, at: 'vs', opp: g.away.abbr }
   }
 
   const shown = all.filter((x) => {
@@ -247,16 +247,17 @@ export function TeamRatesPage({ board }: { board: Board }) {
         </thead>
         <tbody>
           {rows.map((x, i) => (
-            <tr key={x.abbr} className={tonight.has(x.abbr) ? 'tonight' : ''}>
+            <tr key={x.abbr}>
               <td className="num">
                 <span>{i + 1}</span>
               </td>
               <td className="team">
                 <img src={LOGO(x.abbr)} alt="" />
                 {x.city} {x.name}
-                {tonight.has(x.abbr) && <small>TONIGHT</small>}
               </td>
-              <td>{x.r.gp ?? '—'}</td>
+              <td>
+                <span className="numv gp">{x.r.gp ?? '—'}</span>
+              </td>
               {sort.key === 'xg' ? (
                 // sorted: same pill + bar treatment; colors come from your xG thresholds (green / gray / red)
                 <td className={`sorted ${xg[x.abbr] ? (xg[x.abbr].tone === 'good' ? 'g1' : xg[x.abbr].tone === 'bad' ? 'r1' : 'n') : 'n'}`}>
@@ -266,8 +267,10 @@ export function TeamRatesPage({ board }: { board: Board }) {
                       <span className="bar">
                         <span style={{ width: `${xgSpan.hi === xgSpan.lo ? 0 : 8 + (92 * (xg[x.abbr].v - xgSpan.lo)) / (xgSpan.hi - xgSpan.lo)}%` }} />
                       </span>
-                      <span className="ord">
-                        #{xgRank(xg[x.abbr].v)} <small>{xg[x.abbr].opp}</small>
+                      <span className="ord">#{xgRank(xg[x.abbr].v)}</span>
+                      <span className="xo">
+                        <i>{xg[x.abbr].at}</i>
+                        {xg[x.abbr].opp}
                       </span>
                     </>
                   ) : (
@@ -276,8 +279,15 @@ export function TeamRatesPage({ board }: { board: Board }) {
                 </td>
               ) : (
                 <td className={`xgcol ${xg[x.abbr]?.tone ?? ''}`}>
-                  {xg[x.abbr] ? xg[x.abbr].v.toFixed(2) : ''}
-                  {xg[x.abbr] && <small>{xg[x.abbr].opp}</small>}
+                  {xg[x.abbr] && (
+                    <>
+                      <span className="numv">{xg[x.abbr].v.toFixed(2)}</span>
+                      <span className="xo">
+                        <i>{xg[x.abbr].at}</i>
+                        {xg[x.abbr].opp}
+                      </span>
+                    </>
+                  )}
                 </td>
               )}
               {COLS.map((c) => {
@@ -288,7 +298,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
                   // quiet columns: only the outlier tiers carry color
                   return (
                     <td key={c.key} className={t === 'g2' || t === 'r2' ? `quiet ${t}` : 'quiet'} title={rk == null ? undefined : `${ordinal(rk)} of 32 (1st = most)`}>
-                      {c.fmt(v)}
+                      <span className="numv">{c.fmt(v)}</span>
                     </td>
                   )
                 }

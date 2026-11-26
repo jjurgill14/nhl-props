@@ -617,3 +617,10 @@ button:disabled{cursor:default;opacity:.55}
 /* soft tier in the sorted column: same pill and bar as the outliers, just without the cell wash */
 .tr-table2 td.sorted.g1 .pill{color:#4ade80;border-color:#2f9a5d;background:#123524}.tr-table2 td.sorted.g1 .bar span{background:#4ade80}
 .tr-table2 td.sorted.r1 .pill{color:#f87171;border-color:#9a3535;background:#351414}.tr-table2 td.sorted.r1 .bar span{background:#f87171}
+/* numbers line up down each column: fixed-width, right-aligned, tabular digits */
+.tr-table2 .numv{display:inline-block;min-width:5.2ch;text-align:right}
+.tr-table2 .numv.gp{min-width:2.4ch}
+.tr-table2 .xo{display:inline-block;width:8.4ch;white-space:nowrap;text-align:left;margin-left:9px;font-size:10px;font-weight:800;color:#6f8fa3;letter-spacing:.3px}
+.tr-table2 .xo i{display:inline-block;width:2.5ch;font-style:normal;text-align:right;margin-right:4px}
+.tr-table2 td.sorted .ord{display:inline-block;min-width:3.4ch}
+.tr-table2 td.sorted .pill{min-width:62px}
