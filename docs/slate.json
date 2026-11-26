@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "generated_utc": "2026-11-26T00:38:40.755533+00:00",
+ "generated_utc": "2026-11-26T00:43:47.889765+00:00",
  "games": [
   {
    "game_id": 2026020386,
@@ -38910,7 +38910,7 @@
      "goalie_source": "Utah Mammoth",
      "sv": "0.87",
      "gaa": "3.14",
-     "ml": "-205",
+     "ml": "-198",
      "gp": 25,
      "gf": 3.28,
      "gf_rk": 12,
@@ -38922,8 +38922,8 @@
      "ppga_rk": 6,
      "l5_gf": 3.2,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-24T16:34:27.107Z",
-     "lineup_checked": "2026-11-25T16:23:20.284766+00:00",
+     "lineup_as_of": "2026-11-26T00:41:04.911Z",
+     "lineup_checked": "2026-11-26T00:43:44.646973+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -38955,16 +38955,16 @@
      "lines": {
       "1": [
        "Clayton Keller",
-       "Jack McBain",
-       "Dylan Guenther"
-      ],
-      "2": [
-       "Logan Cooley",
        "Vincent Trocheck",
        "Lawson Crouse"
       ],
-      "3": [
+      "2": [
        "Anders Lee",
+       "Logan Cooley",
+       "Dylan Guenther"
+      ],
+      "3": [
+       "Jack McBain",
        "Barrett Hayton",
        "Kailer Yamamoto"
       ],
@@ -39078,20 +39078,20 @@
        },
        "partners": [
         {
-         "name": "Jack McBain",
-         "jersey": 22,
-         "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Vincent Trocheck",
+         "jersey": 16,
+         "pp": 1,
+         "n": 10,
+         "both": 4,
+         "either": 8
         },
         {
-         "name": "Dylan Guenther",
-         "jersey": 11,
-         "pp": 1,
+         "name": "Lawson Crouse",
+         "jersey": 67,
+         "pp": null,
          "n": 5,
-         "both": 0,
-         "either": 3
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -39137,7 +39137,7 @@
          "heater": true
         }
        },
-       "pos": "LW",
+       "pos": "C",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -39184,20 +39184,20 @@
        },
        "partners": [
         {
-         "name": "Vincent Trocheck",
-         "jersey": 16,
-         "pp": 1,
-         "n": 16,
-         "both": 9,
-         "either": 13
-        },
-        {
-         "name": "Lawson Crouse",
-         "jersey": 67,
-         "pp": null,
-         "n": 6,
+         "name": "Anders Lee",
+         "jersey": 72,
+         "pp": 2,
+         "n": 5,
          "both": 2,
          "either": 4
+        },
+        {
+         "name": "Dylan Guenther",
+         "jersey": 11,
+         "pp": 1,
+         "n": 12,
+         "both": 5,
+         "either": 9
         }
        ]
       },
@@ -39306,7 +39306,7 @@
        "opp": "MIN",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -39382,18 +39382,18 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Logan Cooley",
-         "jersey": 92,
+         "name": "Clayton Keller",
+         "jersey": 9,
          "pp": 1,
-         "n": 16,
-         "both": 9,
-         "either": 13
+         "n": 10,
+         "both": 4,
+         "either": 8
         },
         {
          "name": "Lawson Crouse",
@@ -39494,12 +39494,12 @@
        },
        "partners": [
         {
-         "name": "Anders Lee",
-         "jersey": 72,
-         "pp": 2,
-         "n": 14,
-         "both": 3,
-         "either": 8
+         "name": "Jack McBain",
+         "jersey": 22,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Barrett Hayton",
@@ -39518,7 +39518,7 @@
        "opp": "MIN",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -39594,26 +39594,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Clayton Keller",
-         "jersey": 9,
-         "pp": 1,
-         "n": 5,
-         "both": 0,
-         "either": 3
+         "name": "Anders Lee",
+         "jersey": 72,
+         "pp": 2,
+         "n": 4,
+         "both": 2,
+         "either": 4
         },
         {
-         "name": "Jack McBain",
-         "jersey": 22,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 2
+         "name": "Logan Cooley",
+         "jersey": 92,
+         "pp": 1,
+         "n": 12,
+         "both": 5,
+         "either": 9
         }
        ]
       },
@@ -39706,12 +39706,12 @@
        },
        "partners": [
         {
-         "name": "Anders Lee",
-         "jersey": 72,
-         "pp": 2,
-         "n": 18,
-         "both": 4,
-         "either": 10
+         "name": "Jack McBain",
+         "jersey": 22,
+         "pp": null,
+         "n": 5,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Kailer Yamamoto",
@@ -39730,9 +39730,9 @@
        "opp": "MIN",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 2,
        "pp": 2,
-       "sneaky": true,
+       "sneaky": false,
        "form": {
         "points": {
          "k": 9,
@@ -39740,8 +39740,8 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.27999999999999997,
-         "p_hot": 0.29217391304347823,
+         "p": 0.2983272727272727,
+         "p_hot": 0.31846956521739134,
          "heater": false
         },
         "goals": {
@@ -39750,8 +39750,8 @@
          "n5": 5,
          "k10": 0,
          "n10": 10,
-         "p": 0.10079999999999999,
-         "p_hot": 0.03506086956521739,
+         "p": 0.11505454545454545,
+         "p_hot": 0.055513043478260866,
          "heater": false
         },
         "assists": {
@@ -39760,14 +39760,14 @@
          "n5": 5,
          "k10": 4,
          "n10": 10,
-         "p": 0.2087272727272727,
-         "p_hot": 0.2629565217391304,
+         "p": 0.22705454545454545,
+         "p_hot": 0.2892521739130435,
          "heater": true
         }
        },
        "pos": "LW",
        "gtd": false,
-       "role": "other",
+       "role": "top6",
        "bias": "A",
        "gp": 25,
        "pt_games": 9,
@@ -39793,12 +39793,12 @@
        "l5_venue_two": 0,
        "pp_toi": 1.1,
        "toi": 14.1,
-       "p": 0.28,
-       "fair": "+257",
-       "min": "+279",
-       "p2": 0.034,
-       "fair2": "+2876",
-       "min2": "+3055",
+       "p": 0.298,
+       "fair": "+235",
+       "min": "+255",
+       "p2": 0.042,
+       "fair2": "+2295",
+       "min2": "+2439",
        "adj": [
         [
          "opp",
@@ -39806,26 +39806,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Barrett Hayton",
-         "jersey": 27,
-         "pp": 2,
-         "n": 18,
-         "both": 4,
-         "either": 10
+         "name": "Logan Cooley",
+         "jersey": 92,
+         "pp": 1,
+         "n": 5,
+         "both": 2,
+         "either": 4
         },
         {
-         "name": "Kailer Yamamoto",
-         "jersey": 56,
-         "pp": 2,
-         "n": 14,
-         "both": 3,
-         "either": 8
+         "name": "Dylan Guenther",
+         "jersey": 11,
+         "pp": 1,
+         "n": 4,
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -39934,7 +39934,7 @@
        "opp": "MIN",
        "section": "F",
        "home": false,
-       "line": 2,
+       "line": 1,
        "pp": null,
        "sneaky": false,
        "form": {
@@ -40010,16 +40010,16 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Logan Cooley",
-         "jersey": 92,
+         "name": "Clayton Keller",
+         "jersey": 9,
          "pp": 1,
-         "n": 6,
+         "n": 5,
          "both": 2,
          "either": 4
         },
@@ -40448,9 +40448,9 @@
        "opp": "MIN",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 3,
        "pp": null,
-       "sneaky": false,
+       "sneaky": true,
        "form": {
         "points": {
          "k": 5,
@@ -40458,8 +40458,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.1965090909090909,
-         "p_hot": 0.20890434782608697,
+         "p": 0.1781818181818182,
+         "p_hot": 0.1826086956521739,
          "heater": false
         },
         "goals": {
@@ -40468,8 +40468,8 @@
          "n5": 5,
          "k10": 2,
          "n10": 10,
-         "p": 0.11505454545454545,
-         "p_hot": 0.1650782608695652,
+         "p": 0.10079999999999999,
+         "p_hot": 0.14462608695652174,
          "heater": false
         },
         "assists": {
@@ -40478,14 +40478,14 @@
          "n5": 5,
          "k10": 1,
          "n10": 10,
-         "p": 0.12523636363636362,
-         "p_hot": 0.10664347826086956,
+         "p": 0.10690909090909091,
+         "p_hot": 0.08034782608695652,
          "heater": false
         }
        },
-       "pos": "C",
+       "pos": "LW",
        "gtd": false,
-       "role": "top6",
+       "role": "other",
        "bias": null,
        "gp": 25,
        "pt_games": 5,
@@ -40511,12 +40511,12 @@
        "l5_venue_two": 1,
        "pp_toi": 0.0,
        "toi": 13.2,
-       "p": 0.197,
-       "fair": "+409",
-       "min": "+439",
-       "p2": 0.042,
-       "fair2": "+2295",
-       "min2": "+2439",
+       "p": 0.178,
+       "fair": "+461",
+       "min": "+495",
+       "p2": 0.034,
+       "fair2": "+2876",
+       "min2": "+3055",
        "adj": [
         [
          "opp",
@@ -40524,26 +40524,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Clayton Keller",
-         "jersey": 9,
-         "pp": 1,
-         "n": 1,
-         "both": 0,
-         "either": 0
+         "name": "Barrett Hayton",
+         "jersey": 27,
+         "pp": 2,
+         "n": 5,
+         "both": 1,
+         "either": 2
         },
         {
-         "name": "Dylan Guenther",
-         "jersey": 11,
-         "pp": 1,
-         "n": 4,
+         "name": "Kailer Yamamoto",
+         "jersey": 56,
+         "pp": 2,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         }
        ]
       },
@@ -40862,7 +40862,7 @@
      "goalie_source": "Michael Russo",
      "sv": "0.924",
      "gaa": "1.98",
-     "ml": "170",
+     "ml": "164",
      "gp": 26,
      "gf": 3.6538461538461537,
      "gf_rk": 5,
