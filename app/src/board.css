@@ -624,3 +624,8 @@ button:disabled{cursor:default;opacity:.55}
 .tr-table2 .xo i{display:inline-block;width:2.5ch;font-style:normal;text-align:right;margin-right:4px}
 .tr-table2 td.sorted .ord{display:inline-block;min-width:3.4ch}
 .tr-table2 td.sorted .pill{min-width:62px}
+/* headers sit centered over their data */
+.tr-table2 .numv{min-width:0}
+.tr-table2 th{letter-spacing:.8px;text-indent:.8px}
+.tr-table2 td.sorted{text-align:center;padding-left:10px}
+.tr-table2 .xo{margin-left:8px}

@@ -108,6 +108,10 @@ export function TeamRatesPage({ board }: { board: Board }) {
     return { lo: Math.min(...vs), hi: Math.max(...vs) }
   }
   const sp = sort.key === 'xg' ? xgSpan : span(sort.key)
+  // each number sits in a box exactly as wide as the widest value in its column, right-aligned, and the box is
+  // centered in the cell: digits line up down the column AND the block sits under its centered header
+  const chW = Object.fromEntries(COLS.map((c) => [c.key, Math.max(...all.map((x) => c.fmt(x.r[c.key]).length))])) as Record<Key, number>
+  const gpW = Math.max(...all.map((x) => String(x.r.gp ?? '—').length))
 
   if (!all.length) return <div className="state-box">No team rates in this board yet.</div>
   const cutText = `${win === 'season' ? 'SEASON' : win.toUpperCase()} · ${venue === 'all' ? 'ALL GAMES' : venue.toUpperCase()}`
@@ -256,7 +260,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
                 {x.city} {x.name}
               </td>
               <td>
-                <span className="numv gp">{x.r.gp ?? '—'}</span>
+                <span className="numv" style={{ minWidth: `${gpW}ch` }}>{x.r.gp ?? '—'}</span>
               </td>
               {sort.key === 'xg' ? (
                 // sorted: same pill + bar treatment; colors come from your xG thresholds (green / gray / red)
@@ -281,7 +285,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
                 <td className={`xgcol ${xg[x.abbr]?.tone ?? ''}`}>
                   {xg[x.abbr] && (
                     <>
-                      <span className="numv">{xg[x.abbr].v.toFixed(2)}</span>
+                      <span className="numv" style={{ minWidth: '4ch' }}>{xg[x.abbr].v.toFixed(2)}</span>
                       <span className="xo">
                         <i>{xg[x.abbr].at}</i>
                         {xg[x.abbr].opp}
@@ -298,7 +302,7 @@ export function TeamRatesPage({ board }: { board: Board }) {
                   // quiet columns: only the outlier tiers carry color
                   return (
                     <td key={c.key} className={t === 'g2' || t === 'r2' ? `quiet ${t}` : 'quiet'} title={rk == null ? undefined : `${ordinal(rk)} of 32 (1st = most)`}>
-                      <span className="numv">{c.fmt(v)}</span>
+                      <span className="numv" style={{ minWidth: `${chW[c.key]}ch` }}>{c.fmt(v)}</span>
                     </td>
                   )
                 }
