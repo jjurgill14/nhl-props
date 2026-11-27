@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_utc": "2026-11-27T19:40:17.185183+00:00",
+ "generated_utc": "2026-11-27T19:45:27.959022+00:00",
  "games": [
   {
    "game_id": 2026020400,
@@ -15662,7 +15662,7 @@
      "goalie_source": "Jackson Starr",
      "sv": "0.935",
      "gaa": "1.63",
-     "ml": "-230",
+     "ml": "-245",
      "gp": 26,
      "gf": 3.1538461538461537,
      "gf_rk": 16,
@@ -17599,7 +17599,7 @@
      "goalie_source": "Gabby Shirley",
      "sv": "0.885",
      "gaa": "2.97",
-     "ml": "190",
+     "ml": "200",
      "gp": 24,
      "gf": 3.5416666666666665,
      "gf_rk": 8,
@@ -17611,8 +17611,8 @@
      "ppga_rk": 18,
      "l5_gf": 2.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-26T14:28:44.138Z",
-     "lineup_checked": "2026-11-27T09:39:47.697971+00:00",
+     "lineup_as_of": "2026-11-27T19:39:51.298Z",
+     "lineup_checked": "2026-11-27T19:45:22.253270+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -17621,14 +17621,14 @@
        "news": "Geekie underwent shoulder surgery on Monday and is expected to be out for 4-to-5 months."
       },
       {
+       "player": "Pontus Holmberg",
+       "status": "IR",
+       "news": "Holmberg (undisclosed) has been placed on IR and will be out for 4 weeks."
+      },
+      {
        "player": "Erik Cernak",
        "status": "DTD",
        "news": "Cernak (illness) is out vs. Carolina on Wednesday."
-      },
-      {
-       "player": "Victor Hedman",
-       "status": "DTD",
-       "news": "Hedman (illness) is out vs. Carolina on Wednesday."
       }
      ],
      "lines": {
@@ -17640,7 +17640,7 @@
       "2": [
        "Jake Guentzel",
        "Brayden Point",
-       "Pontus Holmberg"
+       "Gage Goncalves"
       ],
       "3": [
        "Ilya Mikheyev",
@@ -17649,8 +17649,7 @@
       ],
       "4": [
        "Jeffrey Viel",
-       "Sam O'Reilly",
-       "Gage Goncalves"
+       "Sam O'Reilly"
       ]
      },
      "pp1": [
@@ -17663,9 +17662,9 @@
      "pp2": [
       "Brandon Hagel",
       "Anthony Cirelli",
-      "Pontus Holmberg",
+      "Gage Goncalves",
       "Charle-Edouard D'Astous",
-      "J.J. Moser"
+      "Victor Hedman"
      ],
      "players": [
       {
@@ -17871,12 +17870,12 @@
          "either": 13
         },
         {
-         "name": "Pontus Holmberg",
-         "jersey": 29,
+         "name": "Gage Goncalves",
+         "jersey": 93,
          "pp": 2,
-         "n": 0,
+         "n": 1,
          "both": 0,
-         "either": 0
+         "either": 1
         }
        ]
       },
@@ -17977,12 +17976,12 @@
          "either": 13
         },
         {
-         "name": "Pontus Holmberg",
-         "jersey": 29,
+         "name": "Gage Goncalves",
+         "jersey": 93,
          "pp": 2,
-         "n": 0,
+         "n": 6,
          "both": 0,
-         "either": 0
+         "either": 4
         }
        ]
       },
@@ -18391,14 +18390,6 @@
          "n": 0,
          "both": 0,
          "either": 0
-        },
-        {
-         "name": "Gage Goncalves",
-         "jersey": 93,
-         "pp": null,
-         "n": 6,
-         "both": 0,
-         "either": 2
         }
        ]
       },
@@ -18497,112 +18488,6 @@
          "n": 13,
          "both": 5,
          "either": 9
-        }
-       ]
-      },
-      {
-       "name": "Pontus Holmberg",
-       "jersey": 29,
-       "team": "TBL",
-       "opp": "OTT",
-       "section": "F",
-       "home": true,
-       "line": 2,
-       "pp": 2,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 8,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.31943870967741933,
-         "p_hot": 0.19568471248246846,
-         "heater": false
-        },
-        "goals": {
-         "k": 5,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.19428548387096772,
-         "p_hot": 0.10447573632538569,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.2062048387096774,
-         "p_hot": 0.12105918653576438,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": "G",
-       "gp": 24,
-       "pt_games": 8,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 5,
-       "two_games": 3,
-       "home_split": [
-        5,
-        13
-       ],
-       "away_split": [
-        3,
-        11
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.6,
-       "toi": 13.9,
-       "p": 0.319,
-       "fair": "+213",
-       "min": "+232",
-       "p2": 0.108,
-       "fair2": "+822",
-       "min2": "+877",
-       "adj": [
-        [
-         "opp",
-         0.9535483870967741
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jake Guentzel",
-         "jersey": 59,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Brayden Point",
-         "jersey": 21,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -18707,6 +18592,104 @@
          "jersey": 28,
          "pp": null,
          "n": 1,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Victor Hedman",
+       "jersey": 77,
+       "team": "TBL",
+       "opp": "OTT",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": 2,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 6,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.24919397849462363,
+         "p_hot": 0.11774249649368863,
+         "heater": false
+        },
+        "goals": {
+         "k": 4,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.14239655913978494,
+         "p_hot": 0.06135876577840112,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.10934021505376343,
+         "p_hot": 0.05970042075736324,
+         "heater": false
+        }
+       },
+       "pos": "LD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 22,
+       "pt_games": 6,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 4,
+       "two_games": 0,
+       "home_split": [
+        2,
+        12
+       ],
+       "away_split": [
+        4,
+        10
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 1.0,
+       "toi": 18.4,
+       "p": 0.249,
+       "fair": "+301",
+       "min": "+325",
+       "p2": 0.008,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9535483870967741
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Maxwell Crozier",
+         "jersey": 24,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -18913,14 +18896,112 @@
          "n": 0,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Gage Goncalves",
+       "jersey": 93,
+       "team": "TBL",
+       "opp": "OTT",
+       "section": "F",
+       "home": true,
+       "line": 2,
+       "pp": 2,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 4,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 10,
+         "p": 0.22096017797552836,
+         "p_hot": 0.23714333800841517,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.08286006674082314,
+         "p_hot": 0.14593436185133238,
+         "heater": false
+        },
+        "assists": {
+         "k": 3,
+         "k5": 0,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.16177441601779755,
+         "p_hot": 0.12105918653576438,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 21,
+       "pt_games": 4,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 3,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        3,
+        12
+       ],
+       "away_split": [
+        1,
+        9
+       ],
+       "l5_venue": [
+        1,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 1.2,
+       "toi": 13.6,
+       "p": 0.221,
+       "fair": "+353",
+       "min": "+380",
+       "p2": 0.021,
+       "fair2": "+4652",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9535483870967741
+        ]
+       ],
+       "move": {
+        "ev": 1,
+        "pp": 1,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "Jake Guentzel",
+         "jersey": 59,
+         "pp": 1,
+         "n": 1,
+         "both": 0,
+         "either": 1
         },
         {
-         "name": "Gage Goncalves",
-         "jersey": 93,
-         "pp": null,
-         "n": 0,
+         "name": "Brayden Point",
+         "jersey": 21,
+         "pp": 1,
+         "n": 6,
          "both": 0,
-         "either": 0
+         "either": 4
         }
        ]
       },
@@ -18931,7 +19012,7 @@
        "opp": "OTT",
        "section": "D",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -19007,14 +19088,14 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "J.J. Moser",
-         "jersey": 90,
+         "name": "Victor Hedman",
+         "jersey": 77,
          "pp": 2,
          "n": 0,
          "both": 0,
@@ -19135,7 +19216,7 @@
        "opp": "OTT",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -19211,7 +19292,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -19227,119 +19308,13 @@
        ]
       },
       {
-       "name": "Gage Goncalves",
-       "jersey": 93,
-       "team": "TBL",
-       "opp": "OTT",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 4,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.19728587319243604,
-         "p_hot": 0.2072931276297335,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.06444671857619576,
-         "p_hot": 0.12271753155680223,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.13810011123470523,
-         "p_hot": 0.09120897615708275,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 21,
-       "pt_games": 4,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        3,
-        12
-       ],
-       "away_split": [
-        1,
-        9
-       ],
-       "l5_venue": [
-        1,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.2,
-       "toi": 13.6,
-       "p": 0.197,
-       "fair": "+407",
-       "min": "+437",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9535483870967741
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jeffrey Viel",
-         "jersey": 28,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Sam O'Reilly",
-         "jersey": 23,
-         "pp": 1,
-         "n": 6,
-         "both": 0,
-         "either": 2
-        }
-       ]
-      },
-      {
        "name": "Emil Lilleberg",
        "jersey": null,
        "team": "TBL",
        "opp": "OTT",
        "section": "D",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -19415,7 +19390,7 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -19437,8 +19412,8 @@
        "opp": "OTT",
        "section": "D",
        "home": true,
-       "line": 2,
-       "pp": 2,
+       "line": 4,
+       "pp": null,
        "sneaky": true,
        "form": {
         "points": {
@@ -19513,20 +19488,11 @@
         ]
        ],
        "move": {
-        "ev": 0,
-        "pp": 0,
+        "ev": -1,
+        "pp": -1,
         "new": false
        },
-       "partners": [
-        {
-         "name": "Maxwell Crozier",
-         "jersey": 24,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
+       "partners": []
       }
      ]
     }
@@ -21501,8 +21467,8 @@
      "ppga_rk": 16,
      "l5_gf": 3.8,
      "l5_ga": 4.6,
-     "lineup_as_of": "2026-11-27T18:35:24.645Z",
-     "lineup_checked": "2026-11-27T19:39:32.783791+00:00",
+     "lineup_as_of": "2026-11-27T19:44:15.257Z",
+     "lineup_checked": "2026-11-27T19:45:22.409228+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -21523,17 +21489,17 @@
        "Travis Konecny"
       ],
       "2": [
-       "Owen Tippett",
+       "Trevor Zegras",
        "Denver Barkey",
-       "Porter Martone"
+       "Owen Tippett"
       ],
       "3": [
-       "Trevor Zegras",
+       "Michael Bunting",
        "Noah Cates",
-       "Cole Knuble"
+       "Porter Martone"
       ],
       "4": [
-       "Michael Bunting",
+       "Cole Knuble",
        "Sean Couturier",
        "Noel Acciari"
       ]
@@ -21550,7 +21516,7 @@
       "Christian Dvorak",
       "Cole Knuble",
       "Owen Tippett",
-      "Oliver Bonk"
+      "Travis Sanheim"
      ],
      "players": [
       {
@@ -21642,20 +21608,20 @@
        },
        "partners": [
         {
+         "name": "Trevor Zegras",
+         "jersey": 46,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
          "name": "Owen Tippett",
          "jersey": 74,
          "pp": 2,
          "n": 4,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Porter Martone",
-         "jersey": null,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 3
         }
        ]
       },
@@ -21772,7 +21738,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 2,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -21854,20 +21820,20 @@
        },
        "partners": [
         {
-         "name": "Noah Cates",
-         "jersey": 27,
-         "pp": null,
-         "n": 1,
+         "name": "Denver Barkey",
+         "jersey": 86,
+         "pp": 1,
+         "n": 2,
          "both": 0,
-         "either": 0
+         "either": 1
         },
         {
-         "name": "Cole Knuble",
-         "jersey": 54,
+         "name": "Owen Tippett",
+         "jersey": 74,
          "pp": 2,
-         "n": 3,
-         "both": 0,
-         "either": 2
+         "n": 7,
+         "both": 2,
+         "either": 4
         }
        ]
       },
@@ -22223,7 +22189,7 @@
          "heater": true
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "top6",
        "bias": null,
@@ -22270,20 +22236,20 @@
        },
        "partners": [
         {
+         "name": "Trevor Zegras",
+         "jersey": 46,
+         "pp": 1,
+         "n": 7,
+         "both": 2,
+         "either": 4
+        },
+        {
          "name": "Denver Barkey",
          "jersey": 86,
          "pp": 1,
          "n": 4,
          "both": 1,
          "either": 1
-        },
-        {
-         "name": "Porter Martone",
-         "jersey": null,
-         "pp": 1,
-         "n": 4,
-         "both": 0,
-         "either": 2
         }
        ]
       },
@@ -22294,7 +22260,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 2,
+       "line": 3,
        "pp": 1,
        "sneaky": false,
        "form": {
@@ -22370,26 +22336,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Owen Tippett",
-         "jersey": 74,
-         "pp": 2,
-         "n": 4,
+         "name": "Michael Bunting",
+         "jersey": 58,
+         "pp": null,
+         "n": 0,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
-         "name": "Denver Barkey",
-         "jersey": 86,
-         "pp": 1,
-         "n": 3,
-         "both": 1,
-         "either": 3
+         "name": "Noah Cates",
+         "jersey": 27,
+         "pp": null,
+         "n": 20,
+         "both": 3,
+         "either": 11
         }
        ]
       },
@@ -22488,7 +22454,7 @@
         {
          "name": "Travis Sanheim",
          "jersey": 6,
-         "pp": null,
+         "pp": 2,
          "n": 6,
          "both": 1,
          "either": 4
@@ -22502,7 +22468,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -22537,7 +22503,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "other",
        "bias": "G",
@@ -22578,26 +22544,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Trevor Zegras",
-         "jersey": 46,
-         "pp": 1,
+         "name": "Sean Couturier",
+         "jersey": 14,
+         "pp": null,
          "n": 3,
-         "both": 0,
+         "both": 1,
          "either": 2
         },
         {
-         "name": "Noah Cates",
-         "jersey": 27,
+         "name": "Noel Acciari",
+         "jersey": 52,
          "pp": null,
-         "n": 1,
-         "both": 0,
-         "either": 1
+         "n": 2,
+         "both": 1,
+         "either": 2
         }
        ]
       },
@@ -22694,20 +22660,20 @@
        },
        "partners": [
         {
-         "name": "Trevor Zegras",
-         "jersey": 46,
-         "pp": 1,
+         "name": "Michael Bunting",
+         "jersey": 58,
+         "pp": null,
          "n": 1,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Cole Knuble",
-         "jersey": 54,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 1
+         "name": "Porter Martone",
+         "jersey": null,
+         "pp": 1,
+         "n": 20,
+         "both": 3,
+         "either": 11
         }
        ]
       },
@@ -22800,12 +22766,12 @@
        },
        "partners": [
         {
-         "name": "Michael Bunting",
-         "jersey": 58,
-         "pp": null,
+         "name": "Cole Knuble",
+         "jersey": 54,
+         "pp": 2,
          "n": 3,
          "both": 1,
-         "either": 1
+         "either": 2
         },
         {
          "name": "Noel Acciari",
@@ -22825,7 +22791,7 @@
        "section": "D",
        "home": true,
        "line": 1,
-       "pp": null,
+       "pp": 2,
        "sneaky": true,
        "form": {
         "points": {
@@ -22901,7 +22867,7 @@
        ],
        "move": {
         "ev": 0,
-        "pp": 0,
+        "pp": 1,
         "new": false
        },
        "partners": [
@@ -22912,104 +22878,6 @@
          "n": 6,
          "both": 1,
          "either": 4
-        }
-       ]
-      },
-      {
-       "name": "Oliver Bonk",
-       "jersey": 59,
-       "team": "PHI",
-       "opp": "VAN",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": 2,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 6,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.3247999999999999,
-         "p_hot": 0.14323478260869565,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.06131428571428571,
-         "p_hot": 0.02420869565217391,
-         "heater": false
-        },
-        "assists": {
-         "k": 5,
-         "k5": 0,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.2668,
-         "p_hot": 0.12306086956521739,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 20,
-       "pt_games": 6,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 5,
-       "goal_games": 1,
-       "two_games": 1,
-       "home_split": [
-        4,
-        9
-       ],
-       "away_split": [
-        2,
-        11
-       ],
-       "l5_venue": [
-        2,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 1.9,
-       "toi": 15.5,
-       "p": 0.325,
-       "fair": "+208",
-       "min": "+226",
-       "p2": 0.051,
-       "fair2": "+1847",
-       "min2": "+1963",
-       "adj": [
-        [
-         "opp",
-         1.16
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Nick Seeler",
-         "jersey": 24,
-         "pp": null,
-         "n": 4,
-         "both": 0,
-         "either": 1
         }
        ]
       },
@@ -23102,12 +22970,12 @@
        },
        "partners": [
         {
-         "name": "Oliver Bonk",
-         "jersey": 59,
-         "pp": 2,
-         "n": 4,
+         "name": "Simon Benoit",
+         "jersey": 44,
+         "pp": null,
+         "n": 7,
          "both": 0,
-         "either": 1
+         "either": 2
         }
        ]
       },
@@ -23216,7 +23084,7 @@
        "opp": "VAN",
        "section": "F",
        "home": true,
-       "line": 4,
+       "line": 3,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -23298,18 +23166,18 @@
        },
        "partners": [
         {
-         "name": "Sean Couturier",
-         "jersey": 14,
+         "name": "Noah Cates",
+         "jersey": 27,
          "pp": null,
-         "n": 3,
-         "both": 1,
-         "either": 1
+         "n": 1,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Noel Acciari",
-         "jersey": 52,
-         "pp": null,
-         "n": 5,
+         "name": "Porter Martone",
+         "jersey": null,
+         "pp": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         }
@@ -23404,12 +23272,12 @@
        },
        "partners": [
         {
-         "name": "Michael Bunting",
-         "jersey": 58,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 0
+         "name": "Cole Knuble",
+         "jersey": 54,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 2
         },
         {
          "name": "Sean Couturier",
@@ -23418,6 +23286,104 @@
          "n": 17,
          "both": 2,
          "either": 8
+        }
+       ]
+      },
+      {
+       "name": "Simon Benoit",
+       "jersey": 44,
+       "team": "PHI",
+       "opp": "VAN",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.14323478260869565,
+         "p_hot": 0.1936695652173913,
+         "heater": false
+        },
+        "goals": {
+         "k": 1,
+         "k5": 1,
+         "n5": 5,
+         "k10": 1,
+         "n10": 10,
+         "p": 0.07464347826086956,
+         "p_hot": 0.1250782608695652,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.07262608695652173,
+         "p_hot": 0.07262608695652173,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 15,
+       "pt_games": 1,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 1,
+       "two_games": 0,
+       "home_split": [
+        0,
+        7
+       ],
+       "away_split": [
+        1,
+        8
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 14.3,
+       "p": 0.143,
+       "fair": "+598",
+       "min": "+640",
+       "p2": 0.012,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         1.16
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Nick Seeler",
+         "jersey": 24,
+         "pp": null,
+         "n": 7,
+         "both": 0,
+         "either": 2
         }
        ]
       }
@@ -27325,7 +27291,7 @@
      "goalie_source": "Mark Scheig",
      "sv": "0.862",
      "gaa": "3.54",
-     "ml": "-238",
+     "ml": "-225",
      "gp": 24,
      "gf": 2.625,
      "gf_rk": 28,
@@ -29267,7 +29233,7 @@
      "goalie_source": "Aaron Portzline",
      "sv": "0.875",
      "gaa": "3.42",
-     "ml": "195",
+     "ml": "185",
      "gp": 23,
      "gf": 2.4347826086956523,
      "gf_rk": 32,
