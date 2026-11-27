@@ -55332,7 +55332,7 @@
    ]
   }
  },
- "generated_utc": "2026-11-27T20:57:25.616433+00:00",
+ "generated_utc": "2026-11-27T21:02:33.457771+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -63253,7 +63253,7 @@
    "id": "03",
    "game_id": 2026020402,
    "start_utc": "2026-11-27T18:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "Bridgestone Arena",
    "away": {
     "abbr": "UTA",
@@ -86777,13 +86777,29 @@
     "goalie_source": "Dylan Loucks",
     "sv": "0.91",
     "gaa": "2.41",
-    "lineup_as_of": "2026-11-26T15:02:44.248Z",
-    "lineup_checked": "2026-11-27T09:39:46.712314+00:00",
+    "lineup_as_of": "2026-11-27T21:01:33.555Z",
+    "lineup_checked": "2026-11-27T21:02:28.715812+00:00",
     "lineup_stale": false,
     "ga_rk": 26,
     "gf_rk": 2,
     "ppga_rk": 24,
-    "late_changes": [],
+    "late_changes": [
+     {
+      "at": "2026-11-27T21:02:28.720434+00:00",
+      "kind": "in",
+      "text": "IN: Taylor Makar \u2192 L3"
+     },
+     {
+      "at": "2026-11-27T21:02:28.720434+00:00",
+      "kind": "out",
+      "text": "OUT: Martin Necas (was L1) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-27T21:02:28.720434+00:00",
+      "kind": "move",
+      "text": "Sam Malinski: PP-\u2192PP1"
+     }
+    ],
     "rates": {
      "gp": 24,
      "pp_gp": 24,
@@ -87194,21 +87210,6 @@
     ],
     "sneaky_point": [
      {
-      "selection": "T.J. Hughes \u00b7 1+ point",
-      "prob": 0.481,
-      "fair": "+108",
-      "need": "+121",
-      "rationale": "L3 \u00b7 PP2 \u00b7 4 of L5 \u00b7 7 of L10 \u00b7 11 of 24 season",
-      "player": "T.J. Hughes",
-      "team": "COL",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8486171
-      ],
-      "sneaky": true
-     },
-     {
       "selection": "Jared Spurgeon \u00b7 1+ point",
       "prob": 0.386,
       "fair": "+159",
@@ -87240,36 +87241,6 @@
      }
     ],
     "sneaky_assist": [
-     {
-      "selection": "T.J. Hughes \u00b7 1+ assist",
-      "prob": 0.451,
-      "fair": "+122",
-      "need": "+135",
-      "rationale": "L3 \u00b7 PP2 \u00b7 4 of L5 \u00b7 7 of L10 \u00b7 9 of 24 season",
-      "player": "T.J. Hughes",
-      "team": "COL",
-      "pp": 2,
-      "line": 3,
-      "players": [
-       8486171
-      ],
-      "sneaky": true
-     },
-     {
-      "selection": "Sam Malinski \u00b7 1+ assist",
-      "prob": 0.312,
-      "fair": "+220",
-      "need": "+240",
-      "rationale": "D2 \u00b7 2 of L5 \u00b7 5 of L10 \u00b7 9 of 23 season",
-      "player": "Sam Malinski",
-      "team": "COL",
-      "pp": null,
-      "line": 2,
-      "players": [
-       8484258
-      ],
-      "sneaky": true
-     },
      {
       "selection": "Yakov Trenin \u00b7 1+ assist",
       "prob": 0.311,
@@ -87383,22 +87354,6 @@
       ]
      },
      {
-      "selection": "Lehkonen + Necas \u00b7 both 1+ point",
-      "prob": 0.432,
-      "fair": "+131",
-      "need": "+145",
-      "rationale": "Both scored 10 of 20 games together \u00b7 independent 21% \u00b7 correlated",
-      "team": "COL",
-      "line": 1,
-      "read": "correlated",
-      "both": 10,
-      "n": 20,
-      "players": [
-       8477476,
-       8480039
-      ]
-     },
-     {
       "selection": "Landeskog + Kadri \u00b7 both 1+ point",
       "prob": 0.428,
       "fair": "+133",
@@ -87412,6 +87367,22 @@
       "players": [
        8476455,
        8475172
+      ]
+     },
+     {
+      "selection": "Lehkonen + Nelson \u00b7 both 1+ point",
+      "prob": 0.38,
+      "fair": "+163",
+      "need": "+179",
+      "rationale": "Both scored 3 of 5 games together \u00b7 independent 20% \u00b7 new pair",
+      "team": "COL",
+      "line": 1,
+      "read": "new pair",
+      "both": 3,
+      "n": 5,
+      "players": [
+       8477476,
+       8475754
       ]
      }
     ],
@@ -87459,20 +87430,6 @@
       ]
      },
      {
-      "selection": "Martin Necas \u00b7 2+ points",
-      "prob": 0.254,
-      "fair": "+294",
-      "need": "+317",
-      "rationale": "2+ in 9 of 24 this season \u00b7 0 of L5 away",
-      "player": "Martin Necas",
-      "team": "COL",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8480039
-      ]
-     },
-     {
       "selection": "Artturi Lehkonen \u00b7 2+ points",
       "prob": 0.23,
       "fair": "+335",
@@ -87484,6 +87441,20 @@
       "line": 1,
       "players": [
        8477476
+      ]
+     },
+     {
+      "selection": "Devon Toews \u00b7 2+ points",
+      "prob": 0.219,
+      "fair": "+357",
+      "need": "+384",
+      "rationale": "2+ in 8 of 24 this season \u00b7 1 of L5 away",
+      "player": "Devon Toews",
+      "team": "COL",
+      "pp": 2,
+      "line": 2,
+      "players": [
+       8478038
       ]
      }
     ],
@@ -87567,11 +87538,11 @@
    "lineup": {
     "away": {
      "team": "COL",
-     "as_of": "2026-11-26T15:02:44.248Z",
-     "checked": "2026-11-27T09:39:46.712314+00:00",
+     "as_of": "2026-11-27T21:01:33.555Z",
+     "checked": "2026-11-27T21:02:28.715812+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-25)",
-     "updated_dfo": "2026-11-26T15:02:44.248Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-27T21:01:33.555Z",
      "forwards": [
       [
        {
@@ -87651,39 +87622,39 @@
         }
        },
        {
-        "name": "Martin Necas",
-        "jersey": 88,
+        "name": "T.J. Hughes",
+        "jersey": 13,
         "pos": "RW",
         "slot": null,
-        "player_id": 8480039,
-        "dfo_id": 2804,
+        "player_id": 8486171,
+        "dfo_id": 38896,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 18,
-         "g": 11,
+         "a": 11,
+         "g": 2,
          "gp": 24,
-         "p": 29,
-         "ppp": 7,
-         "sog": 54,
-         "toi_s": 28291
+         "p": 13,
+         "ppp": 6,
+         "sog": 55,
+         "toi_s": 21845
         },
         "last5": {
-         "a": 4,
-         "g": 1,
+         "a": 5,
+         "g": 0,
          "gp": 5,
          "p": 5,
-         "ppp": 1,
-         "sog": 14,
-         "toi_s": 5711
+         "ppp": 4,
+         "sog": 9,
+         "toi_s": 4616
         },
-        "l5_point_games": 2,
+        "l5_point_games": 4,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -87883,41 +87854,41 @@
         }
        },
        {
-        "name": "T.J. Hughes",
-        "jersey": 13,
+        "name": "Taylor Makar",
+        "jersey": 16,
         "pos": "RW",
         "slot": null,
-        "player_id": 8486171,
-        "dfo_id": 38896,
+        "player_id": 8482953,
+        "dfo_id": 38433,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 2,
-         "gp": 24,
-         "p": 13,
-         "ppp": 6,
-         "sog": 55,
-         "toi_s": 21845
+         "a": 0,
+         "g": 0,
+         "gp": 2,
+         "p": 0,
+         "ppp": 0,
+         "sog": 1,
+         "toi_s": 793
         },
         "last5": {
-         "a": 5,
+         "a": 0,
          "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 4,
-         "sog": 9,
-         "toi_s": 4616
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 2751
         },
-        "l5_point_games": 4,
-        "gp": 24,
+        "l5_point_games": 0,
+        "gp": 2,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ],
@@ -88165,7 +88136,7 @@
         "dfo_id": 37993,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -88190,7 +88161,7 @@
         "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -88479,40 +88450,40 @@
         }
        },
        {
-        "name": "Martin Necas",
-        "jersey": 88,
+        "name": "Sam Malinski",
+        "jersey": 70,
         "pos": null,
         "slot": 4,
-        "player_id": 8480039,
-        "dfo_id": 2804,
+        "player_id": 8484258,
+        "dfo_id": 37993,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": null,
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 18,
-         "g": 11,
-         "gp": 24,
-         "p": 29,
-         "ppp": 7,
-         "sog": 54,
-         "toi_s": 28291
+         "a": 10,
+         "g": 0,
+         "gp": 23,
+         "p": 10,
+         "ppp": 0,
+         "sog": 39,
+         "toi_s": 25820
         },
         "last5": {
-         "a": 4,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 5,
-         "ppp": 1,
+         "p": 2,
+         "ppp": 0,
          "sog": 14,
-         "toi_s": 5711
+         "toi_s": 6619
         },
         "l5_point_games": 2,
-        "gp": 24,
+        "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -88589,7 +88560,7 @@
         "l5_point_games": 4,
         "gp": 24,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -89027,7 +88998,7 @@
         "dfo_id": 37993,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": 2,
         "bias": "A",
         "season": {
@@ -89052,7 +89023,7 @@
         "gp": 23,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -89078,6 +89049,11 @@
        "player": "Gavin Brindley",
        "status": "DTD",
        "news": "Brindley (concussion) returned to practice in a non-contact jersey on Tuesday."
+      },
+      {
+       "player": "Martin Necas",
+       "status": "DTD",
+       "news": "Necas (undisclosed) is a late scratch vs. Minnesota on Friday."
       }
      ],
      "unit_ratings": {
@@ -89086,11 +89062,11 @@
        "rating": 75.8675366476384
       },
       "d2": {
-       "rank": 13,
+       "rank": 12,
        "rating": 73.9048795137604
       },
       "d3": {
-       "rank": 3,
+       "rank": 5,
        "rating": 75.0102967553457
       },
       "d4": {
@@ -89098,19 +89074,19 @@
        "rating": 0
       },
       "f1": {
-       "rank": 35,
-       "rating": 72.44852350278028
+       "rank": 33,
+       "rating": 72.92129428691261
       },
       "f2": {
        "rank": 9,
        "rating": 75.87253444062233
       },
       "f3": {
-       "rank": 2,
+       "rank": 3,
        "rating": 77.0022204858443
       },
       "f4": {
-       "rank": 4,
+       "rank": 5,
        "rating": 73.20738570143291
       },
       "g": {
