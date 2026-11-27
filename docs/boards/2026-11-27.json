@@ -55332,7 +55332,7 @@
    ]
   }
  },
- "generated_utc": "2026-11-27T20:36:55.552909+00:00",
+ "generated_utc": "2026-11-27T20:42:04.782927+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -55355,7 +55355,7 @@
    "id": "01",
    "game_id": 2026020400,
    "start_utc": "2026-11-27T18:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "TD Garden",
    "away": {
     "abbr": "TOR",
@@ -90775,8 +90775,8 @@
     "goalie_source": "Zach Cavanagh",
     "sv": "0.887",
     "gaa": "2.84",
-    "lineup_as_of": "2026-11-27T02:18:23.870Z",
-    "lineup_checked": "2026-11-27T19:39:33.501784+00:00",
+    "lineup_as_of": "2026-11-27T20:39:05.111Z",
+    "lineup_checked": "2026-11-27T20:41:59.012202+00:00",
     "lineup_stale": false,
     "ga_rk": 5,
     "gf_rk": 4,
@@ -90824,7 +90824,7 @@
      "away": "+205",
      "home": "-250",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-27T02:18:23.870Z"
+     "as_of": "2026-11-27T20:39:05.111Z"
     },
     "total": {
      "line": 6.5,
@@ -91170,11 +91170,11 @@
       "prob": 0.332,
       "fair": "+201",
       "need": "+219",
-      "rationale": "D1 \u00b7 2 of L5 \u00b7 4 of L10 \u00b7 4 of 18 season",
+      "rationale": "D3 \u00b7 2 of L5 \u00b7 4 of L10 \u00b7 4 of 18 season",
       "player": "Drew Helleson",
       "team": "ANA",
       "pp": null,
-      "line": 1,
+      "line": 3,
       "players": [
        8481563
       ],
@@ -91217,11 +91217,11 @@
       "prob": 0.35,
       "fair": "+186",
       "need": "+203",
-      "rationale": "D3 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 3 of 6 season",
+      "rationale": "D1 \u00b7 3 of L5 \u00b7 3 of L10 \u00b7 3 of 6 season",
       "player": "Ian Moore",
       "team": "ANA",
       "pp": null,
-      "line": 3,
+      "line": 1,
       "players": [
        8482178
       ],
@@ -93032,11 +93032,11 @@
     },
     "home": {
      "team": "ANA",
-     "as_of": "2026-11-27T02:18:23.870Z",
-     "checked": "2026-11-27T19:39:33.501784+00:00",
+     "as_of": "2026-11-27T20:39:05.111Z",
+     "checked": "2026-11-27T20:41:59.012202+00:00",
      "stale": false,
      "source": "Zach Cavanagh",
-     "updated_dfo": "2026-11-27T02:18:23.870Z",
+     "updated_dfo": "2026-11-27T20:39:05.111Z",
      "forwards": [
       [
        {
@@ -93544,39 +93544,39 @@
         }
        },
        {
-        "name": "Drew Helleson",
-        "jersey": 14,
+        "name": "Ian Moore",
+        "jersey": 3,
         "pos": "RD",
         "slot": null,
-        "player_id": 8481563,
-        "dfo_id": 30429,
+        "player_id": 8482178,
+        "dfo_id": 31897,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
-        "bias": "A",
+        "pk": 1,
+        "bias": "G",
         "season": {
-         "a": 5,
-         "g": 0,
-         "gp": 18,
+         "a": 2,
+         "g": 3,
+         "gp": 6,
          "p": 5,
          "ppp": 0,
-         "sog": 19,
-         "toi_s": 20155
+         "sog": 13,
+         "toi_s": 6374
         },
         "last5": {
-         "a": 3,
-         "g": 0,
+         "a": 1,
+         "g": 3,
          "gp": 5,
-         "p": 3,
+         "p": 4,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 4569
+         "sog": 13,
+         "toi_s": 5355
         },
-        "l5_point_games": 2,
-        "gp": 18,
+        "l5_point_games": 3,
+        "gp": 6,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -93700,39 +93700,39 @@
         }
        },
        {
-        "name": "Ian Moore",
-        "jersey": 3,
+        "name": "Drew Helleson",
+        "jersey": 14,
         "pos": "RD",
         "slot": null,
-        "player_id": 8482178,
-        "dfo_id": 31897,
+        "player_id": 8481563,
+        "dfo_id": 30429,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 1,
-        "bias": "G",
+        "pk": 2,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 6,
+         "a": 5,
+         "g": 0,
+         "gp": 18,
          "p": 5,
          "ppp": 0,
-         "sog": 13,
-         "toi_s": 6374
+         "sog": 19,
+         "toi_s": 20155
         },
         "last5": {
-         "a": 1,
-         "g": 3,
+         "a": 3,
+         "g": 0,
          "gp": 5,
-         "p": 4,
+         "p": 3,
          "ppp": 0,
-         "sog": 13,
-         "toi_s": 5355
+         "sog": 4,
+         "toi_s": 4569
         },
-        "l5_point_games": 3,
-        "gp": 6,
+        "l5_point_games": 2,
+        "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -94362,7 +94362,7 @@
         "l5_point_games": 3,
         "gp": 6,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -94516,7 +94516,7 @@
         "l5_point_games": 2,
         "gp": 18,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -94546,7 +94546,7 @@
        "rating": 0
       },
       "d2": {
-       "rank": 36,
+       "rank": 37,
        "rating": 0
       },
       "d3": {
@@ -94566,7 +94566,7 @@
        "rating": 0
       },
       "f3": {
-       "rank": 34,
+       "rank": 35,
        "rating": 0
       },
       "f4": {
@@ -94681,8 +94681,8 @@
     "goalie_source": "Curtis Pashelka",
     "sv": "0.889",
     "gaa": "3.27",
-    "lineup_as_of": "2026-11-27T18:43:06.508Z",
-    "lineup_checked": "2026-11-27T19:39:33.669421+00:00",
+    "lineup_as_of": "2026-11-27T20:37:48.326Z",
+    "lineup_checked": "2026-11-27T20:41:59.170537+00:00",
     "lineup_stale": false,
     "ga_rk": 4,
     "gf_rk": 31,
@@ -94741,7 +94741,7 @@
      "away": "+120",
      "home": "-142",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-27T18:43:06.508Z"
+     "as_of": "2026-11-27T20:37:48.326Z"
     },
     "total": {
      "line": 6.5,
@@ -95269,22 +95269,6 @@
       "players": [
        8478403,
        8475913
-      ]
-     },
-     {
-      "selection": "Celebrini + Smith \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.4,
-      "fair": "+150",
-      "need": "+165",
-      "rationale": "Both scored 10 of 23 games together \u00b7 independent 27% \u00b7 correlated",
-      "team": "SJS",
-      "line": 1,
-      "read": "correlated",
-      "both": 10,
-      "n": 23,
-      "players": [
-       8484801,
-       8484227
       ]
      },
      {
@@ -96873,11 +96857,11 @@
     },
     "home": {
      "team": "SJS",
-     "as_of": "2026-11-27T18:43:06.508Z",
-     "checked": "2026-11-27T19:39:33.669421+00:00",
+     "as_of": "2026-11-27T20:37:48.326Z",
+     "checked": "2026-11-27T20:41:59.170537+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-27T18:43:06.508Z",
+     "source": "Max Miller",
+     "updated_dfo": "2026-11-27T20:37:48.326Z",
      "forwards": [
       [
        {
@@ -96957,39 +96941,39 @@
         }
        },
        {
-        "name": "Will Smith",
-        "jersey": 2,
+        "name": "Adam Gaudette",
+        "jersey": 81,
         "pos": "RW",
         "slot": null,
-        "player_id": 8484227,
-        "dfo_id": 38126,
+        "player_id": 8478874,
+        "dfo_id": 4646,
         "gtd": false,
         "injury": null,
-        "pp": 1,
+        "pp": 2,
         "pk": null,
-        "bias": "A",
+        "bias": null,
         "season": {
-         "a": 11,
-         "g": 8,
-         "gp": 27,
-         "p": 19,
-         "ppp": 7,
-         "sog": 61,
-         "toi_s": 31497
+         "a": 0,
+         "g": 2,
+         "gp": 12,
+         "p": 2,
+         "ppp": 1,
+         "sog": 10,
+         "toi_s": 7547
         },
         "last5": {
-         "a": 3,
+         "a": 0,
          "g": 1,
          "gp": 5,
-         "p": 4,
-         "ppp": 1,
-         "sog": 7,
-         "toi_s": 5135
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 3576
         },
-        "l5_point_games": 2,
-        "gp": 27,
+        "l5_point_games": 1,
+        "gp": 12,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -97189,39 +97173,39 @@
         }
        },
        {
-        "name": "Collin Graf",
-        "jersey": 51,
+        "name": "Will Smith",
+        "jersey": 2,
         "pos": "RW",
         "slot": null,
-        "player_id": 8484911,
-        "dfo_id": 38105,
+        "player_id": 8484227,
+        "dfo_id": 38126,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 1,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 2,
-         "g": 3,
-         "gp": 25,
-         "p": 5,
-         "ppp": 0,
-         "sog": 26,
-         "toi_s": 23562
+         "a": 11,
+         "g": 8,
+         "gp": 27,
+         "p": 19,
+         "ppp": 7,
+         "sog": 61,
+         "toi_s": 31497
         },
         "last5": {
-         "a": 1,
+         "a": 3,
          "g": 1,
          "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 5235
+         "p": 4,
+         "ppp": 1,
+         "sog": 7,
+         "toi_s": 5135
         },
         "l5_point_games": 2,
-        "gp": 25,
+        "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -97305,39 +97289,39 @@
         }
        },
        {
-        "name": "Adam Gaudette",
-        "jersey": 81,
+        "name": "Collin Graf",
+        "jersey": 51,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478874,
-        "dfo_id": 4646,
+        "player_id": 8484911,
+        "dfo_id": 38105,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 2,
-         "gp": 12,
-         "p": 2,
-         "ppp": 1,
-         "sog": 10,
-         "toi_s": 7547
+         "a": 2,
+         "g": 3,
+         "gp": 25,
+         "p": 5,
+         "ppp": 0,
+         "sog": 26,
+         "toi_s": 23562
         },
         "last5": {
-         "a": 0,
+         "a": 1,
          "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
          "sog": 4,
-         "toi_s": 3576
+         "toi_s": 5235
         },
-        "l5_point_games": 1,
-        "gp": 12,
+        "l5_point_games": 2,
+        "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -97779,7 +97763,7 @@
         "l5_point_games": 2,
         "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -97933,7 +97917,7 @@
         "l5_point_games": 1,
         "gp": 12,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -98392,7 +98376,7 @@
        "rating": 74.06476112866682
       },
       "d2": {
-       "rank": 36,
+       "rank": 37,
        "rating": 0
       },
       "d3": {
@@ -98404,20 +98388,20 @@
        "rating": 0
       },
       "f1": {
-       "rank": 41,
-       "rating": 0
+       "rank": 39,
+       "rating": 70.16653758154762
       },
       "f2": {
-       "rank": 26,
+       "rank": 27,
        "rating": 72.80624706470401
       },
       "f3": {
-       "rank": 17,
+       "rank": 18,
        "rating": 73.36006573595802
       },
       "f4": {
-       "rank": 28,
-       "rating": 70.43165534476402
+       "rank": 26,
+       "rating": 70.6967731079804
       },
       "g": {
        "rank": 23,
