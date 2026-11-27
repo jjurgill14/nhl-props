@@ -55332,7 +55332,7 @@
    ]
   }
  },
- "generated_utc": "2026-11-27T21:33:01.310581+00:00",
+ "generated_utc": "2026-11-27T21:38:08.867145+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -67173,7 +67173,7 @@
    "id": "04",
    "game_id": 2026020403,
    "start_utc": "2026-11-27T19:00:00Z",
-   "status": "CRIT",
+   "status": "FINAL",
    "venue": "Enterprise Center",
    "away": {
     "abbr": "DAL",
@@ -98424,7 +98424,7 @@
     "sv": "0.909",
     "gaa": "2.49",
     "lineup_as_of": "2026-11-27T16:33:56.588Z",
-    "lineup_checked": "2026-11-27T19:39:33.750730+00:00",
+    "lineup_checked": "2026-11-27T21:38:04.557086+00:00",
     "lineup_stale": false,
     "ga_rk": 25,
     "gf_rk": 22,
@@ -98481,8 +98481,8 @@
     "goalie_source": "",
     "sv": "0.891",
     "gaa": "3.32",
-    "lineup_as_of": "2026-11-27T18:22:41.525Z",
-    "lineup_checked": "2026-11-27T21:32:57.126728+00:00",
+    "lineup_as_of": "2026-11-27T21:35:28.854Z",
+    "lineup_checked": "2026-11-27T21:38:04.642259+00:00",
     "lineup_stale": false,
     "ga_rk": 3,
     "gf_rk": 26,
@@ -98502,6 +98502,36 @@
       "at": "2026-11-27T19:39:33.841870+00:00",
       "kind": "move",
       "text": "Anton Frondell: L1\u2192L3, PP1\u2192PP2"
+     },
+     {
+      "at": "2026-11-27T21:38:04.647718+00:00",
+      "kind": "in",
+      "text": "IN: Andrew Mangiapane \u2192 L3"
+     },
+     {
+      "at": "2026-11-27T21:38:04.647718+00:00",
+      "kind": "in",
+      "text": "IN: Dominic Toninato \u2192 L4"
+     },
+     {
+      "at": "2026-11-27T21:38:04.647718+00:00",
+      "kind": "out",
+      "text": "OUT: Patrick Kane (was L1) \u2192 IR"
+     },
+     {
+      "at": "2026-11-27T21:38:04.647718+00:00",
+      "kind": "out",
+      "text": "OUT: Tyler Bertuzzi (was L2) \u2192 DTD"
+     },
+     {
+      "at": "2026-11-27T21:38:04.647718+00:00",
+      "kind": "move",
+      "text": "Anton Frondell: L3\u2192L1, PP2\u2192PP1"
+     },
+     {
+      "at": "2026-11-27T21:38:04.647718+00:00",
+      "kind": "move",
+      "text": "Teuvo Teravainen: L3\u2192L2, PP2\u2192PP1"
      }
     ],
     "rates": {
@@ -98546,7 +98576,7 @@
      "away": "+145",
      "home": "-175",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-27T18:22:41.525Z"
+     "as_of": "2026-11-27T21:35:28.854Z"
     },
     "total": {
      "line": 6.5,
@@ -98652,21 +98682,6 @@
       ]
      },
      {
-      "selection": "Patrick Kane \u00b7 1+ point",
-      "prob": 0.557,
-      "fair": "-126",
-      "need": "-111",
-      "rationale": "Point in 14 of 22 this season \u00b7 5 of L5 \u00b7 3 of L5 home",
-      "player": "Patrick Kane",
-      "team": "CHI",
-      "pp": 1,
-      "line": 1,
-      "bias": "A",
-      "players": [
-       8474141
-      ]
-     },
-     {
       "selection": "Tye Kartye \u00b7 1+ point",
       "prob": 0.545,
       "fair": "-120",
@@ -98679,6 +98694,21 @@
       "bias": "G",
       "players": [
        8481789
+      ]
+     },
+     {
+      "selection": "Roman Kantserov \u00b7 1+ point",
+      "prob": 0.506,
+      "fair": "-102",
+      "need": "+109",
+      "rationale": "Point in 14 of 25 this season \u00b7 3 of L5 \u00b7 2 of L5 home",
+      "player": "Roman Kantserov",
+      "team": "CHI",
+      "pp": 1,
+      "line": 1,
+      "bias": "G",
+      "players": [
+       8484390
       ]
      }
     ],
@@ -98709,20 +98739,6 @@
       "line": 1,
       "players": [
        8476459
-      ]
-     },
-     {
-      "selection": "Patrick Kane \u00b7 1+ assist",
-      "prob": 0.49,
-      "fair": "+104",
-      "need": "+116",
-      "rationale": "Assist in 13 of 22 this season \u00b7 5 of L5",
-      "player": "Patrick Kane",
-      "team": "CHI",
-      "pp": 1,
-      "line": 1,
-      "players": [
-       8474141
       ]
      },
      {
@@ -98766,6 +98782,20 @@
       "players": [
        8483506
       ]
+     },
+     {
+      "selection": "Tye Kartye \u00b7 1+ assist",
+      "prob": 0.325,
+      "fair": "+208",
+      "need": "+226",
+      "rationale": "Assist in 6 of 24 this season \u00b7 0 of L5",
+      "player": "Tye Kartye",
+      "team": "NYR",
+      "pp": 1,
+      "line": 2,
+      "players": [
+       8481789
+      ]
      }
     ],
     "goal": [
@@ -98778,7 +98808,7 @@
       "player": "Roman Kantserov",
       "team": "CHI",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8484390
       ]
@@ -98792,7 +98822,7 @@
       "player": "Frank Nazar",
       "team": "CHI",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8483493
       ]
@@ -98860,11 +98890,11 @@
       "prob": 0.436,
       "fair": "+129",
       "need": "+143",
-      "rationale": "L4 \u00b7 4 of L5 \u00b7 5 of L10 \u00b7 7 of 25 season",
+      "rationale": "L3 \u00b7 4 of L5 \u00b7 5 of L10 \u00b7 7 of 25 season",
       "player": "Cole Smith",
       "team": "CHI",
       "pp": null,
-      "line": 4,
+      "line": 3,
       "players": [
        8482062
       ],
@@ -98907,11 +98937,11 @@
       "prob": 0.246,
       "fair": "+307",
       "need": "+331",
-      "rationale": "L4 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 25 season",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 3 of L10 \u00b7 4 of 25 season",
       "player": "Cole Smith",
       "team": "CHI",
       "pp": null,
-      "line": 4,
+      "line": 3,
       "players": [
        8482062
       ],
@@ -98939,11 +98969,11 @@
       "prob": 0.197,
       "fair": "+408",
       "need": "+439",
-      "rationale": "L4 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 25 season",
+      "rationale": "L3 \u00b7 2 of L5 \u00b7 2 of L10 \u00b7 3 of 25 season",
       "player": "Cole Smith",
       "team": "CHI",
       "pp": null,
-      "line": 4,
+      "line": 3,
       "players": [
        8482062
       ],
@@ -98952,29 +98982,13 @@
     ],
     "pair": [
      {
-      "selection": "Kane + Nazar \u00b7 both 1+ point",
-      "prob": 0.448,
-      "fair": "+123",
-      "need": "+137",
-      "rationale": "Both scored 7 of 13 games together \u00b7 independent 25% \u00b7 correlated",
-      "team": "CHI",
-      "line": 1,
-      "read": "correlated",
-      "both": 7,
-      "n": 13,
-      "players": [
-       8474141,
-       8483493
-      ]
-     },
-     {
       "selection": "Kantserov + Donato \u00b7 both 1+ point",
       "prob": 0.39,
       "fair": "+156",
       "need": "+172",
       "rationale": "Both scored 3 of 4 games together \u00b7 independent 15% \u00b7 new pair",
       "team": "CHI",
-      "line": 2,
+      "line": 1,
       "read": "new pair",
       "both": 3,
       "n": 4,
@@ -99000,35 +99014,51 @@
       ]
      },
      {
-      "selection": "Bertuzzi + Donato \u00b7 both 1+ point",
-      "prob": 0.267,
-      "fair": "+274",
-      "need": "+296",
-      "rationale": "Both scored 2 of 4 games together \u00b7 independent 11% \u00b7 new pair",
-      "team": "CHI",
-      "line": 2,
-      "read": "new pair",
-      "both": 2,
-      "n": 4,
+      "selection": "Fox + Gavrikov \u00b7 both 1+ point",
+      "prob": 0.245,
+      "fair": "+309",
+      "need": "+333",
+      "rationale": "Both scored 6 of 24 games together \u00b7 independent 22% \u00b7 independent",
+      "team": "NYR",
+      "line": 1,
+      "read": "independent",
+      "both": 6,
+      "n": 24,
       "players": [
-       8477479,
-       8477987
+       8479323,
+       8478882
       ]
      },
      {
-      "selection": "Frondell + Teravainen \u00b7 both 1+ point",
-      "prob": 0.255,
-      "fair": "+292",
-      "need": "+315",
-      "rationale": "Both scored 4 of 11 games together \u00b7 independent 6% \u00b7 correlated",
+      "selection": "Zibanejad + Cuylle \u00b7 both 1+ point",
+      "prob": 0.213,
+      "fair": "+368",
+      "need": "+397",
+      "rationale": "Both scored 0 of 1 games together \u00b7 independent 25% \u00b7 new pair",
+      "team": "NYR",
+      "line": 1,
+      "read": "new pair",
+      "both": 0,
+      "n": 1,
+      "players": [
+       8476459,
+       8482157
+      ]
+     },
+     {
+      "selection": "Nazar + Moore \u00b7 both 1+ point",
+      "prob": 0.203,
+      "fair": "+392",
+      "need": "+422",
+      "rationale": "Both scored 4 of 17 games together \u00b7 independent 11% \u00b7 correlated",
       "team": "CHI",
-      "line": 3,
+      "line": 2,
       "read": "correlated",
       "both": 4,
-      "n": 11,
+      "n": 17,
       "players": [
-       8485391,
-       8476882
+       8483493,
+       8484197
       ]
      }
     ],
@@ -99098,29 +99128,13 @@
       "player": "Frank Nazar",
       "team": "CHI",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8483493
       ]
      }
     ],
     "pp1": [
-     {
-      "selection": "Kane + Nazar \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.448,
-      "fair": "+123",
-      "need": "+137",
-      "rationale": "Both scored 7 of 13 games together \u00b7 independent 25% \u00b7 correlated",
-      "team": "CHI",
-      "line": 1,
-      "read": "correlated",
-      "both": 7,
-      "n": 13,
-      "players": [
-       8474141,
-       8483493
-      ]
-     },
      {
       "selection": "Miller + Kartye \u00b7 PP1 mates \u00b7 both 1+ point",
       "prob": 0.367,
@@ -99138,19 +99152,19 @@
       ]
      },
      {
-      "selection": "Kantserov + Bertuzzi \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.186,
-      "fair": "+439",
-      "need": "+471",
-      "rationale": "Both scored 2 of 11 games together \u00b7 independent 19% \u00b7 independent",
+      "selection": "Kantserov + Frondell \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.109,
+      "fair": "+818",
+      "need": "+873",
+      "rationale": "Both scored 0 of 3 games together \u00b7 independent 16% \u00b7 new pair",
       "team": "CHI",
-      "line": 2,
-      "read": "independent",
-      "both": 2,
-      "n": 11,
+      "line": 1,
+      "read": "new pair",
+      "both": 0,
+      "n": 3,
       "players": [
        8484390,
-       8477479
+       8485391
       ]
      }
     ],
@@ -99169,7 +99183,7 @@
     "away": {
      "team": "NYR",
      "as_of": "2026-11-27T16:33:56.588Z",
-     "checked": "2026-11-27T19:39:33.750730+00:00",
+     "checked": "2026-11-27T21:38:04.557086+00:00",
      "stale": false,
      "source": "Projected",
      "updated_dfo": "2026-11-27T16:33:56.588Z",
@@ -100683,7 +100697,7 @@
       {
        "player": "Pavel Dorofeyev",
        "status": "IR",
-       "news": "Dorofeyev (lower-body) returned to practice in a non-contact jersey on Tuesday."
+       "news": "Dorofeyev (lower-body) will remain out vs. Chicago on Friday but is close to returning."
       },
       {
        "player": "Oliver Bjorkstrand",
@@ -100702,7 +100716,7 @@
        "rating": 73.4497210895543
       },
       "d2": {
-       "rank": 14,
+       "rank": 15,
        "rating": 73.64999425719571
       },
       "d3": {
@@ -100722,7 +100736,7 @@
        "rating": 78.49069970196581
       },
       "f3": {
-       "rank": 18,
+       "rank": 19,
        "rating": 73.17265152625231
       },
       "f4": {
@@ -100753,12 +100767,128 @@
     },
     "home": {
      "team": "CHI",
-     "as_of": "2026-11-27T18:22:41.525Z",
-     "checked": "2026-11-27T21:32:57.126728+00:00",
+     "as_of": "2026-11-27T21:35:28.854Z",
+     "checked": "2026-11-27T21:38:04.642259+00:00",
      "stale": false,
-     "source": "Vinnie Parise",
-     "updated_dfo": "2026-11-27T18:22:41.525Z",
+     "source": "Projected",
+     "updated_dfo": "2026-11-27T21:35:28.854Z",
      "forwards": [
+      [
+       {
+        "name": "Ryan Donato",
+        "jersey": 8,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8477987,
+        "dfo_id": 4635,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 4,
+         "g": 4,
+         "gp": 25,
+         "p": 8,
+         "ppp": 0,
+         "sog": 28,
+         "toi_s": 18645
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 3942
+        },
+        "l5_point_games": 2,
+        "gp": 25,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Anton Frondell",
+        "jersey": 16,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8485391,
+        "dfo_id": 38471,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "A",
+        "season": {
+         "a": 7,
+         "g": 4,
+         "gp": 24,
+         "p": 11,
+         "ppp": 1,
+         "sog": 42,
+         "toi_s": 23374
+        },
+        "last5": {
+         "a": 1,
+         "g": 1,
+         "gp": 5,
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4098
+        },
+        "l5_point_games": 2,
+        "gp": 24,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Roman Kantserov",
+        "jersey": 80,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8484390,
+        "dfo_id": 38906,
+        "gtd": false,
+        "injury": null,
+        "pp": 1,
+        "pk": null,
+        "bias": "G",
+        "season": {
+         "a": 5,
+         "g": 15,
+         "gp": 25,
+         "p": 20,
+         "ppp": 7,
+         "sog": 45,
+         "toi_s": 27570
+        },
+        "last5": {
+         "a": 2,
+         "g": 6,
+         "gp": 5,
+         "p": 8,
+         "ppp": 4,
+         "sog": 13,
+         "toi_s": 5059
+        },
+        "l5_point_games": 3,
+        "gp": 25,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
       [
        {
         "name": "Oliver Moore",
@@ -100793,7 +100923,7 @@
         "l5_point_games": 1,
         "gp": 24,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -100831,240 +100961,8 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Patrick Kane",
-        "jersey": 88,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8474141,
-        "dfo_id": 305,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 16,
-         "g": 2,
-         "gp": 22,
-         "p": 18,
-         "ppp": 9,
-         "sog": 47,
-         "toi_s": 23823
-        },
-        "last5": {
-         "a": 7,
-         "g": 1,
-         "gp": 5,
-         "p": 8,
-         "ppp": 6,
-         "sog": 15,
-         "toi_s": 5540
-        },
-        "l5_point_games": 5,
-        "gp": 22,
-        "move": {
-         "ev": 1,
-         "pp": 0,
-         "new": false
-        }
-       }
-      ],
-      [
-       {
-        "name": "Ryan Donato",
-        "jersey": 8,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8477987,
-        "dfo_id": 4635,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 4,
-         "g": 4,
-         "gp": 25,
-         "p": 8,
-         "ppp": 0,
-         "sog": 28,
-         "toi_s": 18645
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 7,
-         "toi_s": 3942
-        },
-        "l5_point_games": 2,
-        "gp": 25,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Roman Kantserov",
-        "jersey": 80,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8484390,
-        "dfo_id": 38906,
-        "gtd": false,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": "G",
-        "season": {
-         "a": 5,
-         "g": 15,
-         "gp": 25,
-         "p": 20,
-         "ppp": 7,
-         "sog": 45,
-         "toi_s": 27570
-        },
-        "last5": {
-         "a": 2,
-         "g": 6,
-         "gp": 5,
-         "p": 8,
-         "ppp": 4,
-         "sog": 13,
-         "toi_s": 5059
-        },
-        "l5_point_games": 3,
-        "gp": 25,
-        "move": {
-         "ev": -1,
-         "pp": 0,
-         "new": false
-        }
-       },
-       {
-        "name": "Tyler Bertuzzi",
-        "jersey": 59,
-        "pos": "RW",
-        "slot": null,
-        "player_id": 8477479,
-        "dfo_id": 2392,
-        "gtd": true,
-        "injury": null,
-        "pp": 1,
-        "pk": null,
-        "bias": null,
-        "season": {
-         "a": 8,
-         "g": 6,
-         "gp": 24,
-         "p": 14,
-         "ppp": 5,
-         "sog": 33,
-         "toi_s": 24375
-        },
-        "last5": {
-         "a": 4,
-         "g": 4,
-         "gp": 5,
-         "p": 8,
-         "ppp": 4,
-         "sog": 14,
-         "toi_s": 4735
-        },
-        "l5_point_games": 4,
-        "gp": 24,
-        "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
-        }
-       }
-      ],
-      [
-       {
-        "name": "Ryan Greene",
-        "jersey": 20,
-        "pos": "LW",
-        "slot": null,
-        "player_id": 8483450,
-        "dfo_id": 31310,
-        "gtd": false,
-        "injury": null,
-        "pp": null,
-        "pk": 2,
-        "bias": null,
-        "season": {
-         "a": 2,
-         "g": 2,
-         "gp": 25,
-         "p": 4,
-         "ppp": 0,
-         "sog": 23,
-         "toi_s": 22017
-        },
-        "last5": {
-         "a": 0,
-         "g": 0,
-         "gp": 5,
-         "p": 0,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 4762
-        },
-        "l5_point_games": 0,
-        "gp": 25,
-        "move": {
-         "ev": 0,
-         "pp": -1,
-         "new": false
-        }
-       },
-       {
-        "name": "Anton Frondell",
-        "jersey": 16,
-        "pos": "C",
-        "slot": null,
-        "player_id": 8485391,
-        "dfo_id": 38471,
-        "gtd": false,
-        "injury": null,
-        "pp": 2,
-        "pk": null,
-        "bias": "A",
-        "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 24,
-         "p": 11,
-         "ppp": 1,
-         "sog": 42,
-         "toi_s": 23374
-        },
-        "last5": {
-         "a": 1,
-         "g": 1,
-         "gp": 5,
-         "p": 2,
-         "ppp": 0,
-         "sog": 8,
-         "toi_s": 4098
-        },
-        "l5_point_games": 2,
-        "gp": 24,
-        "move": {
-         "ev": -1,
-         "pp": -1,
          "new": false
         }
        },
@@ -101077,7 +100975,7 @@
         "dfo_id": 2128,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": null,
         "season": {
@@ -101101,8 +100999,8 @@
         "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        }
@@ -101141,9 +101039,125 @@
         "l5_point_games": 4,
         "gp": 25,
         "move": {
+         "ev": 1,
+         "pp": 0,
+         "new": false
+        }
+       },
+       {
+        "name": "Ryan Greene",
+        "jersey": 20,
+        "pos": "C",
+        "slot": null,
+        "player_id": 8483450,
+        "dfo_id": 31310,
+        "gtd": false,
+        "injury": null,
+        "pp": 2,
+        "pk": 2,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 2,
+         "gp": 25,
+         "p": 4,
+         "ppp": 0,
+         "sog": 23,
+         "toi_s": 22017
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 4762
+        },
+        "l5_point_games": 0,
+        "gp": 25,
+        "move": {
          "ev": 0,
          "pp": 0,
          "new": false
+        }
+       },
+       {
+        "name": "Andrew Mangiapane",
+        "jersey": 26,
+        "pos": "RW",
+        "slot": null,
+        "player_id": 8478233,
+        "dfo_id": 4622,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 2,
+         "g": 0,
+         "gp": 12,
+         "p": 2,
+         "ppp": 0,
+         "sog": 10,
+         "toi_s": 7746
+        },
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 3288
+        },
+        "l5_point_games": 0,
+        "gp": 12,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": false
+        }
+       }
+      ],
+      [
+       {
+        "name": "Dominic Toninato",
+        "jersey": 25,
+        "pos": "LW",
+        "slot": null,
+        "player_id": 8476952,
+        "dfo_id": 2918,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 1,
+         "gp": 4,
+         "p": 1,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 2196
+        },
+        "last5": {
+         "a": 0,
+         "g": 1,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 6,
+         "toi_s": 2701
+        },
+        "l5_point_games": 1,
+        "gp": 4,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        },
        {
@@ -101391,7 +101405,7 @@
         "dfo_id": 31513,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
@@ -101416,7 +101430,7 @@
         "gp": 7,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        },
@@ -101583,7 +101597,7 @@
         "l5_point_games": 3,
         "gp": 25,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -101621,47 +101635,47 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Tyler Bertuzzi",
-        "jersey": 59,
+        "name": "Anton Frondell",
+        "jersey": 16,
         "pos": null,
         "slot": 3,
-        "player_id": 8477479,
-        "dfo_id": 2392,
-        "gtd": true,
+        "player_id": 8485391,
+        "dfo_id": 38471,
+        "gtd": false,
         "injury": null,
         "pp": 1,
         "pk": null,
-        "bias": null,
+        "bias": "A",
         "season": {
-         "a": 8,
-         "g": 6,
+         "a": 7,
+         "g": 4,
          "gp": 24,
-         "p": 14,
-         "ppp": 5,
-         "sog": 33,
-         "toi_s": 24375
+         "p": 11,
+         "ppp": 1,
+         "sog": 42,
+         "toi_s": 23374
         },
         "last5": {
-         "a": 4,
-         "g": 4,
+         "a": 1,
+         "g": 1,
          "gp": 5,
-         "p": 8,
-         "ppp": 4,
-         "sog": 14,
-         "toi_s": 4735
+         "p": 2,
+         "ppp": 0,
+         "sog": 8,
+         "toi_s": 4098
         },
-        "l5_point_games": 4,
+        "l5_point_games": 2,
         "gp": 24,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -101703,40 +101717,40 @@
         }
        },
        {
-        "name": "Patrick Kane",
-        "jersey": 88,
+        "name": "Teuvo Teravainen",
+        "jersey": 86,
         "pos": null,
         "slot": 5,
-        "player_id": 8474141,
-        "dfo_id": 305,
-        "gtd": true,
+        "player_id": 8476882,
+        "dfo_id": 2128,
+        "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
-        "bias": "A",
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 16,
+         "a": 6,
          "g": 2,
-         "gp": 22,
-         "p": 18,
-         "ppp": 9,
-         "sog": 47,
-         "toi_s": 23823
+         "gp": 21,
+         "p": 8,
+         "ppp": 2,
+         "sog": 16,
+         "toi_s": 18424
         },
         "last5": {
-         "a": 7,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 8,
-         "ppp": 6,
-         "sog": 15,
-         "toi_s": 5540
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 4201
         },
-        "l5_point_games": 5,
-        "gp": 22,
+        "l5_point_games": 0,
+        "gp": 21,
         "move": {
          "ev": 1,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -101775,7 +101789,7 @@
         "l5_point_games": 2,
         "gp": 25,
         "move": {
-         "ev": -1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -101813,46 +101827,46 @@
         "l5_point_games": 1,
         "gp": 24,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
        },
        {
-        "name": "Anton Frondell",
-        "jersey": 16,
+        "name": "Ryan Greene",
+        "jersey": 20,
         "pos": null,
         "slot": 3,
-        "player_id": 8485391,
-        "dfo_id": 38471,
+        "player_id": 8483450,
+        "dfo_id": 31310,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": null,
-        "bias": "A",
+        "pk": 2,
+        "bias": null,
         "season": {
-         "a": 7,
-         "g": 4,
-         "gp": 24,
-         "p": 11,
-         "ppp": 1,
-         "sog": 42,
-         "toi_s": 23374
+         "a": 2,
+         "g": 2,
+         "gp": 25,
+         "p": 4,
+         "ppp": 0,
+         "sog": 23,
+         "toi_s": 22017
         },
         "last5": {
-         "a": 1,
-         "g": 1,
+         "a": 0,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4098
+         "sog": 4,
+         "toi_s": 4762
         },
-        "l5_point_games": 2,
-        "gp": 24,
+        "l5_point_games": 0,
+        "gp": 25,
         "move": {
-         "ev": -1,
-         "pp": -1,
+         "ev": 0,
+         "pp": 0,
          "new": false
         }
        },
@@ -101895,25 +101909,25 @@
         }
        },
        {
-        "name": "Teuvo Teravainen",
-        "jersey": 86,
+        "name": "Kevin Korchinski",
+        "jersey": 14,
         "pos": null,
         "slot": 5,
-        "player_id": 8476882,
-        "dfo_id": 2128,
+        "player_id": 8483466,
+        "dfo_id": 31513,
         "gtd": false,
         "injury": null,
         "pp": 2,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 6,
-         "g": 2,
-         "gp": 21,
-         "p": 8,
-         "ppp": 2,
-         "sog": 16,
-         "toi_s": 18424
+         "a": 1,
+         "g": 0,
+         "gp": 7,
+         "p": 1,
+         "ppp": 0,
+         "sog": 7,
+         "toi_s": 4406
         },
         "last5": {
          "a": 0,
@@ -101922,13 +101936,13 @@
          "p": 0,
          "ppp": 0,
          "sog": 5,
-         "toi_s": 4201
+         "toi_s": 2964
         },
         "l5_point_games": 0,
-        "gp": 21,
+        "gp": 7,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": 1,
          "new": false
         }
        }
@@ -101969,7 +101983,7 @@
         "l5_point_games": 4,
         "gp": 23,
         "move": {
-         "ev": 1,
+         "ev": 0,
          "pp": 0,
          "new": false
         }
@@ -102007,7 +102021,7 @@
         "l5_point_games": 4,
         "gp": 25,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -102099,7 +102113,7 @@
         "dfo_id": 31310,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": 2,
         "bias": null,
         "season": {
@@ -102124,7 +102138,7 @@
         "gp": 25,
         "move": {
          "ev": 0,
-         "pp": -1,
+         "pp": 0,
          "new": false
         }
        },
@@ -102137,7 +102151,7 @@
         "dfo_id": 2128,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": 1,
         "pk": 2,
         "bias": null,
         "season": {
@@ -102161,8 +102175,8 @@
         "l5_point_games": 0,
         "gp": 21,
         "move": {
-         "ev": 0,
-         "pp": 0,
+         "ev": 1,
+         "pp": 1,
          "new": false
         }
        },
@@ -102267,7 +102281,7 @@
       },
       {
        "player": "Patrick Kane",
-       "status": "DTD",
+       "status": "IR",
        "news": "The Blackhawks have placed Patrick Kane (undisclosed) on IR."
       }
      ],
@@ -102289,20 +102303,20 @@
        "rating": 0
       },
       "f1": {
-       "rank": 5,
-       "rating": 80.0821788843248
+       "rank": 35,
+       "rating": 72.0652513213227
       },
       "f2": {
-       "rank": 25,
-       "rating": 73.34758423642076
+       "rank": 6,
+       "rating": 77.24208550220601
       },
       "f3": {
-       "rank": 2,
-       "rating": 77.24208550220601
+       "rank": 11,
+       "rating": 74.23364811329562
       },
       "f4": {
        "rank": 29,
-       "rating": 69.63367840636536
+       "rating": 69.33807443000256
       },
       "g": {
        "rank": 28,
