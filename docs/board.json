@@ -55332,7 +55332,7 @@
    ]
   }
  },
- "generated_utc": "2026-11-27T19:45:29.114435+00:00",
+ "generated_utc": "2026-11-27T19:50:37.563922+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -71164,8 +71164,8 @@
     "goalie_source": "Jackson Starr",
     "sv": "0.935",
     "gaa": "1.63",
-    "lineup_as_of": "2026-11-27T17:15:50.495Z",
-    "lineup_checked": "2026-11-27T19:39:32.523825+00:00",
+    "lineup_as_of": "2026-11-27T19:46:04.847Z",
+    "lineup_checked": "2026-11-27T19:50:32.264188+00:00",
     "lineup_stale": false,
     "ga_rk": 21,
     "gf_rk": 16,
@@ -71873,11 +71873,11 @@
    "lineup": {
     "away": {
      "team": "OTT",
-     "as_of": "2026-11-27T17:15:50.495Z",
-     "checked": "2026-11-27T19:39:32.523825+00:00",
+     "as_of": "2026-11-27T19:46:04.847Z",
+     "checked": "2026-11-27T19:50:32.264188+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-27T17:15:50.495Z",
+     "source": "Ottawa Senators",
+     "updated_dfo": "2026-11-27T19:46:04.847Z",
      "forwards": [
       [
        {
@@ -72229,41 +72229,41 @@
       ],
       [
        {
-        "name": "Andre Burakovsky",
-        "jersey": 95,
+        "name": "Nick Cousins",
+        "jersey": 21,
         "pos": "LW",
         "slot": null,
-        "player_id": 8477444,
-        "dfo_id": 2154,
+        "player_id": 8476393,
+        "dfo_id": 1893,
         "gtd": false,
         "injury": null,
-        "pp": 2,
+        "pp": null,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 0,
-         "g": 0,
-         "gp": 8,
-         "p": 0,
+         "a": 1,
+         "g": 3,
+         "gp": 22,
+         "p": 4,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 5283
+         "sog": 16,
+         "toi_s": 12980
         },
         "last5": {
          "a": 0,
-         "g": 0,
+         "g": 2,
          "gp": 5,
-         "p": 0,
+         "p": 2,
          "ppp": 0,
-         "sog": 3,
-         "toi_s": 2783
+         "sog": 4,
+         "toi_s": 3487
         },
-        "l5_point_games": 0,
-        "gp": 8,
+        "l5_point_games": 2,
+        "gp": 22,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        },
        {
@@ -72305,41 +72305,41 @@
         }
        },
        {
-        "name": "Nick Cousins",
-        "jersey": 21,
+        "name": "Andre Burakovsky",
+        "jersey": 95,
         "pos": "RW",
         "slot": null,
-        "player_id": 8476393,
-        "dfo_id": 1893,
+        "player_id": 8477444,
+        "dfo_id": 2154,
         "gtd": false,
         "injury": null,
-        "pp": null,
+        "pp": 2,
         "pk": null,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 3,
-         "gp": 22,
-         "p": 4,
+         "a": 0,
+         "g": 0,
+         "gp": 8,
+         "p": 0,
          "ppp": 0,
-         "sog": 16,
-         "toi_s": 12980
+         "sog": 3,
+         "toi_s": 5283
         },
         "last5": {
          "a": 0,
-         "g": 2,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 0,
          "ppp": 0,
-         "sog": 4,
-         "toi_s": 3487
+         "sog": 3,
+         "toi_s": 2783
         },
-        "l5_point_games": 2,
-        "gp": 22,
+        "l5_point_games": 0,
+        "gp": 8,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": false
+         "new": true
         }
        }
       ]
@@ -74980,8 +74980,8 @@
     "goalie_source": "Brendan Batchelor",
     "sv": "0.885",
     "gaa": "3.57",
-    "lineup_as_of": "2026-11-26T14:56:18.700Z",
-    "lineup_checked": "2026-11-27T15:53:14.490037+00:00",
+    "lineup_as_of": "2026-11-27T19:49:40.319Z",
+    "lineup_checked": "2026-11-27T19:50:32.444576+00:00",
     "lineup_stale": false,
     "ga_rk": 1,
     "gf_rk": 24,
@@ -75173,7 +75173,7 @@
       "player": "Brock Boeser",
       "team": "VAN",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "bias": "A",
       "players": [
        8478444
@@ -75203,7 +75203,7 @@
       "player": "Jonathan Lekkerimaki",
       "team": "VAN",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "bias": "A",
       "players": [
        8483476
@@ -75265,7 +75265,7 @@
       "player": "Brock Boeser",
       "team": "VAN",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8478444
       ]
@@ -75335,7 +75335,7 @@
       "player": "Jonathan Lekkerimaki",
       "team": "VAN",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8483476
       ]
@@ -75351,7 +75351,7 @@
       "player": "Brock Boeser",
       "team": "VAN",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8478444
       ]
@@ -75393,7 +75393,7 @@
       "player": "Jonathan Lekkerimaki",
       "team": "VAN",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8483476
       ]
@@ -75630,22 +75630,6 @@
     ],
     "pair": [
      {
-      "selection": "Boeser + Chytil \u00b7 both 1+ point",
-      "prob": 0.533,
-      "fair": "-114",
-      "need": "-101",
-      "rationale": "Both scored 6 of 9 games together \u00b7 independent 33% \u00b7 correlated",
-      "team": "VAN",
-      "line": 1,
-      "read": "correlated",
-      "both": 6,
-      "n": 9,
-      "players": [
-       8478444,
-       8480078
-      ]
-     },
-     {
       "selection": "Dvorak + Konecny \u00b7 both 1+ point",
       "prob": 0.347,
       "fair": "+188",
@@ -75659,6 +75643,54 @@
       "players": [
        8477989,
        8478439
+      ]
+     },
+     {
+      "selection": "Boeser + Ohgren \u00b7 both 1+ point",
+      "prob": 0.34,
+      "fair": "+195",
+      "need": "+212",
+      "rationale": "Both scored 2 of 5 games together \u00b7 independent 29% \u00b7 new pair",
+      "team": "VAN",
+      "line": 2,
+      "read": "new pair",
+      "both": 2,
+      "n": 5,
+      "players": [
+       8478444,
+       8483499
+      ]
+     },
+     {
+      "selection": "Boeser + Rossi \u00b7 both 1+ point",
+      "prob": 0.325,
+      "fair": "+208",
+      "need": "+227",
+      "rationale": "Both scored 2 of 5 games together \u00b7 independent 26% \u00b7 new pair",
+      "team": "VAN",
+      "line": 2,
+      "read": "new pair",
+      "both": 2,
+      "n": 5,
+      "players": [
+       8478444,
+       8482079
+      ]
+     },
+     {
+      "selection": "Lekkerimaki + DeBrusk \u00b7 both 1+ point",
+      "prob": 0.313,
+      "fair": "+219",
+      "need": "+238",
+      "rationale": "Both scored 4 of 12 games together \u00b7 independent 27% \u00b7 correlated",
+      "team": "VAN",
+      "line": 1,
+      "read": "correlated",
+      "both": 4,
+      "n": 12,
+      "players": [
+       8483476,
+       8478498
       ]
      },
      {
@@ -75676,38 +75708,6 @@
        8484901,
        8481032
       ]
-     },
-     {
-      "selection": "Boeser + DeBrusk \u00b7 both 1+ point",
-      "prob": 0.279,
-      "fair": "+259",
-      "need": "+280",
-      "rationale": "Both scored 2 of 9 games together \u00b7 independent 36% \u00b7 negative",
-      "team": "VAN",
-      "line": 1,
-      "read": "negative",
-      "both": 2,
-      "n": 9,
-      "players": [
-       8478444,
-       8478498
-      ]
-     },
-     {
-      "selection": "Quillan + Reinhardt \u00b7 both 1+ point",
-      "prob": 0.266,
-      "fair": "+276",
-      "need": "+299",
-      "rationale": "Both scored 1 of 1 games together \u00b7 independent 14% \u00b7 new pair",
-      "team": "VAN",
-      "line": 4,
-      "read": "new pair",
-      "both": 1,
-      "n": 1,
-      "players": [
-       8484901,
-       8481133
-      ]
      }
     ],
     "two": [
@@ -75720,7 +75720,7 @@
       "player": "Brock Boeser",
       "team": "VAN",
       "pp": 1,
-      "line": 1,
+      "line": 2,
       "players": [
        8478444
       ]
@@ -75776,7 +75776,7 @@
       "player": "Jonathan Lekkerimaki",
       "team": "VAN",
       "pp": 1,
-      "line": 2,
+      "line": 1,
       "players": [
        8483476
       ]
@@ -75784,35 +75784,35 @@
     ],
     "pp1": [
      {
-      "selection": "Boeser + DeBrusk \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.279,
-      "fair": "+259",
-      "need": "+280",
-      "rationale": "Both scored 2 of 9 games together \u00b7 independent 36% \u00b7 negative",
+      "selection": "Boeser + Rossi \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.325,
+      "fair": "+208",
+      "need": "+227",
+      "rationale": "Both scored 2 of 5 games together \u00b7 independent 26% \u00b7 new pair",
       "team": "VAN",
-      "line": 1,
-      "read": "negative",
+      "line": 2,
+      "read": "new pair",
       "both": 2,
-      "n": 9,
+      "n": 5,
       "players": [
        8478444,
-       8478498
+       8482079
       ]
      },
      {
-      "selection": "Lekkerimaki + Rossi \u00b7 PP1 mates \u00b7 both 1+ point",
-      "prob": 0.245,
-      "fair": "+308",
-      "need": "+333",
-      "rationale": "Both scored 2 of 7 games together \u00b7 independent 20% \u00b7 correlated",
+      "selection": "Lekkerimaki + DeBrusk \u00b7 PP1 mates \u00b7 both 1+ point",
+      "prob": 0.313,
+      "fair": "+219",
+      "need": "+238",
+      "rationale": "Both scored 4 of 12 games together \u00b7 independent 27% \u00b7 correlated",
       "team": "VAN",
-      "line": 2,
+      "line": 1,
       "read": "correlated",
-      "both": 2,
-      "n": 7,
+      "both": 4,
+      "n": 12,
       "players": [
        8483476,
-       8482079
+       8478498
       ]
      },
      {
@@ -75846,11 +75846,11 @@
    "lineup": {
     "away": {
      "team": "VAN",
-     "as_of": "2026-11-26T14:56:18.700Z",
-     "checked": "2026-11-27T15:53:14.490037+00:00",
+     "as_of": "2026-11-27T19:49:40.319Z",
+     "checked": "2026-11-27T19:50:32.444576+00:00",
      "stale": false,
-     "source": "Last Game (2026-11-25)",
-     "updated_dfo": "2026-11-26T14:56:18.700Z",
+     "source": "Brendan Batchelor",
+     "updated_dfo": "2026-11-27T19:49:40.319Z",
      "forwards": [
       [
        {
@@ -75930,39 +75930,39 @@
         }
        },
        {
-        "name": "Brock Boeser",
-        "jersey": 6,
+        "name": "Jonathan Lekkerimaki",
+        "jersey": 88,
         "pos": "RW",
         "slot": null,
-        "player_id": 8478444,
-        "dfo_id": 2497,
+        "player_id": 8483476,
+        "dfo_id": 36365,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": 1,
+        "pk": null,
         "bias": "A",
         "season": {
-         "a": 20,
-         "g": 8,
+         "a": 11,
+         "g": 7,
          "gp": 27,
-         "p": 28,
-         "ppp": 15,
+         "p": 18,
+         "ppp": 9,
          "sog": 45,
-         "toi_s": 31798
+         "toi_s": 24939
         },
         "last5": {
-         "a": 7,
-         "g": 1,
+         "a": 2,
+         "g": 0,
          "gp": 5,
-         "p": 8,
-         "ppp": 4,
-         "sog": 10,
-         "toi_s": 6320
+         "p": 2,
+         "ppp": 2,
+         "sog": 7,
+         "toi_s": 4705
         },
-        "l5_point_games": 4,
+        "l5_point_games": 1,
         "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -76046,39 +76046,39 @@
         }
        },
        {
-        "name": "Jonathan Lekkerimaki",
-        "jersey": 88,
+        "name": "Brock Boeser",
+        "jersey": 6,
         "pos": "RW",
         "slot": null,
-        "player_id": 8483476,
-        "dfo_id": 36365,
+        "player_id": 8478444,
+        "dfo_id": 2497,
         "gtd": false,
         "injury": null,
         "pp": 1,
-        "pk": null,
+        "pk": 1,
         "bias": "A",
         "season": {
-         "a": 11,
-         "g": 7,
+         "a": 20,
+         "g": 8,
          "gp": 27,
-         "p": 18,
-         "ppp": 9,
+         "p": 28,
+         "ppp": 15,
          "sog": 45,
-         "toi_s": 24939
+         "toi_s": 31798
         },
         "last5": {
-         "a": 2,
-         "g": 0,
+         "a": 7,
+         "g": 1,
          "gp": 5,
-         "p": 2,
-         "ppp": 2,
-         "sog": 7,
-         "toi_s": 4705
+         "p": 8,
+         "ppp": 4,
+         "sog": 10,
+         "toi_s": 6320
         },
-        "l5_point_games": 1,
+        "l5_point_games": 4,
         "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -76202,40 +76202,40 @@
       ],
       [
        {
-        "name": "Cole Reinhardt",
-        "jersey": 29,
+        "name": "Paul Cotter",
+        "jersey": 47,
         "pos": "LW",
         "slot": null,
-        "player_id": 8481133,
-        "dfo_id": 28385,
+        "player_id": 8481032,
+        "dfo_id": 27620,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
-         "a": 1,
-         "g": 0,
-         "gp": 4,
-         "p": 1,
-         "ppp": 0,
-         "sog": 4,
-         "toi_s": 2742
+         "a": 5,
+         "g": 5,
+         "gp": 26,
+         "p": 10,
+         "ppp": 2,
+         "sog": 21,
+         "toi_s": 22213
         },
         "last5": {
          "a": 1,
-         "g": 0,
+         "g": 1,
          "gp": 5,
-         "p": 1,
+         "p": 2,
          "ppp": 0,
-         "sog": 7,
-         "toi_s": 3577
+         "sog": 8,
+         "toi_s": 4385
         },
-        "l5_point_games": 1,
-        "gp": 1,
+        "l5_point_games": 2,
+        "gp": 26,
         "move": {
          "ev": 0,
-         "pp": 0,
+         "pp": -1,
          "new": false
         }
        },
@@ -76278,40 +76278,40 @@
         }
        },
        {
-        "name": "Paul Cotter",
-        "jersey": 47,
+        "name": "Cole Reinhardt",
+        "jersey": 29,
         "pos": "RW",
         "slot": null,
-        "player_id": 8481032,
-        "dfo_id": 27620,
+        "player_id": 8481133,
+        "dfo_id": 28385,
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": 2,
+        "pk": null,
         "bias": null,
         "season": {
-         "a": 5,
-         "g": 5,
-         "gp": 26,
-         "p": 10,
-         "ppp": 2,
-         "sog": 21,
-         "toi_s": 22213
+         "a": 1,
+         "g": 0,
+         "gp": 4,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 2742
         },
         "last5": {
          "a": 1,
-         "g": 1,
+         "g": 0,
          "gp": 5,
-         "p": 2,
+         "p": 1,
          "ppp": 0,
-         "sog": 8,
-         "toi_s": 4385
+         "sog": 7,
+         "toi_s": 3577
         },
-        "l5_point_games": 2,
-        "gp": 26,
+        "l5_point_games": 1,
+        "gp": 1,
         "move": {
          "ev": 0,
-         "pp": -1,
+         "pp": 0,
          "new": false
         }
        }
@@ -76752,7 +76752,7 @@
         "l5_point_games": 4,
         "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -76790,7 +76790,7 @@
         "l5_point_games": 1,
         "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": 1,
          "pp": 0,
          "new": false
         }
@@ -77100,7 +77100,7 @@
         "l5_point_games": 4,
         "gp": 27,
         "move": {
-         "ev": 0,
+         "ev": -1,
          "pp": 0,
          "new": false
         }
@@ -77355,11 +77355,11 @@
        "rating": 71.1851359118453
       },
       "d2": {
-       "rank": 33,
+       "rank": 35,
        "rating": 71.40584302949271
       },
       "d3": {
-       "rank": 27,
+       "rank": 25,
        "rating": 69.36025608855621
       },
       "d4": {
@@ -77367,15 +77367,15 @@
        "rating": 0
       },
       "f1": {
-       "rank": 34,
-       "rating": 72.70859182398098
+       "rank": 36,
+       "rating": 72.01690129772261
       },
       "f2": {
-       "rank": 34,
-       "rating": 0
+       "rank": 18,
+       "rating": 74.0919728764977
       },
       "f3": {
-       "rank": 32,
+       "rank": 35,
        "rating": 0
       },
       "f4": {
@@ -82986,8 +82986,8 @@
    },
    "markets": {
     "moneyline": {
-     "away": "-225",
-     "home": "+185",
+     "away": "-205",
+     "home": "+170",
      "provider": "Daily Faceoff",
      "as_of": "2026-11-27T02:19:11.246Z"
     },
