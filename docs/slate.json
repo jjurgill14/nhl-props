@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_utc": "2026-11-27T13:37:30.427462+00:00",
+ "generated_utc": "2026-11-27T15:53:16.727339+00:00",
  "games": [
   {
    "game_id": 2026020400,
@@ -3948,7 +3948,7 @@
      "goalie_source": "",
      "sv": "0.878",
      "gaa": "3.42",
-     "ml": "-112",
+     "ml": "-115",
      "gp": 26,
      "gf": 2.576923076923077,
      "gf_rk": 30,
@@ -5889,13 +5889,13 @@
      "opp": "CGY",
      "home": true,
      "b2b": false,
-     "goalie": "Connor Hellebuyck",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
-     "sv": "0.899",
-     "gaa": "2.62",
-     "ml": "-108",
+     "goalie": "Jake Allen",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Allen will start vs. Calgary on Friday.",
+     "goalie_source": "Mike Morreale",
+     "sv": "0.873",
+     "gaa": "3.31",
+     "ml": "-105",
      "gp": 25,
      "gf": 3.68,
      "gf_rk": 5,
@@ -5908,7 +5908,7 @@
      "l5_gf": 4.0,
      "l5_ga": 4.0,
      "lineup_as_of": "2026-11-26T14:54:24.109Z",
-     "lineup_checked": "2026-11-27T09:39:47.126514+00:00",
+     "lineup_checked": "2026-11-27T15:53:13.412578+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -19556,12 +19556,12 @@
      "opp": "PHI",
      "home": false,
      "b2b": false,
-     "goalie": "Leevi Merilainen",
+     "goalie": "Kevin Lankinen",
      "goalie_status": "",
      "goalie_news": "",
      "goalie_source": "",
-     "sv": "0.885",
-     "gaa": "3.57",
+     "sv": "0.811",
+     "gaa": "5.68",
      "ml": "-125",
      "gp": 27,
      "gf": 2.740740740740741,
@@ -19575,7 +19575,7 @@
      "l5_gf": 2.2,
      "l5_ga": 4.2,
      "lineup_as_of": "2026-11-26T14:56:18.700Z",
-     "lineup_checked": "2026-11-27T09:39:47.855915+00:00",
+     "lineup_checked": "2026-11-27T15:53:14.490037+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -27329,12 +27329,12 @@
      "opp": "CBJ",
      "home": false,
      "b2b": false,
-     "goalie": "John Gibson",
+     "goalie": "Daniil Tarasov",
      "goalie_status": "",
      "goalie_news": "",
      "goalie_source": "",
-     "sv": "0.862",
-     "gaa": "3.54",
+     "sv": "0.93",
+     "gaa": "1.88",
      "ml": "-238",
      "gp": 24,
      "gf": 2.625,
@@ -27348,7 +27348,7 @@
      "l5_gf": 2.8,
      "l5_ga": 2.6,
      "lineup_as_of": "2026-11-26T14:57:10.622Z",
-     "lineup_checked": "2026-11-27T09:39:46.831225+00:00",
+     "lineup_checked": "2026-11-27T15:53:13.133367+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -29271,12 +29271,12 @@
      "opp": "DET",
      "home": true,
      "b2b": false,
-     "goalie": "Cam Talbot",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
-     "sv": "0.907",
-     "gaa": "2.61",
+     "goalie": "Jet Greaves",
+     "goalie_status": "Confirmed",
+     "goalie_news": "Greaves will start Friday vs. the Red Wings.",
+     "goalie_source": "Aaron Portzline",
+     "sv": "0.875",
+     "gaa": "3.42",
      "ml": "195",
      "gp": 23,
      "gf": 2.4347826086956523,
@@ -29290,7 +29290,7 @@
      "l5_gf": 2.6,
      "l5_ga": 3.0,
      "lineup_as_of": "2026-11-27T02:19:11.246Z",
-     "lineup_checked": "2026-11-27T09:39:46.538218+00:00",
+     "lineup_checked": "2026-11-27T15:53:12.837187+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -29300,8 +29300,13 @@
       },
       {
        "player": "Mathieu Olivier",
-       "status": "DTD",
+       "status": "OUT",
        "news": "Olivier is considered week-to-week with an upper-body injury."
+      },
+      {
+       "player": "Denton Mateychuk",
+       "status": "OUT",
+       "news": "Mateychuk (upper-body) is expected to be out vs. Detroit on Friday."
       }
      ],
      "lines": {
@@ -30496,104 +30501,6 @@
        ]
       },
       {
-       "name": "Denton Mateychuk",
-       "jersey": 5,
-       "team": "CBJ",
-       "opp": "DET",
-       "section": "D",
-       "home": true,
-       "line": 3,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 7,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.27793720430107527,
-         "p_hot": 0.15747769985974752,
-         "heater": false
-        },
-        "goals": {
-         "k": 4,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.14085505376344087,
-         "p_hot": 0.01968471248246844,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 0,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.13959741935483871,
-         "p_hot": 0.14107377279102384,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 22,
-       "pt_games": 7,
-       "l5": [
-        0,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 4,
-       "two_games": 0,
-       "home_split": [
-        4,
-        13
-       ],
-       "away_split": [
-        3,
-        9
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.2,
-       "toi": 15.6,
-       "p": 0.278,
-       "fair": "+260",
-       "min": "+281",
-       "p2": 0.008,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.9432258064516129
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Jake Christiansen",
-         "jersey": 2,
-         "pp": null,
-         "n": 8,
-         "both": 2,
-         "either": 5
-        }
-       ]
-      },
-      {
        "name": "Jake Christiansen",
        "jersey": 2,
        "team": "CBJ",
@@ -30682,12 +30589,12 @@
        },
        "partners": [
         {
-         "name": "Denton Mateychuk",
-         "jersey": 5,
+         "name": "Erik Gudbranson",
+         "jersey": 44,
          "pp": null,
-         "n": 8,
-         "both": 2,
-         "either": 5
+         "n": 3,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -30998,6 +30905,104 @@
          "n": 0,
          "both": 0,
          "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Erik Gudbranson",
+       "jersey": 44,
+       "team": "CBJ",
+       "opp": "DET",
+       "section": "D",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.11161505376344086,
+         "p_hot": 0.07545806451612903,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.01886451612903226,
+         "p_hot": 0.01968471248246844,
+         "heater": false
+        },
+        "assists": {
+         "k": 1,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 10,
+         "p": 0.09589462365591399,
+         "p_hot": 0.05905413744740532,
+         "heater": false
+        }
+       },
+       "pos": "RD",
+       "gtd": false,
+       "role": "d",
+       "bias": null,
+       "gp": 16,
+       "pt_games": 1,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 1,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        8
+       ],
+       "away_split": [
+        1,
+        8
+       ],
+       "l5_venue": [
+        0,
+        5
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 10.8,
+       "p": 0.112,
+       "fair": "+796",
+       "min": "+850",
+       "p2": 0.009,
+       "fair2": "+4900",
+       "min2": "+4900",
+       "adj": [
+        [
+         "opp",
+         0.9432258064516129
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Jake Christiansen",
+         "jersey": 2,
+         "pp": null,
+         "n": 3,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -35140,7 +35145,7 @@
      "goalie_source": "",
      "sv": "0.891",
      "gaa": "3.05",
-     "ml": "215",
+     "ml": "205",
      "gp": 22,
      "gf": 2.6818181818181817,
      "gf_rk": 25,
@@ -37072,7 +37077,7 @@
      "goalie_source": "Zach Cavanagh",
      "sv": "0.887",
      "gaa": "2.84",
-     "ml": "-265",
+     "ml": "-250",
      "gp": 26,
      "gf": 3.6923076923076925,
      "gf_rk": 4,
@@ -46851,7 +46856,7 @@
      "goalie_source": "",
      "sv": "0.887",
      "gaa": "3.24",
-     "ml": "-225",
+     "ml": "-238",
      "gp": 26,
      "gf": 3.1538461538461537,
      "gf_rk": 15,
@@ -48795,13 +48800,13 @@
      "opp": "WPG",
      "home": true,
      "b2b": false,
-     "goalie": "Ilya Sorokin",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
-     "sv": "0.917",
-     "gaa": "2.4",
-     "ml": "185",
+     "goalie": "Semyon Varlamov",
+     "goalie_status": "Likely",
+     "goalie_news": "Varlamov is in the starter's crease at New York's morning skate on Friday.",
+     "goalie_source": "Stefen Rosner",
+     "sv": "0.889",
+     "gaa": "2.79",
+     "ml": "195",
      "gp": 24,
      "gf": 3.0833333333333335,
      "gf_rk": 19,
@@ -48813,8 +48818,8 @@
      "ppga_rk": 29,
      "l5_gf": 3.0,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-26T14:32:41.936Z",
-     "lineup_checked": "2026-11-27T09:39:47.238148+00:00",
+     "lineup_as_of": "2026-11-27T15:33:46.219Z",
+     "lineup_checked": "2026-11-27T15:53:13.522024+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -50752,13 +50757,13 @@
      "opp": "BUF",
      "home": false,
      "b2b": false,
-     "goalie": "Arturs Silovs",
+     "goalie": "Sergei Murashov",
      "goalie_status": "",
      "goalie_news": "",
      "goalie_source": "",
-     "sv": "0.874",
-     "gaa": "3.37",
-     "ml": "-198",
+     "sv": "0.89",
+     "gaa": "3.35",
+     "ml": "-185",
      "gp": 24,
      "gf": 2.8333333333333335,
      "gf_rk": 23,
@@ -50771,7 +50776,7 @@
      "l5_gf": 1.8,
      "l5_ga": 4.0,
      "lineup_as_of": "2026-11-26T14:34:52.118Z",
-     "lineup_checked": "2026-11-27T09:39:47.470010+00:00",
+     "lineup_checked": "2026-11-27T15:53:13.735302+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -52704,12 +52709,12 @@
      "home": true,
      "b2b": false,
      "goalie": "Ukko-Pekka Luukkonen",
-     "goalie_status": "",
-     "goalie_news": "",
-     "goalie_source": "",
+     "goalie_status": "Likely",
+     "goalie_news": "Luukkonen is in the starter's crease at Buffalo's morning skate on Friday.",
+     "goalie_source": "Rachel Lenzi",
      "sv": "0.885",
      "gaa": "3.19",
-     "ml": "164",
+     "ml": "154",
      "gp": 25,
      "gf": 3.12,
      "gf_rk": 18,
@@ -54674,7 +54679,7 @@
      "goalie_source": "",
      "sv": "0.878",
      "gaa": "3.69",
-     "ml": "-142",
+     "ml": "-135",
      "gp": 22,
      "gf": 3.1363636363636362,
      "gf_rk": 17,
@@ -54686,8 +54691,8 @@
      "ppga_rk": 2,
      "l5_gf": 2.6,
      "l5_ga": 3.0,
-     "lineup_as_of": "2026-11-26T15:10:31.025Z",
-     "lineup_checked": "2026-11-27T09:39:47.539976+00:00",
+     "lineup_as_of": "2026-11-27T13:39:19.367Z",
+     "lineup_checked": "2026-11-27T15:53:13.798381+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -54713,9 +54718,9 @@
        "Mackie Samoskevich"
       ],
       "3": [
-       "Ryan Winterton",
+       "Chandler Stephenson",
        "Frederick Gaudreau",
-       "Chandler Stephenson"
+       "Ryan Winterton"
       ],
       "4": [
        "Ben Meyers",
@@ -54992,7 +54997,7 @@
          "heater": false
         }
        },
-       "pos": "RW",
+       "pos": "LW",
        "gtd": false,
        "role": "pp1",
        "bias": "A",
@@ -55039,20 +55044,20 @@
        },
        "partners": [
         {
-         "name": "Ryan Winterton",
-         "jersey": 26,
-         "pp": null,
-         "n": 5,
-         "both": 0,
-         "either": 1
-        },
-        {
          "name": "Frederick Gaudreau",
          "jersey": 89,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Ryan Winterton",
+         "jersey": 26,
+         "pp": null,
+         "n": 5,
+         "both": 0,
+         "either": 1
         }
        ]
       },
@@ -55930,7 +55935,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "other",
        "bias": null,
@@ -55981,20 +55986,20 @@
        },
        "partners": [
         {
-         "name": "Frederick Gaudreau",
-         "jersey": 89,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
          "name": "Chandler Stephenson",
          "jersey": 9,
          "pp": 1,
          "n": 5,
          "both": 0,
          "either": 1
+        },
+        {
+         "name": "Frederick Gaudreau",
+         "jersey": 89,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -56087,17 +56092,17 @@
        },
        "partners": [
         {
-         "name": "Ryan Winterton",
-         "jersey": 26,
-         "pp": null,
+         "name": "Chandler Stephenson",
+         "jersey": 9,
+         "pp": 1,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Chandler Stephenson",
-         "jersey": 9,
-         "pp": 1,
+         "name": "Ryan Winterton",
+         "jersey": 26,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
@@ -56617,13 +56622,13 @@
      "opp": "SEA",
      "home": true,
      "b2b": false,
-     "goalie": "Devon Levi",
+     "goalie": "Tristan Jarry",
      "goalie_status": "",
      "goalie_news": "",
      "goalie_source": "",
-     "sv": "0.889",
-     "gaa": "2.92",
-     "ml": "120",
+     "sv": "0.904",
+     "gaa": "2.57",
+     "ml": "114",
      "gp": 27,
      "gf": 3.814814814814815,
      "gf_rk": 3,
@@ -56636,7 +56641,7 @@
      "l5_gf": 3.4,
      "l5_ga": 4.2,
      "lineup_as_of": "2026-11-27T02:02:21.422Z",
-     "lineup_checked": "2026-11-27T09:39:46.902909+00:00",
+     "lineup_checked": "2026-11-27T15:53:13.195247+00:00",
      "lineup_stale": false,
      "out": [
       {
