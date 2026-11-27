@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_utc": "2026-11-27T22:08:53.980442+00:00",
+ "generated_utc": "2026-11-27T22:14:03.192497+00:00",
  "games": [
   {
    "game_id": 2026020400,
@@ -42893,8 +42893,8 @@
      "ppga_rk": 31,
      "l5_gf": 2.8,
      "l5_ga": 2.6,
-     "lineup_as_of": "2026-11-27T16:33:56.588Z",
-     "lineup_checked": "2026-11-27T21:38:04.557086+00:00",
+     "lineup_as_of": "2026-11-27T22:10:46.871Z",
+     "lineup_checked": "2026-11-27T22:13:58.847399+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -42913,6 +42913,11 @@
        "news": "Sykora (lower body) will miss 4-5 months."
       },
       {
+       "player": "Gabriel Perreault",
+       "status": "IR",
+       "news": "Perreault (lower-body) is expected to be out for the next 4-6 weeks."
+      },
+      {
        "player": "Alberts Smits",
        "status": "IR",
        "news": "\u0160mits (upper-body) will miss 2-to-3 months."
@@ -42926,33 +42931,28 @@
        "player": "Oliver Bjorkstrand",
        "status": "OUT",
        "news": "Bjorkstrand (upper-body) will miss 2-to-3 months."
-      },
-      {
-       "player": "Gabriel Perreault",
-       "status": "OUT",
-       "news": "Perreault (lower-body) is expected to be out for the next 4-6 weeks."
       }
      ],
      "lines": {
       "1": [
-       "Will Cuylle",
+       "Taylor Raddysh",
        "Mika Zibanejad",
        "Alexis Lafreni\u00e8re"
       ],
       "2": [
-       "Tye Kartye",
+       "Will Cuylle",
        "J.T. Miller",
-       "Juuso Parssinen"
+       "Tye Kartye"
       ],
       "3": [
        "Eeli Tolvanen",
-       "Noah Laba",
+       "Max Sasson",
        "Jaroslav Chmelar"
       ],
       "4": [
        "Glenn Gawdin",
-       "Max Sasson",
-       "Taylor Raddysh"
+       "Noah Laba",
+       "Matt Rempe"
       ]
      },
      "pp1": [
@@ -43157,10 +43157,10 @@
        },
        "partners": [
         {
-         "name": "Will Cuylle",
-         "jersey": 50,
-         "pp": 2,
-         "n": 1,
+         "name": "Taylor Raddysh",
+         "jersey": 14,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         },
@@ -43263,9 +43263,9 @@
        },
        "partners": [
         {
-         "name": "Will Cuylle",
-         "jersey": 50,
-         "pp": 2,
+         "name": "Taylor Raddysh",
+         "jersey": 14,
+         "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
@@ -43373,20 +43373,20 @@
        },
        "partners": [
         {
+         "name": "Will Cuylle",
+         "jersey": 50,
+         "pp": 2,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        },
+        {
          "name": "Tye Kartye",
          "jersey": 24,
          "pp": 1,
          "n": 21,
          "both": 8,
          "either": 16
-        },
-        {
-         "name": "Juuso Parssinen",
-         "jersey": 16,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -43432,7 +43432,7 @@
          "heater": false
         }
        },
-       "pos": "LW",
+       "pos": "RW",
        "gtd": false,
        "role": "pp1",
        "bias": "G",
@@ -43479,126 +43479,20 @@
        },
        "partners": [
         {
+         "name": "Will Cuylle",
+         "jersey": 50,
+         "pp": 2,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        },
+        {
          "name": "J.T. Miller",
          "jersey": 10,
          "pp": 1,
          "n": 21,
          "both": 8,
          "either": 16
-        },
-        {
-         "name": "Juuso Parssinen",
-         "jersey": 16,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
-       "name": "Juuso Parssinen",
-       "jersey": 16,
-       "team": "NYR",
-       "opp": "CHI",
-       "section": "F",
-       "home": false,
-       "line": 2,
-       "pp": null,
-       "sneaky": false,
-       "form": {
-        "points": {
-         "k": 0,
-         "k5": 0,
-         "n5": 0,
-         "k10": 0,
-         "n10": 0,
-         "p": 0.3873806451612904,
-         "p_hot": 0.3873806451612904,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 0,
-         "k10": 0,
-         "n10": 0,
-         "p": 0.21647741935483872,
-         "p_hot": 0.21647741935483872,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 0,
-         "k10": 0,
-         "n10": 0,
-         "p": 0.2734451612903226,
-         "p_hot": 0.2734451612903226,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "top6",
-       "bias": null,
-       "gp": 0,
-       "pt_games": 0,
-       "l5": [
-        0,
-        0
-       ],
-       "ast_games": 0,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        0,
-        0
-       ],
-       "away_split": [
-        0,
-        0
-       ],
-       "l5_venue": [
-        0,
-        0
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 0.0,
-       "p": 0.387,
-       "fair": "+158",
-       "min": "+174",
-       "p2": 0.091,
-       "fair2": "+997",
-       "min2": "+1063",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": [
-        {
-         "name": "Tye Kartye",
-         "jersey": 24,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "J.T. Miller",
-         "jersey": 10,
-         "pp": 1,
-         "n": 0,
-         "both": 0,
-         "either": 0
         }
        ]
       },
@@ -43609,7 +43503,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 1,
+       "line": 2,
        "pp": 2,
        "sneaky": false,
        "form": {
@@ -43685,7 +43579,113 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
+        "pp": 0,
+        "new": false
+       },
+       "partners": [
+        {
+         "name": "J.T. Miller",
+         "jersey": 10,
+         "pp": 1,
+         "n": 2,
+         "both": 1,
+         "either": 2
+        },
+        {
+         "name": "Tye Kartye",
+         "jersey": 24,
+         "pp": 1,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Taylor Raddysh",
+       "jersey": 14,
+       "team": "NYR",
+       "opp": "CHI",
+       "section": "F",
+       "home": false,
+       "line": 1,
+       "pp": null,
+       "sneaky": false,
+       "form": {
+        "points": {
+         "k": 2,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 7,
+         "p": 0.3585169892473119,
+         "p_hot": 0.3258554838709678,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 7,
+         "p": 0.11545462365591398,
+         "p_hot": 0.08659096774193549,
+         "heater": false
+        },
+        "assists": {
+         "k": 2,
+         "k5": 1,
+         "n5": 5,
+         "k10": 2,
+         "n10": 7,
+         "p": 0.29775139784946236,
+         "p_hot": 0.28028129032258065,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "top6",
+       "bias": null,
+       "gp": 7,
+       "pt_games": 2,
+       "l5": [
+        1,
+        5
+       ],
+       "ast_games": 2,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        1,
+        3
+       ],
+       "away_split": [
+        1,
+        4
+       ],
+       "l5_venue": [
+        1,
+        4
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.2,
+       "toi": 7.6,
+       "p": 0.359,
+       "fair": "+179",
+       "min": "+196",
+       "p2": 0.049,
+       "fair2": "+1957",
+       "min2": "+2081",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ]
+       ],
+       "move": {
+        "ev": 1,
         "pp": 0,
         "new": false
        },
@@ -43694,7 +43694,7 @@
          "name": "Mika Zibanejad",
          "jersey": 93,
          "pp": 1,
-         "n": 1,
+         "n": 0,
          "both": 0,
          "either": 0
         },
@@ -43803,112 +43803,6 @@
          "n": 15,
          "both": 1,
          "either": 4
-        }
-       ]
-      },
-      {
-       "name": "Taylor Raddysh",
-       "jersey": 14,
-       "team": "NYR",
-       "opp": "CHI",
-       "section": "F",
-       "home": false,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 2,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 7,
-         "p": 0.3038279569892473,
-         "p_hot": 0.28483870967741937,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 7,
-         "p": 0.07291870967741935,
-         "p_hot": 0.05468903225806452,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 1,
-         "n5": 5,
-         "k10": 2,
-         "n10": 7,
-         "p": 0.24306236559139788,
-         "p_hot": 0.2392645161290323,
-         "heater": false
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 7,
-       "pt_games": 2,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        3
-       ],
-       "away_split": [
-        1,
-        4
-       ],
-       "l5_venue": [
-        1,
-        4
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.2,
-       "toi": 7.6,
-       "p": 0.304,
-       "fair": "+229",
-       "min": "+249",
-       "p2": 0.024,
-       "fair2": "+4014",
-       "min2": "+4261",
-       "adj": [
-        [
-         "opp",
-         1.1393548387096775
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Glenn Gawdin",
-         "jersey": null,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        },
-        {
-         "name": "Max Sasson",
-         "jersey": null,
-         "pp": 2,
-         "n": 1,
-         "both": 0,
-         "either": 1
         }
        ]
       },
@@ -44099,18 +43993,18 @@
        },
        "partners": [
         {
-         "name": "Max Sasson",
-         "jersey": null,
-         "pp": 2,
-         "n": 1,
+         "name": "Noah Laba",
+         "jersey": 42,
+         "pp": null,
+         "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Taylor Raddysh",
-         "jersey": 14,
+         "name": "Matt Rempe",
+         "jersey": 73,
          "pp": null,
-         "n": 0,
+         "n": 2,
          "both": 0,
          "either": 0
         }
@@ -44205,12 +44099,12 @@
        },
        "partners": [
         {
-         "name": "Noah Laba",
-         "jersey": 42,
-         "pp": null,
-         "n": 14,
-         "both": 2,
-         "either": 5
+         "name": "Max Sasson",
+         "jersey": null,
+         "pp": 2,
+         "n": 1,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Jaroslav Chmelar",
@@ -44229,7 +44123,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 3,
+       "line": 4,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -44305,25 +44199,25 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": -1,
         "pp": 0,
         "new": false
        },
        "partners": [
         {
-         "name": "Eeli Tolvanen",
-         "jersey": 17,
-         "pp": 2,
-         "n": 14,
-         "both": 2,
-         "either": 5
+         "name": "Glenn Gawdin",
+         "jersey": null,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         },
         {
-         "name": "Jaroslav Chmelar",
-         "jersey": 49,
+         "name": "Matt Rempe",
+         "jersey": 73,
          "pp": null,
-         "n": 5,
-         "both": 1,
+         "n": 2,
+         "both": 0,
          "either": 1
         }
        ]
@@ -44425,12 +44319,12 @@
          "either": 2
         },
         {
-         "name": "Noah Laba",
-         "jersey": 42,
-         "pp": null,
-         "n": 5,
-         "both": 1,
-         "either": 1
+         "name": "Max Sasson",
+         "jersey": null,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -44441,7 +44335,7 @@
        "opp": "CHI",
        "section": "F",
        "home": false,
-       "line": 4,
+       "line": 3,
        "pp": 2,
        "sneaky": true,
        "form": {
@@ -44517,26 +44411,26 @@
         ]
        ],
        "move": {
-        "ev": 0,
+        "ev": 1,
         "pp": 1,
         "new": false
        },
        "partners": [
         {
-         "name": "Glenn Gawdin",
-         "jersey": null,
-         "pp": null,
+         "name": "Eeli Tolvanen",
+         "jersey": 17,
+         "pp": 2,
          "n": 1,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Taylor Raddysh",
-         "jersey": 14,
+         "name": "Jaroslav Chmelar",
+         "jersey": 49,
          "pp": null,
-         "n": 1,
+         "n": 0,
          "both": 0,
-         "either": 1
+         "either": 0
         }
        ]
       },
@@ -44741,6 +44635,112 @@
        ]
       },
       {
+       "name": "Matt Rempe",
+       "jersey": 73,
+       "team": "NYR",
+       "opp": "CHI",
+       "section": "F",
+       "home": false,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 7,
+         "p": 0.15191397849462365,
+         "p_hot": 0.11393548387096775,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 7,
+         "p": 0.07291870967741935,
+         "p_hot": 0.05468903225806452,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 7,
+         "p": 0.0911483870967742,
+         "p_hot": 0.06836129032258065,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 7,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        5
+       ],
+       "away_split": [
+        0,
+        2
+       ],
+       "l5_venue": [
+        0,
+        2
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 7.4,
+       "p": 0.152,
+       "fair": "+558",
+       "min": "+598",
+       "p2": 0.024,
+       "fair2": "+4014",
+       "min2": "+4261",
+       "adj": [
+        [
+         "opp",
+         1.1393548387096775
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Glenn Gawdin",
+         "jersey": null,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Noah Laba",
+         "jersey": 42,
+         "pp": null,
+         "n": 2,
+         "both": 0,
+         "either": 1
+        }
+       ]
+      },
+      {
        "name": "Braden Schneider",
        "jersey": 4,
        "team": "NYR",
@@ -44863,8 +44863,8 @@
      "ppga_rk": 19,
      "l5_gf": 4.2,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-27T21:35:28.854Z",
-     "lineup_checked": "2026-11-27T21:38:04.642259+00:00",
+     "lineup_as_of": "2026-11-27T22:09:38.034Z",
+     "lineup_checked": "2026-11-27T22:13:58.942560+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -44905,14 +44905,14 @@
        "Teuvo Teravainen"
       ],
       "3": [
-       "Cole Smith",
+       "Dillon Boucher",
        "Ryan Greene",
        "Andrew Mangiapane"
       ],
       "4": [
-       "Dominic Toninato",
+       "Cole Smith",
        "Luke Glendening",
-       "Jordan Greenway"
+       "Landon Slaggert"
       ]
      },
      "pp1": [
@@ -45671,7 +45671,7 @@
        "opp": "NYR",
        "section": "F",
        "home": true,
-       "line": 3,
+       "line": 4,
        "pp": null,
        "sneaky": true,
        "form": {
@@ -45747,115 +45747,9 @@
         ]
        ],
        "move": {
-        "ev": 1,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Ryan Greene",
-         "jersey": 20,
-         "pp": 2,
-         "n": 17,
-         "both": 1,
-         "either": 6
-        },
-        {
-         "name": "Andrew Mangiapane",
-         "jersey": 88,
-         "pp": null,
-         "n": 3,
-         "both": 0,
-         "either": 2
-        }
-       ]
-      },
-      {
-       "name": "Dominic Toninato",
-       "jersey": 25,
-       "team": "CHI",
-       "opp": "NYR",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 1,
-         "k5": 1,
-         "n5": 4,
-         "k10": 1,
-         "n10": 4,
-         "p": 0.22806451612903225,
-         "p_hot": 0.22806451612903225,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 1,
-         "n5": 4,
-         "k10": 1,
-         "n10": 4,
-         "p": 0.1490021505376344,
-         "p_hot": 0.16876774193548386,
-         "heater": false
-        },
-        "assists": {
-         "k": 0,
-         "k5": 0,
-         "n5": 4,
-         "k10": 0,
-         "n10": 4,
-         "p": 0.09122580645161289,
-         "p_hot": 0.06841935483870967,
-         "heater": false
-        }
-       },
-       "pos": "LW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 4,
-       "pt_games": 1,
-       "l5": [
-        1,
-        4
-       ],
-       "ast_games": 0,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        0,
-        2
-       ],
-       "away_split": [
-        1,
-        2
-       ],
-       "l5_venue": [
-        0,
-        2
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 9.2,
-       "p": 0.228,
-       "fair": "+338",
-       "min": "+365",
-       "p2": 0.024,
-       "fair2": "+4011",
-       "min2": "+4257",
-       "adj": [
-        [
-         "opp",
-         0.912258064516129
-        ]
-       ],
-       "move": {
         "ev": 0,
         "pp": 0,
-        "new": true
+        "new": false
        },
        "partners": [
         {
@@ -45867,12 +45761,12 @@
          "either": 0
         },
         {
-         "name": "Jordan Greenway",
-         "jersey": 12,
+         "name": "Landon Slaggert",
+         "jersey": 84,
          "pp": null,
-         "n": 1,
-         "both": 1,
-         "either": 1
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -45965,16 +45859,122 @@
        },
        "partners": [
         {
-         "name": "Dominic Toninato",
-         "jersey": 25,
+         "name": "Cole Smith",
+         "jersey": 22,
          "pp": null,
          "n": 0,
          "both": 0,
          "either": 0
         },
         {
-         "name": "Jordan Greenway",
-         "jersey": 12,
+         "name": "Landon Slaggert",
+         "jersey": 84,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        }
+       ]
+      },
+      {
+       "name": "Landon Slaggert",
+       "jersey": 84,
+       "team": "CHI",
+       "opp": "NYR",
+       "section": "F",
+       "home": true,
+       "line": 4,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.22806451612903225,
+         "p_hot": 0.22806451612903225,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.10947096774193547,
+         "p_hot": 0.10947096774193547,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.13683870967741935,
+         "p_hot": 0.13683870967741935,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.228,
+       "fair": "+338",
+       "min": "+365",
+       "p2": 0.036,
+       "fair2": "+2640",
+       "min2": "+2805",
+       "adj": [
+        [
+         "opp",
+         0.912258064516129
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Cole Smith",
+         "jersey": 22,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Luke Glendening",
+         "jersey": 41,
          "pp": null,
          "n": 0,
          "both": 0,
@@ -46071,12 +46071,12 @@
        },
        "partners": [
         {
-         "name": "Cole Smith",
-         "jersey": 22,
+         "name": "Dillon Boucher",
+         "jersey": 36,
          "pp": null,
-         "n": 3,
+         "n": 1,
          "both": 0,
-         "either": 2
+         "either": 0
         },
         {
          "name": "Ryan Greene",
@@ -46289,112 +46289,6 @@
        ]
       },
       {
-       "name": "Jordan Greenway",
-       "jersey": 12,
-       "team": "CHI",
-       "opp": "NYR",
-       "section": "F",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.16893667861409795,
-         "p_hot": 0.23798036465638148,
-         "heater": false
-        },
-        "goals": {
-         "k": 1,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.0662231780167264,
-         "p_hot": 0.03807685834502103,
-         "heater": false
-        },
-        "assists": {
-         "k": 2,
-         "k5": 2,
-         "n5": 5,
-         "k10": 2,
-         "n10": 10,
-         "p": 0.1081194743130227,
-         "p_hot": 0.20624964936886395,
-         "heater": true
-        }
-       },
-       "pos": "RW",
-       "gtd": false,
-       "role": "other",
-       "bias": null,
-       "gp": 19,
-       "pt_games": 3,
-       "l5": [
-        2,
-        5
-       ],
-       "ast_games": 2,
-       "goal_games": 1,
-       "two_games": 0,
-       "home_split": [
-        0,
-        9
-       ],
-       "away_split": [
-        3,
-        10
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 11.5,
-       "p": 0.169,
-       "fair": "+492",
-       "min": "+527",
-       "p2": 0.011,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         0.912258064516129
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": false
-       },
-       "partners": [
-        {
-         "name": "Dominic Toninato",
-         "jersey": 25,
-         "pp": null,
-         "n": 1,
-         "both": 1,
-         "either": 1
-        },
-        {
-         "name": "Luke Glendening",
-         "jersey": 41,
-         "pp": null,
-         "n": 0,
-         "both": 0,
-         "either": 0
-        }
-       ]
-      },
-      {
        "name": "Ryan Greene",
        "jersey": 20,
        "team": "CHI",
@@ -46483,12 +46377,12 @@
        },
        "partners": [
         {
-         "name": "Cole Smith",
-         "jersey": 22,
+         "name": "Dillon Boucher",
+         "jersey": 36,
          "pp": null,
-         "n": 17,
-         "both": 1,
-         "either": 6
+         "n": 3,
+         "both": 0,
+         "either": 0
         },
         {
          "name": "Andrew Mangiapane",
@@ -46595,6 +46489,112 @@
          "n": 5,
          "both": 0,
          "either": 5
+        }
+       ]
+      },
+      {
+       "name": "Dillon Boucher",
+       "jersey": 36,
+       "team": "CHI",
+       "opp": "NYR",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 5,
+         "p": 0.14034739454094294,
+         "p_hot": 0.10136200716845878,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 5,
+         "p": 0.06736674937965259,
+         "p_hot": 0.04865376344086021,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 5,
+         "k10": 0,
+         "n10": 5,
+         "p": 0.08420843672456575,
+         "p_hot": 0.06081720430107527,
+         "heater": false
+        }
+       },
+       "pos": "LW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 5,
+       "pt_games": 0,
+       "l5": [
+        0,
+        5
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        1
+       ],
+       "away_split": [
+        0,
+        4
+       ],
+       "l5_venue": [
+        0,
+        1
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 8.4,
+       "p": 0.14,
+       "fair": "+613",
+       "min": "+655",
+       "p2": 0.022,
+       "fair2": "+4353",
+       "min2": "+4620",
+       "adj": [
+        [
+         "opp",
+         0.912258064516129
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Ryan Greene",
+         "jersey": 20,
+         "pp": 2,
+         "n": 3,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Andrew Mangiapane",
+         "jersey": 88,
+         "pp": null,
+         "n": 1,
+         "both": 0,
+         "either": 0
         }
        ]
       },
