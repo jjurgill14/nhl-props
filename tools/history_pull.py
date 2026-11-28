@@ -31,23 +31,50 @@ PAGE = 100
 SORT = json.dumps([{"property": "gameId", "direction": "ASC"}, {"property": "playerId", "direction": "ASC"}])
 
 
-def _page(report: str, season: str, start: int) -> dict:
+def _page(report: str, season: str, lo: str, hi: str, start: int) -> dict:
     url = (f"{NHL_STATS}/skater/{report}?isAggregate=false&isGame=true&start={start}&limit={PAGE}"
-           f"&sort={SORT}&cayenneExp=gameTypeId=2 and seasonId={season}")
+           f"&sort={SORT}&cayenneExp=gameTypeId=2 and seasonId={season}"
+           f' and gameDate>="{lo}" and gameDate<="{hi} 23:59:59"')
     return get_json(url)
 
 
-def _report(report: str, season: str) -> list[dict]:
-    first = _page(report, season, 0)
+def _windows(season: str) -> list[tuple[str, str]]:
+    """10-day date windows across the season. The API refuses to page past row 10,000, and ten days of
+    games is about 2,700 skater rows, so every window stays far under the cap."""
+    from datetime import date, timedelta
+    d, end = date(int(season[:4]), 9, 20), date(int(season[4:]), 5, 10)
+    out = []
+    while d <= end:
+        out.append((d.isoformat(), (d + timedelta(days=9)).isoformat()))
+        d += timedelta(days=10)
+    return out
+
+
+def _window(report: str, season: str, lo: str, hi: str) -> list[dict]:
+    first = _page(report, season, lo, hi, 0)
     rows, total = list(first.get("data", [])), int(first.get("total") or 0)
+    for start in range(PAGE, total, PAGE):
+        rows.extend(_page(report, season, lo, hi, start).get("data", []))
+    if total >= 10000:
+        raise RuntimeError(f"{report} {lo}..{hi}: window hit the 10,000-row cap")
+    return rows
+
+
+def _report(report: str, season: str) -> list[dict]:
+    rows: list[dict] = []
+    with ThreadPoolExecutor(6) as ex:
+        for part in ex.map(lambda w: _window(report, season, *w), _windows(season)):
+            rows.extend(part)
     if not rows or "gameId" not in rows[0]:
         raise RuntimeError(f"{report}: no per-game rows (keys: {sorted(rows[0])[:12] if rows else 'none'})")
-    starts = list(range(PAGE, total, PAGE))
-    with ThreadPoolExecutor(6) as ex:
-        for part in ex.map(lambda s: _page(report, season, s).get("data", []), starts):
-            rows.extend(part)
-    log.info("%s %s: %d rows (API total %d)", report, season, len(rows), total)
-    return rows
+    seen, uniq = set(), []
+    for r in rows:  # windows don't overlap, but be safe
+        k = (r["gameId"], r["playerId"])
+        if k not in seen:
+            seen.add(k)
+            uniq.append(r)
+    log.info("%s %s: %d rows", report, season, len(uniq))
+    return uniq
 
 
 def bulk(season: str) -> list[dict]:
