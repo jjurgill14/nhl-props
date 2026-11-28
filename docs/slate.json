@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_utc": "2026-11-28T00:46:49.402310+00:00",
+ "generated_utc": "2026-11-28T00:51:57.108957+00:00",
  "games": [
   {
    "game_id": 2026020400,
@@ -52688,8 +52688,8 @@
      "ppga_rk": 6,
      "l5_gf": 4.6,
      "l5_ga": 2.8,
-     "lineup_as_of": "2026-11-27T16:33:02.857Z",
-     "lineup_checked": "2026-11-27T22:03:38.583767+00:00",
+     "lineup_as_of": "2026-11-28T00:48:43.994Z",
+     "lineup_checked": "2026-11-28T00:51:53.870684+00:00",
      "lineup_stale": false,
      "out": [
       {
@@ -52731,7 +52731,8 @@
       ],
       "3": [
        "Peyton Krebs",
-       "Josh Norris"
+       "Josh Norris",
+       "Conor Sheary"
       ],
       "4": [
        "Beck Malenstyn",
@@ -53269,6 +53270,14 @@
          "n": 2,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Conor Sheary",
+         "jersey": 43,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -53669,6 +53678,14 @@
          "n": 2,
          "both": 0,
          "either": 0
+        },
+        {
+         "name": "Conor Sheary",
+         "jersey": 43,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -53779,6 +53796,112 @@
          "n": 1,
          "both": 0,
          "either": 1
+        }
+       ]
+      },
+      {
+       "name": "Conor Sheary",
+       "jersey": 43,
+       "team": "BUF",
+       "opp": "PIT",
+       "section": "F",
+       "home": true,
+       "line": 3,
+       "pp": null,
+       "sneaky": true,
+       "form": {
+        "points": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.2770967741935484,
+         "p_hot": 0.2770967741935484,
+         "heater": false
+        },
+        "goals": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.13300645161290323,
+         "p_hot": 0.13300645161290323,
+         "heater": false
+        },
+        "assists": {
+         "k": 0,
+         "k5": 0,
+         "n5": 0,
+         "k10": 0,
+         "n10": 0,
+         "p": 0.16625806451612904,
+         "p_hot": 0.16625806451612904,
+         "heater": false
+        }
+       },
+       "pos": "RW",
+       "gtd": false,
+       "role": "other",
+       "bias": null,
+       "gp": 0,
+       "pt_games": 0,
+       "l5": [
+        0,
+        0
+       ],
+       "ast_games": 0,
+       "goal_games": 0,
+       "two_games": 0,
+       "home_split": [
+        0,
+        0
+       ],
+       "away_split": [
+        0,
+        0
+       ],
+       "l5_venue": [
+        0,
+        0
+       ],
+       "l5_venue_two": 0,
+       "pp_toi": 0.0,
+       "toi": 0.0,
+       "p": 0.277,
+       "fair": "+261",
+       "min": "+283",
+       "p2": 0.044,
+       "fair2": "+2156",
+       "min2": "+2291",
+       "adj": [
+        [
+         "opp",
+         1.1083870967741936
+        ]
+       ],
+       "move": {
+        "ev": 0,
+        "pp": 0,
+        "new": true
+       },
+       "partners": [
+        {
+         "name": "Peyton Krebs",
+         "jersey": 19,
+         "pp": null,
+         "n": 0,
+         "both": 0,
+         "either": 0
+        },
+        {
+         "name": "Josh Norris",
+         "jersey": 9,
+         "pp": 2,
+         "n": 0,
+         "both": 0,
+         "either": 0
         }
        ]
       },
@@ -54189,95 +54312,6 @@
          "either": 0
         }
        ]
-      },
-      {
-       "name": "Zach Metsa",
-       "jersey": 73,
-       "team": "BUF",
-       "opp": "PIT",
-       "section": "D",
-       "home": true,
-       "line": 4,
-       "pp": null,
-       "sneaky": true,
-       "form": {
-        "points": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.19868864994026283,
-         "p_hot": 0.1850524544179523,
-         "heater": false
-        },
-        "goals": {
-         "k": 0,
-         "k5": 0,
-         "n5": 5,
-         "k10": 0,
-         "n10": 10,
-         "p": 0.019704659498207884,
-         "p_hot": 0.023131556802244036,
-         "heater": false
-        },
-        "assists": {
-         "k": 3,
-         "k5": 1,
-         "n5": 5,
-         "k10": 1,
-         "n10": 10,
-         "p": 0.18226810035842292,
-         "p_hot": 0.16577615708274895,
-         "heater": false
-        }
-       },
-       "pos": "RD",
-       "gtd": false,
-       "role": "d",
-       "bias": null,
-       "gp": 19,
-       "pt_games": 3,
-       "l5": [
-        1,
-        5
-       ],
-       "ast_games": 3,
-       "goal_games": 0,
-       "two_games": 0,
-       "home_split": [
-        1,
-        10
-       ],
-       "away_split": [
-        2,
-        9
-       ],
-       "l5_venue": [
-        0,
-        5
-       ],
-       "l5_venue_two": 0,
-       "pp_toi": 0.0,
-       "toi": 13.2,
-       "p": 0.199,
-       "fair": "+403",
-       "min": "+433",
-       "p2": 0.01,
-       "fair2": "+4900",
-       "min2": "+4900",
-       "adj": [
-        [
-         "opp",
-         1.1083870967741936
-        ]
-       ],
-       "move": {
-        "ev": 0,
-        "pp": 0,
-        "new": true
-       },
-       "partners": []
       },
       {
        "name": "Beck Malenstyn",

@@ -55332,7 +55332,7 @@
    ]
   }
  },
- "generated_utc": "2026-11-28T00:46:50.581375+00:00",
+ "generated_utc": "2026-11-28T00:51:58.290930+00:00",
  "lenses": {
   "point": "Point",
   "assist": "Assist",
@@ -106441,8 +106441,8 @@
     "goalie_source": "Heather Engel",
     "sv": "0.885",
     "gaa": "3.19",
-    "lineup_as_of": "2026-11-27T16:33:02.857Z",
-    "lineup_checked": "2026-11-27T22:03:38.583767+00:00",
+    "lineup_as_of": "2026-11-28T00:48:43.994Z",
+    "lineup_checked": "2026-11-28T00:51:53.870684+00:00",
     "lineup_stale": false,
     "ga_rk": 11,
     "gf_rk": 18,
@@ -106472,6 +106472,16 @@
       "at": "2026-11-27T22:03:38.589366+00:00",
       "kind": "move",
       "text": "Jiri Kulich: PP2\u2192PP1"
+     },
+     {
+      "at": "2026-11-28T00:51:53.881530+00:00",
+      "kind": "in",
+      "text": "IN: Conor Sheary \u2192 L3"
+     },
+     {
+      "at": "2026-11-28T00:51:53.881530+00:00",
+      "kind": "out",
+      "text": "OUT: Zach Metsa (was L4)"
      }
     ],
     "rates": {
@@ -106516,7 +106526,7 @@
      "away": "-198",
      "home": "+164",
      "provider": "Daily Faceoff",
-     "as_of": "2026-11-27T16:33:02.857Z"
+     "as_of": "2026-11-28T00:48:43.994Z"
     },
     "total": {
      "line": 6.5,
@@ -108693,11 +108703,11 @@
     },
     "home": {
      "team": "BUF",
-     "as_of": "2026-11-27T16:33:02.857Z",
-     "checked": "2026-11-27T22:03:38.583767+00:00",
+     "as_of": "2026-11-28T00:48:43.994Z",
+     "checked": "2026-11-28T00:51:53.870684+00:00",
      "stale": false,
-     "source": "Projected",
-     "updated_dfo": "2026-11-27T16:33:02.857Z",
+     "source": "Matthew Fairburn",
+     "updated_dfo": "2026-11-28T00:48:43.994Z",
      "forwards": [
       [
        {
@@ -109006,6 +109016,44 @@
          "ev": 0,
          "pp": 0,
          "new": false
+        }
+       },
+       {
+        "name": "Conor Sheary",
+        "jersey": 43,
+        "pos": "RW",
+        "slot": null,
+        "player_id": null,
+        "dfo_id": 2568,
+        "gtd": false,
+        "injury": null,
+        "pp": null,
+        "pk": null,
+        "bias": null,
+        "season": {
+         "a": 0,
+         "g": 0,
+         "gp": 0,
+         "p": 0,
+         "ppp": 0,
+         "sog": 0,
+         "toi_s": 0
+        },
+        "last5": {
+         "a": 1,
+         "g": 0,
+         "gp": 5,
+         "p": 1,
+         "ppp": 0,
+         "sog": 4,
+         "toi_s": 3300
+        },
+        "l5_point_games": 0,
+        "gp": 0,
+        "move": {
+         "ev": 0,
+         "pp": 0,
+         "new": true
         }
        }
       ],
@@ -109332,7 +109380,7 @@
         "gtd": false,
         "injury": null,
         "pp": null,
-        "pk": null,
+        "pk": 2,
         "bias": null,
         "season": {
          "a": 1,
@@ -110107,41 +110155,41 @@
         }
        },
        {
-        "name": "Zach Metsa",
-        "jersey": 73,
+        "name": "Louis Crevier",
+        "jersey": 46,
         "pos": null,
         "slot": 4,
-        "player_id": 8484305,
-        "dfo_id": 28387,
+        "player_id": 8481806,
+        "dfo_id": 29897,
         "gtd": false,
         "injury": null,
         "pp": null,
         "pk": 2,
         "bias": null,
         "season": {
-         "a": 3,
-         "g": 0,
-         "gp": 19,
-         "p": 3,
-         "ppp": 0,
-         "sog": 11,
-         "toi_s": 14273
-        },
-        "last5": {
          "a": 1,
          "g": 0,
-         "gp": 5,
+         "gp": 19,
          "p": 1,
          "ppp": 0,
-         "sog": 2,
-         "toi_s": 3945
+         "sog": 17,
+         "toi_s": 14140
         },
-        "l5_point_games": 1,
+        "last5": {
+         "a": 0,
+         "g": 0,
+         "gp": 5,
+         "p": 0,
+         "ppp": 0,
+         "sog": 5,
+         "toi_s": 3043
+        },
+        "l5_point_games": 0,
         "gp": 19,
         "move": {
          "ev": 0,
          "pp": 0,
-         "new": true
+         "new": false
         }
        }
       ]
@@ -110195,12 +110243,12 @@
        "rating": 68.48613547072291
       },
       "f2": {
-       "rank": 12,
+       "rank": 13,
        "rating": 74.63197555734001
       },
       "f3": {
-       "rank": 35,
-       "rating": 0
+       "rank": 26,
+       "rating": 71.8432015527684
       },
       "f4": {
        "rank": 8,
